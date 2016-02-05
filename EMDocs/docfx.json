@@ -20,7 +20,6 @@
           "**/*.gif",
           "**/*.bmp",
           "**/*.html",
-          "**/*.css",
           "_themes/**"
           ],
         "exclude": [

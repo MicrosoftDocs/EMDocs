@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docs Intro</title>
-    <link rel="stylesheet" href="./_themes/css/hub.css">
-  </head><body data-feedly-mini="yes">
+    <link rel="stylesheet" href="./_themes/css/hub.css">    
+  </head>
 
+<body data-feedly-mini="yes">
     <header id="header">
       <div id="common-nav-placeholder" >
         <div class="container">
           <h3>Microsoft</h3>
-          <h5>Common Nav Placeholder</h5>
         </div>
       </div>
       
@@ -120,7 +120,7 @@
               </a>
             </li>
             <li class="column column-third">
-              <a href="">
+              <a href="https://docsmsftstage.azurewebsites.net/MIM/index.html">
                 <h4>Microsoft Identity Manager</h4>
                 <p>Synchronize identities between directories, databases and applications; and thwart identity theft with policies, privileged access and roles</p>
               </a>
@@ -135,7 +135,7 @@
           </header>
           <ol class="row">
             <li class="column column-third">
-              <a href="">
+              <a href="https://docsmsftstage.azurewebsites.net/Intune/index.html">
                 <h4>Intune</h4>
                 <p>Manage and protect corporate apps and data on devices using the MDM and MAM capabilities of Intune</p>
               </a>
@@ -150,13 +150,13 @@
           </header>
           <ol class="row">
             <li class="column column-third">
-              <a href="">
+              <a href="https://docsmsftstage.azurewebsites.net/Azure-RMS/index.html">
                 <h4>Azure Rights Management Server</h4>
                 <p>Protect your organization’s sensitive information from unauthorized access, and control how this information is used</p>
               </a>
             </li>
             <li class="column column-third">
-              <a href="">
+              <a href="https://docsmsftstage.azurewebsites.net/ATA/index.html">
                 <h4>Advanced Threat Analytics</h4>
                 <p>Protect your enterprise from advanced targeted attacks by automatically analyzing, learning, and identifying normal and abnormal behavior among entities (users, devices, and resources)</p>
               </a>
@@ -188,7 +188,7 @@
 
     <footer id="footer">
       <div class="container">
-        <a href="http://www.microsoft.com/" class="logo"><img src="./Image/logo-ms.png" alt="Microsoft"></a>
+        <a href="http://www.microsoft.com/" class="logo"><img src="./_themes/images/logo-ms.png" alt="Microsoft"></a>
         <ul class="links">
           <li><a href="">Contact Us</a></li>
           <li><a href="">Privacy Statement</a></li>
@@ -197,5 +197,16 @@
         </ul>
       </div>
     </footer>
-
+        
+   <script>
+        $(document).ready(function() {
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+        });
+    </script> 
   <div></div><div></div></body></html>
