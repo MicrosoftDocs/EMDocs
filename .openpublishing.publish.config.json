@@ -1,5 +1,6 @@
 {
-  "build_entry_point": "docs.ps1",
+  "build_entry_point": "docs.ps1
+    "package_version": "1.6-alpha-024-g63b1990",
     "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/EMDocs",
     "docsets_to_publish": [
         {
