@@ -3,8 +3,8 @@
   homepage: 
   items:
   - name: Enterprise Mobility
-    href: 
-    homepage: 
+    href: /EM/Topic/
+    homepage: /EM/index.html
     items:
     - name: Advanced Threat Analytics
       href: /ATA/Topic/
