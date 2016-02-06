@@ -13,8 +13,11 @@
       href: /InTune/Topic/
       homepage: /InTune/Topic/Microsoft-Intune-App-SDK.html
     - name: Right Management Service
-      href: /RMS/Topic/
-      homepage: /RMS/Topic/Azure-Rights-Management.html
+      href: /Azure-RMS/Topic/
+      homepage: /Azure-RMS/Topic/Azure-Rights-Management.html
+    - name: Microsoft Idnetity Manager
+      href: /MIM/Topic/
+      homepage: /MIM/Topic/Microsoft-Identity-Manager-2016.html
     - name: Reference
       href: 
       homepage:
