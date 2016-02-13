@@ -9,22 +9,23 @@
     - name: Advanced Threat Analytics
       href: /ATA/Topic/
       homepage: /ATA/index.html
-		- name: Understand & explore
-		  href: /ATA/Topic/
-		  homepage: /ATA/Topic/ATA-understand-and-explore.html
-		- name: Plan & design
-		  href: /ATA/Topic/
-		  homepage: /ATA/Topic/ATA-plan-and-design.html
-		- name: Deploy & use
-		  href: /ATA/Topic/
-		  homepage: /ATA/Topic/ATA-deploy-and-use.html
-		- name: Troubleshoot
-		  href: /ATA/Topic/
-		  homepage: /ATA/Topic/ATA-troubleshooting.html
-		- name: Release notes
-		  href: /ATA/Topic/
-		  homepage: /ATA/Topic/ATA-release-notes.html
-	- name: Intune
+      items:
+        - name: Understand & explore 
+          href: /ATA/Topic/
+          homepage: /ATA/Topic/ATA-understand-and-explore.html
+        - name: Plan & design 
+          href: /ATA/Topic/
+          homepage: /ATA/Topic/ATA-plan-and-design.html
+        - name: Deploy & use
+          href: /ATA/Topic/
+          homepage: /ATA/Topic/ATA-deploy-and-use.html
+        - name: Troubleshoot
+          href: /ATA/Topic/
+          homepage: /ATA/Topic/ATA-troubleshooting.html
+        - name: Release notes
+          href: /ATA/Topic/
+          homepage: /ATA/Topic/ATA-release-notes.html
+    - name: Intune
       href: /InTune/Topic/
       homepage: /InTune/Topic/Microsoft-Intune-App-SDK.html
     - name: Right Management Service
