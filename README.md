@@ -3,8 +3,6 @@ Private EM Documentation repo for OPS
 
 Please contact Liza Poggemeyer (elizapo@microsoft.com) or Matthew Baldwin (mbaldwin@microsoft.com) to contribute to this repo. 
 
-
-
 Quick intro Open Publishing   
 ======================================
 Start contributing to this repo using the following steps:
@@ -27,5 +25,5 @@ Example:
    git commit -m "update doc"
    git push
    ```
-6. Crete a pull request to master branch.
+6. Create a pull request to master branch.
 7. Your content will be automatically published once the pull request is accepted.
