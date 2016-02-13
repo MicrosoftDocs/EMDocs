@@ -10,10 +10,10 @@
       href: /ATA/Topic/
       homepage: /ATA/index.html
       items:
-       - name: Understand & explore
+        - name: Understand & explore 
           href: /ATA/Topic/
           homepage: /ATA/Topic/ATA-understand-and-explore.html
-        - name: Plan & design
+        - name: Plan & design 
           href: /ATA/Topic/
           homepage: /ATA/Topic/ATA-plan-and-design.html
         - name: Deploy & use
