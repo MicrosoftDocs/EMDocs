@@ -1,6 +1,14 @@
+#Metadata for Enterprise Mobility Suite technical articles
 
-
-#Metadata for Azure technical articles
+To Do: 
+- [ ] Confirm properties to be used
+- [ ] Adopt or adapt list of Dev-centric/developer languages
+- [ ] Update the list of article types (resource types) (RobMazz #1)
+- [ ] Update list of services and ms-service list of values (RobMazz #3)
+- [ ] Update and approve list of ms.tgt_pltfrm slugs (RobMazz #2) 
+- [ ] Update and approve list of ms.devlang programming language values
+- [ ] 
+- [ ]   
 
 All Azure technical articles contain two metadata sections - a properties section and a tags section. The properties section enables some website automation and SEO stuff, while the tags section enables a lot of internal content reporting. Both sections are required.
 
@@ -50,7 +58,7 @@ The tags section uses the following syntax:
 - This text may be displayed as the description or abstract paragraph in search results on Google.
 - This text is displayed in [the article index results](https://azure.microsoft.com/documentation/articles/).
 
-![](./media/article-metadata/checkmark-small.png)**services**: Required for articles that deal with a service. This value is ofter referred to as the "servce slug". List all the applicable services, separated by commas. The first service that you list will drive the navigational breadcrumbs for the page and the left navigation that is diplayed with the page.
+![](./media/article-metadata/checkmark-small.png)**services**: Required for articles that deal with a service. This value is often referred to as the "service slug". List all the applicable services, separated by commas. The first service that you list will drive the navigational breadcrumbs for the page and the left navigation that is displayed with the page.
 
 In articles that specify both a services value and a documentationCenter value, the services value will drive the breadcrumb. Additional values that you list will appear as tags in the published article. Values:
 

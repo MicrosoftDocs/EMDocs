@@ -4,13 +4,23 @@
 <tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/03/2015" ms.author="tysonn" />
 
 # Linking guidance for Azure technical content
-## Guidelines for technical articles on azure.microsoft.com
+To Do: 
+- [ ] Confirm EMS article repo layout for links
+- [ ] Find the URL to the EMS documentation and incorporate
+- [ ] Confirm whether we're allowing use of FWLinks at all
+- [ ] 
+- [ ]  
+- [ ] 
+- [ ] 
+- [ ]   
+
+## Guidelines for technical articles on ems.microsoft.com
 
 | Link scenario | Guidance for the target link  |
 |---------------|-----------|
-|Linking from an ACOM technical article to another ACOM technical article|Use relative links.|
-|Linking to an ACOM page outside the documentation directory, to an MSDN library topic, a TechNet library topic, or to a KB article|​Use the actual link to the article or topic. Remove the en-us language locale from the link.|
-|Linking from an ACOM article to any other web page|Use the direct link|
+|Linking from an EMS technical article to another EMS technical article|Use relative links.|
+|Linking to an EMS page outside the documentation directory, to an MSDN library topic, a TechNet library topic, or to a KB article|​Use the actual link to the article or topic. Remove the en-us language locale from the link.|
+|Linking from an EMS article to any other web page|Use the direct link|
 
 ### Use friendly link text
 
@@ -28,11 +38,11 @@ The words you include in a link should be friendly - in other words, they should
 
 - `For more information, click [here](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).`
 
-### Markdown syntax for ACOM relative links
+### Markdown syntax for EMS relative links
 
-To create an inline link from an ACOM technical article to another ACOM technical article, use this link format.   If you create any new links to or from articles in the directories, you’ll need to follow the new linking syntax.
+To create an inline link from an EMS technical article to another EMS technical article, use this link format. If you create any new links to or from articles in the directories, you’ll need to follow the new linking syntax.
 
-Old link syntax to link from one ACOM tech doc to another:
+Old link syntax to link from one EMS tech doc to another:
 
     [link text](filename.md)
 
@@ -81,19 +91,17 @@ Learn more about how to use an includes file in the [Custom markdown extensions 
 
 If you have selectors embedded in an include, you would use this sort of linking: 
 
-    > [AZURE.SELECTOR-LIST (Dropdown1 | Dropdown2 )]
+    > [EMS.SELECTOR-LIST (Dropdown1 | Dropdown2 )]
     - [(Text1 | Example1 )](../articles/service-folder/article-name1.md)
     - [(Text1 | Example2 )](../articles/service-folder/article-name2.md)
     - [(Text2 | Example3 )](../articles/service-folder/article-name3.md)
     - [(Text2 | Example4 )](../articles/service-folder/article-name4.md)
 
-To link to a page on ACOM (such as a pricing page, SLA page or anything else that is not a documentation article), use an absolute URL, but omit the locale. The goal here is that links work in GitHub and on the rendered site:
+To link to a page on EMS (such as a pricing page, a Service Level Agreement page, or anything else that is not a documentation article), use an absolute URL, but omit the locale. The goal here is that links work in GitHub and on the rendered site:
 
     [link text](http://azure.microsoft.com/pricing/details/virtual-machines/)
 
 To test your links, push your page to your fork and view it in the rendered view and publish to Sandbox. The cross links on the GitHub version of the page should work as long as the targets of the URLs are present in your fork.
-
-Our [markdown template for technical articles](../markdown templates/markdown-template-for-new-articles.md/) shows an alternate way to create crosslinks in markdown so all the crosslinks are coded together at the end of the article, even while they display inline.
 
 ## Reference-style links
 
@@ -110,24 +118,17 @@ Link references at the end of the article:
     [2]: http://search.yahoo.com/  
     [3]: http://search.msn.com/
 
-## Remember the Azure library chrome!
-If you want to link to an Azure library topic that lives under [this node](https://msdn.microsoft.com/library/azure), remember to specify the Azure chrome in the link (/azure/). The Azure chrome shares the ACOM navigation options and displays only the Azure content of the MSDN library. A properly scoped link looks like this:
-
-    http://msdn.microsoft.com/library/azure/dd163896.aspx
-
-Otherwise, the page will be rendered in the standard MSDN view, with the entire MSDN tree displayed.
-
 ## FWLinks
 
-Avoid FWLinks (our redirection system) in azure.microsoft.com content. They should be used only as a last resort when you need to create a link for a page whose URL you don't yet know. They are almost never actually needed. For ACOM, you define the file name, so you can know what it will be ahead of time. For a library topic that is not yet published, you can create a link that uses the topic GUID so that you don't have to use an FWLink.
+Avoid FWLinks (our redirection system) in https://www.microsoft.com/en-us/server-cloud/enterprise-mobility content. They should be used only as a last resort when you need to create a link for a page whose URL you don't yet know. They are almost never actually needed. For EMS, you define the file name, so you can know what it will be ahead of time. For a library topic that is not yet published, you can create a link that uses the topic GUID so that you don't have to use an FWLink.
 
 If you must use an FWLink on a web page, include the P parameter to make it a permanent redirect:
 
     http://go.microsoft.com/fwlink/p/?LinkId=389595
 
-When you paste the target URL into the FWLink tool, remember to remove the locale if your target link is ACOM, or the MSDN or TechNet library.
+When you paste the target URL into the FWLink tool, remember to remove the locale if your target link is EMS, or the MSDN or TechNet library.
 
-### Contributors' Guide Links
+## Additional Reading
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)
