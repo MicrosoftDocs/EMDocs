@@ -1,23 +1,28 @@
 <properties 
-pageTitle="Install and set up tools for authoring in GitHub" 
-description="Tools and steps to get set up for authoring Azure content in GitHub." 
-services="contributor-guide" 
-documentationCenter="" 
-authors="tysonn"  
-manager="carolz" />
+	pageTitle="Install and set up tools for authoring in GitHub" 
+	description="Tools and steps to get set up for authoring EMS content in GitHub." 
+	services="contributor-guide" 
+	documentationCenter="" 
+	authors="v-jocgar"  
+	manager="robmazz" />
 
 <tags 
-ms.service="contributor-guide"
- ms.devlang="" 
- ms.topic="article"
-  ms.tgt_pltfrm="" 
-  ms.workload="" 
-  ms.date="01/19/2015" 
-  ms.author="tysonn" />
+	ms.service="contributor-guide"
+	ms.devlang="" 
+	ms.topic="article"
+	ms.tgt_pltfrm="" 
+	ms.workload="" 
+	ms.date="02/19/2016" 
+	ms.author="tysonn" />
 
-#Install and set up tools for authoring in GitHub
+# Install and set up tools for authoring in GitHub
+To Do:
+- [ ] Are we using Disqus? 
+- [ ] Update instructions for Microsoft employees contributing to EMS vs Azure
+- [ ] 
+- [ ]   
 
-Follow the steps in this article to set up tools for contributing to the Azure technical documentation. Casual and occasional contributors probably can use the GitHub UI described in step 2.
+Follow the steps in this article to set up tools for contributing to the EMS technical documentation. Casual and occasional contributors probably can use the GitHub UI described in step 2.
 
 If you're unfamiliar with Git, you might want to review some Git terminology: [https://help.github.com/articles/github-glossary](https://help.github.com/articles/github-glossary). In addition, this StackOverflow thread contains a glossary of Git terms you'll encounter in this set of steps: [http://stackoverflow.com/questions/7076164/terminology-used-by-git](http://stackoverflow.com/questions/7076164/terminology-used-by-git)
 
@@ -37,7 +42,7 @@ If you're unfamiliar with Git, you might want to review some Git terminology: [h
 
 ## Create a GitHub account and set up your profile
 
-To contribute to the Azure technical content, you'll need a [GitHub](http://www.github.com) account.
+To contribute to the EMS technical content, you'll need a [GitHub](http://www.github.com) account.
 
 If you are a Microsoft contributor, you need to set up your GitHub account so you're clearly identified as a Microsoft employee. Set up your profile as follows:
 
@@ -49,12 +54,12 @@ If you are a Microsoft contributor, you need to set up your GitHub account so yo
 
 Your profile should resemble this profile:
 
-<p align="center">
  ![GitHub profile example](./media/tools-and-setup/githubprofile.png)
 
+<!--
 ## Sign up for Disqus
 
-Every published Azure technical article has a comment stream provided by the Disqus service.
+Every published EMS technical article has a comment stream provided by the Disqus service.
 
  ![Discus logo](./media/tools-and-setup/discus.png)
 
@@ -66,12 +71,12 @@ If you are a Microsoft employee, and if you are the author of or a contributor t
  - **Full Name**: your full name as displayed in your Microsoft address book listing, plus the bracketed info, which is your alias plus @MSFT. Format: *First Last [alias@MSFT]*
  - **Location**: Your location
  - **Short Bio**: Your title
-
+-->
 ## Determine whether you really need to follow the rest of these steps
 
 You might not need to follow all the steps in this article. It depends on the sort of content contribution you want or need to make.
 
-###Submit a text-only change to an existing article
+### Submit a text-only change to an existing article
 
 If you only need or want to make textual updates to an existing article, you probably don't need to follow the rest of the steps. You can use GitHub's web-based markdown editor to submit your changes. Just click the GitHub link in the article you want to modify:
 
@@ -83,7 +88,7 @@ If you only need or want to make textual updates to an existing article, you pro
 
  That opens the easy-to-use web editor that makes it easy to submit changes. You don't need to follow the other steps in this article.
 
-###All other changes
+### All other changes
 You need to install the tools if you want to make any of the following sorts of changes:
 
  - Major changes to an article
@@ -93,11 +98,12 @@ You need to install the tools if you want to make any of the following sorts of 
 
  Go to the next section!
 
-##Permissions in GitHub
+## Permissions in GitHub
 
-Anybody with a GitHub account can contribute to Azure technical content through our public repository at [https://github.com/Azure/azure-content](https://github.com/Azure/azure-content). No special permissions are required.
+Anybody with a GitHub account can contribute to EMS technical content through our public repository at [http://www.github.com/microsoft/emdocs](http://www.github.com/microsoft/emdocs). No special permissions are required.
 
-If you are a Microsoft employee working on Azure content, you should work in our private content repository, azure-content-pr. Visit [http://aka.ms/azuregithub](http://aka.ms/azuregithub) to obtain the read permissions that will let you make contributions through the private repo - sign in to GitHub using the button > click Azure > click **Join a team** or **Join another team**, and then search for and join the **azure-content-read** group.
+<!-- Need updated instructions here -->
+If you are a Microsoft employee working on EMS content, you should work in our private content repository, ems-content-pr. Visit [Need Replacement Link](http://aka.ms/azuregithub) to obtain the read permissions that will let you make contributions through the private repo - sign in to GitHub using the button > click Azure > click **Join a team** or **Join another team**, and then search for and join the **azure-content-read** group.
 
 ## Install Git for Windows
 
@@ -105,7 +111,7 @@ Install Git for Windows from [http://git-scm.com/download/win](http://git-scm.co
 
 You can accept the default settings; if you want the commands to be available within the Windows command line, select the option that enables it.
 
-<p align="center">
+<!-- Use Git from Git Bash only, I think -->
  ![GitHub profile example](./media/tools-and-setup/gitbashinstall.png)
 
 (Note: This is not the same as "Github for Windows". "Github for Windows" is a different GUI-based tool that will also work if you want to read up on yourself. [https://windows.github.com/](https://windows.github.com/)) 
@@ -215,20 +221,17 @@ To ensure you are listed correctly as a contributor, you need to configure your 
     ````
 4. Type `git config -l` and review your local settings to ensure the user name and email in the configuration are correct.
 
-##Next steps
+## Next steps
 
 - [Create a local working branch](./git-commands-for-master.md) on your computer so you can start work.
 - Copy [the markdown template](../markdown templates/markdown-template-for-new-articles.md) as the basis for a new article.
 
 
 
-
-
-###Contributors' Guide Links
+## Back to Home
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)
-
 
 
 <!--Anchors-->

@@ -5,8 +5,8 @@
     services=""
     solutions=""
     documentationCenter=""
-    authors="tysonn"
-    manager="carolz"
+    authors="v-jocgar"
+    manager="robmazz"
     editor=""/>
 
 <tags
@@ -15,18 +15,23 @@
     ms.topic="article"
     ms.tgt_pltfrm=""
     ms.workload=""
-    ms.date="01/22/2015"
-    ms.author="tysonn"/>
+    ms.date="02/19/2016"
+    ms.author="v-jocgar"/>
 
-## Markdown for Azure.microsoft.com
+## Markdown for Microsoft.com/ems
+To Do:
+- [ ] Confirm that we're using Markdown extensions for Note, Important, etc. 
+- [ ] Confirm that we'll use include files.
+- [ ] Confirm that Selectors are available to EMS articles
+- [ ]   
 
 For general markdown tips, see [Markdown Basics](https://help.github.com/articles/markdown-basics/) and our [markdown cheatsheet](./media/documents/markdown-cheatsheet.pdf?raw=true). If you need to create article crosslinks in markdown, see the [linking guidance] (./create-links-markdown.md#markdown-syntax-for-acom-relative-links.md/).
 
-Azure.microsoft.com supports [fenced code blocks](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) and [syntax highlighting](https://help.github.com/articles/github-flavored-markdown/#syntax-highlighting). However, ACOM supports only one syntax highlighting color scheme, regardless of the language you specify in a code block.
+Microsoft.com/ems supports [fenced code blocks](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) and [syntax highlighting](https://help.github.com/articles/github-flavored-markdown/#syntax-highlighting). However, EMS supports only one syntax highlighting color scheme, regardless of the language you specify in a code block.
 
 ## Custom markdown extensions used in our technical articles
 
-Our articles use GitHub flavored markdown for most article formatting - paragraphs, links, lists, headings, etc. But we use custom markdown extensions where we need richer formatting in the rendered pages on azure.microsoft.com. Here's the extensions we are currently using:
+Our articles use GitHub flavored markdown for most article formatting - paragraphs, links, lists, headings, etc. But we use custom markdown extensions where we need richer formatting in the rendered pages on Microsoft.com/ems. Here's the extensions we are currently using:
 
 + [Notes and tips]
 + [Includes]
@@ -171,7 +176,7 @@ See [Get started with Notification Hubs](http://azure.microsoft.com/documentatio
 
 ![Simple selector example](./media/custom-markdown-extensions/selectors.PNG)
 
-####Syntax
+#### Syntax
 
     > [AZURE.SELECTOR]
     - [Link #1 Label](link #1 url)
@@ -193,7 +198,7 @@ Example:
 
 The image above shows the rendering on azure.microsoft.com. On the rendered GitHub pages, the selectors render as a bulleted list of links.
 
-###<a id="two-way-selectors"></a>Two-way selectors
+### <a id="two-way-selectors"></a>Two-way selectors
 
 Two-way selectors lets users select a topics from a two way matrix. This is essential when an Azure technology, such as Mobile Services, supports multiple backend platforms as well as multiple clients. Keep in mind the following:
 
@@ -205,7 +210,7 @@ See [Get started with Mobile Services](http://azure.microsoft.com/en-us/document
 
 ![Two-way selectors example](./media/custom-markdown-extensions/selector-list.png)
 
-####Syntax
+#### Syntax
 
 	> [AZURE.SELECTOR-LIST (Dropdown1 | Dropdown2 )]
 	- [(Dropdown1Text1 | Dropdown2Text1 )](../articles/dropdown1-text1-dropdown2-text1.md)
@@ -237,7 +242,7 @@ The image above shows the rendering on azure.microsoft.com. On the rendered GitH
 [Embedded videos]: #embedded-videos
 [Technology and platform selectors]: #technology-and-platform-selectors
 
-###Contributors' Guide Links
+## Back to Home
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)

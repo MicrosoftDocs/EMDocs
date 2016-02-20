@@ -1,3 +1,26 @@
+<properties 
+	title="Metadata for Enterprise Mobility Suite technical articles" 
+	pageTitle="Metadata for Enterprise Mobility Suite technical articles" 
+	description="Explains the metadata required for articles." 
+	metaKeywords="" 
+	services="" 
+	solutions="" 
+	documentationCenter="" 
+	authors="v-jocgar" 
+	videoId="" 
+	scriptId="" 
+	manager="required" />
+
+<tags 
+	ms.service="contributor-guide" 
+	ms.devlang="" 
+	ms.topic="article" 
+	ms.tgt_pltfrm="" 
+	ms.workload="" 
+	ms.date="02/19/2016" 
+	ms.author="v-jocgar" />
+
+
 #Metadata for Enterprise Mobility Suite technical articles
 
 To Do: 

@@ -1,7 +1,23 @@
 <properties
-   pageTitle="Create links in markdown articles" description="Explains how to code crosslinks in markdown." metaKeywords="" services="" solutions="" documentationCenter="" authors="tysonn" videoId="" scriptId="" manager="carolz" />
+	pageTitle="Create links in markdown articles" 
+	description="Explains how to code crosslinks in markdown." 
+	metaKeywords="" 
+	services="" 
+	solutions="" 
+	documentationCenter="" 
+	authors="v-jocgar" 
+	videoId="" 
+	scriptId="" 
+	manager="robmazz" />
 
-<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/03/2015" ms.author="tysonn" />
+<tags 
+	ms.service="contributor-guide" 
+	ms.devlang="" 
+	ms.topic="article" 
+	ms.tgt_pltfrm="" 
+	ms.workload="" 
+	ms.date="02/03/2015" 
+	ms.author="tysonn" />
 
 # Linking guidance for Azure technical content
 To Do: 
@@ -9,12 +25,9 @@ To Do:
 - [ ] Find the URL to the EMS documentation and incorporate
 - [ ] Confirm whether we're allowing use of FWLinks at all
 - [ ] 
-- [ ]  
-- [ ] 
-- [ ] 
-- [ ]   
 
-## Guidelines for technical articles on ems.microsoft.com
+
+## Guidelines for linking technical articles on ems.microsoft.com
 
 | Link scenario | Guidance for the target link  |
 |---------------|-----------|

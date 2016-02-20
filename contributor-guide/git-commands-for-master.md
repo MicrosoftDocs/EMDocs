@@ -1,20 +1,45 @@
-<properties pageTitle="Git commands for creating a new article or updating an existing article" description="Steps for working with the Azure technical content GitHub repositories." metaKeywords="" services="" solutions="" documentationCenter="" authors="tysonn" videoId="" scriptId="" manager="carolz" />
+<properties
+	title="" 
+	pageTitle="Git commands for creating a new article or updating an existing article" 
+	description="Steps for working with the Azure technical content GitHub repositories." 
+	metaKeywords="" 
+	services="" 
+	solutions="" 
+	documentationCenter="" 
+	authors="v-jocgar" 
+	videoId="" 
+	scriptId="" 
+	manager="robmazz" />
 
-<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="01/16/2015" ms.author="tysonn" />
+<tags 
+	ms.service="contributor-guide" 
+	ms.devlang="" 
+	ms.topic="article" 
+	ms.tgt_pltfrm="" 
+	ms.workload="" 
+	ms.date="02/19/2016" 
+	ms.author="v-jocgar" />
 
 # Git commands for creating a new article or updating an existing article
+To do:
+- [ ] Find correct command to replace "git pull upstream master" (Steps 4 and 9, and in "Working with release branches")
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
 
 
 ## Standard process (working from master)
-Follow the steps in this article to create a local working branch on your computer so that you can create a new article for the technical documentation section of azure.microsoft.com or update an existing article.
+Follow the steps in this article to create a local working branch on your computer so that you can create a new article for the technical documentation section of Microsoft.com/ems or update an existing article.
 
 1. Start Git Bash (or the command-line tool you use for Git).
 
- **Note:** If you are working in the public repository, change azure-content-pr to azure-content in all the commands.
+ **Note:** If you are working in the public repository, change emdocs-pr to emdocs in all the commands.
 
-2. Change to azure-content-pr:
+2. Change to emdocs-pr:
 
-        cd azure-content-pr
+        cd emdocs-pr
+		
 3. Check out the master branch:
 
         git checkout master
@@ -23,16 +48,15 @@ Follow the steps in this article to create a local working branch on your comput
 
         git pull upstream master:<working branch>
 
-
 5. Move into the new working branch:
 
         git checkout <working branch>
 
-6. Let your fork know you created the local working branch:
+6. Let your origin know you created the local working branch:
 
         git push origin <working branch>
 
-7. Create your new article or make changes to an existing article. Use Windows Explorer to open and create new markdown files, and use Atom (http://atom.io) as your markdown editor. After you created or modified your article and images, go to the next step.
+7. Create your new article or make changes to an existing article. Use Windows Explorer to open and create new markdown files, and use Atom (http://atom.io) as your Markdown editor. After you created or modified your article and images, go to the next step.
 
 8. Add and commit the changes you made:
 
@@ -60,7 +84,7 @@ Follow the steps in this article to create a local working branch on your comput
 
 15. Optionally verify your published article or changes at
 
- http://azure.microsoft.com/documentation/articles/*name-of-your-article-without-the-MD-extension*
+ http://www.microsoft.com/ems/articles/*name-of-your-article-without-the-MD-extension*
 
 **Notes:**
 

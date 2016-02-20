@@ -1,6 +1,23 @@
-<properties title="" pageTitle="Azure technical content channel guidance" description="Describes the Microsoft content channels that employees, partners, and community contributors should use for publishing Azure technical content." metaKeywords="" services="" solutions="" documentationCenter="" authors="tysonn" videoId="" scriptId="" manager="carolz" />
+<properties title="" 
+	pageTitle="EMS technical content channel guidance" 
+	description="Describes the Microsoft content channels that employees, partners, and community contributors should use for publishing technical content for the Enterprise Mobility Suite." 
+	metaKeywords="" 
+	services="" 
+	solutions="" 
+	documentationCenter="" 
+	authors="v-jocgar" 
+	videoId="" 
+	scriptId="" 
+	manager="robmazz" />
 
-<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="01/06/2015" ms.author="tysonn" />
+<tags 
+	ms.service="contributor-guide" 
+	ms.devlang="" 
+	ms.topic="article" 
+	ms.tgt_pltfrm="" 
+	ms.workload="" 
+	ms.date="02/19/2016" 
+	ms.author="v-jocgar" />
 
 #Enterprise Mobility Suite technical content channel guidance
 To Do:

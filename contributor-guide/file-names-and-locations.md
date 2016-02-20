@@ -1,13 +1,28 @@
-<properties title="" pageTitle="File names and locations for Azure technical articles" description="Explains the file structure for articles and the naming conventions you should follow when you create a new article." metaKeywords="" services="" solutions="" documentationCenter="" authors="tysonn" videoId="" scriptId="" manager="required" />
+<properties title="" 
+	pageTitle="File names and locations for EMS technical articles" 
+	description="Explains the file structure for articles and the naming conventions you should follow when you create a new article." 
+	metaKeywords="" 
+	services="" 
+	solutions="" 
+	documentationCenter="" 
+	authors="tysonn" videoId="" 
+	scriptId="" 
+	manager="required" />
 
-<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="12/16/2014" ms.author="tysonn" />
+<tags 
+	ms.service="contributor-guide" 
+	ms.devlang="" 
+	ms.topic="article" 
+	ms.tgt_pltfrm="" 
+	ms.workload="" 
+	ms.date="02/19/2016" 
+	ms.author="v-jocgar" />
 
-#File names and locations for Azure technical articles
+#File names and locations for EMS technical articles
 To Do: 
 - [ ] Pull in the services slugs for examples
 - [ ] Identify file structure, will there be sub-folders other than media? 
 - [ ] Remove paragraphs on Azure portal and Marketplace, or substitute EMS equivalent 
-
 
 In our technical content repository, we use a single folder (the **articles** folder) for all articles. There's no folder hierarchy - all articles live in the flat file structure. If you create folders with articles in them, your articles can't be published.
 
@@ -35,7 +50,7 @@ Here's the general naming pattern:
 
  **service-platform-language-content-product-version.md**
 
-Use the parts of the pattern that apply, and review the list of articles in the repository to get an idea of existing names. Names that don't start with a development platform or a service name are probably suspect, and slipped through.
+Use the parts of the pattern that apply, and review the list of articles in the repository to get an idea of existing names. <!--Names that don't start with a development platform or a service name are probably suspect, and slipped through. -->
 
 ##Examples
 
@@ -74,7 +89,7 @@ To distinguish content that focuses on partner contributions to the Azure market
 
 It's the job of our group of pull request reviewers to review file names when a new file is submitted to the repository for the first time. Pull request reviewers should review the file name and provide feedback via the pull request comment stream if changes are needed. The file name needs to be corrected before the pull request is accepted. Contributors can easily push the update to the pending pull request.
 
-##Additional Reading
+##Back to Home
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)
