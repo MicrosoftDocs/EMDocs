@@ -28,9 +28,8 @@ Specifically, the goals of this guide are to help you answer the following quest
 
 **How can this guide help you?** You can use this guide to understand how to design a mobile device management solution that is able to manage company-owned devices as well as user-owned devices in different form factors.
 
-
-Figure 1 - Example of a hybrid Intune and System Center Configuration Manager MDM solution
-
+![Example of a hybrid Intune and System Center Configuration Manager MDM solution](./Image/MDM_Figure_01.png)
+**Figure 1 - Example of a hybrid Intune and System Center Configuration Manager MDM solution**
 
 Figure 1 is an example of a hybrid solution, where it’s leveraging cloud services to integrate with on-premises capabilities in order to manage all types of devices, regardless of their location. Although this is a very common scenario, every organization’s MDM design might be different than the example due to each organization’s unique management requirements. 
 This guide details a series of steps and tasks that you should follow to assist you in designing a customized MDM solution that meets your organization’s unique requirements. Throughout the following steps and tasks, this guide covers the relevant technologies and feature options available to you to meet the functional and service quality level requirements for MDM. 
