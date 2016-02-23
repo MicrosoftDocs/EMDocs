@@ -28,7 +28,7 @@ To Do:
 
 - [Contribute to Enterprise Mobility Suite documentation](./../README.md)
 - [Content channel guidance](./content-channel-guidance.md)
-- [File names and locations for Azure technical articles](./file-names-and-locations.md)
+- [File names and locations for EMS technical articles](./file-names-and-locations.md)
 - [Style and voice](./style-and-voice.md)
 - [Metadata for Azure technical articles](./article-metadata.md)
 

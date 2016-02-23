@@ -20,12 +20,13 @@
 
 ## Markdown for Microsoft.com/ems
 To Do:
-- [ ] Confirm that we're using Markdown extensions for Note, Important, etc. 
-- [ ] Confirm that we'll use include files.
+- [x] Confirm that we're using Markdown extensions for Note, Important, etc. 
+- [x] Confirm that we'll use include files. **<-- Tokens **
 - [ ] Confirm that Selectors are available to EMS articles
-- [ ]   
+- [ ] Will contributors be able to submit videos? 
+- [ ] 
 
-For general markdown tips, see [Markdown Basics](https://help.github.com/articles/markdown-basics/) and our [markdown cheatsheet](./media/documents/markdown-cheatsheet.pdf?raw=true). If you need to create article crosslinks in markdown, see the [linking guidance] (./create-links-markdown.md#markdown-syntax-for-acom-relative-links.md/).
+For general markdown tips, see [Markdown Basics](https://help.github.com/articles/markdown-basics/) and our [markdown cheatsheet](./media/ems-markdown-cheat-sheet.pdf?raw=true). If you need to create article crosslinks in markdown, see the [linking guidance] (./create-links-markdown.md#markdown-syntax-for-acom-relative-links.md/).
 
 Microsoft.com/ems supports [fenced code blocks](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) and [syntax highlighting](https://help.github.com/articles/github-flavored-markdown/#syntax-highlighting). However, EMS supports only one syntax highlighting color scheme, regardless of the language you specify in a code block.
 
@@ -52,19 +53,19 @@ In general, use notes and tips sparingly throughout your articles. When you do u
 
 - Use AZURE.NOTE to highlight neutral or positive information that emphasizes or supplements key points of the main text. A note supplies information that applies only in special cases.
 
-  ![](./media/custom-markdown-extensions/Notes-note.PNG)
+  ![](./media/Notes-note.png)
 
 - Use AZURE.WARNING to alert the user to a condition that might cause a problem in the future. For example, selecting a certain option or making a certain choice might permanently lock you into a particular scenario.
 
-  ![](./media/custom-markdown-extensions/Notes-warning.PNG)
+  ![](./media/Notes-warning.png)
 
 - Use AZURE.TIP to help your users apply the techniques and procedures described in the text to their specific needs. A tip might also suggest alternative methods that may not be obvious. Tips, however, are not essential to the basic understanding of the text.
 
-  ![](./media/custom-markdown-extensions/Notes-tip.PNG)
+  ![](./media/Notes-tip.png)
 
 - Use AZURE.IMPORTANT to provide information that is essential to the completion of a task.
 
-  ![](./media/custom-markdown-extensions/Notes-important.PNG)
+  ![](./media/Notes-important.png)
 
 While these notes and tips support code blocks, images, lists, and links, try to keep your notes and tips simple and straightforward. If you find yourself creating complex notes with lots of formatting, that might be a sign you just need another section in the main text of the article. And, too many notes in an article can be distracting and hard to scan or read.
 
@@ -138,12 +139,12 @@ In the rendered GitHub page, the include will render as follows:
 
 In the rendered HTML on azure.microsoft.com, the HTML from the includes is merged into the rest of the document's HTML. However, the HTML will contain an HTML comment with the original include markdown filename and the GitHub commit hash. This comment is included for troubleshooting purposes so that the source content can easily be identified and found in GitHub:
 
-  ![](./media/custom-markdown-extensions/include.png)
+  ![](./media/include.png)
 
 
 ## Embedded videos
 
-Our technical articles support embeddeded videos in technical articles as long as the videos are on Microsoft's [Channel 9](http://channel9.msdn.com/) site. The videos from Channel 9 must be integrated with [the azure.microsoft.com Video Center](http://azure.microsoft.com/documentation/videos/home/). We currently do not support embedded YouTube videos; if you're a community contributor, you are welcome to link to YouTube if the video you want to feature is posted there. Microsoft contributors should use Channel 9 and the Video Center.
+Our technical articles support embeddeded videos in technical articles as long as the videos are on Microsoft's [Channel 9](http://channel9.msdn.com/) site. The videos from Channel 9 must be integrated with [the docs.microsoft.com Video Center](http://azure.microsoft.com/documentation/videos/home/). We currently do not support embedded YouTube videos; if you're a community contributor, you are welcome to link to YouTube if the video you want to feature is posted there. Microsoft contributors should use Channel 9 and the Video Center.
 
 ### Usage
 
@@ -174,7 +175,7 @@ Simple (one-way) selectors render as a set of option buttons right below the tit
 
 See [Get started with Notification Hubs](http://azure.microsoft.com/documentation/articles/notification-hubs-windows-phone-get-started/) to see how the author created 8 versions of the same article, but used selectors to enable navigation across them all.
 
-![Simple selector example](./media/custom-markdown-extensions/selectors.PNG)
+![Simple selector example](./media/selectors.png)
 
 #### Syntax
 
@@ -208,7 +209,7 @@ Two-way selectors lets users select a topics from a two way matrix. This is esse
 
 See [Get started with Mobile Services](http://azure.microsoft.com/en-us/documentation/articles/mobile-services-ios-get-started/) to see how the author created 15 versions of the same article (9 mobile client platforms and 2 backend platforms), but used selectors to enable navigation across them all. Note that 3 articles don't have both backend versions.
 
-![Two-way selectors example](./media/custom-markdown-extensions/selector-list.png)
+![Two-way selectors example](./media/selector-list.png)
 
 #### Syntax
 

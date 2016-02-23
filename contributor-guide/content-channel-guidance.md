@@ -34,7 +34,7 @@ Click the image to open the PDF that contains details for our technical content 
 [Need to create a content channel document for EMS]
 
 <!--  
-[![](./media/content-channel-guidance/content-channels-small.png)](./media/content-channel-guidance/channel-guidance.pdf?raw=true)-->
+[![](./media/content-channels-small.png)](./media/content-channel-guidance/channel-guidance.pdf?raw=true)-->
 
 The following channels are/are not part of the EMS technical content experience: [**EVALUATE**]
 

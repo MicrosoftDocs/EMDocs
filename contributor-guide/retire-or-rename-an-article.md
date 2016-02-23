@@ -24,9 +24,9 @@
 To do:
 - [ ] Confirm this is how retiring content will work for EMS
 - [ ] Get the link for the EMS docs landing page
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Do we use FWLink tool?
+- [ ] Compare/contrast with internal update/retire content content in EM Pilot Style Guide
+- [ ] How closely does this model the internal process? Is this guide for external only? 
 
 This guidance is for SMEs who are listed as the author of an article that needs to be retired from the technical documentation section of microsoft.com/ems. The steps also apply if a file is renamed.
 

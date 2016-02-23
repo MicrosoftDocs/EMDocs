@@ -63,28 +63,6 @@ Here are a few examples of valid names that follow the pattern. :
 - active-directory-java-authenticate-users-access-control-eclipse.md
 - virtual-machines-install-windows-server-2008r2.md
 
-<!-- 
-##Special file naming convention for the Azure preview portal
-
-Right now, we have two portals running - the [general availability portal](https://manage.windowsazure.com) and the [Azure preview portal](https://portal.azure.com). To clearly identify content that has been written for the preview portal without hiding it in the metadata, we need to follow some slightly customized file naming guidance:
-
-- If the service is available only in the Azure preview portal, it's easy. Just follow the standard naming guidance.
-
-- If the service is available in both portals, and you are writing an article about the service in the preview portal, add **preview-portal** at the end of the file name before the .md extension. This will help us separate the content for that service in the old portal from content for that service in the new portal. (Don't mix portal content!)
-
-- If the article is about the preview portal itself and not specific to any service or platform, start the file name with **azure-preview-portal**.
-
-Here are some examples:
-
-- azure-preview-portal-supported-browsers-devices.md
-- storage-premium-storage-preview-portal.md
-
-##Marketplace content
-
-To distinguish content that focuses on partner contributions to the Azure marketplace, start the file names with "marketplace". This content should not be too common, as most partner content should be created on the partners' own web sites.
-
-- marketplace-mongodb-virtual-machines-install-windows-server-2008r2.md
--->
 ##File name approval
 
 It's the job of our group of pull request reviewers to review file names when a new file is submitted to the repository for the first time. Pull request reviewers should review the file name and provide feedback via the pull request comment stream if changes are needed. The file name needs to be corrected before the pull request is accepted. Contributors can easily push the update to the pending pull request.

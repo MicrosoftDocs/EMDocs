@@ -24,22 +24,29 @@ To Do:
 - [ ] Confirm EMS article repo layout for links
 - [ ] Find the URL to the EMS documentation and incorporate
 - [ ] Confirm whether we're allowing use of FWLinks at all
+- [ ] Find out whether we have a different Visio stencil set for EMS
 - [ ] 
+- [ ]
+- [ ] 
+
 
 This article contains pointers about how to write technical articles for EMS services and technologies. These guidelines apply whether you are creating new documentation or updating existing documentation.
 
-At a bare minimum, please:
+As you write, keep the following in mind:
 
-- Spell check and grammar check your topics, even if you have to cut and paste into Word to do it.
-- Use a casual and friendly voice--like you were talking to another person one-on-one.
-- Use simple sentences. They are easier to understand, and they are more easily translated by both human and machine translators.
-- Don't break up steps with commentary or asides.
-- For steps that include code snippets, put additional information about the step into the code as comments. This reduces the amount of text people have to read through, and the key information gets copied into the code project to remind people of what the code is doing when they refer to it later.
 - The official product name is "Microsoft Enterprise Mobility Suite", but we can almost always just say "EMS", as in "EMS Mobile Services".
-- Don't create acronyms that start with "MA" or "A." Just use "EMS" at first reference before a service or feature name and then drop it (e.g. "EMS Mobile Services" becomes "Mobile Services" after first use). Try to avoid acronyms in general - they just confuse people.
+- Use "EMS" at first reference before a service or feature name and then drop it (e.g. "EMS Mobile Services" becomes "Mobile Services" after first use). 
 - EMS uses sentence casing for all titles.
+- Try to avoid acronyms in general - they just confuse people.
 - Use "sign in" and not "log in."
+- Spell-check and grammar-check your topics, even if you have to cut and paste the text into Word to do so.
+- Use a casual and friendly voice--like you were talking to another person one-on-one. See the Style and Voice topic for details.
+- Use simple sentences. They are easier to understand, and they are more easily translated by both human and machine translators.
 - Include the words "following" or "as follows" in every sentence that precedes a list or code snippet.
+- Don't break up steps with commentary or asides.
+- For steps that include code snippets, put additional information about the step into the code as comments. 
+	- This reduces the amount of text people have to read through. 
+	- Key information gets copied into the code project to remind people what the code is doing when they refer to it later.
 
 ## Create images in markdown
 
@@ -69,7 +76,7 @@ Screenshots are currently encouraged if it's not possible to include repro steps
 Use the following guidelines when creating and including art files:
 - Do not share art files across documents. Copy the file you need and add it to the media folder for your specific topic. Sharing between files is discouraged because  it is easier to remove deprecated content and images which keeps the repo clean.
 
-- .png files are highly preferred over other formats.
+- Portable Network Graphic (.PNG) files are highly preferred over other formats.
 
 - Use red squares of the default width provided in Paint (5 px) to call attention to particular elements in screenshots.  
 
@@ -77,7 +84,7 @@ Use the following guidelines when creating and including art files:
 
     ![This is an example of a red square used as a callout.](./media/create-images-markdown/gs13noauth.png)
 
-- Avoid whitespace on edges of screenshots. If you crop a screenshot in a way that leaves white background at the edges, add a single pixel gray border around the image.  If using Paint, use the lighter gray in the default color pallete (0xC3C3C3). If using some other graphic app, the RGB color is R195, G195, 195. You can easily add a gray border around an image in Visio--to do this, select the image, select Line, and ensure the the correct color is set, and then change the line weight to 1 1/2 pt.  Screenshots should have a 1-pixel-wide gray border so that white areas of the screenshot do not blur into the web page.
+- Avoid whitespace on edges of screenshots. If you crop a screenshot in a way that leaves white background at the edges, add a single pixel gray border around the image.  If using Paint, use the lighter gray in the default color palette (0xC3C3C3). If using some other graphic app, the RGB color is R195, G195, 195. You can easily add a gray border around an image in Visio--to do this, select the image, select Line, and ensure the the correct color is set, and then change the line weight to 1 1/2 pt.  Screenshots should have a 1-pixel-wide gray border so that white areas of the screenshot do not blend into the web page.
 
     Example:
 
@@ -210,7 +217,7 @@ Link references at the end of the article:
 
 ## FWLinks
 
-Avoid FWLinks (our redirection system) in https://www.microsoft.com/en-us/server-cloud/enterprise-mobility content. They should be used only as a last resort when you need to create a link for a page whose URL you don't yet know. They are almost never actually needed. For EMS, you define the file name, so you can know what it will be ahead of time. For a library topic that is not yet published, you can create a link that uses the topic GUID so that you don't have to use an FWLink.
+Avoid FWLinks (our redirection system) in https://www.microsoft.com/server-cloud/enterprise-mobility content. They should be used only as a last resort when you need to create a link for a page whose URL you don't yet know. They are almost never actually needed. For EMS, you define the file name, so you can know what it will be ahead of time. For a library topic that is not yet published, you can create a link that uses the topic GUID so that you don't have to use an FWLink.
 
 If you must use an FWLink on a web page, include the P parameter to make it a permanent redirect:
 
@@ -218,7 +225,7 @@ If you must use an FWLink on a web page, include the P parameter to make it a pe
 
 When you paste the target URL into the FWLink tool, remember to remove the locale if your target link is EMS, or the MSDN or TechNet library.
 
-## Additional Reading
+## Back to Home
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)

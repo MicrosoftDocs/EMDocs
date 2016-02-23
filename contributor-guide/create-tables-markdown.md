@@ -71,8 +71,8 @@ For a quick and easy way to create tables in markdown, try the Markdown tables g
 - [Index of guidance articles](./contributor-guide-index.md)
 
 <!--image references-->
-[1]: ./media/create-tables-markdown/table-markdown-1.png
-[2]: ./media/create-tables-markdown/table-markdown-2.png
-[3]: ./media/create-tables-markdown/table-markdown-3.png
-[4]: ./media/create-tables-markdown/table-markdown-4.png
-[5]: ./media/create-tables-markdown/break-tables.png
+[1]: ./media/table-markdown-1.png
+[2]: ./media/table-markdown-2.png
+[3]: ./media/table-markdown-3.png
+[4]: ./media/table-markdown-4.png
+[5]: ./media/break-tables.png

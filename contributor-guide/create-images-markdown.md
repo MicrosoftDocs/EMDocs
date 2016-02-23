@@ -23,16 +23,16 @@
 
 For a new article, you'll need to create a folder in the following location:
 
-    /articles/<service-directory>/media/<article-name>/
+    /articles/<service-directory>/media/
 
 For example:
 
-    /articles/app-service/media/app-service-enterprise-multichannel-apps/
+    /articles/app-service/media/
 
 After you create the folder and added images to it, use the following syntax to create images in your article:
 
 ```
-![Alt image text](./media/article-name/your-image-filename.png)
+![Alt image text](./media/your-image-filename.png)
 ```
 Example:
 
@@ -51,19 +51,19 @@ Use the following guidelines when creating and including art files:
 
     Example:
     
-    ![This is an example of a red square used as a callout.](./media/create-images-markdown/gs13noauth.png)
+    ![This is an example of a red square used as a callout.](./media/gs13noauth.png)
 
 - Avoid whitespace on edges of screenshots. If you crop a screenshot in a way that leaves white background at the edges, add a single pixel gray border around the image.  If using Paint, use the lighter gray in the default color pallete (0xC3C3C3). If using some other graphic app, the RGB color is R195, G195, 195. You can easily add a gray border around an image in Visio--to do this, select the image, select Line, and ensure the the correct color is set, and then change the line weight to 1 1/2 pt.  Screenshots should have a 1-pixel-wide gray border so that white areas of the screenshot do not blur into the web page.
 
     Example:
 
-    ![This is an example of a gray border around whitespace.](./media/create-images-markdown/agent.png)
+    ![This is an example of a gray border around whitespace.](./media/agent.png)
 
 - Conceptual images with whitespace do not need a gray border.  
     
     Example:
 
-    ![This is an example of a conceptual image with whitespace and no gray border.](./media/create-images-markdown/ic727360.png)
+    ![This is an example of a conceptual image with whitespace and no gray border.](./media/ic727360.png)
 
 - Try not to make an image too wide.  Images will be automatically resized if they are too wide. However, the resizing sometimes causes fuzziness, so we recommend that you limit the width of your images to 780 px, and manually resize images before submission if necessary.
 
@@ -73,7 +73,7 @@ Use the following guidelines when creating and including art files:
 
     Example:
 
-    ![This is an example of a browser window screenshot.](./media/create-images-markdown/helloworldlocal.png)
+    ![This is an example of a browser window screenshot.](./media/helloworldlocal.png)
 
 - Use caution with what information is revealed in screenshots.  Do not reveal internal company information or personal information.
 

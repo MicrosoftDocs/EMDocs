@@ -23,7 +23,7 @@
 # Git commands for creating a new article or updating an existing article
 To do:
 - [ ] Find correct command to replace "git pull upstream master" (Steps 4 and 9, and in "Working with release branches")
-- [ ] 
+- [ ] Replace EMS URL
 - [ ] 
 - [ ] 
 - [ ] 
@@ -80,7 +80,7 @@ Follow the steps in this article to create a local working branch on your comput
 
 13. If you are an employee working in the private repository, the changes you submit are automatically staged and a staging link is written to the pull request. Please review your staged content and sign off in the pull request comments by adding the **#sign-off** comment.  This indicates the changes are ready to be pushed live.  If you don't want the pull request to be accepted - if you are just staging the changes - add the **#hold-off** note to the pull request.
 
-14. The pull request acceptor reviews your pull request, provides feedback, and/or accepts your pull request. 
+14. The pull request recipient reviews your pull request, provides feedback, and/or accepts your pull request. 
 
 15. Optionally verify your published article or changes at
 

@@ -17,10 +17,10 @@
 
 # Install and set up tools for authoring in GitHub
 To Do:
-- [ ] Are we using Disqus? 
+- [ ] Are we using Disqus? ** <-- Robert **
 - [ ] Update instructions for Microsoft employees contributing to EMS vs Azure
-- [ ] 
-- [ ]   
+- [ ] Robert to ask Liza if she will respond to testing this procedure
+- [ ] Use Git for Git Bash only?
 
 Follow the steps in this article to set up tools for contributing to the EMS technical documentation. Casual and occasional contributors probably can use the GitHub UI described in step 2.
 
@@ -54,14 +54,14 @@ If you are a Microsoft contributor, you need to set up your GitHub account so yo
 
 Your profile should resemble this profile:
 
- ![GitHub profile example](./media/tools-and-setup/githubprofile.png)
+ ![GitHub profile example](./media/githubprofile.png)
 
 <!--
 ## Sign up for Disqus
 
 Every published EMS technical article has a comment stream provided by the Disqus service.
 
- ![Discus logo](./media/tools-and-setup/discus.png)
+ ![Discus logo](./media/discus.png)
 
 If you are a Microsoft employee, and if you are the author of or a contributor to an article, you need to sign up for Disqus so you can participate in the comment stream for the article.
 
@@ -80,11 +80,11 @@ You might not need to follow all the steps in this article. It depends on the so
 
 If you only need or want to make textual updates to an existing article, you probably don't need to follow the rest of the steps. You can use GitHub's web-based markdown editor to submit your changes. Just click the GitHub link in the article you want to modify:
 
- ![GitHub profile example](./media/tools-and-setup/contributetogit.png)
+ ![GitHub profile example](./media/contributetogit.png)
 
  Then, click the edit icon in the GitHub version of the article
 
- ![GitHub profile example](./media/tools-and-setup/editicon.PNG)
+ ![GitHub profile example](./media/editicon.png)
 
  That opens the easy-to-use web editor that makes it easy to submit changes. You don't need to follow the other steps in this article.
 
@@ -112,7 +112,7 @@ Install Git for Windows from [http://git-scm.com/download/win](http://git-scm.co
 You can accept the default settings; if you want the commands to be available within the Windows command line, select the option that enables it.
 
 <!-- Use Git from Git Bash only, I think -->
- ![GitHub profile example](./media/tools-and-setup/gitbashinstall.png)
+ ![GitHub profile example](./media/gitbashinstall.png)
 
 (Note: This is not the same as "Github for Windows". "Github for Windows" is a different GUI-based tool that will also work if you want to read up on yourself. [https://windows.github.com/](https://windows.github.com/)) 
 
@@ -154,7 +154,7 @@ If you use Atom, you'll need to set a few things up.
 - You will probably also want to turn on Soft Wrap in this section too, which does the same as "word wrap" in Notepad. 
 - To turn on the markdown preview, click Packages>Markdown Preview>Toggle Preview. You can use Ctrl-Shift-M to toggle the preview HTML view. 
 
-## Fork the repository and copy it to your computer
+## Create a branch from the repository and copy it to your computer
 
 1. Create a fork of the repository in GitHub - go to the top-right of the page and click the Fork button. If prompted, select your account as the location where the fork should be created. This creates a copy of the repository within your Git Hub account. Generally speaking, technical writers and program managers need to fork azure-content-pr, the private repo. Community contributors need to fork azure-content, the public repo. You only need to fork one time; after your first setup, if you want to copy your fork to another computer, you only have to run the commands that follow in this section to copy the repo to your computer.  If you choose to create forks of both repositories, you will need to create a fork for each repository.
 
