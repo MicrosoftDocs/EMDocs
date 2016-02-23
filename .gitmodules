@@ -2,7 +2,3 @@
 	path = EMDocs/_themes
 	url = https://github.com/JialinXin/DocsThemes
 	branch = master
-[submodule "ThemeEMSolutions"]
-	path = EMDocs/Solutions/_themes
-	url = https://github.com/Microsoft/templates.docs.msft
-	branch = master
