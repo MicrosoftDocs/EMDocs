@@ -1,6 +1,5 @@
 {
-  "build_entry_point": "docs.ps1",
-    "package_version": "1.6-alpha-029-gba8b26f",
+    "build_entry_point": "docs.ps1",
     "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/EMDocs",
     "docsets_to_publish": [
         {
@@ -8,12 +7,22 @@
             "build_output_subfolder": "EMDocs",
             "locale": "en-us",
             "version": 0,
-      "open_to_public_contributors": true,
+            "open_to_public_contributors": true,
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+        },
+        {
+            "docset_name": "EMSolutions",
+            "build_output_subfolder": "EMDocs/Solutions",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": true,
             "type_mapping": {
                 "Conceptual": "Content"
             }
         }
     ],
-    "notification_subscribers": ["OPBuild@microsoft.com"],
-    "branches_to_filter": ["live"]
+    "notification_subscribers": [ "OPBuild@microsoft.com" ],
+    "branches_to_filter": [ "live" ]
 }

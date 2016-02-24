@@ -3,12 +3,10 @@
     "content": [
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**/*.md"
         ],
         "exclude": [
-          "**/obj/**",
-          "Solutions/**"
+          "**/obj/**"
         ]
       }
     ],
@@ -21,16 +19,16 @@
           "**/*.gif",
           "**/*.bmp",
           "**/*.html",
+          "**/*.css",
           "_themes/**"
           ],
         "exclude": [
           "**/obj/**",
-          "_themes/DocPacker/**",
-          "Solutions/**"
+          "_themes/DocPacker/**"
         ]
       }
     ],
-    "dest": "EMDocs",
+    "dest": "EMDocs/Solutions",
     "template": "docs.html",
     "globalMetadata": {
       "layout": "Conceptual",
@@ -42,5 +40,5 @@
     "theme": "hyde",
     "dest": "_output"
   },
-  "basepath": "/EM"
+  "basepath": "/EM/Solutions"
 }
