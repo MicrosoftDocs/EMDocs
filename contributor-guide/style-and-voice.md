@@ -1,80 +1,97 @@
-<properties title="" pageTitle="Writing Azure documentation - style and voice cheat sheet" description="Style and voice information to help you create technical content for the Azure documentation center." metaKeywords="" services="" solutions="" documentationCenter="" authors="tysonn" videoId="" scriptId="" manager="required" />
+<properties 
+	title="" 
+	pageTitle="Writing EMS documentation - style and voice" 
+	description="Style and voice information to help you create technical content for the EMS documentation center." 
+	metaKeywords="" 
+	services="" 
+	solutions="" 
+	documentationCenter="" 
+	authors="v-jocgar" 
+	videoId="" 
+	scriptId="" 
+	manager="robmazz" />
 
-<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="12/16/2014" ms.author="glenga" />
+<tags 
+	ms.service="contributor-guide" 
+	ms.devlang="" 
+	ms.topic="article" 
+	ms.tgt_pltfrm="" 
+	ms.workload="" 
+	ms.date="02/19/2016" 
+	ms.author="v-jocgar" />
 
-#Writing Azure documentation - style and voice cheat sheet
+# Writing EMS documentation - style and voice
 
-Here's a cheat sheet that contains pointers about how to write technical articles for Azure services and technologies. These guidelines apply whether you are creating new documentation or updating existing documentation.
+## 1. Focus on customer intent
 
-At a bare minimum, please:
+People are reading your article to find an answer to a question. In most cases, they're looking for how to do something. Figure out what that something is, and focus the article on getting your reader to that answer:
 
-- Spell check and grammar check your topics, even if you have to cut and paste into Word to do it.
-- Use a casual and friendly voice--like you were talking to another person one-on-one.
-- Use simple sentences. They are easier to understand, and they are more easily translated by both human and machine translators.
+- **Organize the article so the most common intent is near the top and other information appears later.** Consider these best practices:
+	- For articles with a basic answer and more advanced options, put the basic information at the top and the advanced options afterward.
+	- If information covers a different intent, link to it rather than including it in your article.
+	- For articles with one procedure, put the procedure at the top followed by the conceptual information.
 
-The following sections contain a more details:
+- **Make the most common task ridiculously easy to find.** Choose a technique based on what works best for your situation:
+	- Put the intent in the title.
+	- Put the intent in the first paragraph.
+	- Put the intent in a procedure preceding the table of contents.
+	- Put the intent in a section header.
 
-+ [Use a customer-friendly voice]
-+ [Consider localization and machine translation]
-+ [Other style and voice issues to watch for]
+## 2. Use everyday words
+
+Like all the voice guidance, word choice guidance depends on context—the article, the product, the reader, the feature. Choose words based on context and aim for "easy to understand" for that context.
+
+- **Use everyday words.** Many words have a formal and everyday version. For example: *provide* and *give*; *obtain* and *get*. Formal versions tend to be longer and have more syllables. That doesn't make them better or more precise. Using them just makes the sentence longer. These words have nothing to do with the technical content of the article but have a huge impact on how the article sounds.
+- **Use a technical word if it's the right word.** In an article about AD FS, the phrase *server farm* is perfectly appropriate. In a domains article, the word *domain* is a good one to use. Understand your audience and use their everyday technical words.
+- **Emphasize benefits, not technology.** When you choose words that focus on what the reader wants to do, the content is easier to understand. That is, the benefit is easier to understand than the underlying technology.
+
+| Words emphasizing the benefit | Words emphasizing the underlying technology |
+|---|---|
+| To read email on your phone… | To enable mobile access by using Exchange ActiveSync… |
+| Do you want to sign in once to all of the services in Office 365? | Do you want to deploy AD FS to your server farm in order to use federated identity? |
+| Let people outside your company access shared documents in a security-enhanced manner. | Control access permissions for external users to your SharePoint Online site collections. |
+
+- **Read the article aloud.** Does it sound natural? Aim to sound like a coworker talking to another professional.
+- **Recommended from the Microsoft Writing Style Guide:**
+	- [Use contractions](http://https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26589)
+	- [A-Z word list and term collections](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26589)
+	- [Security, safety, and privacy terms](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26894)
+	- [Cloud computing terms](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=28841)
+
+## 3. Make the article easy to scan
+
+People don't read our help articles like novels, from the first word to the last. They scan our articles for answers as if they were looking up a name in the phone book. Make articles easy to scan so they can find what they're looking for:
+
+- **People scan titles, procedures, headers, art, and links.** After they find roughly what they're looking for, they then read for details.
+- **Art is fantastic for drawing attention.** Might a screenshot help the reader find or understand something better?
+- **Scan the article and see what jumps out.** Which procedure looks most important? Which intent seems to be the focus? Which tips are easy to find? Sometimes less important things get the focus and more important things are hidden. Can the wording, organization, and formatting be changed to address this?
+- **Optimize for SEO**. Search engines look for clues to find help articles that match what our readers search for. And they look in many of the places people do: titles, headings, alt-text, links, as well as in the body, so make sure that you are using your search keywords in these areas. See [Search engine optimization](http://https://worldready.cloudapp.net/Styleguide/Read?id=2781&topicid=36751) to learn how to optimize your content.
+- **Recommended from the Microsoft Writing Style Guide:**
+    *   [Scannable content](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26589)
+
+## 4. Write concisely
+
+Customers prefer articles with fewer words:
+
+- **Try to cut the word count by half.**
+	- Introductions, conceptual information, and notes are good places to reduce wordiness.
+	- Sentences using active voice instead of passive are usually shorter, and easier to understand.
+- **Use everyday words to help with conciseness.** Formal words lead to formal sentences.
+- **Read the article aloud.** If you're out of breath, the article is too wordy.
+
+## 5. Show empathy, or at least, don't be rude
+
+- **Remember that it's not us versus them.** Readers object to instructions that imply that Microsoft knows better than they do, and who can blame them? Our goal is to empower readers to solve problems, not to convince people that we're smarter than they are. Try to rephrase sentences that use phrases like "you must" and "you are required." Focus instead on the benefit of doing what will most likely solve the problem.
+- **When you know that users are frustrated, consider acknowledging that.** Here are some places that apply:
+	- An article that discusses how to resolve a really perplexing error
+	- A community forum post that's a response to a thread of yelling customers
+	- A time when any reasonable person would be annoyed by having to wait 72 hours for a domain to be ready
+- **Recommended from the Microsoft Writing Style Guide:**
+	- [Use certain words carefully](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=28841)
 
 
-##Use a customer-friendly voice
-
-We aspire to follow these principles when we write technical content for Azure. We may not always get there, but we need to keep trying!
-
-- **Use everyday words**: Try to use natural language, the words your customers use; be less formal but not less technical; provide examples that explain new concepts.
-
-- **Write concisely**: Don't waste words and don't over explain. Be affirmative and don't use extra words or lots of qualifiers. Keep sentences short and concise. Keep your topic focused. If a task has a qualifier, put it at the beginning of the sentence or paragraph. Also, keep the number of notes to a minimum. Use a screenshot when it can save words.
-
-- **Easy to scan**: Put the most important things first. Use sections to chunk long procedures into more manageable groups of steps (procedures with more than 12 steps are probably too long). Use a screenshot when it adds clarity.
-
-- **Show empathy**: Use a supportive tone in the article, and keep disclaimers to a minimum. Honestly call out areas that will be frustrating to customers. Make sure the article focuses on what matters to the customer, don't just give a technical lecture.
-
-##Consider localization and machine translation
-Our technical articles are translated into many other languages, and some are modified for particular markets. People might also be using machine translation on the web to read the technical articles. So, write with the following guidance in mind:
-
-- **Make sure the article contains no grammar, spelling, or punctuation errors**: This is something we should do in general. Markdown Pad 2.0 has a basic spell checker, but you should also paste the (rendered HTML) content from the article into Word, which has a more robust spell and grammar checker.
-
-- **Make your sentences as short as possible**: Compound sentences or chains of clauses  make translation difficult. Split up sentences if you can do it without being too redundant or sounding weird. We don't really want articles written in unnatural language either.
-
-- **Use simple and consistent sentence construction**: Consistency is better for translation. Avoid parentheticals and asides, and have the subject as near the beginning of the sentence as possible. Check out a few published topics - if the topic has a friendly, easy to read style, use it as a model.
-
-- **Use consistent wording and capitalization**: Again, consistency is key. Azure uses sentence casing for titles, so never capitalize a word if it isn't at the start of a sentence or a proper noun.
-
-- **Include the "small words"**: Words that we consider small and unimportant in English because they are understood for context (such as "a", "the", "that", and "is") are crucial for machine translation - make sure you include them!
-
-##Other style and voice issues to watch for
-
-- Don't break up steps with commentary or asides.
-
-- For steps that include code snippets, put additional information about the step into the code as comments. This reduces the amount of text people have to read through, and the key information gets copied into the code project to remind people of what the code is doing when they refer to it later.
-
-- The official product name is “Microsoft Azure”, but we can almost always just say “Azure”, as in "Azure Mobile Services".
-
-- Don’t create acronyms that start with "MA" or "A." Just use “Azure” at first reference before a service or feature name and then drop it (e.g. "Azure Mobile Services" becomes "Mobile Services" after first use). Try to avoid acronyms in general - they just confuse people.
-
-- Azure uses sentence casing for all titles.
-
-- Use "sign-in" and not "log-in."
-
-- Include the words "following" or "as follows" in every sentence that precedes a list or code snippet.
-
-- "SQL Database" is the Azure feature. A "SQL database" is a database instance running on SQL Database.
-
-- Azure Storage includes several "data management services" that include the Table service, the Blob service, and the Queue service. (It's not called the "Azure Table storage service".)
-
-
-
-
-###Contributors' Guide Links
+## Back to Home
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)
 
-
-
-<!--Anchors-->
-[Use a customer-friendly voice]: #use-a-customer-friendly-voice
-[Consider localization and machine translation]: #consider-localization-and-machine-translation
-[other style and voice issues to watch for]: #other-style-and-voice-issues-to-watch-for
