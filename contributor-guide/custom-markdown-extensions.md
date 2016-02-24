@@ -21,14 +21,14 @@
 ## Markdown for Microsoft.com/ems
 To Do:
 - [x] Confirm that we're using Markdown extensions for Note, Important, etc. 
-- [x] Confirm that we'll use include files. **<-- Tokens **
+- [x] Confirm that we'll use include files. ** Known as Tokens **
 - [ ] Confirm that Selectors are available to EMS articles
+- [ ] Replace Selectors section with examples for selectors from docs.microsoft.com/ems  
 - [ ] Will contributors be able to submit videos? 
-- [ ] 
 
-For general markdown tips, see [Markdown Basics](https://help.github.com/articles/markdown-basics/) and our [markdown cheatsheet](./media/ems-markdown-cheat-sheet.pdf?raw=true). If you need to create article crosslinks in markdown, see the [linking guidance] (./create-links-markdown.md#markdown-syntax-for-acom-relative-links.md/).
+For general markdown tips, see [Markdown Basics](https://help.github.com/articles/markdown-basics/) and our [markdown cheatsheet](./media/ems-markdown-cheat-sheet.pdf?raw=true). If you need to create article cross-links in markdown, see the [linking guidance] (./authoring-in-markdown.md#guidelines-for-linking-technical-articles-on-docs.microsoft.com) in the Authoring for EMS in Markdown topic.
 
-Microsoft.com/ems supports [fenced code blocks](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) and [syntax highlighting](https://help.github.com/articles/github-flavored-markdown/#syntax-highlighting). However, EMS supports only one syntax highlighting color scheme, regardless of the language you specify in a code block.
+The website docs.microsoft.com supports [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks) and [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting). However, EMS supports only one syntax highlighting color scheme, regardless of the language you specify in a code block.
 
 ## Custom markdown extensions used in our technical articles
 
@@ -43,29 +43,29 @@ Our articles use GitHub flavored markdown for most article formatting - paragrap
 
 You can choose from 4 types of notes and tips:
 
-- AZURE.NOTE
-- AZURE.WARNING
-- AZURE.TIP
-- AZURE.IMPORTANT
+- EMS.NOTE
+- EMS.WARNING
+- EMS.TIP
+- EMS.IMPORTANT
 
-###Usage
+### Usage
 In general, use notes and tips sparingly throughout your articles. When you do use them, choose the appropriate type of note or tip:
 
 - Use AZURE.NOTE to highlight neutral or positive information that emphasizes or supplements key points of the main text. A note supplies information that applies only in special cases.
 
-  ![](./media/Notes-note.png)
+  ![](./media/notes-note.png)
 
 - Use AZURE.WARNING to alert the user to a condition that might cause a problem in the future. For example, selecting a certain option or making a certain choice might permanently lock you into a particular scenario.
 
-  ![](./media/Notes-warning.png)
+  ![](./media/notes-warning.png)
 
 - Use AZURE.TIP to help your users apply the techniques and procedures described in the text to their specific needs. A tip might also suggest alternative methods that may not be obvious. Tips, however, are not essential to the basic understanding of the text.
 
-  ![](./media/Notes-tip.png)
+  ![](./media/notes-tip.png)
 
 - Use AZURE.IMPORTANT to provide information that is essential to the completion of a task.
 
-  ![](./media/Notes-important.png)
+  ![](./media/notes-important.png)
 
 While these notes and tips support code blocks, images, lists, and links, try to keep your notes and tips simple and straightforward. If you find yourself creating complex notes with lots of formatting, that might be a sign you just need another section in the main text of the article. And, too many notes in an article can be distracting and hard to scan or read.
 
@@ -73,31 +73,31 @@ While these notes and tips support code blocks, images, lists, and links, try to
 
 The samples all show an AZURE.NOTE. To use a TIP, WARNING, or IMPORTANT, replace "NOTE" in the markdown:
 
-    > [AZURE.TIP]
+    > [EMS.TIP]
 
-    > [AZURE.WARNING]
+    > [EMS.WARNING]
 
-    > [AZURE.IMPORTANT]
+    > [EMS.IMPORTANT]
 
 Single paragraph:
 
-    > [AZURE.NOTE] To complete this tutorial, you must have an active Microsoft Azure account. If you don't have an account, you can create a free trial account in just a couple of minutes.
+    > [EMS.NOTE] To complete this tutorial, you must have an active Microsoft Azure account. If you don't have an account, you can create a free trial account in just a couple of minutes.
 
 Multiparagraph:
 
-    > [AZURE.NOTE] To complete this tutorial, you must have an active Microsoft Azure account.
+    > [EMS.NOTE] To complete this tutorial, you must have an active Microsoft Azure account.
     >
     > If you don't have an account, you can [create a free trial account](http://www.windowsazure.com/pricing/free-trial/) in just a couple of minutes.
 
 ## Includes
 
-Reusable text fragments in our GitHub repository are called "includes". When you have text that needs to be used in multiple articles, you include a reference to the text fragments in the markdown files. The text fragment (the include) itself is a simple markdown (.md) file. It can contain any valid markdown, including text, links, and images. All include markdown files must be in [the /includes directory](https://github.com/Azure/azure-content/tree/master/includes) in the root of the repository. When the article is published, the include text is seamlessly integrated into the published topic.
+Reusable text fragments in our GitHub repository are called "includes". When you have text that needs to be used in multiple articles, you include a reference to the text fragments in the markdown files. The text fragment (the include) itself is a simple markdown (.md) file. It can contain any valid markdown, including text, links, and images. All include markdown files must be in [the /includes directory](need correct location) in the root of the repository. When the article is published, the include text is seamlessly integrated into the published topic.
 
 - We use a specific syntax to reference an include.
 
-- Media files you put in an include must be created in a media folder specific to the include. Media folders for includes belong in [the azure-content/includes/media folder](https://github.com/Azure/azure-content/tree/master/includes/media). The media directory should not contain any images in its root. If the include does not have images, then a corresponding media directory is not required.
+- Media files you put in an include must be created in a media folder specific to the include. Media folders for includes belong in [the ems-content/includes/media folder](need correct location). The media directory should not contain any images in its root. If the include does not have images, then a corresponding media directory is not required.
 
-###Usage
+### Usage
 
 - Use includes wherever you need the same text to appear in multiple articles.
 - Includes are meant to be used for significant amounts of content - a paragraph or two, a shared procedure, or a shared section. Do not use them for anything smaller than a sentence; they are not for product names or incomplete sentences.
@@ -120,18 +120,18 @@ Reusable text fragments in our GitHub repository are called "includes". When you
  Change: table.png
  To: table-include.png
 
-###Sample markdown
+### Sample markdown
 The syntax for adding an include to a documentation article is:
 
-    [AZURE.INCLUDE [include-short-name](../includes/include-file-name.md)]
+    [EMS.INCLUDE [include-short-name](../includes/include-file-name.md)]
 
 Example
 
-    [AZURE.INCLUDE [howto-blob-storage](../includes/howto-blob-storage.md)]
+    [EMS.INCLUDE [howto-blob-storage](../includes/howto-blob-storage.md)]
 
 The first part of the include is the include name without the path and without the .md extension. The second part is the relative path to the include in the /includes directory, with the .md extension.
 
-###Rendering
+### Rendering
 
 In the rendered GitHub page, the include will render as follows:
 
@@ -144,27 +144,27 @@ In the rendered HTML on azure.microsoft.com, the HTML from the includes is merge
 
 ## Embedded videos
 
-Our technical articles support embeddeded videos in technical articles as long as the videos are on Microsoft's [Channel 9](http://channel9.msdn.com/) site. The videos from Channel 9 must be integrated with [the docs.microsoft.com Video Center](http://azure.microsoft.com/documentation/videos/home/). We currently do not support embedded YouTube videos; if you're a community contributor, you are welcome to link to YouTube if the video you want to feature is posted there. Microsoft contributors should use Channel 9 and the Video Center.
+Our technical articles support embedded videos in technical articles as long as the videos are on Microsoft's [Channel 9](http://channel9.msdn.com/) site. The videos from Channel 9 must be integrated with [the docs.microsoft.com Video Center](need actual location). We currently do not support embedded YouTube videos; if you're a community contributor, you are welcome to link to YouTube if the video you want to feature is posted there. Microsoft contributors should use Channel 9 and the Video Center.
 
 ### Usage
 
 - Make sure that the video is on the Video Center.
 
-- Copy the video ID from the friendly URL of the video on Channel 9 or from the Azure Video Center. For example, the video ID for the video at [http://azure.microsoft.com/documentation/videos/azure-scheduler-unusual-schedules/](http://azure.microsoft.com/documentation/videos/azure-scheduler-unusual-schedules/) is **azure-scheduler-unusual-schedules**.
+- Copy the video ID from the friendly URL of the video on Channel 9. For example, the video ID for the video at [https://channel9.msdn.com/Shows/This+Week+On+Channel+9/TWC9-Stacking-Microsoft-Windows-10-Pi-Bobble-Head-your-Nodejs-and-more](https://channel9.msdn.com/Shows/This+Week+On+Channel+9/TWC9-Stacking-Microsoft-Windows-10-Pi-Bobble-Head-your-Nodejs-and-more) is ** ??? **.
 
 ### Syntax
 
-    > [AZURE.VIDEO video-id-string]
+    > [EMS.VIDEO video-id-string]
 
 ### Rendering
 
-On GitHub: [https://github.com/Azure/azure-content-pr/blob/master/articles/web-sites-backup.md](https://github.com/Azure/azure-content-pr/blob/master/articles/web-sites-backup.md)
+On GitHub: [need example of how an article looks when added on Github](something.md)
 
-Published article: [http://azure.microsoft.com/documentation/articles/web-sites-backup/](http://azure.microsoft.com/documentation/articles/web-sites-backup/)
+Published article: [need an example of how an article looks on the doc site when incorporated](need actual location)
 
 
 ## Technology and platform selectors
-
+<span style="color:red;">->> **Need replacement examples for this entire section from docs.microsoft.com/ems**  <<-</span>
 Use technology and platform switchers in technical articles when you author multiple flavors of the same article to address differences in implementation across technologies or platforms. This is typically most applicable to our mobile platform content for developers. There are currently two different types of selectors, [simple selectors](#simple-selectors) and [two-way selectors](#two-way-selectors).
 
 Because the same selector markdown goes in each topic in the selection, we recommend placing the selector for your topic in an include, then referencing that include in all of your topics that use the same selector.
@@ -179,21 +179,22 @@ See [Get started with Notification Hubs](http://azure.microsoft.com/documentatio
 
 #### Syntax
 
-    > [AZURE.SELECTOR]
+    > [EMS.SELECTOR]
     - [Link #1 Label](link #1 url)
     - [Link #2 Label](link #2 url)
 
 Example:
 
-    > [AZURE.SELECTOR]
-    - [Universal Windows](../articles/notification-hubs-windows-store-dotnet-get-started/)
-    - [Windows Phone](../articles/notification-hubs-windows-phone-get-started/)
+    > [EMS.SELECTOR]
+    - [Windows Runtime 8.1 Universal](../articles/notification-hubs-windows-store-dotnet-get-started/)
+    - [Windows Phone Silverlight 8.x](../articles/notification-hubs-windows-phone-get-started/)
     - [iOS](../articles/notification-hubs-ios-get-started/)
     - [Android](../articles/notification-hubs-android-get-started/)
     - [Kindle](../articles/notification-hubs-kindle-get-started/)
     - [Baidu](../articles/notification-hubs-baidu-get-started/)
     - [Xamarin.iOS](../articles/partner-xamarin-notification-hubs-ios-get-started/)
     - [Xamarin.Android](../articles/partner-xamarin-notification-hubs-android-get-started/)
+    - [Chrome](../articles/notification-hubs-chrome-get-started/)
 
 #### Rendering
 
@@ -203,7 +204,7 @@ The image above shows the rendering on azure.microsoft.com. On the rendered GitH
 
 Two-way selectors lets users select a topics from a two way matrix. This is essential when an Azure technology, such as Mobile Services, supports multiple backend platforms as well as multiple clients. Keep in mind the following:
 
-- While it was designed as `(Platform | Backend)`, the dropwdown text can now be customized.
+- While it was designed as `(Platform | Backend)`, the dropdown text can now be customized.
 - You do not need a list item for every point in your matrix, but do only have an item where a topic URL exists and is not a duplicate.
 - The link can be any URL, although it is generally another GitHub topic.
 
@@ -224,14 +225,17 @@ Example:
 	> [AZURE.SELECTOR-LIST (Platform | Backend )]
 	- [(iOS | .NET)](./mobile-services-dotnet-backend-ios-get-started-push.md)
 	- [(iOS | JavaScript)](./mobile-services-javascript-backend-ios-get-started-push.md)
-	- [(Windows universal C# | .NET)](./mobile-services-dotnet-backend-windows-universal-dotnet-get-started-push.md)
-	- [(Windows universal C# | Javascript)](./mobile-services-javascript-backend-windows-universal-dotnet-get-started-push.md)
+	- [(Windows Runtime 8.1 universal | C#)](./mobile-services-dotnet-backend-windows-universal-dotnet-get-started-push.md)
+	- [(Windows Runtime 8.1 universal C# | Javascript)](./mobile-services-javascript-backend-windows-universal-dotnet-get-started-push.md)
 	- [(Windows Phone | .NET)](./mobile-services-dotnet-backend-windows-phone-get-started-push.md)
 	- [(Windows Phone | Javascript)](./mobile-services-javascript-backend-windows-phone-get-started-push.md)
 	- [(Android | .NET)](./mobile-services-dotnet-backend-android-get-started-push.md)
 	- [(Android | Javascript)](./mobile-services-javascript-backend-android-get-started-push.md)
 	- [(Xamarin iOS | Javascript)](./partner-xamarin-mobile-services-ios-get-started-push.md)
 	- [(Xamarin Android | Javascript)](./partner-xamarin-mobile-services-android-get-started-push.md)
+	- [HTML](../articles/mobile-services-html-get-started/)
+	- [PhoneGap](../articles/mobile-services-javascript-backend-phonegap-get-started/)
+	- [Sencha](../articles/partner-sencha-mobile-services-get-started/)
 
 #### Rendering
 

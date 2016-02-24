@@ -21,8 +21,8 @@
 #File names and locations for EMS technical articles
 To Do: 
 - [ ] Pull in the services slugs for examples
-- [ ] Identify file structure, will there be sub-folders other than media? 
-- [ ] Remove paragraphs on Azure portal and Marketplace, or substitute EMS equivalent 
+- [x] Identify file structure, will there be sub-folders other than media? No, all images and documents go into the /media sub-folder. 
+- [x] Remove paragraphs on Azure portal and Marketplace, or substitute EMS equivalent 
 
 In our technical content repository, we use a single folder (the **articles** folder) for all articles. There's no folder hierarchy - all articles live in the flat file structure. If you create folders with articles in them, your articles can't be published.
 
@@ -35,26 +35,27 @@ Here's what you need to know:
 + [Examples]
 + [File name approval]
 
-##Rules for naming files
+## Rules for naming files
 
 - No spaces or punctuation characters. Use hyphens to separate the words in the file name.
 - Use all lowercase letters
 - No more than 80 characters - this is a publishing system limit
-- Use action verbs that are specific such as develop, buy, build, troubleshoot. No -ing words.
+- Use action verbs that are specific such as develop, buy, build, troubleshoot. No -ing words (gerunds).
 - No small words - don't include a, and, the, in, or, etc.
 - All files must be in markdown and use the .md file extension.
 
-##File name patterns
+## File name patterns
 
 Here's the general naming pattern:
 
  **service-platform-language-content-product-version.md**
 
-Use the parts of the pattern that apply, and review the list of articles in the repository to get an idea of existing names. <!--Names that don't start with a development platform or a service name are probably suspect, and slipped through. -->
+Use the parts of the pattern that apply, and review the list of articles in the repository to get an idea of existing names. 
 
-##Examples
+## Examples
+<span style="color:red;">->> **Need replacement examples for this section from docs.microsoft.com/ems**  <<-</span>
 
-Here are a few examples of valid names that follow the pattern. :
+Here are a few examples of valid names that follow the pattern:
 
 - cloud-services-dotnet-continuous-delivery.md
 - mobile-services-ios-get-started.md
@@ -63,11 +64,11 @@ Here are a few examples of valid names that follow the pattern. :
 - active-directory-java-authenticate-users-access-control-eclipse.md
 - virtual-machines-install-windows-server-2008r2.md
 
-##File name approval
+## File name approval
 
-It's the job of our group of pull request reviewers to review file names when a new file is submitted to the repository for the first time. Pull request reviewers should review the file name and provide feedback via the pull request comment stream if changes are needed. The file name needs to be corrected before the pull request is accepted. Contributors can easily push the update to the pending pull request.
+It's the job of our group of pull request reviewers to review file names when a new file is submitted to the repository for the first time. Pull request reviewers should review the file name and provide feedback if changes are needed. The file name needs to be corrected before the pull request is accepted. Contributors can easily push the update to the pending pull request.
 
-##Back to Home
+## Back to Home
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)

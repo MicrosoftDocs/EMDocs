@@ -23,8 +23,7 @@
 # Create tables in markdown
 
 To Do:
-- [ ] Add link to Markdown cheat sheet
-- [ ] Find out how to use special Note syntax
+- [ ] Add Note syntax to the Note below.
 - [ ]
 - [ ]   
 

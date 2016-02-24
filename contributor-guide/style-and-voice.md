@@ -21,16 +21,10 @@
 	ms.author="v-jocgar" />
 
 # Writing EMS documentation - style and voice
-To do:
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
 
-## 1\. Focus on customer intent
+## 1. Focus on customer intent
 
-People are reading the article to find an answer to a question. In most cases, they're looking for how to do something. Figure out what that something is, and focus the article on getting your reader to that answer:
+People are reading your article to find an answer to a question. In most cases, they're looking for how to do something. Figure out what that something is, and focus the article on getting your reader to that answer:
 
 - **Organize the article so the most common intent is near the top and other information appears later.** Consider these best practices:
 	- For articles with a basic answer and more advanced options, put the basic information at the top and the advanced options afterward.
@@ -43,12 +37,12 @@ People are reading the article to find an answer to a question. In most cases, t
 	- Put the intent in a procedure preceding the table of contents.
 	- Put the intent in a section header.
 
-## 2\. Use everyday words
+## 2. Use everyday words
 
 Like all the voice guidance, word choice guidance depends on context—the article, the product, the reader, the feature. Choose words based on context and aim for "easy to understand" for that context.
 
-- **Use everyday words.** Many words have a formal and everyday version. For example: _provide_ and _give_;_obtain_ and _get_. Formal versions tend to be longer and have more syllables. That doesn't make them better or more precise. Using them just makes the sentence longer. These words have nothing to do with the technical content of the article but have a huge impact on how the article sounds.
-- **Use a technical word if it's the right word.** In an article about AD FS, the phrase _server farm_ is perfectly appropriate. In a domains article, the word _domain_ is a good one to use. Understand your audience and use their everyday technical words.
+- **Use everyday words.** Many words have a formal and everyday version. For example: *provide* and *give*; *obtain* and *get*. Formal versions tend to be longer and have more syllables. That doesn't make them better or more precise. Using them just makes the sentence longer. These words have nothing to do with the technical content of the article but have a huge impact on how the article sounds.
+- **Use a technical word if it's the right word.** In an article about AD FS, the phrase *server farm* is perfectly appropriate. In a domains article, the word *domain* is a good one to use. Understand your audience and use their everyday technical words.
 - **Emphasize benefits, not technology.** When you choose words that focus on what the reader wants to do, the content is easier to understand. That is, the benefit is easier to understand than the underlying technology.
 
 | Words emphasizing the benefit | Words emphasizing the underlying technology |
@@ -64,7 +58,7 @@ Like all the voice guidance, word choice guidance depends on context—the artic
 	- [Security, safety, and privacy terms](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26894)
 	- [Cloud computing terms](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=28841)
 
-## 3\. Make the article easy to scan
+## 3. Make the article easy to scan
 
 People don't read our help articles like novels, from the first word to the last. They scan our articles for answers as if they were looking up a name in the phone book. Make articles easy to scan so they can find what they're looking for:
 
@@ -75,7 +69,7 @@ People don't read our help articles like novels, from the first word to the last
 - **Recommended from the Microsoft Writing Style Guide:**
     *   [Scannable content](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26589)
 
-## 4\. Write concisely
+## 4. Write concisely
 
 Customers prefer articles with fewer words:
 
@@ -85,7 +79,7 @@ Customers prefer articles with fewer words:
 - **Use everyday words to help with conciseness.** Formal words lead to formal sentences.
 - **Read the article aloud.** If you're out of breath, the article is too wordy.
 
-## 5\. Show empathy, or at least, don't be rude
+## 5. Show empathy, or at least, don't be rude
 
 - **Remember that it's not us versus them.** Readers object to instructions that imply that Microsoft knows better than they do, and who can blame them? Our goal is to empower readers to solve problems, not to convince people that we're smarter than they are. Try to rephrase sentences that use phrases like "you must" and "you are required." Focus instead on the benefit of doing what will most likely solve the problem.
 - **When you know that users are frustrated, consider acknowledging that.** Here are some places that apply:
@@ -101,8 +95,3 @@ Customers prefer articles with fewer words:
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)
 
-
-<!--Anchors-->
-[Use a customer-friendly voice]: #use-a-customer-friendly-voice
-[Consider localization and machine translation]: #consider-localization-and-machine-translation
-[other style and voice issues to watch for]: #other-style-and-voice-issues-to-watch-for

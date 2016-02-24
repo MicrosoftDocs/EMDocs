@@ -54,7 +54,7 @@ As you write, keep the following in mind:
 
 For a new article, you'll need to create a folder in the following location:
 
-    /articles/<service-directory>/media/<article-name>/
+    /articles/<service-directory>/media/
 
 For example:
 
@@ -88,13 +88,13 @@ Use the following guidelines when creating and including art files:
 
     Example:
 
-    ![This is an example of a gray border around whitespace.](./media/create-images-markdown/agent.png)
+    ![This is an example of a gray border around whitespace.](./media/agent.png)
 
 - Conceptual images with whitespace do not need a gray border.  
 
     Example:
 
-    ![This is an example of a conceptual image with whitespace and no gray border.](./media/create-images-markdown/ic727360.png)
+    ![This is an example of a conceptual image with whitespace and no gray border.](./media/ic727360.png)
 
 - Try not to make an image too wide.  Images will be automatically resized if they are too wide. However, the resizing sometimes causes fuzziness, so we recommend that you limit the width of your images to 780 px, and manually resize images before submission if necessary.
 
@@ -104,14 +104,14 @@ Use the following guidelines when creating and including art files:
 
     Example:
 
-    ![This is an example of a browser window screenshot.](./media/create-images-markdown/helloworldlocal.png)
+    ![This is an example of a browser window screenshot.](./media/helloworldlocal.png)
 
 - Use caution with what information is revealed in screenshots.  Do not reveal internal company information or personal information.
 
 - In conceptual art or diagrams, use the official icons in the Cloud and Enterprise symbol and icon set. A public set is available at http://aka.ms/CnESymbols.
 
 
-## Guidelines for linking technical articles on ems.microsoft.com
+## Guidelines for linking technical articles on docs.microsoft.com
 
 | Link scenario | Guidance for the target link  |
 |---------------|-----------|

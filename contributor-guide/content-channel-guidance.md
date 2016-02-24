@@ -27,14 +27,14 @@ To Do:
 - [ ] Evaluate the bulleted list at the bottom to see if it is applicable here
 
 ##aka: What goes where?
-Generally speaking, core technical content for the Enterprise Mobility Suite belongs in the EMS Documentation Center ([doesn't exist yet](http://microsoft.com/ems)) or in the Servers and Enterprise Development library in MSDN ([replace once there is an EMS area](https://msdn.microsoft.com/en-us/library/aa155072.aspx)). 
+Generally speaking, core technical content for the Enterprise Mobility Suite belongs in the EMS Documentation Center ([doesn't exist yet](http://docs.microsoft.com)) or in the Servers and Enterprise Development library in MSDN ([replace once there is an EMS area](https://msdn.microsoft.com/en-us/library/aa155072.aspx)). 
 
 Click the image to open the PDF that contains details for our technical content channel guidance:
  
 [Need to create a content channel document for EMS]
 
 <!--  
-[![](./media/content-channels-small.png)](./media/content-channel-guidance/channel-guidance.pdf?raw=true)-->
+[![](./media/content-channels-small.png)](./media/channel-guidance.pdf?raw=true)-->
 
 The following channels are/are not part of the EMS technical content experience: [**EVALUATE**]
 

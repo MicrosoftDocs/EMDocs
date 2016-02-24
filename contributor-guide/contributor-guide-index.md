@@ -21,7 +21,7 @@
 
 #Enterprise Mobility technical content contributors' guide index
 To Do: 
-- [ ] Recreate the PDF cheat sheet for our purposes
+- [x] Recreate the PDF cheat sheet for our purposes
 - [ ] Confirm that we're using custom markdown extensions for Note, Important, etc. 
 
 ##General guidance

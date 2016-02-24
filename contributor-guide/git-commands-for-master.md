@@ -87,15 +87,18 @@ Follow the steps in this article to create a local working branch on your comput
  http://www.microsoft.com/ems/articles/*name-of-your-article-without-the-MD-extension*
 
 **Notes:**
+<span style="color:red;">->> **Do we want to state a schedule?**  <<-</span>
 
 - At this time, technical articles are published once daily around 10 AM Pacific Standard Time (PST), Monday-Friday. Remember, your pull request has to be accepted before changes are included in the next scheduled publishing run.
 - If you are an employee working in the private repository, all pull requests are subject to validation rules that need to be addressed before the pull request can be accepted. 
 
+<!-- This section probably needs to be removed entirely. 
 ## Working with release branches
 
 When you are working with a release branch, the best way to create a local working branch from the release branch is to use this command syntax:
 
     git checkout upstream/<upstream branch name> -b <local working branch name>
 
-This creates the local branch directly from the upstream branch, avoiding any local merging.
+This creates the local branch directly from the upstream branch, avoiding any local merging. 
+-->
 
