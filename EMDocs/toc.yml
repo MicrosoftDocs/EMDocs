@@ -12,19 +12,16 @@
       items:
         - name: Understand
           href: /ATA/Understand/
-          homepage: 
+          homepage: /ATA/understand/ata-understand-and-explore.html
         - name: Plan and design 
           href: /ATA/PlanDesign/
-          homepage: 
+          homepage: /ATA/plandesign/ata-plan-and-design.html
         - name: Deploy and Use
           href: /ATA/DeployUse/
-          homepage: 
+          homepage: /ATA/deployuse/ata-deploy-and-use.html
         - name: Troubleshoot
           href: /ATA/Troubleshoot/
-          homepage: 
-        - name: Get Started
-          href: /ATA/GetStarted/
-          homepage:
+          homepage: /ATA/troubleshoot/ata-troubleshooting.html
     - name: Intune
       href: /InTune/Topic/
       homepage: /InTune/Topic/Microsoft-Intune-App-SDK.html
