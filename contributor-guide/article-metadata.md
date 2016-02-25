@@ -1,51 +1,31 @@
-<properties 
-	title="Metadata for Enterprise Mobility Suite technical articles" 
-	pageTitle="Metadata for Enterprise Mobility Suite technical articles" 
-	description="Explains the metadata required for articles." 
-	metaKeywords="" 
-	services="" 
-	solutions="" 
-	documentationCenter="" 
-	authors="v-jocgar" 
-	videoId="" 
-	scriptId="" 
-	manager="required" />
+<properties pageTitle="Metadata for Enterprise Mobility Suite technical articles" description="Explains the metadata required for articles." metaKeywords="" services="" solutions="" documentationCenter="" authors="v-jocgar" videoId="" scriptId="" manager="required" />
 
-<tags 
-	ms.service="contributor-guide" 
-	ms.devlang="" 
-	ms.topic="article" 
-	ms.tgt_pltfrm="" 
-	ms.workload="" 
-	ms.date="02/19/2016" 
-	ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
-
-#Metadata for Enterprise Mobility Suite technical articles
+# Metadata for Enterprise Mobility Suite technical articles
 
 To Do: 
+- [ ] Check all lists marked in red
 - [ ] Confirm properties to be used
-- [ ] Adopt or adapt list of Dev-centric/developer languages
-- [ ] Update the list of article types (resource types) (RobMazz #1)
-- [ ] Update list of services and ms-service list of values (RobMazz #3)
-- [ ] Update and approve list of ms.tgt_pltfrm slugs (RobMazz #2) 
-- [ ] Update and approve list of ms.devlang programming language values
-- [ ] 
-- [ ]   
+- [ ] Confirm that the instructions for each property are correct
+- [ ] Update the list of article types (resource types) (RobMazz email #1 20160218)
+- [ ] Update and approve list of ms.tgt_pltfrm slugs (RobMazz email #2 20160218) 
+- [ ] Update list of services and ms-service list of values (RobMazz email #3 20160218)
+- [ ] Update and approve list of ms.devlang programming language values (RobMazz email #4 20160218)
 
-All Azure technical articles contain two metadata sections - a properties section and a tags section. The properties section enables some website automation and SEO stuff, while the tags section enables a lot of internal content reporting. Both sections are required.
+All EMS technical articles contain two metadata sections - a properties section and a tags section. The properties section enables some website automation and SEO stuff, while the tags section enables a lot of internal content reporting. Both sections are required.
 
 - [Syntax]
 - [Usage]
 - [Attributes and values for the properties section]
 - [Attributes and values for the tags section]
 
-##Syntax
+## Syntax
 
 The properties section uses the following syntax:
 
     <properties
-       pageTitle="Page title that displays in search results and the browser tab | Microsoft Azure"
+       pageTitle="Page title that displays in search results and the browser tab | Microsoft EMS"
        description="Article description that will be displayed on landing pages and in most search results"
        services="service-name"
        documentationCenter="dev-center-name"
@@ -66,20 +46,20 @@ The tags section uses the following syntax:
        ms.date="mm/dd/yyyy"
        ms.author="Your MSFT alias or your full email address;semicolon separates two or more"/>
 
-##Usage
+## Usage
 
 - The element name and attribute names are case sensitive.
-- The <properties> section must be the first line of your file.
+- The Properties section must be the first line of your file.
 - Leave a blank line after each metadata section and before your page title to ensure that the page title is correctly converted to HTML during the publishing process.
 
 ## Attributes and values for the properties section
 
-![](./media/checkmark-small.png)**pageTitle**: Required; important to SEO. The text for this attribute appears in the browser tab and as the title in a search result. Use 55-60 characters including spaces and including the site identifier *| Microsoft Azure* (typed as: space pipe space Microsoft Azure).  The pageTitle should be different from the H1.
+![](./media/checkmark-small.png)**pageTitle**: Required; important to SEO. The text for this attribute appears in the browser tab and as the title in a search result. Use 55-60 characters including spaces and including the site identifier *| Microsoft EMS* (typed as: space pipe space Microsoft EMS).  The pageTitle should be different from the H1.
 
 ![](./media/checkmark-small.png)**description**: Required; important for SEO (relevance) and site functionality. The description should be at least 125 characters long to 155 characters maximum including spaces. Describe the purpose of your content so customers will know whether to choose it from a list of search results. The value is:
 
 - This text may be displayed as the description or abstract paragraph in search results on Google.
-- This text is displayed in [the article index results](https://azure.microsoft.com/documentation/articles/).
+- This text is displayed in <span style="color:red;">Confirm URL</span> [the article index results](http://docs.microsoft.com/ems/articles/).
 
 ![](./media/checkmark-small.png)**services**: Required for articles that deal with a service. This value is often referred to as the "service slug". List all the applicable services, separated by commas. The first service that you list will drive the navigational breadcrumbs for the page and the left navigation that is displayed with the page.
 
@@ -96,8 +76,6 @@ In articles that specify both a services value and a documentationCenter value, 
 - application-gateway
 - application-insights
 - automation
-- azure-portal
-- azure-resource-manager
 - backup
 - batch
 - best-practice
@@ -173,11 +151,10 @@ In articles that specify both a services value and a documentationCenter value, 
 
 ![](./media/checkmark-small.png)**editor**: Not used. Do not use it for other purposes.
 
-![](./media/checkmark-small.png)**tags**: Optional. Include only if you want to enable a link under the article breadcrumb to the article index page (http://azure.microsoft.com/documentation/articles/) to a prefiltered list of articles that match one of the approved values. These values are meant to provide a way to group content together when the content grouping is not service-specific. These tags can also provide labeling that indicates the technology stack the article applies to. This value **does not** support free-form tags or hashtags; the tags must be enabled on the site. You can supply multiple tags values to one article, separated by commas. The approved values are:
+![](./media/checkmark-small.png)**tags**: Optional. Include only if you want to enable a link under the article breadcrumb to the article index page <span style="color:red;">Confirm URL</span> (http://docs.microsoft.com/ems/articles/) to a prefiltered list of articles that match one of the approved values. These values are meant to provide a way to group content together when the content grouping is not service-specific. These tags can also provide labeling that indicates the technology stack the article applies to. This value **does not** support free-form tags or hashtags; the tags must be enabled on the site. You can supply multiple tags values to one article, separated by commas. The approved values are:
 
+<span style="color:red;">Confirm these tag values</span>
   - architecture
-  - azure-resource-manager
-  - azure-service-management
   - billing
   - mysql
 
@@ -185,10 +162,11 @@ In articles that specify both a services value and a documentationCenter value, 
 
 ## Attributes and values for the tags section
 
-![](./media/checkmark-small.png)**ms.service**: Required. Specifies the Azure service, tool, or feature that the article applies to. One value per page.
+![](./media/checkmark-small.png)**ms.service**: Required. Specifies the service, tool, or feature that the article applies to. One value per page.
 
  If a page applies to multiple services, choose the service to which it most directly applies; for instance, an article that uses an app hosted on web sites to demonstrate Service Bus functionality should have the **service-bus** value, rather than **web-sites**. If a page applies to multiple services equally, choose **multiple**. If a page does not apply to any services (this will be rare), choose **NA**.
 
+<span style="color:red;">Confirm these values.</span>
  - **active-directory**
  - **api-management**
  - **app-service**: Only applies to general conceptual material on App Service
@@ -198,8 +176,6 @@ In articles that specify both a services value and a documentationCenter value, 
  - **app-service-web**
  - **application-insights**
  - **automation**
- - **azure-resource-manager**
- - **azure-security**
  - **backup**
  - **batch**
  - **biztalk-services**
@@ -212,7 +188,6 @@ In articles that specify both a services value and a documentationCenter value, 
  - **iot-hub**
  - **key-vault**
  - **machine-learning**
- - **marketplace**: Articles about the Azure marketplace
  - **media-services**
  - **mobile-engagement**
  - **mobile-services**
@@ -234,7 +209,6 @@ In articles that specify both a services value and a documentationCenter value, 
  - **sql-data-warehouse**
  - **sql-reporting**
  - **storage**
- - **store**: Articles about services available through the Azure Store
  - **storsimple**
  - **traffic-manager**
  - **virtual-machines**
@@ -263,32 +237,18 @@ In articles that specify both a services value and a documentationCenter value, 
 
 ![](./media/checkmark-small.png)**ms.topic**: Required. Specifics the topic type. Most new pages created by contributors will be article or reference.
 
+<span style="color:red;">Confirm these values</span>
  - **article**: A conceptual topic, tutorial, feature guide, or other non-reference article
-
- - **campaign-page**: Azure.com only.  A page that is specifically designed as a landing page for external campaigns, and is not included as part of the primary site IA.  Should not be used for documentation articles or regular doc landing pages.  Examples: azure.microsoft.com/develop/net/aspnet/; azure.microsoft.com/develop/mobile/ios/
-
- - **dev-center-home-page**: Azure.com only.  A dev center home page, e.g. /develop/net/
 
  - **get-started-article**: assign to articles that are featured in the Get Started section of the left navigation for a service.
 
  - **hero-article**: a "hero" tutorial that is designed to provide an introduction to a service or feature that gets visitors started using the service quickly and drives free-trial sign-ups and MSDN activations. Assign this value ONLY to articles that are featured at the top of the documentation landing page for your service.
 
- - **home-page**: Top level documentation home page. We only have two: azure.microsoft.com/documentation/ and msdn.microsoft.com/library/azure/
-
- - **index-page**: Second-level landing pages for programming languages, services, or features. These are spread across Azure.com and the library, and are used as entry points for more specific, scoped information. Examples: http://azure.microsoft.com/develop/mobile/resources-wp8/, http://msdn.microsoft.com/library/azure/jj673460.aspx, http://msdn.microsoft.com/library/azure/hh689864.aspx
-
- - **infographic-page**: Azure.com only. A page that features a browsable infographic or poster, for instance http://azure.microsoft.com/documentation/infographics/windows-azure/
-
  - **reference**: An API reference page (including REST API) or PowerShell cmdlet reference page
-
- - **service-home-page**: Azure.com only.  A doc service home page, e.g. /documentation/services/virtual-machines/
-
- - **site-section-home-page**: Azure.com only. A "home page" for a particular type of content on azure.com Examples: http://azure.microsoft.com/documentation/infographics/, http://azure.microsoft.com/documentation/scripts/, http://azure.microsoft.com/documentation/videos/home/, http://azure.microsoft.com/downloads/
-
- - **video-page**: Azure.com only.  A page that features a video, for instance http://azure.microsoft.com/documentation/videos/azure-webjobs-hosting-testing-net/
 
 ![](./media/checkmark-small.png)**ms.tgt_pltfrm**: Required. Specifies the target platform, for instance Windows, Linux, Windows Phone, iOS, Android, or special cache platforms. One value per page. This value will be **NA** for most topics except mobile and virtual machines.
 
+<span style="color:red;">Confirm these values</span>
  - **cache-in-role**
  - **cache-multiple**
  - **cache-redis**
@@ -296,20 +256,20 @@ In articles that specify both a services value and a documentationCenter value, 
  - **cache-shared**
  - **command-line-interface**
  - **ibiza**: content that uses the Ibiza portal. Use this only in cases where the feature being discussed is available across both the Ibiza portal and the current portal.
- - **mobile-android**: Azure.com only right now
- - **mobile-html**: Azure.com only right now
- - **mobile-ios**: Azure.com only right now
- - **mobile-kindle**: Azure.com only right now
+ - **mobile-android** 
+ - **mobile-html**
+ - **mobile-ios**
+ - **mobile-kindle**
  - **mobile-multiple**
- - **mobile-nokia-x**: Azure.com only right now
- - **mobile-phonegap**: Azure.com only right now
- - **mobile-sencha**: Azure.com only right now
- - **mobile-windows**: Azure.com only right now; Windows Universal
+ - **mobile-nokia-x**
+ - **mobile-phonegap**
+ - **mobile-sencha**
+ - **mobile-windows**
  - **mobile-windows-phone**
  - **mobile-windows-store**
- - **mobile-xamarin**: Azure.com only right now; Xamarin all platforms
- - **mobile-xamarin-android**: Azure.com only right now
- - **mobile-xamarin-ios**: Azure.com only right now
+ - **mobile-xamarin**
+ - **mobile-xamarin-android**
+ - **mobile-xamarin-ios**
  - **multiple**: The page applies to multiple platforms equally
  - **na**: A platform specifier is not applicable for this page
  - **powershell**
@@ -321,16 +281,13 @@ In articles that specify both a services value and a documentationCenter value, 
  - **vs-getting-started**: Identifies the VS Getting Started page group. Tag added 12/1/14.
  - **vs-what-happened**: Identifies the VS Getting Started What Happened page. Tag added 12/1/14.
 
-![](./media/checkmark-small.png)**ms.workload**: Required. Specifies the Azure workload that the page applies to. One value only per article.
-
-**update 8/6/15** The ms.workload value is being mapped by an xls, not the value in the .md file. The ms.workload value is still required for validation until the feature can be updated. That work is now being scheduled.  Please use **"na"** as the value for now.
+![](./media/checkmark-small.png)**ms.workload**: Required. Specifies the workload to which the page applies. One value only per article. 
 
 ![](./media/checkmark-small.png) **ms.date**: Required. Specifies the date the article was last reviewed for relevance, accuracy, correct screen shots, and working links. Enter the date in mm/dd/yyyy format. This date also appears on the published article as the last updated date.
 
 ![](./media/checkmark-small.png) **ms.author**: Required. Specifies the author(s) associated with the topic. To specify multiple values you should separate them with semicolons. Either Microsoft aliases or complete email addresses are acceptable. The length can be no longer than 200 characters.
 
-
-### Back to Home
+## Back to Home
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)

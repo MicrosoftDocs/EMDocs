@@ -107,17 +107,18 @@ If you are a Microsoft employee working on EMS content, you should work in our p
 
 ## Install Git for Windows
 
-Install Git for Windows from [http://git-scm.com/download/win](http://git-scm.com/download/win). This download installs the Git version control system, and it installs Git Bash, the command-line app that you will use to interact with your local Git repository.
+Install **Git for Windows** from [http://git-scm.com/download/win](http://git-scm.com/download/win). This download installs the Git version control system, and it installs Git Bash, the command-line app that you will use to interact with your local Git repository.
 
+**Note**
+This program is not the same as "Github for Windows". "Github for Windows" is a different GUI-based tool that will also work if you want to read up on yourself. [https://windows.github.com/](https://windows.github.com/)) 
+
+During setup you have the opportunity to select how you'll interact with the Github repository. We recommend that you use Git from Git Bash only. 
  ![GitHub profile example](./media/gitbashinstall.png)
 
-(Note: This program is not the same as "Github for Windows". "Github for Windows" is a different GUI-based tool that will also work if you want to read up on yourself. [https://windows.github.com/](https://windows.github.com/)) 
 
 ## Enable two-factor authentication
 
-You have to enable two factor authentication (2FA) on your GitHub account if you are working in the private content repository: it's required.
-
-To enable this, follow the instructions in both the following GitHub help topics:
+You have to enable two factor authentication (2FA) on your GitHub account if you are working in the private content repository: it's required. To enable this, follow the instructions in both the following GitHub help topics:
 
 - [About Two-Factor Authentication](https://help.github.com/articles/about-two-factor-authentication/)
 
@@ -132,15 +133,13 @@ The personal access token authenticates you and the computer you're working on t
 
 ## Install a markdown editor
 
-We author content using simple "markdown" notation in the files, rather than complex "markup" (HTML, XML, etc.). So, you'll need to install a Markdown editor.
+We author content using simple "markdown" notation in the files, rather than complex "markup" (HTML, XML, etc.). So, you'll need to install a Markdown editor. We do use the Github-flavored Markdown. 
 
-- **Atom**: Most of us use GitHub's Atom Markdown editor: [http://atom.io](http://atom.io). It does not require a license for business use. It has spell check. 
-
+- **Atom**: Most contribtors use GitHub's Atom Markdown editor: [http://atom.io](http://atom.io). It does not require a license for business use and it has spell check. 
 - **Notepad**: You can use Notepad for a very lightweight option.
-
 - **Prose**: This is a lightweight, elegant, on-line, and open source markdown editor that offers a preview. Visit [http://prose.io](http://prose.io) and authorize Prose in your repository.
-
 - **[Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx)** - Microsoft's entry in this space.
+- **MarkdownPad 2**: You can use MarkdownPad 2 for free, but if you purchase a license, you can take advantage of the Github-flavored Markdown rendering in the Live Preview.  
 
 ## Configure the Atom Markdown editor
 

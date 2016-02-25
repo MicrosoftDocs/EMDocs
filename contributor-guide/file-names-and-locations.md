@@ -1,28 +1,11 @@
-<properties title="" 
-	pageTitle="File names and locations for EMS technical articles" 
-	description="Explains the file structure for articles and the naming conventions you should follow when you create a new article." 
-	metaKeywords="" 
-	services="" 
-	solutions="" 
-	documentationCenter="" 
-	authors="tysonn" videoId="" 
-	scriptId="" 
-	manager="required" />
+<properties pageTitle="File names and locations for EMS technical articles" description="Explains the file structure for articles and the naming conventions you should follow when you create a new article." metaKeywords="" services="" solutions="" documentationCenter="" authors="tysonn" videoId="" scriptId="" manager="required" />
 
-<tags 
-	ms.service="contributor-guide" 
-	ms.devlang="" 
-	ms.topic="article" 
-	ms.tgt_pltfrm="" 
-	ms.workload="" 
-	ms.date="02/19/2016" 
-	ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm=""  ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
-#File names and locations for EMS technical articles
+# File names and locations for EMS technical articles
 To Do: 
 - [ ] Pull in the services slugs for examples
-- [x] Identify file structure, will there be sub-folders other than media? No, all images and documents go into the /media sub-folder. 
-- [x] Remove paragraphs on Azure portal and Marketplace, or substitute EMS equivalent 
+- [ ] Confirm all the items marked in red
 
 In our technical content repository, we use a single folder (the **articles** folder) for all articles. There's no folder hierarchy - all articles live in the flat file structure. If you create folders with articles in them, your articles can't be published.
 
@@ -48,12 +31,13 @@ Here's what you need to know:
 
 Here's the general naming pattern:
 
+<span style="color:red;">Need confirmation on this file naming pattern.</span>
  **service-platform-language-content-product-version.md**
 
 Use the parts of the pattern that apply, and review the list of articles in the repository to get an idea of existing names. 
 
 ## Examples
-<span style="color:red;">->> **Need replacement examples for this section from docs.microsoft.com/ems**  <<-</span>
+<span style="color:red;"> **Need replacement examples for this section from docs.microsoft.com/ems**  </span>
 
 Here are a few examples of valid names that follow the pattern:
 

@@ -1,24 +1,6 @@
-<properties 
-	title="" 
-	pageTitle="Writing EMS documentation - style and voice" 
-	description="Style and voice information to help you create technical content for the EMS documentation center." 
-	metaKeywords="" 
-	services="" 
-	solutions="" 
-	documentationCenter="" 
-	authors="v-jocgar" 
-	videoId="" 
-	scriptId="" 
-	manager="robmazz" />
+<properties pageTitle="Writing EMS documentation - style and voice" description="Style and voice information to help you create technical content for the EMS documentation center." metaKeywords="" services="" solutions="" documentationCenter="" authors="v-jocgar" videoId="" scriptId="" manager="robmazz" />
 
-<tags 
-	ms.service="contributor-guide" 
-	ms.devlang="" 
-	ms.topic="article" 
-	ms.tgt_pltfrm="" 
-	ms.workload="" 
-	ms.date="02/19/2016" 
-	ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
 # Writing EMS documentation - style and voice
 

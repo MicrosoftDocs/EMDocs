@@ -1,32 +1,14 @@
-<properties
-	title="Steps to follow when you retire or change the name of an EMS technical article" 
-	pageTitle="Steps to follow when you retire or change the name of an EMS technical article" 
-	description="Steps to follow when you retire or change the name of an EMS technical article." 
-	metaKeywords="" 
-	services="" 
-	solutions="" 
-	documentationCenter="" 
-	authors="v-jocgar" 
-	videoId="" 
-	scriptId="" 
-	manager="robmazz" />
+<properties pageTitle="Steps to follow when you retire or change the name of an EMS technical article" description="Steps to follow when you retire or change the name of an EMS technical article." metaKeywords="" services="" solutions="" documentationCenter="" authors="v-jocgar" videoId="" scriptId="" manager="robmazz" />
 
-<tags 
-	ms.service="contributor-guide" 
-	ms.devlang="" 
-	ms.topic="article" 
-	ms.tgt_pltfrm="" 
-	ms.workload="" 
-	ms.date="02/19/2016" 
-	ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
 # Steps to follow when you retire or change the name of an EMS technical article
 To do:
 - [ ] Confirm this is how retiring content will work for EMS
-- [ ] Get the link for the EMS docs landing page
-- [ ] Do we use FWLink tool?
-- [ ] Compare/contrast with internal update/retire content content in EM Pilot Style Guide
 - [ ] How closely do these procedures model the internal process? Is this guide for external writers only? 
+- [ ] Get the link for the EMS docs landing page
+- [ ] Do we use FWLink tool? If not, remove Step 3
+- [ ] Confirm the URLs marked in red
 
 This guidance is for SMEs who are listed as the author of an article that needs to be retired from the technical documentation section of docs.microsoft.com/ems. The steps also apply if a file is renamed.
 
@@ -61,16 +43,17 @@ Determine if there are any non-Microsoft inbound links to your content. Quite of
 3. Add and commit all your changes, push them to your origin, and create a pull request to move your changes from your origin to the master branch of the main repository.
 
 ## Step 3: Update the FWLink tool
+<span style="color:red;">Confirm that this step is necessary or required.</span>
 
 Check the FWLink tool for any FWLinks that might point to the article. Point any FWLinks at replacement content; if you are not on the alias that owns the link, join it. If the owners won't update the link, file a ticket with MSCOM to have the link changed. 
 
 ## Step 4: Remove all cross-links 
 
-If there are to the article from other pages on docs.microsoft.com/ems, you need to remove them and create a redirect for the retired page, if appropriate. You'll have to work with the person who maintains and updates the documentation landing page for your service for this part. Contact your content team partner if you don't know who that person is. The person who maintains and updates the doc landing page will need to do two things:
+If there are to the article from other pages on <span style="color:red;">Confirm this URL</span> http://docs.microsoft.com/ems, you need to remove them and create a redirect for the retired page, if appropriate. You'll have to work with the person who maintains and updates the documentation landing page for your service for this part. Contact your content team partner if you don't know who that person is. The person who maintains and updates the doc landing page will need to do two things:
 
-1. In Visual Studio, scan the **entire** EMS web solution for cross references to the file to retire. Remove the cross references, or replace them with an updated cross reference. You'll need to remove the HTML links as well as the related resource strings for the HTML links. More info - see the [*Need replacement link for service landing page*](need service landing page for left nav)
+1. In Visual Studio, scan the **entire** EMS web solution for cross references to the file to retire. Remove the cross references, or replace them with an updated cross reference. You'll need to remove the HTML links as well as the related resource strings for the HTML links. More info - see the <span style="color:red;">Get a replacement link</span> [Replacement link for service landing page](need service landing page for left nav)
 
-2. If a replacement article exists, create a redirect. More info - see the [*Need replacement Link for Removing Published Pages*](location of replacement topic on retiring pages).
+2. If a replacement article exists, create a redirect. More info - see the <span style="color:red;">Confirm the URL</span> [Replacement Link for Removing Published Pages](location of replacement topic on retiring pages).
 
 3. Check the changes into the repository.
 
