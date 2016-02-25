@@ -1,31 +1,11 @@
-<properties
-	title="Create tables in markdown"
-	pageTitle="Create tables in markdown for EMS articles"
-	description="Explains how to code tables in markdown."
-	metaKeywords=""
-	services=""
-	solutions=""
-	documentationCenter=""
-	authors="v-jocgar"
-	videoId=""
-	scriptId=""
-	manager="robmazz" />
+<properties title="Create tables in markdown" pageTitle="Create tables in markdown for EMS articles" description="Explains how to code tables in markdown." metaKeywords="" services="" solutions="" documentationCenter="" authors="v-jocgar" videoId="" scriptId="" manager="robmazz" />
 
-<tags
-	ms.service="contributor-guide"
-	ms.devlang=""
-	ms.topic="article"
-	ms.tgt_pltfrm=""
-	ms.workload=""
-	ms.date="02/19/2016"
-	ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
-# Create tables in markdown
+# Create tables in Markdown
 
 To Do:
-- [ ] Add Note syntax to the Note below.
-- [ ]
-- [ ]   
+- [ ] Add the custom Markdown Note syntax to the Note below.
 
 Tables in articles should be used sparingly. Only use them if the data is truly tabular.
 
@@ -59,10 +39,6 @@ If you use HTML tables and your Markdown is not rendering between the two tables
 
 For a quick and easy way to create tables in markdown, try the Markdown tables generator: http://www.tablesgenerator.com/markdown_tables
 
-<!--
-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables
-- http://michelf.ca/projects/php-markdown/extra/#table
--->
 
 ## Back to Home
 

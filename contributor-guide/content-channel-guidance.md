@@ -1,49 +1,23 @@
-<properties title="" 
-	pageTitle="EMS technical content channel guidance" 
-	description="Describes the Microsoft content channels that employees, partners, and community contributors should use for publishing technical content for the Enterprise Mobility Suite." 
-	metaKeywords="" 
-	services="" 
-	solutions="" 
-	documentationCenter="" 
-	authors="v-jocgar" 
-	videoId="" 
-	scriptId="" 
-	manager="robmazz" />
+<properties	pageTitle="EMS technical content channel guidance" description="Describes the Microsoft content channels that employees, partners, and community contributors should use for publishing technical content for the Enterprise Mobility Suite." metaKeywords="" services="" solutions="" documentationCenter="" authors="v-jocgar" videoId="" scriptId="" manager="robmazz" />
 
-<tags 
-	ms.service="contributor-guide" 
-	ms.devlang="" 
-	ms.topic="article" 
-	ms.tgt_pltfrm="" 
-	ms.workload="" 
-	ms.date="02/19/2016" 
-	ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
-#Enterprise Mobility Suite technical content channel guidance
+# Enterprise Mobility Suite technical content channel guidance
 To Do:
-- [ ] Find out where the EMS documentation will be housed -- Need starting URL
+- [x] Find out where the EMS documentation will be housed -- Need starting URL
 - [ ] Determine whether there will be an EMS-specific area in MSDN, or if Servers and Enterprise Development is the right spot. 
-- [ ] Create a Content Channel document for EMS (what goes where)
-- [ ] Evaluate the bulleted list at the bottom to see if it is applicable here
+- [ ] Create a Content Channel chart for EMS (What goes where)
 
-##aka: What goes where?
-Generally speaking, core technical content for the Enterprise Mobility Suite belongs in the EMS Documentation Center ([doesn't exist yet](http://docs.microsoft.com)) or in the Servers and Enterprise Development library in MSDN ([replace once there is an EMS area](https://msdn.microsoft.com/en-us/library/aa155072.aspx)). 
+
+## aka: What goes where?
+Generally speaking, core technical content for the Enterprise Mobility Suite belongs in the EMS Documentation Center <span style="color:red;">Confirm URL</span> ([doesn't exist yet](need actual URL)) or in the Servers and Enterprise Development library in MSDN <span style="color:red;">Confirm URL</span> ([replace once there is an EMS area](need actual URL)). 
 
 Click the image to open the PDF that contains details for our technical content channel guidance:
- 
-[Need to create a content channel document for EMS]
 
-<!--  
-[![](./media/content-channels-small.png)](./media/channel-guidance.pdf?raw=true)-->
+<span style="color:red;">Need to create a content channel document for EMS: replace the thumbnail below and the corresponding PDF file.</span>
 
-The following channels are/are not part of the EMS technical content experience: [**EVALUATE**]
-
-- **TechNet Library**: TechNet does not offer an Azure branded experience. All content for all audiences goes in the branded, scoped Azure library hosted on MSDN.
-- **TechNet Wiki**: The wiki does not offer an Azure branded experience. The community and internal partners can contribute to Azure technical content through the Discus comment stream and by contributing to articles through GitHub.
-- **Standard MSDN library view**: Standard view does not offer an Azure branded experience.
-- **TechNet TechCenters**: Our "centers" are published to azure.microsoft.com/documentation.
-- **MSDN DevCenters**: Our "centers" are published to azure.microsoft.com/documentation.
-- **E-book, CSI e-book gallery**: Due to static nature of content, do not deliver content in e-book form. The vast majority of content should be published through azure.microsoft.com or to the Azure scoped library. 
+  
+[![](./media/content-channels-small.png)](./media/channel-guidance.pdf?raw=true)
 
 
 

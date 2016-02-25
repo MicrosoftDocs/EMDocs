@@ -1,7 +1,7 @@
 <properties
     title="required"
     pageTitle="Custom markdown extensions used in our technical articles"
-    description="Lists the custom markdown extensions that enable embedded videos, notes and tips, reusable content, and other item in azure.microsoft.com technical articles."
+    description="Lists the custom markdown extensions that enable embedded videos, notes and tips, reusable content, and other item in docs.microsoft.com/ems technical articles."
     services=""
     solutions=""
     documentationCenter=""
@@ -15,20 +15,22 @@
     ms.topic="article"
     ms.tgt_pltfrm=""
     ms.workload=""
-    ms.date="02/19/2016"
+    ms.date="02/24/2016"
     ms.author="v-jocgar"/>
 
 ## Markdown for Microsoft.com/ems
 To Do:
 - [x] Confirm that we're using Markdown extensions for Note, Important, etc. 
 - [x] Confirm that we'll use include files. ** Known as Tokens **
+- [ ] Confirm that the custom icon files are available and installed in the correct location.
 - [ ] Confirm that Selectors are available to EMS articles
 - [ ] Replace Selectors section with examples for selectors from docs.microsoft.com/ems  
 - [ ] Will contributors be able to submit videos? 
+- [ ] Confirm URLs marked in red
 
 For general markdown tips, see [Markdown Basics](https://help.github.com/articles/markdown-basics/) and our [markdown cheatsheet](./media/ems-markdown-cheat-sheet.pdf?raw=true). If you need to create article cross-links in markdown, see the [linking guidance] (./authoring-in-markdown.md#guidelines-for-linking-technical-articles-on-docs.microsoft.com) in the Authoring for EMS in Markdown topic.
 
-The website docs.microsoft.com supports [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks) and [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting). However, EMS supports only one syntax highlighting color scheme, regardless of the language you specify in a code block.
+The website <span style="color:red;">Confirm URL</span> http://docs.microsoft.com/ems supports [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks) and [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting). However, EMS supports only one syntax highlighting color scheme, regardless of the language you specify in a code block.
 
 ## Custom markdown extensions used in our technical articles
 
@@ -51,19 +53,19 @@ You can choose from 4 types of notes and tips:
 ### Usage
 In general, use notes and tips sparingly throughout your articles. When you do use them, choose the appropriate type of note or tip:
 
-- Use AZURE.NOTE to highlight neutral or positive information that emphasizes or supplements key points of the main text. A note supplies information that applies only in special cases.
+- Use EMS.NOTE to highlight neutral or positive information that emphasizes or supplements key points of the main text. A note supplies information that applies only in special cases.
 
   ![](./media/notes-note.png)
 
-- Use AZURE.WARNING to alert the user to a condition that might cause a problem in the future. For example, selecting a certain option or making a certain choice might permanently lock you into a particular scenario.
+- Use EMS.WARNING to alert the user to a condition that might cause a problem in the future. For example, selecting a certain option or making a certain choice might permanently lock you into a particular scenario.
 
   ![](./media/notes-warning.png)
 
-- Use AZURE.TIP to help your users apply the techniques and procedures described in the text to their specific needs. A tip might also suggest alternative methods that may not be obvious. Tips, however, are not essential to the basic understanding of the text.
+- Use EMS.TIP to help your users apply the techniques and procedures described in the text to their specific needs. A tip might also suggest alternative methods that may not be obvious. Tips, however, are not essential to the basic understanding of the text.
 
   ![](./media/notes-tip.png)
 
-- Use AZURE.IMPORTANT to provide information that is essential to the completion of a task.
+- Use EMS.IMPORTANT to provide information that is essential to the completion of a task.
 
   ![](./media/notes-important.png)
 
@@ -71,7 +73,7 @@ While these notes and tips support code blocks, images, lists, and links, try to
 
 ###Sample markdown
 
-The samples all show an AZURE.NOTE. To use a TIP, WARNING, or IMPORTANT, replace "NOTE" in the markdown:
+The samples all show an EMS.NOTE. To use a TIP, WARNING, or IMPORTANT, replace "NOTE" in the markdown:
 
     > [EMS.TIP]
 
@@ -81,23 +83,23 @@ The samples all show an AZURE.NOTE. To use a TIP, WARNING, or IMPORTANT, replace
 
 Single paragraph:
 
-    > [EMS.NOTE] To complete this tutorial, you must have an active Microsoft Azure account. If you don't have an account, you can create a free trial account in just a couple of minutes.
+    > [EMS.NOTE] To complete this tutorial, you must have an active Microsoft account. If you don't have an account, you can create a free account in just a couple of minutes.
 
 Multiparagraph:
 
-    > [EMS.NOTE] To complete this tutorial, you must have an active Microsoft Azure account.
+    > [EMS.NOTE] To complete this tutorial, you must have an active Microsoft account.
     >
-    > If you don't have an account, you can [create a free trial account](http://www.windowsazure.com/pricing/free-trial/) in just a couple of minutes.
+    > If you don't have an account, you can [create a free account](https://signup.live.com/signup) in just a couple of minutes.
 
-## Includes
+## Tokens
+<span style="color:red;">Confirm that EMS is using tokens, and the correct directory location.</span>
+Reusable text fragments in our GitHub repository are called "tokens". When you have text that needs to be used in multiple articles, you include a reference to the text fragments in the markdown files. The text fragment (the include) itself is a simple markdown (.md) file. It can contain any valid markdown, including text, links, and images. All include markdown files must be in <span style="color:red;">Confirm the directory name</span> [the /tokens directory](need correct location) in the root of the repository. When the article is published, the include text is seamlessly integrated into the published topic.
 
-Reusable text fragments in our GitHub repository are called "includes". When you have text that needs to be used in multiple articles, you include a reference to the text fragments in the markdown files. The text fragment (the include) itself is a simple markdown (.md) file. It can contain any valid markdown, including text, links, and images. All include markdown files must be in [the /includes directory](need correct location) in the root of the repository. When the article is published, the include text is seamlessly integrated into the published topic.
+- We use a specific syntax to reference a token.
 
-- We use a specific syntax to reference an include.
+- Media files you put in an include must be created in a media folder specific to the include. Media folders for includes belong in <span style="color:red;">Confirm the directory name</span> [the ems-content/tokens/media folder](need correct location). The media directory should not contain any images in its root. If the include does not have images, then a corresponding media directory is not required.
 
-- Media files you put in an include must be created in a media folder specific to the include. Media folders for includes belong in [the ems-content/includes/media folder](need correct location). The media directory should not contain any images in its root. If the include does not have images, then a corresponding media directory is not required.
-
-### Usage
+## Usage
 
 - Use includes wherever you need the same text to appear in multiple articles.
 - Includes are meant to be used for significant amounts of content - a paragraph or two, a shared procedure, or a shared section. Do not use them for anything smaller than a sentence; they are not for product names or incomplete sentences.
@@ -106,19 +108,19 @@ Reusable text fragments in our GitHub repository are called "includes". When you
 - Don't use an includes as the only content of an article.  Includes are meant to be supplemental to the content in the rest of the article.
 - Because all includes must be in the /includes directory, the path to an include from an article is always
 
-    ../includes
+    ../tokens
 
-- Do NOT repeat a link or image filename reference in both the article and the include. Add "-include" to the link reference or media filename to avoid repeating the reference:
+- Do NOT repeat a link or image filename reference in both the article and the include. Add "-token" to the link reference or media filename to avoid repeating the reference:
 
  **Link reference**
 
  Change: odata.org
- To: odata.org-include
+ To: odata.org-token
 
  **Image reference**
 
  Change: table.png
- To: table-include.png
+ To: table-token.png
 
 ### Sample markdown
 The syntax for adding an include to a documentation article is:
@@ -135,9 +137,9 @@ The first part of the include is the include name without the path and without t
 
 In the rendered GitHub page, the include will render as follows:
 
- [AZURE.INCLUDE howto-blob-storage]
+ [EMS.TOKEN howto-blob-storage]
 
-In the rendered HTML on azure.microsoft.com, the HTML from the includes is merged into the rest of the document's HTML. However, the HTML will contain an HTML comment with the original include markdown filename and the GitHub commit hash. This comment is included for troubleshooting purposes so that the source content can easily be identified and found in GitHub:
+In the rendered HTML on <span style="color:red;">Confirm URL</span> http://docs.microsoft.com/ems, the HTML from the includes is merged into the rest of the document's HTML. However, the HTML will contain an HTML comment with the original include markdown filename and the GitHub commit hash. This comment is included for troubleshooting purposes so that the source content can easily be identified and found in GitHub:
 
   ![](./media/include.png)
 
@@ -173,6 +175,7 @@ Because the same selector markdown goes in each topic in the selection, we recom
 
 Simple (one-way) selectors render as a set of option buttons right below the title. Use these buttons when customers need to choose from topics in a single platform or technology set, such as .NET, Node.js, and Java.  Use the custom markdown extension for any selectors - do not use HTML for selectors.  
 
+<span style="color:red;">Need a replacement example; leaving this here for reference.</span>
 See [Get started with Notification Hubs](http://azure.microsoft.com/documentation/articles/notification-hubs-windows-phone-get-started/) to see how the author created 8 versions of the same article, but used selectors to enable navigation across them all.
 
 ![Simple selector example](./media/selectors.png)
@@ -183,7 +186,7 @@ See [Get started with Notification Hubs](http://azure.microsoft.com/documentatio
     - [Link #1 Label](link #1 url)
     - [Link #2 Label](link #2 url)
 
-Example:
+#### Example
 
     > [EMS.SELECTOR]
     - [Windows Runtime 8.1 Universal](../articles/notification-hubs-windows-store-dotnet-get-started/)
@@ -198,16 +201,18 @@ Example:
 
 #### Rendering
 
+<span style="color:red;">Need a replacement example; leaving this here for reference.</span>
 The image above shows the rendering on azure.microsoft.com. On the rendered GitHub pages, the selectors render as a bulleted list of links.
 
 ### <a id="two-way-selectors"></a>Two-way selectors
 
-Two-way selectors lets users select a topics from a two way matrix. This is essential when an Azure technology, such as Mobile Services, supports multiple backend platforms as well as multiple clients. Keep in mind the following:
+Two-way selectors lets users select a topics from a two way matrix. This is essential when an EMS technology, such as Mobile Services, supports multiple backend platforms as well as multiple clients. Keep in mind the following:
 
 - While it was designed as `(Platform | Backend)`, the dropdown text can now be customized.
 - You do not need a list item for every point in your matrix, but do only have an item where a topic URL exists and is not a duplicate.
 - The link can be any URL, although it is generally another GitHub topic.
 
+<span style="color:red;">Need a replacement example; leaving this here for reference.</span>
 See [Get started with Mobile Services](http://azure.microsoft.com/en-us/documentation/articles/mobile-services-ios-get-started/) to see how the author created 15 versions of the same article (9 mobile client platforms and 2 backend platforms), but used selectors to enable navigation across them all. Note that 3 articles don't have both backend versions.
 
 ![Two-way selectors example](./media/selector-list.png)
@@ -220,7 +225,7 @@ See [Get started with Mobile Services](http://azure.microsoft.com/en-us/document
 	- [(Dropdown1Text2 | Dropdown2Text3 )](../articles/dropdown1-text1-dropdown2-text1.md)
 	- [(Dropdown1Text3 | Dropdown2Text4 )](../articles/dropdown1-text1-dropdown2-text1.md)
 
-Example:
+#### Example
 
 	> [AZURE.SELECTOR-LIST (Platform | Backend )]
 	- [(iOS | .NET)](./mobile-services-dotnet-backend-ios-get-started-push.md)
@@ -239,7 +244,7 @@ Example:
 
 #### Rendering
 
-The image above shows the rendering on azure.microsoft.com. On the rendered GitHub pages, the selectors render as a bulleted list of links.
+The image above shows the rendering on <span style="color:red;">Need a replacement example; leaving this here for reference.</span> azure.microsoft.com. On the rendered GitHub pages, the selectors render as a bulleted list of links.
 
 <!--Anchors-->
 [Notes and tips]: #notes-and-tips

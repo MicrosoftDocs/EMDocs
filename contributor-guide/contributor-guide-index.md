@@ -1,30 +1,13 @@
-<properties title="" 
-	pageTitle="Enterprise Mobility Suite technical content contributors' guide index" 
-	description="Lists the articles available in the EMS technical content contributors' guide for microsoft.com/ems." 
-	metaKeywords="" 
-	services="" 
-	solutions="" 
-	documentationCenter="" 
-	authors="v-jocgar" 
-	videoId="" 
-	scriptId="" 
-	manager="robmazz" />
+<properties pageTitle="Enterprise Mobility Suite technical content contributors' guide index" description="Lists the articles available in the EMS technical content contributors' guide for microsoft.com/ems." metaKeywords="" services="" solutions="" documentationCenter="" authors="v-jocgar" videoId="" scriptId="" manager="robmazz" />
 
-<tags 
-	ms.service="contributor-guide" 
-	ms.devlang="" 
-	ms.topic="article" 
-	ms.tgt_pltfrm="" 
-	ms.workload="" 
-	ms.date="02/19/2016" 
-	ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
-#Enterprise Mobility technical content contributors' guide index
+# Enterprise Mobility technical content contributors' guide index
 To Do: 
-- [x] Recreate the PDF cheat sheet for our purposes
-- [ ] Confirm that we're using custom markdown extensions for Note, Important, etc. 
+- [ ]
+- [ ]
 
-##General guidance
+## General guidance
 
 - [Contribute to Enterprise Mobility Suite documentation](./../README.md)
 - [Content channel guidance](./content-channel-guidance.md)
@@ -33,25 +16,24 @@ To Do:
 - [Metadata for Azure technical articles](./article-metadata.md)
 
 ## Setting up your computer for Github
-- [Tools and setup for authoring in GitHub](./tools-and-setup.md)
-- [Git commands for creating a new article or updating an existing article](./git-commands-for-master.md)
+- [Install and set up tools for authoring in GitHub](./tools-and-setup.md)
+- [Working with Git](./work-with-git.md)
 
-##Authoring articles using Markdown
+## Authoring articles using Markdown
 
-###Getting started with Markdown
+### Getting started with Markdown
 - [Markdown basics](https://help.github.com/articles/markdown-basics/)
 - [Printable markdown cheatsheet](https://github.com/Azure/azure-content/blob/master/contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
 - [GitHub-flavored markdown](https://help.github.com/articles/github-flavored-markdown/)
 
-###Writing for EMS in Markdown
+### Writing for EMS in Markdown
 - [Authoring in Markdown](./authoring-in-markdown.md)
-  - [Create images in markdown](./create-images-markdown.md)
-  - [Linking guidelines](./create-links-markdown.md/)
 - [Create tables in markdown](./create-tables-markdown.md)
 - [Custom markdown extensions used in our technical articles](./custom-markdown-extensions.md)
 - [Retire or rename an article](./retire-or-rename-an-article.md)
+- [Markdown cheat sheet](./media/ems-markdown-cheat-sheet.pdf)
 
-##Additional Reading
+## Additional Reading
 - [How to undo almost anything with Git (GitHub blog)](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 
 
