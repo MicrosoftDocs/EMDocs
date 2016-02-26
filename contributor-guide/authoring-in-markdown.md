@@ -1,32 +1,45 @@
 <properties pageTitle="Authoring for EMS in Markdown" description="Explains how to create images in markdown according to guidelines set for the Enterprise Mobility Suite repositories." services=""     solutions="" documentationCenter="" authors="v-jocgar" manager="robmazz" />
 
-<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm=""  ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm=""  ms.workload="" ms.date="02/25/2016" ms.author="v-jocgar" />
 
 # Authoring for EMS in Markdown
 
 To Do: 
-- [ ] Confirm EMS article repo layout for links
-- [ ] Find the URL to the EMS documentation and incorporate
-- [ ] Test the linking scheme to ensure that it works correctly
+- [ ] Confirm EMS article layout for images /articles/<service-directory>/media
+- [ ] Provide an example for /articles/<service-directory>/media
+- [ ] Confirm the max width for images in EMS doc page center column (580 or 600px?) in 3 paragraphs
 - [ ] Confirm whether EMS has a different set of symbols for conceptual art other than those offered at http://aka.ms/CnESymbols. 
-- [ ] 
-
+- [ ] Confirm URL for our Contributor's Guide
+- [ ] Confirm the entire linking scheme
+- [ ] Are articles organized by service subdirectories?
+- [ ] Anchor linking methodology needs to be confirmed
+- [ ] Confirm the linking methodology and use of selectors.
+- [ ] Test the linking scheme to ensure that it works correctly
 
 This article contains pointers about how to write technical articles for EMS services and technologies. These guidelines apply whether you are creating new documentation or updating existing documentation.
 
 ## Why write for EMS?
-To be written...
+
+The Microsoft Enterprise Mobility Suite (EMS) was created specifically to help address today's move to integrated, mobile, cloud-based services. Its three core components -- Microsoft Azure Active Directory Premium, Microsoft Intune, and Microsoft Azure Rights Management -- were built from the start as cloud services. They were designed to work together, providing an integrated technology family that's unlike any other on the market. To detect attacks on-premises, EMS also includes Microsoft Advanced Threat Analytics. Using EMS, corporate users can be productive on the devices they love while you’re protecting company assets.
+
+Creating documentation for individual products is always a priority. But because EMS is a suite of products, we are also looking for articles and how-to documents that help our customers use the products well together. We do create documentation for cross-product scenarios, but we welcome the input of employees and users who are hands-on with these products within their own companies.
+
+As a result, we've opened up our documentation on Github, where you can contribute in a number of ways:
+- **Correcting text mistakes.** We know, they drive us crazy too, but we don't always catch them, so get connected through Github, and help us out.
+- **Suggesting new topics.** If there's a procedure or subject that comes up often enough to deserve a doc topic and we don't have it, by all means write it up, and we'll see about including it.
+- **Adding to our FAQ.** If you find yourself wondering about something we don't cover but it's a question/answer situation rather than a whole topic, submit an addition to the FAQ, and let us have a look at it. 
+
+The bottom line is, we know you have great suggestions and ideas, and we want to make it easy for you to participate in improving EMS overall. 
 
 ## Tips for better articles
 
-As you write, keep the following in mind:
+As you write for EMS, keep the following in mind:
 
 **Practices specific to EMS**
-- The official product name is "Microsoft Enterprise Mobility Suite", but we can almost always just say "EMS", as in "EMS Mobile Services".
-- Use "EMS" at first reference before a service or feature name and then drop it (e.g. "EMS Mobile Services" becomes "Mobile Services" after first use). 
+- The official product name is "Microsoft Enterprise Mobility Suite", but we can almost always just say "EMS", as in "EMS Cloud Identity and Access Management."
+- Use "EMS" at first reference before a service or feature name and then drop it (e.g. "EMS Cloud Identity and Access Management" becomes "Cloud Identity and Access Management" after first use). 
 - EMS uses sentence casing for all titles. 
 - Try to avoid acronyms in general - they just confuse people.
-- Use "sign in" and not "log in."
 
 **Good writing practices**
 - Use a casual and friendly voice--like you were talking to another person one-on-one. See the [Style and Voice topic](./style-and-voice.md) for details.
@@ -44,14 +57,14 @@ You can include images with your articles by following the simple Markdown synta
 ### Image folder creation and link syntax
 
 For a new article, you'll need to create a folder in the following location:
-<span style="color:red;">Confirm URL</span>
+<span style="color:red;">Confirm article repo layout for images</span>
 
     /articles/<service-directory>/media/
 
 For example:
-<span style="color:red;">Confirm URL</span>
+<span style="color:red;">Provide an example</span>
 
-    /articles/app-service/media/app-service-enterprise-multichannel-apps/
+    /articles/identity-access/media/
 
 After you create the folder and added images to it, use the following syntax to create images in your article:
 
@@ -84,29 +97,29 @@ Use the following guidelines when creating and including art files:
   - Select Line  and ensure the the correct color is set. 
   - Change the line weight to 1 1/2 pt.  
 
-    Example:
+	**Example:**
 
     ![This is an example of a gray border around whitespace.](./media/agent-700w.png)
 
 - Conceptual images with white space do not need a gray border.  
 
-    Example:
+    **Example:**
 
     ![This is an example of a conceptual image with whitespace and no gray border.](./media/ic727360.png)
 
-- Try not to make an image too wide. Images will be automatically resized if they are too wide. However, the resizing sometimes causes fuzziness, so we recommend that you limit the width of your images to <span style="color:red;">Max image width is confirmed</span> 580 px, and manually resize images before submission if necessary.
+- Try not to make an image too wide. Images will be automatically resized if they are too wide. However, resizing an image sometimes causes fuzziness, so we recommend that you limit the width of your images to <span style="color:red;">Confirm max image width</span> 580 px, and manually resize images before submission if necessary.
 
-- Show command outputs in screenshots.  If your article includes steps where the user is working within a shell, it's useful to show command output in screenshots. In this case, restricting your shell width to about 72 characters generally ensures that your image will remain within the 780 px width guideline. Before taking a screenshot of output, resize the window so that just the relevant command and output is shown (optionally with a blank line on either side).
+- Show command outputs in screenshots.  If your article includes steps where the user is working within a shell, it's useful to show command output in screenshots. In this case, restricting your shell width to about 72 characters generally ensures that your image will remain within the <span style="color:red;">Confirm max image width</span> 580 px width guideline. Before taking a screenshot of output, resize the window so that just the relevant command and output is shown (optionally with a blank line on either side).
 
-- Take whole screenshots of windows when possible. When taking a screenshot of a browser window, resize your browser window to 580 px wide or less, and keep the height of the browser window as short as possible such that your application fits within the window.
+- Take whole screenshots of windows when possible. When taking a screenshot of a browser window, resize your browser window to <span style="color:red;">Confirm max image width</span> 580 px wide or less, and keep the height of the browser window as short as possible such that your application fits within the window.
 
     Example:
 
     ![This is an example of a browser window screenshot.](./media/helloworldlocal.png)
 
-- Use caution with what information is revealed in screenshots.  Do not reveal internal company information or personal information.
+- Use caution with what information is revealed in screenshots. Be sure not to reveal internal company information or your personal information.
 
-- In conceptual art or diagrams, use the official icons in the Cloud and Enterprise symbol and icon set. A public set is available at http://aka.ms/CnESymbols.
+- In conceptual art or diagrams, use the official icons in the Cloud and Enterprise symbol and icon set. A public set is available at <span style="color:red;">Confirm that we use these icons</span> http://aka.ms/CnESymbols.
 
 
 ## Guidelines for linking technical articles on docs.microsoft.com
@@ -123,7 +136,7 @@ The words you include in a link should be friendly - in other words, they should
 
 **Correct:**
 <span style="color:red;">Confirm URL for our Contributor's Guide</span> 
-- `For more information, see the [contributor guide index](https://github.com/Microsoft/EMDocs/blob/master/contributor-guide/contributor-guide-index.md).`
+- `For more information, see the [contributor guide index](https://github.com/Microsoft/EMDocs/contributor-guide/contributor-guide-index.md).`
 
 - `For more details, see the [SET TRANSACTION ISOLATION LEVEL](https://msdn.microsoft.com/library/ms173763.aspx) reference.`
 
@@ -132,25 +145,19 @@ The words you include in a link should be friendly - in other words, they should
 - `For more details, see [https://msdn.microsoft.com/library/ms173763.aspx](https://msdn.microsoft.com/library/ms173763.aspx).`
 
 <span style="color:red;">Confirm URL for our Contributor's Guide</span> 
-- `For more information, click [here](https://github.com/Microsoft/EMDocs/blob/master/contributor-guide/contributor-guide-index.md).`
+- `For more information, click [here](https://github.com/Microsoft/EMDocs/contributor-guide/contributor-guide-index.md).`
 
 ### Markdown syntax for EMS relative links
+<span style="color:red;">Confirm the entire linking scheme</span> 
 
 To create an inline link from an EMS technical article to another EMS technical article, use this link format. If you create any new links to or from articles in the directories, you’ll need to follow the new linking syntax.
-
-Old link syntax to link from one EMS tech doc to another:
-
-    [link text](filename.md)
-
-**New link syntax** 
-<span style="color:red;">Linking scheme needs to be confirmed</span>
 
 Article links from a subdirectory to an article in the root directory:
 
     [link text](../article-name.md)
 
 Article in the root directory links to an article in a service subdirectory: 
-<span style="color:red;">Are articles organized by service subdirectories? d</span>
+<span style="color:red;">Are articles organized by service subdirectories?</span>
 
     [link text](service-directory/article-name.md)
 
@@ -187,11 +194,11 @@ Since includes files are located in another directory, you will need to use rela
 
     [link text](../articles/service-folder/article-name.md)
     
-Learn more about how to use a token file in the [Custom markdown extensions guidelines](custom-markdown-extensions.md#includes).
+Learn more about how to use an include file in the [Custom markdown extensions guidelines](custom-markdown-extensions.md#includes).
 
 If you have selectors embedded in an include, you would use this sort of linking: 
 
-    > [EMS.SELECTOR-LIST (Dropdown1 | Dropdown2 )]
+    > [EMS.SELECTOR-LIST (Dropdown1 | Dropdown2)]
     - [(Text1 | Example1 )](../articles/service-folder/article-name1.md)
     - [(Text1 | Example2 )](../articles/service-folder/article-name2.md)
     - [(Text2 | Example3 )](../articles/service-folder/article-name3.md)
@@ -223,8 +230,4 @@ Link references at the end of the article:
 
 - [Overview article](./../README.md)
 - [Index of guidance articles](./contributor-guide-index.md)
-
-<!--image references-->
-[1]: ./media/create-tables-markdown/table-markdown.png
-[2]: ./media/create-tables-markdown/break-tables.png
 

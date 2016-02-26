@@ -5,14 +5,14 @@
 # Working with Git
 
 To do:
-- [ ] Replace EMS URL for completed articles (see end of instructions)
+- [ ] #22 Replace EMS URL for completed articles (see end of instructions)
 
 ## Standard process (working from a branch)
 Follow the steps in this article to create a local working branch on your computer so that you can create a new article for the technical documentation section of Microsoft.com/ems or update an existing article.
 
 1. Start Git Bash. 
 
-2. Change to the repository *emdocs*:
+2. Change to the repository `emdocs`:
 
         cd emdocs
 		
@@ -28,7 +28,7 @@ Follow the steps in this article to create a local working branch on your comput
 
 6. Add and commit any new files you created:
 
-        git add <file path>
+        git add <path-to-file>
         git commit –m "<comment>"
         
    Or, to commit only the specific files you modified:
@@ -39,22 +39,14 @@ Follow the steps in this article to create a local working branch on your comput
 
         git push origin <branchname>
 
-8. Push the changes to your 
-9.  on GitHub:
+8. Push the changes to your branch on GitHub:
 
         git push origin <branchname>
 
-9. When you are ready to submit your content to the upstream master branch for staging, validation, and/or publishing, in the GitHub UI, create a pull request from your branch to the master branch.
+9. When you are ready to submit your content to the master branch for staging, validation, and/or publishing, in the GitHub UI, create a Pull Request from your branch to the master branch.
 
 10. The pull request recipient reviews your pull request, provides feedback, and/or accepts your pull request. 
 
 11. Optionally verify your published article or changes at
 <span style="color:red;">Need correct URL for viewing published articles.</span>
  http://docs.microsoft.com/ems/articles/name-of-your-article-without-the-MD-extension
-
-<!-- This section probably needs to be removed entirely.
-**Notes:**
-<span style="color:red;">->> **Do we want to state a schedule?**  <<-</span>
-
-- At this time, technical articles are published once daily around 10 AM Pacific Standard Time (PST), Monday-Friday. Remember, your pull request has to be accepted before changes are included in the next scheduled publishing run.
--->

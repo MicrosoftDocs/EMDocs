@@ -5,13 +5,16 @@
 # Metadata for Enterprise Mobility Suite technical articles
 
 To Do: 
-- [ ] Check all lists marked in red
-- [ ] Confirm properties to be used
-- [ ] Confirm that the instructions for each property are correct
-- [ ] Update the list of article types (resource types) (RobMazz email #1 20160218)
-- [ ] Update and approve list of ms.tgt_pltfrm slugs (RobMazz email #2 20160218) 
-- [ ] Update list of services and ms-service list of values (RobMazz email #3 20160218)
-- [ ] Update and approve list of ms.devlang programming language values (RobMazz email #4 20160218)
+- [ ] #11 Confirm that the instructions for each property are correct.
+- [ ] #12 Confirm the URL in the Properties:Description section.
+- [ ] #13 Update list of services and ms-service list of values (see RobMazz email #3 2016-02-18).
+- [ ] #14 Confirm the URL in the Properties:Tags section (location of EMS articles).
+- [ ] #15 Confirm the short list (3) of optional tags in the Properties:Tags. Should there be more tags? 
+- [ ] #16 Confirm the list of services in the Tags:ms-services section.
+- [ ] #17 Update the list of article types (resource types) in the Tags:mstopic section (RobMazz email #1 2016-02-18).
+- [ ] #18 Update and approve list of programming languages in the Tags:ms.devlang section (RobMazz email #4 2016-02-18).
+- [ ] #19 Confirm the list of target platforms in the Tags:ms.tgt_pltfrm section (RobMazz email #2 2016-02-18).
+- [ ] #20 Confirm that all links (especially anchors) work properly. 
 
 All EMS technical articles contain two metadata sections - a properties section and a tags section. The properties section enables some website automation and SEO stuff, while the tags section enables a lot of internal content reporting. Both sections are required.
 
@@ -33,7 +36,7 @@ The properties section uses the following syntax:
        manager="manager-alias"
        editor=""
        tags="optional"
-       keywords="For use by SEO champs only. Separate terms with commas. Check with your SEO champ before you change content in this article containing these terms."/>
+       keywords="Separate terms with commas. Check with your SEO champ before you change content in this article containing these terms."/>
 
 The tags section uses the following syntax:
 
@@ -52,7 +55,7 @@ The tags section uses the following syntax:
 - The Properties section must be the first line of your file.
 - Leave a blank line after each metadata section and before your page title to ensure that the page title is correctly converted to HTML during the publishing process.
 
-## Attributes and values for the properties section
+## Attributes and values for the Properties section
 
 ![](./media/checkmark-small.png)**pageTitle**: Required; important to SEO. The text for this attribute appears in the browser tab and as the title in a search result. Use 55-60 characters including spaces and including the site identifier *| Microsoft EMS* (typed as: space pipe space Microsoft EMS).  The pageTitle should be different from the H1.
 
@@ -160,7 +163,7 @@ In articles that specify both a services value and a documentationCenter value, 
 
 ![](./media/checkmark-small.png)**keywords**: Optional. For use by SEO champs only. Separate terms with commas. **Check with your SEO champ before you change or delete content in this article containing these terms.** This attribute records keywords the SEO champ has targeted and is tracking in order to improve search rank. The keywords do not render in the published HTML. Validation does not require this attribute.
 
-## Attributes and values for the tags section
+## Attributes and values for the Tags section
 
 ![](./media/checkmark-small.png)**ms.service**: Required. Specifies the service, tool, or feature that the article applies to. One value per page.
 
@@ -221,6 +224,7 @@ In articles that specify both a services value and a documentationCenter value, 
 
  If a page applies to two programming languages equally, choose **multiple**. If a page is primarily conceptual and its content is generally applicable to multiple programming languages, choose **multiple**. If a page is not targeted at developers and the programming language applicability is not relevant, choose **NA**. Use **rest-api** to identify REST API reference topics.
 
+<span style="color:red;">Confirm these values</span>
  - **cpp**
  - **dotnet**
  - **java**

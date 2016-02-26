@@ -3,6 +3,8 @@
 <tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
 # Writing EMS documentation - style and voice
+To Do
+- [ ] #6 Ensure that all hyperlinks work properly. 
 
 ## 1. Focus on customer intent
 
@@ -34,11 +36,12 @@ Like all the voice guidance, word choice guidance depends on context—the artic
 | Let people outside your company access shared documents in a security-enhanced manner. | Control access permissions for external users to your SharePoint Online site collections. |
 
 - **Read the article aloud.** Does it sound natural? Aim to sound like a coworker talking to another professional.
-- **Recommended from the Microsoft Writing Style Guide:**
-	- [Use contractions](http://https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26589)
-	- [A-Z word list and term collections](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26589)
-	- [Security, safety, and privacy terms](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26894)
-	- [Cloud computing terms](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=28841)
+
+- **Use contractions.** Write using the same, everyday words you use in conversation. 
+	- Use common contractions, such as it's, you're, that's, and don't, to create a friendly, informal tone. 
+	- Don't mix contractions and their spelled-out equivalents in UI text. For example, don't use can’t and cannot in the same UI.
+	- Never form a contraction from a noun and a verb, such as Microsoft's developing a lot of new cloud services.
+	- Avoid ambiguous contractions, such as there'd, it'll, and they'll.
 
 ## 3. Make the article easy to scan
 
@@ -47,9 +50,7 @@ People don't read our help articles like novels, from the first word to the last
 - **People scan titles, procedures, headers, art, and links.** After they find roughly what they're looking for, they then read for details.
 - **Art is fantastic for drawing attention.** Might a screenshot help the reader find or understand something better?
 - **Scan the article and see what jumps out.** Which procedure looks most important? Which intent seems to be the focus? Which tips are easy to find? Sometimes less important things get the focus and more important things are hidden. Can the wording, organization, and formatting be changed to address this?
-- **Optimize for SEO**. Search engines look for clues to find help articles that match what our readers search for. And they look in many of the places people do: titles, headings, alt-text, links, as well as in the body, so make sure that you are using your search keywords in these areas. See [Search engine optimization](http://https://worldready.cloudapp.net/Styleguide/Read?id=2781&topicid=36751) to learn how to optimize your content.
-- **Recommended from the Microsoft Writing Style Guide:**
-    *   [Scannable content](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=26589)
+- **Optimize for SEO**. Search engines look for clues to find help articles that match what our readers search for. And they look in many of the places people do: titles, headings, alt-text, links, as well as in the body, so make sure that you are using your search keywords in these areas. See the [Beginner's Guide to Search Engine Optimization](https://moz.com/beginners-guide-to-seo) to learn how to optimize your content.
 
 ## 4. Write concisely
 
@@ -68,9 +69,6 @@ Customers prefer articles with fewer words:
 	- An article that discusses how to resolve a really perplexing error
 	- A community forum post that's a response to a thread of yelling customers
 	- A time when any reasonable person would be annoyed by having to wait 72 hours for a domain to be ready
-- **Recommended from the Microsoft Writing Style Guide:**
-	- [Use certain words carefully](https://worldready.cloudapp.net/Styleguide/Read?id=2700&topicid=28841)
-
 
 ## Back to Home
 

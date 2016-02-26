@@ -4,10 +4,10 @@
 
 # Enterprise Mobility Suite technical content channel guidance
 To Do:
-- [x] Find out where the EMS documentation will be housed -- Need starting URL
-- [ ] Determine whether there will be an EMS-specific area in MSDN, or if Servers and Enterprise Development is the right spot. 
-- [ ] Create a Content Channel chart for EMS (What goes where)
-
+- [ ] #2 Will there will be an EMS-specific area in MSDN, or if Servers and Enterprise Development is the right spot. 
+- [ ] #3 Provide MSDN URL or remove MSDN reference.  
+- [ ] #4 Create a Content Channel chart for EMS (What goes where) and converted to PDF
+- [ ] #5 Create and add thumbnail of the PDF
 
 ## aka: What goes where?
 Generally speaking, core technical content for the Enterprise Mobility Suite belongs in the EMS Documentation Center <span style="color:red;">Confirm URL</span> ([doesn't exist yet](need actual URL)) or in the Servers and Enterprise Development library in MSDN <span style="color:red;">Confirm URL</span> ([replace once there is an EMS area](need actual URL)). 

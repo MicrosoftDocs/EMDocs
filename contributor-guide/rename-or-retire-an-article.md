@@ -2,7 +2,7 @@
 
 <tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
 
-# Steps to follow when you retire or change the name of an EMS technical article
+# Steps to follow when you rename or retire an EMS technical article
 To do:
 - [ ] Confirm this is how retiring content will work for EMS
 - [ ] How closely do these procedures model the internal process? Is this guide for external writers only? 
