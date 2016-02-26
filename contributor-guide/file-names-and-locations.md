@@ -1,11 +1,13 @@
 <properties pageTitle="File names and locations for EMS technical articles" description="Explains the file structure for articles and the naming conventions you should follow when you create a new article." metaKeywords="" services="" solutions="" documentationCenter="" authors="tysonn" videoId="" scriptId="" manager="required" />
 
-<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm=""  ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm=""  ms.workload="" ms.date="02/25/2016" ms.author="v-jocgar" />
 
 # File names and locations for EMS technical articles
 To Do: 
-- [ ] Pull in the services slugs for examples
-- [ ] Confirm all the items marked in red
+- [ ] #7 Pull in the services slugs for examples
+- [ ] #8 Confirm the file naming pattern
+- [ ] #9 Provide replacement examples of file naming patterns
+- [ ] #10 Make sure all links (especially anchors) work properly
 
 In our technical content repository, we use a single folder (the **articles** folder) for all articles. There's no folder hierarchy - all articles live in the flat file structure. If you create folders with articles in them, your articles can't be published.
 
