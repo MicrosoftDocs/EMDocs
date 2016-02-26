@@ -10,13 +10,13 @@
       href: /ATA/Topic/
       homepage: /ATA/index.html
       items:
-        - name: Understand
+        - name: Understand and explore
           href: /ATA/Understand/
           homepage: /ATA/understand/ata-understand-and-explore.html
         - name: Plan and design 
           href: /ATA/PlanDesign/
           homepage: /ATA/plandesign/ata-plan-and-design.html
-        - name: Deploy and Use
+        - name: Deploy and use
           href: /ATA/DeployUse/
           homepage: /ATA/deployuse/ata-deploy-and-use.html
         - name: Troubleshoot
@@ -24,34 +24,34 @@
           homepage: /ATA/troubleshoot/ata-troubleshooting.html
     - name: Intune
       href: /InTune/Topic/
-      homepage: /InTune/Topic/Microsoft-Intune-App-SDK.html
+      homepage: /InTune/index.html
       items:
-        - name: Understand
+        - name: Understand and explore
           href: /Intune/Understand/
-          homepage: 
+          homepage: /Intune/Understand/ways-to-do-enterprise-mobility.html
         - name: Plan and design 
           href: /Intune/PlanDesign/
-          homepage: 
-        - name: Deploy and Use
-          href: /Intune/DeployUse/
+          homepage: /Intune/PlanDesign/plan-you-user-and-device-groups.html
+        - name: Deploy and use
+          href: /Intune/DeployUse/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.html
           homepage: 
         - name: Troubleshoot
           href: /Intune/Troubleshoot/
-          homepage: 
-        - name: Get Started
+          homepage: /Intune/Troubleshoot/troubleshoot-microsoft-intune.html
+        - name: Get started
           href: /Intune/GetStarted/
-          homepage: 
+          homepage: /Intune/GetStarted/what-s-new-in-microsoft-intune.html
     - name: Right Management Service
       href: /Azure-RMS/Topic/
       homepage: /Azure-RMS/Topic/Azure-Rights-Management.html
       items:
-        - name: Understand
+        - name: Understand and explore
           href: /Azure-RMS/Understand/
           homepage: 
         - name: Plan and design 
           href: /Azure-RMS/PlanDesign/
           homepage: 
-        - name: Deploy and Use
+        - name: Deploy and use
           href: /Azure-RMS/DeployUse/
           homepage: 
         - name: Troubleshoot
@@ -60,25 +60,25 @@
         - name: Get Started
           href: /Azure-RMS/GetStarted/
           homepage:
-    - name: Microsoft Idnetity Manager
+    - name: Microsoft Identity Manager
       href: /MIM/Topic/
-      homepage: /MIM/Topic/Microsoft-Identity-Manager-2016.html
+      homepage: /MIM/Microsoft-Identity-Manager-2016.html
       items:
-        - name: Understand
+        - name: Understand and explore
           href: /MIM/Understand/
-          homepage: 
+          homepage: /MIM/Understand/journey-understand-evaluate.html
         - name: Plan and design 
           href: /MIM/PlanDesign/
-          homepage: 
+          homepage: /MIM/PlanDesign/journey-plan-design.html
         - name: Deploy and Use
           href: /MIM/DeployUse/
-          homepage: 
-        - name: Troubleshoot
-          href: /MIM/Troubleshoot/
-          homepage: 
-        - name: Get Started
+          homepage: /MIM/DeployUse/journey-deploy-use-html
+        - name: Reference
+          href: /MIM/reference/
+          homepage: /MIM/reference/journey-develop-applications.html
+        - name: Get started
           href: /MIM/GetStarted/
-          homepage: 
+          homepage: /MIM/GetStarted/journey-get-started.html
     - name: Reference
       href: 
       homepage:
