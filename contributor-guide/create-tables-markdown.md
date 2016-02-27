@@ -1,11 +1,11 @@
 <properties title="Create tables in markdown" pageTitle="Create tables in markdown for EMS articles" description="Explains how to code tables in markdown." metaKeywords="" services="" solutions="" documentationCenter="" authors="v-jocgar" videoId="" scriptId="" manager="robmazz" />
 
-<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/24/2016" ms.author="v-jocgar" />
+<tags ms.service="contributor-guide" ms.devlang="" ms.topic="article" ms.tgt_pltfrm="" ms.workload="" ms.date="02/26/2016" ms.author="v-jocgar" />
 
 # Create tables in Markdown
 
 To Do:
-- [ ] Add the custom Markdown Note syntax to the Note below.
+- [ ] #33 Add the custom Markdown Note syntax to the Note below.
 
 Tables in articles should be used sparingly. Only use them if the data is truly tabular.
 
