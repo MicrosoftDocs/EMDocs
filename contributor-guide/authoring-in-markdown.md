@@ -5,16 +5,16 @@
 # Authoring for EMS in Markdown
 
 To Do: 
-- [ ] Confirm EMS article layout for images /articles/<service-directory>/media
-- [ ] Provide an example for /articles/<service-directory>/media
-- [ ] Confirm the max width for images in EMS doc page center column (580 or 600px?) in 3 paragraphs
-- [ ] Confirm whether EMS has a different set of symbols for conceptual art other than those offered at http://aka.ms/CnESymbols. 
-- [ ] Confirm URL for our Contributor's Guide
-- [ ] Confirm the entire linking scheme
-- [ ] Are articles organized by service subdirectories?
-- [ ] Anchor linking methodology needs to be confirmed
-- [ ] Confirm the linking methodology and use of selectors.
-- [ ] Test the linking scheme to ensure that it works correctly
+- [ ] #23 Confirm EMS article layout for images /articles/<service-directory>/media
+- [ ] #24 Provide an example for /articles/<service-directory>/media
+- [ ] #25 Confirm the max width for images in EMS doc page center column (580 or 600px?) in 3 paragraphs
+- [ ] #26 Confirm whether EMS has a different set of symbols for conceptual art other than those offered at http://aka.ms/CnESymbols. 
+- [ ] #27 Confirm URL for our Contributor's Guide
+- [ ] #28 Confirm the entire linking scheme
+- [ ] #29 Are articles organized by service subdirectories?
+- [ ] #30 Anchor linking methodology needs to be confirmed
+- [ ] #31 Confirm the linking methodology and use of selectors.
+- [ ] #32 Test the linking scheme to ensure that it works correctly
 
 This article contains pointers about how to write technical articles for EMS services and technologies. These guidelines apply whether you are creating new documentation or updating existing documentation.
 
@@ -51,6 +51,13 @@ As you write for EMS, keep the following in mind:
 	- This reduces the amount of text people have to read through. 
 	- Key information gets copied into the code project to remind people what the code is doing when they refer to it later.
 
+## General help with Markdown
+- For general markdown tips, see [Markdown Basics](https://help.github.com/articles/markdown-basics/) on the Github website.
+- You can also download our [EMS Markdown cheatsheet](./media/ems-markdown-cheat-sheet.pdf?raw=true). 
+- If you need to create article cross-links in markdown, see the [linking guidance](#guidelines-for-linking-technical-articles) below.
+- The website <span style="color:red;">Confirm URL</span> http://docs.microsoft.com/ems supports [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks). Fenced code blocks are created by inserting a row of 3 backquote characters (```) on the lines before and after the block of code. They're a convenient way to set the code off from the rest of the text.   
+- EMS also supports [syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) within code blocks. However, unlike GitHub-flavored Markdown, where [specifying a particular language](https://help.github.com/articles/creating-and-highlighting-code-blocks/#syntax-highlighting) on the first line of code changes the syntax coloring scheme, EMS supports only **one** syntax highlighting color scheme, regardless of the programming language you specify.
+
 ## Create images in Markdown
 You can include images with your articles by following the simple Markdown syntax. 
 
@@ -78,9 +85,7 @@ Screenshots are currently encouraged if it's not possible to include steps to re
 
 Use the following guidelines when creating and including art files:
 - Share art files across documents if possible. Copy the URL to the file you need and add it to the article. 
-
 - Portable Network Graphic (.PNG) files are highly preferred over other formats.
-
 - Use red squares of the default width provided in Paint (5 px) to call attention to particular elements in screenshots.  
 
     Example:
@@ -110,7 +115,6 @@ Use the following guidelines when creating and including art files:
 - Try not to make an image too wide. Images will be automatically resized if they are too wide. However, resizing an image sometimes causes fuzziness, so we recommend that you limit the width of your images to <span style="color:red;">Confirm max image width</span> 580 px, and manually resize images before submission if necessary.
 
 - Show command outputs in screenshots.  If your article includes steps where the user is working within a shell, it's useful to show command output in screenshots. In this case, restricting your shell width to about 72 characters generally ensures that your image will remain within the <span style="color:red;">Confirm max image width</span> 580 px width guideline. Before taking a screenshot of output, resize the window so that just the relevant command and output is shown (optionally with a blank line on either side).
-
 - Take whole screenshots of windows when possible. When taking a screenshot of a browser window, resize your browser window to <span style="color:red;">Confirm max image width</span> 580 px wide or less, and keep the height of the browser window as short as possible such that your application fits within the window.
 
     Example:
@@ -118,11 +122,10 @@ Use the following guidelines when creating and including art files:
     ![This is an example of a browser window screenshot.](./media/helloworldlocal.png)
 
 - Use caution with what information is revealed in screenshots. Be sure not to reveal internal company information or your personal information.
-
 - In conceptual art or diagrams, use the official icons in the Cloud and Enterprise symbol and icon set. A public set is available at <span style="color:red;">Confirm that we use these icons</span> http://aka.ms/CnESymbols.
 
 
-## Guidelines for linking technical articles on docs.microsoft.com
+## Guidelines for linking technical articles
 
 | Link scenario | Guidance for the target link  |
 |---------------|-----------|
