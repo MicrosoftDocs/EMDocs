@@ -42,21 +42,24 @@
           href: /Intune/GetStarted/
           homepage: /Intune/GetStarted/what-s-new-in-microsoft-intune.html
     - name: Right Management Service
-      href: /Azure-RMS/Topic/
+      href: /rights-management/
       homepage: /Azure-RMS/Topic/Azure-Rights-Management.html
       items:
         - name: Understand and explore
           href: /rights-management/understand-explore/
-          homepage: 
+          homepage: /rights-management/understand-explore/what-is-azure-rights-management.html
+        - name: Get Started
+          href: /rights-management/get-started/
+          homepage: /rights-management/get-started/requirements-for-azure-rights-management.html
         - name: Plan and design 
           href: /rights-management/plan-design/
-          homepage: 
+          homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap.html
         - name: Deploy and use
           href: /rights-management/deploy-use/
-          homepage: 
+          homepage: /rights-management/deploy-use/activating-azure-rights-management.html
         - name: Develop
           href: /rights-management/develop/
-          homepage: 
+          homepage:
         - name: RMS Client
           href: /rights-management/rms-client/
           homepage:
