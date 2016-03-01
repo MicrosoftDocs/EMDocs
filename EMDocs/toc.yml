@@ -46,19 +46,19 @@
       homepage: /Azure-RMS/Topic/Azure-Rights-Management.html
       items:
         - name: Understand and explore
-          href: /Azure-RMS/Understand/
+          href: /rights-management/understand-explore/
           homepage: 
         - name: Plan and design 
-          href: /Azure-RMS/PlanDesign/
+          href: /rights-management/plan-design/
           homepage: 
         - name: Deploy and use
-          href: /Azure-RMS/DeployUse/
+          href: /rights-management/deploy-use/
           homepage: 
-        - name: Troubleshoot
-          href: /Azure-RMS/Troubleshoot/
+        - name: Develop
+          href: /rights-management/develop/
           homepage: 
-        - name: Get Started
-          href: /Azure-RMS/GetStarted/
+        - name: RMS Client
+          href: /rights-management/rms-client/
           homepage:
     - name: Microsoft Identity Manager
       href: /MIM/Topic/
