@@ -41,9 +41,9 @@
         - name: Get started
           href: /Intune/GetStarted/
           homepage: /Intune/GetStarted/what-s-new-in-microsoft-intune.html
-    - name: Rights Management
+    - name: Azure Rights Management
       href: /rights-management/
-      homepage: /Azure-RMS/Topic/Azure-Rights-Management.html
+      homepage: /rights-management/index.html
       items:
         - name: Understand & explore
           href: /rights-management/understand-explore/
