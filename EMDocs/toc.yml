@@ -3,9 +3,12 @@
   homepage: 
   items:
   - name: Enterprise Mobility
-    href: /EM/Topic/
+    href: /EM/
     homepage: /EM/index.html
     items:
+    - name: Solutions
+      href: /EM/Solutions/
+      homepage: /EM/Solutions/Bring-Your-Own-Device--BYOD--Design-Considerations-Guide.html
     - name: Advanced Threat Analytics
       href: /ATA/Topic/
       homepage: /ATA/index.html
