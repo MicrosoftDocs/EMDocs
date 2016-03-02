@@ -45,19 +45,19 @@
       href: /rights-management/
       homepage: /Azure-RMS/Topic/Azure-Rights-Management.html
       items:
-        - name: Understand and explore
+        - name: Understand & explore
           href: /rights-management/understand-explore/
           homepage: /rights-management/understand-explore/what-is-azure-rights-management.html
         - name: Get Started
           href: /rights-management/get-started/
           homepage: /rights-management/get-started/requirements-for-azure-rights-management.html
-        - name: Plan and design 
+        - name: Plan & design 
           href: /rights-management/plan-design/
           homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap.html
-        - name: Deploy and use
+        - name: Deploy & use
           href: /rights-management/deploy-use/
           homepage: /rights-management/deploy-use/activating-azure-rights-management.html
-        - name: Develop
+        - name: Develop & customize apps
           href: /rights-management/develop/
           homepage:
         - name: RMS Client
