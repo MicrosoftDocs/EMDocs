@@ -3,9 +3,12 @@
   homepage: 
   items:
   - name: Enterprise Mobility
-    href: /EM/Topic/
+    href: /EM/
     homepage: /EM/index.html
     items:
+    - name: Solutions
+      href: /EM/Solutions/
+      homepage: /EM/Solutions/Bring-Your-Own-Device--BYOD--Design-Considerations-Guide.html
     - name: Advanced Threat Analytics
       href: /ATA/Topic/
       homepage: /ATA/index.html
@@ -41,24 +44,27 @@
         - name: Get started
           href: /Intune/GetStarted/
           homepage: /Intune/GetStarted/what-s-new-in-microsoft-intune.html
-    - name: Right Management Service
-      href: /Azure-RMS/Topic/
-      homepage: /Azure-RMS/Topic/Azure-Rights-Management.html
+    - name: Azure Rights Management
+      href: /rights-management/
+      homepage: /rights-management/index.html
       items:
-        - name: Understand and explore
-          href: /Azure-RMS/Understand/
-          homepage: 
-        - name: Plan and design 
-          href: /Azure-RMS/PlanDesign/
-          homepage: 
-        - name: Deploy and use
-          href: /Azure-RMS/DeployUse/
-          homepage: 
-        - name: Troubleshoot
-          href: /Azure-RMS/Troubleshoot/
-          homepage: 
+        - name: Understand & explore
+          href: /rights-management/understand-explore/
+          homepage: /rights-management/understand-explore/what-is-azure-rights-management.html
         - name: Get Started
-          href: /Azure-RMS/GetStarted/
+          href: /rights-management/get-started/
+          homepage: /rights-management/get-started/requirements-for-azure-rights-management.html
+        - name: Plan & design 
+          href: /rights-management/plan-design/
+          homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap.html
+        - name: Deploy & use
+          href: /rights-management/deploy-use/
+          homepage: /rights-management/deploy-use/activating-azure-rights-management.html
+        - name: Develop & customize apps
+          href: /rights-management/develop/
+          homepage:
+        - name: RMS Client
+          href: /rights-management/rms-client/
           homepage:
     - name: Microsoft Identity Manager
       href: /MIM/Topic/
