@@ -65,10 +65,13 @@
           homepage: /rights-management/deploy-use/activating-azure-rights-management.html
         - name: Develop & customize apps
           href: /rights-management/develop/
-          homepage:
+          homepage: /rights-management/develop/developers-guide.html
+        - name: Adminsiter
+          href: /rights-management/administer/
+          homepage: /rights-management/administer/administering-azure-rights-management-with-powershell.html
         - name: RMS Client
           href: /rights-management/rms-client/
-          homepage:
+          homepage: /rights-management/rms-client/rights-management-rms-client.md
     - name: Microsoft Identity Manager
       href: /MIM/Topic/
       homepage: /MIM/Microsoft-Identity-Manager-2016.html
