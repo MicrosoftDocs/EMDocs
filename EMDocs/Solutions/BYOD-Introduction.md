@@ -1,6 +1,6 @@
 <properties
    pageTitle="Bring Your Own Device Design Considerations Guide"
-   description="Blah"
+   description="This guide provides the system architect and system designer with a collection of critical design considerations that need to be addressed before designing a Bring Your Own Device (BYOD) infrastructure that enables employees to use their own devices and protects the company’s data."
    services="Enterprise Mobility"
    documentationCenter="na"
    authors="YuriDio"
@@ -13,11 +13,12 @@
    ms.topic="article"
    ms.tgt_pltfrm="na"
    ms.workload="na"
-   ms.date="2/18/2016"
+   ms.date="03/07/2016"
    ms.author="yuridio"/>
 
 
 # BYOD Introduction
+
 With the proliferation of devices used by employees, most enterprises are facing a big dilemma: how do they allow their users to use their own devices, while protecting corporate data that resides on those devices? Enterprises are moving away from the traditional model, in which they own and provide devices to their employees, to a model in which employees use their personal devices for some of their work tasks. This model is often referred to as [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). In this model, employees are allowed to use their personal devices for some work tasks, but only if the employees allow the company to manage some aspects of their devices to ensure the security of corporate data. Often, this means that users allow the company to apply custom policies, perform hardening of the devices, or standardize the operating system established by company policy. Executives and decision makers that read the [CIO considerations for workstyle transformation](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf) paper from Microsoft can also identify the benefits of embracing a model in which people are empowered to use their devices to be productive at work.
 
 Though data access and protection is one of the main challenges of BYOD, other challenges require addressing the problem with a broader approach:
@@ -28,11 +29,11 @@ Though data access and protection is one of the main challenges of BYOD, other c
 
 This discussion will be driven by requirements, capabilities, and design considerations for a device management infrastructure. Microsoft technologies are mentioned within the context of the requirements and capabilities—not vice versa. It is our expectation that this approach will resonate better with architects and designers who are interested in the problems that must be solved and the approaches that are available for solving these problems. Only then is the technology discussion relevant.
 
-##1.1 Document audience</title>
+## Document audience</title>
 
 The primary audience for this document is the system architect or system designer who is interested in understanding the issues that need to be considered before implementing a BYOD infrastructure. Others who might be interested in this document include IT implementers, enterprise security specialists, and device management specialists.</para>
     
-##1.2 Document purpose</title>
+## Document purpose</title>
   
 The purpose of this document is twofold:
 
@@ -55,10 +56,22 @@ It is *not* the purpose of this document to:
 - Provide app development guidance for mobile devices.
 - Provide app development best practices for mobile devices.
 - Provide guidance and best practices for third-party components.
-  
+
+## BYOD Problem Definition
+
+The following problems or challenges are typically the ones encountered by companies trying to embrace BYOD:
+
+- The existing management platform is unable to allow users to bring their own devices and have access to company resources.
+- The security strategy already in place does not address the security challenges that BYOD introduces to the environment.
+- Users are embracing new technologies and demanding access to company resources to perform their jobs.
+- Business decision makers understand the benefits that BYOD brings to the business, primarily in user productivity that can decrease operation cost. However, business decision makers are uncertain how to embrace BYOD while remaining in compliance with rules and regulations.
+
+Organizations with a large infrastructure need to determine requirements before shifting from managing devices themselves—which assumes that IT has total control of devices—to a model in which IT must assume that it has less control of devices and at the same time needs to address users’ needs to access corporate data. This is often referred to as a switch from device-centric to people-centric IT. The same considerations and requirements must also be carefully planned for existing and new apps or for moving existing apps into a cloud environment. Figure 1 includes a conceptual diagram of the BYOD problem domain and the areas that will be covered in this document.
+
+![](../media/BYOD_Figure1.png)
+
 
 ##See also
-- BYOD Problem Definition
 - Envisioning the BYOD Infrastructure Solution
 - BYOD Design Considerations
 - BYOD Summary and Additional Resources
