@@ -9,7 +9,7 @@
     href: /remoteapp/
     homepage: /remoteapp/remoteapp-whatis.html
   - name: Advanced Threat Analytics
-    href: /ATA/Topic/
+    href: /ATA/
     homepage: /ATA/index.html
     items:
       - name: Understand and explore
@@ -69,8 +69,8 @@
         href: /rights-management/rms-client/
         homepage: /rights-management/rms-client/rights-management-rms-client.md
   - name: Microsoft Identity Manager
-    href: /MIM/Topic/
-    homepage: /MIM/Microsoft-Identity-Manager-2016.html
+    href: /MIM/
+    homepage: /MIM/index.html
     items:
       - name: Understand and explore
         href: /MIM/Understand/
