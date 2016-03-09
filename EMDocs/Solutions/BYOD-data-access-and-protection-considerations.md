@@ -1,20 +1,16 @@
-<properties
-   pageTitle="BYOD data access and protection considerations | BYOD Design Considerations Guide"
-   description="Blah"
-   services="Enterprise Mobility"
-   documentationCenter="na"
-   authors="YuriDio"
-   manager="swadhwa"
-   editor=""/>
+---
+title: BYOD data access and protection considerations | BYOD Design Considerations Guide
+description: Blah
+keywords: "BYOD, device management, devices"
+author: YuriDio
+manager: swadhwa
+ms.date: 03/09/2016
+ms.topic: article
+ms.prod: Enterprise Mobility
+ms.service: EM
+ms.assetid: 0000
+---
 
-<tags
-   ms.service="enterprise-mobility"
-   ms.devlang="na"
-   ms.topic="article"
-   ms.tgt_pltfrm="na"
-   ms.workload="na"
-   ms.date="03/08/2016"
-   ms.author="yuridio"/>
 
 # BYOD data access and protection considerations
 
@@ -85,7 +81,7 @@ Use the list below to understand the advantages and disadvantages of each storag
 
 It is essential to consider the factors involved in enabling users to use their devices and for data to be secure through the entire path between datacenter (on-premises) or cloud and users’ devices. These factors are highlighted in the figure below:
 
-![](../media/BYOD_Figure6.png)
+![Network Diagram](./media/BYOD_Figure6.png)
 
 This diagram highlights the critical areas where data protection must be considered for a BYOD infrastructure. These areas are described in more detail in the following section.
 
