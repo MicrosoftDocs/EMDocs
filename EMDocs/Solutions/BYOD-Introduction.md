@@ -1,21 +1,16 @@
-<properties
-   pageTitle="Bring Your Own Device Design Considerations Guide"
-   description="This guide provides the system architect and system designer with a collection of critical design considerations that need to be addressed before designing a Bring Your Own Device (BYOD) infrastructure that enables employees to use their own devices and protects the company’s data."
-   services="Enterprise Mobility"
-   documentationCenter="na"
-   authors="YuriDio"
-   manager="swadhwa"
-   editor=""/>
-
-<tags
-   ms.service="enterprise-mobility"
-   ms.devlang="na"
-   ms.topic="article"
-   ms.tgt_pltfrm="na"
-   ms.workload="na"
-   ms.date="03/07/2016"
-   ms.author="yuridio"/>
-
+---
+title: Bring Your Own Device Design Considerations Guide
+description: This guide provides the system architect and system designer with a collection of critical design considerations that need to be addressed before designing a Bring Your Own Device (BYOD) infrastructure that enables employees to use their own devices and protects the company’s data.
+services="Enterprise Mobility
+keywords: "BYOD, device management, devices"
+author: YuriDio
+manager: swadhwa
+ms.date: 03/09/2016
+ms.topic: article
+ms.prod: Enterprise Mobility
+ms.service: EM
+ms.assetid: 0000
+---
 
 # BYOD Introduction
 
