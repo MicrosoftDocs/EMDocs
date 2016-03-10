@@ -1,18 +1,15 @@
 ---
-title: Data access and protection requirements | BYOD Design Considerations Guide
-description: Blah
-keywords: "BYOD, device management, devices"
-author: YuriDio
-manager: swadhwa
-ms.date: 03/10/2016
+title: Data access and protection requirements
+ms.custom: na
+ms.reviewer: na
+ms.service: multiple
+ms.suite: na
+ms.technology: na 
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: Enterprise Mobility
-ms.service: EM
-ms.author=yuridio
 ms.assetid: 0000
+author: YuriDio
 ---
-
-
 # Data access and protection requirements
 
 One of the most critical elements when enabling users to access company resources from their own devices is to preserve the company’s data and keep that information secure. Your company might have a variety of compliance requirements that must be in place to ensure data is secure no matter where it is located. Figure below shows the interactions between users and devices when accessing data and which components must be considered for this subdomain.

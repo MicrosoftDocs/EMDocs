@@ -1,17 +1,15 @@
 ---
-title: Bring Your Own Device Design Considerations Guide
-description: This guide provides the system architect and system designer with a collection of critical design considerations that need to be addressed before designing a Bring Your Own Device (BYOD) infrastructure that enables employees to use their own devices and protects the company’s data.
-services="Enterprise Mobility
-keywords: "BYOD, device management, devices"
-author: YuriDio
-manager: swadhwa
-ms.date: 03/09/2016
+title: Introduction
+ms.custom: na
+ms.reviewer: na
+ms.service: multiple
+ms.suite: na
+ms.technology: na 
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: Enterprise Mobility
-ms.service: EM
 ms.assetid: 0000
+author: YuriDio
 ---
-
 # BYOD Introduction
 
 With the proliferation of devices used by employees, most enterprises are facing a big dilemma: how do they allow their users to use their own devices, while protecting corporate data that resides on those devices? Enterprises are moving away from the traditional model, in which they own and provide devices to their employees, to a model in which employees use their personal devices for some of their work tasks. This model is often referred to as [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). In this model, employees are allowed to use their personal devices for some work tasks, but only if the employees allow the company to manage some aspects of their devices to ensure the security of corporate data. Often, this means that users allow the company to apply custom policies, perform hardening of the devices, or standardize the operating system established by company policy. Executives and decision makers that read the [CIO considerations for workstyle transformation](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf) paper from Microsoft can also identify the benefits of embracing a model in which people are empowered to use their devices to be productive at work.
