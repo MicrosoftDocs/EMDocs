@@ -1,8 +1,10 @@
 # [BYOD Design Guide](Bring-Your-Own-Device--BYOD--Design-Considerations-Guide.md)
-
 ## [Introduction](BYOD-Introduction.md)
-## [Problem definition](BYOD-Problem-Definition.md)
 ## [Envisioning the infrastructure solution](Envisioning-the-BYOD-Infrastructure-Solution.md)
+### [User and device requirements](BYOD-User-Device-Reqs.md)
+### [Data access and protection requirements](BYOD-data-access-protection-reqs.md)
+### [Management requirements](BYOD-management-reqs.md)
+### [App requirements](BYOD-app-reqs.md)
 ## [Design considerations](BYOD-Design-Considerations.md)
 ### [Overview](BYOD-Overview.md)
 ### [User and device](BYOD-user-and-device-considerations.md)
@@ -11,7 +13,6 @@
 ### [Apps](BYOD-app-considerations.md)
 
 # [Mobile Device Management Design Guide](Mobile-Device-Management-Design-Considerations-Guide.md)
-
 ## [Step 1: Identify requirements](Step-1---Identify-your-mobile-device-management-requirements.md)
 ## [Step 2: Plan for MDM](Step-2---Plan-for-mobile-device-management.md)
 ## [Step 3: Plan for enhanced protection](Step-3---Plan-for-enhancing-mobile-devices-protection.md)
