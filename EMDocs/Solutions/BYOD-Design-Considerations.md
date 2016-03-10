@@ -1,17 +1,15 @@
 ---
-title: BYOD Design Considerations Guide | BYOD Design Considerations Guide
-description: Blah
-keywords: "BYOD, device management, devices"
-author: YuriDio
-manager: swadhwa
-ms.date: 03/09/2016
+title: BYOD Design Considerations
+ms.custom: na
+ms.reviewer: na
+ms.service: multiple
+ms.suite: na
+ms.technology: na 
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: Enterprise Mobility
-ms.service: EM
-ms.author=yuridio
 ms.assetid: 0000
+author: YuriDio
 ---
-
 # BYOD Design Considerations
 
 With an understanding of the requirements detailed in Envisioning the BYOD Infrastructure Solution in this document, you can select appropriate products and technologies to implement the requirements for your BYOD infrastructure design. The following table lists Microsoft products, technologies, and services that can be used to implement a BYOD infrastructure solution.

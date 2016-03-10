@@ -1,17 +1,15 @@
 ---
-title: App requirements | BYOD Design Considerations Guide
-description: Blah
-keywords: "BYOD, device management, devices"
-author: YuriDio
-manager: swadhwa
-ms.date: 03/10/2016
+title: App Requirements
+ms.custom: na
+ms.reviewer: na
+ms.service: multiple
+ms.suite: na
+ms.technology: na 
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: Enterprise Mobility
-ms.service: EM
-ms.author=yuridio
 ms.assetid: 0000
+author: YuriDio
 ---
-
 # App requirements
 
 Every organization uses a variety of technical capabilities to enable their workforce to perform their tasks in an optimized manner, and most of the time, the primary tool is an app. These capabilities could be combined in a multiplatform approach in which different technologies are used to achieve a certain goal or by creating a custom app that will be able to perform a task or automate certain processes. Apps are important to consider when designing the BYOD strategy. Users will use different form factors to consume these apps; therefore, you need to consider the variety of capabilities that these apps should support. Figure 5 shows how users and devices use apps to consume data and the considerations for each component of the Apps subdomain.

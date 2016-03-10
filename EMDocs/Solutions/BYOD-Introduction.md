@@ -61,11 +61,5 @@ The following problems or challenges are typically the ones encountered by compa
 
 Organizations with a large infrastructure need to determine requirements before shifting from managing devices themselves—which assumes that IT has total control of devices—to a model in which IT must assume that it has less control of devices and at the same time needs to address users’ needs to access corporate data. This is often referred to as a switch from device-centric to people-centric IT. The same considerations and requirements must also be carefully planned for existing and new apps or for moving existing apps into a cloud environment. Figure 1 includes a conceptual diagram of the BYOD problem domain and the areas that will be covered in this document.
 
-![](../media/BYOD_Figure1.png)
+![Problem Domain](./media/BYOD_Figure1.png)
 
-
-##See also
-- Envisioning the BYOD Infrastructure Solution
-- BYOD Design Considerations
-- BYOD Summary and Additional Resources
-- Bring Your Own Device (BYOD) Design Considerations Guide

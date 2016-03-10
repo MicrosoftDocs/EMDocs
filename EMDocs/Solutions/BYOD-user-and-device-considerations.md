@@ -1,18 +1,15 @@
 ---
-title: BYOD user and device considerations | BYOD Design Considerations Guide
-description: Blah
-keywords: "BYOD, device management, devices"
-author: YuriDio
-manager: swadhwa
-ms.date: 03/10/2016
+title: BYOD user and device considerations
+ms.custom: na
+ms.reviewer: na
+ms.service: multiple
+ms.suite: na
+ms.technology: na 
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: Enterprise Mobility
-ms.service: EM
-ms.author=yuridio
 ms.assetid: 0000
+author: YuriDio
 ---
-
-
 # BYOD user and device considerations
 
 The first user and device issue you need to address is how the technologies in place will affect the user experience when securely accessing company resources. Addressing the user experience across different devices can be challenging, not only from a security point of view, but also from the perspective of app development. The communication channel between the device and company resources must be considered for the proper level of network security required to avoid data leakage while data is in transit.
@@ -195,7 +192,7 @@ Use the list below to understand the advantages and disadvantages of the Wi-Fi s
 	- Disadvantages
 		- Requires IPsec for Implementation using [Microsoft Network Access Protection (NAP)](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), which can be a problem in a BYOD scenario that requires support for “any device.”
 
-> AZURE.NOTE For more information about Wi-Fi Profiles in Configuration Manager, see [Introduction to Wi-Fi Profiles in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
+> [!NOTE] For more information about Wi-Fi Profiles in Configuration Manager, see [Introduction to Wi-Fi Profiles in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Network location plays an important role for user and device considerations. You can leverage multi-factor access control in AD FS to enable per-application authorization policies, whereby you can permit or deny access based on user, device, and network location. See [Manage Risk with Multi-Factor Access Control](https://technet.microsoft.com/library/dn280936.aspx) for more information about how to set up an environment to validate this capability.
 
