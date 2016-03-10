@@ -1,17 +1,15 @@
 ---
-title: Management requirements | BYOD Design Considerations Guide
-description: Blah
-keywords: "BYOD, device management, devices"
-author: YuriDio
-manager: swadhwa
-ms.date: 03/10/2016
+title: Management requirements
+ms.custom: na
+ms.reviewer: na
+ms.service: multiple
+ms.suite: na
+ms.technology: na 
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: Enterprise Mobility
-ms.service: EM
-ms.author=yuridio
 ms.assetid: 0000
+author: YuriDio
 ---
-
 # Management requirements
 
 Device management is one of the foundations of any people-centric strategy, and it must be evaluated against a company’s requirements. Depending on the maturity level of the company, a management system might be in place already that will need to be expanded to cover the BYOD scenarios that the company is adopting. Figure 4 shows management interactions when managing users, devices, and data. Considerations must be made for each component of the Management subdomain.

@@ -1,17 +1,15 @@
 ---
-title: Envisioning the BYOD Infrastructure Solution | BYOD Design Considerations Guide
-description: Blah
-keywords: "BYOD, device management, devices"
-author: YuriDio
-manager: swadhwa
-ms.date: 03/10/2016
+title: Envisioning the BYOD Infrastructure Solution
+ms.custom: na
+ms.reviewer: na
+ms.service: multiple
+ms.suite: na
+ms.technology: na 
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: Enterprise Mobility
-ms.service: EM
-ms.author=yuridio
 ms.assetid: 0000
+author: YuriDio
 ---
-
 #Envisioning the BYOD Infrastructure Solution
 
 After clearly defining the BYOD problem you are trying to solve, you can begin to define a solution to the problem and define detailed requirements for the solution.
