@@ -1,20 +1,16 @@
-<properties
-   pageTitle="BYOD Design Considerations Guide"
-   description="Blah"
-   services="Enterprise Mobility"
-   documentationCenter="na"
-   authors="YuriDio"
-   manager="swadhwa"
-   editor=""/>
-
-<tags
-   ms.service="enterprise-mobility"
-   ms.devlang="na"
-   ms.topic="article"
-   ms.tgt_pltfrm="na"
-   ms.workload="na"
-   ms.date="03/07/2016"
-   ms.author="yuridio"/>
+---
+title: BYOD Design Considerations Guide | BYOD Design Considerations Guide
+description: Blah
+keywords: "BYOD, device management, devices"
+author: YuriDio
+manager: swadhwa
+ms.date: 03/09/2016
+ms.topic: article
+ms.prod: Enterprise Mobility
+ms.service: EM
+ms.author=yuridio
+ms.assetid: 0000
+---
 
 # BYOD Design Considerations
 
