@@ -4,10 +4,11 @@ description: Blah
 keywords: "BYOD, device management, devices"
 author: YuriDio
 manager: swadhwa
-ms.date: 03/09/2016
+ms.date: 03/10/2016
 ms.topic: article
 ms.prod: Enterprise Mobility
 ms.service: EM
+ms.author=yuridio
 ms.assetid: 0000
 ---
 

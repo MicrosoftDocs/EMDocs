@@ -4,10 +4,11 @@ description: Blah
 keywords: "BYOD, device management, devices"
 author: YuriDio
 manager: swadhwa
-ms.date: 03/09/2016
+ms.date: 03/10/2016
 ms.topic: article
 ms.prod: Enterprise Mobility
 ms.service: EM
+ms.author=yuridio
 ms.assetid: 0000
 ---
 
@@ -15,7 +16,7 @@ ms.assetid: 0000
 
 Every organization uses a variety of technical capabilities to enable their workforce to perform their tasks in an optimized manner, and most of the time, the primary tool is an app. These capabilities could be combined in a multiplatform approach in which different technologies are used to achieve a certain goal or by creating a custom app that will be able to perform a task or automate certain processes. Apps are important to consider when designing the BYOD strategy. Users will use different form factors to consume these apps; therefore, you need to consider the variety of capabilities that these apps should support. Figure 5 shows how users and devices use apps to consume data and the considerations for each component of the Apps subdomain.
 
-![](../media/BYOD_Figure5.png)
+![App requirements](./media/BYOD_Figure5.png)
 
 The next section contains questions about app requirements that you will need to answer in order to formulate the requirements for your solution design.
 

@@ -1,27 +1,23 @@
-<properties
-   pageTitle="Users and Devices requirements | BYOD Design Considerations Guide"
-   description="Blah"
-   services="Enterprise Mobility"
-   documentationCenter="na"
-   authors="YuriDio"
-   manager="swadhwa"
-   editor=""/>
-
-<tags
-   ms.service="enterprise-mobility"
-   ms.devlang="na"
-   ms.topic="article"
-   ms.tgt_pltfrm="na"
-   ms.workload="na"
-   ms.date="03/07/2016"
-   ms.author="yuridio"/>
+---
+title: Users and Devices requirements | BYOD Design Considerations Guide
+description: Blah
+keywords: "BYOD, device management, devices"
+author: YuriDio
+manager: swadhwa
+ms.date: 03/09/2016
+ms.topic: article
+ms.prod: Enterprise Mobility
+ms.service: EM
+ms.author=yuridio
+ms.assetid: 0000
+---
 
 
 # User and device requirements
 
 Before enabling users to access company resources from their devices, answer the questions in the sections that follow by working with the consumers of these resources in your environment and with your IT department. Figure 2 shows the interactions between users and devices, with the ultimate goal of accessing and consuming data. Note that the diagram does not address geographical location. Although geographical location is an important consideration (and it will be covered later in this document), the intent of Figure 2 is to illustrate the core components of users and devices. Design considerations must be made to enable this communication to occur.
 
-![](../media/BYOD_Figure2.png)
+![Users, Devices and Data](./media/BYOD_Figure2.png)
 
 The outcome of this process is a clear definition of the functionality to be provided. The section below contains questions about users and devices that you will need to answer in order to formulate the requirements for your solution design.
 
