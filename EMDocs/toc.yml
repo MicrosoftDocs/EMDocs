@@ -25,7 +25,7 @@
         href: /ATA/Troubleshoot/
         homepage: /ATA/troubleshoot/ata-troubleshooting.html
   - name: Intune
-    href: /InTune/Topic/
+    href: /InTune/
     homepage: /InTune/index.html
     items:
       - name: Understand and explore
