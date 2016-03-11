@@ -1,5 +1,5 @@
 ---
-title: BYOD User and Devices Requirements
+title: User and devices requirements
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple

@@ -1,5 +1,5 @@
 ---
-title: App Requirements
+title: App requirements
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple

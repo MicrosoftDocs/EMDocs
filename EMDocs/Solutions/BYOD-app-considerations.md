@@ -1,5 +1,5 @@
 ---
-title: BYOD app considerations | BYOD Design Considerations Guide
+title: App considerations
 description: Blah
 keywords: "BYOD, device management, devices"
 author: YuriDio
@@ -15,7 +15,7 @@ ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 author: YuriDio
 ---
 
-# BYOD app considerations
+# App considerations
 
 App considerations for BYOD can vary according to company goals, constraints, and resources. Companies should evaluate their current apps, the technologies that were used to develop the apps, the requirements for the apps to run on any device, and which apps are essential for the users to be able to access from any location. Though modern apps are not as resource intensive to provision and deploy as Windows-based apps, a cost is still associated with developing and maintaining them.
 

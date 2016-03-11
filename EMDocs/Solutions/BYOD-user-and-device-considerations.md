@@ -1,5 +1,5 @@
 ---
-title: BYOD user and device considerations
+title: User and device considerations
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple
@@ -10,7 +10,7 @@ ms.topic: article
 ms.assetid: 0000
 author: YuriDio
 ---
-# BYOD user and device considerations
+# User and device considerations
 
 The first user and device issue you need to address is how the technologies in place will affect the user experience when securely accessing company resources. Addressing the user experience across different devices can be challenging, not only from a security point of view, but also from the perspective of app development. The communication channel between the device and company resources must be considered for the proper level of network security required to avoid data leakage while data is in transit.
 The sections that follow are based on components for the Users and Devices subdomain shown in Figure 1 in BYOD Problem Definition, which is the conceptual diagram for the BYOD problem domain.
