@@ -39,3 +39,16 @@ Ok, here's another comment format:
 
 And again, did the comment end? Can I see this sentence, take 2?
 
+Finally, testing the comment formatting used in the file that kicked all this off:
+<!--
+This is an exclamation point followed by 2 dashes.
+-->
+
+And I just remembered that the comment formatting was maybe inconsistent, so here's a mix of dash numbers:
+
+<!---
+This is commented usingn 3 dashes to open and 2 to close.
+-->
+Did the comment really close?
+
+
