@@ -1,5 +1,5 @@
 # [BYOD Design Guide](BYOD-design-considerations-guide.md)
-## [Envisioning the infrastructure solution](Envisioning-the-BYOD-Infrastructure-Solution.md)
+## [Envisioning the infrastructure solution](BYOD-Envisioning-the-BYOD-Infrastructure-Solution.md)
 ### [User and device requirements](BYOD-User-Device-Reqs.md)
 ### [Data access and protection requirements](BYOD-data-access-protection-reqs.md)
 ### [Management requirements](BYOD-management-reqs.md)
