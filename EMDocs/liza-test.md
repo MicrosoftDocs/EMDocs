@@ -22,3 +22,20 @@ Groups in Intune provide great flexibility in managing your devices and users. Y
 - hardware characteristics
 - operating system
 - whether the device is user-owned or company-owned
+
+Now, how can I comment out a sentence?
+
+Testing different comment options:
+
+<!---
+This is using the < and ! and dashes. Standared HTML commenting, in other words.
+--->
+
+And now, did the comment end? Can I see this sentence?
+
+Ok, here's another comment format:
+
+[//]: # "This is a true comment, using alleged MD format of some slashes and a pound."
+
+And again, did the comment end? Can I see this sentence, take 2?
+
