@@ -1,5 +1,5 @@
 ---
-title: BYOD data access and protection considerations
+title: Data access and protection considerations
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple
@@ -10,7 +10,7 @@ ms.topic: article
 ms.assetid: 0000
 author: YuriDio
 ---
-# BYOD data access and protection considerations
+# Data access and protection considerations
 
 Loss of sensitive data is an operation risk for any company, and with the advent of BYOD, information resides in more places than ever before. This translates to a bigger threat landscape and higher risks that must be correctly mitigated. Because of a range of legislative, corporate, and industry regulations that governs the protection of sensitive data, data protection can be a complex process. It is important to take these legal requirements, internal corporate policies, and industry regulations into account.
 As part of the BYOD infrastructure strategy it is essential that after the policies and data classifications have been defined, the data must be physically located, placed in proper classification levels, and have the appropriate security settings applied. IT needs a way to validate users’ identities and may wish to apply additional conditions on the types of devices that are able to access the information and apps provided by the company.

@@ -59,16 +59,6 @@ Management requirements questions are categorized in seven areas:
 - Does your company plan to perform selective wipe in case a user no longer needs access to the apps that were installed?
 	- If so, does the management system in place support selective wipe capability?
 
-### Configuration
-
-- Does your company need a management system that requires users’ devices to be domain-joined in order to be managed?
-- Does your company need a management system that integrates with your current directory?
-- Does your company need a management system that manages just apps, or should it also manage the operating system running on users’ devices?
-- Does your company need a management system that can enforce policies on users’ devices?
-- Does your company need a management system that can be integrated with cloud services?
-- Does your company plan to perform selective wipe in case a user no longer needs access to the apps that were installed?
-	- If so, does the management system in place support selective wipe capability?
-
 ### Compute
 
 - What are the compute capabilities required to run the management system on back-end servers?

@@ -1,5 +1,5 @@
 ---
-title: BYOD management considerations
+title: Management considerations
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple
@@ -10,7 +10,7 @@ ms.topic: article
 ms.assetid: 0000
 author: YuriDio
 ---
-# BYOD management considerations
+# Management considerations
 
 A management domain is mandatory in an infrastructure that supports a BYOD model. In order to fully support BYOD demands, the management domain must be able to enable IT to monitor resources, provide reporting capabilities, manage compute and storage resources, enable device configuration and automation, and manage apps deployment and provisioning.
 

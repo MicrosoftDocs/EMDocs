@@ -1,5 +1,5 @@
 ---
-title: BYOD Design Considerations
+title: Design considerations
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple
@@ -10,13 +10,13 @@ ms.topic: article
 ms.assetid: 0000
 author: YuriDio
 ---
-# BYOD Design Considerations
+# Design considerations
 
 With an understanding of the requirements detailed in Envisioning the BYOD Infrastructure Solution in this document, you can select appropriate products and technologies to implement the requirements for your BYOD infrastructure design. The following table lists Microsoft products, technologies, and services that can be used to implement a BYOD infrastructure solution.
 
 Microsoft products, technologies, and services for a BYOD infrastructure solution that will be mentioned in this guide are:
 
-**User and device**
+## User and device
 
 - Windows Server 2012 R2
 - Windows 10
@@ -27,7 +27,7 @@ Microsoft products, technologies, and services for a BYOD infrastructure solutio
 - Company Portal
 - HTTPS protocol
 
-**Data access and protection**
+## Data access and protection
 
 - Windows Server 2012 R2
 - Active Directory Domain Services (AD DS)
@@ -42,7 +42,7 @@ Microsoft products, technologies, and services for a BYOD infrastructure solutio
 - Work Folders
 - Web Application Proxy (WAP)
 
-**Management**
+## Management
 
 - Microsoft Intune
 - Device Management Policies
@@ -52,7 +52,7 @@ Microsoft products, technologies, and services for a BYOD infrastructure solutio
 - Distribution Point Usage Reports and Management
 - System Center 2012 R2 Configuration Manager
 
-**Apps**
+## Apps
 
 - Web Application Proxy
 - Automatic Trigger VPN

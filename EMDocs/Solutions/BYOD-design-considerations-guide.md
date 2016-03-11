@@ -10,7 +10,7 @@ ms.topic: article
 ms.assetid: 0000
 author: YuriDio
 ---
-# BYOD Introduction
+# BYOD Design Considerations Guide
 
 With the proliferation of devices used by employees, most enterprises are facing a big dilemma: how do they allow their users to use their own devices, while protecting corporate data that resides on those devices? Enterprises are moving away from the traditional model, in which they own and provide devices to their employees, to a model in which employees use their personal devices for some of their work tasks. This model is often referred to as [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). In this model, employees are allowed to use their personal devices for some work tasks, but only if the employees allow the company to manage some aspects of their devices to ensure the security of corporate data. Often, this means that users allow the company to apply custom policies, perform hardening of the devices, or standardize the operating system established by company policy. Executives and decision makers that read the [CIO considerations for workstyle transformation](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf) paper from Microsoft can also identify the benefits of embracing a model in which people are empowered to use their devices to be productive at work.
 
@@ -22,11 +22,13 @@ Though data access and protection is one of the main challenges of BYOD, other c
 
 This discussion will be driven by requirements, capabilities, and design considerations for a device management infrastructure. Microsoft technologies are mentioned within the context of the requirements and capabilities—not vice versa. It is our expectation that this approach will resonate better with architects and designers who are interested in the problems that must be solved and the approaches that are available for solving these problems. Only then is the technology discussion relevant.
 
-## Document audience</title>
+This guide provides the system architect and system designer with a collection of critical design considerations that need to be addressed before designing a Bring Your Own Device (BYOD) infrastructure that enables employees to use their own devices and protects the company’s data.
+
+## Intended audience</title>
 
 The primary audience for this document is the system architect or system designer who is interested in understanding the issues that need to be considered before implementing a BYOD infrastructure. Others who might be interested in this document include IT implementers, enterprise security specialists, and device management specialists.</para>
     
-## Document purpose</title>
+## Purpose</title>
   
 The purpose of this document is twofold:
 
@@ -50,7 +52,7 @@ It is *not* the purpose of this document to:
 - Provide app development best practices for mobile devices.
 - Provide guidance and best practices for third-party components.
 
-## BYOD Problem Definition
+## BYOD problem definition
 
 The following problems or challenges are typically the ones encountered by companies trying to embrace BYOD:
 
