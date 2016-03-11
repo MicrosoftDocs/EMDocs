@@ -12,7 +12,8 @@ author: Nbigman
 # Plan your user and device groups
 <!--Write concisely: Considered planning of your groups and policies will help you keep them organized and achieve the client behavior that you want. Here are some the recommended practices for organizing and managing your Intune policies and groups.
 
-## Group basics-->
+## Group basics
+
 Groups in Intune provide great flexibility in managing your devices and users. You can set up groups to suit your organizational needs according to:
 
 
