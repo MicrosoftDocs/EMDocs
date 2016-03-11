@@ -23,7 +23,7 @@ Groups in Intune provide great flexibility in managing your devices and users. Y
 - operating system
 - whether the device is user-owned or company-owned
 
-Now, how can I comment out a sentence?
+Now, how can I comment out a sentence? And adding a minor change for my own purposes.
 
 Testing different comment options:
 
