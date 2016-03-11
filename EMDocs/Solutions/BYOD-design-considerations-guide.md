@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: BYOD Design Considerations Guide
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple
@@ -24,11 +24,11 @@ This discussion will be driven by requirements, capabilities, and design conside
 
 This guide provides the system architect and system designer with a collection of critical design considerations that need to be addressed before designing a Bring Your Own Device (BYOD) infrastructure that enables employees to use their own devices and protects the company’s data.
 
-## Intended audience</title>
+## Intended audience
 
 The primary audience for this document is the system architect or system designer who is interested in understanding the issues that need to be considered before implementing a BYOD infrastructure. Others who might be interested in this document include IT implementers, enterprise security specialists, and device management specialists.</para>
     
-## Purpose</title>
+## Purpose
   
 The purpose of this document is twofold:
 
@@ -52,7 +52,7 @@ It is *not* the purpose of this document to:
 - Provide app development best practices for mobile devices.
 - Provide guidance and best practices for third-party components.
 
-## BYOD problem definition
+## Problem definition
 
 The following problems or challenges are typically the ones encountered by companies trying to embrace BYOD:
 
