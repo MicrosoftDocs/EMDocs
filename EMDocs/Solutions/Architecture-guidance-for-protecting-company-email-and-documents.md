@@ -39,7 +39,7 @@ Microsoft offers the Enterprise Mobility Suite (EMS), a comprehensive solution f
 
 EMS is composed of the following cloud services:
 
-![](./media/ProtectEmail/Enterprise_Mobility_Suite.png)
+![](./media/ProtectEmail/Enterprise-Mobility-Suite.png)
 
 Using EMS, data is protected both inside and outside of your corporate network:
 
@@ -123,7 +123,7 @@ On most platforms, the Azure Active Directory device registration happens automa
 
 **Azure AD**, authenticates the user and the device, Microsoft Intune manages the compliance and conditional access policies, and **Exchange Online** manages access to email based on the device state.
 
-![](./media/ProtectEmail/Access_Control_Flow_For_Native_Email_Apps.png)
+![](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
 
 ### Access control flow for Outlook applications
 Similar to the EAS client, the Outlook email app attempting to access mail in Exchange Online will be evaluated for the following properties:
@@ -136,7 +136,7 @@ Similar to the EAS client, the Outlook email app attempting to access mail in Ex
 
 The device compliance is established in much in the same way as described in the EAS client access control flow. However, for Outlook apps, the flow between the components is slightly different. When the Outlook app attempts to get email, it is redirected to Azure AD. Azure AD issues a security token if the device is successfully evaluated to be enrolled and compliant. The security token is then used to get corporate email from Exchange Online. The email sync is actually brokered through the Outlook cloud service, which gets an EAS service access token on behalf of the user to complete the authentication and delivers the email.
 
-![](./media/ProtectEmail/Access_Control_Flow_For_Outlook_App.png)
+![](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
 
 ### The IT admin experience:
 There is no complex infrastructure setup required for Azure AD or Exchange to make this happen. Your IT admins:
@@ -193,7 +193,7 @@ With [Azure Rights Management Services](https://technet.microsoft.com/en-us/libr
 
 -   **The Company portal** is an app that either runs natively on each device or is browser based. Your IT deploys the managed apps to users or devices, and end-users can install the app from the portal. The policies associated with the apps are carried over to the device with the apps.
 
-![](./media/ProtectEmail/CADataSheet_Diagram_Apps.png)
+![](./media/ProtectEmail/CADataSheet-Diagram-Apps.png)
 
 ### The IT admin experience:
 Your IT admin creates the mobile application management policies, associates the policy to the app, and deploys it to users or devices. When the managed app is installed on the device, the app restrictions take effect. Creating and deploying managed apps involve little or no additional effort:
