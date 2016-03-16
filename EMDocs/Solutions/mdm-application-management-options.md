@@ -1,11 +1,14 @@
 ---
-title: Enterprise Mobility FastTrack Program
+title: Application management options
 ms.custom: na
 ms.reviewer: na
+ms.service: multiple
 ms.suite: na
+ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 9c9dbc4e-0dcf-404c-964c-e68fb3ca5d5a
+ms.assetid:  
+author: robmazz
 ---
 # Enterprise Mobility FastTrack Program
 Insert introduction here.
