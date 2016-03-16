@@ -4,7 +4,7 @@
   items:
   - name: Solutions
     href: /EM/Solutions/
-    homepage: /EM/Solutions/Bring-Your-Own-Device--BYOD--Design-Considerations-Guide.html
+    homepage: /EM/Solutions/byod-design-considerations-guide.html
   - name: Azure RemoteApp
     href: /remoteapp/
     homepage: /remoteapp/remoteapp-whatis.html
