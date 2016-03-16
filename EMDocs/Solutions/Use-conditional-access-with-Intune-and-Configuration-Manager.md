@@ -315,6 +315,6 @@ See [Hybrid deployment prerequisites](https://technet.microsoft.com/en-us/librar
 ### Deployment Steps
 To deploy a coexistence solution, follow the steps above for deploying both the [Exchange Server on-premises](#ExchangeOnPrem) and [Exchange Online](#ExchangeOnline) solutions.
 
-## See Also
+### See Also
 [Learn how to deploy a solution for protecting company email and documents](../Topic/Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)
 [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md)

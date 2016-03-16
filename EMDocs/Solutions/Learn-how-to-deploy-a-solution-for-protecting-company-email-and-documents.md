@@ -56,7 +56,6 @@ After the solution is implemented, end-users will only be able to access the com
 
 Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
 
-## See Also
+### See Also
 [Use conditional access with Intune and Configuration Manager](../Topic/Use-conditional-access-with-Intune-and-Configuration-Manager.md)
 [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md)
-
