@@ -7,16 +7,14 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
-author: Robmazz
+author: robmazz
 ---
 # Next steps and additional resources
-<?xml version="1.0" encoding="UTF-8"?>
-<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <introduction>
-        <alert class="note">
- <para>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the <link xlink:href="7083b6b8-27a3-427b-b505-25d007d63cdd">Mobile Device Management Design Considerations Guide</link>
-. To get a downloadable copy of this entire guide, visit the <externalLink target="_blank"><linkText>TechNet Gallery</linkText><linkUri>https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582</linkUri></externalLink>.</para>
-</alert><para>Now that you’ve completed defining your requirements and examining all the options for your mobile device management solution, you’re ready to take the next steps for deploying the supporting infrastructure that’s right for you and your organization.</para>
+
+>[Note!]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
+Now that you’ve completed defining your requirements and examining all the options for your mobile device management solution, you’re ready to take the next steps for deploying the supporting infrastructure that’s right for you and your organization.</para>
     </introduction>
     <section>
         <title>Mobile device management solutions 

@@ -1,14 +1,19 @@
 ---
-title: Enterprise Mobility FastTrack Program
+title: Device monitoring options
 ms.custom: na
 ms.reviewer: na
+ms.service: multiple
 ms.suite: na
+ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 9c9dbc4e-0dcf-404c-964c-e68fb3ca5d5a
+ms.assetid:  
+author: robmazz
 ---
-# Enterprise Mobility FastTrack Program
-Insert introduction here.
+# Device monitoring options
+
+>[Note!]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 ## Section Heading
 Insert section body here.

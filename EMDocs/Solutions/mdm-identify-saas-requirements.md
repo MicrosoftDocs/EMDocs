@@ -1,5 +1,5 @@
 ---
-title: Email management options
+title: Identify SaaS requirements
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple
@@ -10,7 +10,7 @@ ms.topic: article
 ms.assetid:  
 author: robmazz
 ---
-# Email management options
+# Identify SaaS requirements
 
 >[Note!]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -20,3 +20,4 @@ Insert section body here.
 
 ### Subsection Heading
 Insert subsection body here.
+
