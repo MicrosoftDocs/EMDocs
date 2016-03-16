@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ms.pagetype" content="hubpage" />
+    <meta name="ms.sitename" content="DOCS" />
+    <meta name="ms.assetid" content="961350ed-a3f1-44f1-b239-b46345b8f620" />
     <title>Microsoft Enterprise Mobility</title>
     <link rel="stylesheet" href="./_themes/css/hubpage.css">
-    <script type="text/javascript" src="//ajax.microsoft.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="./_themes/javascript/slick.min.js"></script>
   </head>
-
   <body data-feedly-mini="yes">
-    <header id="header">
+    <header id="header" ms.pgarea="header">
       <div id="common-nav-placeholder" >
         <div class="container">
-          <h3>Microsoft</h3>
+          <a href="/"><h3>Microsoft</h3></a>
         </div>
       </div>
 
-      <div id="sub-header" class="container">
+      <div id="sub-header" class="container" ms.cmpgrp="breadcrumb">
         <ul class="breadcrumbs">
-          <li>Documentation</li>
           <li>Enterprise Mobility</li>
         </ul>
       </div>
     </header>
 
-    <div class="container">
+    <div class="container" ms.pgarea="body">
       <article id="main">
         <header class="header">
           <h1>Microsoft Enterprise Mobility</h1>
@@ -186,11 +185,10 @@
       </article>
     </div>
 
-    <footer id="footer">
+    <footer id="footer" ms.pgarea="footer">
       <div class="container">
-        <a href="http://www.microsoft.com/" class="logo"><img src="./_themes/images/logo-ms.png" alt="Microsoft"></a>
-        <ul class="links">
-          <li><a href="">Contact Us</a></li>
+        <a href="/" class="logo"><img src="./_themes/images/logo-ms.png" alt="Microsoft"></a>
+        <ul class="links" ms.cmpgrp="footer link">
           <li><a href="">Privacy Statement</a></li>
           <li><a href="">Terms of Use</a></li>
           <li><a href="">Trademarks</a></li>
@@ -198,32 +196,6 @@
       </div>
     </footer>
 
-    <script>
-       $(document).ready(function () {
-           $('.carousel').slick({
-               dots: true,
-               infinite: true,
-               speed: 500,
-               slidesToShow: 3,
-               slidesToScroll: 3,
-               responsive: [
-                   {
-                       breakpoint: 800,
-                       settings: {
-                           slidesToShow: 2,
-                           slidesToScroll: 2
-                       }
-                   },
-                   {
-                       breakpoint: 450,
-                       settings: {
-                           slidesToShow: 1,
-                           slidesToScroll: 1
-                       }
-                   }
-               ]
-           });
-       });
-    </script>
+    <script type="text/javascript" src="./_themes/javascript/hubpage.js"></script>
   </body>
 </html>
