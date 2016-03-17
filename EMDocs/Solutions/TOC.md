@@ -11,7 +11,10 @@
 ### [Apps](byod-app-considerations.md)
 
 # [Mobile Device Management Design Guide](mdm-design-considerations-guide.md)
-## [Step 1: Identify requirements](Step-1---Identify-your-mobile-device-management-requirements.md)
+## [Step 1: Identify requirements](mdm-step-1-identify-your-mobile-device-management-requirements.md)
+### [Identify business needs](mdm-identify-business-needs.md)
+### [Specify location requirements](mdm-specify-mdm-location-requirements.md)
+### [Develop adoption strategy](mdm-develop-mdm-adoption-strategy.md)
 ## [Step 2: Plan for MDM](mdm-step-2-plan-for-mobile-device-management.md)
 ### [Understand the MDM lifecycle](mdm-understand-mdm-lifecycle.md)
 ###[Gather monitoring requirements](mdm-gather-monitoring-requirements.md)
@@ -37,3 +40,5 @@
 # [Secure access to company resources](Secure-access-to-company-resources-from-any-location-on-any-device.md)
 
 # [Protect company email and documents](Architecture-guidance-for-protecting-company-email-and-documents.md)
+
+# [Device enrollment and compliance experience](End-user-experience-of-conditional-access.md)
