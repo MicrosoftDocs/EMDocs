@@ -11,26 +11,23 @@ author: robmazz
 ---
 # Step 2 - Plan for mobile device management
 
->[!NOTE]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
-
 Managing mobile devices, both company-owned and user-owned, encompasses several important lifecycle management decisions. After you’ve determined the mobile device platform, application, and user requirements for your organization, you’ll also need to identify how to manage each of these areas in a way that aligns your overall MDM strategy with other management and support policies. In this step, we’ll examine the MDM enrollment, management, monitoring, and reporting lifecycle requirements.
 
+## About this step
 
+There are XX steps in this section of the guide. Total time to read through the sections is about XX minutes, or you can jump to a specific section>
 
-   
+- [Understand the MDM lifecycle](mdm-understand-mdm-lifecycle.md)
+- [Gather monitoring requirements](mdm-gather-monitoring-requirements.md)
+- [Determine network requirements](mdm-determine-network-requirements.md)
+- [Device enrollment options](mdm-device-enrollment-options.md)
+- [Device provisioning options](mdm-device-provisioning-options.md)
+- [Device management options](mdm-device-management-options.md)
+- [Application management options](mdm-application-management-options)
+- [Device monitoring options](mdm-device-monitoring-options.md)
+- [Email management options](mdm-email-management-options.md)
+- [Network connectivity management options](mdm-network-connectivity-management-options)
+- [Certificate management options](mdm-certificate-management-options.md)
 
-
-</section></sections></section><section>
-<title>Task 4: Define your mobile device management lifecycle strategy</title><content><para>In this task, you’ll refine the mobile device management lifecycle strategy to meet the management requirements you identified in Tasks 1-3.</para></content>
-<sections><section>
-
-
-
-
-
-
-
-<title>Ready for the next step?</title><content><para>Go to <link xlink:href="5dffb570-dd1a-4beb-aa1e-7c0b51393704">Step 3 - Plan for securing mobile devices</link> for the next step in this guide.</para></content>
-</section><relatedTopics/>
-</developerConceptualDocument>
+>[!IMPORTANT]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
