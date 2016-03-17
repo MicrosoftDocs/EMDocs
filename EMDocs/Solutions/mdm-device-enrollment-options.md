@@ -13,7 +13,7 @@ author: robmazz
 
 # Device enrollment options
 
->[Note!]
+>[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 Enrolling devices in <token>Microsoft Intune</token>, whether standalone or when connected to <token>System Center 2012 R2 Configuration Manager</token> (ConfigMgr), requires that you prepare the service for the devices. Enrolling mobile devices in <token>MDM for Office 365</token> also requires that you activate MDM, configure basic settings, and include each user in a <externalLink target="_blank"><linkText>security policy</linkText><linkUri>https://technet.microsoft.com/library/ms.o365.cc.newdevicepolicy.aspx</linkUri></externalLink> respond to an enrollment message the next time they sign in to <token>Office 365</token> on their mobile device. They must complete the enrollment and activation steps on each mobile device they will use to access <token>Office 365</token> email and documents.

@@ -12,7 +12,7 @@ author: robmazz
 ---
 # Gather monitoring requirements
 
->[Note!]
+>[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 Monitoring and capturing status and event information for mobile devices is vital to ensuring that users and devices are in compliance with your corporate policies and security strategy. This is especially important for organizations that must comply with governmental regulatory requirements and industry compliance guidelines.
@@ -45,5 +45,5 @@ Answer the following planning questions about device monitoring:
 - When a device is de-enrolled, should specific inventory and reporting events be captured?
 - After a device is de-enrolled, should legacy inventory and reporting events be archived/maintained?
  
->[Note!]
+>[!NOTE]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.

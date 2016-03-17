@@ -12,7 +12,7 @@ author: robmazz
 ---
 # Determine network requirements
 
->[Note!]
+>[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 Enabling secure, managed access to a wide variety of corporate resources by mobile devices is an important feature of a mobile device management solution. While these resources have typically been located in on-premises networks, it’s more common now for resources to be hosted in addition on cloud-based web services and external networks.</para><para>How mobile devices connect to corporate email platforms, virtual private networks (VPNs), and corporate wireless (Wi-Fi) networks all play an important role in keeping corporate data and other resources protected from unauthorized access. Equally important is making it convenient and easy for mobile device users to have secure access these resources to avoid users finding a more convenient but not secure method of storing or accessing resources.</para></content>
@@ -98,6 +98,6 @@ Answer the following planning questions about certificate management:
 - Are digital certificates centrally managed by an on-premises or third party Certification Authority (CA)?
 - Do you need to have different certificates assigned for access to different network services? Is this dependent on the type of mobile device accessing the network?
 
->[Note!]
+>[!NOTE]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.
 
