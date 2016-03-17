@@ -11,7 +11,7 @@ author: robmazz
 ---
 # Understand the MDM lifecycle
 
->[Note!]
+>[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 Understanding the different areas of managing mobile devices is important when designing your mobile device management solution. The figure below outlines the overall mobile device management lifecycle stages. Each stage has unique requirements and questions for you to consider when planning your solution. We’ll start with the enrollment stage in this section, and the other stages will be covered in more detail throughout this guide.
@@ -110,5 +110,5 @@ Answer the following planning questions about device retirement and unenrollment
 - If mobile device users can unenroll their mobile devices, how will the removal of corporate data and applications be verified?
  - Is this different for devices that are selectively wiped and devices that are reset to the factory default setting?
 
->[Note!]
+>[!NOTE]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.

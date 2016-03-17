@@ -12,7 +12,7 @@ author: robmazz
 ---
 # Device provisioning options
 
->[Note!]
+>[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 When a user can use and enroll their own device, this increases the requirements for both the user and IT, and impacts several areas. For example, Figure 4 shows an overview of the enrollment process for an organization using both <token>Intune</token> and <token>ConfigMgr</token>. This example outlines the certificate, web application, and synchronization considerations that you’ll need to consider when planning your solution:
