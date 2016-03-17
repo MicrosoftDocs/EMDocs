@@ -240,6 +240,6 @@ Every 8 hours by default, devices are checked to ensure that they are still comp
 
 5.  If the issue is fixed, the user clicks **Continue** to complete the process. Email access should become available again within a few minutes.
 
-## See Also
+### See Also
 [Learn how to deploy a solution for protecting company email and documents](../Topic/Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)
 [Use conditional access with Intune and Configuration Manager](../Topic/Use-conditional-access-with-Intune-and-Configuration-Manager.md)
