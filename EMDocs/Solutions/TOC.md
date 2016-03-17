@@ -35,10 +35,9 @@
 ### [Identify SaaS connectivity requirements](mdm-identify-saas-connectivity-requirements.md)
 ## [Next steps](mdm-next-steps-and-additional-resources.md)
 
-# [Conditional access with Intune & ConfigMgr](Use-conditional-access-with-Intune-and-Configuration-Manager.md)
 
 # [Secure access to company resources](Secure-access-to-company-resources-from-any-location-on-any-device.md)
 
 # [Protect company email and documents](Architecture-guidance-for-protecting-company-email-and-documents.md)
-
-# [Device enrollment and compliance experience](End-user-experience-of-conditional-access.md)
+## [Conditional access with Intune & ConfigMgr](Use-conditional-access-with-Intune-and-Configuration-Manager.md)
+## [Device enrollment and compliance experience](End-user-experience-of-conditional-access.md)
