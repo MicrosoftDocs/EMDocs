@@ -29,6 +29,8 @@ Depending on how your infrastructure is set up, you may be able to create a vari
 <image xlink:href="1047aa81-9c0e-4e4b-8acc-53cc33b33d5a"/>
 </mediaLink><para><legacyBold>
 
+![Integrated mobile device monitoring and reporting](./media/MDM_Figure_05.png)
+
 **Integrated mobile device monitoring and reporting**
 
 The answers you gave to the questions in Task 2 can help you determine your monitoring and reporting needs for your mobile devices. Table 8 below shows the advantages and disadvantages of the monitoring and reporting features in each MDM solution.

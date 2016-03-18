@@ -19,9 +19,9 @@ Using digital certificate management and certificate profiles is supported both 
 
 Since SCEP is natively supported by iOS, Windows 10 and 8.1, and Windows Phone 10 and 8.1, and is also supported through the <token>Microsoft Intune Company Portal</token> app for Android, using this enrollment protocol has the advantage of having the private key generated directly on the mobile device. The private key is never generated, cached, or stored by either <token>ConfigMgr</token> or by <token>Intune</token> - which helps to keep the mobile device secure.</para><para>
 
-Figure 7 shows how <token>Intune</token> and <token>ConfigMgr</token> use the NDES to provide secure certificate provisioning to mobile devices using SCEP:</para><mediaLink>
-<image xlink:href="1f6f2542-eb66-48c0-9988-59c40c1fdead"/>
-</mediaLink><para><legacyBold>
+Figure 7 shows how Intune and ConfigMgr use the NDES to provide secure certificate provisioning to mobile devices using SCEP:
+
+![Secure certificate provisioning](./media/MDM_Figure_07.png)
 
 **Secure certificate provisioning**
 
