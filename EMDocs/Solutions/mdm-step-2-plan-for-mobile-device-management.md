@@ -11,11 +11,14 @@ author: robmazz
 ---
 # Step 2 - Plan for mobile device management
 
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
 Managing mobile devices, both company-owned and user-owned, encompasses several important lifecycle management decisions. After you’ve determined the mobile device platform, application, and user requirements for your organization, you’ll also need to identify how to manage each of these areas in a way that aligns your overall MDM strategy with other management and support policies. In this step, we’ll examine the MDM enrollment, management, monitoring, and reporting lifecycle requirements.
 
 ## About this step
 
-There are XX steps in this section of the guide. Total time to read through the sections is about XX minutes, or you can jump to a specific section>
+There are 11 steps in this section of the guide. Total time to read through the sections is about XX minutes, or you can jump to a specific section:
 
 - [Understand the MDM lifecycle](mdm-understand-mdm-lifecycle.md)
 - [Gather monitoring requirements](mdm-gather-monitoring-requirements.md)
@@ -28,6 +31,3 @@ There are XX steps in this section of the guide. Total time to read through the 
 - [Email management options](mdm-email-management-options.md)
 - [Network connectivity management options](mdm-network-connectivity-management-options)
 - [Certificate management options](mdm-certificate-management-options.md)
-
->[!IMPORTANT]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
