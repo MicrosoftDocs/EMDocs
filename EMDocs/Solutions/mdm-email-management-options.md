@@ -21,6 +21,8 @@ You follow a similar process to configure email management options in <token>Int
 
 In the scenario shown below in Figure 6, the user has enrolled their device in <token>Intune</token> and is now trying to access their corporate email using <token>Office 365</token> or Exchange on-premises. Based on the settings defined by the IT administrator at their company, <token>Intune</token> runs a policy verification process. In this scenario, the user’s access is granted if the device is encrypted, a passcode is set, and the device isn’t jail broken or rooted. If a user tries to access corporate email and their device is not enrolled, or not compliant based upon settings defined by the IT admin, the user will receive an email explaining why their access has been blocked along with steps for how to resolve the issue. 
 
+![Conditional access](./media/MDM_Figure_06.png)
+
 **Conditional access**
 
 Your answers to the questions in Task 1 can help you determine how you want devices to be managed in the mobile device management solution. Table 9 below lists the advantages and disadvantages of email management in each MDM solution.
