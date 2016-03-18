@@ -39,5 +39,7 @@
 # [Secure access to company resources](Secure-access-to-company-resources-from-any-location-on-any-device.md)
 
 # [Protect company email and documents](Architecture-guidance-for-protecting-company-email-and-documents.md)
-## [Conditional access with Intune & ConfigMgr](Use-conditional-access-with-Intune-and-Configuration-Manager.md)
-## [Device enrollment and compliance experience](End-user-experience-of-conditional-access.md)
+## [Learn how you can deploy this solution](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents)
+### [Conditional access with Intune & ConfigMgr](Use-conditional-access-with-Intune-and-Configuration-Manager.md)
+### [Conditional access with Intune](use-conditional-access-with-intune.md)
+### [Device enrollment and compliance experience](End-user-experience-of-conditional-access.md)
