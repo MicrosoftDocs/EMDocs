@@ -43,5 +43,5 @@
     "theme": "hyde",
     "dest": "_output"
   },
-  "basepath": "/EM"
+  "basepath": "/em"
 }
