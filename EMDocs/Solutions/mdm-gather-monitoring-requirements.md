@@ -25,8 +25,8 @@ In general, mobile device management solutions divide monitoring into two genera
 
 - **Logging:** Capturing and storing mobile device and mobile device application status and information.
 - **Reporting:** Displaying reports or notifications, including standard and customizable reports that can be created on-demand, and automatic summary and dashboard status reports.
-- 
-## Monitoring planning questions:
+
+## Monitoring planning questions
 
 Answer the following planning questions about device monitoring:
 
