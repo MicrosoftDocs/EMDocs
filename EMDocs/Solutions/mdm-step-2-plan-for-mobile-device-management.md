@@ -18,7 +18,7 @@ Managing mobile devices, both company-owned and user-owned, encompasses several 
 
 ## About this step
 
-There are 11 steps in this section of the guide. Total time to read through the sections is about XX minutes, or you can jump to a specific section:
+There are 11 steps in this section of the guide. Total time to read through the sections is about 38 minutes, or you can jump to a specific section:
 
 - [Understand the MDM lifecycle](mdm-understand-mdm-lifecycle.md)
 - [Gather monitoring requirements](mdm-gather-monitoring-requirements.md)
