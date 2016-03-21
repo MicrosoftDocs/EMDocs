@@ -11,7 +11,7 @@ author: YuriDio
 ---
 # Gather your data protection requirements
 
->[Note!]
+>[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 To help define your organization’s data protection requirements for mobile devices, it helps to first think about data protection requirements that your organization already has in place. For example, perhaps your company has to comply with specific regulations, or you might already have a policy regarding data protection. 
@@ -51,4 +51,4 @@ The list below includes common options that should be supported by the MDM solut
 - Requiring encryption on storage cards
 - Allowing idle return without a password
 
->[Note!] In Windows Phone 8.1, the policy Allow idle return without password can be configured using [Windows Phone 8.1 Enterprise Device Management Protocol](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).
+>[!NOTE] In Windows Phone 8.1, the policy Allow idle return without password can be configured using [Windows Phone 8.1 Enterprise Device Management Protocol](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).

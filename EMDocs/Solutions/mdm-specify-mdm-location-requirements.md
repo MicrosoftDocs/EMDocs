@@ -11,6 +11,9 @@ author: YuriDio
 ---
 # Specify your mobile device management location requirements
 
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
 Location requirements are one of the many factors that you should take in consideration when designing your mobile device management strategy. Location is important from the mobile device management solution perspective as well as from the device itself. Answer the following questions:
 
 - Track users: For some kinds of mobile device control, you might need to implement policies that can restrict access to company resources based on a user’s location.
@@ -25,5 +28,3 @@ Location requirements are one of the many factors that you should take in consid
 
 >[!NOTE] Make sure to take notes of each answer and understand the rationale behind the answer. Next section will go over the available options and advantages/disadvantages of each option.  By having answered these questions, you’ll be able to select which solution best suits your business needs.
 
->[Note!]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).

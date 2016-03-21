@@ -10,6 +10,10 @@ ms.assetid: 5dffb570-dd1a-4beb-aa1e-7c0b51393704
 author: YuriDio
 ---
 # Specify your access requirements
+
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
 A mobile device that can’t use apps or access company data that is needed to perform work isn’t useful for your employees. So it’s critical to understand how the data will travel from the source location (on-premises or cloud) to the mobile device. 
 
 Look back at Figure 8 to see the potential paths that the data will travel to and from mobile devices, and the considerations that should be in place for each path. Many companies that have security policies in place haven’t considered how mobile devices can increase the likelihood that corporate data might be leaked. So review your current company policies to ensure that the requirements you develop for authentication, authorization, and access control are aligned with your business requirements.
@@ -45,7 +49,3 @@ When designing your MDM solution, consider the following:
 	- If yes, does the MDM solution allow you to manage device attestation?
 
 Read the [Secure access to company resources from any location on any device](https://technet.microsoft.com/library/dn550982) to better understand how to leverage built in Windows Server 2012 R2 capabilities in conjunction with ConfigMgr to provide access to your company resources. 
-
->[Note!]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
-
