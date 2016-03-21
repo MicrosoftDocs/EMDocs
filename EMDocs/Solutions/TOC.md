@@ -39,7 +39,7 @@
 ### [Data classification](mdm-data-classification.md)
 ### [Authentication and authorization](mdm-authentication-authorization.md)
 ### [Access control to resources](mdm-access-control-resources.md)
-### [Incident responses](mdm-incidnet-response.md)
+### [Incident responses](mdm-incident-response.md)
 ## [Step 4: Plan for SaaS](mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
 ### [Identify SaaS requirements](mdm-identify-saas-requirements.md)
 ### [Identify SaaS integration needs](mdm-identify-saas-solution-infrastructure-integration-needs.md)

@@ -18,7 +18,7 @@ author: robmazz
 Enabling secure, managed access to a wide variety of corporate resources by mobile devices is an important feature of a mobile device management solution. While these resources have typically been located in on-premises networks, it’s more common now for resources to be hosted in addition on cloud-based web services and external networks.</para><para>How mobile devices connect to corporate email platforms, virtual private networks (VPNs), and corporate wireless (Wi-Fi) networks all play an important role in keeping corporate data and other resources protected from unauthorized access. Equally important is making it convenient and easy for mobile device users to have secure access these resources to avoid users finding a more convenient but not secure method of storing or accessing resources.</para></content>
 
 
-## Email management</title><content><para>
+## Email management
 Corporate email is typically the primary data resource most users need access to on a corporate network, whether from a personally-owned or a company-owned mobile device. Accessing to email is also typically the connection that triggers initial mobile device enrollment. Being able to manage email access for mobile devices across both your existing non-mobile device management solution and the mobile device management solution helps avoid device coverage gaps and increases the protection for data stored on email servers.
 
 Most mobile device management solutions provide email access protection by using one or both of the following features:
@@ -60,22 +60,22 @@ Mobile devices typically connect to corporate networks and resources by using th
 >[Note!]
 >You may have other web-based resources, such as SharePoint, that leverage secure access via Secure Socket Layer (SSL) or Transport Layer Security (TLS). Be sure you understand how mobile devices will access these resources or resources with separate VPN or secure access methods.
 
-### Network connectivity management planning questions:
+### Network connectivity management planning questions
 
 Answer the following planning questions about network connectivity management:
  
 - How will the Internet be accessed via the mobile device?
- - By using WiFi? If so, do they require access via proxy? Proxy authentication?</para></listItem></list></listItem><listItem><para>
-- Will your Wi-Fi infrastructure require updating to accommodate increased device connections and increased bandwidth demands?</para></listItem><listItem><para>
-- How will mobile devices connect to your existing on-premises wireless or VPN platform?</para></listItem><listItem><para>
-- If mobile devices are already connecting to your existing wireless or VPN platform, what connection type or protocol are the devices using to connect?</para></listItem><listItem><para>
-- Will changes to these connections be needed if the devices are enrolled in a mobile device management solution?</para></listItem><listItem><para>
+ - By using WiFi? If so, do they require access via proxy? Proxy authentication?
+- Will your Wi-Fi infrastructure require updating to accommodate increased device connections and increased bandwidth demands?
+- How will mobile devices connect to your existing on-premises wireless or VPN platform?
+- If mobile devices are already connecting to your existing wireless or VPN platform, what connection type or protocol are the devices using to connect?
+- Will changes to these connections be needed if the devices are enrolled in a mobile device management solution?
 - Will administrators or users (or a combination of both) be responsible for connecting mobile devices to your wireless or VPN platform? If users will be connecting mobile devices to the wireless or VPN platform, how will they:
- - Choose the proper connection point to access the corporate network?</para></listItem><listItem><para>
- - Choose the proper connection protocol or connection method?</para></listItem><listItem><para>
- - Choose the proper digital certificate for the connection method?</para></listItem></list></listItem><listItem><para>
-- Do you want to automatically configure wireless and VPN connection properties and settings on user’s mobile devices?</para></listItem><listItem><para>
- - Do you need to provide different wireless network configuration or security settings to different types of users, devices, device operating systems, or user groups and roles?</para></listItem><listItem><para>
+ - Choose the proper connection point to access the corporate network?
+ - Choose the proper connection protocol or connection method?
+ - Choose the proper digital certificate for the connection method?
+- Do you want to automatically configure wireless and VPN connection properties and settings on user’s mobile devices?
+ - Do you need to provide different wireless network configuration or security settings to different types of users, devices, device operating systems, or user groups and roles?
  - Will you need the ability to import or export wireless and/or VPN configuration or security connection policies?
 
 ## Certificate management
@@ -100,4 +100,3 @@ Answer the following planning questions about certificate management:
 
 >[!NOTE]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.
-
