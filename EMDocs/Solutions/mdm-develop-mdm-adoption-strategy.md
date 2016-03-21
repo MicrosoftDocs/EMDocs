@@ -11,6 +11,9 @@ author: YuriDio
 ---
 # Develop your mobile device management adoption strategy
 
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
 In this task, you’ll develop the mobile device management adoption strategy that will meet the business requirements that you identified in Tasks 1 and 2. 
 
 ## Device ownership
@@ -130,6 +133,4 @@ Understanding user behavior and being able to identify their location are import
 
 >[!NOTE] Geofencing allows you to monitor a mobile device’s geographic location and enable/disable device and network resources based on that location. For example, Windows 8.1 supports allows an app to define a geographical region and have the system alert the app when the device it's running on enters or exits that area. For more information about this feature in Windows 8.1, read [Geofencing, start to finish (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
 
->[Note!]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
