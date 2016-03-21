@@ -54,5 +54,5 @@ Hardening the mobile device platform plays an important role in keeping your com
 |                                | Single management console for mobile devices registered from the cloud and on-premises devices                                          |                                                                                                                                                                          |
 
 
-Read more about mobile device management settings that you can configure in a Microsoft Intune mobile device security policy at [Mobile device management policy settings for Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
+>[!TIP] Read more about mobile device management settings that you can configure in a Microsoft Intune mobile device security policy at [Mobile device management policy settings for Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
 
