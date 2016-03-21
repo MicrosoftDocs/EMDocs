@@ -43,7 +43,7 @@
 ## [Step 4: Plan for SaaS](mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
 ### [Identify SaaS requirements](mdm-identify-saas-requirements.md)
 ### [Identify SaaS integration needs](mdm-identify-saas-solution-infrastructure-integration-needs.md)
-### [Develop SaaS MDM strategy](mdm-develop-saas-mdm-strategys.md)
+### [Develop SaaS MDM strategy](mdm-develop-saas-mdm-strategy.md)
 ### [Identify SaaS connectivity requirements](mdm-identify-saas-connectivity-requirements.md)
 ## [Next steps](mdm-next-steps-and-additional-resources.md)
 
