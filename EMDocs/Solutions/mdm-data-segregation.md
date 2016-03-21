@@ -11,6 +11,9 @@ author: YuriDio
 ---
 # Data segregation
 
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
 Data segregation is important, not only for your organization, but also to keep your user’s personal information private. Data segregation helps you to remove all company apps and data from a device that belongs to a user, without affecting the user’s personal data (see figure below).
 
 ![Data segregation](./media/MDM_Figure_10.png)
@@ -19,7 +22,7 @@ Data segregation is important, not only for your organization, but also to keep 
 
 By keeping separate all apps, company data, and policies that were deployed by the MDM solution, those can be removed from the device if necessary without affecting a user’s personal content and apps by using selective wipe. 
 
->[Note!] Read [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](https://technet.microsoft.com/en-us/library/jj676679.aspx) for more about how remote wipe will behave in other platforms like iOS and Android 
+>[!NOTE] Read [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](https://technet.microsoft.com/en-us/library/jj676679.aspx) for more about how remote wipe will behave in other platforms like iOS and Android 
 
 Selective wipe for mobile device data management is included in Windows Server 2012 R2 and Windows 8.1. It works by linking resources that help Exchange Server and Microsoft Intune administrators to manage enterprise data on devices and to develop apps that can use [Windows Selective Wipe](https://technet.microsoft.com/library/dn486874.aspx) capabilities.  Windows Phone 8 and later supports separating data in the internal storage.
 
@@ -51,7 +54,3 @@ The table below compares selective wipe features available with different MDM so
 
 
 Make sure to read the article [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](https://technet.microsoft.com/library/jj676679.aspx#bkmk_wipe) to understand how data is removed and retained after a selective wipe for each mobile device platform. If you have a hybrid environment, consult the article [How to remote wipe mobile devices using Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) to understand how ConfigMgr can be used to accomplish this task.
-
->[Note!]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
-

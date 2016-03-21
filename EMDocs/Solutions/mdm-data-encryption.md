@@ -11,6 +11,9 @@ author: YuriDio
 ---
 # Data Encryption
 
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
 Now that you’ve answered the questions in Task 1 regarding the requirements for data encryption at rest and in transit, next you’ll evaluate the options that are available to address each requirement. Even when the data is at rest, it can be encrypted in different ways, as shown in the figure below.
 
 ![Mobile Device Disk](./media/MDM_Figure_09.png)
@@ -21,7 +24,7 @@ You can use full disk encryption or encryption based on the data handled by an a
 
 Windows 10 Mobile uses device encryption, based on BitLocker technology, to encrypt all internal storage, including operating system and data storage partitions. The user can activate device encryption, or the IT department can activate and enforce encryption for company-managed devices through MDM tools. When device encryption is turned on, all data stored on the phone is encrypted automatically. A Windows 10 Mobile device with encryption turned on helps protect the confidentiality of data stored if the device is lost or stolen. Read Windows 10 Mobile security guide for more information.
 
->[Note!] For more information about the mobile devices that can have encryption enabled using ConfigMgr, read [Compliance Settings for Mobile Devices in Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
+>[!NOTE] For more information about the mobile devices that can have encryption enabled using ConfigMgr, read [Compliance Settings for Mobile Devices in Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
 
 For apps that are associated with an Intune mobile application management policy, encryption is provided by Microsoft. Data is encrypted synchronously during file I/O operations according to the setting in the mobile application management policy. On Android devices, managed apps use AES-128 encryption in Cipher Block Chaining (CBC) mode utilizing the platform cryptography libraries, which is not FIPS 140-2 certified. 
 
@@ -45,7 +48,3 @@ Most MDM solutions use SSL to protect data in transit, so you’ll just need to 
 
 
 For more information about how to combine Intune and ConfigMgr’s capabilities to increase data protection and configure encryption, read [Managing Encryption on Mobile Devices with Configuration Manager and Intune](http://blogs.technet.com/b/pauljones/archive/2014/08/04/managing-encryption-on-mobile-devices-with-configuration-manager-and-intune.aspx).
-
->[Note!]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
-
