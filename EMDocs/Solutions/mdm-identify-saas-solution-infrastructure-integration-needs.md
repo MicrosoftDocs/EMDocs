@@ -65,5 +65,5 @@ As part of SaaS management lifecycle planning, you’ll want to answer the follo
 - After the two platforms are connected, how are clients managed? Are different types of clients managed in a unified administration system or are they managed separately?
 - How are updates and changes in the SaaS solution integrated with the on-premises client management platform? Is this an automatic or manual configuration process?
 
->[!NOTE]
+>[!TIP]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.

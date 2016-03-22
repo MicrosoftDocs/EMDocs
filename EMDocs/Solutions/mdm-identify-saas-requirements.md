@@ -104,5 +104,5 @@ As part of SaaS management lifecycle planning, you’ll want to answer the follo
 - Does the SaaS solution support exemptions from service-wide updates for individual organizations?
 - Does the SaaS solution have different service update schedules for mobile device application and mobile device management features and functionality?
 
->[!NOTE]
+>[!TIP]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.

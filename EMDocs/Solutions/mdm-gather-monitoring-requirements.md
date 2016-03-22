@@ -45,5 +45,5 @@ Answer the following planning questions about device monitoring:
 - When a device is de-enrolled, should specific inventory and reporting events be captured?
 - After a device is de-enrolled, should legacy inventory and reporting events be archived/maintained?
  
->[!NOTE]
+>[!TIP]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.
