@@ -57,7 +57,7 @@ Mobile devices typically connect to corporate networks and resources by using th
 - **Wi-Fi:** Wireless access to corporate resources is typically provided as an on-premises network extension service for devices that are in close physical proximity to the on-premises network. This usually involves allowing mobile devices to connect to network resources as users roam from location-to-location in an on-premises office, such as conference and meeting rooms, different offices, or other on-premises areas. It can also include wireless access from remote locations over non-corporate managed wireless network access points, such as the user’s home network or a public wireless access point. To simplify connections to wireless networks, administrators usually manage these connections using wireless profiles that outline the specific settings mobile devices must have in place before they can connect to the wireless network. This may include automatically configuring a custom network name, network Service Set Identifier (SSID), security settings, network proxy, and whether or not the device should automatically connect to the wireless network when the device is in range.
 - **Virtual Private Network (VPN):** Secure remote access to corporate resources often includes using a defined VPN connection type from the mobile device. This is often vendor-specific and includes the installation of a VPN application on the mobile device. Additionally, these VPN applications often use either digital certificates or separately managed user account credentials to authenticate the VPN connection. To simplify connections to VPNs, administrators can usually manage these connections using VPN profiles or the VPN management tools included with the VPN solution. Depending on integration support, managing VPN connections with the mobile device management solution may or may not be an option with certain VPN platforms.
 
->[Note!]
+>[!NOTE]
 >You may have other web-based resources, such as SharePoint, that leverage secure access via Secure Socket Layer (SSL) or Transport Layer Security (TLS). Be sure you understand how mobile devices will access these resources or resources with separate VPN or secure access methods.
 
 ### Network connectivity management planning questions
@@ -98,5 +98,5 @@ Answer the following planning questions about certificate management:
 - Are digital certificates centrally managed by an on-premises or third party Certification Authority (CA)?
 - Do you need to have different certificates assigned for access to different network services? Is this dependent on the type of mobile device accessing the network?
 
->[!NOTE]
+>[!TIP]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.

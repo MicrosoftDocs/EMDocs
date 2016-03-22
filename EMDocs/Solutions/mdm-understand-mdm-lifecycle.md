@@ -110,5 +110,5 @@ Answer the following planning questions about device retirement and unenrollment
 - If mobile device users can unenroll their mobile devices, how will the removal of corporate data and applications be verified?
  - Is this different for devices that are selectively wiped and devices that are reset to the factory default setting?
 
->[!NOTE]
+>[!TIP]
 >Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.
