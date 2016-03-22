@@ -11,6 +11,9 @@ author: YuriDio
 ---
 # Identify your business needs
 
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
 Each company will have different requirements. Even if these companies are part of the same industry, the real business requirements might vary. You can still leverage best practices from the industry, but ultimately it’s the company’s business needs that will identify the requirements for the mobile device management solution. 
 To help identify your business needs, answer the following questions:
 
@@ -65,5 +68,4 @@ During this task, you should also evaluate if the company has existing managemen
 
 >[!NOTE] Make sure to take notes of each answer and understand the rationale behind the answer. Next section will go over the available options and advantages/disadvantages of each option.  By having answered these questions, you’ll be able to select which solution best suits your business needs.
 
->[Note!]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+

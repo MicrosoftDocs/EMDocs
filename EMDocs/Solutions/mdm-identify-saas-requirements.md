@@ -17,7 +17,7 @@ author: robmazz
 
 Each SaaS solution will have different requirements, mobile device management features, and levels of integration with on-premises networks and platforms. Many SaaS solutions offer trial tenants or services for you to evaluate their features and functionality, which is an important part of determining which solution actually meets your needs. However, many SaaS solutions may have subtle differences in features and functionality, depending on the platform type.
 
-The majority of SaaS solutions are based on three types of cloud types:
+The majority of SaaS solutions are based on three cloud types:
 
 - Multi-tenant
 - Private (dedicated)
@@ -25,7 +25,7 @@ The majority of SaaS solutions are based on three types of cloud types:
 
 Before making decisions on how you’ll use a SaaS solution to manage your mobile devices, you’ll also need to examine the differences between these types of cloud platform architectures and choose the one that best fits the overall needs of your organization. Individual SaaS solutions have differing levels of support for areas such as customization, feature configuration, integration, and collaborative functionality.
 
-## SaaS cloud types
+## Cloud types
 
 *Multi-tenant* SaaS solutions are what are typically called “public” cloud infrastructures. This is when the software architecture of the service is in a single instance, but serves multiple tenants or organizations. The solution is designed to provide every tenant a reserved share of its services, such as user or device management, configuration, and data support. The tenant accounts and services are separated virtually, with each tenant accessing the platform infrastructure in separate instances. Multi-tenant SaaS solutions also typically offer cost-savings earned from sharing the infrastructure and distributing the overhead costs amongst multiple tenants. Most mobile device management platforms are offered in a multi-tenant SaaS platform infrastructure.
                 
@@ -33,7 +33,7 @@ Before making decisions on how you’ll use a SaaS solution to manage your mobil
 
 *Hybrid* SaaS solutions can offer a combination of either multi-tenant and private cloud infrastructures, or a combination of hosted (either multi-tenant or private) and on-premises cloud infrastructures. A hybrid infrastructure may also include leveraging an external cloud SaaS solution for delivering certain types of services (such as applications), but leveraging internal resources for other types of services. Most SaaS solutions offer the ability to support a hybrid cloud configuration, but may vary significantly on the depth and completeness of integration with on-premises or other hosted cloud platforms.
 
-### SaaS cloud type questions:
+### Cloud questions
 
 As part of SaaS management lifecycle planning, you’ll want to answer the following planning questions about cloud types:
 
@@ -103,3 +103,6 @@ As part of SaaS management lifecycle planning, you’ll want to answer the follo
 - Are SaaS solution feature and functionality updates deployed to customers on an ad hoc or planned schedule?
 - Does the SaaS solution support exemptions from service-wide updates for individual organizations?
 - Does the SaaS solution have different service update schedules for mobile device application and mobile device management features and functionality?
+
+>[!NOTE]
+>Make sure to take notes of each answer and understand the rationale behind the answer. Later tasks will go over the options available and advantages/disadvantages of each option.  Answering these questions will help you select the option that best suits your business needs.

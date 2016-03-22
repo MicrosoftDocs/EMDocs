@@ -10,10 +10,15 @@ ms.assetid: 5dffb570-dd1a-4beb-aa1e-7c0b51393704
 author: YuriDio
 ---
 # Specify your privacy requirements
+
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
+
 While Task 1 focused on data protection and how to enhance the overall security of mobile devices to help keep company data protected, the second task of this step focuses on understanding your organizational requirements for privacy. 
 In the previous step, you defined device management tasks, including device management and content distribution management. In this task, the goal is to define the privacy requirements for company content that will reside on the mobile device. 
 
->[Note!] Read the solution Streamlined management for mobile devices and computers in a hybrid environment for more information about content distribution for mobile devices.
+>[!NOTE] Read the solution Streamlined management for mobile devices and computers in a hybrid environment for more information about content distribution for mobile devices.
 
 An organization’s privacy and compliance requirements will vary according to the industry, applicable regulations, and type of business. For example, you may want your MDM solution to allow you to perform basic hardware inventories, software inventories, file collections, and software distribution on mobile devices. Hardware inventory and software distribution are usually supported by default. 
 
@@ -37,6 +42,3 @@ Before choosing a mobile device management solution, consider your unique privac
 		- If yes, ensure that you enumerate these requirements prior to select your mobile device management platform.
 
 Read the [Microsoft Online Services Privacy Statement](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx) to better understand how Microsoft Cloud services, including Intune will maintain user’s privacy.
-
->[Note!]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
