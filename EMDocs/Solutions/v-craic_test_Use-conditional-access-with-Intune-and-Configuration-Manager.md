@@ -9,9 +9,11 @@ ms.topic: article
 ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
 author: karthikaraman
 ---
-# Use conditional access with Intune and Configuration Manager
-In this solution, you are already using System Center Configuration Manager and Microsoft Exchange Server – with on-premises, Exchange Online, or a hybrid deployment of both – in your company to manage email access. This solution combines your existing Configuration Manager environment with Intune to safely manage email access on all types of devices, regardless of their location.
+# Craig Casey test file
+Testing things about git and markdown and how everything will be displayed on docs.microsoft.com.
 
+# Double Heading1 test
+Left this existing heading in to see what occurs if multiple H1s are used accidentally.
 > [!TIP]
 > Get a downloadable copy of this entire topic at the [TechNet Gallery](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
 
@@ -318,3 +320,8 @@ To deploy a coexistence solution, follow the steps above for deploying both the 
 ### See Also
 [Learn how to deploy a solution for protecting company email and documents](../Topic/Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)
 [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md)
+
+## Testing "IN THIS ARTICLE" to see...
+if auto pulled from markdown (double pound sign).
+
+This would be pulled up into "IN THIS ARTICLE" section at top
