@@ -31,9 +31,34 @@ Since Intune and Office 365 are cloud-based services, users might also want to b
 
 Privacy is important for both users and your organization, and the MDM solution that you use must appropriately balance privacy needs as well as inform users about your organization’s privacy policy and expectations. The table below compares options for assisting with privacy requirements in different MDM solutions to assist you choosing the MDM option that best fits your organization’s privacy requirements.
 
-| **MDM option**                 | **Advantages**                                                                                 | **Disadvantages**                                                                                                                                                                                                             |
-|--------------------------------|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Intune (standalone)**            | Uses the Intune Company Portal to publish your organization’s privacy statement                | It doesn’t have a template for a privacy policy. There is an assumption that your organization has a privacy policy in place and the Company Portal is only going to advertise this policy that is stored in another location |
-| **Office 365 with MDM**            | No features for publishing privacy statements                                                  | No features for publishing privacy statements                                                                                                                                                                                 |
-| **Hybrid (Intune with ConfigMgr)** | Uses the Intune Company Portal to publish your organization’s privacy statement                | If the organization does not have a current on-premises ConfigMgr infrastructure, it will require to plan, install and configure this platform prior to the integration                                                       |
-|                                | Single management console for mobile devices registered from the cloud and on-premises devices |                                                                                                                                                                                                                               |
+## Intune (standalone)
+
+**Advantages**
+
+- Uses the Intune Company Portal to publish your organization’s privacy statement
+
+**Disadvantages**
+
+- It doesn’t have a template for a privacy policy. There is an assumption that your organization has a privacy policy in place and the Company Portal is only going to advertise this policy that is stored in another location
+
+## Office 365 with MDM
+
+**Advantages**
+
+- No features for publishing privacy statements
+
+**Disadvantages**
+
+- No features for publishing privacy statements
+
+## Hybrid (Intune with ConfigMgr)
+
+**Advantages**
+
+- Uses the Intune Company Portal to publish your organization’s privacy statement
+- Single management console for mobile devices registered from the cloud and on-premises devices
+
+**Disadvantages**
+
+- If the organization does not have a current on-premises ConfigMgr infrastructure, it will require to plan, install and configure this platform prior to the integration
+

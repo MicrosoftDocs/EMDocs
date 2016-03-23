@@ -42,17 +42,42 @@ Read the article [Capabilities of built-in Mobile Device Management for Office 3
 
 Hardening the mobile device platform plays an important role in keeping your company data protected while allowing users to use their mobile device without compromising security. Use the table below as a reference to assist you choosing the MDM option that best fits your organization’s data hardening requirements.
 
-| **MDM option**                 | **Advantages**                                                                                                                              | **Disadvantages**                                                                                                                                                        |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Intune (standalone)**            | Allows you to enforce policies for enrolled devices: encryption, malware, apps, emails, email profile, jailbroken, system and security. |Lacks integration with current on-premises MDM platform, will introduce an additional management interface for you to use when managing mobile devices               |
-|                                | Supports policy deployment for major mobile device platforms, including (Android, iOS, Windows 10, Windows 8.x, and Windows Phone)      |  Some policies may not be available for some mobile platforms                                                                                                         |
-| **MDM for Office 365**             | Allows you to enforce policies for enrolled devices: encryption, apps, jailbroken and security                                          |Lacks integration with current on-premises MDM platform, will introduce an additional management interface for you to use when managing mobile devices               |
-|                                | Supports policy deployment for major mobile device platforms, including (Android, iOS, Windows 10, Windows 8.x, and Windows Phone)      |Some policies may not be available for some mobile platforms                                                                                                         |
-|                                |                                                                                                                                             |Doesn’t allow as much granularity as Intune                                                                                                                          |
-| **Hybrid (Intune with ConfigMgr)** | Allows you to enforce policies for enrolled devices: encryption, malware, apps, emails, system, security and jailbroken                 | If your company doesn’t have a current on-premises ConfigMgr infrastructure, it will require resources to plan, install and configure ConfigMgr prior to integration |
-|                                | Support policy deployment for major mobile device platforms, including (Android, iOS, Windows 10, Windows 8.x, and Windows Phone)       |                                                                                                                                                                          |
-|                                | Single management console for mobile devices registered from the cloud and on-premises devices                                          |                                                                                                                                                                          |
+## Intune (standalone)
 
+**Advantages**
+
+- Allows you to enforce policies for enrolled devices: encryption, malware, apps, emails, email profile, jailbroken, system and security
+- Supports policy deployment for major mobile device platforms, including (Android, iOS, Windows 10, Windows 8.x, and Windows Phone)
+
+**Disadvantages**
+
+- Lacks integration with current on-premises MDM platform, will introduce an additional management interface for you to use when managing mobile devices
+- Some policies may not be available for some mobile platforms
+
+## MDM for Office 365
+
+**Advantages**
+
+- Allows you to enforce policies for enrolled devices: encryption, apps, jailbroken and security
+- Supports policy deployment for major mobile device platforms, including (Android, iOS, Windows 10, Windows 8.x, and Windows Phone)
+
+**Disadvantages**
+
+- Lacks integration with current on-premises MDM platform, will introduce an additional management interface for you to use when managing mobile devices
+- Some policies may not be available for some mobile platforms
+- Doesn’t allow as much granularity as Intune
+
+## Hybrid (Intune with ConfigMgr)
+
+**Advantages**
+
+- Allows you to enforce policies for enrolled devices: encryption, malware, apps, emails, system, security and jailbroken
+- Support policy deployment for major mobile device platforms, including (Android, iOS, Windows 10, Windows 8.x, and Windows Phone)
+- Single management console for mobile devices registered from the cloud and on-premises devices
+
+**Disadvantages**
+
+- If your company doesn’t have a current on-premises ConfigMgr infrastructure, it will require resources to plan, install and configure ConfigMgr prior to integration
 
 >[!TIP] Read more about mobile device management settings that you can configure in a Microsoft Intune mobile device security policy at [Mobile device management policy settings for Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
 

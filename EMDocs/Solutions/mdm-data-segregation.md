@@ -22,7 +22,7 @@ Data segregation is important, not only for your organization, but also to keep 
 
 By keeping separate all apps, company data, and policies that were deployed by the MDM solution, those can be removed from the device if necessary without affecting a user’s personal content and apps by using selective wipe. 
 
->[!NOTE] Read [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](https://technet.microsoft.com/en-us/library/jj676679.aspx) for more about how remote wipe will behave in other platforms like iOS and Android 
+>[!TIP] Read [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](https://technet.microsoft.com/en-us/library/jj676679.aspx) for more about how remote wipe will behave in other platforms like iOS and Android 
 
 Selective wipe for mobile device data management is included in Windows Server 2012 R2 and Windows 8.1. It works by linking resources that help Exchange Server and Microsoft Intune administrators to manage enterprise data on devices and to develop apps that can use [Windows Selective Wipe](https://technet.microsoft.com/library/dn486874.aspx) capabilities.  Windows Phone 8 and later supports separating data in the internal storage.
 
@@ -40,17 +40,41 @@ When a user installs and signs in to an app that supports multiple identities (m
 
 The table below compares selective wipe features available with different MDM solutions to help you choose the MDM solution that best fits your organization’s data segregation requirements.
 
-| **MDM option**                     | **Advantages**                                                                                                                       | **Disadvantages**                                                                                                                                                           |
-|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Intune (standalone)**            | -   Allows you to perform selective wipes to remove only company data located on mobile devices                                      | -   Does not include native encryption for mobile device storage                                                                                                            |
-|                                    | -   Allows you to perform factory resets and fully wipe mobile devices                                                               | -   No integration with current on-premises MDM platform means an additional management interface for you to use                                                            |
-|                                    | -   Support for multi-identity apps                                                                                                  |                                                                                                                                                                             |
-|**Office 365 with MDM**            | -   Allows you to perform factory resets and fully wipe Android, Windows Phone, and iOS devices                                      | -   No integration with current on-premises MDM platform means an additional management interface for you to use                                                            |
-|                                    | -   Allows you to perform selective wipes on Android, Windows Phone, and iOS devices to remove only company data from mobile devices |                                                                                                                                                                             |
-| **Hybrid (Intune with ConfigMgr)** | -   Allows you to perform selective wipes to remove only company data from mobile devices                                            | -   If the organization does not have a current on-premises ConfigMgr infrastructure, it will require to plan, install and configure this platform prior to the integration |
-|                                    | -   Allows you to perform factory resets and fully wipe mobile devices                                                               |                                                                                                                                                                             |
-|                                    | -   Support for multi-identity apps                                                                                                  |                                                                                                                                                                             |
-|                                    | -   Single management console to manage cloud based and on-premises mobile devices                                                   |                                                                                                                                                                             |
+## Intune (standalone)
 
+**Advantages**
+
+- Allows you to perform selective wipes to remove only company data located on mobile devices
+- Allows you to perform factory resets and fully wipe mobile devices
+- Support for multi-identity apps
+
+**Disadvantages**
+
+- Does not include native encryption for mobile device storage
+- No integration with current on-premises MDM platform means an additional management interface for you to use
+
+## Office 365 with MDM
+
+**Advantages**
+
+- Allows you to perform factory resets and fully wipe Android, Windows Phone, and iOS devices
+- Allows you to perform selective wipes on Android, Windows Phone, and iOS devices to remove only company data from mobile devices
+
+**Disadvantages**
+
+- No integration with current on-premises MDM platform means an additional management interface for you to use
+
+## Hybrid (Intune with ConfigMgr)
+
+**Advantages**
+
+- Allows you to perform selective wipes to remove only company data from mobile devices
+- Allows you to perform factory resets and fully wipe mobile devices
+- Support for multi-identity apps
+- Single management console to manage cloud based and on-premises mobile devices
+
+**Disadvantages**
+
+- If the organization does not have a current on-premises ConfigMgr infrastructure, it will require to plan, install and configure this platform prior to the integration
 
 Make sure to read the article [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](https://technet.microsoft.com/library/jj676679.aspx#bkmk_wipe) to understand how data is removed and retained after a selective wipe for each mobile device platform. If you have a hybrid environment, consult the article [How to remote wipe mobile devices using Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) to understand how ConfigMgr can be used to accomplish this task.

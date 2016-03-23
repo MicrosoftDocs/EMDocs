@@ -16,7 +16,7 @@ author: YuriDio
 
 A mobile device that can’t use apps or access company data that is needed to perform work isn’t useful for your employees. So it’s critical to understand how the data will travel from the source location (on-premises or cloud) to the mobile device. 
 
-Look back at Figure 8 to see the potential paths that the data will travel to and from mobile devices, and the considerations that should be in place for each path. Many companies that have security policies in place haven’t considered how mobile devices can increase the likelihood that corporate data might be leaked. So review your current company policies to ensure that the requirements you develop for authentication, authorization, and access control are aligned with your business requirements.
+The data will travel to and from mobile devices, and the considerations that should be in place for each path. Many companies that have security policies in place haven’t considered how mobile devices can increase the likelihood that corporate data might be leaked. So review your current company policies to ensure that the requirements you develop for authentication, authorization, and access control are aligned with your business requirements.
  
 Answer the following questions to help determine the access requirements for mobile devices:
 

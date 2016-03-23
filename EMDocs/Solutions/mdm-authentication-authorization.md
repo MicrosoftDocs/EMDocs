@@ -33,21 +33,53 @@ You can also use Azure AD MFA to require MFA each time that users access your co
 
 Use the table below as a reference to assist you choosing the MDM option that best fits your organization’s authentication and authorization requirements.
 
-| **MDM option**                 | **Advantages**                                                                           | **Disadvantages**                                                                   |
-|--------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| **Intune (standalone)**            | Can use on-premises directory services, such as Active Directory for authentication      | Azure AD cloud service is not included when you purchase an Intune subscription     |
-|                                | Can use cloud-based directory services, such as Azure AD for authentication              |                                                                                     |
-|                                | Can integrate with multi-factor authentication                                           |                                                                                     |
-| **MDM for Office 365**             | Can use on-premises directory, such as Active Directory for authentication               | Azure AD cloud service is not included when you purchase an Office 365 subscription |
-|                                | Can use cloud based directory, such as Azure AD for authentication                       |                                                                                     |
-|                                | Can integrate with multi-factor authentication                                           |                                                                                     |
-|                                | Can leverage Compliance Center to use Role Based Access Control (RBAC) permissions model |                                                                                     |
-| **Hybrid (Intune with ConfigMgr)** | Can use on-premises directory, such as Active Directory for authentication               | Azure AD cloud service is not included when you purchase an Intune subscription     |
-|                                | Can use cloud based directory, such as Azure AD for authentication                       |                                                                                     |
-|                                | Can integrate with multi-factor authentication                                           |                                                                                     |
-| **Enterprise Mobility Suite**      | Leverages Azure AD Premium to provide access control                                     | Not available for customers that are not adopting a cloud-based solution            |
-|                                | Azure AD Premium license is already included with EMS                                    |                                                                                     |
-|                                | Does not required on-premises directory services                                         |                                                                                     |
-|                                | Can synchronize with on-premises Active Directory services                               |                                                                                     |
-|                                | MFA is natively available with EMS                                                       |                                                                                     |
+## Intune (standalone)
+
+**Advantages**
+
+- Can use on-premises directory services, such as Active Directory for authentication
+- Can use cloud-based directory services, such as Azure AD for authentication
+- Can integrate with multi-factor authentication
+
+**Disadvantages**
+
+- Azure AD cloud service is not included when you purchase an Intune subscription
+
+## MDM for Office 365
+
+**Advantages**
+
+- Can use on-premises directory, such as Active Directory for authentication
+- Can use cloud based directory, such as Azure AD for authentication
+- Can integrate with multi-factor authentication
+- Can leverage Compliance Center to use Role Based Access Control (RBAC) permissions model
+
+**Disadvantages**
+
+- Azure AD cloud service is not included when you purchase an Office 365 subscription
+
+## Hybrid (Intune with ConfigMgr)
+
+**Advantages**
+
+- Can use on-premises directory, such as Active Directory for authentication
+- Can use cloud based directory, such as Azure AD for authentication
+
+**Disadvantages**
+
+- Azure AD cloud service is not included when you purchase an Intune subscription
+
+## Enterprise Mobility Suite
+
+**Advantages**
+
+- Leverages Azure AD Premium to provide access control
+- Azure AD Premium license is already included with EMS
+- Does not required on-premises directory services
+- Can synchronize with on-premises Active Directory services
+- MFA is natively available with EMS
+
+**Disadvantages**
+
+- Not available for customers that are not adopting a cloud-based solution
 

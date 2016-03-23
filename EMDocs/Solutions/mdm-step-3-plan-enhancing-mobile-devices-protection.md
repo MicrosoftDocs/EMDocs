@@ -11,6 +11,9 @@ author: YuriDio
 ---
 # Plan for enhancing mobile devices protection
 
+>[!NOTE]
+>This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+
 While on-premises and remote users can be more productive by accessing company resources on their mobile devices, letting them to do also increases security threats that you’ll need to mitigate in order to help protect your company’s data and maintain user privacy. Your company might have specific requirements about how to balance these needs. Compliance rules can vary depending on the industry in which your company operates, for example, which may lead to different design decisions.
  
 However, there are some general aspects of security in mobile device management to explore and conform to, regardless of the industry. These are shown in the figure below.
@@ -44,7 +47,20 @@ This diagram shows the core security capabilities required in any MDM solution. 
 
 The tasks described in the sections that follow can help you understand how your specific security needs will influence your decision about the best MDM solution for your business requirements.
 
->[Note!]
->This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
+## About this step
 
+There are 12 steps in this section of the guide. Total time to read through the sections is about 36 minutes, or you can jump to a specific section.
+
+- [Gather data protection requirements](mdm-gather-data-protection-requirements.md)
+- [Specify privacy requirements](mdm-specify-privacy-requirements.md)
+- [Specify access requirements](mdm-specify-your-access-requirements.md)
+- [Develop incident response requirements](mdm-develop-incident-response-requirements.md)
+- [Plan for data encryption](mdm-data-encryption.md)
+- [Plan for data segregation](mdm-data-segregation.md)
+- [Hardening mobile devices](mdm-hardening-mobile-devices.md)
+- [Client privacy](mdm-client-privacy.md)
+- [Data classification](mdm-data-classification.md)
+- [Authentication and authorization](mdm-authentication-authorization.md)
+- [Access control to resources](mdm-access-control-resources.md)
+- [Incident responses](mdm-develop-incident-response-requirements.md)
 
