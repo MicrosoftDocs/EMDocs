@@ -18,7 +18,7 @@ author: YuriDio
 While Task 1 focused on data protection and how to enhance the overall security of mobile devices to help keep company data protected, the second task of this step focuses on understanding your organizational requirements for privacy. 
 In the previous step, you defined device management tasks, including device management and content distribution management. In this task, the goal is to define the privacy requirements for company content that will reside on the mobile device. 
 
->[!NOTE] Read the solution Streamlined management for mobile devices and computers in a hybrid environment for more information about content distribution for mobile devices.
+>[!TIP] Read the solution Streamlined management for mobile devices and computers in a hybrid environment for more information about content distribution for mobile devices.
 
 An organization’s privacy and compliance requirements will vary according to the industry, applicable regulations, and type of business. For example, you may want your MDM solution to allow you to perform basic hardware inventories, software inventories, file collections, and software distribution on mobile devices. Hardware inventory and software distribution are usually supported by default. 
 

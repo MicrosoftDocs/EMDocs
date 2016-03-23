@@ -32,17 +32,49 @@ A resource can also be an app, which means that to implement access control to r
 
 Use the table below as a reference to assist you choosing the MDM option that best fits your organization’s access control requirements.
 
-| **MDM option**                 | **Advantages**                                                                 | **Disadvantages**                                                                                                                                                       |
-|--------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Intune (standalone)**            | Access control (installation and management) for apps                          | Lack of integration with current on-premises MDM platform will introduce an additional management interface for you to use                                              |
-|                                | Conditional access with health attestation service                             | Some policies may not be available for some mobile platforms                                                                                                            |
-| **MDM for Office 365**             | Access control to email, Office Mobile, Office apps, and OneDrive for Business | Only allows a small subset of access control to resources                                                                                                               |
-|                                |                                                                                | Lack of integration with current on-premises MDM platform will introduce an additional management interface for you to use                                              |
-|                                |                                                                                | Some policies may not be available for some mobile platforms                                                                                                            |
-| **Hybrid (Intune with ConfigMgr)** | Access control (installation and management) for apps                          | Azure AD cloud service is not included when you purchase Intune subscription                                                                                            |
-|                                | Conditional access with health attestation service                             |                                                                                                                                                                         |
-| **Enterprise Mobility Suite**      | Access control (installation and management) for apps                          | If the organization does not have a current on-premises ConfigMgr infrastructure, it will require to plan, install and configure this platform prior to the integration |
-|                                | Leverages Azure AD Premium to provide RBAC based access control                |                                                                                                                                                                         |
-|                                | Conditional access with health attestation service                             |                                                                                                                                                                         |
+## Intune (standalone)
 
+**Advantages**
 
+- Access control (installation and management) for apps
+- Conditional access with health attestation service
+
+**Disadvantages**
+
+- Lack of integration with current on-premises MDM platform will introduce an additional management interface for you to use
+- Some policies may not be available for some mobile platforms
+ 
+## MDM for Office 365
+
+**Advantages**
+
+- Access control to email, Office Mobile, Office apps, and OneDrive for Business
+
+**Disadvantages**
+
+- Only allows a small subset of access control to resources
+- Lack of integration with current on-premises MDM platform will introduce an additional management interface for you to use
+- Some policies may not be available for some mobile platforms
+
+## Hybrid (Intune with ConfigMgr)
+
+**Advantages**
+
+- Access control (installation and management) for apps
+- Conditional access with health attestation service
+
+**Disadvantages**
+
+- Azure AD cloud service is not included when you purchase Intune subscription
+
+## Enterprise Mobility Suite
+
+**Advantages**
+
+- Access control (installation and management) for apps
+- Leverages Azure AD Premium to provide RBAC based access control
+- Conditional access with health attestation service
+
+**Disadvantages**
+
+- If the organization does not have a current on-premises ConfigMgr infrastructure, it will require to plan, install and configure this platform prior to the integration

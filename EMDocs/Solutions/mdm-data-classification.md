@@ -24,15 +24,47 @@ Intune enables IT to comply with policies by using compliance policies, which is
 
 Use the table below as a reference to assist you choosing the MDM option that best fits your organization’s *data classification* requirements.
 
-| **MDM option**                 | **Advantages**                                                                                                                                                                                      | **Disadvantages**                                                                                                                           |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Intune (standalone)**            | Not available                                                                                                                                                                                       | Not available                                                                                                                               |
-| **MDM for Office 365**             | Exchange Transport rules can be used to detect sensitive information                                                                                                                                | Data classification is not carried with the file itself. Once the file is located at the mobile device, it can be used without restrictions |
-|                                | Leverages [data loss prevention (DLP)](https://technet.microsoft.com/library/ms.o365.cc.DLPLandingPage.aspx) policy in the Compliance Center to identify sensitive information across many location |                                                                                                                                             |
-| **Hybrid (Intune with ConfigMgr)** | Not available                                                                                                                                                                                       | Not available                                                                                                                               |
-| **Enterprise Mobility Suite**      | Leverages Azure RMS to perform data classification                                                                                                                                                  | Not available for customers that are not adopting cloud-based solution                                                                      |
-|                                | Azure RMS subscription is included with EMS                                                                                                                                                         |                                                                                                                                             |
-|                                | Doesn’t require an on-premises infrastructure for data classification                                                                                                                               |                                                                                                                                             |
-|                                | Can be integrated with existing on-premises AD RMS solution                                                                                                                                         |                                                                                                                                             |
-|                                | Protection is located in the file itself, which means that the file will keep its classification even if it was saved in a different location                                                       |                                                                                                                                             |
+## Intune (standalone)
 
+**Advantages**
+
+- Not available
+
+**Disadvantages**
+
+- Not available
+
+## MDM for Office 365
+
+**Advantages**
+
+- Exchange Transport rules can be used to detect sensitive information
+- Leverages [data loss prevention (DLP)](https://technet.microsoft.com/library/ms.o365.cc.DLPLandingPage.aspx) policy in the Compliance Center to identify sensitive information across many location
+
+**Disadvantages**
+
+- Data classification is not carried with the file itself. Once the file is located at the mobile device, it can be used without restrictions
+
+## Hybrid (Intune with ConfigMgr)
+
+**Advantages**
+
+- Not available
+
+**Disadvantages**
+
+- Not available
+
+## Enterprise Mobility Suite
+
+**Advantages**
+
+- Leverages Azure RMS to perform data classification
+- Azure RMS subscription is included with EMS
+- Doesn’t require an on-premises infrastructure for data classification
+- Can be integrated with existing on-premises AD RMS solution
+- Protection is located in the file itself, which means that the file will keep its classification even if it was saved in a different location
+
+**Disadvantages**
+
+- Not available for customers that are not adopting cloud-based solution
