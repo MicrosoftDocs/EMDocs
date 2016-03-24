@@ -12,7 +12,7 @@ You can use the service benefit when you purchase at least 150 licenses for Micr
 
 This article provides details about plan and service eligibility for the service benefit.
 
-To learn about the onboarding process as well as roles and responsibilities, see [FastTrack Center Benefit Process for Intune](../Topic/FastTrack-Center-Benefit-Process-for-Intune.md). If you are interested in getting your environment ready for other Enterprise Mobility Suite services, see [FastTrack Center Benefit for Enterprise Mobility Suite](../Topic/FastTrack-Center-Benefit-for-Enterprise-Mobility-Suite.md).
+To learn about the onboarding process as well as roles and responsibilities, see [FastTrack Center Benefit Process for Intune](../Topic/FastTrack-Center-Benefit-Process-for-Intune.md). If you are interested in getting your environment ready for other Enterprise Mobility Suite services, see [FastTrack Center Benefit for Enterprise Mobility Suite](FastTrack-Center-Benefit-for-Enterprise-Mobility-Suite.md).
 
 **Are you looking for information about Microsoft FastTrack for Office 365? See** [FastTrack Center Benefit for Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 

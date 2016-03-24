@@ -13,7 +13,7 @@ If your organization is eligible for the Microsoft Intune service benefit, you c
 
 Microsoft Intune is the part of Microsoft’s Enterprise Mobility Suite (EMS), which provides the Enterprise Mobility Management (EMM) capabilities, including Mobile Device Management (MDM) and Mobile Application Management (MAM).  You can use Microsoft Intune to enable your employees to be productive on mobile devices by provisioning devices, configuring devices, and deploying mobile apps.  You can additionally use Microsoft Intune to help protect your corporate data by monitoring device compliance, protecting mobile applications and data, and integrating with Azure AD to control access to corporate services.
 
-To learn whether your organization is eligible, see [FastTrack Center Benefit for Intune](../Topic/FastTrack-Center-Benefit-for-Intune.md). If you are interested in getting your environment ready for other Enterprise Mobility Suite services, see [FastTrack Center Benefit for Enterprise Mobility Suite](../Topic/FastTrack-Center-Benefit-for-Enterprise-Mobility-Suite.md).
+To learn whether your organization is eligible, see [FastTrack Center Benefit for Intune](FastTrack-Center-Benefit-for-Intune.md). If you are interested in getting your environment ready for other Enterprise Mobility Suite services, see [FastTrack Center Benefit for Enterprise Mobility Suite](FastTrack-Center-Benefit-for-Enterprise-Mobility-Suite.md).
 
 **Are you looking for information about Microsoft FastTrack for Office 365? See** [FastTrack Center Benefit for Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 
@@ -58,7 +58,7 @@ Onboarding has two major components:
 
 The following diagram describes the sequence of events for using the FastTrack Center Benefit.
 
-![](../Image/1-rms-onboarding-process.png)
+![insert-alt-name](./media/1-rms-onboarding-process.png)
 
 The basic process is as follows:
 
@@ -97,7 +97,7 @@ Onboarding has four primary phases:
 
 -   Enable
 
-![](../Image/Intune-onboarding-phases-9-15-15.png)
+![insert-alt-name](./media/Intune-onboarding-phases-9-15-15.png)
 
 For detailed tasks for each phase, see the [Microsoft responsibilities](#microsoft_responsibilities) and  [Your responsibilities](#your_responsibilities) sections.
 
@@ -106,17 +106,17 @@ After you have purchased the appropriate number and types of licenses, follow th
 
 During this phase, we’ll discuss the onboarding process, verify data, and set up a kick-off meeting.
 
-![](../Image/Intune-initiate-phase-9-15-15-v2.png)
+![insert-alt-name](./media/Intune-initiate-phase-9-15-15-v2.png)
 
 ### Assess phase
 Once the onboarding process begins, Microsoft will work with you to assess your source environment and the requirements. Tools will be run to assess your environment, and Microsoft will guide you through assessing your Internet browsers, client operating systems, DNS, network, infrastructure, and identity system to determine if any changes are required for onboarding. Based on your current setup, we’ll provide a remediation plan that will bring your source environment up to the minimum requirements for successful onboarding to Microsoft Intune. We’ll also set up appropriate checkpoint calls for the remediation phase.
 
-![](../Image/Intune-assess-phase-9-15-15.png)
+![insert-alt-name](./media/Intune-assess-phase-9-15-15.png)
 
 ### Remediate phase
 If needed, you’ll do the tasks in the remediation plan on your source environment so that you meet the requirements for onboarding each service.
 
-![](../Image/Microsoft-Intune-onboarding-remediate-phase-1.png)
+![insert-alt-name](./media/Microsoft-Intune-onboarding-remediate-phase-1.png)
 
 Before beginning the Enable phase, we’ll jointly verify the outcomes of the remediation activities to make sure you’re ready to proceed.
 
@@ -127,7 +127,7 @@ When all remediation activities are complete, the project shifts to configuring 
 
 Enabling core capabilities involves service provisioning and tenant and identity integration. It also includes steps for providing a foundation for onboarding Microsoft Intune.
 
-![](../Image/Intune-enable-phase-core-9-15-15.png)
+![insert-alt-name](./media/Intune-enable-phase-core-9-15-15.png)
 
 Onboarding for Microsoft Intune can begin when enabling core capabilities is finished.
 
@@ -184,7 +184,7 @@ For Microsoft Intune, and based on your mobile device and mobile applications ma
 
     -   Using the software and hardware reports available in Intune.
 
-![](../Image/Enable-phase-Intune-11-20-15.png)
+![insert-alt-name](./media/Enable-phase-Intune-11-20-15.png)
 
 ## <a name="microsoft_responsibilities"></a>Microsoft responsibilities
 This section describes some of Microsoft's responsibilities during the onboarding process.

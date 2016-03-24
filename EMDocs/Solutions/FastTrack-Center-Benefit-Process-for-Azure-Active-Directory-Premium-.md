@@ -8,7 +8,7 @@ ms.topic: article
 ms.assetid: f1e8d94d-ce42-4d4c-a25b-0f28b93a9e10
 ---
 # FastTrack Center Benefit Process for Azure Active Directory Premium 
-If your organization is eligible for the FastTrack Center Benefit for Microsoft Azure AD Premium, you can work remotely with Microsoft specialists to get your Microsoft Azure AD Premium environment ready for use. To learn whether your organization is eligible, see [FastTrack Center Benefit for Azure Active Directory Premium](../Topic/FastTrack-Center-Benefit-for-Azure-Active-Directory-Premium.md).
+If your organization is eligible for the FastTrack Center Benefit for Microsoft Azure AD Premium, you can work remotely with Microsoft specialists to get your Microsoft Azure AD Premium environment ready for use. To learn whether your organization is eligible, see [FastTrack Center Benefit for Azure Active Directory Premium](FastTrack-Center-Benefit-for-Azure-Active-Directory-Premium.md).
 
 This article provides the following:
 
@@ -47,7 +47,7 @@ Onboarding has two major components:
 
 The following diagram describes the timeline for using the FastTrack Center benefit.
 
-![](../Image/1-rms-onboarding-process.png)
+![insert-alt-name](./media/1-rms-onboarding-process.png)
 
 The basic process is as follows:
 
@@ -86,7 +86,7 @@ Microsoft Azure AD Premium onboarding has five primary phases, as shown in the f
 
 -   Enable
 
-![](../Image/Intune-onboarding-phases-9-15-15.png)
+![insert-alt-name](./media/Intune-onboarding-phases-9-15-15.png)
 
 For detailed tasks for each phase, see the [Microsoft responsibilities](#microsoft_responsibilities) and  [Your responsibilities](#your_responsibilities) sections.
 
@@ -95,17 +95,17 @@ After you have purchased the appropriate number of licenses, follow the guidance
 
 During this phase, we’ll discuss the onboarding process, verify data, and set up a kick-off meeting.
 
-![](../Image/Microsoft-Azure-AD-Premium-initiate-phase-1.png)
+![insert-alt-name](./media/Microsoft-Azure-AD-Premium-initiate-phase-1.png)
 
 ### Assess phase
 Once the onboarding process begins, Microsoft will work with you to assess your source environment and the requirements. Tools will be run to assess your environment, and Microsoft will guide you through assessing your on-premises Active Directory, Internet browsers, client devices' operating systems, DNS, network, infrastructure, and identity system to determine if any changes are required for onboarding. Based on your current setup, we’ll provide a remediation plan that will bring your source environment up to the minimum requirements for successful onboarding to Microsoft Azure AD Premium. We’ll also set up appropriate checkpoint calls for the remediation phase.
 
-![](../Image/Microsoft-Azure-AD-Premium-assess-phase-v6.png)
+![insert-alt-name](./media/Microsoft-Azure-AD-Premium-assess-phase-v6.png)
 
 ### Remediate phase
 If needed, you’ll do the tasks in the remediation plan on your source environment so that you meet the requirements for onboarding each service.
 
-![](../Image/Microsoft-Azure-AD-Premium-remediate-phase-1.png)
+![insert-alt-name](./media/Microsoft-Azure-AD-Premium-remediate-phase-1.png)
 
 Before beginning the Enable phase, we’ll jointly verify the outcomes of the remediation activities to make sure you’re ready to proceed.
 
@@ -136,7 +136,7 @@ Microsoft Azure AD Premium setup includes enabling the following features:
 
 -   Administrative reports
 
-![](../Image/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![insert-alt-name](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
 
 ## <a name="microsoft_responsibilities"></a>Microsoft responsibilities
 
