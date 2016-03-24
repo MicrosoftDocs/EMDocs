@@ -15,7 +15,6 @@ author: YuriDio
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 
-While Task 1 focused on data protection and how to enhance the overall security of mobile devices to help keep company data protected, the second task of this step focuses on understanding your organizational requirements for privacy. 
 In the previous step, you defined device management tasks, including device management and content distribution management. In this task, the goal is to define the privacy requirements for company content that will reside on the mobile device. 
 
 >[!TIP] Read the solution Streamlined management for mobile devices and computers in a hybrid environment for more information about content distribution for mobile devices.
