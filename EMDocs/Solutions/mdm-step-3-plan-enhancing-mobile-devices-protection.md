@@ -62,5 +62,5 @@ There are 12 steps in this section of the guide. Total time to read through the 
 - [Data classification](mdm-data-classification.md)
 - [Authentication and authorization](mdm-authentication-authorization.md)
 - [Access control to resources](mdm-access-control-resources.md)
-- [Incident responses](mdm-develop-incident-response-requirements.md)
+
 
