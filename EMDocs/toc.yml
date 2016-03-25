@@ -62,7 +62,7 @@
       - name: Develop & customize apps
         href: /rights-management/develop/
         homepage: /rights-management/develop/developers-guide
-      - name: Adminsiter
+      - name: Administer
         href: /rights-management/administer/
         homepage: /rights-management/administer/administering-azure-rights-management-with-powershell
       - name: RMS Client
