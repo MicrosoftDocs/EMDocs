@@ -46,6 +46,7 @@ Your answers the questions in Step 1 can help you determine how you want devices
 - Deploy certificates to mobile devices
 - Allows organizations to prevent cut/copy/paste functions in mobile applications
 - Supports enforcing the use of managed browsers
+- Supports using device IMEI numbers to identify and tag corporate-owned devices to separate policy assignments from personal-owned devices
 
 **Disadvantages**
 

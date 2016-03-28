@@ -31,7 +31,7 @@ Depending on how your infrastructure is set up, you may be able to create a vari
 
 **Integrated mobile device monitoring and reporting**
 
-The answers you gave to the questions in Task 2 can help you determine your monitoring and reporting needs for your mobile devices. Table 8 below shows the advantages and disadvantages of the monitoring and reporting features in each MDM solution.
+The answers you gave to the questions in Task 2 can help you determine your monitoring and reporting needs for your mobile devices. The lists below show the advantages and disadvantages of the monitoring and reporting features in each MDM solution.
 
 ## Intune (standalone)
 
@@ -43,6 +43,7 @@ The answers you gave to the questions in Task 2 can help you determine your moni
 - Three levels of alerts (critical, warning, Informational) with thresholds and email alert notifications
 - Can filter alerts by device type
 - Can review the status of any managed device
+- Provides reports on devices that do not meet IT policy
 - Can monitor details in the following areas:
  - System
  - OS
@@ -64,6 +65,7 @@ The answers you gave to the questions in Task 2 can help you determine your moni
 - Three levels of alerts (critical, warning, Informational) with thresholds and email alert notifications
 - Can filter alerts by device type
 - Can review the status of any managed device
+- Provides reports on devices that do not meet IT policy
 
 **Disadvantages**
 

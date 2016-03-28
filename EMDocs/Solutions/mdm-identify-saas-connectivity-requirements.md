@@ -17,7 +17,7 @@ author: robmazz
 
 How you connect your on-premises infrastructure will impact of how user and device identity is managed with all MDM solutions: Intune, MDM for Office 365, and hybrid Intune and ConfigMgr deployments. Both Intune and MDM for Office 365 leverage the directory services architecture provided by Azure Active Directory Services. This integration with Azure gives you a lot of flexibility when you're designing identity management support in your mobile device management solution.
 
-As shown in the Figure 15 below, connecting your on-premises directory services with Azure is the key requirement for enabling single sign-on and unified directory account management. Single sign-on makes it much easier for your users to connect to company resources that are on-premises and in the cloud. Having a single place to manage accounts makes it easier for administrators. For mobile access, synchronizing directory account attributes and credentials between Azure and on-premises directory services allows users to authenticate on their mobile devices for accessing resources that are managed by either MDM for Office 365 or Intune.
+As shown in the lists below, connecting your on-premises directory services with Azure is the key requirement for enabling single sign-on and unified directory account management. Single sign-on makes it much easier for your users to connect to company resources that are on-premises and in the cloud. Having a single place to manage accounts makes it easier for administrators. For mobile access, synchronizing directory account attributes and credentials between Azure and on-premises directory services allows users to authenticate on their mobile devices for accessing resources that are managed by either MDM for Office 365 or Intune.
 
 ![Overview of integrated identity management](./media/MDM_Figure_15.png)
 
@@ -29,12 +29,14 @@ Depending on how you answered the questions in Task 2, you should be able to det
 
 **Advantages**
 
-- Requires additional configuration requirements to connect Intune with the on-premises ConfigMgr infrastructure.
-- For organizations that don’t have a current ConfigMgr infrastructure configured, it will need to be planned, installed and configured prior to integrating with Intune.
+- Tightly integrated with Azure Active Directory for managing user and device identity and authentication
+- Supports user credential self-management and single sign-on experiences that can leverage existing on-premises account credentials
+- Supports single sign-on access to thousands of pre-integrated SaaS applications
+- Supports application access security by enforcing rules-based multifactor authentication (MFA) for both on-premises and cloud applications
 
 **Disadvantages**
 
-- All the advantages of Intune standalone, plus the following:Direct integration with on-premises directory services through ConfigMgr infrastructure
+- Advanced directory services connectivity features and functionality require pairing with Azure Active Directory Premium
 
 ## MDM for Office 365
 
@@ -43,6 +45,7 @@ Depending on how you answered the questions in Task 2, you should be able to det
 - Integrated with Office 365 tenants, which use the Azure Active Directory backbone for managing user and device identity and authentication
 - On-premises directory services can be connected as a part of connecting services with Office 365
 - Supports user self-management and single sign-on experiences that can leverage existing on-premises account credentials
+- Supports multi-factor authorization for device enrollments by using the Azure MFA service
 
 **Disadvantages**
 
@@ -52,7 +55,8 @@ Depending on how you answered the questions in Task 2, you should be able to det
 
 **Advantages**
 
-- All the advantages of Intune standalone, plus the following:Direct integration with on-premises directory services through ConfigMgr infrastructure
+- All the advantages of Intune standalone, plus the following:
+ - Direct integration with on-premises directory services through ConfigMgr infrastructure
 
 **Disadvantages**
 

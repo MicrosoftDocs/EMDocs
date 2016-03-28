@@ -31,7 +31,7 @@ Specifically, the goals of this guide are to help you answer the following quest
 ![Example of a hybrid Intune and System Center Configuration Manager MDM solution](./media/MDM_Figure_01.png)
 **Example of a hybrid Intune and System Center Configuration Manager MDM solution**
 
-The figure above is an example of a hybrid mobility management solution, where it’s leveraging cloud services to integrate with on-premises capabilities in order to manage all types of devices, regardless of their location. Although this is a very common scenario, every organization’s MDM design might be different than the example due to each organization’s unique management requirements.
+The figure above is an example of a hybrid management solution, where it’s leveraging cloud services to integrate with on-premises capabilities in order to manage all types of devices, regardless of their location. Although this is a very common scenario, every organization’s MDM design might be different than the example due to each organization’s unique management requirements.
  
 This guide details a series of steps and tasks that you should follow to assist you in designing a customized MDM solution that meets your organization’s unique requirements. Throughout the following steps and tasks, this guide covers the relevant technologies and feature options available to you to meet the functional and service quality level requirements for MDM. 
 

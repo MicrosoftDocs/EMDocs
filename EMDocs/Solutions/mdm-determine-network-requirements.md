@@ -31,7 +31,6 @@ Most mobile device management solutions provide email access protection by using
  Answer the following planning questions about email management:
 
 - How will mobile devices connect to your existing on-premises or cloud-hosted email system?
-- If mobile devices are already connecting to your existing email system, what connection type or protocol are the devices using to connect?
 - Will administrators or users (or a combination of both) be responsible for connecting mobile devices to your email system? If users will be connecting mobile devices to the email system, how will they:
  - Choose the proper connection point to access their email mailbox?
  - Choose the proper connection protocol or connection method?
@@ -46,7 +45,6 @@ Most mobile device management solutions provide email access protection by using
 - When a mobile device needs to be disconnected from your email system, how will email data be deleted from the mobile device?
 - Will both administrators and users need the ability to delete email data or the connection to the email system?
 - How will confirmation of email data deletion be verified or confirmed?
-- If you’re currently managing mobile device connections to email resources with an existing protocol or management method, how does it integrate with the mobile device management solution?
 - If you’re using both an on-premises and cloud-based email system, how do they integrated with the mobile device management solution? 
 - Are email profiles or managed access policies administered the same or differently from the IT perspective? Is the user email connection experience the same or different depending on where their mailbox is hosted?
 
@@ -64,8 +62,9 @@ Mobile devices typically connect to corporate networks and resources by using th
 
 Answer the following planning questions about network connectivity management:
  
-- How will the Internet be accessed via the mobile device?
- - By using WiFi? If so, do they require access via proxy? Proxy authentication?
+- What type of VPN platform do you have deployed in your on-premises network?
+- Is the VPN platform supported or able to be integrated with the mobile device management solution?
+- If the VPN platform is already integrated or support by an existing non-mobile device management solution – does the mobile device management solution integrate with both systems?
 - Will your Wi-Fi infrastructure require updating to accommodate increased device connections and increased bandwidth demands?
 - How will mobile devices connect to your existing on-premises wireless or VPN platform?
 - If mobile devices are already connecting to your existing wireless or VPN platform, what connection type or protocol are the devices using to connect?

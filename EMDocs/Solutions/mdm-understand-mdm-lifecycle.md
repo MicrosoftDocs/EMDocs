@@ -72,7 +72,7 @@ Thoroughly understanding how your organization can integrate mobile device manag
 Mobile device management typically involves several administrative areas:
 
 - **Device security and configuration:** Mobile device security includes a wide range of settings that you can deploy to managed devices in your organization. Settings can include specifying the timing, expiration, and required characteristics for device passcode access, device encryption, and erasing data from lost or stolen devices. More details about security and configuration are in  the <link xlink:href="5dffb570-dd1a-4beb-aa1e-7c0b51393704">Step 3 - Plan for securing mobile devices</link> topic.
-- **Application management:** This area includes managing application deployment, installation, updating and managing status, and application removal. You can also manage restrictions on certain non-compliant applications, which can be central to an overall compliance and security strategy.
+- **Application management:** This area includes managing application deployment, installation, updating and managing status, and application removal. You can also manage restrictions on certain non-compliant applications, which can be central to an overall compliance and security strategy. There may also be application management scenarios where you need to manage applications on mobile devices, but don’t want to enroll the devices into the mobile device management platform.
 - **Company resource access:** MDM can also help manage access to on-premises network resources, such as email servers, Wi-Fi networks, and VPN-enabled resources. This serves a dual purpose of helping to insure security compliance and making it easier for mobile device users to access company resources according to company policy. If accessing organization resources is overly complex or difficult for mobile device users, they may opt to use non-approved company resources to store company data because it’s easier.
 - **Inventory and reporting:** When you manage mobile devices, you’ll want to record and analyze mobile device and platform events to track compliance with the management policies in your organization. Detailed reporting can also provide you with real-time statistics and data so that you can make faster, better decisions based on the status of mobile devices and mobile device users. More details about inventory and reporting is included in a later section.
 
@@ -86,6 +86,7 @@ For now, focus only in the key administration aspects as you are still defining 
  - Do the permission levels supported by the solution need to be customizable?
  - Do the permissions need to be integrated into your existing account directory services?
 - Do you need the ability to both manually and automatically deploy the mobile device management solution agents or software?
+- Do you need the ability to manage applications on mobile devices, but don’t need to enroll the device into a mobile device management platform (either new or existing)?
 - Do you want to integrate managing mobile devices with an existing non-mobile device management solution? If so:
  - Do you want to manage all devices from a unified management console or portal?
  - What are the integration requirements for your existing non-mobile device management solution?
@@ -97,11 +98,25 @@ For now, focus only in the key administration aspects as you are still defining 
 - Does the mobile device management solution support remote administration?
 - Does the mobile device management solution support automation?
 
+## App management
+
+Some cases, you may not want to enroll a mobile device into a device management system but still need to manage applications on the device to prevent company data from being leaked to other consumer apps or services on the device. This could apply to employees using personal devices to access company resources in a BYOD scenario, or even in scenarios where you need to manage mobile devices on one device management platform and manage applications on another device management platform.
+
+### App management planning questions
+
+To plan for app management considerations, answer the following planning questions:
+
+- Does company data need to be isolated from consumer data within apps on mobile devices?
+- Do you need to prevent data from being shared via cut/copy/paste across company and personal apps on mobile devices?
+- Do you need to prevent apps from backing up or saving data to other apps or services?
+- Do you need to enable per-App data loss prevention policies?
+- Do you need to restrict web content displayed in a managed browser?
+
 ##Device retirement/unenrollment
 
 When users leave your organization or mobile devices are retired or replaced, you need to make sure that corporate data isn’t lost or compromised. Typically, mobile device management solutions support both IT-managed and user-managed device resets and unenrollment. With most mobile devices, unenrollment starts with resetting the device to factory defaults or performing a selective wipe of all corporate data and applications. Then the device enrollment connection to the management solution is removed. However, the process varies between mobile device manufacturers and device operating system platforms.
 
-### Device retirement/unenrollment planning questions:
+### Device retirement/unenrollment planning questions
 
 Answer the following planning questions about device retirement and unenrollment:
 
