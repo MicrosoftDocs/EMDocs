@@ -29,7 +29,13 @@ The lists below outline the advantages and disadvantages of managing wireless an
 
 **Advantages**
 
-- Supports wireless and VPN profiles on all major mobile device operating systems (Android, iOS, Windows 10, Windows 8.x, and Windows Phone) Supports industry leading VPN connection types, including Cisco, Juniper, Dell SonicWall, Checkpoint, and othersWireless and VPN profiles can be integrated with SCEP certificate profiles for increased securitySupports configuring customized wireless and VPN profiles for different types of users, devices, device operating systems, or user groups and rolesDNS name-based initiation support for Windows 10, Windows 8.1, Windows Phone 8.1 and iOSApplication ID based initiation support for Windows 10 and Windows 8.1
+- Supports wireless and VPN profiles on all major mobile device operating systems (Android, iOS, Windows 10, Windows 8.x, and Windows Phone) 
+- Supports industry leading VPN connection types, including Cisco, Juniper, Dell SonicWall, Checkpoint, and others
+- Wireless and VPN profiles can be integrated with SCEP certificate profiles for increased security
+- Supports configuring customized wireless and VPN profiles for different types of users, devices, device operating systems, or user groups and roles
+- DNS name-based initiation support for Windows 10, Windows 8.1, Windows Phone 8.1 and iOS
+- Application ID based initiation support for Windows 10 and Windows 8.1
+- Select apps that automatically connect to your corporate network over VPN in VPN profiles
 
 **Disadvantages**
 
