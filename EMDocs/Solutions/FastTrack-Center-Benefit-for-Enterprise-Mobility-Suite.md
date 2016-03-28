@@ -14,11 +14,11 @@ Microsoft FastTrack for Enterprise Mobility Suite provides remote deployment ass
 
 For more information, see:
 
--   **Intune**: [FastTrack Center Benefit for Intune](../Topic/FastTrack-Center-Benefit-for-Intune.md)
+-   **Intune**: [FastTrack Center Benefit for Intune](FastTrack-Center-Benefit-for-Intune.md)
 
--   **Azure Active Directory Premium:**  [FastTrack Center Benefit for Azure Active Directory Premium](../Topic/FastTrack-Center-Benefit-for-Azure-Active-Directory-Premium.md)
+-   **Azure Active Directory Premium:**  [FastTrack Center Benefit for Azure Active Directory Premium](FastTrack-Center-Benefit-for-Azure-Active-Directory-Premium.md)
 
--   **Azure Rights Management:**  [FastTrack Center Benefit for Azure Rights Management](../Topic/FastTrack-Center-Benefit-for-Azure-Rights-Management.md)
+-   **Azure Rights Management:**  [FastTrack Center Benefit for Azure Rights Management](FastTrack-Center-Benefit-for-Azure-Rights-Management.md)
 
 Are you looking for information about the Microsoft FastTrack for Office 365? See [FastTrack Center Benefit for Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 

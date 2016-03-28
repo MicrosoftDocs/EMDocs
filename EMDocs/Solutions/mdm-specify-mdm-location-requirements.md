@@ -26,5 +26,5 @@ Location requirements are one of the many factors that you should take in consid
 		- If not, can it be hybrid?
 	- Does your company need a decentralized model where different locations should have autonomy over the device management administration?
 
->[!NOTE] Make sure to take notes of each answer and understand the rationale behind the answer. Next section will go over the available options and advantages/disadvantages of each option.  By having answered these questions, you’ll be able to select which solution best suits your business needs.
+>[!TIP] Make sure to take notes of each answer and understand the rationale behind the answer. Next section will go over the available options and advantages/disadvantages of each option.  By having answered these questions, you’ll be able to select which solution best suits your business needs.
 
