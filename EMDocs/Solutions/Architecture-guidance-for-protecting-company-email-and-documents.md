@@ -66,7 +66,7 @@ The third layer is the **app management layer** with the Intune-managed app ecos
 
 *Azure Rights Management (Azure RMS)* completes the security model by protecting data at the file level. The security policies that are applied to the data, travel with the data, help keep the data secure in transit and at rest, regardless of the device that is used to access it. This is the **data layer** of the security model.
 
-## Protecting coporate email and documents
+## Protecting corporate email and documents
 Protecting corporate email involves two main objectives:
 
 -   Allow only compliant devices to access your company’s email
@@ -87,6 +87,12 @@ Conditional access is determined by two types of policies you can set in Intune:
 -   **Device is not jailbroken or rooted**: Intune can detect if an enrolled device is jailbroken, and your IT can set the policy to block access on such devices.
 
 **Conditional access policies** are configured for a particular service like Exchange Online or SharePoint Online. For each service, you can define which groups of users these policies should apply to. For example, you can make sure that everyone in the finance department can only access company email from enrolled and compliant devices.
+
+### High level end-user experience
+After the solution is implemented, end-users will only be able to access the company email on managed and compliant devices. Once they have the ability to access the email on the devices, the company data is protected and contained within the app ecosystem and only available to the intended users. Access can be revoked at any time if the device becomes noncompliant.
+
+Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Topic/end-user-experience-of-conditional-access.md).
+
 
 Watch [this](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) four minute video to see how conditional access affects your end users.
 
@@ -159,7 +165,7 @@ When the user attempts to access email on the device for the first time, or sync
 Once the device is evaluated as enrolled and compliant, the email sync should happen within a few minutes.
 
 ## Protect email and attachments from data leakage
-The previous section talked about how you can make sure that only compliant devices can access corporate email. However, the content in the email and email attachments is not protected just by securing access. The content can be copied, moved, saved to a different location, or shared with another user. EMS solves this problem using mobile application management policies.
+The previous section talked about how you can make sure that only compliant devices can access corporate email. However, the content in the email and email attachments is not protected just by securing access. The content can be copied, moved, saved to a different location, or shared with another user. EMS solves this problem using mobile application management (MAM) policies.
 
 Managed apps are apps that are deployed by your IT admin that comply with your companies security requirements. With these apps, IT has direct control over deployment, ongoing management like inventory or updates, and selective wipe of the apps and their associated data. Additionally, through a set of mobile application management (MAM) policies, Intune lets you modify the functionality of apps, and restricting sharing of data like:
 
@@ -275,9 +281,14 @@ For Exchange Online Dedicated implementations, whether you can take advantage of
     -   Third-party federation services like Ping should also work. Testing before implementation is recommended.
 
 ## Where to go from here
-[Watch](https://www.youtube.com/watch?v=ltcZvm4VOFU) this video to learn how to sign up for a trial account and get started.
+[**Watch**](https://www.youtube.com/watch?v=ltcZvm4VOFU) this video to learn how to sign up for a trial account and get started.
 
-[Learn how to deploy a solution for protecting company email and documents](../Topic/Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)
+**Read** the [Mobile Device Management Design Considerations Guide](https://technet.microsoft.com/en-us/library/mt143180.aspx) to better understand mobile device management design requirements.
+
+**Learn** more about how to deploy a solution for protecting company email and documents:
+
+- [Use conditional access with Microsoft Intune](../Topic/conditional-access-intune.md)
+- [Use conditional access with Microsoft Intune and Configuration Manager](../Topic/conditional-access-intune-configmgr.md)
 
 Footnotes:
 
@@ -289,10 +300,17 @@ Footnotes:
 
 ### See Also
 [EMS Architecture](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
+
 [Start using Intune](https://technet.microsoft.com/en-us/library/dn646953.aspx)
+
 [What is Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
+
 [How does Azure Active Directory support Office 365, Microsoft Intune, and other Microsoft services?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
+
 [How does Azure Active Directory help you manage identities](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
+
 [What is Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
+
 [How Applications support Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585004.aspx)
+
 [Automatically protecting emails with Exchange Online and data loss prevention policies](https://technet.microsoft.com/en-us/library/jj585026.aspx#BKMK_Example_DLP)
