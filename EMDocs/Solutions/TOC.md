@@ -1,3 +1,5 @@
+# [Solutions, Scenarios, & Guides](./index)
+
 # [BYOD Design Guide](byod-design-considerations-guide.md)
 ## [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)
 ### [User and device requirements](byod-user-device-reqs.md)
@@ -46,8 +48,12 @@
 ### [Identify SaaS connectivity requirements](mdm-identify-saas-connectivity-requirements.md)
 ## [Next steps](mdm-next-steps-and-additional-resources.md)
 
-# [Protect Company Email and Documents](Architecture-guidance-for-protecting-company-email-and-documents.md)
-## [Learn how to deploy this solution](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents)
-### [Conditional access with Intune & ConfigMgr](Use-conditional-access-with-Intune-and-Configuration-Manager.md)
-### [Conditional access with Intune](use-conditional-access-with-intune.md)
-### [Device enrollment and compliance experience](End-user-experience-of-conditional-access.md)
+# [Protect Company Email and Documents](architecture-guidance-for-protecting-company-email-and-documents.md)
+## [Conditional access with Intune](conditional-access-intune.md)
+### [Exchange online](conditional-access-intune-exchange-online.md)
+### [Exchange on-premises](conditional-access-intune-exchange.md)
+## [Conditional access with Intune and Configuration Manager](conditional-access-intune-configmgr.md)
+### [Exchange online](conditional-access-intune-configmgr-exchange-online.md)
+### [Exchange on-premises](conditional-access-intune-configmgr-exchange.md)
+### [Exchange online and on-premises](conditional-access-intune-configmgr-coexist.md)
+## [Device enrollment and compliance experience](end-user-experience-conditional-access.md)
