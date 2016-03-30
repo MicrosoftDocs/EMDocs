@@ -80,7 +80,7 @@ Before you proceed, make sure your environment includes these requirements for i
     **Remove-ActiveSyncDevice**
 
 > [!IMPORTANT]
-> If you try to install or use the Exchange Server connector without the required cmdlets, you will see an error logged with the message Invoking cmdlet &lt;cmdlet&gt; failed in the EasDisc.log file on the site server computer.
+> If you try to install or use the Exchange Server connector without the required cmdlets, you will see an error logged with the message: _Invoking cmdlet &lt;cmdlet&gt; failed in the EasDisc.log file on the site server computer_.
 
 ## <a name="DeploySteps"></a>Deployment Steps
 Follow these steps to deploy the Exchange on-premises solution:
