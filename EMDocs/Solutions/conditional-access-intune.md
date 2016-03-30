@@ -32,7 +32,7 @@ You can control access to Exchange Online and Exchange on-premises from the foll
 
 Before you start using conditional access, ensure that you have the correct requirements in place:
 
-## For Exchange Server on-premises
+### For Exchange Server on-premises
 Conditional access to Exchange on-premises supports:
 
 -   Windows 8 and later (when enrolled with Intune)
@@ -57,7 +57,7 @@ Additionally:
 > [!IMPORTANT]
 > Make sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.
 
-## For Exchange Online
+### For Exchange Online
 Conditional access to Exchange Online supports devices that run:
 
 -   Windows 8.1 and later (when enrolled with Intune)
