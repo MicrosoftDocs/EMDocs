@@ -53,7 +53,7 @@ To help identify your business needs, answer the following questions:
 	- Do the apps work in a low-latency network? 
 	- Do the apps provide authentication capabilities?
 		- If so, which authentication method do the apps use?
-•	**Users**: One of the main points in embracing mobility is to put the user at the center of the mobility solution and enabling the user to be more productive, while keeping company data secure and available. This is important to understand what the user’s requirements are.
+- **Users**: One of the main points in embracing mobility is to put the user at the center of the mobility solution and enabling the user to be more productive, while keeping company data secure and available. This is important to understand what the user’s requirements are.
 	- Will the user be able to bring their own device and access company’s resources?
 		- If yes, what are the requirements to access company’s resources?
 	- Does your company have different user’s needs?
