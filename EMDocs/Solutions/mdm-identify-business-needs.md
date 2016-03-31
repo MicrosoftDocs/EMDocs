@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
+ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 author: YuriDio
 ---
 # Identify your business needs

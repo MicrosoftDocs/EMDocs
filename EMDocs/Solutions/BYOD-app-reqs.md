@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 author: YuriDio
 ---
 # App requirements

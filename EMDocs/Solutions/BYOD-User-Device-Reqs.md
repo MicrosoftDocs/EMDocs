@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: 69020f79-4ce2-4984-b127-4520503fb729
 author: YuriDio
 ---
 # User and device requirements

@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: 9596531a-2eef-4c91-af11-091088c52929
 author: YuriDio
 ---
 #Envisioning the BYOD infrastructure solution

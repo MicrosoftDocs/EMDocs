@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: c576a1be-c706-4a12-a2e2-b3d85e632afa
 author: YuriDio
 ---
 # Management requirements

@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: fda1b678-a5f7-4207-a9bf-1aa9e24cf54d
 author: YuriDio
 ---
 # Data access and protection considerations

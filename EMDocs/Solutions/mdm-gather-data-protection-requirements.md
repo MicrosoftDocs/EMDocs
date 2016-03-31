@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5dffb570-dd1a-4beb-aa1e-7c0b51393704
+ms.assetid: 98f7bd00-4be7-478e-82ea-6046813f1556
 author: YuriDio
 ---
 # Gather your data protection requirements

@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 author: YuriDio
 ---
 # Data access and protection requirements

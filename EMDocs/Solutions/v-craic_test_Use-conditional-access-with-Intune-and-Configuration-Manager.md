@@ -6,7 +6,7 @@ ms.service: microsoft-intune
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
+ms.assetid: 3aab7a88-74d7-4710-830a-feee1fb015c8
 author: karthikaraman
 ---
 # Craig Casey test file
