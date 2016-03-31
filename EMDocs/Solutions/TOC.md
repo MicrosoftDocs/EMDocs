@@ -1,4 +1,4 @@
-# [Solutions, Scenarios, & Guides](/Solutions)
+# [Solutions, Scenarios, & Guides](./)
 
 # [BYOD Design Guide](byod-design-considerations-guide.md)
 ## [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)
