@@ -88,5 +88,5 @@
         href: /microsoft-identity-manager/getstarted/
         homepage: /microsoft-identity-manager/getstarted/journey-get-started
   - name: Reference
-    href: /active-directory-reference/
-    homepage: /active-directory-reference/microsoft.identitymodel.clients.activedirectory
+    href: /active-directory/adal/
+    homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
