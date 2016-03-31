@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5dffb570-dd1a-4beb-aa1e-7c0b51393704
+ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
 author: YuriDio
 ---
 # Plan for enhancing mobile devices protection

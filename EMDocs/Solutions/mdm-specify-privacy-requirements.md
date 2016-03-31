@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5dffb570-dd1a-4beb-aa1e-7c0b51393704
+ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 author: YuriDio
 ---
 # Specify your privacy requirements

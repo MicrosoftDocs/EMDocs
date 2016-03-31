@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5dffb570-dd1a-4beb-aa1e-7c0b51393704
+ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 author: YuriDio
 ---
 # Hardening mobile devices

@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: ae82e1d8-b623-4e60-b533-31810c0a02bf
 author: YuriDio
 ---
 # BYOD Design Considerations Guide

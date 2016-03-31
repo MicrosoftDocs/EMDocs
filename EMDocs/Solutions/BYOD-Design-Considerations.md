@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 author: YuriDio
 ---
 # Design considerations

@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5dffb570-dd1a-4beb-aa1e-7c0b51393704
+ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 author: YuriDio
 ---
 # Data segregation

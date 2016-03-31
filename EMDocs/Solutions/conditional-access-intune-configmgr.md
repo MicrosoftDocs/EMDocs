@@ -6,7 +6,7 @@ ms.service: microsoft-intune
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
+ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 author: karthikaraman
 ---
 # Use conditional access with Intune and Configuration Manager

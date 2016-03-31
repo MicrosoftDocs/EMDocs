@@ -7,7 +7,7 @@ ms.suite: na
 ms.technology: na 
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 0000
+ms.assetid: e7838e5f-8946-4e69-b287-9e53f97f136c
 author: YuriDio
 ---
 # User and device considerations

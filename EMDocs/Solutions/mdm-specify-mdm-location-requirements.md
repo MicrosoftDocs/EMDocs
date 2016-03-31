@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
+ms.assetid: c8824726-082e-417a-8522-183a69328ae4
 author: YuriDio
 ---
 # Specify your mobile device management location requirements
