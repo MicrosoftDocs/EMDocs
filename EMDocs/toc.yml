@@ -88,12 +88,5 @@
         href: /microsoft-identity-manager/getstarted/
         homepage: /microsoft-identity-manager/getstarted/journey-get-started
   - name: Reference
-    href: 
-    homepage:
-    items:
-      - name: Microsoft.IdentityModel.Clients.ActiveDirectory 
-        href: 
-        homepage:
-      - name: Microsoft.IdentityModel.Clients.ActiveDirectory.Internal
-        href: 
-        homepage: 
+    href: /active-directory-reference/
+    homepage: /active-directory-reference/microsoft.identitymodel.clients.activedirectory
