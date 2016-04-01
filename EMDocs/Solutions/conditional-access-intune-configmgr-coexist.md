@@ -10,6 +10,8 @@ ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
 author: karthikaraman
 ---
 # Deploy Exchange Online and on-premises with Microsoft Intune and Configuration Manager
+Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+
 An environment in which Exchange on-premises and Exchange Online are both used to manage email profiles offers companies the ability to extend the feature-rich experience and administrative control they have with their existing on-premises Microsoft Exchange organization to the cloud. This "hybrid" type of deployment provides the seamless look and feel of a single Exchange organization between an on-premises Exchange Server 2013 organization and Exchange Online in Microsoft Office 365. In addition, this type of deployment can serve as an intermediate step to moving completely to an Exchange Online organization.
 
 If you are already using Configuration Manager along with a coexistence of Exchange on-premises and Exchange Online, you can incorporate Intune to manage email access and protect email data on mobile devices. You can implement this solution by following the instructions above for implementing each solution separately.

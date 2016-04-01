@@ -11,7 +11,9 @@ author: karthikaraman
 ---
 # Deploy Exchange on-premises with Intune
 
-For Intune to directly manage mobile devices, users need to enroll devices into Intune.
+Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+
+For Intune to directly manage mobile devices, users will need to enroll devices into Intune.
 
 ##Deployment Steps
 Follow these steps to deploy the Exchange on-premises with Intune solution:
