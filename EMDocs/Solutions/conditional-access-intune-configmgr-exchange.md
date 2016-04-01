@@ -6,7 +6,7 @@ ms.service: microsoft-intune
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
+ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 author: karthikaraman
 ---
 # <a name="ExchangeOnPrem"></a>Deploy Exchange Server on-premises with Microsoft Intune and Configuration Manager

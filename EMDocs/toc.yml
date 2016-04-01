@@ -35,8 +35,8 @@
         href: /intune/plandesign/
         homepage: /intune/plandesign/plan-you-user-and-device-groups
       - name: Deploy and use
-        href: /intune/deployuse/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
-        homepage: 
+        href: /intune/deployuse/
+        homepage: /intune/deployuse/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
       - name: Troubleshoot
         href: /intune/troubleshoot/
         homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
@@ -88,12 +88,5 @@
         href: /microsoft-identity-manager/getstarted/
         homepage: /microsoft-identity-manager/getstarted/journey-get-started
   - name: Reference
-    href: 
-    homepage:
-    items:
-      - name: Microsoft.IdentityModel.Clients.ActiveDirectory 
-        href: 
-        homepage:
-      - name: Microsoft.IdentityModel.Clients.ActiveDirectory.Internal
-        href: 
-        homepage: 
+    href: /active-directory/adal/
+    homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory

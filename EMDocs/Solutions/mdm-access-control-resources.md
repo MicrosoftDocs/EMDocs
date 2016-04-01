@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5dffb570-dd1a-4beb-aa1e-7c0b51393704
+ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
 author: YuriDio
 ---
 # Access control to resources

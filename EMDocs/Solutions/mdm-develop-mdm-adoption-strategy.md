@@ -6,7 +6,7 @@ ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
+ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 author: YuriDio
 ---
 # Develop your mobile device management adoption strategy
