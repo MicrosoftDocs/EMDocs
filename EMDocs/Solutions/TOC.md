@@ -1,5 +1,14 @@
 # [Solutions, Scenarios, & Guides](./index.html)
 
+# [Get Started with FastTrack](enterprise-mobility-fasttrack-program.md)
+## [FastTrack benefit for EMS](fasttrack-center-benefit-process-for-ems-phases.md)
+## [FastTrack benefit process for EMS](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
+### [Overview](fasttrack-center-benefit-process-for-ems-overview.md)
+### [Source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+### [Phases](fasttrack-center-benefit-process-for-ems-phases.md)
+### [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+### [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
+
 # [BYOD Design Guide](byod-design-considerations-guide.md)
 ## [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)
 ### [User and device requirements](byod-user-device-reqs.md)
