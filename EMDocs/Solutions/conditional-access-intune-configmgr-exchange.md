@@ -10,6 +10,8 @@ ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 author: karthikaraman
 ---
 # <a name="ExchangeOnPrem"></a>Deploy Exchange Server on-premises with Microsoft Intune and Configuration Manager
+Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+
 If you are already using System Center Configuration Manager and Exchange in your on-premises infrastructure, you can incorporate Intune to manage email access and protect email data on mobile devices. The high-level process for implementing this solution is as follows:
 
 -   Configure the On-Premises Intune Exchange Connector through the Configuration Manager console, which will let Configuration Manager communicate with the Exchange Server that hosts the mobile devices’ mailboxes.

@@ -10,6 +10,8 @@ ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 author: karthikaraman
 ---
 # <a name="ExchangeOnline"></a>Deploy Exchange Online with Microsoft Intune and Configuration Manager
+Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+
 If you are already using System Center Configuration Manager and Exchange Online, you can incorporate Intune to manage email access and protect email data on mobile devices. The high-level process for implementing this solution is as follows:
 
 -   Create the compliance policies that define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices.
