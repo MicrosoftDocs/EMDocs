@@ -35,7 +35,7 @@ The figure above is an example of a hybrid management solution, where it’s lev
  
 This guide details a series of steps and tasks that you should follow to assist you in designing a customized MDM solution that meets your organization’s unique requirements. Throughout the following steps and tasks, this guide covers the relevant technologies and feature options available to you to meet the functional and service quality level requirements for MDM. 
 
-Though this guide can help you design a MDM solution, it does not discuss specific implementation or operations options for the management solutions. You can find detailed deployment and configuration steps [Microsoft Intune](https://technet.microsoft.com/library/jj676587.aspx), [Mobile Device Management for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx), and [Microsoft System Center Configuration Manager](https://technet.microsoft.com/library/cc507089.aspx) in the TechNet Library using the links available in the Next steps and additional resources section located at the end of this guide.
+Though this guide can help you design a MDM solution, it does not discuss specific implementation or operations options for the management solutions. You can find detailed deployment and configuration steps [Microsoft Intune](https://docs.microsoft.com/en-us/intune/), [Mobile Device Management for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx), and [Microsoft System Center Configuration Manager](https://technet.microsoft.com/library/cc507089.aspx) in the docs.microsoft.com and TechNet libraries using the links available in the **Next steps and additional resources** section located at the end of this guide.
 
 **Assumptions:** You have some experience with Microsoft Intune, System Center 2012 R2 Configuration Manager (ConfigMgr), Windows Server 2012 R2, and mobile devices running Android, iOS, and Windows Phone. You may have even deployed one of these solutions in an initial MDM test or limited production environment. In this guide, we assume you are looking for how these solutions can best meet your business needs on their own or in an integrated solution.
 
@@ -44,11 +44,11 @@ This guide covers a set of steps and tasks that you can follow to design a solut
 
 You will develop a mobile device management design that best meets your requirements only after iterating through the following steps as many times as necessary to incorporate all of the considerations within this guide: 
 
-- [Step 1: Identify your mobile device management requirements](Step-1---Identify-your-mobile-device-management-requirements.md)
-- [Step 2: Plan for mobile device management](Step-2---Plan-for-mobile-device-management.md)
-- [Step 3: Plan for securing mobile devices](Step-3---Plan-for-enhancing-mobile-devices-protection.md)
-- [Step 4: Plan for Software as a Service mobile device management](Step-4---Plan-for-Software-as-a-Service-mobile-device-management.md)
-- [Next steps and additional resources](Next-steps-and-additional-resources.md)
+- [Step 1: Identify your mobile device management requirements](mdm-step-1-identify-your-mobile-device-management-requirements.md)
+- [Step 2: Plan for mobile device management](mdm-step-2-plan-for-mobile-device-management.md)
+- [Step 3: Plan for securing mobile devices](mdm-step-3-plan-enhancing-mobile-devices-protection.md)
+- [Step 4: Plan for Software as a Service mobile device management](mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
+- [Next steps and additional resources](mdm-next-steps-and-additional-resources.md)
         
 ## Looking for a downloadable version?
 Get a downloadable copy of this entire guide at the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).

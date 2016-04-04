@@ -60,7 +60,4 @@ Depending on how you answered the questions in Step 1, you should be able to det
 - Requires additional configuration to connect Intune with the on-premises ConfigMgr infrastructure
 - For organizations that don’t have a current ConfigMgr infrastructure configured, it will need to be planned, installed and configured prior to integrating with Intune
 
-
-Explore the details about mobile application management options by reviewing the following for Intune & ConfigMgr:  Configure and deploy mobile application management policies in the Microsoft Intune console.
-
-Additionally, be sure to check out the list of Microsoft apps you can use with Intune MAM policies, as well as the expanding list of Intune’s compatible partner apps.
+Explore the details about mobile application management options by reviewing the following for Intune & ConfigMgr:  Configure and deploy mobile application management policies in the Microsoft Intune console. Additionally, be sure to check out the list of Microsoft apps you can use with Intune MAM policies, as well as the expanding list of Intune’s compatible partner apps.
