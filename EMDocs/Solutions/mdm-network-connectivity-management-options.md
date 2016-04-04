@@ -17,9 +17,9 @@ author: robmazz
 
 Depending on your infrastructure, mobile devices might be able to connect to corporate resources from a variety of Internet connectivity services, which are often secured by VPN-protected endpoints.
 
-By using [Intune](https://technet.microsoft.com/library/dn818903.aspx) or a [hybrid deployment](https://technet.microsoft.com/library/dn261221.aspx) with ConfigMgr, you can deploy Wi-Fi profiles to provision Wi-Fi networks, so a device can auto-connect to the network when it is in range. For example, mobile devices can be configured to connect to a Wi-Fi network segmented to a conference room, but then switch to connect to a Wi-Fi network segment when roaming to a different location. Users don’t have to enter passwords or choose a network; the connection works automatically.
+By using [Intune](https://docs.microsoft.com/intune/deployuse/wi-fi-connections-in-microsoft-intune.html) or a [hybrid deployment](https://technet.microsoft.com/library/dn261221.aspx) with ConfigMgr, you can deploy Wi-Fi profiles to provision Wi-Fi networks, so a device can auto-connect to the network when it is in range. For example, mobile devices can be configured to connect to a Wi-Fi network segmented to a conference room, but then switch to connect to a Wi-Fi network segment when roaming to a different location. Users don’t have to enter passwords or choose a network; the connection works automatically.
 
-[Intune](https://technet.microsoft.com/library/dn818905.aspx) and [ConfigMgr](https://technet.microsoft.com/library/dn261217.aspx) can also deploy VPN profiles directly to mobile devices, to let user access internal corporate resources without extra configuration or manual work. Additionally, Intune can configure mobile devices to automatically start a VPN connection that is based on the type resource or method of access. Be aware, however, that there are different configuration requirements for doing this for different types of mobile device operating systems.
+[Intune](https://docs.microsoft.com/intune/deployuse/vpn-connections-in-microsoft-intune.html) and [ConfigMgr](https://technet.microsoft.com/library/dn261217.aspx) can also deploy VPN profiles directly to mobile devices, to let user access internal corporate resources without extra configuration or manual work. Additionally, Intune can configure mobile devices to automatically start a VPN connection that is based on the type resource or method of access. Be aware, however, that there are different configuration requirements for doing this for different types of mobile device operating systems.
 
 Your answers to the questions in Task 3 can help you determine how you want devices to be connect to corporate resources. Be aware that currently, <token>MDM for Office 365</token> doesn’t support managing wireless and VPN network resources for mobile devices.
 
@@ -49,13 +49,15 @@ Support for Wi-Fi and VPN policies aren't supported in MDM for Office 365.
 
 **Advantages**
 
-- All the advantages of Intune standalone, plus the following:VPN profiles are supported by your existing on-premises enterprise VPN infrastructure
+- All the advantages of Intune standalone, plus the following:
+	- VPN profiles are supported by your existing on-premises enterprise VPN infrastructure
 
 **Disadvantages**
 
-- To support VPN profiles, you’ll need to deploy and maintain an on-premises VPN infrastructure Specific security permissions must be granted to manage Wi-Fi profileshttps://technet.microsoft.com/library/dn408646.aspx and VPN profileshttps://technet.microsoft.com/library/dn408643.aspx in ConfigMgr
+- To support VPN profiles, you’ll need to deploy and maintain an on-premises VPN infrastructure 
+- Specific security permissions must be granted to manage [Wi-Fi profiles](https://technet.microsoft.com/library/dn408646.aspx) and [VPN profiles](https://technet.microsoft.com/library/dn408643.aspx) in ConfigMgr
 
 Explore the details about mobile device email configuration management options by reviewing the following:
 
-- Intune: Enable [wireless](https://technet.microsoft.com/library/dn818903.aspx) and [VPN](https://technet.microsoft.com/library/dn818905.aspx) profiles
+- Intune: Enable [wireless](https://docs.microsoft.com/intune/deployuse/wi-fi-connections-in-microsoft-intune.html) and [VPN](https://docs.microsoft.com/intune/deployuse/vpn-connections-in-microsoft-intune.html) profiles
 - ConfigMgr: Enable [wireless](https://technet.microsoft.com/library/dn261221.aspx) and [VPN](https://technet.microsoft.com/library/dn261217.aspx) profiles
