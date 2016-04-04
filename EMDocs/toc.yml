@@ -7,7 +7,13 @@
     homepage: /em/solutions/byod-design-considerations-guide
   - name: Azure RemoteApp
     href: /remoteapp/
-    homepage: /remoteapp/remoteapp-whatis
+    homepage: /remoteapp
+  - name: Azure Active Directory
+    href: /active-directory/
+    homepage: /active-directory
+  - name: Multi-factor Authentication
+    href: /multi-factor-authentication/
+    homepage: /multi-factor-authentication
   - name: Advanced Threat Analytics
     href: /advanced-threat-analytics/
     homepage: /ata
