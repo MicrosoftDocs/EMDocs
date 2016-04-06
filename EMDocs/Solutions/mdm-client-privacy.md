@@ -3,9 +3,9 @@ title: Client privacy
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple
-ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.date: 04/05/2016
 ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
 author: YuriDio
 ---
