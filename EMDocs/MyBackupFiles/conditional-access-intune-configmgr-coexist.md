@@ -6,8 +6,8 @@ ms.service: microsoft-intune
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
-author: craigcaseyMSFT
+ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
+author: karthikaraman
 ---
 # Deploy Exchange Online and on-premises with Microsoft Intune and Configuration Manager
 Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
@@ -25,4 +25,4 @@ See [Hybrid deployment prerequisites](https://technet.microsoft.com/en-us/librar
 To deploy a coexistence solution, follow the steps above for deploying both the [Exchange Server on-premises](../Topic/conditional-access-intune-configmgr-exchange.md) and [Exchange Online](../Topic/conditional-access-intune-configmgr-exchange-online.md) solutions.
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Topic/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+[End-user experience of conditional access](../Topic/end-user-experience-of-conditional-access.md)

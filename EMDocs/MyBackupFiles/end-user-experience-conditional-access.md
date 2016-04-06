@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
-author: craigcaseyMSFT
+author: karthikaraman
 ---
 # End-user experience of conditional access
 When the user attempts to access email on the device for the first time, or sync subsequently, the device enrollment and compliance status is checked. The process of enrolling or fixing compliance issues is a guided experience. The end-user is shown the necessary steps to enroll their device and make it compliant without needing to call your IT help desk:
@@ -18,14 +18,8 @@ When the user attempts to access email on the device for the first time, or sync
 
 Once the device is evaluated as enrolled and compliant, the email sync should happen within a few minutes.
 
-## Android
+This section describes the end-user experience after conditional access is enabled and an end user tries to access email on their mobile device. Choose a device to see the specific end-user experience for that device:
 
-[This topic](../Topic/end-user-experience-conditional-access-android.md) describes the enrollment experience after conditional access is enabled and an end user first tries to access email on their Android mobile device.
-
-## iOS
-
-[This topic](../Topic/end-user-experience-conditional-access-ios.md) describes the end-user experience when an end user first tries to access email on their iOS mobile device after conditional access is enabled.
-
-## Windows Phone
-
-[This topic](../Topic/end-user-experience-conditional-access-winphone.md) describes the end-user experience after conditional access is enabled and an end user tries to access email on their Windows Phone.
+-   [Windows Phone](../Topic/end-user-experience-conditional-access-winphone.md)
+-   [iOS](../Topic/end-user-experience-conditional-access-ios.md)
+-   [Android](../Topic/end-user-experience-conditional-access-android.md)

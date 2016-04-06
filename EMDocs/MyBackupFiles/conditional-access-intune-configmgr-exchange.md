@@ -6,10 +6,10 @@ ms.service: microsoft-intune
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
-author: craigcaseyMSFT
+ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
+author: karthikaraman
 ---
-# Deploy Exchange Server on-premises with Microsoft Intune and Configuration Manager
+# <a name="ExchangeOnPrem"></a>Deploy Exchange Server on-premises with Microsoft Intune and Configuration Manager
 Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
 
 If you are already using System Center Configuration Manager and Exchange in your on-premises infrastructure, you can incorporate Intune to manage email access and protect email data on mobile devices. The high-level process for implementing this solution is as follows:
@@ -51,35 +51,35 @@ Before you proceed, make sure your environment includes these requirements for i
 
 -   Configure an account (local or domain admin) with permissions to run the following Exchange Server cmdlets:
 
-    Clear-ActiveSyncDevice
+    **Clear-ActiveSyncDevice**
 
-    Get-ActiveSyncDevice
+    **Get-ActiveSyncDevice**
 
-    Get-ActiveSyncDeviceAccessRule
+    **Get-ActiveSyncDeviceAccessRule**
 
-    Get-ActiveSyncDeviceStatistics
+    **Get-ActiveSyncDeviceStatistics**
 
-    Get-ActiveSyncMailboxPolicy
+    **Get-ActiveSyncMailboxPolicy**
 
-    Get-ActiveSyncOrganizationSettings
+    **Get-ActiveSyncOrganizationSettings**
 
-    Get-ExchangeServer
+    **Get-ExchangeServer**
 
-    Get-Recipient
+    **Get-Recipient**
 
-    Set-ADServerSettings
+    **Set-ADServerSettings**
 
-    Set-ActiveSyncDeviceAccessRule
+    **Set-ActiveSyncDeviceAccessRule**
 
-    Set-ActiveSyncMailboxPolicy
+    **Set-ActiveSyncMailboxPolicy**
 
-    Set-CASMailbox
+    **Set-CASMailbox**
 
-    New-ActiveSyncDeviceAccessRule
+    **New-ActiveSyncDeviceAccessRule**
 
-    New-ActiveSyncMailboxPolicy
+    **New-ActiveSyncMailboxPolicy**
 
-    Remove-ActiveSyncDevice
+    **Remove-ActiveSyncDevice**
 
 > [!IMPORTANT]
 > If you try to install or use the Exchange Server connector without the required cmdlets, you will see an error logged with the message: _Invoking cmdlet &lt;cmdlet&gt; failed in the EasDisc.log file on the site server computer_.
@@ -117,14 +117,15 @@ Determine the Intune user groups for whom the conditional access policy will be 
 
 Follow the steps at [How to Create Collections in Configuration Manager](https://technet.microsoft.com/en-us/library/gg712295.aspx) to create user collections.
 
-### Step 5: Create compliance policies and deploy to users.
+### <a name="Step_5"></a>Step 5: Create compliance policies and deploy to users.
 Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Compliance Policies in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131417.aspx) to create compliance policies.
 
-If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
-
-![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
-
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
+> [!NOTE]
+> If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
+>
+> ![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+>
+> If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
 
 After the compliance policy is created, select the compliance policy name in the list and click **Deploy**.
 
@@ -172,4 +173,4 @@ The following shows the deployment status of the configuration policy:
 A device is blocked as soon as it is discovered by the Exchange connector. The latency of blocking depends on the configured intervals for Full synchronization and delta synchronization and the time in between these intervals when the device connects to the Exchange server. By default, a Full synchronization occurs every 24 hours while a delta synchronization occurs every 240 minutes. During this latency period, a device might be considered compliant.
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Topic/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+[End-user experience of conditional access](../Topic/end-user-experience-of-conditional-access.md)

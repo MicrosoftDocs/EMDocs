@@ -6,10 +6,10 @@ ms.service: microsoft-intune
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
-author: craigcaseyMSFT
+ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
+author: karthikaraman
 ---
-# Deploy Exchange Online with Microsoft Intune and Configuration Manager
+# <a name="ExchangeOnline"></a>Deploy Exchange Online with Microsoft Intune and Configuration Manager
 Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
 
 If you are already using System Center Configuration Manager and Exchange Online, you can incorporate Intune to manage email access and protect email data on mobile devices. The high-level process for implementing this solution is as follows:
@@ -43,35 +43,35 @@ Before you proceed, make sure your environment includes these requirements for i
 
 -   Configure an account (local or domain admin) with permissions to run the following Exchange Server cmdlets:
 
-    Clear-ActiveSyncDevice
+    **Clear-ActiveSyncDevice**
 
-    Get-ActiveSyncDevice
+    **Get-ActiveSyncDevice**
 
-    Get-ActiveSyncDeviceAccessRule
+    **Get-ActiveSyncDeviceAccessRule**
 
-    Get-ActiveSyncDeviceStatistics
+    **Get-ActiveSyncDeviceStatistics**
 
-    Get-ActiveSyncMailboxPolicy
+    **Get-ActiveSyncMailboxPolicy**
 
-    Get-ActiveSyncOrganizationSettings
+    **Get-ActiveSyncOrganizationSettings**
 
-    Get-ExchangeServer
+    **Get-ExchangeServer**
 
-    Get-Recipient
+    **Get-Recipient**
 
-    Set-ADServerSettings
+    **Set-ADServerSettings**
 
-    Set-ActiveSyncDeviceAccessRule
+    **Set-ActiveSyncDeviceAccessRule**
 
-    Set-ActiveSyncMailboxPolicy
+    **Set-ActiveSyncMailboxPolicy**
 
-    Set-CASMailbox
+    **Set-CASMailbox**
 
-    New-ActiveSyncDeviceAccessRule
+    **New-ActiveSyncDeviceAccessRule**
 
-    New-ActiveSyncMailboxPolicy
+    **New-ActiveSyncMailboxPolicy**
 
-    Remove-ActiveSyncDevice
+    **Remove-ActiveSyncDevice**
 
 ## Deployment Steps
 Follow these steps to deploy the Exchange Online solution:
@@ -79,11 +79,12 @@ Follow these steps to deploy the Exchange Online solution:
 ### Step 1: Create compliance policies and deploy to users.
 Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Compliance Policies in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131417.aspx)to create compliance policies.
 
-If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
-
-![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
-
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
+> [!NOTE]
+> If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
+>
+> ![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+>
+> If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
 
 After the compliance policy is created, select the compliance policy name in the list and click **Deploy**.
 
@@ -137,4 +138,4 @@ The following shows the deployment status of the configuration policy:
 Devices that use modern authentication have conditional access applied immediately. For devices connecting through the EAS protocol, there can be a lag time of up to six hours before conditional access is enforced, based on the default setting. During that time, a device might be considered compliant.
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Topic/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+[End-user experience of conditional access](../Topic/end-user-experience-of-conditional-access.md)
