@@ -40,8 +40,8 @@ Here’s what you can expect when onboarding is complete:
 
     -   Federated with Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 or later from your on-premises Active Directory.
 
-Read about the next part of the FastTrack onboarding process: [Overview of the onboarding process](fasttrack-center-benefit-process-for-ems-overview.md)
 
-## Want to learn more?
+
+### Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 

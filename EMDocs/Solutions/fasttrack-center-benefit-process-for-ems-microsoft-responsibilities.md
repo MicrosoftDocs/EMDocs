@@ -222,8 +222,11 @@ Provide guidance about:
 
 -   Setting up RMS Sharing Application for Windows and non-Windows devices.
 
-Read about the next part of the FastTrack onboarding process: [Your responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
 
-## Want to learn more?
+>[!div class="step-by-step"]
+[FastTrack phases](fasttrack-center-benefit-process-for-ems-phases.md)
+[Customer FastTrack responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilitiesmd)
+
+### Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
