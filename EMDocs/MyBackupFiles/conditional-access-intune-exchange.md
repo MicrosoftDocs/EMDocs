@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid:
-author: craigcaseyMSFT
+author: karthikaraman
 ---
 # Deploy Exchange on-premises with Intune
 
@@ -15,7 +15,7 @@ Now that you've read through the [architecture guidance for protecting company e
 
 For Intune to directly manage mobile devices, users will need to enroll devices into Intune.
 
-## Deployment Steps
+##Deployment Steps
 Follow these steps to deploy the Exchange on-premises with Intune solution:
 
 ### Step 1: Install and configure the Microsoft Intune on-premises Exchange Server connector.
@@ -24,16 +24,16 @@ For mobile devices that users have not enrolled you can enable Exchange ActiveSy
 
 Follow the steps at [Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange](https://technet.microsoft.com/en-us/library/dn646988.aspx#bkmk_EX_OP) to download, install and configure the Microsoft Intune Exchange Connector.
 
-> [!IMPORTANT]
+> [!NOTE]
 > You can only set up one Exchange connection per Intune account. If you try to configure an additional connection, it will replace the original connection with the new one.
 
 ### Step 2: Create compliance policies and deploy to users.
 Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy](https://technet.microsoft.com/en-us/library/dn705843.aspx#BKMK_Compliance) to create and deploy compliance policies.
-
-If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
-![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
-
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/end-user-experience-conditional-access.md).
+> [!NOTE]
+> If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
+> ![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+>
+> If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/end-user-experience-of-conditional-access.md).
 
 > [!IMPORTANT]
 > If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.
@@ -65,4 +65,4 @@ On the Intune dashboard, click the **Blocked Devices from Exchange** tile to sho
 ![IntuneSA6BlockedDevices](./media/ProtectEmail/intune-sa-6blocked-devices.PNG)
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Topic/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+[End-user experience of conditional access](../Topic/end-user-experience-of-conditional-access.md)

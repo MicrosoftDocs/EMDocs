@@ -59,18 +59,21 @@ The 4 layered security model for identity, devices, apps, and data is about maki
 
 Protecting your data starts with establishing and validating the user identity. *Azure AD/*, an enterprise-grade identity and access management tool delivers single sign-on, multi-factor authentication, self-service passwords, and more. It provides the functionality for the **identity layer** of the security model.
 
-Building on the identity baseline, your IT admin can use *Microsoft Intune* to make sure that mobile devices are enrolled, managed and compliant with your corporate policies. This is the  **device layer**.
+Building on the identity baseline, your IT admin can use *Microsoft Intune* to make sure that mobile devices are enrolled, managed and compliant with your corporate policies. This is the **device layer**.
 
-The third layer is the  **app management layer** with the Intune-managed app ecosystem. This ecosystem, while enabling users to be productive and use the tools that they need and know like Office, also enables your IT to keep sensitive data within the managed app ecosystem.
+The third layer is the **app management layer** with the Intune-managed app ecosystem. This ecosystem, while enabling users to be productive and use the tools that they need and know like Office, also enables your IT to keep sensitive data within the managed app ecosystem.
 
-*Azure Rights Management (Azure RMS)* completes the security model by protecting data at the file level. The security policies that are applied to the data, travel with the data, help keep the data secure in transit and at rest, regardless of the device that is used to access it. This is the  **data layer** of the security model.
+*Azure Rights Management (Azure RMS)* completes the security model by protecting data at the file level. The security policies that are applied to the data, travel with the data, help keep the data secure in transit and at rest, regardless of the device that is used to access it. This is the **data layer** of the security model.
 
 ## Where to go from here
-[Watch](https://www.youtube.com/watch?v=ltcZvm4VOFU) this video to learn how to sign up for a trial account and get started.
+[**Watch**](https://www.youtube.com/watch?v=ltcZvm4VOFU) this video to learn how to sign up for a trial account and get started.
 
-Read the [Mobile Device Management Design Considerations Guide](https://technet.microsoft.com/en-us/library/mt143180.aspx) to better understand mobile device management design requirements.
+**Read** the [Mobile Device Management Design Considerations Guide](https://technet.microsoft.com/en-us/library/mt143180.aspx) to better understand mobile device management design requirements.
 
-[Learn more about how to deploy a solution for protecting company email and documents](../Topic/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
+**Learn** more about how to deploy a solution for protecting company email and documents:
+
+- [Use conditional access with Microsoft Intune](../Topic/conditional-access-intune.md)
+- [Use conditional access with Microsoft Intune and Configuration Manager](../Topic/conditional-access-intune-configmgr.md)
 
 Footnotes:
 

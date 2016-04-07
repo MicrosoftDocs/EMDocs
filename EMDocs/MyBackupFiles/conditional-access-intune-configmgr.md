@@ -1,38 +1,24 @@
 ---
-title: Use conditional access with Microsoft Intune
+title: Use conditional access with Intune and Configuration Manager
 ms.custom: na
 ms.reviewer: na
-ms.service:
+ms.service: microsoft-intune
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.assetid:
-author: craigcaseyMSFT
+ms.assetid: 5b021c5a-b7a4-4ea5-957d-d6f2cdc1812c
+author: karthikaraman
 ---
-# Use conditional access with Microsoft Intune
-This solution lets you use conditional access in Intune to help secure email and other services depending on conditions you specify.
-
-See [Manage access to email and SharePoint with Microsoft Intune](https://technet.microsoft.com/en-us/library/dn818907.aspx) for more information, including a video, about how you can use the conditional access feature with Intune.
+# Use conditional access with Intune and Configuration Manager
+In this solution, you are already using System Center Configuration Manager and Microsoft Exchange Server – with on-premises, Exchange Online, or a hybrid deployment of both – in your company to manage email access. This solution combines your existing Configuration Manager environment with Intune to safely manage email access on all types of devices, regardless of their location.
 
 > [!TIP]
-> Get a downloadable copy of this entire topic at the [TechNet Gallery](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4).
+> Get a downloadable copy of this entire topic at the [TechNet Gallery](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
 
 ## Before you begin
-You can control access to Exchange Online and Exchange on-premises from the following mail apps:
+Before you start using conditional access, ensure that you have the correct requirements in place:
 
--   The built-in app for Android 4.0 and later, Samsung Knox 4.0 Standard and later
-
--   The built-in app for iOS 7.1 and later
-
--   The built-in app for Windows Phone 8.1 and later
-
--   The mail application on Windows 8.1 and later
-
--   The Microsoft Outlook app for Android and iOS (for Exchange Online only)
-
-Before you start using conditional access, ensure that you have the correct requirements in place.
-
-## For Exchange Online
+### For Exchange Online
 Conditional access to Exchange Online supports devices that run:
 
 -   Windows 8.1 and later (when enrolled with Intune)
@@ -58,9 +44,9 @@ AAD DRS will be activated automatically for Intune and Office 365 customers. Cus
     > [!IMPORTANT]
     > Do not configure the service to service connector if you intend to use conditional access for both Exchange Online and Exchange on-premises.
 
-    Now you are ready to learn how to [deploy Exchange Online with Intune](../Topic/conditional-access-intune-exchange-online.md).
+Now you are ready to learn how to [deploy Exchange Online with Intune](../Topic/conditional-access-intune-exchange-online.md).
 
-## For Exchange Server on-premises
+### For Exchange Server on-premises
 Conditional access to Exchange on-premises supports:
 
 -   Windows 8 and later (when enrolled with Intune)
@@ -82,7 +68,9 @@ Additionally:
 
 -   You must use the **on-premises Exchange connector** which connects Intune to Microsoft Exchange Server on-premises. This lets you manage devices through the Intune console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](Mobile%20device%20management%20with%20Exchange%20ActiveSync%20and%20Microsoft%20Intune.md)).
 
-  > [!IMPORTANT]
+> [!IMPORTANT]
 > Make sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.
 
-  Now you are ready to learn how to [deploy Exchange Server on-premises with Intune](../Topic/conditional-access-intune-exchange.md).
+Now you are ready to learn how to [deploy Exchange Server on-premises with Intune](../Topic/conditional-access-intune-exchange.md).
+
+Or, if your environment includes both Exchange Online and on-premises, you can read about [deploying Exchange Online and on-premises with Microsoft Intune and Configuration Manager](../Topic/conditional-access-intune-configmgr-coexist.md).

@@ -7,13 +7,11 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
-author: craigcaseyMSFT
+author: karthikaraman
 ---
 # Windows Phone
-
-The enrollment process and the screens the user sees will be slightly different depending on the version of OS running on the end-user device.  This topic describes the end-user experience for Windows Phones.
-
-## Enrolling
+> [!NOTE]
+> The enrollment process and the screens the user sees will be slightly different depending on the version of OS running on the end-user device.
 
 1.  If a user is already enrolled in Intune and is compliant, they will see no difference on Windows devices; they will continue to get access to email. Users who have not yet enrolled in Intune will receive a quarantine email similar to this sample:
 
@@ -71,7 +69,7 @@ If the user follows those steps to enroll and become compliant and still cannot 
 
 -   Call the help desk.
 
-## Issues and Solutions
+## If a device becomes noncompliant
 Every 8 hours by default, devices are checked to ensure that they are still compliant. If a device that was previously compliant is later deemed to be noncompliant (for example, a compliance policy was added or changed), the user can follow these steps to get their device back in compliance:
 
 1.  The user receives notification in email or on their device that the device is noncompliant. At this time, the device is quarantined in Exchange.
@@ -86,6 +84,6 @@ Every 8 hours by default, devices are checked to ensure that they are still comp
 
 5.  If the issue is fixed, the user clicks **Continue** to complete the process. Email access should become available again within a few minutes.
 
-### Where to go from here
+## What next
 The end-user experience is slightly different on other mobile devices. You can learn more about the end-user experience for [Android](../Topic/end-user-experience-conditional-access-android.md) and
 [iOS](../Topic/end-user-experience-conditional-access-ios.md).

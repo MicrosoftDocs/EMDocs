@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid:
-author: craigcaseyMSFT
+author: karthikaraman
 ---
 # Use conditional access with Microsoft Intune
 This solution lets you use conditional access in Intune to help secure email and other services depending on conditions you specify.
@@ -30,9 +30,9 @@ You can control access to Exchange Online and Exchange on-premises from the foll
 
 -   The Microsoft Outlook app for Android and iOS (for Exchange Online only)
 
-Before you start using conditional access, ensure that you have the correct requirements in place.
+Before you start using conditional access, ensure that you have the correct requirements in place:
 
-## For Exchange Online
+### For Exchange Online
 Conditional access to Exchange Online supports devices that run:
 
 -   Windows 8.1 and later (when enrolled with Intune)
@@ -58,9 +58,9 @@ AAD DRS will be activated automatically for Intune and Office 365 customers. Cus
     > [!IMPORTANT]
     > Do not configure the service to service connector if you intend to use conditional access for both Exchange Online and Exchange on-premises.
 
-    Now you are ready to learn how to [deploy Exchange Online with Intune](../Topic/conditional-access-intune-exchange-online.md).
+Now you are ready to learn how to [deploy Exchange Online with Intune](../Topic/conditional-access-intune-exchange-online.md).
 
-## For Exchange Server on-premises
+### For Exchange Server on-premises
 Conditional access to Exchange on-premises supports:
 
 -   Windows 8 and later (when enrolled with Intune)
@@ -82,7 +82,7 @@ Additionally:
 
 -   You must use the **on-premises Exchange connector** which connects Intune to Microsoft Exchange Server on-premises. This lets you manage devices through the Intune console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](Mobile%20device%20management%20with%20Exchange%20ActiveSync%20and%20Microsoft%20Intune.md)).
 
-  > [!IMPORTANT]
+> [!IMPORTANT]
 > Make sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.
 
-  Now you are ready to learn how to [deploy Exchange Server on-premises with Intune](../Topic/conditional-access-intune-exchange.md).
+Now you are ready to learn how to [deploy Exchange Server on-premises with Intune](../Topic/conditional-access-intune-exchange.md).

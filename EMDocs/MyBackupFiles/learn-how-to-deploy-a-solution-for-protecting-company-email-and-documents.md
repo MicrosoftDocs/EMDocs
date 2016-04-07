@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
-author: craigcaseyMSFT
+author: karthikaraman
 ---
 # Learn how to deploy a solution for protecting company email and documents
 More and more, companies are allowing employees to increase their productivity by accessing email, documents, and company resources through their mobile devices. However, the amount of confidential data that is stored within corporate emails and documents presents a significant security risk for companies.
@@ -33,14 +33,20 @@ Protecting corporate email involves two main objectives:
     > [!NOTE]
     > You can create and deploy an email profile, then set a compliance policy that specifies that email profiles must be managed by Intune (recommended). This gives you the ability to wipe email from retired devices, and it ensures that for iOS, attachments can only be opened in applications managed by Intune. See [Step 5: Create compliance policies and deploy to users.](../Topic/Use-conditional-access-with-Intune-and-Configuration-Manager.md#Step_5) for more information.
 
-### Solutions covered in this article
+### <a name="Step_5"></a>Solutions covered in this article
 This section provides a  high-level overview of each solution – Configuration Manager with Intune implementation, Intune by itself, mobile application management, and Azure rights management service.
 
--   **Manage access to email using Conditional access:** You can use a hybrid of Configuration Manager with Intune, or just use Intune by itself, along with Exchange Online or Exchange Server on-premises to manage and enforce conditional access on all types of PCs and mobile devices, regardless of their location. Enforcing conditional access in this type of environment lets you enable the user to be more productive, while still keeping company data secure.
+-   Manage access to email using Conditional access
 
--   **Protect email attachments and data using the MAM solution:** You can enforce mobile application management (MAM) policies in Intune to modify the functionality of apps that you deploy in your company. For example, you can restrict cut, copy and paste operations within a managed app, or configure an app to open all web links inside a managed browser. This ensures that these apps are in line with your company compliance and security policies.
+    You can use a hybrid of Configuration Manager with Intune, or just use Intune by itself, along with Exchange Online or Exchange Server on-premises to manage and enforce conditional access on all types of PCs and mobile devices, regardless of their location. Enforcing conditional access in this type of environment lets you enable the user to be more productive, while still keeping company data secure.
 
--   **Azure rights management service for data loss prevention policies:** Azure Rights Management (Azure RMS) uses encryption, identity, and authorization policies to help secure your files and email across multiple devices, such as phones, tablets, and PCs. Information can be protected both within your company and outside your company because protection remains with the data, even when it leaves your company’s boundaries.
+-   Protect email attachments and data using the MAM solution
+
+    You can enforce mobile application management (MAM) policies in Intune to modify the functionality of apps that you deploy in your company. For example, you can restrict cut, copy and paste operations within a managed app, or configure an app to open all web links inside a managed browser. This ensures that these apps are in line with your company compliance and security policies.
+
+-   Azure rights management service for data loss prevention policies
+
+    Azure Rights Management (Azure RMS) uses encryption, identity, and authorization policies to help secure your files and email across multiple devices, such as phones, tablets, and PCs. Information can be protected both within your company and outside your company because protection remains with the data, even when it leaves your company’s boundaries.
 
 ### Evaluating your desired implementation
 With all of the different design and configuration options for managing mobile devices, it’s difficult to determine which combination will best meet the needs of your company. The [Mobile Device Management Design Considerations Guide](https://technet.microsoft.com/en-us/library/mt143180.aspx) helps you understand mobile device management design requirements and details a series of steps and tasks that you can follow to design a solution that best fits the business and technology needs for your company.
@@ -48,10 +54,8 @@ With all of the different design and configuration options for managing mobile d
 ### High level end-user experience
 After the solution is implemented, end-users will only be able to access the company email on managed **and** compliant devices. Once they have the ability to access the email on the devices, the company data is protected and contained within the app ecosystem and only available to the intended users. Access can be revoked at any time if the device becomes noncompliant.
 
-Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Topic/end-user-experience-conditional-access.md).
+Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
 
-### Where to go from here
-Now that you've read through this topic, you can learn more about how to deploy a specific solution for protecting company email and documents, depending on your environment:
-
-- [Use conditional access with Microsoft Intune](../Topic/conditional-access-intune.md)
-- [Use conditional access with Microsoft Intune and Configuration Manager](../Topic/conditional-access-intune-configmgr.md)
+### See Also
+[Use conditional access with Intune and Configuration Manager](../Topic/Use-conditional-access-with-Intune-and-Configuration-Manager.md)
+[End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md)
