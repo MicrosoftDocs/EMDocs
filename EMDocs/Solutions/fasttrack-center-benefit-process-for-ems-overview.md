@@ -23,7 +23,7 @@ Onboarding has two major components:
 
 The following diagram describes the high-level onboarding phases of using the FastTrack Center Benefit.
 
-![](../media/1-rms-onboarding-process.png)
+![](./media/1-rms-onboarding-process.png)
 
 The basic process is as follows:
 
@@ -41,8 +41,10 @@ All onboarding support will be provided remotely by assigned Microsoft personnel
 
 -   The Microsoft team can work directly with you or your representative.
 
-Read about the next part of the FastTrack onboarding process: [Expectations for your source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+>[!div class="step-by-step"]
+[FastTrack process introduction](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
+[FastTrack source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 
-## Want to learn more?
+### Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 

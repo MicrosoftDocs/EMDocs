@@ -3,9 +3,9 @@ title: Data segregation
 ms.custom: na
 ms.reviewer: na
 ms.service: multiple
-ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.date: 04/05/2016
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 author: YuriDio
 ---
@@ -22,7 +22,7 @@ Data segregation is important, not only for your organization, but also to keep 
 
 By keeping separate all apps, company data, and policies that were deployed by the MDM solution, those can be removed from the device if necessary without affecting a user’s personal content and apps by using selective wipe. 
 
->[!TIP] Read [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](https://technet.microsoft.com/en-us/library/jj676679.aspx) for more about how remote wipe will behave in other platforms like iOS and Android 
+>[!TIP] Read [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](/intune/deployuse/help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune) for more about how remote wipe will behave in other platforms like iOS and Android 
 
 Selective wipe for mobile device data management is included in Windows Server 2012 R2 and Windows 8.1. It works by linking resources that help Exchange Server and Microsoft Intune administrators to manage enterprise data on devices and to develop apps that can use [Windows Selective Wipe](https://technet.microsoft.com/library/dn486874.aspx) capabilities.  Windows Phone 8 and later supports separating data in the internal storage.
 
@@ -36,7 +36,7 @@ Enterprise Data Protection (EDP) provides data separation but neither uses conta
 
 EDP provides data separation by virtue of encrypting enterprise data. Read [Enterprise data protection (EDP) overview](https://technet.microsoft.com/library/dn985838.aspx) for more information. Intune EDP policies will manage the list of apps protected by EDP, enterprise network locations, protection level, and encryption settings.
 
-When a user installs and signs in to an app that supports multiple identities (multi-identity) on an Intune-managed device, such as Outlook, Intune checks to see if the account they’re using matches the managed account on the device. If the account is managed, and there is also a policy for the app and the user, then the policy settings protect data in that account. When the user adds personal accounts to the app, those accounts are outside of Intune management and protection. This allows personal use of the application without compromising corporate protection. Read [Protect data using mobile application management policies with Microsoft Intune](https://technet.microsoft.com/en-us/dn878026.aspx) for more information about multi-identity capability in Intune. 
+When a user installs and signs in to an app that supports multiple identities (multi-identity) on an Intune-managed device, such as Outlook, Intune checks to see if the account they’re using matches the managed account on the device. If the account is managed, and there is also a policy for the app and the user, then the policy settings protect data in that account. When the user adds personal accounts to the app, those accounts are outside of Intune management and protection. This allows personal use of the application without compromising corporate protection. Read [Protect data using mobile application management policies with Microsoft Intune](/intune/deployuse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) for more information about multi-identity capability in Intune. 
 
 The table below compares selective wipe features available with different MDM solutions to help you choose the MDM solution that best fits your organization’s data segregation requirements.
 
@@ -77,4 +77,4 @@ The table below compares selective wipe features available with different MDM so
 
 - If the organization does not have a current on-premises ConfigMgr infrastructure, it will require to plan, install and configure this platform prior to the integration
 
-Make sure to read the article [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](https://technet.microsoft.com/library/jj676679.aspx#bkmk_wipe) to understand how data is removed and retained after a selective wipe for each mobile device platform. If you have a hybrid environment, consult the article [How to remote wipe mobile devices using Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) to understand how ConfigMgr can be used to accomplish this task.
+Make sure to read the article [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](/intune/deployuse/help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune) to understand how data is removed and retained after a selective wipe for each mobile device platform. If you have a hybrid environment, consult the article [How to remote wipe mobile devices using Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) to understand how ConfigMgr can be used to accomplish this task.

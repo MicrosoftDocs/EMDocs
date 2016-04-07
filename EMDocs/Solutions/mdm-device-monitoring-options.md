@@ -17,7 +17,7 @@ author: robmazz
 
 Monitoring and understanding the status and configuration of all mobile devices managed by your organization helps you discover problems and non-compliance, and manage device inventory. Without detailed reports on hardware, software, and compliance status, it’s impossible to make sure that your device policies are actually in place and working correctly. Proactive monitoring helps mitigate small problems before they become larger and more costly.
 
-[Intune](https://technet.microsoft.com/library/dn646951.aspx), [MDM for Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx), and a [hybrid deployment](https://technet.microsoft.com/library/gg699377.aspx) of Intune and ConfigMgr all include monitoring and reporting to help manage devices, users, and compliance with your organization’s policies and procedures. Using built-in reports together with customized reports, you can monitor mobile device management in areas such as:
+[Intune](/Intune/deployuse/monitoring-and-reports-with-microsoft-intune), [MDM for Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx), and a [hybrid deployment](https://technet.microsoft.com/library/gg699377.aspx) of Intune and ConfigMgr all include monitoring and reporting to help manage devices, users, and compliance with your organization’s policies and procedures. Using built-in reports together with customized reports, you can monitor mobile device management in areas such as:
 
 - Update reports for software
 - Software inventory reports
@@ -86,6 +86,6 @@ The answers you gave to the questions in Task 2 can help you determine your moni
 
 Explore the details about mobile device monitoring options by reviewing the following:
 
-- Intune: [How to monitor mobile devices](https://technet.microsoft.com/library/jj733634.aspx) and [manage reporting](https://technet.microsoft.com/library/dn646951.aspx)
+- Intune: **[How to monitor mobile devices](https://technet.microsoft.com/library/jj733634.aspx)** and [manage reporting](/Intune/deployuse/monitoring-and-reports-with-microsoft-intune)
 - ConfigMgr: [Monitoring mobile devices](https://technet.microsoft.com/library/gg682128.aspx) and [manage reporting](https://technet.microsoft.com/library/gg699377.aspx)
 - MDM for Office 365: [Overview and device management tasks](https://technet.microsoft.com/en-us/library/ms.o365.cc.devicepolicy.aspx)

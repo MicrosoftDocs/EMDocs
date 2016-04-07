@@ -1,6 +1,6 @@
 ---
 title: App considerations
-description: Blah
+description: blah
 keywords: "BYOD, device management, devices"
 author: YuriDio
 manager: swadhwa
@@ -9,7 +9,7 @@ ms.reviewer: na
 ms.service: multiple
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.date: 03/09/2016
+ms.date: 04/06/2016
 ms.topic: article
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 author: YuriDio
