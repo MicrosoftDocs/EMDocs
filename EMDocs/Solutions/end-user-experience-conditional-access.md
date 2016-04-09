@@ -20,12 +20,12 @@ Once the device is evaluated as enrolled and compliant, the email sync should ha
 
 ## Android
 
-[This topic](../Topic/end-user-experience-conditional-access-android.md) describes the enrollment experience after conditional access is enabled and an end user first tries to access email on their Android mobile device.
+[This topic](../Solutions/end-user-experience-conditional-access-android.md) describes the enrollment experience after conditional access is enabled and an end user first tries to access email on their Android mobile device.
 
 ## iOS
 
-[This topic](../Topic/end-user-experience-conditional-access-ios.md) describes the end-user experience when an end user first tries to access email on their iOS mobile device after conditional access is enabled.
+[This topic](../Solutions/end-user-experience-conditional-access-ios.md) describes the end-user experience when an end user first tries to access email on their iOS mobile device after conditional access is enabled.
 
 ## Windows Phone
 
-[This topic](../Topic/end-user-experience-conditional-access-winphone.md) describes the end-user experience after conditional access is enabled and an end user tries to access email on their Windows Phone.
+[This topic](../Solutions/end-user-experience-conditional-access-winphone.md) describes the end-user experience after conditional access is enabled and an end user tries to access email on their Windows Phone.

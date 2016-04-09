@@ -81,4 +81,4 @@ Every 8 hours by default, devices are checked to ensure that they are still comp
     Email access should become available again within a few minutes.
 
 ### Where to go from here
-The end-user experience is slightly different on other mobile devices. You can learn more about the end-user experience for [Android](../Topic/end-user-experience-conditional-access-android.md) and [Windows Phone](../Topic/end-user-experience-conditional-access-winphone.md).
+The end-user experience is slightly different on other mobile devices. You can learn more about the end-user experience for [Android](../Solutions/end-user-experience-conditional-access-android.md) and [Windows Phone](../Solutions/end-user-experience-conditional-access-winphone.md).

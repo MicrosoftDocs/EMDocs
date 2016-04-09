@@ -11,7 +11,7 @@ author: craigcaseyMSFT
 ---
 # Deploy Exchange Online with Intune
 
-Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+Now that you've read through the [architecture guidance for protecting company email and documents](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
 
 For Intune to directly manage mobile devices, users need to enroll devices into Intune.
 
@@ -19,19 +19,19 @@ For Intune to directly manage mobile devices, users need to enroll devices into 
 Follow these steps to deploy the Exchange Online with Intune solution:
 
 ### Step 1: Create compliance policies and deploy to users.
-Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy](https://technet.microsoft.com/en-us/library/dn705843.aspx#BKMK_Compliance) to create and deploy compliance policies.
+Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy in Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune) to create and deploy compliance policies.
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 
 ![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](./Topic/end-user-experience-of-conditional-access.md).
+If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](./Solutions/end-user-experience-conditional-access.md).
 
 > [!IMPORTANT]
 > If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.
 
 ### Step 2: Evaluate the effect of the conditional access policy.
-If you have configured a connection between Intune and Exchange by using the [Microsoft Intune service to service connector](https://technet.microsoft.com/en-us/library/dn646988.aspx#bkmk_S_S), you can use the **Mobile Device Inventory Reports** to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.
+If you have configured a connection between Intune and Exchange by using the [Microsoft Intune service to service connector](https://stage.docs.microsoft.com/en-us/intune/deployuse/intune-service-to-service-exchange-connector), you can use the **Mobile Device Inventory Reports** to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.
 
 Follow the instructions at [Evaluate the effect of the conditional access policy](https://technet.microsoft.com/en-us/library/dn705841.aspx#bkmk_Eval_FX_CAP) to identify those users who will be impacted by conditional access policy.
 
@@ -60,4 +60,4 @@ On the Intune dashboard, click the **Blocked Devices from Exchange** tile to sho
 
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Topic/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.

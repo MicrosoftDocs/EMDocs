@@ -84,5 +84,5 @@ Here are some of the reporting capabilities:
 ## Where to go from here
 For step-by-step instructions on how to deploy a solution for protecting company email content and attachments, see one of these topics, depending on your specific environment:
 
-- [Use conditional access with Microsoft Intune](../Topic/conditional-access-intune.md)
-- [Use conditional access with Microsoft Intune and Configuration Manager](../Topic/conditional-access-intune-configmgr.md)
+- [Use conditional access with Microsoft Intune](../Solutions/conditional-access-intune.md)
+- [Use conditional access with Microsoft Intune and Configuration Manager](../Solutions/conditional-access-intune-configmgr.md)

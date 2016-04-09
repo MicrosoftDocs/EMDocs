@@ -10,7 +10,7 @@ ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 author: craigcaseyMSFT
 ---
 # Deploy Exchange Online with Microsoft Intune and Configuration Manager
-Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+Now that you've read through the [architecture guidance for protecting company email and documents](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
 
 If you are already using System Center Configuration Manager and Exchange Online, you can incorporate Intune to manage email access and protect email data on mobile devices. The high-level process for implementing this solution is as follows:
 
@@ -34,10 +34,10 @@ This diagram shows the control flow for clients attempting to access email in Ex
 
 -   Exchange Online: Enforces access to email based on the device state
 
-## Prerequisites
-Before you proceed, make sure your environment includes these requirements for implementing this solution.
+## Before you begin
+Make sure your environment includes these requirements for implementing this solution.
 
--   Install and assign Exchange services to a [valid digital certificate ](https://technet.microsoft.com/library/dd351044(v=exchg.150).aspx) purchased from a trusted public certificate authority.
+-   Install and assign Exchange services to a [valid digital certificate ](https://technet.microsoft.com/library/dd351044.aspx) purchased from a trusted public certificate authority.
 
 -   Verify that you are running System Center 2012 R2 Configuration Manager SP1 with cumulative update 1 or later.
 
@@ -77,13 +77,13 @@ Before you proceed, make sure your environment includes these requirements for i
 Follow these steps to deploy the Exchange Online solution:
 
 ### Step 1: Create compliance policies and deploy to users.
-Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Compliance Policies in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131417.aspx)to create compliance policies.
+Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Compliance Policies in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131417.aspx) to create compliance policies.
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 
 ![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
+If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
 
 After the compliance policy is created, select the compliance policy name in the list and click **Deploy**.
 
@@ -137,4 +137,4 @@ The following shows the deployment status of the configuration policy:
 Devices that use modern authentication have conditional access applied immediately. For devices connecting through the EAS protocol, there can be a lag time of up to six hours before conditional access is enforced, based on the default setting. During that time, a device might be considered compliant.
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Topic/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.

@@ -44,7 +44,7 @@ AAD DRS will be activated automatically for Intune and Office 365 customers. Cus
     > [!IMPORTANT]
     > Do not configure the service to service connector if you intend to use conditional access for both Exchange Online and Exchange on-premises.
 
-    Now you are ready to learn how to [deploy Exchange Online with Intune](../Topic/conditional-access-intune-exchange-online.md).
+    Now you are ready to learn how to [deploy Exchange Online with Intune](../Solutions/conditional-access-intune-exchange-online.md).
 
 ## For Exchange Server on-premises
 Conditional access to Exchange on-premises supports:
@@ -71,6 +71,6 @@ Additionally:
   > [!IMPORTANT]
 > Make sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.
 
-  Now you are ready to learn how to [deploy Exchange Server on-premises with Intune](../Topic/conditional-access-intune-exchange.md).
+  Now you are ready to learn how to [deploy Exchange Server on-premises with Intune](../Solutions/conditional-access-intune-exchange.md).
 
-If your environment includes both Exchange Online and on-premises, you can read about [deploying Exchange Online and on-premises with Microsoft Intune and Configuration Manager](../Topic/conditional-access-intune-configmgr-coexist.md).
+If your environment includes both Exchange Online and on-premises, you can read about [deploying Exchange Online and on-premises with Microsoft Intune and Configuration Manager](../Solutions/conditional-access-intune-configmgr-coexist.md).
