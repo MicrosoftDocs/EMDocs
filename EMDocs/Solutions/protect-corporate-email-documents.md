@@ -34,7 +34,7 @@ Conditional access is determined by two types of policies you can set in Intune:
 ## High level end-user experience
 After the solution is implemented, end-users will only be able to access the company email on managed and compliant devices. Once they have the ability to access the email on the devices, the company data is protected and contained within the app ecosystem and only available to the intended users. Access can be revoked at any time if the device becomes noncompliant.
 
-Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Topic/end-user-experience-of-conditional-access.md).
+Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
 
 
 Watch [this](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) four minute video to see how conditional access affects your end users.
@@ -108,4 +108,4 @@ When the user attempts to access email on the device for the first time, or sync
 Once the device is evaluated as enrolled and compliant, the email sync should happen within a few minutes.
 
 ## Where to go from here
-Now that you understand about protecting corporate email and documents, you can read about how to [protect email attachments](../Topic/protect-email-attachments.md). Or if you are ready, learn more about [implementing a solution to protect your corporate email](../Topic/implement-solution.md).
+Now that you understand about protecting corporate email and documents, you can read about how to [protect email attachments](../Solutions/protect-email-attachments.md). Or if you are ready, learn more about [implementing a solution to protect your corporate email](../Solutions/implement-solution.md).

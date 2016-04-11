@@ -10,7 +10,7 @@ ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 author: craigcaseyMSFT
 ---
 # Deploy Exchange Server on-premises with Microsoft Intune and Configuration Manager
-Now that you've read through the [architecture guidance for protecting company email and documents](../Topic/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+Now that you've read through the [architecture guidance for protecting company email and documents](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
 
 If you are already using System Center Configuration Manager and Exchange in your on-premises infrastructure, you can incorporate Intune to manage email access and protect email data on mobile devices. The high-level process for implementing this solution is as follows:
 
@@ -35,19 +35,19 @@ This diagram shows the control flow for clients attempting to access email in Ex
 
 -   Exchange on-premises: Enforces access to email based on the device state
 
-## Prerequisites
-Before you proceed, make sure your environment includes these requirements for implementing this solution.
+## Before you begin
+Make sure your environment includes these requirements for implementing this solution.
 
 > [!NOTE]
 > If you have already configured Configuration Manager to manage mobile devices through the Intune service, you can proceed to the [Deployment Steps](#DeploySteps).
 
--   Verify that you meet the [hardware requirements for the on-premises connector](https://technet.microsoft.com/en-us/library/dn646950.aspx#BKMK_ExchanceConnectorReqs).
+-   Verify that you meet the [hardware requirements for the on-premises connector](https://stage.docs.microsoft.com/en-us/intune/getstarted/network-infrastructure-requirements-for-microsoft-intune).
 
 -   Verify that you are running System Center 2012 R2 Configuration Manager SP1 with cumulative update 1 or later.
 
--   Ensure that the [Exchange Web Services (EWS) endpoint ](https://technet.microsoft.com/library/hh529912(v=exchg.150).aspx)is configured properly for discovery. If necessary, contact your Configuration Manager Support team for a tool that can help identify EWS connection issues. EWS lets developers interact with Exchange mailboxes and contents by using standard HTTP.
+-   Ensure that the [Exchange Web Services (EWS) endpoint ](https://technet.microsoft.com/library/hh529912.aspx)is configured properly for discovery. If necessary, contact your Configuration Manager Support team for a tool that can help identify EWS connection issues. EWS lets developers interact with Exchange mailboxes and contents by using standard HTTP.
 
--   Install and assign Exchange services to a [valid digital certificate ](https://technet.microsoft.com/library/dd351044(v=exchg.150).aspx) purchased from a trusted public certificate authority.
+-   Install and assign Exchange services to a [valid digital certificate ](https://technet.microsoft.com/library/dd351044.aspx) purchased from a trusted public certificate authority.
 
 -   Configure an account (local or domain admin) with permissions to run the following Exchange Server cmdlets:
 
@@ -124,7 +124,7 @@ If you want the ability to remove all corporate email from an iOS device after i
 
 ![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
+If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
 
 After the compliance policy is created, select the compliance policy name in the list and click **Deploy**.
 
@@ -134,7 +134,7 @@ First, decide how and when you want to enforce conditional access and which empl
 ### Step 7: Monitor enrollments and enforce conditional access.
 If you already have a significant number of users enrolled in Intune and compliant, you can start enforcing conditional access by rolling it out to about 500 users per day. This will take about 4 to 5 months for 70,000 users and lets you sort out any issues that might arise without restricting email access to too many users at the same time.
 
-If you don’t have a large number of users already enrolled in Intune, conditional access provides them with a guided experience for enrollment, as described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).
+If you don’t have a large number of users already enrolled in Intune, conditional access provides them with a guided experience for enrollment, as described in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
 
 ## Verification Steps
 Using the Configuration Manager Trace Log Tool, open the EasDisc.log file (located in the Microsoft Configuration Manager/Logs folder where you installed Configuration Manager). Search the log file for “Exchange Connector” to find information about whether the Exchange Connector is running and how many devices are connected.
@@ -172,4 +172,4 @@ The following shows the deployment status of the configuration policy:
 A device is blocked as soon as it is discovered by the Exchange connector. The latency of blocking depends on the configured intervals for Full synchronization and delta synchronization and the time in between these intervals when the device connects to the Exchange server. By default, a Full synchronization occurs every 24 hours while a delta synchronization occurs every 240 minutes. During this latency period, a device might be considered compliant.
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Topic/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.

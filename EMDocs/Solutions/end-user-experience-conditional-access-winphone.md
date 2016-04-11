@@ -87,5 +87,5 @@ Every 8 hours by default, devices are checked to ensure that they are still comp
 5.  If the issue is fixed, the user clicks **Continue** to complete the process. Email access should become available again within a few minutes.
 
 ### Where to go from here
-The end-user experience is slightly different on other mobile devices. You can learn more about the end-user experience for [Android](../Topic/end-user-experience-conditional-access-android.md) and
-[iOS](../Topic/end-user-experience-conditional-access-ios.md).
+The end-user experience is slightly different on other mobile devices. You can learn more about the end-user experience for [Android](../Solutions/end-user-experience-conditional-access-android.md) and
+[iOS](../Solutions/end-user-experience-conditional-access-ios.md).

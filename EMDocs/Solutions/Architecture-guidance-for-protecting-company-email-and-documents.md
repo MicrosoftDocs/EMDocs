@@ -70,7 +70,7 @@ The third layer is the  **app management layer** with the Intune-managed app eco
 
 Read the [Mobile Device Management Design Considerations Guide](https://technet.microsoft.com/en-us/library/mt143180.aspx) to better understand mobile device management design requirements.
 
-[Learn more about how to deploy a solution for protecting company email and documents](../Topic/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
+[Learn more about how to deploy a solution for protecting company email and documents](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
 Footnotes:
 

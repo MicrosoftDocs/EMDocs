@@ -31,7 +31,7 @@ Protecting corporate email involves two main objectives:
     Managed apps are apps that have mobile application management policies applied to them that make them compliant with your company’s security requirements. With these apps, you have direct control over deployment, ongoing management like inventory or updates, and selective wipe of the apps and their associated data. Additionally, through a set of mobile application management (MAM) policies, Intune lets you modify the functionality of apps, and restrict sharing of data. For more details on how this solution works including architecture details see [Protect corporate email and documents](https://technet.microsoft.com/en-us/library/mt574220.aspx).
 
     > [!NOTE]
-    > You can create and deploy an email profile, then set a compliance policy that specifies that email profiles must be managed by Intune (recommended). This gives you the ability to wipe email from retired devices, and it ensures that for iOS, attachments can only be opened in applications managed by Intune. See [Step 5: Create compliance policies and deploy to users.](../Topic/Use-conditional-access-with-Intune-and-Configuration-Manager.md#Step_5) for more information.
+    > You can create and deploy an email profile, then set a compliance policy that specifies that email profiles must be managed by Intune (recommended). This gives you the ability to wipe email from retired devices, and it ensures that for iOS, attachments can only be opened in applications managed by Intune. See [Step 5: Create compliance policies and deploy to users.](../Solutions/conditional-access-intune-configmgr-exchange.md) for more information.
 
 ### Solutions covered in this article
 This section provides a  high-level overview of each solution – Configuration Manager with Intune implementation, Intune by itself, mobile application management, and Azure rights management service.
@@ -48,10 +48,10 @@ With all of the different design and configuration options for managing mobile d
 ### High level end-user experience
 After the solution is implemented, end-users will only be able to access the company email on managed **and** compliant devices. Once they have the ability to access the email on the devices, the company data is protected and contained within the app ecosystem and only available to the intended users. Access can be revoked at any time if the device becomes noncompliant.
 
-Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Topic/end-user-experience-conditional-access.md).
+Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
 
 ### Where to go from here
 Now that you've read through this topic, you can learn more about how to deploy a specific solution for protecting company email and documents, depending on your environment:
 
-- [Use conditional access with Microsoft Intune](../Topic/conditional-access-intune.md)
-- [Use conditional access with Microsoft Intune and Configuration Manager](../Topic/conditional-access-intune-configmgr.md)
+- [Use conditional access with Microsoft Intune](../Solutions/conditional-access-intune.md)
+- [Use conditional access with Microsoft Intune and Configuration Manager](../Solutions/conditional-access-intune-configmgr.md)
