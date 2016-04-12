@@ -1,15 +1,30 @@
 ---
-title: Envisioning the BYOD Infrastructure Solution
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 9596531a-2eef-4c91-af11-091088c52929
+# required metadata
+
+title: Envisioning the BYOD Infrastructure Solution | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 9596531a-2eef-4c91-af11-091088c52929
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 #Envisioning the BYOD infrastructure solution
 
 After clearly defining the BYOD problem you are trying to solve, you can begin to define a solution to the problem and define detailed requirements for the solution.

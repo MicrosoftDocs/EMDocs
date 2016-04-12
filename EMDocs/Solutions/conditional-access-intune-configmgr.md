@@ -1,14 +1,30 @@
 ---
-title: Use conditional access with Intune and Configuration Manager
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
+# required metadata
+
+title: Use conditional access with Intune and Configuration Manager | Enetrprise Mobility Suite
+description:
+keywords:
 author: craigcaseyMSFT
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Use conditional access with Intune and Configuration Manager
 This topic assumes that you are already using System Center Configuration Manager and Microsoft Exchange Server – with on-premises, Exchange Online, or a hybrid deployment of both – in your company to manage email access. This solution combines your existing Configuration Manager environment with Intune to safely manage email access on all types of devices, regardless of their location.
 

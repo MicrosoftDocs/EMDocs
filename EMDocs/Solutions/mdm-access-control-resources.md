@@ -1,14 +1,30 @@
 ---
-title: Access control to resources
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
-ms.date: 04/05/2016
+# required metadata
+
+title: Access control to resources | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Access control to resources
 
 >[!NOTE]

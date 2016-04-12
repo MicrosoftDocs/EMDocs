@@ -1,14 +1,30 @@
 ---
-title: Data segregation
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.date: 04/05/2016
-ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
+# required metadata
+
+title: Data segregation | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Data segregation
 
 >[!NOTE]

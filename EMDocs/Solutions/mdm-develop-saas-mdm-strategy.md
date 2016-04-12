@@ -1,15 +1,30 @@
 ---
-title: Develop SaaS mobile device management strategy
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid:  
+# required metadata
+
+title: Develop SaaS mobile device management strategy | Enetrprise Mobility Suite
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Develop SaaS mobile device management strategy
 
 >[!NOTE]

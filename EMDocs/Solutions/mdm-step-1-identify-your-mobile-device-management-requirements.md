@@ -1,15 +1,30 @@
 ---
-title: Step 1 - Identify your mobile device management requirements
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.date: 04/06/2016
-ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
+# required metadata
+
+title: Step 1 - Identify your mobile device management requirements | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Step 1 - Identify your mobile device management requirements
 
 >[!NOTE]

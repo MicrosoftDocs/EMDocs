@@ -1,15 +1,30 @@
 ---
-title: Hardening mobile devices
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.date: 04/06/2016
-ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
+# required metadata
+
+title: Hardening mobile devices | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Hardening mobile devices
 
 >[!NOTE]

@@ -1,14 +1,30 @@
 ---
-title: Learn how to deploy a solution for protecting company email and documents
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
+# required metadata
+
+title: Learn how to deploy a solution for protecting company email and documents | Enetrprise Mobility Suite
+description:
+keywords:
 author: craigcaseyMSFT
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Learn how to deploy a solution for protecting company email and documents
 More and more, companies are allowing employees to increase their productivity by accessing email, documents, and company resources through their mobile devices. However, the amount of confidential data that is stored within corporate emails and documents presents a significant security risk for companies.
 

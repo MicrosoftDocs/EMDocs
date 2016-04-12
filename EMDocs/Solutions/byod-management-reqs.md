@@ -1,15 +1,30 @@
 ---
-title: Management requirements
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: c576a1be-c706-4a12-a2e2-b3d85e632afa
+# required metadata
+
+title: Management requirements | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: c576a1be-c706-4a12-a2e2-b3d85e632afa
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Management requirements
 
 Device management is one of the foundations of any people-centric strategy, and it must be evaluated against a company’s requirements. Depending on the maturity level of the company, a management system might be in place already that will need to be expanded to cover the BYOD scenarios that the company is adopting. Figure 4 shows management interactions when managing users, devices, and data. Considerations must be made for each component of the Management subdomain.

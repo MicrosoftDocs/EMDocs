@@ -1,15 +1,30 @@
 ---
-title: Identify SaaS solution infrastructure integration needs
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid:  
+# required metadata
+
+title: Identify SaaS solution infrastructure integration needs | Enetrprise Mobility Suite
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 26b15471-b496-4404-934d-67e621655bca
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Identify SaaS solution infrastructure integration needs
 
 >[!NOTE]

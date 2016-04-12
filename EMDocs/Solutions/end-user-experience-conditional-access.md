@@ -1,14 +1,30 @@
 ---
-title: End-user experience of conditional access
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
+# required metadata
+
+title: End-user experience of conditional access | Enetrprise Mobility Suite
+description:
+keywords:
 author: craigcaseyMSFT
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # End-user experience of conditional access
 When the user attempts to access email on the device for the first time, or sync subsequently, the device enrollment and compliance status is checked. The process of enrolling or fixing compliance issues is a guided experience. The end-user is shown the necessary steps to enroll their device and make it compliant without needing to call your IT help desk:
 

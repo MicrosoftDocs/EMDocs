@@ -1,14 +1,30 @@
 ---
-title: Use conditional access with Exchange Server on-premises, Microsoft Intune and Configuration Manager
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
+# required metadata
+
+title: Use conditional access with Exchange Server on-premises, Microsoft Intune and Configuration Manager | Enetrprise Mobility Suite
+description:
+keywords:
 author: craigcaseyMSFT
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Deploy Exchange Server on-premises with Microsoft Intune and Configuration Manager
 Now that you've read through the [architecture guidance for protecting company email and documents](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
 
