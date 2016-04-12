@@ -72,6 +72,6 @@
 ### [Exchange online and on-premises](conditional-access-intune-configmgr-coexist.md)
 
 ## [Device enrollment and compliance experience](end-user-experience-conditional-access.md)
-### [Windows Phone](end-user-experience-conditional-access-winphone.md)
-### [iOS](end-user-experience-conditional-access-ios.md)
 ### [Android](end-user-experience-conditional-access-android.md)
+### [iOS](end-user-experience-conditional-access-ios.md)
+### [Windows Phone](end-user-experience-conditional-access-winphone.md)
