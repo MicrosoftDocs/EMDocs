@@ -1,19 +1,30 @@
 ---
-title: App considerations
-description: blah
-keywords: "BYOD, device management, devices"
+# required metadata
+
+title: App considerations | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
 manager: swadhwa
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.date: 04/06/2016
+ms.date: 04/28/2016
 ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
-author: YuriDio
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 
 # App considerations
 

@@ -1,15 +1,30 @@
 ---
-title: Management considerations
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
+# required metadata
+
+title: Management considerations | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Management considerations
 
 A management domain is mandatory in an infrastructure that supports a BYOD model. In order to fully support BYOD demands, the management domain must be able to enable IT to monitor resources, provide reporting capabilities, manage compute and storage resources, enable device configuration and automation, and manage apps deployment and provisioning.

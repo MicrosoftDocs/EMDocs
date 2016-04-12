@@ -1,14 +1,30 @@
 ---
-title: Step 4 - Plan for Software as a Service mobile device management
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: ab50bf43-0014-4d55-a52d-12e0428adc12
+# required metadata
+
+title: Step 4 - Plan for Software as a Service mobile device management | Enetrprise Mobility Suite
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: ab50bf43-0014-4d55-a52d-12e0428adc12
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Step 4 - Plan for Software as a Service mobile device management
 
 >[!NOTE]

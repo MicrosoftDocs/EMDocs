@@ -1,15 +1,30 @@
 ---
-title: Gather your data protection requirements
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.date: 04/06/2016
-ms.assetid: 98f7bd00-4be7-478e-82ea-6046813f1556
+# required metadata
+
+title: Gather your data protection requirements | Enetrprise Mobility Suite
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 98f7bd00-4be7-478e-82ea-6046813f1556
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Gather your data protection requirements
 
 >[!NOTE]

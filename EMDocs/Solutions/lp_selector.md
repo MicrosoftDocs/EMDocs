@@ -1,12 +1,30 @@
 ---
-title: How to create selectors
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+# required metadata
+
+title: How to create selectors | Enetrprise Mobility Suite
+description:
+keywords:
+author: 
+manager: swadhwa
+ms.date: 04/28/2016
 ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: bc085933-c33a-470b-b018-509afdc3e576
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
 
 ---
+
 Don't think we need the H1, so I've removed it here, strictly for testing purposes.
 
 Here is a one-way selector:
