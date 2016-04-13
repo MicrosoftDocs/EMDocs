@@ -1,4 +1,4 @@
-# [Solutions, Scenarios, & Guides](/em/solutions/)
+# [Scenarios and Guides](scenarios-guides.md)
 
 # [Get Started with FastTrack](enterprise-mobility-fasttrack-program.md)
 ## [FastTrack benefit for EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
