@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Develop your incident response requirements | Enetrprise Mobility Suite
+title: Develop your incident response requirements
 description:
 keywords:
 author: YuriDio

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Option 1 - How to create selectors | Enetrprise Mobility Suite
+title: Option 1 - How to create selectors
 description:
 keywords:
 author: 

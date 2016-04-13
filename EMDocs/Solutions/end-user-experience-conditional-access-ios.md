@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: End-user experience of conditional access on iOS devices | Enetrprise Mobility Suite
+title: End-user experience of conditional access on iOS devices
 description:
 keywords:
 author: craigcaseyMSFT

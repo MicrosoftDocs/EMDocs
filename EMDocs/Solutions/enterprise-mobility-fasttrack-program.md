@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Enterprise Mobility FastTrack Program | Enetrprise Mobility Suite
+title: Enterprise Mobility FastTrack Program
 description:
 keywords:
 author: 

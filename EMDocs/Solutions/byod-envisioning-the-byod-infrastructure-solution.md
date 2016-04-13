@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Envisioning the BYOD Infrastructure Solution | Enetrprise Mobility Suite
+title: Envisioning the BYOD Infrastructure Solution
 description:
 keywords:
 author: YuriDio

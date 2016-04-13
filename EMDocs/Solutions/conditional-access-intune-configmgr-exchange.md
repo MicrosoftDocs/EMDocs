@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Use conditional access with Exchange Server on-premises, Microsoft Intune and Configuration Manager | Enetrprise Mobility Suite
+title: Use conditional access with Exchange Server on-premises, Microsoft Intune and Configuration Manager
 description:
 keywords:
 author: craigcaseyMSFT

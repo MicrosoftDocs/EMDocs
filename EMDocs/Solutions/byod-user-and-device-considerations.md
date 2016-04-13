@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: User and device considerations | Enetrprise Mobility Suite
+title: User and device considerations
 description:
 keywords:
 author: YuriDio

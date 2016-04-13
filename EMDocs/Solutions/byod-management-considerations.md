@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Management considerations | Enetrprise Mobility Suite
+title: Management considerations
 description:
 keywords:
 author: YuriDio

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Determine network requirements | Enetrprise Mobility Suite
+title: Determine network requirements
 description:
 keywords:
 author: robmazz

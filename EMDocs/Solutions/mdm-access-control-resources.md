@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Access control to resources | Enetrprise Mobility Suite
+title: Access control to resources
 description:
 keywords:
 author: YuriDio

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Mobile Device Management Design Considerations Guide | Enetrprise Mobility Suite
+title: Mobile Device Management Design Considerations Guide
 description:
 keywords:
 author: robmazz

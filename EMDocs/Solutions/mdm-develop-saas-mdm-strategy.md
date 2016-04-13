@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Develop SaaS mobile device management strategy | Enetrprise Mobility Suite
+title: Develop SaaS mobile device management strategy
 description:
 keywords:
 author: robmazz

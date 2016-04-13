@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Step 4 - Plan for Software as a Service mobile device management | Enetrprise Mobility Suite
+title: Step 4 - Plan for Software as a Service mobile device management
 description:
 keywords:
 author: robmazz

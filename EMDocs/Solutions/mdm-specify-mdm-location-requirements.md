@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Specify your mobile device management location requirements | Enetrprise Mobility Suite
+title: Specify your mobile device management location requirements
 description:
 keywords:
 author: YuriDio

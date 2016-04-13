@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: End-user experience of conditional access on Android devices | Enetrprise Mobility Suite
+title: End-user experience of conditional access on Android devices
 description:
 keywords:
 author: craigcaseyMSFT

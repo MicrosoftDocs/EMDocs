@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Gather monitoring requirements | Enetrprise Mobility Suite
+title: Gather monitoring requirements
 description:
 keywords:
 author: robmazz

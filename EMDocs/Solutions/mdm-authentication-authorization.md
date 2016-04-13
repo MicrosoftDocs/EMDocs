@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Authentication and authorization | Enetrprise Mobility Suite
+title: Authentication and authorization
 description:
 keywords:
 author: YuriDio

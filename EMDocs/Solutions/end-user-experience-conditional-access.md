@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: End-user experience of conditional access | Enetrprise Mobility Suite
+title: End-user experience of conditional access
 description:
 keywords:
 author: craigcaseyMSFT

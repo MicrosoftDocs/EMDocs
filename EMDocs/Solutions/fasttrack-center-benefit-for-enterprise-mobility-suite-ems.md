@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit for Enterprise Mobility Suite (EMS) | Enetrprise Mobility Suite
+title: FastTrack Center Benefit for Enterprise Mobility Suite (EMS)
 description:
 keywords:
 author: 

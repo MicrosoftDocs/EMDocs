@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: BYOD Summary and Additional Resources | BYOD Design Considerations Guide | Enetrprise Mobility Suite
+title: BYOD Summary and Additional Resources | BYOD Design Considerations Guide
 description:
 keywords:
 author: YuriDio

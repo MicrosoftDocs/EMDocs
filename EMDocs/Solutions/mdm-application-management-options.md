@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Application management options | Enetrprise Mobility Suite
+title: Application management options
 description:
 keywords:
 author: robmazz

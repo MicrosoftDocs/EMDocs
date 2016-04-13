@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Device management options | Enetrprise Mobility Suite
+title: Device management options
 description:
 keywords:
 author: robmazz

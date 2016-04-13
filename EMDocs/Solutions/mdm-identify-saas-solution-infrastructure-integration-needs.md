@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Identify SaaS solution infrastructure integration needs | Enetrprise Mobility Suite
+title: Identify SaaS solution infrastructure integration needs
 description:
 keywords:
 author: robmazz

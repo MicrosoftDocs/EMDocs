@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Network connectivity management options | Enetrprise Mobility Suite
+title: Network connectivity management options
 description:
 keywords:
 author: robmazz

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Data segregation | Enetrprise Mobility Suite
+title: Data segregation
 description:
 keywords:
 author: YuriDio

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Gather your data protection requirements | Enetrprise Mobility Suite
+title: Gather your data protection requirements
 description:
 keywords:
 author: YuriDio

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Brents new topic | Enetrprise Mobility Suite
+title: Brents new topic
 description:
 keywords:
 author: 

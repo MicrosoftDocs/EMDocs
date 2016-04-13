@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Device monitoring options | Enetrprise Mobility Suite
+title: Device monitoring options
 description:
 keywords:
 author: robmazz

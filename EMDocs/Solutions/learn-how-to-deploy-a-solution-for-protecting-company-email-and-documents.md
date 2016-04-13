@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Learn how to deploy a solution for protecting company email and documents | Enetrprise Mobility Suite
+title: Learn how to deploy a solution for protecting company email and documents
 description:
 keywords:
 author: craigcaseyMSFT

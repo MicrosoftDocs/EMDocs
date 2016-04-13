@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Management requirements | Enetrprise Mobility Suite
+title: Management requirements
 description:
 keywords:
 author: YuriDio

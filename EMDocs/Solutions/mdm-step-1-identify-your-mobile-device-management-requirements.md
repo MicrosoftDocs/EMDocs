@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Step 1 - Identify your mobile device management requirements | Enetrprise Mobility Suite
+title: Step 1 - Identify your mobile device management requirements
 description:
 keywords:
 author: YuriDio

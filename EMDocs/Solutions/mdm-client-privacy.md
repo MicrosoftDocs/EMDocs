@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Client privacy | Enetrprise Mobility Suite
+title: Client privacy
 description:
 keywords:
 author: YuriDio
