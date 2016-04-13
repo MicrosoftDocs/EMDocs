@@ -1,5 +1,5 @@
 ---
-title: Architecture guidance for protecting company email content and attachments
+title: Protect company email attachments
 ms.custom: na
 ms.reviewer: na
 ms.service: microsoft-intune
@@ -10,7 +10,7 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 author: karthikaraman
 ---
 # Protect email and attachments from data leakage
-[Architecture guidance for protecting company email and documents](../Solutions/protect-corporate-email-documents.md) talked about how you can make sure that only compliant devices can access corporate email. However, the content in the email and email attachments is not protected just by securing access. The content can be copied, moved, saved to a different location, or shared with another user. EMS solves this problem using mobile application management (MAM) policies.
+[Protecting corporate email and documents](../Solutions/protect-corporate-email-documents.md) talked about how you can make sure that only compliant devices can access corporate email. However, the content in the email and email attachments is not protected just by securing access. The content can be copied, moved, saved to a different location, or shared with another user. EMS solves this problem using mobile application management (MAM) policies.
 
 Managed apps are apps that are deployed by your IT admin that comply with your companies security requirements. With these apps, IT has direct control over deployment, ongoing management like inventory or updates, and selective wipe of the apps and their associated data. Additionally, through a set of mobile application management (MAM) policies, Intune lets you modify the functionality of apps, and restrict sharing of data like:
 
@@ -44,7 +44,7 @@ With [Azure Rights Management Services](https://technet.microsoft.com/en-us/libr
 
 -   **The Company portal** is an app that either runs natively on each device or is browser based. Your IT deploys the managed apps to users or devices, and end-users can install the app from the portal. The policies associated with the apps are carried over to the device with the apps.
 
-![](./media/ProtectEmail/CADataSheet-Diagram-Apps.png)
+![Graphic showing how policies for managed apps are handled through the company portal and Microsoft Intune](./media/ProtectEmail/CADataSheet-Diagram-Apps.png)
 
 ## The IT admin experience:
 Your IT admin creates the mobile application management policies, associates the policy to the app, and deploys it to users or devices. When the managed app is installed on the device, the app restrictions take effect. Creating and deploying managed apps involve little or no additional effort:

@@ -15,7 +15,7 @@ This topic starts with an overview of how you can provide data protection for yo
 > [!TIP]
 > Get a downloadable copy of this entire topic  at the [TechNet Gallery](https://gallery.technet.microsoft.com/Managing-Access-and-Help-b7a05d0d/file/140056/1/Managing%20Access%20and%20Help%20Protect%20Corporate%20Email%20Data%20on%20Mobile%20Devices.pdf).
 
-Employees want to be able to use their own devices to access company resources and productivity tools. IT needs to make sure that employees have this ability but sensitive company data is protected. BYOD, or [Bring your own device](https://technet.microsoft.com/en-us/library/Dn656905(l=en-us,v=WS.11).aspx), poses a specific challenge in that there needs to be a separation of personal and work data on personal devices and prevent intentional or unintentional sharing of company data.
+Employees want to be able to use their own devices to access company resources and productivity tools. IT needs to make sure that employees have this ability but sensitive company data is protected. BYOD, or [Bring your own device](../Solutions/byod-design-considerations-guide.md), poses a specific challenge in that there needs to be a separation of personal and work data on personal devices and prevent intentional or unintentional sharing of company data.
 
 **Studies show that:**
 
@@ -38,7 +38,7 @@ Microsoft offers the Enterprise Mobility Suite (EMS), a comprehensive solution f
 
 EMS is composed of the following cloud services:
 
-![](./media/ProtectEmail/Enterprise-Mobility-Suite.png)
+![Graphic showing the cloud services that are part of EMS: Microsoft Azure AD Premium, Microsoft Intune, and Microsoft Azure Rights Management](./media/ProtectEmail/Enterprise-Mobility-Suite.png)
 
 Using EMS, data is protected both inside and outside of your corporate network:
 
@@ -55,7 +55,7 @@ When employees move or change jobs, or lose their device, EMS provides the optio
 ## How EMS can help protect your data
 The 4 layered security model for identity, devices, apps, and data is about making sure that your company resources are only accessed by the intended user, on a device that meets a set of compliance policies configured by you, and within the boundaries of managed apps.
 
-![](./media/ProtectEmail/Protecting_your_data.png)
+![Graphic showing the 4 layered security model for identity, devices, apps, and data](./media/ProtectEmail/Protecting_your_data.png)
 
 Protecting your data starts with establishing and validating the user identity. *Azure AD/*, an enterprise-grade identity and access management tool delivers single sign-on, multi-factor authentication, self-service passwords, and more. It provides the functionality for the **identity layer** of the security model.
 
@@ -68,7 +68,7 @@ The third layer is the  **app management layer** with the Intune-managed app eco
 ## Where to go from here
 [Watch](https://www.youtube.com/watch?v=ltcZvm4VOFU) this video to learn how to sign up for a trial account and get started.
 
-Read the [Mobile Device Management Design Considerations Guide](https://technet.microsoft.com/en-us/library/mt143180.aspx) to better understand mobile device management design requirements.
+Read the [Mobile Device Management Design Considerations Guide](../Solutions/mdm-design-considerations-guide.md) to better understand mobile device management design requirements.
 
 [Learn more about how to deploy a solution for protecting company email and documents](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
@@ -83,7 +83,7 @@ Footnotes:
 ### See Also
 [EMS Architecture](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
 
-[Start using Intune](https://technet.microsoft.com/en-us/library/dn646953.aspx)
+[Start using Intune](https://stage.docs.microsoft.com/en-us/intune/understand/introduction-to-microsoft-intune)
 
 [What is Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
 
