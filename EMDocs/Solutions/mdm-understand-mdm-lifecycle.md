@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Understand the MDM lifecycle | Enetrprise Mobility Suite
+title: Understand the MDM lifecycle
 description:
 keywords:
 author: robmazz

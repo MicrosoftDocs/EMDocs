@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Data classification | Enetrprise Mobility Suite
+title: Data classification
 description:
 keywords:
 author: YuriDio

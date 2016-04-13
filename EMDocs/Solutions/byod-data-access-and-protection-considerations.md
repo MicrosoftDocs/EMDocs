@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Data access and protection considerations | Enetrprise Mobility Suite
+title: Data access and protection considerations
 description:
 keywords:
 author: YuriDio

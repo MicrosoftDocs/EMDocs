@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Identify Business Needs | Enetrprise Mobility Suite
+title: Identify Business Needs
 description:
 keywords:
 author: YuriDio

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: User and devices requirements | Enetrprise Mobility Suite
+title: User and devices requirements
 description:
 keywords:
 author: YuriDio

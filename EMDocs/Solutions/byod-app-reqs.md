@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: App requirements | Enetrprise Mobility Suite
+title: App requirements
 description:
 keywords:
 author: YuriDio

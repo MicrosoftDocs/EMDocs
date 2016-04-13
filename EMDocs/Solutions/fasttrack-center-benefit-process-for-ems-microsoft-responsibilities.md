@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - Microsoft's responsibilities | Enetrprise Mobility Suite
+title: FastTrack Center Benefit Process for Enterprise Mobility Suite - Microsoft's responsibilities
 description:
 keywords:
 author: 

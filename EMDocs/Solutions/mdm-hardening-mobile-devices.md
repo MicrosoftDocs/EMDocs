@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Hardening mobile devices | Enetrprise Mobility Suite
+title: Hardening mobile devices
 description:
 keywords:
 author: YuriDio

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Certificate management options | Enetrprise Mobility Suite
+title: Certificate management options
 description:
 keywords:
 author: robmazz

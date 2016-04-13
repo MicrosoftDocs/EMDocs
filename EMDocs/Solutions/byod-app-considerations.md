@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: App considerations | Enetrprise Mobility Suite
+title: App considerations
 description:
 keywords:
 author: YuriDio

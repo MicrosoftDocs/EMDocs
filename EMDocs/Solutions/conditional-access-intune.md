@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Use conditional access with Microsoft Intune | Enetrprise Mobility Suite
+title: Use conditional access with Microsoft Intune
 description:
 keywords:
 author: craigcaseyMSFT

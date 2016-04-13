@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Data access and protection requirements | Enetrprise Mobility Suite
+title: Data access and protection requirements
 description:
 keywords:
 author: YuriDio

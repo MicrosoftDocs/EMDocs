@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - source environment expectations | Enetrprise Mobility Suite
+title: FastTrack Center Benefit Process for Enterprise Mobility Suite - source environment expectations
 description:
 keywords:
 author: 

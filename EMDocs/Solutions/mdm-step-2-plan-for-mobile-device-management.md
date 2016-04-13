@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Step 2 - Plan for mobile device management | Enetrprise Mobility Suite
+title: Step 2 - Plan for mobile device management
 description:
 keywords:
 author: robmazz

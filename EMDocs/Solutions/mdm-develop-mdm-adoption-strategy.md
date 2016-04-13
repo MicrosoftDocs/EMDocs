@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Develop your mobile device management adoption strategy | Enetrprise Mobility Suite
+title: Develop your mobile device management adoption strategy
 description:
 keywords:
 author: YuriDio

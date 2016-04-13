@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: End-user experience of conditional access on Windows Phone | Enetrprise Mobility Suite
+title: End-user experience of conditional access on Windows Phone
 description:
 keywords:
 author: craigcaseyMSFT

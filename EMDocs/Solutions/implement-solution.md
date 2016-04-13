@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Implementing a solution for protecting company email and attachments | Enetrprise Mobility Suite
+title: Implementing a solution for protecting company email and attachments
 description:
 keywords:
 author: karthikaraman

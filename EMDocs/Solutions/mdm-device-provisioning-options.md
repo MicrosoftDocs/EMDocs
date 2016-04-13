@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Device provisioning options | Enetrprise Mobility Suite
+title: Device provisioning options
 description:
 keywords:
 author: robmazz

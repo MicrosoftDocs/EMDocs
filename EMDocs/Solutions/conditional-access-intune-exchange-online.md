@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Use conditional access with Microsoft Intune and Exchange Online | Enetrprise Mobility Suite
+title: Use conditional access with Microsoft Intune and Exchange Online
 description:
 keywords:
 author: craigcaseyMSFT

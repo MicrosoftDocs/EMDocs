@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Specify your access requirements | Enetrprise Mobility Suite
+title: Specify your access requirements
 description:
 keywords:
 author: YuriDio

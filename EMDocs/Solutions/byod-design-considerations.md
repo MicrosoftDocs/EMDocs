@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Design considerations | Enetrprise Mobility Suite
+title: Design considerations
 description:
 keywords:
 author: YuriDio

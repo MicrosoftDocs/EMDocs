@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Email management options | Enetrprise Mobility Suite
+title: Email management options
 description:
 keywords:
 author: robmazz

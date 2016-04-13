@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - customer responsibilities | Enetrprise Mobility Suite
+title: FastTrack Center Benefit Process for Enterprise Mobility Suite - customer responsibilities
 description:
 keywords:
 author: 

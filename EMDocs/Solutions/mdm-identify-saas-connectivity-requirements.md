@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Identify SaaS connectivity requirements | Enetrprise Mobility Suite
+title: Identify SaaS connectivity requirements
 description:
 keywords:
 author: robmazz

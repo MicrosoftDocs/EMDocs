@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Next steps and additional resources | Enetrprise Mobility Suite
+title: Next steps and additional resources
 description:
 keywords:
 author: robmazz

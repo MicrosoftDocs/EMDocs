@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Secure access to company resources from any location on any device | Enetrprise Mobility Suite
+title: Secure access to company resources from any location on any device
 description:
 keywords:
 author: 

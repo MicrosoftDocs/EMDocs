@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Identify SaaS requirements | Enetrprise Mobility Suite
+title: Identify SaaS requirements
 description:
 keywords:
 author: robmazz

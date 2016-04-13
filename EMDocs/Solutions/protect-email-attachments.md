@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Architecture guidance for protecting company email content and attachments | Enetrprise Mobility Suite
+title: Architecture guidance for protecting company email content and attachments
 description:
 keywords:
 author: karthikaraman

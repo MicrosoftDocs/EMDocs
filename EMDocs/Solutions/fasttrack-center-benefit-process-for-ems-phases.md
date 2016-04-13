@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - phases | Enetrprise Mobility Suite
+title: FastTrack Center Benefit Process for Enterprise Mobility Suite - phases
 description:
 keywords:
 author: 

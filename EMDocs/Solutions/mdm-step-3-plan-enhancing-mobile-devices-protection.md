@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Plan for enhancing mobile devices protection | Enetrprise Mobility Suite
+title: Plan for enhancing mobile devices protection
 description:
 keywords:
 author: YuriDio

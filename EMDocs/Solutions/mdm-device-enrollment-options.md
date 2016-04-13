@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Device enrollment options | Enetrprise Mobility Suite
+title: Device enrollment options
 description:
 keywords:
 author: robmazz
