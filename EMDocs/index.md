@@ -5,12 +5,12 @@ layout: HubPage
 # Microsoft Enterprise Mobility Documentation
 <article id="main">
     <section id="hero-content" class="graph">
-        <h1>Microsoft Enterprise Mobility</h1>
-        <h2>Microsoft&#39;s enterprise mobility services enable organizations to keep their employees productive across apps and devices while ensuring that corporate data is protected.</h2>
+        <h1>Microsoft Enterprise Mobility Documentation</h1>
+        <h2>Microsoft&#39;s enterprise mobility services enable organizations to keep their employees productive across apps and devices while ensuring that corporate data is protected</h2>
         <!-- <ol id="actions" class="action-list">
         <li><a href="" class="button button-bordered">Learn More</a></li>
         </ol> -->
-	    <h3>New to enterprise mobility? <a href="https://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx">Visit the enterprise mobility page &rarr;</a></h3>
+	    <h3>New to enterprise mobility? <a href="https://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the enterprise mobility page &rarr;</a></h3>
     </section>
 
     <aside class="alert section-border">
@@ -175,9 +175,9 @@ layout: HubPage
             <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Hybrid Identity Design Considerations Guide</a></li>
             </ul>
             <ul class="column-half">
-            <li><a href="">Nisi ut aliquip ex ea commodo</a></li>
-            <li><a href="">Lorem ipsum dolor sit amet consectetur</a></li>
-            <li><a href="">Adipisicing elit, sed do eiusmod tempor incididunt</a></li>
+            <li><a href="/em/solutions/conditional-access-intune.md">Conditional access with Intune</a></li>
+            <li><a href="/em/solutions/architecture-guidance-for-protecting-company-email-and-documents">Protect Company Email and Documents</a></li>
+            <li><a href="/em/solutions/scenarios-guides">Learn more about scenarios and guides</a></li>
             </ul>
         </div>
         </section>
@@ -186,7 +186,7 @@ layout: HubPage
     <aside class="alert alert-social">
         <p>Keep up with the latest news</p>
         <ol class="action-list">
-        <li><a href="" class="button-bordered button-translucent">EMS Blog</a></li>
+        <li><a href="https://blogs.technet.microsoft.com/in_the_cloud/" target="_blank" class="button-bordered button-translucent">In The Cloud Blog</a></li>
         </ol>
     </aside>
 </article>
