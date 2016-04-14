@@ -1,14 +1,30 @@
 ---
+# required metadata
+
 title: Data classification
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.date: 04/05/2016
-ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Data classification
 
 >[!NOTE]

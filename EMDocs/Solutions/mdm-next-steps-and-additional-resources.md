@@ -1,14 +1,30 @@
 ---
+# required metadata
+
 title: Next steps and additional resources
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Next steps and additional resources
 
 >[!NOTE]

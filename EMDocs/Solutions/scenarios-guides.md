@@ -1,17 +1,17 @@
 ---
 # required metadata
 
-title: Option 2 - How to create selectors
+title: Scenarios and guides
 description:
 keywords:
-author: 
+author: robmazz
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 34cdcedd-82bd-4181-9ad5-021020e2da67
+ms.assetid: 
 
 # optional metadata
 
@@ -25,4 +25,6 @@ ms.suite: ems
 
 ---
 
-This is version 2 of the content.
+# Scenarios and guides
+
+Learn more about scenarios and guides, yada, yada, yada....

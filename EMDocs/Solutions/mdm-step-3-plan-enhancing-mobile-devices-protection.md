@@ -1,15 +1,30 @@
 ---
+# required metadata
+
 title: Plan for enhancing mobile devices protection
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.date: 04/06/2016
-ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Plan for enhancing mobile devices protection
 
 >[!NOTE]

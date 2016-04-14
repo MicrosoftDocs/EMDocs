@@ -1,15 +1,30 @@
 ---
+# required metadata
+
 title: Design considerations
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Design considerations
 
 With an understanding of the requirements detailed in Envisioning the BYOD Infrastructure Solution in this document, you can select appropriate products and technologies to implement the requirements for your BYOD infrastructure design. The following table lists Microsoft products, technologies, and services that can be used to implement a BYOD infrastructure solution.

@@ -1,4 +1,4 @@
-# [Solutions, Scenarios, & Guides](/em/solutions/)
+# [Scenarios and Guides](scenarios-guides.md)
 
 # [Get Started with FastTrack](enterprise-mobility-fasttrack-program.md)
 ## [FastTrack benefit for EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
@@ -57,12 +57,12 @@
 ### [Identify SaaS connectivity requirements](mdm-identify-saas-connectivity-requirements.md)
 ## [Next steps](mdm-next-steps-and-additional-resources.md)
 
-# [Protect Company Email and Documents](architecture-guidance-for-protecting-company-email-and-documents.md)
+# [Protect Email and Documents (Architecture)](architecture-guidance-for-protecting-company-email-and-documents.md)
 ## [Protect corporate email](protect-corporate-email-documents.md)
 ## [Protect email attachments](protect-email-attachments.md)
-## [Implement a solution](implement-solution.md)
+## [Planning your implementation](implement-solution.md)
 
-# [Learn how to protect company email](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents)
+# [Protect Email and Documents (Deploy Solution)](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents)
 ## [Conditional access with Intune](conditional-access-intune.md)
 ### [Exchange online](conditional-access-intune-exchange-online.md)
 ### [Exchange on-premises](conditional-access-intune-exchange.md)
@@ -70,8 +70,7 @@
 ### [Exchange online](conditional-access-intune-configmgr-exchange-online.md)
 ### [Exchange on-premises](conditional-access-intune-configmgr-exchange.md)
 ### [Exchange online and on-premises](conditional-access-intune-configmgr-coexist.md)
-
-## [Device enrollment and compliance experience](end-user-experience-conditional-access.md)
-### [Windows Phone](end-user-experience-conditional-access-winphone.md)
-### [iOS](end-user-experience-conditional-access-ios.md)
+## [Conditional access user experience](end-user-experience-conditional-access.md)
 ### [Android](end-user-experience-conditional-access-android.md)
+### [iOS](end-user-experience-conditional-access-ios.md)
+### [Windows Phone](end-user-experience-conditional-access-winphone.md)

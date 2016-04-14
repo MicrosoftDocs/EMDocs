@@ -1,19 +1,30 @@
 ---
+# required metadata
+
 title: BYOD Summary and Additional Resources | BYOD Design Considerations Guide
-description: Blah
-keywords: "BYOD, device management, devices"
+description:
+keywords:
 author: YuriDio
 manager: swadhwa
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.date: 03/09/2016
+ms.date: 04/28/2016
 ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
 ms.assetid: 423c1de5-db20-4327-8c3b-a39b830cb58b
-author: YuriDio
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # BYOD Summary and Additional Resources
 
 After identifying the requirements and constraints in your environment and then evaluating each of the design considerations detailed in this document, you can create a BYOD infrastructure design that best meets your unique needs. Then, you can implement the BYOD infrastructure design in a test environment, test it, and deploy it to production.

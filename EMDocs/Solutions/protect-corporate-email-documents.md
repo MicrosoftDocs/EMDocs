@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 author: karthikaraman
 ---
+
 # Protecting corporate email and documents
 Protecting corporate email involves two main objectives:
 

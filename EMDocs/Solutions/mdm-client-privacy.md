@@ -1,14 +1,30 @@
 ---
+# required metadata
+
 title: Client privacy
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.date: 04/05/2016
-ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 #Client privacy
 
 >[!NOTE]

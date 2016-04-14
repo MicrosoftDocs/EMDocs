@@ -1,15 +1,30 @@
 ---
+# required metadata
+
 title: Mobile Device Management Design Considerations Guide
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd 
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Mobile Device Management Design Considerations Guide
 
 With all of the different design and configuration options for mobile device management (MDM) solutions, it’s sometimes difficult to determine which solution will best meet the needs of your organization. This design guide will help you to understand MDM design requirements and will detail a series of steps and tasks that you can follow to design a MDM solution that best fits the business and technology needs for your organization. 

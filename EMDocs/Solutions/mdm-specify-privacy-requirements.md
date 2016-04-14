@@ -1,15 +1,30 @@
 ---
+# required metadata
+
 title: Specify your privacy requirements
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.date: 04/06/2016
-ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Specify your privacy requirements
 
 >[!NOTE]
