@@ -54,21 +54,21 @@ layout: HubPage
             <section class="journey-step-elements content">
                 <ul class="row">
                 <li class="column column-third">
-                    <a href="">
+                    <a href="/active-directory/">
                     <h3>Azure Active Directory</h3>
                     <p>Synchronize on-premises directories and enable single sign-on.</p>
                     <h4>...</h4>
                     </a>
                 </li>
                 <li class="column column-third">
-                    <a href="">
+                    <a href="/multi-factor-authentication/">
                     <h3>Azure Multi-factor Authentication</h3>
                     <p>Safeguard access to your data and apps with an extra level of auth.</p>
                     <h4>...</h4>
                     </a>
                 </li>
                 <li class="column column-third">
-                    <a href="mim.html">
+                    <a href="/microsoft-identity-manager/">
                     <h3>Microsoft Identity Manager</h3>
                     <p>Configure identity and access management that is secure, flexible, and cloud ready.</p>
                     <h4>...</h4>
@@ -93,7 +93,7 @@ layout: HubPage
             <section class="journey-step-elements content">
                 <ul class="row">
                 <li class="column column-third">
-                    <a href="">
+                    <a href="/intune/">
                     <h3>Intune</h3>
                     <p>Manage &amp; protect corporate apps &amp; data on devices using Intune's MDM &amp; MAM capabilities.</p>
                     <h4>...</h4>
@@ -118,14 +118,14 @@ layout: HubPage
             <section class="journey-step-elements content">
                 <ul class="row">
                 <li class="column column-third">
-                    <a href="">
+                    <a href="/rights-management/">
                     <h3>Azure Rights Management</h3>
                     <p>Protect your information from unauthorized access, and control how information is used.</p>
                     <h4>...</h4>
                     </a>
                 </li>
                 <li class="column column-third">
-                    <a href="">
+                    <a href="/advanced-threat-analytics/">
                     <h3>Advanced Thread Analytics</h3>
                     <p>Identify breaches &amp; threats using behavioral analysis, and create reports on an attack timeline.</p>
                     <h4>...</h4>
@@ -150,7 +150,7 @@ layout: HubPage
             <section class="journey-step-elements content">
                 <ul class="row">
                 <li class="column column-third">
-                    <a href="">
+                    <a href="/remoteapp/">
                     <h3>Azure RemoteApp</h3>
                     <p>Deploy Windows cloud apps in the cloud and run them on any device.</p>
                     <h4>...</h4>
