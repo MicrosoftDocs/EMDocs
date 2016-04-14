@@ -57,12 +57,12 @@
 ### [Identify SaaS connectivity requirements](mdm-identify-saas-connectivity-requirements.md)
 ## [Next steps](mdm-next-steps-and-additional-resources.md)
 
-# [Protect Email and Documents - Architecture](architecture-guidance-for-protecting-company-email-and-documents.md)
+# [Protect Email and Documents (Architecture)](architecture-guidance-for-protecting-company-email-and-documents.md)
 ## [Protect corporate email](protect-corporate-email-documents.md)
 ## [Protect email attachments](protect-email-attachments.md)
 ## [Planning your implementation](implement-solution.md)
 
-# [Protect Email and Documents - Deploy Solution](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents)
+# [Protect Email and Documents (Deploy Solution)](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents)
 ## [Conditional access with Intune](conditional-access-intune.md)
 ### [Exchange online](conditional-access-intune-exchange-online.md)
 ### [Exchange on-premises](conditional-access-intune-exchange.md)
