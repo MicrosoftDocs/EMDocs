@@ -31,7 +31,7 @@ layout: HubPage
         <ul class="column-half">
             <li><a href="/microsoft-identity-manager/understand/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
             <li><a href="/rights-management/understand-explore/what-is-azure-rights-management">What is Azure Right Management Service?</a></li>
-            <li><a href="">Something from Matthew</a></li>
+            <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
         </ul>
         </div>
     </section>
