@@ -39,9 +39,9 @@ Compliance policies define the rules and settings that a device must comply with
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 
-![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![Screenshot showing the "Rules" page of the Create Compliance Policy Wizard where you can specify that an email profile must be managed by Intune.](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](./Solutions/end-user-experience-conditional-access.md).
+If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
 
 > [!IMPORTANT]
 > If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.
@@ -49,19 +49,19 @@ If you specify this compliance policy, a user who has already set up their email
 ### Step 2: Evaluate the effect of the conditional access policy.
 If you have configured a connection between Intune and Exchange by using the [Microsoft Intune service to service connector](https://stage.docs.microsoft.com/en-us/intune/deployuse/intune-service-to-service-exchange-connector), you can use the **Mobile Device Inventory Reports** to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.
 
-Follow the instructions at [Evaluate the effect of the conditional access policy](https://technet.microsoft.com/en-us/library/dn705841.aspx#bkmk_Eval_FX_CAP) to identify those users who will be impacted by conditional access policy.
+Follow the instructions at [Evaluate the effect of the conditional access policy](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) to identify those users who will be impacted by conditional access policy.
 
 ### Step 3: Configure user groups for the conditional access policy.
 You target conditional access policies to different groups of users depending on the policy types. These groups contain the users that will be targeted, or exempt from the policy. When a user is targeted by a policy, each device they use must be compliant in order to access email.
 
-For more information, see [Configure user groups for the conditional access policy](https://technet.microsoft.com/en-us/library/dn705841.aspx#BKMK_configUserGroups).
+For more information, see [Configure user groups for the conditional access policy](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access).
 
 ### Step 4: Configure conditional access policy.
 The following flow is used by conditional access policies for Exchange Online to evaluate whether to allow or block devices.
 
-![](./media/ProtectEmail/conditional-access-8-1.png)
+![Flowchart showing how conditional access policies for Exchange Online evaluate whether to allow or block devices.](./media/ProtectEmail/conditional-access-8-1.png)
 
-Follow the information provided under [To enable the Exchange Online policy](https://technet.microsoft.com/en-us/library/dn705841.aspx#BKMK_ExoCA) to set up your conditional access policy.
+Follow the information provided under [Configure the conditional access policy](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) to set up your conditional access policy.
 
 
 
@@ -71,7 +71,7 @@ Follow the information provided under [To enable the Exchange Online policy](htt
 To view devices that are blocked from Exchange:
 
 On the Intune dashboard, click the **Blocked Devices from Exchange** tile to show the number of blocked devices and links to more information.
-![IntuneSA6BlockedDevices](./media/ProtectEmail/intune-sa-6blocked-devices.PNG)
+![Screenshot showing the "Blocked Devices from Exchange" tile on the Intune dashboard.](./media/ProtectEmail/intune-sa-6blocked-devices.PNG)
 
 
 

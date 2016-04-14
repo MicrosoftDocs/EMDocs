@@ -1,28 +1,13 @@
 ---
-# required metadata
-
-title: Architecture guidance for protecting company email and documents
-description:
-keywords:
-author: karthikaraman
-manager: swadhwa
-ms.date: 04/28/2016
+title: Protect company email and documents
+ms.custom: na
+ms.reviewer: na
+ms.service: microsoft-intune
+ms.suite: na
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: 
-ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
-
+author: karthikaraman
 ---
 
 # Protecting corporate email and documents
@@ -88,7 +73,7 @@ On most platforms, the Azure Active Directory device registration happens automa
 
 **Azure AD**, authenticates the user and the device, Microsoft Intune manages the compliance and conditional access policies, and **Exchange Online** manages access to email based on the device state.
 
-![](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
+![Graphic showing the access control flow for native email apps on iOS and Android devices](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
 
 ### Access control flow for Outlook applications
 Similar to the EAS client, the Outlook email app attempting to access mail in Exchange Online will be evaluated for the following properties:
@@ -101,7 +86,7 @@ Similar to the EAS client, the Outlook email app attempting to access mail in Ex
 
 The device compliance is established in much in the same way as described in the EAS client access control flow. However, for Outlook apps, the flow between the components is slightly different. When the Outlook app attempts to get email, it is redirected to Azure AD. Azure AD issues a security token if the device is successfully evaluated to be enrolled and compliant. The security token is then used to get corporate email from Exchange Online. The email sync is actually brokered through the Outlook cloud service, which gets an EAS service access token on behalf of the user to complete the authentication and delivers the email.
 
-![](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
+![Graphic showing the access control flow for the Outlook app](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
 
 ## The IT admin experience:
 There is no complex infrastructure setup required for Azure AD or Exchange to make this happen. Your IT admins:

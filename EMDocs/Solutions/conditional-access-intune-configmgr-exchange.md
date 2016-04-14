@@ -41,7 +41,7 @@ If you are already using System Center Configuration Manager and Exchange in you
 ## Conditional access control flow for Exchange Server on-premises
 This diagram shows the control flow for clients attempting to access email in Exchange on-premises.
 
-![](./media/ProtectEmail/Hybrid-on-prem-CA-architecture.png)
+![Control flow diagram of conditional access in Configuration Manager with Intune and Exchange Server On-premises](./media/ProtectEmail/Hybrid-on-prem-CA-architecture.png)
 
 -   Microsoft Intune: Manages the compliance and conditional access policies for the device
 
@@ -122,7 +122,7 @@ Follow the steps at [How to Manage Mobile Devices by Using Configuration Manager
 
 3.  Click **Synchronize Now**.
 
-    ![](./media/ProtectEmail/Hybrid-Onprem-Run-FullSync.png)
+    ![Screenshot showing where to run a full synchronization in the Configuration Manager console](./media/ProtectEmail/Hybrid-Onprem-Run-FullSync.png)
 
 This full synchronization can take several hours to complete, depending on the number of devices. A full synchronization will run once every 24 hours by default. A delta synchronization discovers device connections since the previous full synchronization and occurs per the interval you set during installation of the Exchange Server Connector. This ensures that new users and new Exchange users are discovered quickly so that conditional access can be applied.
 
@@ -138,7 +138,7 @@ Compliance policies define the rules and settings that a device must comply with
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 
-![](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![Screenshot showing the "Rules" page of the Create Compliance Policy Wizard where you can specify that an email profile must be managed by Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
 If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
 
@@ -155,20 +155,20 @@ If you don’t have a large number of users already enrolled in Intune, conditio
 ## Verification Steps
 Using the Configuration Manager Trace Log Tool, open the EasDisc.log file (located in the Microsoft Configuration Manager/Logs folder where you installed Configuration Manager). Search the log file for “Exchange Connector” to find information about whether the Exchange Connector is running and how many devices are connected.
 
-![](./media/ProtectEmail/Hybrid-Onprem-Eas-DiscLog-Sample.PNG)
+![Screenshot showing the EasDisc.log file opened in the Configuration Manager Trace Log Tool](./media/ProtectEmail/Hybrid-Onprem-Eas-DiscLog-Sample.PNG)
 
-The Configuration Manager Trace Log Tool is included in the [System Center 2012 R2 Configuration Manager Toolkit](http://www.microsoft.com/en-us/download/details.aspx?id=36213).
+The Configuration Manager Trace Log Tool is included in the [System Center 2012 R2 Configuration Manager Toolkit](http://www.microsoft.com/en-us/download/details.aspx?id=50012).
 
 ## Reporting
 You can use the Configuration Manager console to view specific information about devices that have been discovered by the Exchange Connector. For devices on which conditional access is enforced, you can view the current status of each device, the last time the device was connected with the Exchange server, and so on.
 
 In the Configuration Manager console, click **Assets and Compliance** and then click **Devices**. You can view the current status of each device (Blocked or Allowed) in the **Exchange Access State** column. Add this column if not already shown by right-clicking in the column title bar area. You can also view the last successful synchronization time for each device as reported by Exchange by adding the **Last Success Sync Time To Exchange Server** column.
 
-![](./media/ProtectEmail/Hybrid-Onprem-Verify-Devices-State.png)
+![Screenshot showing a list of devices in the Configuration Manager console](./media/ProtectEmail/Hybrid-Onprem-Verify-Devices-State.png)
 
 If you are running SQL Server Reporting Services (SSRS), you can view a conditional access report that shows the compliance state of devices, whether there is an Exchange connector installed and running, and the EAS Access state. It will also provide information about Active Directory registration, EAS activation, as well as the device owner.
 
-![](./media/ProtectEmail/Hybrid-Reports-CA.png)
+![Screenshot showing a sample of a SQL Server Reporting Services report](./media/ProtectEmail/Hybrid-Reports-CA.png)
 
 To view SSRS reports, you must have a reporting role installed on the primary server:
 
@@ -182,7 +182,7 @@ To view SSRS reports, you must have a reporting role installed on the primary se
 
 The following shows the deployment status of the configuration policy:
 
-![](./media/ProtectEmail/Hybrid-Reports-Deployment-Status.png)
+![Screenshot showing the deployment status of the configuration policy](./media/ProtectEmail/Hybrid-Reports-Deployment-Status.png)
 
 ### Latency
 A device is blocked as soon as it is discovered by the Exchange connector. The latency of blocking depends on the configured intervals for Full synchronization and delta synchronization and the time in between these intervals when the device connects to the Exchange server. By default, a Full synchronization occurs every 24 hours while a delta synchronization occurs every 240 minutes. During this latency period, a device might be considered compliant.

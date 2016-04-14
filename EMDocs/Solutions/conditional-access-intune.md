@@ -28,7 +28,7 @@ ms.suite: ems
 # Use conditional access with Microsoft Intune
 This solution lets you use conditional access in Intune to help secure email and other services depending on conditions you specify.
 
-See [Manage access to email and SharePoint with Microsoft Intune](https://technet.microsoft.com/en-us/library/dn818907.aspx) for more information, including a video, about how you can use the conditional access feature with Intune.
+See [Restrict access to email and O365 services with Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) for more information about how you can use the conditional access feature with Intune.
 
 > [!TIP]
 > Get a downloadable copy of this entire topic at the [TechNet Gallery](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4).
@@ -67,7 +67,7 @@ AAD DRS will be activated automatically for Intune and Office 365 customers. Cus
 
 -   You must use an Office 365 subscription that includes Exchange Online (such as E3) and users must be licensed for Exchange Online.
 
--   The optional **Microsoft Intune service to service connector** connects Intune to Microsoft Exchange Online and helps you manage device information through the Intune console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](Mobile%20device%20management%20with%20Exchange%20ActiveSync%20and%20Microsoft%20Intune.md)). You do not need to use the connector to use compliance policies or conditional access policies, but is required to run reports that help evaluate the impact of conditional access.
+-   The optional **Microsoft Intune service to service connector** connects Intune to Microsoft Exchange Online and helps you manage device information through the Intune console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/mobile-device-management-with-exchange-activesync-and-microsoft-intune)). You do not need to use the connector to use compliance policies or conditional access policies, but is required to run reports that help evaluate the impact of conditional access.
 
     If you configure the connector, some Exchange ActiveSync policies from Intune might be visible in the Office console but are not set as default policies and do not affect devices.
 
@@ -96,7 +96,7 @@ Additionally:
 
 -   Exchange ActiveSync can be configured with certificate based authentication, or user credential entry.
 
--   You must use the **on-premises Exchange connector** which connects Intune to Microsoft Exchange Server on-premises. This lets you manage devices through the Intune console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](Mobile%20device%20management%20with%20Exchange%20ActiveSync%20and%20Microsoft%20Intune.md)).
+-   You must use the **on-premises Exchange connector** which connects Intune to Microsoft Exchange Server on-premises. This lets you manage devices through the Intune console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/mobile-device-management-with-exchange-activesync-and-microsoft-intune)).
 
   > [!IMPORTANT]
 > Make sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.
