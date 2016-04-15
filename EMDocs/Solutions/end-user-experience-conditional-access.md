@@ -18,7 +18,7 @@ ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -40,7 +40,7 @@ Once the device is evaluated as enrolled and compliant, the email sync should ha
 
 ## iOS
 
-[This topic](../Solutions/end-user-experience-conditional-access-ios.md) describes the end-user experience when an end user first tries to access email on their iOS mobile device after conditional access is enabled.
+[This topic](../Solutions/end-user-experience-conditional-access-ios.md) describes the user experience when an end user first tries to access email on their iOS mobile device after conditional access is enabled.
 
 ## Windows Phone
 

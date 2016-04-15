@@ -18,7 +18,7 @@ ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -33,37 +33,37 @@ The enrollment process and the screens the user sees will be slightly different 
 
 1.  If a user is already enrolled in Intune and is compliant, they will see no difference on iOS devices; they will continue to get access to email. If the user is not yet enrolled, they will see a quarantine message similar to this when they launch their mail app:
 
-    ![](./media/EUX-iOS-Get-Started.PNG)
+    ![Screenshot showing the quarantine email user receives on an iOS device](./media/ProtectEmail/EUX-iOS-Get-Started.PNG)
 
     The user clicks **Get started now** to begin enrolling their device.
 
 2.  The user is prompted to install the Intune Company Portal app from the respective app store.
 
-    ![](./media/ProtectEmail/EUX-iOS-intune-Company-Portal.png)
+    ![Screenshot showing the Intune Company Portal on an iOS device](./media/ProtectEmail/EUX-iOS-intune-Company-Portal.png)
 
     After it installs, the user opens the app and signs in using their company credentials.
 
 3.  On the Company Access Setup screen, the user clicks **Begin** to start setting up their device and checking whether it is compliant.
 
-    ![](./media/ProtectEmail/EUX-iOS-company-AccessSetup.png)
+    ![Screenshot showing the Company Access Setup screen on an iOS device](./media/ProtectEmail/EUX-iOS-company-AccessSetup.png)
 
 4.  On the Device Enrollment screen, the user clicks **Enroll** to start enrolling their device.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Enrollment.png)
+    ![Screenshot showing the Device Enrollment screen on an iOS device](./media/ProtectEmail/EUX-iOS-device-Enrollment.png)
 
     During enrollment, the Mobile Device Management profile is installed to allow you, the IT administrator, to remotely manage the device. The user enters their password if prompted.
 
 5.  On the Company Access Setup screen, the user clicks **Continue** to start checking compliance on the device.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
+    ![Screenshot showing that device enrollment is successful on an iOS device and user needs to check compliance](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
 
     If there is a compliance issue, the user is prompted to resolve the issue (such as by creating a valid password) and to then click **Check Compliance** to continue.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
+    ![Screenshot showing that user must resolve compliance issues on an iOS device](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
 
 6.  After the device is fully compliant, the user clicks **Continue** to proceed.
 
-    ![](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
+    ![Screenshot showing that iOS device is compliant and setup is completed](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
 
     After the user is enrolled and compliance is verified, email access should become available within a few minutes.
 
@@ -82,17 +82,17 @@ Every 8 hours by default, devices are checked to ensure that they are still comp
 
 2.  If the user tries to access email, they are redirected back to the Company Access Setup screen from the Intune Company portal where it shows that they are out of compliance.
 
-    ![](./media/ProtectEmail/EUX-iOS-fallOut-Compliance.png)
+    ![Screenshot showing that iOS device became non-compliant](./media/ProtectEmail/EUX-iOS-fallOut-Compliance.png)
 
 3.  The user clicks **Continue** and is shown the compliance issue that is preventing them from accessing email.
 
-    ![](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
+    ![Screenshot showing that user must resolve compliance issues on an iOS device](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
 
 4.  After they have fixed the issue, they click **Check Compliance** to verify that the problem is resolved.
 
 5.  If the issue is fixed, the user clicks **Continue** to complete the process.
 
-    ![](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
+    ![Screenshot showing that iOS device is compliant and setup is completed](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
 
     Email access should become available again within a few minutes.
 
