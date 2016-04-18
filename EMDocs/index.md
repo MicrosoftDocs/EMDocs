@@ -25,11 +25,11 @@ layout: HubPage
         <div class="features row">
         <ul class="column-half">
             <li><a href="/em/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
-            <li><a href="/intune/understand/introduction-to-microsoft-intune">What is Microsoft Intune?</a></li>
-            <li><a href="/advanced-threat-analytics/understand/what-is-ata">What is Advanced Threat Analytics?</a></li>
+            <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">What is Microsoft Intune?</a></li>
+            <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">What is Advanced Threat Analytics?</a></li>
         </ul>
         <ul class="column-half">
-            <li><a href="/microsoft-identity-manager/understand/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
+            <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
             <li><a href="/rights-management/understand-explore/what-is-azure-rights-management">What is Azure Right Management Service?</a></li>
             <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
         </ul>
@@ -186,6 +186,7 @@ layout: HubPage
     <aside class="alert alert-social">
         <p>Keep up with the latest news</p>
         <ol class="action-list">
+		<li><a href="https://blogs.technet.microsoft.com/enterprisemobility/" target="_blank" class="button-bordered button-translucent">Enterprise Mobility Blog</a></li>
         <li><a href="https://blogs.technet.microsoft.com/in_the_cloud/" target="_blank" class="button-bordered button-translucent">In The Cloud Blog</a></li>
         </ol>
     </aside>
