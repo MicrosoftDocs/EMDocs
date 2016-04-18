@@ -21,7 +21,7 @@ layout: HubPage
     </aside>
 
     <section id="featured" class="container">
-        <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Featured Articles</h2>
+        <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Featured Content</h2>
         <div class="features row">
         <ul class="column-half">
             <li><a href="/em/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
