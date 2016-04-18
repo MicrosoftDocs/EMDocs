@@ -19,13 +19,13 @@
     homepage: /ata
     items:
       - name: Understand and explore
-        href: /advanced-threat-analytics/understand/
+        href: /advanced-threat-analytics/understand-explore/
         homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
       - name: Plan and design 
-        href: /advanced-threat-analytics/plandesign/
+        href: /advanced-threat-analytics/plan-design/
         homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
       - name: Deploy and use
-        href: /advanced-threat-analytics/deployuse/
+        href: /advanced-threat-analytics/deploy-use/
         homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
       - name: Troubleshoot
         href: /advanced-threat-analytics/troubleshoot/
@@ -35,20 +35,20 @@
     homepage: /intune
     items:
       - name: Understand and explore
-        href: /intune/understand/
+        href: /intune/understand-explore/
         homepage: /intune/understand/ways-to-do-enterprise-mobility
       - name: Plan and design 
-        href: /intune/plandesign/
+        href: /intune/plan-design/
         homepage: /intune/plandesign/plan-you-user-and-device-groups
       - name: Deploy and use
-        href: /intune/deployuse/
-        homepage: /intune/deployuse/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
+        href: /intune/deploy-use/
+        homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
       - name: Troubleshoot
         href: /intune/troubleshoot/
         homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
       - name: Get started
-        href: /intune/getstarted/
-        homepage: /intune/getstarted/what-s-new-in-microsoft-intune
+        href: /intune/get-started/
+        homepage: /intune/get-started/what-s-new-in-microsoft-intune
   - name: Azure Rights Management
     href: /rights-management/
     homepage: /rights-management
@@ -80,19 +80,19 @@
     items:
       - name: Understand and explore
         href: /microsoft-identity-manager/understand/
-        homepage: /microsoft-identity-manager/understand/journey-understand-evaluate
+        homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
       - name: Plan and design 
-        href: /microsoft-identity-manager/plandesign/
-        homepage: /microsoft-identity-manager/plandesign/journey-plan-design
+        href: /microsoft-identity-manager/plan-design/
+        homepage: /microsoft-identity-manager/plan-design/journey-plan-design
       - name: Deploy and Use
-        href: /microsoft-identity-manager/deployuse/
-        homepage: /microsoft-identity-manager/deployuse/journey-deploy-use-html
+        href: /microsoft-identity-manager/deploy-use/
+        homepage: /microsoft-identity-manager/deploy-use/journey-deploy-use-html
       - name: Reference
         href: /microsoft-identity-manager/reference/
         homepage: /microsoft-identity-manager/reference/journey-develop-applications
       - name: Get started
-        href: /microsoft-identity-manager/getstarted/
-        homepage: /microsoft-identity-manager/getstarted/journey-get-started
+        href: /microsoft-identity-manager/get-started/
+        homepage: /microsoft-identity-manager/get-started/journey-get-started
   - name: Reference
     href: /active-directory/adal/
     homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
