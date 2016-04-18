@@ -23,7 +23,7 @@ Onboarding has two major components:
 
 The following diagram describes the high-level onboarding phases of using the FastTrack Center Benefit.
 
-![](./media/1-rms-onboarding-process.png)
+![FastTrack-onboarding-phases](./media/1-rms-onboarding-process.png)
 
 The basic process is as follows:
 
