@@ -18,7 +18,7 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,18 +28,20 @@ ms.suite: ems
 # Architecture guidance for protecting company email and documents
 This topic starts with an overview of how you can provide data protection for your company while ensuring that the end-user experience is simple and does not impact productivity. Then, we will focus specifically on how you can help provide secure access to your corporate email and help protect company data in email and attachments using the Microsoft Enterprise Mobility Suite solution.
 
+This section discusses the architecture for protecting company email and documents. See [Learn more about how to deploy a solution for protecting company email and documents](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) for guidance on deploying a solution.
+
 > [!TIP]
 > Get a downloadable copy of this entire topic  at the [TechNet Gallery](https://gallery.technet.microsoft.com/Managing-Access-and-Help-b7a05d0d/file/140056/1/Managing%20Access%20and%20Help%20Protect%20Corporate%20Email%20Data%20on%20Mobile%20Devices.pdf).
 
 Employees want to be able to use their own devices to access company resources and productivity tools. IT needs to make sure that employees have this ability but sensitive company data is protected. BYOD, or [Bring your own device](../Solutions/byod-design-considerations-guide.md), poses a specific challenge in that there needs to be a separation of personal and work data on personal devices and prevent intentional or unintentional sharing of company data.
 
-**Studies show that:**
+**Studies have shown that:**
 
--   37% of the world’s workforce is mobile&#42;
+-   37% of the world’s workforce is mobile
 
--   53% of total email opens occurred on a mobile phone or tablet in Q3 2014&#42;&#42;
+-   53% of total email opens occurred on a mobile phone or tablet in Q3 2014
 
--   61% of workers mix personal and work tasks in their devices&#42;&#42;&#42;
+-   61% of workers mix personal and work tasks in their devices
 
 Consider this:
 
@@ -82,33 +84,21 @@ The third layer is the  **app management layer** with the Intune-managed app eco
 *Azure Rights Management (Azure RMS)* completes the security model by protecting data at the file level. The security policies that are applied to the data, travel with the data, help keep the data secure in transit and at rest, regardless of the device that is used to access it. This is the  **data layer** of the security model.
 
 ## Where to go from here
-[Watch](https://www.youtube.com/watch?v=ltcZvm4VOFU) this video to learn how to sign up for a trial account and get started.
+- [Watch](https://www.youtube.com/watch?v=ltcZvm4VOFU) this video to learn how to sign up for a trial account and get started.
 
-Read the [Mobile Device Management Design Considerations Guide](../Solutions/mdm-design-considerations-guide.md) to better understand mobile device management design requirements.
+- Read the [Mobile Device Management Design Considerations Guide](../Solutions/mdm-design-considerations-guide.md) to better understand mobile device management design requirements.
 
-[Learn more about how to deploy a solution for protecting company email and documents](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
+- [Learn more about how to deploy a solution for protecting company email and documents](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
-Footnotes:
+Also, if you'd like to learn more about EMS and Azure Active Directory, you can get more information from any of these articles:
+- [EMS Architecture](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
 
-&#42; IDC: "Worldwide Mobile Worker Population 2011–2015 Forecast"
+- [What is Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
 
-&#42;&#42; Experian "Quarterly email benchmark report" (Q3 2014)
+- [How does Azure Active Directory support Office 365, Microsoft Intune, and other Microsoft services?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
 
-&#42;&#42;&#42; Forrester Research: "BT Futures Report: Info workers will erase boundary between enterprise &amp; consumer technologies," Feb. 21, 2013
+- [How does Azure Active Directory help you manage identities](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
 
-### See Also
-[EMS Architecture](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
+- [What is Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
 
-[Start using Intune](https://stage.docs.microsoft.com/en-us/intune/understand/introduction-to-microsoft-intune)
-
-[What is Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
-
-[How does Azure Active Directory support Office 365, Microsoft Intune, and other Microsoft services?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
-
-[How does Azure Active Directory help you manage identities](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
-
-[What is Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
-
-[How Applications support Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585004.aspx)
-
-[Automatically protecting emails with Exchange Online and data loss prevention policies](https://technet.microsoft.com/en-us/library/jj585026.aspx#BKMK_Example_DLP)
+- [How Applications support Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585004.aspx)
