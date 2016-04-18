@@ -63,7 +63,7 @@ layout: HubPage
                 <li class="column column-third">
                     <a href="/multi-factor-authentication/">
                     <h3>Azure Multi-factor Authentication</h3>
-                    <p>Safeguard access to your data and apps with an extra level of auth.</p>
+                    <p>Safeguard access to your data and apps with an extra level of authentication.</p>
                     <h4>...</h4>
                     </a>
                 </li>
@@ -160,7 +160,7 @@ layout: HubPage
             </section>
 
             </li>
-            
+
         </ul>
         </section>
     </div>
