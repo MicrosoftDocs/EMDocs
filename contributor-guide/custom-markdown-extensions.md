@@ -56,19 +56,19 @@ In general, use notes and tips sparingly throughout your articles. When you do u
 
 - Use EMS.NOTE to highlight neutral or positive information that emphasizes or supplements key points of the main text. A note supplies information that applies only in special cases.
 
-  ![](./media/notes-note.png)
+  ![Note icon](./media/notes-note.png)
 
 - Use EMS.WARNING to alert the user to a condition that might cause a problem in the future. For example, selecting a certain option or making a certain choice might permanently lock you into a particular scenario.
 
-  ![](./media/notes-warning.png)
+  ![Warning icon](./media/notes-warning.png)
 
 - Use EMS.TIP to help your users apply the techniques and procedures described in the text to their specific needs. A tip might also suggest alternative methods that may not be obvious. Tips, however, are not essential to the basic understanding of the text.
 
-  ![](./media/notes-tip.png)
+  ![Tip icon](./media/notes-tip.png)
 
 - Use EMS.IMPORTANT to provide information that is essential to the completion of a task.
 
-  ![](./media/notes-important.png)
+  ![Important icon](./media/notes-important.png)
 
 While these notes and tips support code blocks, images, lists, and links, try to keep your notes and tips simple and straightforward. If you find yourself creating complex notes with lots of formatting, that might be a sign you just need another section in the main text of the article. And, too many notes in an article can be distracting and hard to scan or read.
 
@@ -145,7 +145,7 @@ In the rendered GitHub page, the token will render as follows:
 
 In the rendered HTML on <span style="color:red;">Confirm EMS Documentation URL</span> http://docs.microsoft.com/ems, the HTML from the tokens is merged into the rest of the document's HTML. However, the HTML will contain an HTML comment with the original token markdown filename and the GitHub commit hash. This comment is included for troubleshooting purposes so that the source content can easily be identified and found in GitHub:
 
-  ![](./media/token.png)
+  ![Token icon](./media/token.png)
 
 
 ## Embedded videos
