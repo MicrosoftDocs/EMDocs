@@ -10,7 +10,7 @@ layout: HubPage
         <!-- <ol id="actions" class="action-list">
         <li><a href="" class="button button-bordered">Learn More</a></li>
         </ol> -->
-	    <h3>New to enterprise mobility? <a href="https://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the enterprise mobility page &rarr;</a></h3>
+	    <h3>New to enterprise mobility? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the enterprise mobility page &rarr;</a></h3>
     </section>
 
     <aside class="alert section-border">
@@ -175,9 +175,9 @@ layout: HubPage
             <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Hybrid Identity Design Considerations Guide</a></li>
             </ul>
             <ul class="column-half">
-            <li><a href="/em/solutions/conditional-access-intune.md">Conditional access with Intune</a></li>
+            <li><a href="/em/solutions/conditional-access-intune.md">Conditional Access with Intune</a></li>
             <li><a href="/em/solutions/architecture-guidance-for-protecting-company-email-and-documents">Protect Company Email and Documents</a></li>
-            <li><a href="/em/solutions/scenarios-guides">Learn more about scenarios and guides</a></li>
+            <li><a href="/em/solutions/scenarios-guides">See more scenarios and guides</a></li>
             </ul>
         </div>
         </section>
