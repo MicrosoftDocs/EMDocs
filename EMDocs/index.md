@@ -81,7 +81,7 @@ layout: HubPage
 
             <li class="journey-step">
 
-            <header class="journey-step-header expander row expanded>
+            <header class="journey-step-header expander row expanded">
                 <div class="title column-third">
                 <span class="icon icon-mobile"></span>
                 <p>Mobile Device &amp; Application Management</p>
