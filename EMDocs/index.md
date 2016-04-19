@@ -43,12 +43,14 @@ layout: HubPage
             <li class="journey-step">
 
             <header class="journey-step-header expander row expanded">
+                <a href="">
                 <div class="title column-third">
                 <span class="icon icon-connect"></span>
                 <p>Identity &amp; Access Management</p>
                 </div>
                 <p class="description column-two-thirds">Enterprise-grade identity and access management for nearly any app or device, cloud, or on-premises. Delivers single sign-on, multi-factor authentication, self-service passwords, and more.
                 </p>
+                </a>
             </header>
 
             <section class="journey-step-elements content">
@@ -82,12 +84,14 @@ layout: HubPage
             <li class="journey-step">
 
             <header class="journey-step-header expander row expanded">
+                <a href="">
                 <div class="title column-third">
                 <span class="icon icon-mobile"></span>
                 <p>Mobile Device &amp; Application Management</p>
                 </div>
                 <p class="description column-two-thirds">Cloud-based enterprise mobility management that helps you control employee access to corporate applications and data on virtually any device.
                 </p>
+                </a>
             </header>
 
             <section class="journey-step-elements content">
@@ -107,12 +111,14 @@ layout: HubPage
             <li class="journey-step">
 
             <header class="journey-step-header expander row expanded">
+            	<a href="">
                 <div class="title column-third">
                 <span class="icon icon-shield"></span>
                 <p>Information Protection &amp; Security</p>
                 </div>
                 <p class="description column-two-thirds">Protect corporate data by allowing more secure access to company resources and enabling safe sharing of sensitive information inside and outside your organization.
                 </p>
+                </a>
             </header>
 
             <section class="journey-step-elements content">
@@ -139,12 +145,14 @@ layout: HubPage
             <li class="journey-step">
 
             <header class="journey-step-header expander row expanded">
+            	<a href="">
                 <div class="title column-third">
                 <span class="icon icon-desktops"></span>
                 <p>Desktop Virtualization</p>
                 </div>
                 <p class="description column-two-thirds">Stream applications from your datacenter or the cloud to keep users productive anywhere, on any device, and your data more secure.
                 </p>
+                </a>
             </header>
 
             <section class="journey-step-elements content">
