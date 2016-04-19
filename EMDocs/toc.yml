@@ -96,3 +96,13 @@
   - name: Active Directory Authentication Library
     href: /active-directory/adal/
     homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
+  - name: Azure RMS SDK Reference
+    href: /rights-management/sdk/
+    homepage: /rights-management/develop/developers-guide
+    items:
+      - name: SDK 4.2
+        href: /rights-management/sdk/4.2/api/
+        homepage: /rights-management/develop/api-reference-4-2
+      - name: SDK 2.1
+        href: /rights-management/sdk/2.1/api/
+        homepage: /rights-management/develop/api-reference-2-1
