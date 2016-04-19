@@ -42,7 +42,7 @@ layout: HubPage
         <ul class="journeys-list">
             <li class="journey-step">
 
-            <header class="journey-step-header row">
+            <header class="journey-step-header expander row expanded">
                 <div class="title column-third">
                 <span class="icon icon-connect"></span>
                 <p>Identity &amp; Access Management</p>
@@ -81,7 +81,7 @@ layout: HubPage
 
             <li class="journey-step">
 
-            <header class="journey-step-header row">
+            <header class="journey-step-header expander row expanded>
                 <div class="title column-third">
                 <span class="icon icon-mobile"></span>
                 <p>Mobile Device &amp; Application Management</p>
@@ -106,7 +106,7 @@ layout: HubPage
 
             <li class="journey-step">
 
-            <header class="journey-step-header row">
+            <header class="journey-step-header expander row expanded">
                 <div class="title column-third">
                 <span class="icon icon-shield"></span>
                 <p>Information Protection &amp; Security</p>
@@ -138,7 +138,7 @@ layout: HubPage
 
             <li class="journey-step">
 
-            <header class="journey-step-header row">
+            <header class="journey-step-header expander row expanded">
                 <div class="title column-third">
                 <span class="icon icon-desktops"></span>
                 <p>Desktop Virtualization</p>
