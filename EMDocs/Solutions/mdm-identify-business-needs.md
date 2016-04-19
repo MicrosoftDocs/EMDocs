@@ -1,14 +1,30 @@
 ---
+# required metadata
+
 title: Identify Business Needs
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Identify your business needs
 
 >[!NOTE]

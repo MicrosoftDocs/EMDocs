@@ -1,14 +1,30 @@
 ---
-title: Architecture guidance for protecting company email and documents
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+# required metadata
+
+title: Protect company email and documents
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Protecting corporate email and documents
 Protecting corporate email involves two main objectives:
 
@@ -34,7 +50,7 @@ Conditional access is determined by two types of policies you can set in Intune:
 ## High level end-user experience
 After the solution is implemented, end-users will only be able to access the company email on managed and compliant devices. Once they have the ability to access the email on the devices, the company data is protected and contained within the app ecosystem and only available to the intended users. Access can be revoked at any time if the device becomes noncompliant.
 
-Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Topic/end-user-experience-of-conditional-access.md).
+Specifically, the conditional access policies set in Intune ensure that the devices can only access email if they are compliant with the compliance policies you set. Actions such as copy and paste or saving to personal cloud storage services can be restricted using mobile application management policies. Azure Rights Managements service can be used to ensure that the sensitive email data, and forwarded attachments, can only be read by intended recipients. The end-user experience is described in more detail in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
 
 
 Watch [this](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) four minute video to see how conditional access affects your end users.
@@ -72,7 +88,7 @@ On most platforms, the Azure Active Directory device registration happens automa
 
 **Azure AD**, authenticates the user and the device, Microsoft Intune manages the compliance and conditional access policies, and **Exchange Online** manages access to email based on the device state.
 
-![](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
+![Graphic showing the access control flow for native email apps on iOS and Android devices](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
 
 ### Access control flow for Outlook applications
 Similar to the EAS client, the Outlook email app attempting to access mail in Exchange Online will be evaluated for the following properties:
@@ -85,7 +101,7 @@ Similar to the EAS client, the Outlook email app attempting to access mail in Ex
 
 The device compliance is established in much in the same way as described in the EAS client access control flow. However, for Outlook apps, the flow between the components is slightly different. When the Outlook app attempts to get email, it is redirected to Azure AD. Azure AD issues a security token if the device is successfully evaluated to be enrolled and compliant. The security token is then used to get corporate email from Exchange Online. The email sync is actually brokered through the Outlook cloud service, which gets an EAS service access token on behalf of the user to complete the authentication and delivers the email.
 
-![](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
+![Graphic showing the access control flow for the Outlook app](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
 
 ## The IT admin experience:
 There is no complex infrastructure setup required for Azure AD or Exchange to make this happen. Your IT admins:
@@ -108,4 +124,4 @@ When the user attempts to access email on the device for the first time, or sync
 Once the device is evaluated as enrolled and compliant, the email sync should happen within a few minutes.
 
 ## Where to go from here
-Now that you understand about protecting corporate email and documents, you can read about how to [protect email attachments](../Topic/protect-email-attachments.md). Or if you are ready, learn more about [implementing a solution to protect your corporate email](../Topic/implement-solution.md).
+Now that you understand about protecting corporate email and documents, you can read about how to [protect email attachments](../Solutions/protect-email-attachments.md). Or if you are ready, learn more about [implementing a solution to protect your corporate email](../Solutions/implement-solution.md).

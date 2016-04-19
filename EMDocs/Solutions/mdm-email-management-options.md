@@ -1,15 +1,30 @@
 ---
+# required metadata
+
 title: Email management options
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid:  
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Email management options
 
 >[!NOTE]
@@ -72,6 +87,6 @@ Your answers to the questions in Step 1 can help you determine how you want devi
 
 Explore the details about mobile device email configuration management options by reviewing the following:
 
-- Intune: How to [enable email profiles](https://docs.microsoft.com/en-us/intune/deployuse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune.html) and [conditional email access](https://docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune.html)
+- Intune: How to [enable email profiles](/Intune/deployuse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) and [conditional email access](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune)
 - ConfigMgr: Enabling [email profiles](https://technet.microsoft.com/library/dn554227.aspx) and [conditional email access](https://technet.microsoft.com/library/dn919655.aspx)
 - MDM for Office 365: [Capabilities of mobile device management](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)

@@ -1,14 +1,30 @@
 ---
+# required metadata
+
 title: Understand the MDM lifecycle
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Understand the MDM lifecycle
 
 >[!NOTE]

@@ -1,15 +1,30 @@
 ---
+# required metadata
+
 title: Mobile Device Management Design Considerations Guide
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd 
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Mobile Device Management Design Considerations Guide
 
 With all of the different design and configuration options for mobile device management (MDM) solutions, it’s sometimes difficult to determine which solution will best meet the needs of your organization. This design guide will help you to understand MDM design requirements and will detail a series of steps and tasks that you can follow to design a MDM solution that best fits the business and technology needs for your organization. 
@@ -35,7 +50,7 @@ The figure above is an example of a hybrid management solution, where it’s lev
  
 This guide details a series of steps and tasks that you should follow to assist you in designing a customized MDM solution that meets your organization’s unique requirements. Throughout the following steps and tasks, this guide covers the relevant technologies and feature options available to you to meet the functional and service quality level requirements for MDM. 
 
-Though this guide can help you design a MDM solution, it does not discuss specific implementation or operations options for the management solutions. You can find detailed deployment and configuration steps [Microsoft Intune](https://docs.microsoft.com/en-us/intune/), [Mobile Device Management for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx), and [Microsoft System Center Configuration Manager](https://technet.microsoft.com/library/cc507089.aspx) in the docs.microsoft.com and TechNet libraries using the links available in the **Next steps and additional resources** section located at the end of this guide.
+Though this guide can help you design a MDM solution, it does not discuss specific implementation or operations options for the management solutions. You can find detailed deployment and configuration steps [Microsoft Intune](/Intune/), [Mobile Device Management for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx), and [Microsoft System Center Configuration Manager](https://technet.microsoft.com/library/cc507089.aspx) in the docs.microsoft.com and TechNet libraries using the links available in the **Next steps and additional resources** section located at the end of this guide.
 
 **Assumptions:** You have some experience with Microsoft Intune, System Center 2012 R2 Configuration Manager (ConfigMgr), Windows Server 2012 R2, and mobile devices running Android, iOS, and Windows Phone. You may have even deployed one of these solutions in an initial MDM test or limited production environment. In this guide, we assume you are looking for how these solutions can best meet your business needs on their own or in an integrated solution.
 

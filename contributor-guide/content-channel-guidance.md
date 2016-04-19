@@ -17,7 +17,7 @@ Click the image to open the PDF that contains details for our technical content 
 <span style="color:red;">Need to create a content channel document for EMS: replace the thumbnail below and the corresponding PDF file.</span>
 
   
-[![](./media/content-channels-small.png)](./media/channel-guidance.pdf?raw=true)
+[![checkbox icon](./media/content-channels-small.png)](./media/channel-guidance.pdf?raw=true)
 
 
 

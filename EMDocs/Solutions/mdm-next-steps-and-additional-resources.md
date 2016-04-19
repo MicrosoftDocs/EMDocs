@@ -1,14 +1,30 @@
 ---
+# required metadata
+
 title: Next steps and additional resources
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Next steps and additional resources
 
 >[!NOTE]
@@ -30,7 +46,7 @@ Conceptual and procedural planning, deployment, and administration content are u
 
 - The [Bring Your Own Device (BYOD) Design Considerations Guide](./BYOD-design-considerations-guide.md) can help you identify critical design considerations that need to be addressed before designing a BYOD solution that enables your employees to use their own devices and protects your company’s data.
 - [Microsoft System Center 2012 R2 Configuration Manager](https://technet.microsoft.com/library/cc507089.aspx) solutions can help you capture and aggregate knowledge about your infrastructure, policies, processes, and best practices so that your IT staff can build manageable systems and automate operations.
-- [Microsoft Intune](https://technet.microsoft.com/library/jj676587.aspx) is a cloud-based device management service that helps you to manage your computers and mobile devices and to secure your company’s information.
+- [Microsoft Intune](/Intune/) is a cloud-based device management service that helps you to manage your computers and mobile devices and to secure your company’s information.
 - [MDM for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx) allows you to manage and secure mobile devices when they're connected to your Office 365 organization. You can use MDM for Office 365  to set device security policies and access rules, and to wipe mobile devices if they’re lost or stolen. Get an overview of the features and setup steps for MDM in Office 365 in [Explore the built-in Mobile Device Management (MDM) feature for Office 365](https://blogs.office.com/2015/07/21/explore-the-built-in-mobile-device-management-mdm-feature-for-office-365/).
 
 ## Mobile device management resources

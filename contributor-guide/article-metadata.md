@@ -57,14 +57,14 @@ The tags section uses the following syntax:
 
 ## Attributes and values for the Properties section
 
-![](./media/checkmark-small.png)**pageTitle**: Required; important to SEO. The text for this attribute appears in the browser tab and as the title in a search result. Use 55-60 characters including spaces and including the site identifier *| Microsoft EMS* (typed as: space pipe space Microsoft EMS).  The pageTitle should be different from the H1.
+![checkbox icon](./media/checkmark-small.png)**pageTitle**: Required; important to SEO. The text for this attribute appears in the browser tab and as the title in a search result. Use 55-60 characters including spaces and including the site identifier *| Microsoft EMS* (typed as: space pipe space Microsoft EMS).  The pageTitle should be different from the H1.
 
-![](./media/checkmark-small.png)**description**: Required; important for SEO (relevance) and site functionality. The description should be at least 125 characters long to 155 characters maximum including spaces. Describe the purpose of your content so customers will know whether to choose it from a list of search results. The value is:
+![checkbox icon](./media/checkmark-small.png)**description**: Required; important for SEO (relevance) and site functionality. The description should be at least 125 characters long to 155 characters maximum including spaces. Describe the purpose of your content so customers will know whether to choose it from a list of search results. The value is:
 
 - This text may be displayed as the description or abstract paragraph in search results on Google.
 - This text is displayed in <span style="color:red;">Confirm URL</span> [the article index results](http://docs.microsoft.com/ems/articles/).
 
-![](./media/checkmark-small.png)**services**: Required for articles that deal with a service. This value is often referred to as the "service slug". List all the applicable services, separated by commas. The first service that you list will drive the navigational breadcrumbs for the page and the left navigation that is displayed with the page.
+![checkbox icon](./media/checkmark-small.png)**services**: Required for articles that deal with a service. This value is often referred to as the "service slug". List all the applicable services, separated by commas. The first service that you list will drive the navigational breadcrumbs for the page and the left navigation that is displayed with the page.
 
 In articles that specify both a services value and a documentationCenter value, the services value will drive the breadcrumb. Additional values that you list will appear as tags in the published article. Values:
 
@@ -134,7 +134,7 @@ In articles that specify both a services value and a documentationCenter value, 
 - vpn-gateway
 - web-sites
 
-![](./media/checkmark-small.png)**documentationCenter**: Required for dev-centric articles best featured through a dev center. Specify the single dev center or language that applies to the article. The value you list will drive the navigational breadcrumbs for the page. In articles that specify both a services value and a documentationCenter value, the services value will drive the breadcrumb. Values:
+![checkbox icon](./media/checkmark-small.png)**documentationCenter**: Required for dev-centric articles best featured through a dev center. Specify the single dev center or language that applies to the article. The value you list will drive the navigational breadcrumbs for the page. In articles that specify both a services value and a documentationCenter value, the services value will drive the breadcrumb. Values:
 
 - **.net**
 - **nodejs**
@@ -148,24 +148,24 @@ In articles that specify both a services value and a documentationCenter value, 
 - **windows**: Verifying this new value
 - **xamarin**: Verifying this new value
 
-![](./media/checkmark-small.png)**authors**: Required, one value only. List the GitHub account for the primary author or article SME. This attribute drives the byline on the published article. List only one, in spite of the plural name of the attribute.
+![checkbox icon](./media/checkmark-small.png)**authors**: Required, one value only. List the GitHub account for the primary author or article SME. This attribute drives the byline on the published article. List only one, in spite of the plural name of the attribute.
 
-![](./media/checkmark-small.png)**manager**: Required if you are a Microsoft contributor. List the email alias of the content publishing manager for the technology area. If you are a community contributor, include the attribute but leave it empty so we can fill it out.
+![checkbox icon](./media/checkmark-small.png)**manager**: Required if you are a Microsoft contributor. List the email alias of the content publishing manager for the technology area. If you are a community contributor, include the attribute but leave it empty so we can fill it out.
 
-![](./media/checkmark-small.png)**editor**: Not used. Do not use it for other purposes.
+![checkbox icon](./media/checkmark-small.png)**editor**: Not used. Do not use it for other purposes.
 
-![](./media/checkmark-small.png)**tags**: Optional. Include only if you want to enable a link under the article breadcrumb to the article index page <span style="color:red;">Confirm URL</span> (http://docs.microsoft.com/ems/articles/) to a prefiltered list of articles that match one of the approved values. These values are meant to provide a way to group content together when the content grouping is not service-specific. These tags can also provide labeling that indicates the technology stack the article applies to. This value **does not** support free-form tags or hashtags; the tags must be enabled on the site. You can supply multiple tags values to one article, separated by commas. The approved values are:
+![checkbox icon](./media/checkmark-small.png)**tags**: Optional. Include only if you want to enable a link under the article breadcrumb to the article index page <span style="color:red;">Confirm URL</span> (http://docs.microsoft.com/ems/articles/) to a prefiltered list of articles that match one of the approved values. These values are meant to provide a way to group content together when the content grouping is not service-specific. These tags can also provide labeling that indicates the technology stack the article applies to. This value **does not** support free-form tags or hashtags; the tags must be enabled on the site. You can supply multiple tags values to one article, separated by commas. The approved values are:
 
 <span style="color:red;">Confirm these tag values</span>
   - architecture
   - billing
   - mysql
 
-![](./media/checkmark-small.png)**keywords**: Optional. For use by SEO champs only. Separate terms with commas. **Check with your SEO champ before you change or delete content in this article containing these terms.** This attribute records keywords the SEO champ has targeted and is tracking in order to improve search rank. The keywords do not render in the published HTML. Validation does not require this attribute.
+![checkbox icon](./media/checkmark-small.png)**keywords**: Optional. For use by SEO champs only. Separate terms with commas. **Check with your SEO champ before you change or delete content in this article containing these terms.** This attribute records keywords the SEO champ has targeted and is tracking in order to improve search rank. The keywords do not render in the published HTML. Validation does not require this attribute.
 
 ## Attributes and values for the Tags section
 
-![](./media/checkmark-small.png)**ms.service**: Required. Specifies the service, tool, or feature that the article applies to. One value per page.
+![checkbox icon](./media/checkmark-small.png)**ms.service**: Required. Specifies the service, tool, or feature that the article applies to. One value per page.
 
  If a page applies to multiple services, choose the service to which it most directly applies; for instance, an article that uses an app hosted on web sites to demonstrate Service Bus functionality should have the **service-bus** value, rather than **web-sites**. If a page applies to multiple services equally, choose **multiple**. If a page does not apply to any services (this will be rare), choose **NA**.
 
@@ -220,7 +220,7 @@ In articles that specify both a services value and a documentationCenter value, 
  - **vpn-gateway**
  - **web-sites**
 
-![](./media/checkmark-small.png)**ms.devlang**: Required. Specifies the programming language that the article applies to. Single value per page.
+![checkbox icon](./media/checkmark-small.png)**ms.devlang**: Required. Specifies the programming language that the article applies to. Single value per page.
 
  If a page applies to two programming languages equally, choose **multiple**. If a page is primarily conceptual and its content is generally applicable to multiple programming languages, choose **multiple**. If a page is not targeted at developers and the programming language applicability is not relevant, choose **NA**. Use **rest-api** to identify REST API reference topics.
 
@@ -239,7 +239,7 @@ In articles that specify both a services value and a documentationCenter value, 
  - **ruby**
 
 
-![](./media/checkmark-small.png)**ms.topic**: Required. Specifics the topic type. Most new pages created by contributors will be article or reference.
+![checkbox icon](./media/checkmark-small.png)**ms.topic**: Required. Specifics the topic type. Most new pages created by contributors will be article or reference.
 
 <span style="color:red;">Confirm these values</span>
  - **article**: A conceptual topic, tutorial, feature guide, or other non-reference article
@@ -250,7 +250,7 @@ In articles that specify both a services value and a documentationCenter value, 
 
  - **reference**: An API reference page (including REST API) or PowerShell cmdlet reference page
 
-![](./media/checkmark-small.png)**ms.tgt_pltfrm**: Required. Specifies the target platform, for instance Windows, Linux, Windows Phone, iOS, Android, or special cache platforms. One value per page. This value will be **NA** for most topics except mobile and virtual machines.
+![checkbox icon](./media/checkmark-small.png)**ms.tgt_pltfrm**: Required. Specifies the target platform, for instance Windows, Linux, Windows Phone, iOS, Android, or special cache platforms. One value per page. This value will be **NA** for most topics except mobile and virtual machines.
 
 <span style="color:red;">Confirm these values</span>
  - **cache-in-role**
@@ -285,11 +285,11 @@ In articles that specify both a services value and a documentationCenter value, 
  - **vs-getting-started**: Identifies the VS Getting Started page group. Tag added 12/1/14.
  - **vs-what-happened**: Identifies the VS Getting Started What Happened page. Tag added 12/1/14.
 
-![](./media/checkmark-small.png)**ms.workload**: Required. Specifies the workload to which the page applies. One value only per article. 
+![checkbox icon](./media/checkmark-small.png)**ms.workload**: Required. Specifies the workload to which the page applies. One value only per article. 
 
-![](./media/checkmark-small.png) **ms.date**: Required. Specifies the date the article was last reviewed for relevance, accuracy, correct screen shots, and working links. Enter the date in mm/dd/yyyy format. This date also appears on the published article as the last updated date.
+![checkbox icon](./media/checkmark-small.png) **ms.date**: Required. Specifies the date the article was last reviewed for relevance, accuracy, correct screen shots, and working links. Enter the date in mm/dd/yyyy format. This date also appears on the published article as the last updated date.
 
-![](./media/checkmark-small.png) **ms.author**: Required. Specifies the author(s) associated with the topic. To specify multiple values you should separate them with semicolons. Either Microsoft aliases or complete email addresses are acceptable. The length can be no longer than 200 characters.
+![checkbox icon](./media/checkmark-small.png) **ms.author**: Required. Specifies the author(s) associated with the topic. To specify multiple values you should separate them with semicolons. Either Microsoft aliases or complete email addresses are acceptable. The length can be no longer than 200 characters.
 
 ## Back to Home
 

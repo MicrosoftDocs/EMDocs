@@ -1,15 +1,30 @@
 ---
+# required metadata
+
 title: Device management options
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid:  
+description:
+keywords:
 author: robmazz
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Device management options
 
 >[!NOTE]
@@ -28,7 +43,7 @@ Managing mobile devices with Intune and ConfigMgr centers around management poli
  2. Creating [configuration baselines](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT)
  3. Deploying the [configuration baselines](https://technet.microsoft.com/library/hh219289.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT) to ConfigMgr user or device collections
 
-- **Conditional access policies:** Conditional access policies define how access to email is managed and can be used separately or in conjunction with compliance policies. Connections to your on-premises Exchange Server or Exchange Online service must be configured in [Intune](https://docs.microsoft.com/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune.html) or in [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) before conditional access policies can be deployed. Conditional access can also be configured for Office 365 and SharePoint Online services.
+- **Conditional access policies:** Conditional access policies define how access to email is managed and can be used separately or in conjunction with compliance policies. Connections to your on-premises Exchange Server or Exchange Online service must be configured in [Intune](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) or in [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) before conditional access policies can be deployed. Conditional access can also be configured for Office 365 and SharePoint Online services.
 
 Your answers the questions in Step 1 can help you determine how you want devices to be enrolled in the mobile device management solution. The lists below will help you understand the advantages and disadvantages of each management scenario.
 

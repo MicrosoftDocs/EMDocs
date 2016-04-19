@@ -1,14 +1,30 @@
 ---
+# required metadata
+
 title: Develop your incident response requirements
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Develop your incident response requirements
 
 >[!NOTE]

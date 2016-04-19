@@ -1,15 +1,30 @@
 ---
+# required metadata
+
 title: Data access and protection requirements
-ms.custom: na
-ms.reviewer: na
-ms.service: multiple
-ms.suite: na
-ms.technology: na 
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
+description:
+keywords:
 author: YuriDio
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # Data access and protection requirements
 
 One of the most critical elements when enabling users to access company resources from their own devices is to preserve the company’s data and keep that information secure. Your company might have a variety of compliance requirements that must be in place to ensure data is secure no matter where it is located. Figure below shows the interactions between users and devices when accessing data and which components must be considered for this subdomain.
