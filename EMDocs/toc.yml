@@ -79,7 +79,7 @@
     homepage: /microsoft-identity-manager
     items:
       - name: Understand and explore
-        href: /microsoft-identity-manager/understand/
+        href: /microsoft-identity-manager/understand-explore/
         homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
       - name: Plan and design 
         href: /microsoft-identity-manager/plan-design/
