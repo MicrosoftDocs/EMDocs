@@ -27,7 +27,7 @@ ms.suite: ems
 
 # User and device requirements
 
-Before enabling users to access company resources from their devices, answer the questions in the sections that follow by working with the consumers of these resources in your environment and with your IT department. Figure 2 shows the interactions between users and devices, with the ultimate goal of accessing and consuming data. Note that the diagram does not address geographical location. Although geographical location is an important consideration (and it will be covered later in this document), the intent of Figure 2 is to illustrate the core components of users and devices. Design considerations must be made to enable this communication to occur.
+Before enabling users to access company resources from their devices, answer the questions in the sections that follow by working with the consumers of these resources in your environment and with your IT department. Figure 2 shows the interactions between users and devices, with the ultimate goal of accessing and consuming data. Note that the diagram does not address geographical location. Although geographical location is an important consideration (and it will be covered later in this guide), the intent of Figure 2 is to illustrate the core components of users and devices. Design considerations must be made to enable this communication to occur.
 
 ![Users, Devices and Data](./media/BYOD_Figure2.png)
 

@@ -94,6 +94,5 @@ Data access and protection requirement questions are categorized in six areas:
 - Does your company have policies in place to define how data access is classified?
 - Does your company need to be compliant with any regulations for data handling and privacy?
 	- If so, how do these regulations drive the current data access policies for on-premises resources?
-- Does your company have policies in place for [Mobile Device Management (MDM)](http://aka.ms/mdmdcg) and Mobile Application Management (MAM)?
+- Does your company have policies in place for [Mobile Device Management (MDM)](mdm-design-considerations-guide.md) and [Mobile Application Management (MAM)](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - Does your company have policies in place for device confiscation in case of litigation or criminal investigation?
-
