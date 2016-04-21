@@ -208,7 +208,7 @@ Hybrid environments that require users to have connectivity with cloud services 
 - Directory Synchronization with Password Sync: using DirSync with [password hash sync](https://technet.microsoft.com/library/dn246918.aspx) between AD DS and Azure AD.
 - Federated authentication with single sign-on: user attributes are synchronized using DirSync. Authentication is passed back through federation (AD FS) and completed against AD DS.
 
-When using Device Registration Service in Windows 8.1, a certificate is installed in a user’s device and a device record is created in AD DS with the certificate’s thumbprint number. This link between the device and the user allows IT to track which devices are getting registered by each user. This capability does not require an Enterprise PKI.
+When using Device Registration Service in Windows 8.1, a certificate is installed in a user’s device and a device record is created in AD DS with the certificate’s thumbprint number. This link between the device and the user allows IT to track which devices are getting registered by each user. This capability does not require an Enterprise PKI. Device registration is also available in Azure AD for Windows 10. Read [Get started with Azure Active Directory Device Registration](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-device-registration-overview/) for more information about Device Registration using Azure AD and Windows 10.
 
 ## Authentication and authorization
 
@@ -220,11 +220,11 @@ The decision to enable users to access apps and data from their devices must gua
 
 Authentication and authorization are handled by AD FS in connection with AD DS. The data in flight in the datacenter will also use the HTTPS protocol when connecting with the File Server role and Authentication Services.
 
-To enforce Multi-Factor Authentication, companies can use the built-in capabilities in AD FS or use Windows AzureAzure Active Authentication (previously known as PhoneFactor). By leveraging this capability in Windows AzureAzure, IT has the ability to enforce multi-factor authentication for users who are accessing company resources via an extranet. For more information about multi-factor authentication, see [Manage Risk with Additional Multi-Factor Authentication for Sensitive Applications](https://technet.microsoft.com/library/dn280949.aspx).
+To enforce Multi-Factor Authentication, companies can use the built-in capabilities in AD FS or use [Azure Multi-Factor Authentication (MFA)](https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/). By leveraging this capability in Azure, IT has the ability to enforce multi-factor authentication for users who are accessing company resources from the Internet. For more information about multi-factor authentication, see [Manage Risk with Additional Multi-Factor Authentication for Sensitive Applications](https://technet.microsoft.com/library/dn280949.aspx).
 
 To enforce authorization per app on users who are accessing apps either from an external or internal network, IT can leverage Web Application Proxy. By using Web Application Proxy, IT can create specific rules to enforce authentication and authorization in conjunction with AD FS. Web Application Proxy publishing works for any user device; they can use personal laptops, tablets, or smartphones. In addition, users are not required to install any additional software on their devices to access published apps. Web Application Proxy serves as a reverse proxy for any apps published through it, and as such, the user experience is the same as if users’ devices were connected directly to the apps. For more information about Web Application Proxy, see [Web Application Proxy Overview](https://technet.microsoft.com/library/dn280944.aspx).
 
-> AZURE.NOTE If you a hybrid scenario and you need to have a seamlessly user’s authentication and authorization experience, read the [Hybrid Identity Design Considerations Guide](http://aka.ms/azhidcg).
+>[!NOTE] If you a hybrid scenario and you need to have a seamlessly user’s authentication and authorization experience, read the [Hybrid Identity Design Considerations Guide](http://aka.ms/azhidcg).
 
 ## Policy and compliance
 

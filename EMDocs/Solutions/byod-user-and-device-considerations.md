@@ -28,7 +28,8 @@ ms.suite: ems
 # User and device considerations
 
 The first user and device issue you need to address is how the technologies in place will affect the user experience when securely accessing company resources. Addressing the user experience across different devices can be challenging, not only from a security point of view, but also from the perspective of app development. The communication channel between the device and company resources must be considered for the proper level of network security required to avoid data leakage while data is in transit.
-The sections that follow are based on components for the Users and Devices subdomain shown in Figure 1 in BYOD Problem Definition, which is the conceptual diagram for the BYOD problem domain.
+
+The sections that follow are based on components for the Users and Devices subdomain shown in [BYOD Problem Definition](byod-design-considerations-guide.md#problem-definition) section of this guide, which is the conceptual diagram for the BYOD problem domain.
 
 ## Profiles
 
@@ -113,7 +114,7 @@ Use the list below to understand the advantages and disadvantages of unknown-to-
 
 In Windows Server 2012 R2, the new concept of [Workplace Join](https://technet.microsoft.com/library/dn280945.aspx) allows IT to move the device from an unknown state to a known state. The device can also be used as second-factor authentication and single sign-on to workplace resources and apps. Workplace Join is natively available in Windows 10, but it is also supported in other platforms such as iOS and Android. Workplace Join leverages the Device Registration Service (DRS). For more information about DRS, read [Configure a federation server with Device Registration Service](https://technet.microsoft.com/library/dn486831.aspx). Workplace Join is new technology and works with specific use cases. See [Secure access to company resources from any location on any device](https://technet.microsoft.com/library/dn550982.aspx) for more information about a solution that leverages Workplace Join with single sign-on.
 
-If you consider using DRS, understand that this feature does not provide management capabilities. If your company needs more security controls in order to have more options available to control users’ devices, consider using DRS in conjunction with [mobile device enrollment](https://technet.microsoft.com/library/jj733620.aspx) as the management agent solution. However, if you choose this option, you must have a Microsoft Intune subscription. For more information about Microsoft Intune, see [Start using Microsoft Intune](https://technet.microsoft.com/library/dn646953.aspx).
+If you consider using DRS, understand that this feature does not provide management capabilities. If your company needs more security controls in order to have more options available to control users’ devices, consider using DRS in conjunction with [mobile device enrollment](https://technet.microsoft.com/library/jj733620.aspx) as the management agent solution. However, if you choose this option, you must have a Microsoft Intune subscription. For more information about Microsoft Intune, see [Microsoft Intune page](/intune/understand-explore/introduction-to-microsoft-intune).
 
 ## Network
 
