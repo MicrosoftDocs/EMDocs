@@ -27,7 +27,7 @@ ms.suite: ems
 
 # App requirements
 
-Every organization uses a variety of technical capabilities to enable their workforce to perform their tasks in an optimized manner, and most of the time, the primary tool is an app. These capabilities could be combined in a multiplatform approach in which different technologies are used to achieve a certain goal or by creating a custom app that will be able to perform a task or automate certain processes. Apps are important to consider when designing the BYOD strategy. Users will use different form factors to consume these apps; therefore, you need to consider the variety of capabilities that these apps should support. Figure 5 shows how users and devices use apps to consume data and the considerations for each component of the Apps subdomain.
+Every organization uses a variety of technical capabilities to enable their workforce to perform their tasks in an optimized manner, and most of the time, the primary tool is an app. These capabilities could be combined in a multiplatform approach in which different technologies are used to achieve a certain goal or by creating a custom app that will be able to perform a task or automate certain processes. Apps are important to consider when designing the BYOD strategy. Users will use different form factors to consume these apps; therefore, you need to consider the variety of capabilities that these apps should support. Figure below shows how users and devices use apps to consume data and the considerations for each component of the Apps subdomain.
 
 ![App requirements](./media/BYOD_Figure5.png)
 
@@ -117,7 +117,7 @@ app requirements are categorized in six areas:
 - Is there a common input validation or sanitization subsystem that processes data from outside the system?
 - Will those apps consume any external library such as JavaScript Library?
 	- If so, did you perform a security risk assessment for these external calls?
-- Were the apps validated using the [STRIDE](https://msdn.microsoft.com/library/ee823878(v=cs.20).aspx) (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege) method?
+- Were the apps validated using the [STRIDE](https://msdn.microsoft.com/library/ee823878.aspx) (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege) method?
 - Will the apps handle personally identifiable data?
 - Did you perform any privacy analysis for these apps?
 - Will the apps use live tiles?

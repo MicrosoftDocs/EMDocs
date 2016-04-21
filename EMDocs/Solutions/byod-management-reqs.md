@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Management requirements
 
-Device management is one of the foundations of any people-centric strategy, and it must be evaluated against a company’s requirements. Depending on the maturity level of the company, a management system might be in place already that will need to be expanded to cover the BYOD scenarios that the company is adopting. Figure 4 shows management interactions when managing users, devices, and data. Considerations must be made for each component of the Management subdomain.
+Device management is one of the foundations of any people-centric strategy, and it must be evaluated against a company’s requirements. Depending on the maturity level of the company, a management system might be in place already that will need to be expanded to cover the BYOD scenarios that the company is adopting. Figure below shows management interactions when managing users, devices, and data. Considerations must be made for each component of the Management subdomain.
 
 ![Management requirements](./media/BYOD_Figure4.png)
 
