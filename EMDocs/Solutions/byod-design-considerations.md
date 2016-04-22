@@ -53,7 +53,7 @@ Microsoft products, technologies, and services for a BYOD infrastructure solutio
 - Microsoft Rights Management service
 - Azure Rights Management 
 - SMB Encryption
-- Single signSign-onOn (SS)
+- Single Sign-On (SSO)
 - Work Folders
 - Web Application Proxy (WAP)
 
