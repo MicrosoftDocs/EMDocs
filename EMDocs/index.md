@@ -30,7 +30,7 @@ layout: HubPage
         </ul>
         <ul class="column-half">
             <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
-            <li><a href="/rights-management/understand-explore/what-is-azure-rms">What is Azure Right Management Service?</a></li>
+            <li><a href="/rights-management/understand-explore/what-is-azure-rms">What is Azure Right Management?</a></li>
             <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
         </ul>
         </div>
@@ -178,14 +178,13 @@ layout: HubPage
         <h2 class="section-heading"><span class="icon icon-note"></span> Scenarios &amp; Guides</h2>
         <div class="resource-list row">
             <ul class="column-half">
-            <li><a href="/em/solutions/mdm-design-considerations-guide">Mobile Device Management Design Considerations Guide</a></li>
-            <li><a href="/em/solutions/byod-design-considerations-guide">BYOD Design Considerations Guide</a></li>
+            <li><a href="./solutions/mdm-design-considerations-guide.md">Mobile Device Management Design Considerations Guide</a></li>
+            <li><a href="./solutions/byod-design-considerations-guide.md">BYOD Design Considerations Guide</a></li>
             <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Hybrid Identity Design Considerations Guide</a></li>
             </ul>
             <ul class="column-half">
-            <li><a href="/em/solutions/conditional-access-intune.md">Conditional Access with Intune</a></li>
-            <li><a href="/em/solutions/architecture-guidance-for-protecting-company-email-and-documents">Protect Company Email and Documents</a></li>
-            <li><a href="/em/solutions/scenarios-guides">See more scenarios and guides</a></li>
+            <li><a href="./solutions/conditional-access-intune.md">Conditional Access with Intune</a></li>
+            <li><a href="./solutions/architecture-guidance-for-protecting-company-email-and-documents.md">Protect Company Email and Documents</a></li>
             </ul>
         </div>
         </section>
