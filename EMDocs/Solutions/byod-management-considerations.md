@@ -189,7 +189,7 @@ For centralized management on-premises, you can use Configuration Manager. By us
 To manage other platforms that are not Windows-based devices, you can leverage the Microsoft Intune cloud service. The Microsoft Intune Company Portal can be used to enroll, manage, and install licensed apps. Users can have easy access to apps and install them on their devices. 
 
 >[!TIP] 
->For more information about Microsoft Intune, see [Microsoft Intune Direct Management](/intune/understand-explore/introduction-to-microsoft-intune). 
+>For more information about Microsoft Intune, see [Microsoft Intune page](/intune/understand-explore/introduction-to-microsoft-intune). 
 
 Though these are two distinct options, you can integrate both in order to provide app deployment and provisioning from a single location. Use the following table to identify which option fits your BYOD design.
 
