@@ -28,12 +28,12 @@ ms.suite: ems
 # Architecture guidance for protecting company email and documents
 This topic starts with an overview of how you can provide data protection for your company while ensuring that the end-user experience is simple and does not impact productivity. Then, we will focus specifically on how you can help provide secure access to your corporate email and help protect company data in email and attachments using the Microsoft Enterprise Mobility Suite solution.
 
-This section discusses the architecture for protecting company email and documents. See [Learn more about how to deploy a solution for protecting company email and documents](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) for guidance on deploying a solution.
+This section discusses the architecture for protecting company email and documents. See [Learn more about how to deploy a solution for protecting company email and documents](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) for guidance on deploying a solution.
 
 > [!TIP]
 > Get a downloadable copy of this entire topic  at the [TechNet Gallery](https://gallery.technet.microsoft.com/Managing-Access-and-Help-b7a05d0d/file/140056/1/Managing%20Access%20and%20Help%20Protect%20Corporate%20Email%20Data%20on%20Mobile%20Devices.pdf).
 
-Employees want to be able to use their own devices to access company resources and productivity tools. IT needs to make sure that employees have this ability but sensitive company data is protected. BYOD, or [Bring your own device](../Solutions/byod-design-considerations-guide.md), poses a specific challenge in that there needs to be a separation of personal and work data on personal devices and prevent intentional or unintentional sharing of company data.
+Employees want to be able to use their own devices to access company resources and productivity tools. IT needs to make sure that employees have this ability but sensitive company data is protected. BYOD, or [Bring your own device](byod-design-considerations-guide.md), poses a specific challenge in that there needs to be a separation of personal and work data on personal devices and prevent intentional or unintentional sharing of company data.
 
 **Studies have shown that:**
 
@@ -86,9 +86,9 @@ The third layer is the  **app management layer** with the Intune-managed app eco
 ## Where to go from here
 - [Watch](https://www.youtube.com/watch?v=ltcZvm4VOFU) this video to learn how to sign up for a trial account and get started.
 
-- Read the [Mobile Device Management Design Considerations Guide](../Solutions/mdm-design-considerations-guide.md) to better understand mobile device management design requirements.
+- Read the [Mobile Device Management Design Considerations Guide](mdm-design-considerations-guide.md) to better understand mobile device management design requirements.
 
-- [Learn more about how to deploy a solution for protecting company email and documents](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
+- [Learn more about how to deploy a solution for protecting company email and documents](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
 Also, if you'd like to learn more about EMS and Azure Active Directory, you can get more information from any of these articles:
 - [EMS Architecture](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)

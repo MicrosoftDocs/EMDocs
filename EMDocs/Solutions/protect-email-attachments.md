@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Protect email and attachments from data leakage
-[Protecting corporate email and documents](../Solutions/protect-corporate-email-documents.md) talked about how you can make sure that only compliant devices can access corporate email. However, the content in the email and email attachments is not protected just by securing access. The content can be copied, moved, saved to a different location, or shared with another user. EMS solves this problem using mobile application management (MAM) policies.
+[Protecting corporate email and documents](protect-corporate-email-documents.md) talked about how you can make sure that only compliant devices can access corporate email. However, the content in the email and email attachments is not protected just by securing access. The content can be copied, moved, saved to a different location, or shared with another user. EMS solves this problem using mobile application management (MAM) policies.
 
 Managed apps are apps that are deployed by your IT admin that comply with your companies security requirements. With these apps, IT has direct control over deployment, ongoing management like inventory or updates, and selective wipe of the apps and their associated data. Additionally, through a set of mobile application management (MAM) policies, Intune lets you modify the functionality of apps, and restrict sharing of data like:
 
@@ -73,4 +73,4 @@ Your IT admin creates the mobile application management policies, associates the
 End-users can install managed apps and use them to do their work. They will only be able to move or share data between managed apps. Any attempt to move data out of the managed app ecosystem will be blocked.
 
 ## Where to go from here
-Now that you understand about [protecting corporate email and documents](../Solutions/protect-corporate-email-documents.md) and email attachments, you can learn about how to [implement a solution to protect your corporate email](../Solutions/implement-solution.md).
+Now that you understand about [protecting corporate email and documents](protect-corporate-email-documents.md) and email attachments, you can learn about how to [implement a solution to protect your corporate email](implement-solution.md).

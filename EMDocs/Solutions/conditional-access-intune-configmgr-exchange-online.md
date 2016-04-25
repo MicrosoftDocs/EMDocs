@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Deploy Exchange Online with Microsoft Intune and Configuration Manager
-Now that you've read through the [architecture guidance for protecting company email and documents](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+Now that you've read through the [architecture guidance for protecting company email and documents](architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
 
 If you are already using System Center Configuration Manager and Exchange Online, you can incorporate Intune to manage email access and protect email data on mobile devices. The high-level process for implementing this solution is as follows:
 
@@ -99,7 +99,7 @@ If you want the ability to remove all corporate email from an iOS device after i
 
 ![Screenshot showing the "Rules" page of the Create Compliance Policy Wizard where you can specify that an email profile must be managed by Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
+If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](end-user-experience-conditional-access.md).
 
 After the compliance policy is created, select the compliance policy name in the list and click **Deploy**.
 
@@ -153,4 +153,4 @@ The following shows the deployment status of the configuration policy:
 Devices that use modern authentication have conditional access applied immediately. For devices connecting through the EAS protocol, there can be a lag time of up to six hours before conditional access is enforced, based on the default setting. During that time, a device might be considered compliant.
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.

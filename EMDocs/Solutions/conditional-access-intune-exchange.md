@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Deploy Exchange on-premises with Intune
 
-Now that you've read through the [architecture guidance for protecting company email and documents](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
+Now that you've read through the [architecture guidance for protecting company email and documents](architecture-guidance-for-protecting-company-email-and-documents.md), you are ready to proceed with deploying a solution.
 
 For Intune to directly manage mobile devices, users will need to enroll devices into Intune.
 
@@ -49,7 +49,7 @@ Compliance policies define the rules and settings that a device must comply with
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 ![Screenshot showing the "Rules" page of the Create Compliance Policy Wizard where you can specify that an email profile must be managed by Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md).
+If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](end-user-experience-conditional-access.md).
 
 > [!IMPORTANT]
 > If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.
@@ -81,4 +81,4 @@ On the Intune dashboard, click the **Blocked Devices from Exchange** tile to sho
 ![Screenshot showing the "Blocked Devices from Exchange" tile on the Intune dashboard](./media/ProtectEmail/intune-sa-6blocked-devices.PNG)
 
 ## Where to go from here
-After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](../Solutions/end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
+After you have deployed a solution for protecting corporate email and email data on mobile devices, you can learn more about the [end-user experience of conditional access](end-user-experience-conditional-access.md). This will help prepare you for issues that might arise when end users enroll their specific devices.
