@@ -55,7 +55,7 @@ This diagram shows the control flow for clients attempting to access email in Ex
 Make sure your environment includes these requirements for implementing this solution.
 
 > [!NOTE]
-> If you have already configured Configuration Manager to manage mobile devices through the Intune service, you can proceed to the [Deployment Steps](#DeploySteps).
+> If you have already configured Configuration Manager to manage mobile devices through the Intune service, you can proceed to the [Deployment Steps](#deployment-steps).
 
 -   Verify that you meet the [hardware requirements for the on-premises connector](https://stage.docs.microsoft.com/en-us/intune/getstarted/network-infrastructure-requirements-for-microsoft-intune).
 
@@ -100,7 +100,7 @@ Make sure your environment includes these requirements for implementing this sol
 > [!IMPORTANT]
 > If you try to install or use the Exchange Server connector without the required cmdlets, you will see an error logged with the message: _Invoking cmdlet &lt;cmdlet&gt; failed in the EasDisc.log file on the site server computer_.
 
-## <a name="DeploySteps"></a>Deployment Steps
+## Deployment Steps
 Follow these steps to deploy the Exchange on-premises solution:
 
 ### Step 1: Ensure that Intune Connector role is installed.
