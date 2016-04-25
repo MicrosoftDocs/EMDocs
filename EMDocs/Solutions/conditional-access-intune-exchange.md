@@ -57,7 +57,7 @@ If you specify this compliance policy, a user who has already set up their email
 ### Step 3: Identify users who will be impacted by conditional access policy.
 After the Exchange Server connector is successfully configured, it begins to inventory devices that are not yet enrolled to Intune, but are connecting to your organization’s Exchange resources using Exchange Active Sync.  
 
-Follow the instructions at [Evaluate the effect of the conditional access policy](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) to identify those users who will be impacted by conditional access policy.
+Follow the instructions at [Evaluate the effect of the conditional access policy](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) to identify those users who will be impacted by conditional access policy.
 
 
 ### Step 4: Configure user groups for the conditional access policy.

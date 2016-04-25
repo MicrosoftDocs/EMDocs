@@ -1,10 +1,10 @@
 - name: Enterprise Mobility
-  href: /em/
+  href: /enterprise-mobility/
   homepage: /em
   items:
   - name: Solutions
-    href: /em/solutions/
-    homepage: /em/solutions/byod-design-considerations-guide
+    href: /enterprise-mobility/solutions/
+    homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
   - name: Azure RemoteApp
     href: /remoteapp/
     homepage: /remoteapp
