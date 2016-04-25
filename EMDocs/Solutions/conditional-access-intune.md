@@ -28,7 +28,7 @@ ms.suite: ems
 # Use conditional access with Microsoft Intune
 This solution lets you use conditional access in Intune to help secure email and other services depending on conditions you specify.
 
-See [Restrict access to email and O365 services with Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) for more information about how you can use the conditional access feature with Intune.
+See [Restrict access to email and O365 services with Microsoft Intune](/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) for more information about how you can use the conditional access feature with Intune.
 
 > [!TIP]
 > Get a downloadable copy of this entire topic at the [TechNet Gallery](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4).
@@ -74,7 +74,7 @@ AAD DRS will be activated automatically for Intune and Office 365 customers. Cus
     > [!IMPORTANT]
     > Do not configure the service to service connector if you intend to use conditional access for both Exchange Online and Exchange on-premises.
 
-    Now you are ready to learn how to [deploy Exchange Online with Intune](../Solutions/conditional-access-intune-exchange-online.md).
+    Now you are ready to learn how to [deploy Exchange Online with Intune](conditional-access-intune-exchange-online.md).
 
 ## For Exchange Server on-premises
 Conditional access to Exchange on-premises supports:
@@ -101,4 +101,4 @@ Additionally:
   > [!IMPORTANT]
 > Make sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.
 
-  Now you are ready to learn how to [deploy Exchange Server on-premises with Intune](../Solutions/conditional-access-intune-exchange.md).
+  Now you are ready to learn how to [deploy Exchange Server on-premises with Intune](conditional-access-intune-exchange.md).
