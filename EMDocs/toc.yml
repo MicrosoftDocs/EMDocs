@@ -116,6 +116,10 @@
       - name: SDK 2.1
         href: /rights-management/sdk/2.1/api/
         homepage: /rights-management/develop/api-reference-2-1
-            - name: Win
-              href: /rights-management/sdk/sdk/2.1/api/win/
-              homepage: /rights-management/develop/api-reference-2-1
+	items:
+            - name: Android
+              href: /rights-management/sdk/4.2/api/android/
+              homepage: /rights-management/sdk/4.2/api/android/com.microsoft.rightsmanagement
+             - name: Win  
+              href: /rights-management/sdk/sdk/2.1/api/win/  
+              homepage: /rights-management/develop/api-reference-2-1  
