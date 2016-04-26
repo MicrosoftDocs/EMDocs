@@ -57,7 +57,7 @@ Make sure your environment includes these requirements for implementing this sol
 > [!NOTE]
 > If you have already configured Configuration Manager to manage mobile devices through the Intune service, you can proceed to the [Deployment Steps](#deployment-steps).
 
--   Verify that you meet the [hardware requirements for the on-premises connector](https://stage.docs.microsoft.com/en-us/intune/getstarted/network-infrastructure-requirements-for-microsoft-intune).
+-   Verify that you meet the [hardware requirements for the on-premises connector](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune).
 
 -   Verify that you are running System Center 2012 R2 Configuration Manager SP1 with cumulative update 1 or later.
 

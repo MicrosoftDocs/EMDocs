@@ -38,13 +38,13 @@ Follow these steps to deploy the Exchange on-premises with Intune solution:
 
 For mobile devices that users have not enrolled you can enable Exchange ActiveSync management using the Exchange connector. The Exchange connector connects you with your Exchange deployment and lets you manage mobile devices through the Intune console.
 
-Follow the steps at [Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange](https://stage.docs.microsoft.com/en-us/intune/deployuse/intune-on-premises-exchange-connector) to download, install and configure the Microsoft Intune Exchange Connector.
+Follow the steps at [Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange](/intune/deploy-use/intune-on-premises-exchange-connector) to download, install and configure the Microsoft Intune Exchange Connector.
 
 > [!IMPORTANT]
 > You can only set up one Exchange connection per Intune account. If you try to configure an additional connection, it will replace the original connection with the new one.
 
 ### Step 2: Create compliance policies and deploy to users.
-Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy in Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune) to create and deploy compliance policies.
+Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy in Microsoft Intune](/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune) to create and deploy compliance policies.
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 ![Screenshot showing the "Rules" page of the Create Compliance Policy Wizard where you can specify that an email profile must be managed by Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
@@ -63,14 +63,14 @@ Follow the instructions at [Evaluate the effect of the conditional access policy
 ### Step 4: Configure user groups for the conditional access policy.
 You target conditional access policies to different groups of users depending on the policy types. These groups contain the users that will be targeted, or exempt from the policy. When a user is targeted by a policy, each device they use must be compliant in order to access email.
 
-For more information, see [Configure user groups for the conditional access policy](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access).
+For more information, see [Configure user groups for the conditional access policy](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access).
 
 ### Step 5: Configure conditional access policy.
 The following flow is used by conditional access policies for an Exchange on-premises environment to evaluate whether to allow or block devices.
 
 ![Flowchart showing how conditional access policies for Exchange Server On-premises evaluate whether to allow or block devices](./media/ProtectEmail/conditional-access-8-2.png)
 
-Follow the information provided under [Configure a conditional access policy](https://stage.docs.microsoft.com/en-us/intune/deployuse/restrict-access-to-exchange-onpremises-with-microsoft-intune#-a-name-bkmk_enablexchngonprem-a-configure-a-conditional-access-policy) to set up your conditional access policy.
+Follow the information provided under [Configure a conditional access policy](/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune#-a-name-bkmk_enablexchngonprem-a-configure-a-conditional-access-policy) to set up your conditional access policy.
 
 ## Reporting
 
