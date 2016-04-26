@@ -91,7 +91,6 @@ layout: HubPage
                                 <a href="/intune/">
                                 <h3>Intune</h3>
                                 <p>Manage &amp; protect corporate apps &amp; data on devices using Intune's MDM &amp; MAM capabilities.</p>
-                                <h4>Learn More</h4>
                                 </a>
                             </li>
                         </ul>
@@ -115,14 +114,12 @@ layout: HubPage
                                 <a href="/rights-management/">
                                 <h3>Azure Rights Management</h3>
                                 <p>Protect your information from unauthorized access, and control how information is used.</p>
-                                <h4>Learn More</h4>
                                 </a>
                             </li>
                             <li class="column column-third">
                                 <a href="/advanced-threat-analytics/">
-                                <h3>Advanced Thread Analytics</h3>
+                                <h3>Advanced Threat Analytics</h3>
                                 <p>Identify breaches &amp; threats using behavioral analysis, and create reports on an attack timeline.</p>
-                                <h4>Learn More</h4>
                                 </a>
                             </li>
                         </ul>
@@ -147,7 +144,6 @@ layout: HubPage
                             <a href="/remoteapp/">
                             <h3>Azure RemoteApp</h3>
                             <p>Deploy Windows cloud apps in the cloud and run them on any device.</p>
-                            <h4>Learn More</h4>
                             </a>
                         </li>
                         </ul>
