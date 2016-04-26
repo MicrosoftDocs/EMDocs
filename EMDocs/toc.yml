@@ -18,13 +18,13 @@
     href: /advanced-threat-analytics/
     homepage: /ata
     items:
-      - name: Understand and explore
+      - name: Understand & Explore
         href: /advanced-threat-analytics/understand-explore/
         homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
-      - name: Plan and design 
+      - name: Plan & Design 
         href: /advanced-threat-analytics/plan-design/
         homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
-      - name: Deploy and use
+      - name: Deploy & Use
         href: /advanced-threat-analytics/deploy-use/
         homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
       - name: Troubleshoot
@@ -34,63 +34,61 @@
     href: /intune/
     homepage: /intune
     items:
-      - name: Understand and explore
+      - name: Understand & Explore
         href: /intune/understand-explore/
         homepage: /intune/understand/ways-to-do-enterprise-mobility
-      - name: Plan and design 
+      - name: Plan & Design 
         href: /intune/plan-design/
         homepage: /intune/plandesign/plan-you-user-and-device-groups
-      - name: Deploy and use
+      - name: Deploy & Use
         href: /intune/deploy-use/
         homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
       - name: Troubleshoot
         href: /intune/troubleshoot/
         homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
-      - name: Get started
+      - name: Get Started
         href: /intune/get-started/
         homepage: /intune/get-started/what-s-new-in-microsoft-intune
   - name: Azure Rights Management
     href: /rights-management/
     homepage: /rights-management
     items:
-      - name: Understand & explore
+      - name: Understand & Explore
         href: /rights-management/understand-explore/
         homepage: /rights-management/understand-explore/what-is-azure-rights-management
       - name: Get Started
         href: /rights-management/get-started/
         homepage: /rights-management/get-started/requirements-for-azure-rights-management
-      - name: Plan & design 
+      - name: Plan & Design
         href: /rights-management/plan-design/
         homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap
-      - name: Deploy & use
+      - name: Deploy & Use the Service
         href: /rights-management/deploy-use/
         homepage: /rights-management/deploy-use/activating-azure-rights-management
-      - name: Develop & customize apps
-        href: /rights-management/develop/
-        homepage: /rights-management/develop/developers-guide
-      - name: Administer
-        href: /rights-management/administer/
-        homepage: /rights-management/administer/administering-azure-rights-management-with-powershell
-      - name: RMS Client
+      - name: Deploy & Use the Client
         href: /rights-management/rms-client/
         homepage: /rights-management/rms-client/rights-management-rms-client
+      - name: Develop & Customize Apps
+        href: /rights-management/develop/
+        homepage: /rights-management/develop/developers-guide
+        homepage: /rights-management/administer/administering-azure-rights-management-with-powershell
   - name: Microsoft Identity Manager
     href: /microsoft-identity-manager/
     homepage: /microsoft-identity-manager
     items:
-      - name: Understand and explore
+      - name: Understand & Explore
         href: /microsoft-identity-manager/understand-explore/
         homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
-      - name: Plan and design 
+      - name: Plan & Design 
         href: /microsoft-identity-manager/plan-design/
         homepage: /microsoft-identity-manager/plan-design/journey-plan-design
-      - name: Deploy and Use
+      - name: Deploy & Use
         href: /microsoft-identity-manager/deploy-use/
         homepage: /microsoft-identity-manager/deploy-use/journey-deploy-use-html
       - name: Reference
         href: /microsoft-identity-manager/reference/
         homepage: /microsoft-identity-manager/reference/journey-develop-applications
-      - name: Get started
+      - name: Get Started
         href: /microsoft-identity-manager/get-started/
         homepage: /microsoft-identity-manager/get-started/journey-get-started
   - name: Active Directory Authentication Library
@@ -116,3 +114,7 @@
       - name: SDK 2.1
         href: /rights-management/sdk/2.1/api/
         homepage: /rights-management/develop/api-reference-2-1
+        items:
+            - name: Win  
+              href: /rights-management/sdk/sdk/2.1/api/win/  
+              homepage: /rights-management/develop/api-reference-2-1
