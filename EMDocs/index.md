@@ -1,6 +1,20 @@
 ---
 asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
 layout: HubPage
+
+title: Enterprise Mobility Documentation  
+description: Technical documentation for Microsoft Enterprise Mobility  
+keywords: microsoft docs, enterprise mobility documentation, Learn enterprise mobility, enterprise mobility guide, enterprise mobility technical documentation  
+author: msswadhwa  
+manager: swadhwa  
+ms.date: 04/28/2016  
+ms.topic: hubpage  
+ms.prod:   
+ms.service:   
+ms.technology:   
+ms.suite: ems  
+ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620  
+
 ---
 # Microsoft Enterprise Mobility Documentation
 <article id="main">
