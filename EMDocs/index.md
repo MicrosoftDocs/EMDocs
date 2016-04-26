@@ -21,10 +21,8 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
     <section id="hero-content" class="graph">
         <h1>Microsoft Enterprise Mobility Documentation</h1>
         <h2>Microsoft&#39;s enterprise mobility services enable organizations to keep their employees productive across apps and devices while ensuring that corporate data is protected</h2>
-        <!-- <ol id="actions" class="action-list">
-        <li><a href="" class="button button-bordered">Learn More</a></li>
-        </ol> -->
-	    <h3>New to enterprise mobility? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the enterprise mobility page &rarr;</a></h3>
+
+	    <h3>New to Enterprise Mobility? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the Enterprise Mobility page &rarr;</a></h3>
     </section>
 
     <aside class="alert section-border">
@@ -38,7 +36,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Featured Content</h2>
         <div class="features row">
             <ul class="column-half">
-                <li><a href="/em/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
+                <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">What is Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">What is Advanced Threat Analytics?</a></li>
             </ul>
