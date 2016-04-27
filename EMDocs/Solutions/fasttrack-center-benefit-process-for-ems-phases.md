@@ -17,7 +17,7 @@ To read about the other parts of the FastTrack onboarding process, see [FastTrac
 Onboarding has four primary phases, as shown in the following figure:
 
 
-![](../media/Intune-onboarding-phases-9-15-15.png)
+![](./media/ft-2-onboarding-phases.png)
 
 
 ## Initiate phase
@@ -26,7 +26,7 @@ After you have purchased the appropriate number of licenses, follow the guidance
 
 During this phase, we’ll discuss the onboarding process, verify data, and set up a kick-off meeting.
 
-![](../media/Intune-initiate-phase-9-15-15-v2.png)
+![](./media/ft-3-initiate-phase.png)
 
 ## Assess phase
 
@@ -36,12 +36,12 @@ Microsoft will also connect you with guidance about how to drive successful adop
 
 Based on your current setup, we’ll provide a remediation plan that will bring your source environment up to the minimum requirements for successful onboarding to EMS or its individual cloud services. We’ll also set up appropriate checkpoint calls for the remediation phase.
 
-![](../media/Intune-assess-phase-9-15-15.png)
+![](./media/ft-4-assess-phase.png)
 
 ## Remediate phase
 If needed, you’ll do the tasks in the remediation plan on your source environment so that you meet the requirements for onboarding and adopting each service.
 
-![](../media/Microsoft-Intune-onboarding-remediate-phase-1.png)
+![](./media/ft-5-remediate-phase.png)
 
 Before beginning the Enable phase, we’ll jointly verify the outcomes of the remediation activities to make sure you’re ready to proceed.
 
@@ -52,7 +52,7 @@ When all remediation activities are complete, the project shifts to configuring 
 
 Core onboarding involves service provisioning and tenant and identity integration. It also includes steps for providing a foundation for onboarding online services such as Azure Active Directory Premium, Microsoft Intune and Azure Rights Management Premium.
 
-![](../media/Intune-enable-phase-core-9-15-15.png)
+![](./media/ft-6-enable-phase-core.png)
 
 ###Enable phase - Azure Active Directory Premium
 
@@ -72,7 +72,7 @@ Azure Active Directory Premium setup includes enabling the following features:
 
 -   Administrative reports
 
-![](../media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![](./media/ft-7-enable-phase-aadp.png)
 
 ###Enable phase - Microsoft Intune
 
@@ -127,7 +127,7 @@ For Microsoft Intune, and based on your mobile device and mobile applications ma
 
 Microsoft will also connect you with guidance about how to drive successful adoption of the eligible services.
 
-![](../media/Enable-phase-Intune-11-20-15.png)
+![](./media/ft-8-enable-phase-intune.png)
 
 ###Enable phase - Azure Right Management Premium
 
@@ -145,10 +145,10 @@ AzRMS setup includes enabling the following features:
 
 -   RMS Sharing Application for Windows and non-Windows devices
 
-![](../media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![](./media/ft-7-enable-phase-aadp.png)
 
 Read about the next part of the FastTrack onboarding process: [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 
-## Want to learn more?
+### Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
