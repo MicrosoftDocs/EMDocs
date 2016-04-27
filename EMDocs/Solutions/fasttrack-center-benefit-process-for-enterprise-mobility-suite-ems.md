@@ -1,30 +1,13 @@
 ---
-# required metadata
-
 title: FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)
-description:
-keywords:
-author: 
-manager: swadhwa
-ms.date: 04/28/2016
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
-ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
-
-# optional metadata
-
-ROBOTS: noindex
-#audience:
-#ms.devlang:
-ms.reviewer: 
-ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
-
+ms.assetid: 
+robots: noindex
 ---
-
 # FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)
 If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with Microsoft specialists to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use. To learn whether your organization is eligible, see [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
@@ -57,8 +40,8 @@ Here’s what you can expect when onboarding is complete:
 
     -   Federated with Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 or later from your on-premises Active Directory.
 
+Read about the next part of the FastTrack onboarding process: [Overview of the onboarding process](fasttrack-center-benefit-process-for-ems-overview.md)
 
-
-### Want to learn more?
+## Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 

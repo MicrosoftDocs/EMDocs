@@ -1,30 +1,13 @@
 ---
-# required metadata
-
 title: FastTrack Center Benefit Process for Enterprise Mobility Suite - phases
-description:
-keywords:
-author: 
-manager: swadhwa
-ms.date: 04/28/2016
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
-ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
-
-# optional metadata
-
-ROBOTS: noindex
-#audience:
-#ms.devlang:
-ms.reviewer: 
-ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
-
+ms.assetid: 
+robots: noindex
 ---
-
 # FastTrack Center Benefit Process for Enterprise Mobility Suite - phases
 When you use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
 
@@ -34,7 +17,7 @@ To read about the other parts of the FastTrack onboarding process, see [FastTrac
 Onboarding has four primary phases, as shown in the following figure:
 
 
-![fasttrack-primary-phases](./media/Intune-onboarding-phases-9-15-15.png)
+![](../media/Intune-onboarding-phases-9-15-15.png)
 
 
 ## Initiate phase
@@ -43,7 +26,7 @@ After you have purchased the appropriate number of licenses, follow the guidance
 
 During this phase, we’ll discuss the onboarding process, verify data, and set up a kick-off meeting.
 
-![fasttrack-initiate-phase](./media/Intune-initiate-phase-9-15-15-v2.png)
+![](../media/Intune-initiate-phase-9-15-15-v2.png)
 
 ## Assess phase
 
@@ -53,12 +36,12 @@ Microsoft will also connect you with guidance about how to drive successful adop
 
 Based on your current setup, we’ll provide a remediation plan that will bring your source environment up to the minimum requirements for successful onboarding to EMS or its individual cloud services. We’ll also set up appropriate checkpoint calls for the remediation phase.
 
-![fasttrack-assess-phase](./media/Intune-assess-phase-9-15-15.png)
+![](../media/Intune-assess-phase-9-15-15.png)
 
 ## Remediate phase
 If needed, you’ll do the tasks in the remediation plan on your source environment so that you meet the requirements for onboarding and adopting each service.
 
-![fasttrack-remediate-phase](./media/Microsoft-Intune-onboarding-remediate-phase-1.png)
+![](../media/Microsoft-Intune-onboarding-remediate-phase-1.png)
 
 Before beginning the Enable phase, we’ll jointly verify the outcomes of the remediation activities to make sure you’re ready to proceed.
 
@@ -69,7 +52,7 @@ When all remediation activities are complete, the project shifts to configuring 
 
 Core onboarding involves service provisioning and tenant and identity integration. It also includes steps for providing a foundation for onboarding online services such as Azure Active Directory Premium, Microsoft Intune and Azure Rights Management Premium.
 
-![fasttrack-enable-phase-core-capabilities](./media/Intune-enable-phase-core-9-15-15.png)
+![](../media/Intune-enable-phase-core-9-15-15.png)
 
 ###Enable phase - Azure Active Directory Premium
 
@@ -89,7 +72,7 @@ Azure Active Directory Premium setup includes enabling the following features:
 
 -   Administrative reports
 
-![fasttrack-enable-phase-AADP](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![](../media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
 
 ###Enable phase - Microsoft Intune
 
@@ -144,7 +127,7 @@ For Microsoft Intune, and based on your mobile device and mobile applications ma
 
 Microsoft will also connect you with guidance about how to drive successful adoption of the eligible services.
 
-![fasttrack-enable-phase-intune](./media/Enable-phase-Intune-11-20-15.png)
+![](../media/Enable-phase-Intune-11-20-15.png)
 
 ###Enable phase - Azure Right Management Premium
 
@@ -162,13 +145,10 @@ AzRMS setup includes enabling the following features:
 
 -   RMS Sharing Application for Windows and non-Windows devices
 
-![fasttrack-enable-phase-azrms](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![](../media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
 
+Read about the next part of the FastTrack onboarding process: [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 
->[!div class="step-by-step"]
-[FastTrack source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-[Customer FastTrack responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-
-### Want to learn more?
+## Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 

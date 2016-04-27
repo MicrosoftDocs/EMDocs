@@ -1,30 +1,12 @@
 ---
-# required metadata
-
 title: FastTrack Center Benefit for Enterprise Mobility Suite (EMS)
-description:
-keywords:
-author: 
-manager: swadhwa
-ms.date: 04/28/2016
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
-ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer: 
-ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
-
+ms.assetid: 
 ---
-
 # FastTrack Center Benefit for Enterprise Mobility Suite (EMS)
 You can use the service benefit when you purchase at least 150 licenses for EMS or any of its individual cloud services in an eligible plan. The service benefit lets you work with Microsoft specialists to assess, remediate, and enable eligible services.
 

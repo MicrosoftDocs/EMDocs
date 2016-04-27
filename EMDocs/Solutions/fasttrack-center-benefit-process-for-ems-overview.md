@@ -1,30 +1,13 @@
 ---
-# required metadata
-
 title: FastTrack Center Benefit Process for Enterprise Mobility Suite - overview
-description:
-keywords:
-author: 
-manager: swadhwa
-ms.date: 04/28/2016
+ms.custom: na
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
-ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
-
-# optional metadata
-
-ROBOTS: noindex
-#audience:
-#ms.devlang:
-ms.reviewer: 
-ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
-
+ms.assetid: 
+robots: noindex
 ---
-
 # FastTrack Center Benefit Process for Enterprise Mobility Suite - overview
 
 You can use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use. Use the information in this section to get an illustrated overview of the onboarding process.
@@ -40,7 +23,7 @@ Onboarding has two major components:
 
 The following diagram describes the high-level onboarding phases of using the FastTrack Center Benefit.
 
-![FastTrack-onboarding-phases](./media/1-rms-onboarding-process.png)
+![](../media/1-rms-onboarding-process.png)
 
 The basic process is as follows:
 
@@ -58,10 +41,8 @@ All onboarding support will be provided remotely by assigned Microsoft personnel
 
 -   The Microsoft team can work directly with you or your representative.
 
->[!div class="step-by-step"]
-[FastTrack process introduction](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-[FastTrack source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+Read about the next part of the FastTrack onboarding process: [Expectations for your source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 
-### Want to learn more?
+## Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
