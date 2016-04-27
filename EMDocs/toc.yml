@@ -11,6 +11,13 @@
   - name: Azure Active Directory
     href: /active-directory/
     homepage: /active-directory
+    items:
+      - name: AD Authentication Library
+        href: /active-directory/adal/
+        homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
+      - name: AD Graph API
+        href: /azure-ad-graph-api/api/
+        homepage: /azure-ad-graph-api/api/api-catalog
   - name: Multi-factor Authentication
     href: /multi-factor-authentication/
     homepage: /multi-factor-authentication
@@ -111,8 +118,5 @@
       - name: Get Started
         href: /microsoft-identity-manager/get-started/
         homepage: /microsoft-identity-manager/get-started/journey-get-started
-  - name: Active Directory Authentication Library
-    href: /active-directory/adal/
-    homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
 
 
