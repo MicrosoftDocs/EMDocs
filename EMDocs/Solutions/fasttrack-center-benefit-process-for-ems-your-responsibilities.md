@@ -1,13 +1,30 @@
 ---
+# required metadata
+
 title: FastTrack Center Benefit Process for Enterprise Mobility Suite - your responsibilities
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+description:
+keywords:
+author: 
+manager: swadhwa
+ms.date: 04/28/2016
 ms.topic: article
-ms.assetid: 
-robots: noindex
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
+
+# optional metadata
+
+ROBOTS: noindex
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # FastTrack Center Benefit Process for Enterprise Mobility Suite - your responsibilities
 When you use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, your organization will have some responsibilities to meet during the process. The following sections describe your responsibilities in each phase of the onboarding process.
 

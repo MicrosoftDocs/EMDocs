@@ -1,13 +1,30 @@
 ---
+# required metadata
+
 title: FastTrack Center Benefit Process for Enterprise Mobility Suite - phases
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+description:
+keywords:
+author: 
+manager: swadhwa
+ms.date: 04/28/2016
 ms.topic: article
-ms.assetid: 
-robots: noindex
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
+
+# optional metadata
+
+ROBOTS: noindex
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # FastTrack Center Benefit Process for Enterprise Mobility Suite - phases
 When you use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
 

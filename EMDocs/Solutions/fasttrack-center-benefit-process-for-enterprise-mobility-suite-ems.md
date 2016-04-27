@@ -1,13 +1,30 @@
 ---
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+# required metadata
+
+title: FastTrack Center Benefit for Enterprise Mobility Suite (EMS)
+description:
+keywords:
+author: 
+manager: swadhwa
+ms.date: 04/28/2016
 ms.topic: article
-ms.assetid: 
-robots: noindex
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 # FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)
 If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with Microsoft specialists to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use. To learn whether your organization is eligible, see [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
