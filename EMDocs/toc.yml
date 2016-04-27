@@ -96,9 +96,22 @@
           href: /rights-management/sdk/2.1/api/
           homepage: /rights-management/develop/api-reference-2-1
           items:
-          - name: Win  
-            href: /rights-management/sdk/sdk/2.1/api/win/  
+          - name: Win
+            href: /rights-management/sdk/2.1/api/win/
             homepage: /rights-management/develop/api-reference-2-1
+            items:
+            - name: Constants
+              href: /rights-management/sdk/2.1/api/win/constants/
+              homepage: /rights-management/sdk/2.1/api/win/constants
+            - name: Data Types
+              href: /rights-management/sdk/2.1/api/win/data%20types/
+              homepage: /rights-management/sdk/2.1/api/win/data%20types
+            - name: Functions
+              href: /rights-management/sdk/2.1/api/win/functions/
+              homepage: /rights-management/sdk/2.1/api/win/functions
+            - name: Structures
+              href: /rights-management/sdk/2.1/api/win/structures/
+              homepage: /rights-management/sdk/2.1/api/win/structures
   - name: Microsoft Identity Manager
     href: /microsoft-identity-manager/
     homepage: /microsoft-identity-manager
