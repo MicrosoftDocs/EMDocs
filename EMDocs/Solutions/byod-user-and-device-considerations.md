@@ -13,7 +13,7 @@ ms.service:
 ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 
-# optional metadata
+# optional metadataco
 
 #ROBOTS:
 #audience:
@@ -118,7 +118,7 @@ If you consider using DRS, understand that this feature does not provide managem
 
 ## Network
 
-Corporate network access from the user and device perspective must be addressed. How will users access company data while using their own devices? Most BYOD infrastructure solutions focus only minimally on remote access from users’ devices; however, from a people-centric approach, you must consider where users are physically located. You should focus on not only remote access, but also how users will access the data while on-premises. In addition, you will need to consider regulatory issues specific to your organization's geopolitical alignment. For example, how can users that are physically located in a different country have personalized network access?
+Corporate network access from the user and device perspective must be addressed. How will users access company data while using their own devices? Most BYOD infrastructure solutions focus only minimally on remote access from users’ devices; however, from a people-centric approach, you must consider where users are physically located. You should focus on not only remote access, but also how users will access the data while on-premises. In addition, you will need to consider regulatory issues specific to your organization's geopolitical alignment. For example, how can users that are physically located in a different country or region have personalized network access?
 
 If your company has resources in the public cloud that will be accessible via the Internet from users’ devices, you must consider how traffic will be handled. Consider using encryption while the data is in flight from users’ devices to the cloud provider. When users are accessing internal resources, you should also use data encryption.
 
