@@ -11,6 +11,13 @@
   - name: Azure Active Directory
     href: /active-directory/
     homepage: /active-directory
+    items:
+      - name: AD Authentication Library
+        href: /active-directory/adal/
+        homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
+      - name: AD Graph API
+        href: /azure-ad-graph-api/api/
+        homepage: /azure-ad-graph-api/api/api-catalog
   - name: Multi-factor Authentication
     href: /multi-factor-authentication/
     homepage: /multi-factor-authentication
@@ -71,7 +78,27 @@
       - name: Develop & Customize Apps
         href: /rights-management/develop/
         homepage: /rights-management/develop/developers-guide
-        homepage: /rights-management/administer/administering-azure-rights-management-with-powershell
+        items:
+        - name: SDK 4.2
+          href: /rights-management/sdk/4.2/api/
+          homepage: /rights-management/develop/api-reference-4-2
+          items:
+          - name: Android
+            href: /rights-management/sdk/4.2/api/android/
+            homepage: /rights-management/sdk/4.2/api/android/com.microsoft.rightsmanagement
+          - name: iOS 
+            href: /rights-management/sdk/4.2/api/iOS/
+            homepage: /rights-management/sdk/4.2/api/iOS/iOS
+          - name: WinRT
+            href: /rights-management/sdk/4.2/api/winrt/
+            homepage: /rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement
+        - name: SDK 2.1
+          href: /rights-management/sdk/2.1/api/
+          homepage: /rights-management/develop/api-reference-2-1
+          items:
+          - name: Win  
+            href: /rights-management/sdk/sdk/2.1/api/win/  
+            homepage: /rights-management/develop/api-reference-2-1
   - name: Microsoft Identity Manager
     href: /microsoft-identity-manager/
     homepage: /microsoft-identity-manager
@@ -91,30 +118,5 @@
       - name: Get Started
         href: /microsoft-identity-manager/get-started/
         homepage: /microsoft-identity-manager/get-started/journey-get-started
-  - name: Active Directory Authentication Library
-    href: /active-directory/adal/
-    homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
-  - name: Azure RMS SDK Reference
-    href: /rights-management/sdk/
-    homepage: /rights-management/develop/developers-guide
-    items:
-      - name: SDK 4.2
-        href: /rights-management/sdk/4.2/api/
-        homepage: /rights-management/develop/api-reference-4-2
-        items:
-            - name: Android
-              href: /rights-management/sdk/4.2/api/android/
-              homepage: /rights-management/sdk/4.2/api/android/com.microsoft.rightsmanagement
-            - name: iOS 
-              href: /rights-management/sdk/4.2/api/iOS/
-              homepage: /rights-management/sdk/4.2/api/iOS/iOS
-            - name: WinRT
-              href: /rights-management/sdk/4.2/api/winrt/
-              homepage: /rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement
-      - name: SDK 2.1
-        href: /rights-management/sdk/2.1/api/
-        homepage: /rights-management/develop/api-reference-2-1
-        items:
-            - name: Win  
-              href: /rights-management/sdk/sdk/2.1/api/win/  
-              homepage: /rights-management/develop/api-reference-2-1
+
+

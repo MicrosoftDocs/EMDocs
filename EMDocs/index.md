@@ -73,7 +73,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                             </li>
                             <li class="column column-third">
                                 <a href="/multi-factor-authentication/">
-                                <h3>Azure Multi-factor Authentication</h3>
+                                <h3>Multi-factor Authentication</h3>
                                 <p>Safeguard access to your data and apps with an extra level of authentication.</p>
                                 </a>
                             </li>
