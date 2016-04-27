@@ -39,7 +39,7 @@ The elements that make up the FastTrack Center benefit process are:
 
 -   [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) for each phase
 
--   [Your responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) for each phase
+-   [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) for each phase
 
 Here’s what you can expect when onboarding is complete:
 
@@ -59,6 +59,6 @@ Here’s what you can expect when onboarding is complete:
 
 Read about the next part of the FastTrack onboarding process: [Overview of the onboarding process](fasttrack-center-benefit-process-for-ems-overview.md)
 
-## Want to learn more?
+### Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
