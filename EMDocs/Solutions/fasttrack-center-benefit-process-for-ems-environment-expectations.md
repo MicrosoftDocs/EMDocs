@@ -1,13 +1,30 @@
 ---
+# required metadata
+
 title: FastTrack Center Benefit Process for Enterprise Mobility Suite - source environment expectations
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+description:
+keywords:
+author: 
+manager: swadhwa
+ms.date: 04/28/2016
 ms.topic: article
-ms.assetid: 
-robots: noindex
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
+
+# optional metadata
+
+ROBOTS: noindex
+#audience:
+#ms.devlang:
+ms.reviewer: 
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
+
 
 # FastTrack Center Benefit Process for Enterprise Mobility Suite - source environment expectations
 When you use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, your environment will need to meet the expectations described in the following sections.
