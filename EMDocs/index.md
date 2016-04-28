@@ -42,7 +42,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             </ul>
             <ul class="column-half">
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
-                <li><a href="/rights-management/understand-explore/what-is-azure-rms">What is Azure Right Management?</a></li>
+                <li><a href="/rights-management/understand-explore/what-is-azure-rms">What is Azure Rights Management?</a></li>
                 <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
             </ul>
         </div>
