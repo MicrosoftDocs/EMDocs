@@ -20,7 +20,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 <article id="main">
     <section id="hero-content" class="graph">
         <h1>Microsoft Enterprise Mobility Documentation</h1>
-        <h2>Microsoft&#39;s enterprise mobility services enable organizations to keep their employees productive across apps and devices while ensuring that corporate data is protected</h2>
+        <h2>Welcome to the technical documentation for Microsoft Enterprise Mobility. These articles will help you understand and explore the solutions and products within Enterprise Mobility, get started with the services, and plan your implementation. You will also find deep technical content to help deploy and use the services, develop applications, and troubleshoot problems.<br><br>Click the products and solutions below to learn more.</h2>
 
 	    <h3>New to Enterprise Mobility? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the Enterprise Mobility page &rarr;</a></h3>
     </section>
