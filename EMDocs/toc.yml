@@ -23,7 +23,7 @@
     homepage: /multi-factor-authentication
   - name: Advanced Threat Analytics
     href: /advanced-threat-analytics/
-    homepage: /ata
+    homepage: /advanced-threat-analytics
     items:
       - name: Understand & Explore
         href: /advanced-threat-analytics/understand-explore/
