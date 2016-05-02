@@ -1,0 +1,45 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "_themes/**"
+        ]
+      }
+    ],
+    "resource": [
+        {
+          "files": [
+          "**/images/**", 
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.bmp",
+          "**/*.html",
+          "**/*.css",
+          "_themes/**"
+          ],
+        "exclude": [
+          "**/obj/**",
+          "_themes/DocPacker/**"
+        ]
+      }
+    ],
+    "dest": "EMDocs/Solutions",
+    "template": "docs.html",
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "breadcrumb_path": "/enterprise-mobility/toc.json",
+      "ms.locale": "en-us"
+    }
+  },
+  "render": {
+    "theme": "hyde",
+    "dest": "_output"
+  },
+  "basepath": "/EM/Solutions"
+}
