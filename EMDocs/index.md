@@ -20,13 +20,13 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 <article id="main">
     <section id="hero-content" class="graph">
         <h1>Microsoft Enterprise Mobility Documentation</h1>
-        <h2>Microsoft&#39;s enterprise mobility services enable organizations to keep their employees productive across apps and devices while ensuring that corporate data is protected</h2>
+        <h2>Welcome to the technical documentation for Microsoft Enterprise Mobility. These articles will help you understand and explore the solutions and products within Enterprise Mobility, get started with the services, and plan your implementation. You will also find deep technical content to help deploy and use the services, develop applications, and troubleshoot problems.</h2>
 
-	    <h3>New to Enterprise Mobility? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the Enterprise Mobility page &rarr;</a></h3>
+	    <h3>New to Enterprise Mobility? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the Microsoft Enterprise Mobility page &rarr;</a></h3>
     </section>
 
     <aside class="alert section-border">
-        <p>Sign up for a 30-day trial</p>
+        <p>Sign up for a 30-day trial of the Enterprise Mobility Suite</p>
         <ol class="action-list">
         <li><a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/ems-trial.aspx" target="_blank" class="button-bordered button-translucent">Free Trial</a></li>
         </ol>
@@ -42,7 +42,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             </ul>
             <ul class="column-half">
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
-                <li><a href="/rights-management/understand-explore/what-is-azure-rms">What is Azure Right Management?</a></li>
+                <li><a href="/rights-management/understand-explore/what-is-azure-rms">What is Azure Rights Management?</a></li>
                 <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
             </ul>
         </div>
@@ -54,14 +54,14 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             <ul class="journeys-list">
                 <li class="journey-step">
                     <header class="journey-step-header row">
-                        <a href="">
+
                             <div class="title column-third">
                                 <span class="icon icon-connect"></span>
                                 <p>Identity &amp; Access Management</p>
                             </div>
                             <p class="description column-two-thirds">Enterprise-grade identity and access management for nearly any app or device, cloud, or on-premises. Delivers single sign-on, multi-factor authentication, self-service passwords, and more.
                             </p>
-                        </a>
+
                     </header>
                     <section class="journey-step-elements content">
                         <ul class="row">
@@ -73,7 +73,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                             </li>
                             <li class="column column-third">
                                 <a href="/multi-factor-authentication/">
-                                <h3>Azure Multi-factor Authentication</h3>
+                                <h3>Multi-factor Authentication</h3>
                                 <p>Safeguard access to your data and apps with an extra level of authentication.</p>
                                 </a>
                             </li>
@@ -88,14 +88,14 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                 </li>
                 <li class="journey-step">
                     <header class="journey-step-header row">
-                        <a href="/intune/">
+
                             <div class="title column-third">
                                 <span class="icon icon-mobile"></span>
                                 <p>Mobile Device &amp; Application Management</p>
                             </div>
                             <p class="description column-two-thirds">Cloud-based enterprise mobility management that helps you control employee access to corporate applications and data on virtually any device.
                             </p>
-                        </a>
+
                     </header>
                     <section class="journey-step-elements content">
                         <ul class="row">
@@ -111,14 +111,14 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 
                 <li class="journey-step">
                     <header class="journey-step-header row">
-                        <a href="">
+
                             <div class="title column-third">
                                 <span class="icon icon-shield"></span>
                                 <p>Information Protection &amp; Security</p>
                             </div>
                             <p class="description column-two-thirds">Protect corporate data by allowing more secure access to company resources and enabling safe sharing of sensitive information inside and outside your organization.
                             </p>
-                        </a>
+
                     </header>
                     <section class="journey-step-elements content">
                         <ul class="row">
@@ -140,14 +140,14 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 
                 <li class="journey-step">
                     <header class="journey-step-header row">
-                        <a href="">
+
                         <div class="title column-third">
                         <span class="icon icon-desktops"></span>
                         <p>Desktop Virtualization</p>
                         </div>
                         <p class="description column-two-thirds">Stream applications from your datacenter or the cloud to keep users productive anywhere, on any device, and your data more secure.
                         </p>
-                        </a>
+
                     </header>
 
                     <section class="journey-step-elements content">

@@ -66,3 +66,10 @@ User and device requirements are categorized in three areas:
 	- If so, does the current list of supported devices support the encryption protocol that will be used?
 - Do you have network segmentation in place?
 	- If so, will you have all users’ devices connected to a separate network to isolate them from the production network?
+- For home-office workers, How are the users to be connected in your network? wired, wireless or both?
+	- If wireless, how do you intend to handle the devices' Authentication, Authorization and Accounting (AAA) so that no unregistered/unauthorized devices will be able to use network resources without proper clearance?
+
+### Technical Support
+- Are your network/security team ready to accommodate a regular device compliance audits?
+- Do you have change management policies and procedures in place to support BYOD implementation?
+

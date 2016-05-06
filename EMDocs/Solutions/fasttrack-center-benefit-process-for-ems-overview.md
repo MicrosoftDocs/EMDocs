@@ -40,7 +40,7 @@ Onboarding has two major components:
 
 The following diagram describes the high-level onboarding phases of using the FastTrack Center Benefit.
 
-![FastTrack-onboarding-phases](./media/1-rms-onboarding-process.png)
+![The high-level onboarding phases of using the FastTrack Center Benefit](./media/ft-1-onboarding-process.png)
 
 The basic process is as follows:
 
@@ -54,13 +54,11 @@ All onboarding support will be provided remotely by assigned Microsoft personnel
 
 -   Onboarding support is provided by the FastTrack Center, and is available during normal business hours for a given region.
 
--   Onboarding support is available in Traditional Chinese, English, French, German, Italian, Japanese, Portuguese (Brazil), or Spanish.
+-   Onboarding support is available in Traditional Chinese, Simplified Chinese, English, French, German, Italian, Japanese, Korean, Portuguese (Brazil), Spanish, Thai, and Vietnamese.
 
 -   The Microsoft team can work directly with you or your representative.
 
->[!div class="step-by-step"]
-[FastTrack process introduction](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-[FastTrack source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+Read about the next part of the FastTrack onboarding process: [Expectations for your source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 
 ### Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).

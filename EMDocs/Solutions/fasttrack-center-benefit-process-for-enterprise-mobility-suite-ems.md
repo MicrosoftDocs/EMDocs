@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)
+title: FastTrack Center Benefit for Enterprise Mobility Suite (EMS)
 description:
 keywords:
 author: 
@@ -11,11 +11,11 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
+ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: 
@@ -39,7 +39,7 @@ The elements that make up the FastTrack Center benefit process are:
 
 -   [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) for each phase
 
--   [Your responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) for each phase
+-   [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) for each phase
 
 Here’s what you can expect when onboarding is complete:
 
@@ -57,7 +57,7 @@ Here’s what you can expect when onboarding is complete:
 
     -   Federated with Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 or later from your on-premises Active Directory.
 
-
+Read about the next part of the FastTrack onboarding process: [Overview of the onboarding process](fasttrack-center-benefit-process-for-ems-overview.md)
 
 ### Want to learn more?
 See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).

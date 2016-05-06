@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit for Enterprise Mobility Suite (EMS)
+title: FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)
 description:
 keywords:
 author: 
@@ -11,11 +11,11 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
+ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 
 # optional metadata
 
-#ROBOTS:
+ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer: 
@@ -30,7 +30,7 @@ You can use the service benefit when you purchase at least 150 licenses for EMS 
 
 This article provides details about plan and service eligibility for the service benefit.
 
-To learn about the onboarding process as well as roles and responsibilities, see [FastTrack Center Benefit Process for Intune](FastTrack-Center-Benefit-Process-for-Intune.md). If you are interested in getting your environment ready for other Enterprise Mobility Suite services, see [FastTrack Center Benefit for Enterprise Mobility Suite](FastTrack-Center-Benefit-for-Enterprise-Mobility-Suite.md).
+To learn about the onboarding process as well as roles and responsibilities, see [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 Are you looking for information about Microsoft FastTrack for Office 365? See [FastTrack Center Benefit for Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 
