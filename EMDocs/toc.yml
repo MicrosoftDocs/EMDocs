@@ -56,6 +56,10 @@
       - name: Get Started
         href: /intune/get-started/
         homepage: /intune/get-started/what-s-new-in-microsoft-intune
+      - name: Develop & Customize Apps
+        href: /intune/develop/
+        homepage: /intune/develop/intune-app-sdk
+        
   - name: Azure Rights Management
     href: /rights-management/
     homepage: /rights-management

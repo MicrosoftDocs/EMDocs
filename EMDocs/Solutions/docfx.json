@@ -7,7 +7,8 @@
         ],
         "exclude": [
           "**/obj/**",
-          "_themes/**"
+          "_themes/**",
+          "**/Token/**"
         ]
       }
     ],
@@ -20,12 +21,11 @@
           "**/*.gif",
           "**/*.bmp",
           "**/*.html",
-          "**/*.css",
-          "_themes/**"
+          "**/*.css"
           ],
         "exclude": [
           "**/obj/**",
-          "_themes/DocPacker/**"
+          "_themes/**"
         ]
       }
     ],
