@@ -21,17 +21,14 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
     <section id="hero-content" class="graph">
         <h1>Microsoft Enterprise Mobility Documentation</h1>
         <h2>Welcome to the technical documentation for Microsoft Enterprise Mobility. These articles will help you understand and explore the solutions and products within Enterprise Mobility, get started with the services, and plan your implementation. You will also find deep technical content to help deploy and use the services, develop applications, and troubleshoot problems.</h2>
-
 	    <h3>New to Enterprise Mobility? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visit the Microsoft Enterprise Mobility page &rarr;</a></h3>
     </section>
-
     <aside class="alert section-border">
         <p>Sign up for a 30-day trial of the Enterprise Mobility Suite</p>
         <ol class="action-list">
         <li><a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/ems-trial.aspx" target="_blank" class="button-bordered button-translucent">Free Trial</a></li>
         </ol>
     </aside>
-
     <section id="featured" class="container">
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Featured Content</h2>
         <div class="features row">
@@ -47,21 +44,18 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             </ul>
         </div>
     </section>
-
     <div id="journeys">
         <section class="container">
             <h2 class="section-heading"><span class="icon icon-inheritance"></span> Solutions &amp; Products</h2>
             <ul class="journeys-list">
                 <li class="journey-step">
                     <header class="journey-step-header row">
-
                             <div class="title column-third">
                                 <span class="icon icon-connect"></span>
                                 <p>Identity &amp; Access Management</p>
                             </div>
                             <p class="description column-two-thirds">Enterprise-grade identity and access management for nearly any app or device, cloud, or on-premises. Delivers single sign-on, multi-factor authentication, self-service passwords, and more.
                             </p>
-
                     </header>
                     <section class="journey-step-elements content">
                         <ul class="row">
@@ -88,14 +82,12 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                 </li>
                 <li class="journey-step">
                     <header class="journey-step-header row">
-
                             <div class="title column-third">
                                 <span class="icon icon-mobile"></span>
                                 <p>Mobile Device &amp; Application Management</p>
                             </div>
                             <p class="description column-two-thirds">Cloud-based enterprise mobility management that helps you control employee access to corporate applications and data on virtually any device.
                             </p>
-
                     </header>
                     <section class="journey-step-elements content">
                         <ul class="row">
@@ -108,17 +100,14 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                         </ul>
                     </section>
                 </li>
-
                 <li class="journey-step">
                     <header class="journey-step-header row">
-
                             <div class="title column-third">
                                 <span class="icon icon-shield"></span>
                                 <p>Information Protection &amp; Security</p>
                             </div>
                             <p class="description column-two-thirds">Protect corporate data by allowing more secure access to company resources and enabling safe sharing of sensitive information inside and outside your organization.
                             </p>
-
                     </header>
                     <section class="journey-step-elements content">
                         <ul class="row">
@@ -137,19 +126,15 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                         </ul>
                     </section>
                 </li>
-
                 <li class="journey-step">
                     <header class="journey-step-header row">
-
                         <div class="title column-third">
                         <span class="icon icon-desktops"></span>
                         <p>Desktop Virtualization</p>
                         </div>
                         <p class="description column-two-thirds">Stream applications from your datacenter or the cloud to keep users productive anywhere, on any device, and your data more secure.
                         </p>
-
                     </header>
-
                     <section class="journey-step-elements content">
                         <ul class="row">
                         <li class="column column-third">
@@ -164,7 +149,6 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             </ul>
         </section>
     </div>
-
     <div class="section-border">
         <section class="resources container">
             <h2 class="section-heading"><span class="icon icon-note"></span> Scenarios &amp; Guides</h2>
@@ -181,7 +165,6 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             </div>
         </section>
     </div>
-
     <aside class="alert alert-social">
         <p>Keep up with the latest news</p>
         <ol class="action-list">
