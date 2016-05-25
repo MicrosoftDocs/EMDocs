@@ -120,7 +120,7 @@ For Microsoft Intune, and based on your mobile device and mobile applications ma
 
         -   Conditional access policies.
 
-        -   Deployment of email profiles.
+        -   Deployment of email, Wi-Fi, and VPN profiles.
 
         -   Setting up the Microsoft Intune Exchange Connector, when applicable.
 
