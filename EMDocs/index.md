@@ -36,6 +36,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">What is Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">What is Advanced Threat Analytics?</a></li>
+                <li><a href="/active-directory/active-directory-whatis">What is Azure Active Directory?</a></li>
             </ul>
             <ul class="column-half">
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
