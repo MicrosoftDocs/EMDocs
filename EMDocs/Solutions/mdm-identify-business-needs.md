@@ -33,6 +33,17 @@ ms.suite: ems
 Each company will have different requirements. Even if these companies are part of the same industry, the real business requirements might vary. You can still leverage best practices from the industry, but ultimately it’s the company’s business needs that will identify the requirements for the mobile device management solution. 
 To help identify your business needs, answer the following questions:
 
+- **Users**: One of the main points in embracing mobility is to put the user at the center of the mobility solution and enabling the user to be more productive, while keeping company data secure and available. This is important to understand what the user’s requirements are.
+	- Will the user be able to bring their own device and access company’s resources?
+		- If yes, what are the requirements to access company’s resources?
+	- Does your company have different user’s needs?
+		- If yes, how each user’s profile will impact the mobility strategy?
+	- Will users be able to access all apps that they have access to in the on-premises environment via their mobile device?
+		- If not, which apps will be available for the users?
+			- Are those apps available for all supported mobile device platforms?
+			- Will be necessary to modify or update any apps in order to run them on all supported mobile device platforms?
+	- Do your users only need basic access to email (including calendar, contacts, and tasks) features?
+
 - **Device ownership**: You must understand the device ownership policy for your company.
 	- Who owns the mobile device? 
 		- The employee?
@@ -69,16 +80,6 @@ To help identify your business needs, answer the following questions:
 	- Do the apps work in a low-latency network? 
 	- Do the apps provide authentication capabilities?
 		- If so, which authentication method do the apps use?
-- **Users**: One of the main points in embracing mobility is to put the user at the center of the mobility solution and enabling the user to be more productive, while keeping company data secure and available. This is important to understand what the user’s requirements are.
-	- Will the user be able to bring their own device and access company’s resources?
-		- If yes, what are the requirements to access company’s resources?
-	- Does your company have different user’s needs?
-		- If yes, how each user’s profile will impact the mobility strategy?
-	- Will users be able to access all apps that they have access to in the on-premises environment via their mobile device?
-		- If not, which apps will be available for the users?
-			- Are those apps available for all supported mobile device platforms?
-			- Will be necessary to modify or update any apps in order to run them on all supported mobile device platforms?
-	- Do your users only need basic access to email (including calendar, contacts, and tasks) features?
 
 During this task, you should also evaluate if the company has existing management and compliance policies in place for mobile devices and how these policies might affect the mobile device management solution selection.
 
