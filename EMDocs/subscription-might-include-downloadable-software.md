@@ -14,7 +14,6 @@ ms.technology:
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
 
 # optional metadata
-
 #ROBOTS:
 #audience:
 #ms.devlang:
@@ -22,7 +21,6 @@ ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
 #ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
-
 ---
 
 # Your paid Microsoft Intune or Enterprise Mobility subscription might include a license to use certain downloadable software
