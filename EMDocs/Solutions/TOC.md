@@ -56,7 +56,7 @@
 ## [Protect corporate email](protect-corporate-email-documents.md)
 ## [Protect email attachments](protect-email-attachments.md)
 ## [Planning your implementation](implement-solution.md)
-# [Protect Email and Documents (Deploy Solution)](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents)
+# [Protect Email and Documents (Deploy Solution)](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)
 ## [Conditional access with Intune](conditional-access-intune.md)
 ### [Exchange online](conditional-access-intune-exchange-online.md)
 ### [Exchange on-premises](conditional-access-intune-exchange.md)
