@@ -68,4 +68,3 @@
 ### [Android](end-user-experience-conditional-access-android.md)
 ### [iOS](end-user-experience-conditional-access-ios.md)
 ### [Windows Phone](end-user-experience-conditional-access-winphone.md)
-# [Determine if your subscription includes licenses for downloadable software](../subscription-might-include-downloadable-software.md)
