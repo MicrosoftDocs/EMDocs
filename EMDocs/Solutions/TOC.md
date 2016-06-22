@@ -6,7 +6,6 @@
 ### [Phases](fasttrack-center-benefit-process-for-ems-phases.md)
 ### [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 ### [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-
 # [BYOD Design Guide](byod-design-considerations-guide.md)
 ## [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)
 ### [User and device requirements](byod-user-device-reqs.md)
@@ -18,7 +17,6 @@
 ### [Data access and protections](byod-data-access-and-protection-considerations.md)
 ### [Management](byod-management-considerations.md)
 ### [Apps](byod-app-considerations.md)
-
 # [Mobile Device Management Design Guide](mdm-design-considerations-guide.md)
 ## [Step 1: Identify requirements](mdm-step-1-identify-your-mobile-device-management-requirements.md)
 ### [Identify business needs](mdm-identify-business-needs.md)
@@ -54,12 +52,10 @@
 ### [Develop SaaS MDM strategy](mdm-develop-saas-mdm-strategy.md)
 ### [Identify SaaS connectivity requirements](mdm-identify-saas-connectivity-requirements.md)
 ## [Next steps](mdm-next-steps-and-additional-resources.md)
-
 # [Protect Email and Documents (Architecture)](architecture-guidance-for-protecting-company-email-and-documents.md)
 ## [Protect corporate email](protect-corporate-email-documents.md)
 ## [Protect email attachments](protect-email-attachments.md)
 ## [Planning your implementation](implement-solution.md)
-
 # [Protect Email and Documents (Deploy Solution)](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents)
 ## [Conditional access with Intune](conditional-access-intune.md)
 ### [Exchange online](conditional-access-intune-exchange-online.md)
@@ -72,5 +68,4 @@
 ### [Android](end-user-experience-conditional-access-android.md)
 ### [iOS](end-user-experience-conditional-access-ios.md)
 ### [Windows Phone](end-user-experience-conditional-access-winphone.md)
-
 # [Determine if your subscription includes licenses for downloadable software](../subscription-might-include-downloadable-software.md)
