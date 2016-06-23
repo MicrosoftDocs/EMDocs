@@ -26,7 +26,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
     <aside class="alert section-border">
         <p>Sign up for a 30-day trial of the Enterprise Mobility Suite</p>
         <ol class="action-list">
-        <li><a href="https://www.microsoft.com/server-cloud/enterprise-mobility/ems-trial.aspx" target="_blank" class="button-bordered button-translucent">Free Trial</a></li>
+        <li><a href="go.microsoft.com/fwlink/?LinkId=816834" target="_blank" class="button-bordered button-translucent">Free Trial</a></li>
         </ol>
     </aside>
     <section id="featured" class="container">
