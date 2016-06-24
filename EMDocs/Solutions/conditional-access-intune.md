@@ -28,7 +28,7 @@ ms.suite: ems
 # Use conditional access with Microsoft Intune
 This solution lets you use conditional access in Intune to help secure email and other services depending on conditions you specify.
 
-See [Restrict access to email and O365 services with Microsoft Intune](/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) for more information about how you can use the conditional access feature with Intune.
+See [Restrict access to email and O365 services with Microsoft Intune](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) for more information about how you can use the conditional access feature with Intune.
 
 > [!TIP]
 > Get a downloadable copy of this entire topic at the [TechNet Gallery](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4).
