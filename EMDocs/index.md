@@ -155,13 +155,13 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             <h2 class="section-heading"><span class="icon icon-note"></span> Scenarios &amp; Guides</h2>
             <div class="resource-list row">
                 <ul class="column-half">
-                    <li><a href="./Solutions/mdm-design-considerations-guide.md">Mobile Device Management Design Considerations Guide</a></li>
-                    <li><a href="./Solutions/byod-design-considerations-guide.md">BYOD Design Considerations Guide</a></li>
+                    <li><a href="/Solutions/mdm-design-considerations-guide">Mobile Device Management Design Considerations Guide</a></li>
+                    <li><a href="/Solutions/byod-design-considerations-guide">BYOD Design Considerations Guide</a></li>
                     <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Hybrid Identity Design Considerations Guide</a></li>
                 </ul>
                 <ul class="column-half">
-                    <li><a href="./Solutions/conditional-access-intune.md">Conditional Access with Intune</a></li>
-                    <li><a href="./Solutions/architecture-guidance-for-protecting-company-email-and-documents.md">Protect Company Email and Documents</a></li>
+                    <li><a href="/Solutions/conditional-access-intune">Conditional Access with Intune</a></li>
+                    <li><a href="/Solutions/architecture-guidance-for-protecting-company-email-and-documents">Protect Company Email and Documents</a></li>
                 </ul>
             </div>
         </section>
