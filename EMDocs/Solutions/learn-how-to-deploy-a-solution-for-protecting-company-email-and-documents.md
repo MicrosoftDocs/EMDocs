@@ -30,7 +30,7 @@ More and more, companies are allowing employees to increase their productivity b
 
 This guide is intended for you, the IT professional, to help determine and then deploy the best solution for your company to enforce conditional access in one of the configurations as described below. This will let employees use their mobile devices to access corporate email while still protecting your company’s data.
 
-This section discusses how to deploy a solution for protecting company email and documents. For details about the architecture of these solutions, see [Architecture guidance for protecting company email and documents](architecture-guidance-for-protecting-company-email-and-documents).
+This section discusses how to deploy a solution for protecting company email and documents. For details about the architecture of these solutions, see [Architecture guidance for protecting company email and documents](architecture-guidance-for-protecting-company-email-and-documents.md).
 
 > [!TIP]
 > Get a downloadable copy of this entire topic at the [TechNet Gallery](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
