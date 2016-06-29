@@ -234,7 +234,7 @@ The storage experience for VDI is improved in Windows Server 2012 R2 with storag
 
 For more information about VDI in Windows Server 2012 R2, see [What's New in Remote Desktop Services in Windows Server 2012 R2](https://technet.microsoft.com/library/dn283323.aspx).
 
-The decision of which app deployment and experience will be used for your BYOD infrastructure design should be balanced with the total cost of ownership (TCO). To better understand the TCO for VDI adoption, we recommend that you read [VDI TCO Analysis for Office Worker Environments](http://download.microsoft.com/download/7/9/A/79AAA903-25B4-4D76-8580-BC47D5700433/Microsoft VDI TCO whitepaper customer ready v1 2.pdf).
+The decision of which app deployment and experience will be used for your BYOD infrastructure design should be balanced with the total cost of ownership (TCO). To better understand the TCO for VDI adoption, we recommend that you read [VDI TCO Analysis for Office Worker Environments](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html).
 
 ## Security
 

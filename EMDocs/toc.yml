@@ -1,139 +1,143 @@
-- name: Enterprise Mobility
-  href: /enterprise-mobility/
-  homepage: /enterprise-mobility
+- name: Docs
+  href: /
+  homepage: /
   items:
-  - name: Solutions
-    href: /enterprise-mobility/solutions/
-    homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
-  - name: Azure RemoteApp
-    href: /remoteapp/
-    homepage: /remoteapp
-  - name: Azure Active Directory
-    href: /active-directory/
-    homepage: /active-directory
+  - name: Enterprise Mobility
+    href: /enterprise-mobility/
+    homepage: /enterprise-mobility
     items:
-      - name: AD Authentication Library
-        href: /active-directory/adal/
-        homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
-      - name: AD Graph API
-        href: /azure-ad-graph-api/api/
-        homepage: /azure-ad-graph-api/api/api-catalog
-  - name: Multi-factor Authentication
-    href: /multi-factor-authentication/
-    homepage: /multi-factor-authentication
-  - name: Advanced Threat Analytics
-    href: /advanced-threat-analytics/
-    homepage: /advanced-threat-analytics
-    items:
-      - name: Understand & Explore
-        href: /advanced-threat-analytics/understand-explore/
-        homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
-      - name: Plan & Design 
-        href: /advanced-threat-analytics/plan-design/
-        homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
-      - name: Deploy & Use
-        href: /advanced-threat-analytics/deploy-use/
-        homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
-      - name: Troubleshoot
-        href: /advanced-threat-analytics/troubleshoot/
-        homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
-  - name: Intune
-    href: /intune/
-    homepage: /intune
-    items:
-      - name: Understand & Explore
-        href: /intune/understand-explore/
-        homepage: /intune/understand/ways-to-do-enterprise-mobility
-      - name: Plan & Design 
-        href: /intune/plan-design/
-        homepage: /intune/plandesign/plan-you-user-and-device-groups
-      - name: Deploy & Use
-        href: /intune/deploy-use/
-        homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
-      - name: Troubleshoot
-        href: /intune/troubleshoot/
-        homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
-      - name: Get Started
-        href: /intune/get-started/
-        homepage: /intune/get-started/what-s-new-in-microsoft-intune
-      - name: Develop & Customize Apps
-        href: /intune/develop/
-        homepage: /intune/develop/intune-app-sdk
-        
-  - name: Azure Rights Management
-    href: /rights-management/
-    homepage: /rights-management
-    items:
-      - name: Understand & Explore
-        href: /rights-management/understand-explore/
-        homepage: /rights-management/understand-explore/what-is-azure-rights-management
-      - name: Get Started
-        href: /rights-management/get-started/
-        homepage: /rights-management/get-started/requirements-for-azure-rights-management
-      - name: Plan & Design
-        href: /rights-management/plan-design/
-        homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap
-      - name: Deploy & Use the Service
-        href: /rights-management/deploy-use/
-        homepage: /rights-management/deploy-use/activating-azure-rights-management
-      - name: Deploy & Use the Client
-        href: /rights-management/rms-client/
-        homepage: /rights-management/rms-client/rights-management-rms-client
-      - name: Develop & Customize Apps
-        href: /rights-management/develop/
-        homepage: /rights-management/develop/developers-guide
-        items:
-        - name: SDK 4.2
-          href: /rights-management/sdk/4.2/api/
-          homepage: /rights-management/develop/api-reference-4-2
+    - name: Solutions
+      href: /enterprise-mobility/solutions/
+      homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
+    - name: Azure RemoteApp
+      href: /remoteapp/
+      homepage: /remoteapp
+    - name: Azure Active Directory
+      href: /active-directory/
+      homepage: /active-directory
+      items:
+        - name: AD Authentication Library
+          href: /active-directory/adal/
+          homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
+        - name: AD Graph API
+          href: /azure-ad-graph-api/api/
+          homepage: /azure-ad-graph-api/api/api-catalog
+    - name: Multi-factor Authentication
+      href: /multi-factor-authentication/
+      homepage: /multi-factor-authentication
+    - name: Advanced Threat Analytics
+      href: /advanced-threat-analytics/
+      homepage: /advanced-threat-analytics
+      items:
+        - name: Understand & Explore
+          href: /advanced-threat-analytics/understand-explore/
+          homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
+        - name: Plan & Design 
+          href: /advanced-threat-analytics/plan-design/
+          homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
+        - name: Deploy & Use
+          href: /advanced-threat-analytics/deploy-use/
+          homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
+        - name: Troubleshoot
+          href: /advanced-threat-analytics/troubleshoot/
+          homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+    - name: Intune
+      href: /intune/
+      homepage: /intune
+      items:
+        - name: Understand & Explore
+          href: /intune/understand-explore/
+          homepage: /intune/understand/ways-to-do-enterprise-mobility
+        - name: Plan & Design 
+          href: /intune/plan-design/
+          homepage: /intune/plandesign/plan-you-user-and-device-groups
+        - name: Deploy & Use
+          href: /intune/deploy-use/
+          homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
+        - name: Troubleshoot
+          href: /intune/troubleshoot/
+          homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
+        - name: Get Started
+          href: /intune/get-started/
+          homepage: /intune/get-started/what-s-new-in-microsoft-intune
+        - name: Develop & Customize Apps
+          href: /intune/develop/
+          homepage: /intune/develop/intune-app-sdk
+          
+    - name: Azure Rights Management
+      href: /rights-management/
+      homepage: /rights-management
+      items:
+        - name: Understand & Explore
+          href: /rights-management/understand-explore/
+          homepage: /rights-management/understand-explore/what-is-azure-rights-management
+        - name: Get Started
+          href: /rights-management/get-started/
+          homepage: /rights-management/get-started/requirements-for-azure-rights-management
+        - name: Plan & Design
+          href: /rights-management/plan-design/
+          homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap
+        - name: Deploy & Use the Service
+          href: /rights-management/deploy-use/
+          homepage: /rights-management/deploy-use/activating-azure-rights-management
+        - name: Deploy & Use the Client
+          href: /rights-management/rms-client/
+          homepage: /rights-management/rms-client/rights-management-rms-client
+        - name: Develop & Customize Apps
+          href: /rights-management/develop/
+          homepage: /rights-management/develop/developers-guide
           items:
-          - name: Android
-            href: /rights-management/sdk/4.2/api/android/
-            homepage: /rights-management/develop/android-namespaces
-          - name: iOS 
-            href: /rights-management/sdk/4.2/api/iOS/
-            homepage: /rights-management/sdk/4.2/api/iOS/iOS
-          - name: WinRT
-            href: /rights-management/sdk/4.2/api/winrt/
-            homepage: /rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement
-        - name: SDK 2.1
-          href: /rights-management/sdk/2.1/api/
-          homepage: /rights-management/develop/api-reference-2-1
-          items:
-          - name: Win
-            href: /rights-management/sdk/2.1/api/win/
+          - name: SDK 4.2
+            href: /rights-management/sdk/4.2/api/
+            homepage: /rights-management/develop/api-reference-4-2
+            items:
+            - name: Android
+              href: /rights-management/sdk/4.2/api/android/
+              homepage: /rights-management/develop/android-namespaces
+            - name: iOS 
+              href: /rights-management/sdk/4.2/api/iOS/
+              homepage: /rights-management/sdk/4.2/api/iOS/iOS
+            - name: WinRT
+              href: /rights-management/sdk/4.2/api/winrt/
+              homepage: /rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement
+          - name: SDK 2.1
+            href: /rights-management/sdk/2.1/api/
             homepage: /rights-management/develop/api-reference-2-1
             items:
-            - name: Constants
-              href: /rights-management/sdk/2.1/api/win/constants/
-              homepage: /rights-management/sdk/2.1/api/win/constants
-            - name: Data Types
-              href: /rights-management/sdk/2.1/api/win/data%20types/
-              homepage: /rights-management/sdk/2.1/api/win/data%20types
-            - name: Functions
-              href: /rights-management/sdk/2.1/api/win/functions/
-              homepage: /rights-management/sdk/2.1/api/win/functions
-            - name: Structures
-              href: /rights-management/sdk/2.1/api/win/structures/
-              homepage: /rights-management/sdk/2.1/api/win/structures
-  - name: Microsoft Identity Manager
-    href: /microsoft-identity-manager/
-    homepage: /microsoft-identity-manager
-    items:
-      - name: Understand & Explore
-        href: /microsoft-identity-manager/understand-explore/
-        homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
-      - name: Plan & Design 
-        href: /microsoft-identity-manager/plan-design/
-        homepage: /microsoft-identity-manager/plan-design/journey-plan-design
-      - name: Deploy & Use
-        href: /microsoft-identity-manager/deploy-use/
-        homepage: /microsoft-identity-manager/deploy-use/journey-deploy-use-html
-      - name: Reference
-        href: /microsoft-identity-manager/reference/
-        homepage: /microsoft-identity-manager/reference/journey-develop-applications
-      - name: Get Started
-        href: /microsoft-identity-manager/get-started/
-        homepage: /microsoft-identity-manager/get-started/journey-get-started
-
-
+            - name: Win
+              href: /rights-management/sdk/2.1/api/win/
+              homepage: /rights-management/develop/api-reference-2-1
+              items:
+              - name: Constants
+                href: /rights-management/sdk/2.1/api/win/constants/
+                homepage: /rights-management/sdk/2.1/api/win/constants
+              - name: Data Types
+                href: /rights-management/sdk/2.1/api/win/data%20types/
+                homepage: /rights-management/sdk/2.1/api/win/data%20types
+              - name: Functions
+                href: /rights-management/sdk/2.1/api/win/functions/
+                homepage: /rights-management/sdk/2.1/api/win/functions
+              - name: Structures
+                href: /rights-management/sdk/2.1/api/win/structures/
+                homepage: /rights-management/sdk/2.1/api/win/structures
+    - name: Microsoft Identity Manager
+      href: /microsoft-identity-manager/
+      homepage: /microsoft-identity-manager
+      items:
+        - name: Understand & Explore
+          href: /microsoft-identity-manager/understand-explore/
+          homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
+        - name: Plan & Design 
+          href: /microsoft-identity-manager/plan-design/
+          homepage: /microsoft-identity-manager/plan-design/journey-plan-design
+        - name: Deploy & Use
+          href: /microsoft-identity-manager/deploy-use/
+          homepage: /microsoft-identity-manager/deploy-use/journey-deploy-use-html
+        - name: Reference
+          href: /microsoft-identity-manager/reference/
+          homepage: /microsoft-identity-manager/reference/journey-develop-applications
+        - name: Get Started
+          href: /microsoft-identity-manager/get-started/
+          homepage: /microsoft-identity-manager/get-started/journey-get-started
+  
+  
