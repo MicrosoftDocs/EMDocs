@@ -30,7 +30,7 @@ More and more, companies are allowing employees to increase their productivity b
 
 This guide is intended for you, the IT professional, to help determine and then deploy the best solution for your company to enforce conditional access in one of the configurations as described below. This will let employees use their mobile devices to access corporate email while still protecting your company’s data.
 
-This section discusses how to deploy a solution for protecting company email and documents. For details about the architecture of these solutions, see [Architecture guidance for protecting company email and documents](architecture-guidance-for-protecting-company-email-and-documents).
+This section discusses how to deploy a solution for protecting company email and documents. For details about the architecture of these solutions, see [Architecture guidance for protecting company email and documents](architecture-guidance-for-protecting-company-email-and-documents.md).
 
 > [!TIP]
 > Get a downloadable copy of this entire topic at the [TechNet Gallery](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
@@ -46,7 +46,7 @@ Protecting corporate email involves two main objectives:
 
 -   **Protecting the content in email and attachments:** While conditional access allows you to make sure only compliant devices are able to access email, there is still the question of protecting the content in the email and email attachments.  The content can be copied, moved, saved to a different location, or shared with another user.  EMS solves this problem using mobile application management policies.
 
-    Managed apps are apps that have mobile application management policies applied to them that make them compliant with your company’s security requirements. With these apps, you have direct control over deployment, ongoing management like inventory or updates, and selective wipe of the apps and their associated data. Additionally, through a set of mobile application management (MAM) policies, Intune lets you modify the functionality of apps, and restrict sharing of data. For more details on how this solution works including architecture details see [Protect corporate email and documents](architecture-guidance-for-protecting-company-email-and-documents).
+    Managed apps are apps that have mobile application management policies applied to them that make them compliant with your company’s security requirements. With these apps, you have direct control over deployment, ongoing management like inventory or updates, and selective wipe of the apps and their associated data. Additionally, through a set of mobile application management (MAM) policies, Intune lets you modify the functionality of apps, and restrict sharing of data. For more details on how this solution works including architecture details see [Protect corporate email and documents](architecture-guidance-for-protecting-company-email-and-documents.md).
 
     > [!NOTE]
     > You can create and deploy an email profile, then set a compliance policy that specifies that email profiles must be managed by Intune (recommended). This gives you the ability to wipe email from retired devices, and it ensures that for iOS, attachments can only be opened in applications managed by Intune. See [Step 5: Create compliance policies and deploy to users.](conditional-access-intune-configmgr-exchange.md) for more information.
