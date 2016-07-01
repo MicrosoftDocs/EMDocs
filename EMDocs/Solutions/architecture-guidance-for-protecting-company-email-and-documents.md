@@ -93,11 +93,11 @@ The third layer is the  **app management layer** with the Intune-managed app eco
 Also, if you'd like to learn more about EMS and Azure Active Directory, you can get more information from any of these articles:
 - [EMS Architecture](https://azure.microsoft.com/documentation/infographics/enterprise-mobility/)
 
-- [What is Azure Active Directory](/active-directory/active-directory-whatis/)
+- [What is Azure Active Directory](/active-directory/active-directory-whatis)
 
-- [How does Azure Active Directory support Office 365, Microsoft Intune, and other Microsoft services?](/active-directory/active-directory-administer.md#what-is-an-azure-ad-tenant)
+- [How does Azure Active Directory support Office 365, Microsoft Intune, and other Microsoft services?](/active-directory/active-directory-administer#what-is-an-azure-ad-tenant)
 
-- [How does Azure Active Directory help you manage identities](/active-directory/active-directory-administer/)
+- [How does Azure Active Directory help you manage identities](/active-directory/active-directory-administer)
 
 - [What is Azure Rights Management?](/rights-management/understand-explore/what-is-azure-rms)
 
