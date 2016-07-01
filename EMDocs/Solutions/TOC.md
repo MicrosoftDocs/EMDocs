@@ -69,3 +69,7 @@
 #### [Android](end-user-experience-conditional-access-android.md)
 #### [iOS](end-user-experience-conditional-access-ios.md)
 #### [Windows Phone](end-user-experience-conditional-access-winphone.md)
+## [Protect Company Data using MAM with MDM](protect-company-data-on-mobile-devices-through-application-management-policies.md)
+### [MAM with Intune](MAM-intune.md)
+### [MAM with Configuration Manager](MAM-configmgr.md)
+### [MAM user experience](end-user-experience-MAM.md)
