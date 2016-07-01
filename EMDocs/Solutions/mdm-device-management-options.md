@@ -43,7 +43,7 @@ Managing mobile devices with Intune and ConfigMgr centers around management poli
  2. Creating [configuration baselines](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT)
  3. Deploying the [configuration baselines](https://technet.microsoft.com/library/hh219289.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT) to ConfigMgr user or device collections
 
-- **Conditional access policies:** Conditional access policies define how access to email is managed and can be used separately or in conjunction with compliance policies. Connections to your on-premises Exchange Server or Exchange Online service must be configured in [Intune](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) or in [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) before conditional access policies can be deployed. Conditional access can also be configured for Office 365 and SharePoint Online services.
+- **Conditional access policies:** Conditional access policies define how access to email is managed and can be used separately or in conjunction with compliance policies. Connections to your on-premises Exchange Server or Exchange Online service must be configured in [Intune](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) or in [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) before conditional access policies can be deployed. Conditional access can also be configured for Office 365 and SharePoint Online services.
 
 Your answers the questions in Step 1 can help you determine how you want devices to be enrolled in the mobile device management solution. The lists below will help you understand the advantages and disadvantages of each management scenario.
 
@@ -52,7 +52,7 @@ Your answers the questions in Step 1 can help you determine how you want devices
 **Advantages**
 
 - Supports simplified policy control for managing users and devices, now separated by device platform.
-- Supports Android, iOS, Windows 10https://technet.microsoft.com/library/mt147406.aspx, Windows 8.x, and Windows Phone platforms, as well as support for Exchange ActiveSync.
+- Supports Android, iOS, [Windows 10](https://technet.microsoft.com/library/mt147406.aspx), Windows 8.x, and Windows Phone platforms, as well as support for Exchange ActiveSync.
 - Provides a simple, web-based administration & management console that is accessible from any location
 - Supports group-based policies, making it easier to manage large numbers and diverse types of mobile devices
 - Supports advanced mobile device compliance features and functionality, including device root and jailbreak detection
