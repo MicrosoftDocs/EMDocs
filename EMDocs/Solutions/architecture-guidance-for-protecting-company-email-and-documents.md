@@ -91,14 +91,14 @@ The third layer is the  **app management layer** with the Intune-managed app eco
 - [Learn more about how to deploy a solution for protecting company email and documents](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
 Also, if you'd like to learn more about EMS and Azure Active Directory, you can get more information from any of these articles:
-- [EMS Architecture](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
+- [EMS Architecture](https://azure.microsoft.com/documentation/infographics/enterprise-mobility/)
 
-- [What is Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
+- [What is Azure Active Directory](/active-directory/active-directory-whatis)
 
-- [How does Azure Active Directory support Office 365, Microsoft Intune, and other Microsoft services?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
+- [How does Azure Active Directory support Office 365, Microsoft Intune, and other Microsoft services?](/active-directory/active-directory-administer#what-is-an-azure-ad-tenant)
 
-- [How does Azure Active Directory help you manage identities](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
+- [How does Azure Active Directory help you manage identities](/active-directory/active-directory-administer)
 
-- [What is Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
+- [What is Azure Rights Management?](/rights-management/understand-explore/what-is-azure-rms)
 
-- [How Applications support Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585004.aspx)
+- [How Applications support Azure Rights Management](/rights-management/understand-explore/applications-support)
