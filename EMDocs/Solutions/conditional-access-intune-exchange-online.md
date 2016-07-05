@@ -35,7 +35,7 @@ For Intune to directly manage mobile devices, users need to enroll devices into 
 Follow these steps to deploy the Exchange Online with Intune solution:
 
 ### Step 1: Create compliance policies and deploy to users.
-Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy in Microsoft Intune](/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune) to create and deploy compliance policies.
+Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy in Microsoft Intune](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune) to create and deploy compliance policies.
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 
@@ -47,7 +47,7 @@ If you specify this compliance policy, a user who has already set up their email
 > If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.
 
 ### Step 2: Evaluate the effect of the conditional access policy.
-If you have configured a connection between Intune and Exchange by using the [Microsoft Intune service to service connector](/intune/deployuse/intune-service-to-service-exchange-connector), you can use the **Mobile Device Inventory Reports** to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.
+If you have configured a connection between Intune and Exchange by using the [Microsoft Intune service to service connector](/intune/deploy-use/intune-service-to-service-exchange-connector), you can use the **Mobile Device Inventory Reports** to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.
 
 Follow the instructions at [Evaluate the effect of the conditional access policy](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) to identify those users who will be impacted by conditional access policy.
 
