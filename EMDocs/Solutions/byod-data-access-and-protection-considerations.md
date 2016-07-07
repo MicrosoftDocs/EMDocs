@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -224,7 +224,8 @@ To enforce Multi-Factor Authentication, companies can use the built-in capabilit
 
 To enforce authorization per app on users who are accessing apps either from an external or internal network, IT can leverage Web Application Proxy. By using Web Application Proxy, IT can create specific rules to enforce authentication and authorization in conjunction with AD FS. Web Application Proxy publishing works for any user device; they can use personal laptops, tablets, or smartphones. In addition, users are not required to install any additional software on their devices to access published apps. Web Application Proxy serves as a reverse proxy for any apps published through it, and as such, the user experience is the same as if users’ devices were connected directly to the apps. For more information about Web Application Proxy, see [Web Application Proxy Overview](https://technet.microsoft.com/library/dn280944.aspx).
 
->[!NOTE] If you a hybrid scenario and you need to have a seamlessly user’s authentication and authorization experience, read the [Hybrid Identity Design Considerations Guide](http://aka.ms/azhidcg).
+>[!NOTE] 
+> If you a hybrid scenario and you need to have a seamlessly user’s authentication and authorization experience, read the [Hybrid Identity Design Considerations Guide](http://aka.ms/azhidcg).
 
 ## Policy and compliance
 

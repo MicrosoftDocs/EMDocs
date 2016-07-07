@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -208,7 +208,8 @@ Use the list below to understand the advantages and disadvantages of the Wi-Fi s
 	- Disadvantages
 		- Requires IPsec for Implementation using [Microsoft Network Access Protection (NAP)](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), which can be a problem in a BYOD scenario that requires support for “any device.”
 
-> [!NOTE] For more information about Wi-Fi Profiles in Configuration Manager, see [Introduction to Wi-Fi Profiles in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
+> [!NOTE] 
+> For more information about Wi-Fi Profiles in Configuration Manager, see [Introduction to Wi-Fi Profiles in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Network location plays an important role for user and device considerations. You can leverage multi-factor access control in AD FS to enable per-application authorization policies, whereby you can permit or deny access based on user, device, and network location. See [Manage Risk with Multi-Factor Access Control](https://technet.microsoft.com/library/dn280936.aspx) for more information about how to set up an environment to validate this capability.
 

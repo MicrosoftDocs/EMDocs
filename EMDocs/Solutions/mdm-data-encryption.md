@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -40,7 +40,8 @@ You can use full disk encryption or encryption based on the data handled by an a
 
 Windows 10 Mobile uses device encryption, based on BitLocker technology, to encrypt all internal storage, including operating system and data storage partitions. The user can activate device encryption, or the IT department can activate and enforce encryption for company-managed devices through MDM tools. When device encryption is turned on, all data stored on the phone is encrypted automatically. A Windows 10 Mobile device with encryption turned on helps protect the confidentiality of data stored if the device is lost or stolen. Read Windows 10 Mobile security guide for more information.
 
->[!TIP] For more information about the mobile devices that can have encryption enabled using ConfigMgr, read [Compliance Settings for Mobile Devices in Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
+>[!TIP] 
+> For more information about the mobile devices that can have encryption enabled using ConfigMgr, read [Compliance Settings for Mobile Devices in Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
 
 For apps that are associated with an Intune mobile application management policy, encryption is provided by Microsoft. Data is encrypted synchronously during file I/O operations according to the setting in the mobile application management policy. On Android devices, managed apps use AES-128 encryption in Cipher Block Chaining (CBC) mode utilizing the platform cryptography libraries, which is not FIPS 140-2 certified. 
 
