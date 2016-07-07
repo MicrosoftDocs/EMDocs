@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -83,6 +83,7 @@ To help identify your business needs, answer the following questions:
 
 During this task, you should also evaluate if the company has existing management and compliance policies in place for mobile devices and how these policies might affect the mobile device management solution selection.
 
->[!TIP] Make sure to take notes of each answer and understand the rationale behind the answer. Next section will go over the available options and advantages/disadvantages of each option.  By having answered these questions, you’ll be able to select which solution best suits your business needs.
+>[!TIP] 
+> Make sure to take notes of each answer and understand the rationale behind the answer. Next section will go over the available options and advantages/disadvantages of each option.  By having answered these questions, you’ll be able to select which solution best suits your business needs.
 
 
