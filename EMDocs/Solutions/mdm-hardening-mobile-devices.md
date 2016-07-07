@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -95,4 +95,5 @@ Hardening the mobile device platform plays an important role in keeping your com
 
 - If your company doesn’t have a current on-premises ConfigMgr infrastructure, it will require resources to plan, install and configure ConfigMgr prior to integration
 
->[!TIP] Read more about mobile device management settings that you can configure in a Microsoft Intune mobile device security policy at [Mobile device management policy settings for Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
+>[!TIP] 
+> Read more about mobile device management settings that you can configure in a Microsoft Intune mobile device security policy at [Mobile device management policy settings for Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
