@@ -6,7 +6,7 @@ description:
 keywords:
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -120,11 +120,13 @@ Provide guidance about:
 
     -   Configure synchronization between on-premises Active Directory forests and Microsoft Azure Active Directory Premium directory (Azure Active Directory).
 
-        > [!NOTE] Development and implementation for custom rules extensions are out of scope.
+        > [!NOTE] 
+        > Development and implementation for custom rules extensions are out of scope.
 
 -   For a single forest when the target is federated identities: Installing and configuring Active Directory Federation Services (AD FS) for local domain authentication with Microsoft Azure AD Premium in a single-site, fault-tolerant configuration, if required.
 
-    > [!NOTE] For all multiple forest configurations, AD FS deployments are out of scope.
+    > [!NOTE] 
+    > For all multiple forest configurations, AD FS deployments are out of scope.
 
 -   Testing single sign-on (SSO) functionality, if deployed.
 
@@ -169,7 +171,8 @@ Provide guidance with:
 
     -   If you have an existing implementation of System Center Configuration Manager and you are looking to expand its management capabilities with Microsoft Intune, set Configuration Manager as your MDM authority.
 
-        > [!NOTE] If you are only looking to leverage Mobile Application Management over your end-users' owned devices, shared, or kiosk-type devices, setting up an MDM authority is not required.
+        > [!NOTE] 
+        > If you are only looking to leverage Mobile Application Management over your end-users' owned devices, shared, or kiosk-type devices, setting up an MDM authority is not required.
 
 -   If Mobile Device Management is in your scope, we’ll provide guidance with:
 

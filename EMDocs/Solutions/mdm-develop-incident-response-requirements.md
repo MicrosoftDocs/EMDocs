@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -33,7 +33,8 @@ ms.suite: ems
 While many organizations already have an incident response (IR) plan in place, you should check to make sure the plan includes mobile devices and what steps should be taken if an incident is reported on those devices. If your company is just now adding a mobility solution, it’s likely the current IR plan doesn’t cover mobile devices. 
 If your organization doesn’t have an IR plan, it is important to work closely with your security team to understand the requirements as you develop one, so you’ll know the right questions to ask when you’re choosing the best MDM solution for your needs. 
  
->[!TIP] Read [Responding to IT Security Incidents](https://technet.microsoft.com/library/cc700825.aspx) to better understand the minimum requirements for an IR plan.
+>[!TIP] 
+> Read [Responding to IT Security Incidents](https://technet.microsoft.com/library/cc700825.aspx) to better understand the minimum requirements for an IR plan.
 
 When designing your MDM solution, make sure you ask the following questions so you can make sure mobile devices can be managed if there’s an incident.
 

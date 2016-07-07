@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -33,7 +33,8 @@ ms.suite: ems
 
 In the previous step, you defined device management tasks, including device management and content distribution management. In this task, the goal is to define the privacy requirements for company content that will reside on the mobile device. 
 
->[!TIP] Read the solution Streamlined management for mobile devices and computers in a hybrid environment for more information about content distribution for mobile devices.
+>[!TIP] 
+> Read the solution Streamlined management for mobile devices and computers in a hybrid environment for more information about content distribution for mobile devices.
 
 An organization’s privacy and compliance requirements will vary according to the industry, applicable regulations, and type of business. For example, you may want your MDM solution to allow you to perform basic hardware inventories, software inventories, file collections, and software distribution on mobile devices. Hardware inventory and software distribution are usually supported by default. 
 
