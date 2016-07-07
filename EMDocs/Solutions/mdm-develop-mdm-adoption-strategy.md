@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -171,6 +171,7 @@ Based on the requirements that were defined in Task 1, you can choose which mobi
 
 Understanding user behavior and being able to identify their location are important factors to include in your mobile device management strategy. How devices will be tracked will vary according to your business requirements and needs.  Different tracking capabilities are available in each mobile operating system so the mobile device platforms you choose to support will impact your options. For example, compliance requirements may influence you to prioritize adopting mobile devices platforms that allow you to track user’s location and use geofencing.
 
->[!TIP] Geofencing allows you to monitor a mobile device’s geographic location and enable/disable device and network resources based on that location. For example, Windows 8.1 supports allows an app to define a geographical region and have the system alert the app when the device it's running on enters or exits that area. For more information about this feature in Windows 8.1, read [Geofencing, start to finish (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
+>[!TIP] 
+> Geofencing allows you to monitor a mobile device’s geographic location and enable/disable device and network resources based on that location. For example, Windows 8.1 supports allows an app to define a geographical region and have the system alert the app when the device it's running on enters or exits that area. For more information about this feature in Windows 8.1, read [Geofencing, start to finish (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
 
 
