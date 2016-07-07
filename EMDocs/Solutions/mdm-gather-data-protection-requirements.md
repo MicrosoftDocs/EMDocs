@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -67,4 +67,5 @@ The list below includes common options that should be supported by the MDM solut
 - Requiring encryption on storage cards
 - Allowing idle return without a password
 
->[!TIP] In Windows Phone 8.1, the policy Allow idle return without password can be configured using [Windows Phone 8.1 Enterprise Device Management Protocol](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).
+>[!TIP] 
+> In Windows Phone 8.1, the policy Allow idle return without password can be configured using [Windows Phone 8.1 Enterprise Device Management Protocol](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).
