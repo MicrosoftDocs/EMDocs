@@ -3,6 +3,6 @@
 	"files": ["EMDocs/*.md", "EMDocs/**/*.md", "**/toc.yml", "!EMDocs/termsofuse.md"],
 	"includeDependencies": false,
 	"autoPush": true,
-	"useJavascriptMarkdownTransformer": true
+	"useJavascriptMarkdownTransformer": true,
 	"translationType": "HT" 
 }
