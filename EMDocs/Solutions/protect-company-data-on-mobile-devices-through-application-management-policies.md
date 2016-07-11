@@ -37,6 +37,9 @@ This allows you to create and deploy apps with mobile application management (MA
 
 This document focusses on creation of these MAM based policies when the end-user device is enrolled in Intune for MDM. See [Protect line of business apps and data on devices not enrolled in Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) for information about configuring these MAM policies when the device itself is not enrolled in Intune for MDM.
 
+> [!TIP]
+> Downloadable a copy of this entire topic from the [TechNet Gallery](https://gallery.technet.microsoft.com/Protect-Company-Data-on-d972f4f4/file/154240/1/Protect%20Company%20Data%20on%20Mobile%20Devices%20through%20Application%20Management%20Policies.pdf).
+
 ## Introduction
 Managed apps are apps that have mobile application management policies applied to them that make them compliant with your company’s security requirements. You have two options for managing mobile apps:
 - **The default capability**, such as Apple Managed Open In, which protects corporate data by controlling the apps that are allowed to open certain documents and email attachments
