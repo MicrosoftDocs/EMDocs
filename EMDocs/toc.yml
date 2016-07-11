@@ -120,6 +120,9 @@
               - name: Structures
                 href: /rights-management/sdk/2.1/api/win/structures/
                 homepage: /rights-management/sdk/2.1/api/win/structures
+        - name: Information Protection (preview)
+          href: /rights-management/information-protection/
+          homepage: /rights-management/information-protection/what-is-information-protection
     - name: Microsoft Identity Manager
       href: /microsoft-identity-manager/
       homepage: /microsoft-identity-manager
