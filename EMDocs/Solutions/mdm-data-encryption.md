@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Develop your incident response requirements
+title: Develop your data encryption requirements
 description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 07/07/2016
+ms.date: 07/12/2016
 ms.topic: article
 ms.prod:
 ms.service:
