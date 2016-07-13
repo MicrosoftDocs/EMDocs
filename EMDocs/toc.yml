@@ -142,5 +142,8 @@
         - name: Get Started
           href: /microsoft-identity-manager/get-started/
           homepage: /microsoft-identity-manager/get-started/journey-get-started
+        - name: PAM
+          href: /microsoft-identity-manager/pam/
+          homepage: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
   
   
