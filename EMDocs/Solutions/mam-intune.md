@@ -2,7 +2,7 @@
 # required metadata
 
 title: Using Mobile Application Management Policies in Intune
-description:
+description: Create and deploy an app in Intune with a mobile application management policy.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -57,7 +57,7 @@ For example, using the Outlook app:
 
 Word, Excel, and PowerPoint all support multi-identity as well, except the policy restrictions only apply when managing and editing corporate-identifiable data from a service such as OneDrive or SharePoint.
 
-## Create and deploy an app with a mobile application management policy
+## Create and deploy an app in Intune with a mobile application management policy
 
 - Step 1: Get the link to a policy managed app, or create a wrapped app.
 - Step 2: Publish the app to your cloud storage space.

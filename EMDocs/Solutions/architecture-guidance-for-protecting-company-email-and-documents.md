@@ -2,9 +2,9 @@
 # required metadata
 
 title: Architecture guidance for protecting company email and documents
-description:
+description: Provide data protection for your company while ensuring that the end-user experience is simple and does not impact productivity.
 keywords:
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

@@ -2,7 +2,7 @@
 # required metadata
 
 title: End-user experience of MAM
-description:
+description: End-user experience of mobile access management policies.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
