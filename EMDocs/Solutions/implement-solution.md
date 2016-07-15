@@ -2,9 +2,9 @@
 # required metadata
 
 title: Implementing a solution for protecting company email and attachments
-description:
+description: Prepare for and implement a solution for protecting company email content and attachments.
 keywords:
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -18,7 +18,7 @@ ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:

@@ -2,7 +2,7 @@
 # required metadata
 
 title: End-user experience of conditional access
-description:
+description: The end-user experience of enrolling a device or fixing compliance issues.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa

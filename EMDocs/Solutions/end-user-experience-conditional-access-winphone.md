@@ -2,7 +2,7 @@
 # required metadata
 
 title: End-user experience of conditional access on Windows Phone
-description:
+description: The end-user experience of enrolling a Windows Phone.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Windows Phone
 
-The enrollment process and the screens the user sees will be slightly different depending on the version of OS running on the end-user device.  This topic describes the end-user experience for Windows Phones.
+The enrollment process and the screens the user sees will be slightly different depending on the version of OS running on the end-user device.  This topic describes the end-user experience for enrolling Windows Phones.
 
 ## Enrolling
 

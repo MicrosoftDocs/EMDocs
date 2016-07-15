@@ -2,9 +2,9 @@
 # required metadata
 
 title: Protect company email and documents
-description:
+description: Allow only compliant devices to access your company’s email and protect the content in email and attachments.
 keywords:
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
