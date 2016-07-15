@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Using Mobile Application Management Policies in Intune
-description: Create and deploy an app in Intune with a mobile application management policy.
+title: Using Mobile App Management Policies in Intune
+description: Create and deploy an app in Intune with a mobile app management policy.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -25,21 +25,21 @@ ms.suite: ems
 
 ---
 
-# Use Mobile Application Management Policies in Intune
+# Use Mobile App Management Policies in Intune
 One of the primary reasons many companies use Microsoft Intune is to deploy apps that users need to get their work done. Before you deploy apps, you'll need to [get your devices managed](https://docs.microsoft.com/en-us/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
 For example, if your company uses Microsoft Word, there are versions available for Windows, iOS, Android and more. The challenge you, as an IT admin, face is to manage the multitude of apps available, on many different device and computer platforms, with the aim of allowing users to do their work while still ensuring the security of your company data.
 
 If you are using Intune with Configuration Manager, see [How to Control Apps Using Mobile Application Management Policies in Configuration Manager](https://technet.microsoft.com/library/mt131414.aspx?f=255&MSPPError=-2147217396).
 
-Mobile application management policies support:
+Mobile app management (MAM) policies support:
 - Devices that run Android 4 and later.
 - Devices that run iOS 7 and later.
 
 > [!NOTE]
-> Mobile application management policies support devices that are enrolled with Intune. For information about how to create app management policies for devices that are not managed by Intune, see [Protect app data using mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
+> MAM policies support devices that are enrolled with Intune. For information about how to create app management policies for devices that are not managed by Intune, see [Protect app data using mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
 
-Unlike other Intune policies, you do not deploy a mobile application management policy directly. Instead, you associate the policy with the app that you want to restrict. When the app is deployed and installed on devices, the settings you specify will take effect.
+Unlike other Intune policies, you do not deploy a MAM policy directly. Instead, you associate the policy with the app that you want to restrict. When the app is deployed and installed on devices, the settings you specify will take effect.
 
 To apply restrictions to an app, the app must incorporate the Microsoft Intune App Software Development Kit (SDK). There are two methods of obtaining this type of app:
 
@@ -57,12 +57,12 @@ For example, using the Outlook app:
 
 Word, Excel, and PowerPoint all support multi-identity as well, except the policy restrictions only apply when managing and editing corporate-identifiable data from a service such as OneDrive or SharePoint.
 
-## Create and deploy an app in Intune with a mobile application management policy
+## Create and deploy an app in Intune with a mobile app management policy
 
 - Step 1: Get the link to a policy managed app, or create a wrapped app.
 - Step 2: Publish the app to your cloud storage space.
-- Step 3: Create a mobile application management policy.
-- Step 4: Deploy the app, selecting the option to associate the app with a mobile application management policy.
+- Step 3: Create a mobile app management policy.
+- Step 4: Deploy the app, selecting the option to associate the app with a mobile a app management policy.
 - Step 5: Monitor the app deployment.
 
 ### Step 1: Obtain the link to a policy managed app, or create a wrapped app
@@ -75,7 +75,7 @@ When you publish a managed app, the procedures differ depending on whether you a
 
 See [Add apps for mobile devices in Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune#add-the-app) for the complete steps required to upload an app to your cloud storage space.
 
-### Step 3: Create a mobile application management policy
+### Step 3: Create a mobile app management policy
 The Azure portal is the recommended admin console for creating MAM policies. Azure portal supports the following MAM scenarios:
 - Devices enrolled in Intune
 - Devices managed by a third-party MDM solution
@@ -89,7 +89,7 @@ If you are currently using the Intune admin console to manage your devices, you 
 ### Step 4: Deploy the app, selecting the option to associate the app with a mobile application management policy
 If you are using the Azure portal, [deploy the MAM policy to users](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune#deploy-a-policy-to-users).
 
-If you are using the Intune portal, you [deploy the app](https://docs.microsoft.com/en-us/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app), ensuring that you select the mobile application management policy on the Mobile App Management page to associate the policy with the app.
+If you are using the Intune portal, you [deploy the app](https://docs.microsoft.com/en-us/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app), ensuring that you select the mobile app management policy on the Mobile App Management page to associate the policy with the app.
 
 If the device is unenrolled from Intune, polices are not removed from the apps; any apps that had policies applied will retain the policy settings even after the app is uninstalled and reinstalled.
 
@@ -99,7 +99,7 @@ There might be situations where you deploy an app and one of the targeted users 
 
 In this case, you must ask the user to manually uninstall the unmanaged version so that the managed version you configured can be installed.
 
-However, for devices that run iOS 9 and later, Intune will automatically ask the user for permission to take over management of the existing app. If they agree, then the app will become managed by Intune and any mobile application management policies you associated with the app will also be applied.
+However, for devices that run iOS 9 and later, Intune will automatically ask the user for permission to take over management of the existing app. If they agree, then the app will become managed by Intune and any MAM policies you associated with the app will also be applied.
 
 
 ### Step 5: Monitor the app deployment with MAM policy
@@ -109,9 +109,9 @@ Use the following procedures to monitor deployment of the app through the Intune
 2. Perform one of the following steps:
   -  Click **All Users**, then double-click on the user whose devices you want to examine. On the User Properties page, click **Devices**, then double-click the device you want to examine.
   -  Click **All Devices > All Mobile Devices**. On the Device Group Properties page, click **Devices**, then double-click the device you want to examine.
-3. From the Mobile Device Properties page, click **Policy** to see a list of the mobile application management policies that have been deployed to the device.
-4. Select the mobile application management policy whose status you want to view. You can view details of the policy in the bottom pane and expand its node to display its settings.
-5.	Under the Status column of each of the mobile application management policies, Conforms, Conforms (Pending), or Error will be displayed. If the selected policy has one or more settings in conflict, Error will be displayed in this field.
+3. From the Mobile Device Properties page, click **Policy** to see a list of the MAM policies that have been deployed to the device.
+4. Select the MAM policy whose status you want to view. You can view details of the policy in the bottom pane and expand its node to display its settings.
+5.	Under the Status column of each of the MAM policies, Conforms, Conforms (Pending), or Error will be displayed. If the selected policy has one or more settings in conflict, Error will be displayed in this field.
 6.	Once you have identified a conflict, you can revise conflicting policy settings to use the same setting, or deploy only one policy to the app and user.
 
 > [!NOTE]
