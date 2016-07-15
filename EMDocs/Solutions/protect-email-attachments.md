@@ -2,9 +2,9 @@
 # required metadata
 
 title: Protect company email attachments
-description:
+description: Protect the content in email and email attachments using mobile application management (MAM) policies.
 keywords:
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

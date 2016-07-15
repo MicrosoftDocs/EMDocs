@@ -2,7 +2,7 @@
 # required metadata
 
 title: Protect Company Data using MAM with MDM
-description:
+description: Create and deploy apps with mobile application management (MAM) policies to best protect your company data.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa

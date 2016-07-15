@@ -2,7 +2,7 @@
 # required metadata
 
 title: Use conditional access with Intune and Configuration Manager
-description:
+description: Deploy the Intune with Configuration Manager solution.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -18,7 +18,7 @@ ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Use conditional access with Exchange Online, Microsoft Intune and Configuration Manager
-description:
+description: Use Configuration Manager, Exchange Online and Intune to manage email access and protect email data on mobile devices.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -18,7 +18,7 @@ ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:

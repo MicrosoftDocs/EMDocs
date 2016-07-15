@@ -2,7 +2,7 @@
 # required metadata
 
 title: Use conditional access with Microsoft Intune and Exchange Online
-description:
+description: Deploy the Exchange Online with Intune solution.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -18,7 +18,7 @@ ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
