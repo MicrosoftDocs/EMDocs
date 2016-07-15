@@ -2,7 +2,7 @@
 # required metadata
 
 title: End-user experience of conditional access on Android devices
-description:
+description: The end-user experience of enrolling an Android device.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Android
 
-The enrollment process and the screens the user sees will be slightly different depending on the version of OS running on the end-user device. This topic describes the end-user experience for Android devices.
+The enrollment process and the screens the user sees will be slightly different depending on the version of OS running on the end-user device. This topic describes the end-user experience for enrolling Android devices.
 
 ## Enrolling
 

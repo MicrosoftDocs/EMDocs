@@ -2,7 +2,7 @@
 # required metadata
 
 title: Using Mobile Application Management policies in Configuration Manager
-description:
+description: Create and deploy an app in Configuration Manager with a mobile application management policy.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -44,7 +44,7 @@ To apply restrictions to an app, the app must incorporate the Microsoft Intune A
 - **Use a policy managed app** (Android and iOS): Has the App SDK built-in. To add this type of app, you specify a link to the app from an app store such as the iTunes store or Google Play. No further processing is required for this type of app. For a list of the policy managed apps that are available for iOS and Android devices, see [Microsoft Intune mobile application gallery](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners).
 - **Use a ‘wrapped’ app ** (Android and iOS): Apps that are repackaged to include the App SDK by using the Microsoft Intune App Wrapping Tool. This tool is typically used to process company apps that were created in-house. It cannot be used to process apps that were downloaded from the app store. See [Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) and [Prepare Android apps for mobile application management with the Microsoft Intune App Wrapping Tool](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
 
-## Create and deploy an app with a mobile application management policy
+## Create and deploy an app in Configuration Manager with a mobile application management policy
 
 - Step 1: Get the link to a policy managed app, or create a wrapped app.
 - Step 2: Create a Configuration Manager application that contains an app.

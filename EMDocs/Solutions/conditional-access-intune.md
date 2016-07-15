@@ -2,7 +2,7 @@
 # required metadata
 
 title: Use conditional access with Microsoft Intune
-description:
+description: Use conditional access in Intune to help secure email and other services.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -18,7 +18,7 @@ ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
