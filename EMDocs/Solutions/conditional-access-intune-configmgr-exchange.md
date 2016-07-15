@@ -2,7 +2,7 @@
 # required metadata
 
 title: Use conditional access with Exchange Server on-premises, Microsoft Intune and Configuration Manager
-description:
+description: Use Configuration Manager, Exchange Server on-premises and Intune to manage email access and protect email data on mobile devices.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -18,7 +18,7 @@ ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
