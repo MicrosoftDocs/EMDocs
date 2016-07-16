@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Using Mobile Application Management policies in Configuration Manager
-description: Create and deploy an app in Configuration Manager with a mobile application management policy.
+title: Using Mobile App Management policies in Configuration Manager
+description: Create and deploy an app in Configuration Manager with a mobile app management (MAM) policy.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -25,14 +25,14 @@ ms.suite: ems
 
 ---
 
-# Use Mobile Application Management policies in Configuration Manager
+# Use Mobile App Management policies in Configuration Manager
 Beginning with System Center 2012 Configuration Manager SP2, app management policies let you modify the functionality of apps that you deploy to help bring them into line with your company compliance and security policies. For example, you can restrict cut, copy and paste operations within a restricted app, or configure an app to open all web links inside a managed browser. App management policies support:
 
 - Devices that run Android 4 and later.
 - Devices that run iOS 7 and later.
 
 > [!TIP]
-> In addition to managed devices, mobile app management policies can be used to protect apps on devices that are not managed by Intune. Using this new capability, you can apply mobile app management policies for apps connecting to Office 365 services. This is not supported for apps connecting to on-premises Exchange or SharePoint.
+> In addition to managed devices, mobile app management (MAM) policies can be used to protect apps on devices that are not managed by Intune. Using this new capability, you can apply mobile app management policies for apps connecting to Office 365 services. This is not supported for apps connecting to on-premises Exchange or SharePoint.
 To use this new capability, you must use the Azure portal. The following topics can help you get started:
 - [Get ready to configure mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
 - [Create and deploy mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)
@@ -44,12 +44,12 @@ To apply restrictions to an app, the app must incorporate the Microsoft Intune A
 - **Use a policy managed app** (Android and iOS): Has the App SDK built-in. To add this type of app, you specify a link to the app from an app store such as the iTunes store or Google Play. No further processing is required for this type of app. For a list of the policy managed apps that are available for iOS and Android devices, see [Microsoft Intune mobile application gallery](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners).
 - **Use a ‘wrapped’ app ** (Android and iOS): Apps that are repackaged to include the App SDK by using the Microsoft Intune App Wrapping Tool. This tool is typically used to process company apps that were created in-house. It cannot be used to process apps that were downloaded from the app store. See [Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) and [Prepare Android apps for mobile application management with the Microsoft Intune App Wrapping Tool](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
 
-## Create and deploy an app in Configuration Manager with a mobile application management policy
+## Create and deploy an app in Configuration Manager with a mobile app management policy
 
 - Step 1: Get the link to a policy managed app, or create a wrapped app.
 - Step 2: Create a Configuration Manager application that contains an app.
-- Step 3: Create a mobile application management policy.
-- Step 4: Associate the application management policy with a deployment type.
+- Step 3: Create a mobile app management policy.
+- Step 4: Associate the app management policy with a deployment type.
 - Step 5: Monitor the app deployment.
 
 ### Step 1: Obtain the link to a policy managed app, or create a wrapped app.
@@ -69,7 +69,7 @@ Next, you will [create an application management policy](https://technet.microso
 
 After you have created the new policy, it is displayed in the **Application Management Policies** node of the **Software Library** workspace.
 
-### Step 4: Associate the application management policy with a deployment type.
+### Step 4: Associate the app management policy with a deployment type.
 When a deployment type is created for an app that requires an application management policy, Configuration Manager will recognize that an app management policy must be linked to this deployment type when the associated app gets deployed and prompt you to associate an app management policy. For the Managed Browser, you will be required to associate both a General and Managed Browser policy. For more information, see [How to Create and Deploy Applications for Mobile Devices in Configuration Manager](https://technet.microsoft.com/en-us/library/dn469410.aspx).
 
 > [!TIP]
@@ -79,7 +79,7 @@ When a deployment type is created for an app that requires an application manage
 
 
 ### Step 5: Monitor the app deployment.
-Once you have created and deployed an app associated with a mobile application management policy, you can [monitor the app and resolve any policy conflicts](https://technet.microsoft.com/en-us/library/mt131414.aspx?f=255&MSPPError=-2147217396#BKMK_Step5).
+Once you have created and deployed an app associated with a MAM policy, you can [monitor the app and resolve any policy conflicts](https://technet.microsoft.com/en-us/library/mt131414.aspx?f=255&MSPPError=-2147217396#BKMK_Step5).
 
 For general information about monitoring applications, see [How to Monitor Applications in Configuration Manager](https://technet.microsoft.com/en-us/library/gg682201.aspx).
 
