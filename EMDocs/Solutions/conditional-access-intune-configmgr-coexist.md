@@ -2,7 +2,7 @@
 # required metadata
 
 title: Use conditional access in Exchange Online and on-premises with Microsoft Intune and Configuration Manager
-description:
+description: Use a coexistence of Exchange on-premises and Exchange Online along with Configuration Manager and Intune to manage email access and protect email data on mobile devices.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -18,7 +18,7 @@ ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:

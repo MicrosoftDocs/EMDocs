@@ -2,7 +2,7 @@
 # required metadata
 
 title: Learn how to deploy a solution for protecting company email and documents
-description:
+description: Determine and then deploy the best solution for your company to enforce conditional access.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa

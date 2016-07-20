@@ -2,7 +2,7 @@
 # required metadata
 
 title: End-user experience of MAM
-description:
+description: End-user experience of mobile app management policies.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
@@ -25,7 +25,7 @@ ms.suite: ems
 
 ---
 
-# End-user experience of mobile access management policies
+# End-user experience of mobile app management policies
 MAM polices are applied only when apps are used in the work context. Read the following example scenarios to help you educate your users so that they understand how managed apps work.
 
 This section provides examples of the following end-user experiences:
