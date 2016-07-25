@@ -30,7 +30,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Featured Content</h2>
         <div class="features row">
             <ul class="column-half">
-                <li><mark><b>NEW</b></mark> <a href="./information-protection/what-is-information-protection.md">Azure Information Protection (preview)</a></li>
+                <li><mark><b>NEW</b></mark> <a href="/rights-management/information-protection/what-is-information-protection">Azure Information Protection (preview)</a></li>
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">What is Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">What is Advanced Threat Analytics?</a></li>
