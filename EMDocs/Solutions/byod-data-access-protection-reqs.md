@@ -6,7 +6,7 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/28/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -45,7 +45,7 @@ Data access and protection requirement questions are categorized in six areas:
 
 ### Storage
 
-- While the data is at rest in the datacenter, do you have encryption enabled?
+- While the data is at rest in the data center, do you have encryption enabled?
 - Will your company provide offline access to data located in the datacenter’s storage (in other words, will you sync data to users’ devices)?
 	- If so, does your company want to keep the same data format (encrypted or plain) on users’ devices?
 - Do you have any storage quota currently implemented in your system on a per-user basis?
