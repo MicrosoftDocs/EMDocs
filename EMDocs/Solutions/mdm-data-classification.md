@@ -6,10 +6,10 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
 
