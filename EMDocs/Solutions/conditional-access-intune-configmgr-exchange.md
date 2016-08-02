@@ -104,15 +104,15 @@ Make sure your environment includes these requirements for implementing this sol
 Follow these steps to deploy the Exchange on-premises solution:
 
 ### Step 1: Ensure that Intune Connector role is installed.
-Make sure that the Intune Connector role is installed so that Configuration Manager can interact with Intune. See [Manage Mobile Devices with Configuration Manager and Intune](https://technet.microsoft.com/en-us/library/JJ884158.aspx) for more information.
+Make sure that the Intune Connector role is installed so that Configuration Manager can interact with Intune. See [Manage Mobile Devices with Configuration Manager and Intune](https://technet.microsoft.com/library/JJ884158.aspx) for more information.
 
 ### Step 2: Install and configure an Exchange Server connector.
 Configuration Manager supports only one connector in an Exchange organization.
 
 > [!IMPORTANT]
-> Before you install the Exchange Server connector, confirm that Configuration Manager supports the version of Microsoft Exchange that you are using. For more information, see [Supported Configurations for Configuration Manager](https://technet.microsoft.com/en-us/library/gg682077.aspx).
+> Before you install the Exchange Server connector, confirm that Configuration Manager supports the version of Microsoft Exchange that you are using. For more information, see [Supported Configurations for Configuration Manager](https://technet.microsoft.com/library/gg682077.aspx).
 
-Follow the steps at [How to Manage Mobile Devices by Using Configuration Manager and Exchange](https://technet.microsoft.com/en-us/library/gg682001.aspx) to install and configure the Exchange Server connector.
+Follow the steps at [How to Manage Mobile Devices by Using Configuration Manager and Exchange](https://technet.microsoft.com/library/gg682001.aspx) to install and configure the Exchange Server connector.
 
 ### Step 3: Run a full synchronization to discover users.
 
@@ -131,10 +131,10 @@ Using the Configuration Manager Trace Log Tool, you can open the EasDisc.log fil
 ### Step 4: Create user collections.
 Determine the Intune user groups for whom the conditional access policy will be targeted. Then, create user collections for groups of users that will either be targeted or exempted from the conditional access policy. You will specify these groups when you enforce conditional access later on.
 
-Follow the steps at [How to Create Collections in Configuration Manager](https://technet.microsoft.com/en-us/library/gg712295.aspx) to create user collections.
+Follow the steps at [How to Create Collections in Configuration Manager](https://technet.microsoft.com/library/gg712295.aspx) to create user collections.
 
 ### Step 5: Create compliance policies and deploy to users.
-Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Compliance Policies in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131417.aspx) to create compliance policies.
+Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Compliance Policies in Configuration Manager](https://technet.microsoft.com/library/mt131417.aspx) to create compliance policies.
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 
@@ -145,7 +145,7 @@ If you specify this compliance policy, a user who has already set up their email
 After the compliance policy is created, select the compliance policy name in the list and click **Deploy**.
 
 ### Step 6: Configure conditional access policy.
-First, decide how and when you want to enforce conditional access and which employees will be affected. Then, follow the steps at [Conditional Access for Exchange Email in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131421.aspx) to configure the conditional access policy for Exchange on-premises.
+First, decide how and when you want to enforce conditional access and which employees will be affected. Then, follow the steps at [Conditional Access for Exchange Email in Configuration Manager](https://technet.microsoft.com/library/mt131421.aspx) to configure the conditional access policy for Exchange on-premises.
 
 ### Step 7: Monitor enrollments and enforce conditional access.
 If you already have a significant number of users enrolled in Intune and compliant, you can start enforcing conditional access by rolling it out to about 500 users per day. This will take about 4 to 5 months for 70,000 users and lets you sort out any issues that might arise without restricting email access to too many users at the same time.
@@ -157,7 +157,7 @@ Using the Configuration Manager Trace Log Tool, open the EasDisc.log file (locat
 
 ![Screenshot showing the EasDisc.log file opened in the Configuration Manager Trace Log Tool](./media/ProtectEmail/Hybrid-Onprem-Eas-DiscLog-Sample.PNG)
 
-The Configuration Manager Trace Log Tool is included in the [System Center 2012 R2 Configuration Manager Toolkit](http://www.microsoft.com/en-us/download/details.aspx?id=50012).
+The Configuration Manager Trace Log Tool is included in the [System Center 2012 R2 Configuration Manager Toolkit](http://www.microsoft.com/download/details.aspx?id=50012).
 
 ## Reporting
 You can use the Configuration Manager console to view specific information about devices that have been discovered by the Exchange Connector. For devices on which conditional access is enforced, you can view the current status of each device, the last time the device was connected with the Exchange server, and so on.
