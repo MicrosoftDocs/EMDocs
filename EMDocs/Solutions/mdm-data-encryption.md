@@ -6,10 +6,10 @@ description: This topic has design considerations data encryption in mobile devi
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 07/12/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 
