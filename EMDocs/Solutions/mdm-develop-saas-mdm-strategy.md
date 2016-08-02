@@ -6,10 +6,10 @@ description:
 keywords:
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
 
