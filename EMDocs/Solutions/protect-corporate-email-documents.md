@@ -80,7 +80,7 @@ To get to a compliant state, the device on which the EAS client is running needs
 
 -   Enroll with Intune
 
--   Register with [Azure Active Directory](https://msdn.microsoft.com/en-us/6a14cb1f-a058-4453-8ede-d9f4a66a7073.aspx), and
+-   Register with [Azure Active Directory](https://msdn.microsoft.com/6a14cb1f-a058-4453-8ede-d9f4a66a7073.aspx), and
 
 -   Be compliant with the device policies set by your IT admin.
 
