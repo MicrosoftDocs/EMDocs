@@ -1,12 +1,11 @@
 # Solutions
-## [Get Started with FastTrack](enterprise-mobility-fasttrack-program.md)
-### [FastTrack Benefit for EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
-### [FastTrack Benefit process for EMS](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-#### [Overview](fasttrack-center-benefit-process-for-ems-overview.md)
-#### [Source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-#### [Phases](fasttrack-center-benefit-process-for-ems-phases.md)
-#### [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
-#### [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
+## [EMS Technical Scenarios](identity-driven-security.md)
+### [Identity Driven Security](identity-driven-security.md)
+### [Managed Mobile Productivity](managed-mobile-productivity.md)
+### [Identity and Access Management](identity-access-management.md)
+### [Information Protection](information-protection.md)
+### [Desktop Virtualization](desktop-virtualization.md)
+
 ## [BYOD Design Guide](byod-design-considerations-guide.md)
 ### [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)
 #### [User and device requirements](byod-user-device-reqs.md)
@@ -18,6 +17,7 @@
 #### [Data access and protections](byod-data-access-and-protection-considerations.md)
 #### [Management](byod-management-considerations.md)
 #### [Apps](byod-app-considerations.md)
+
 ## [Mobile Device Management Design Guide](mdm-design-considerations-guide.md)
 ### [Step 1: Identify requirements](mdm-step-1-identify-your-mobile-device-management-requirements.md)
 #### [Identify business needs](mdm-identify-business-needs.md)
@@ -27,7 +27,7 @@
 #### [Understand the MDM lifecycle](mdm-understand-mdm-lifecycle.md)
 #### [Gather monitoring requirements](mdm-gather-monitoring-requirements.md)
 #### [Determine network requirements](mdm-determine-network-requirements.md)
-#### [Device enrollment options](mdm-device-enrollment-options.md)
+### [Device enrollment options](mdm-device-enrollment-options.md)
 #### [Device provisioning options](mdm-device-provisioning-options.md)
 #### [Device management options](mdm-device-management-options.md)
 #### [Application management options](mdm-application-management-options.md)
@@ -53,6 +53,7 @@
 #### [Develop SaaS MDM strategy](mdm-develop-saas-mdm-strategy.md)
 #### [Identify SaaS connectivity requirements](mdm-identify-saas-connectivity-requirements.md)
 ### [Next steps](mdm-next-steps-and-additional-resources.md)
+
 ## [Protect Email and Documents (Architecture)](architecture-guidance-for-protecting-company-email-and-documents.md)
 ### [Protect corporate email](protect-corporate-email-documents.md)
 ### [Protect email attachments](protect-email-attachments.md)
@@ -73,3 +74,16 @@
 ### [MAM with Intune](MAM-intune.md)
 ### [MAM with Configuration Manager](MAM-configmgr.md)
 ### [MAM user experience](end-user-experience-MAM.md)
+
+## [Get Started with FastTrack](enterprise-mobility-fasttrack-program.md)
+### [FastTrack Benefit for EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
+### [FastTrack Benefit process for EMS](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
+#### [Overview](fasttrack-center-benefit-process-for-ems-overview.md)
+#### [Source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+#### [Phases](fasttrack-center-benefit-process-for-ems-phases.md)
+#### [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+#### [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
+
+## [Downloadable Software licenses included with EMS](subscription-might-include-downloadable-software.md)
+
+## [EMS Frequently Asked Questions](ems-faq.md)
