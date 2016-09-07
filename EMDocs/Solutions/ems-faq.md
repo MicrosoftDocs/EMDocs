@@ -28,8 +28,7 @@ ms.suite: ems
 # Enterprise Mobility + Security Support FAQs
 Microsoft provides global pre-sales, billing, subscription, and technical support for Enterprise Mobility + Security (EMS). Administrators can request support through the  [Office 365 portal](https://portal.office.com/Default.aspx?SkipSspr=true) or by contacting  [Office 365 Support](https://support.office.com/article/Contact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=c1f4c670-18b3-41ec-81c9-e8d383caa6ad).
 
-This page provides answers to common questions about support for the Enterprise Mobility + Security.
-
+## Answers to common questions about Enterprise Mobility + Security support.
 
 **I can't submit an Enterprise Mobility + Security support request through the Azure portal because I do not have an Azure support plan. Isn’t support included for Enterprise Mobility + Security**
 Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Rights Management, and Microsoft Intune through the  Office 365 portal.
@@ -55,7 +54,7 @@ Go to the  Azure portal for license assignment. Please follow the instructions i
 **I previously had an Office 365 subscription but renewed my subscription through Enterprise Cloud Suite (ECS), which includes Office 365 and Enterprise Mobility + Security. How do I handle license management?**
 Go to the  Azure portal for license assignment. Please follow the instructions in your welcome email to manage your new Enterprise Mobility + Security licenses.
 
-# Help with other questions and feedback
-## [Azure Active Directory support forum](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)
-## [Azure Rights Management support forum](http://www.yammer.com/AskIPTeam)
-## [Intune support forum](https://social.technet.microsoft.com/forums/windows/home?category=microsoftintune)
+## Additional help for other questions
+[Azure Active Directory support forum](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)
+[Azure Rights Management support forum](http://www.yammer.com/AskIPTeam)
+[Intune support forum](https://social.technet.microsoft.com/forums/windows/home?category=microsoftintune)
