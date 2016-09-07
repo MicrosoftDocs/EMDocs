@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)
+title: FastTrack Center Benefit Process for Enterprise Mobility + Security
 description:
 keywords:
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -25,12 +25,12 @@ ms.suite: ems
 
 ---
 
-# FastTrack Center Benefit for Enterprise Mobility Suite (EMS)
-You can use the service benefit when you purchase at least 150 licenses for EMS or any of its individual cloud services in an eligible plan. The service benefit lets you work with Microsoft specialists to assess, remediate, and enable eligible services.
+# FastTrack Center Benefit for Enterprise Mobility + Security
+You can use the service benefit when you purchase at least 150 licenses for Enterprise Mobility + Security (EMS) or any of its individual cloud services in an eligible plan. The service benefit lets you work with Microsoft specialists to assess, remediate, and enable eligible services.
 
 This article provides details about plan and service eligibility for the service benefit.
 
-To learn about the onboarding process as well as roles and responsibilities, see [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+To learn about the onboarding process as well as roles and responsibilities, see [FastTrack Center Benefit Process for Enterprise Mobility + Security)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 Are you looking for information about Microsoft FastTrack for Office 365? See [FastTrack Center Benefit for Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 
@@ -40,12 +40,12 @@ If you purchase any of the following Microsoft online services through an eligib
 Customers can opt-in to the onboarding process once per each eligible Microsoft online service.
 
 ### Eligible plans
-Enterprise Mobility Suite, or any of its cloud services included in the FastTrack Center Benefit for EMS, is eligible for the service benefit if you purchase at least 150 licenses for a subscription in one of the following eligible plans:
+Enterprise Mobility + Security, or any of its cloud services included in the FastTrack Center Benefit for EMS, is eligible for the service benefit if you purchase at least 150 licenses for a subscription in one of the following eligible plans:
 
 |Plan|Eligible for the service benefit?|
 |--------|-------------------------------------|
-|Enterprise Mobility Suite|Yes|
-|Enterprise Mobility Suite (as part of the Enterprise Cloud Suite)|Yes|
+|Enterprise Mobility + Security|Yes|
+|Enterprise Mobility + Security (as part of the Enterprise Cloud Suite)|Yes|
 |Microsoft Azure AD Premium|Yes|
 |Microsoft Intune|Yes|
 |Microsoft Azure RMS)|Yes|

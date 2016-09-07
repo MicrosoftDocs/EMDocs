@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - source environment expectations
+title: FastTrack Center Benefit Process for Enterprise Mobility + Security - source environment expectations
 description:
 keywords:
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -26,12 +26,12 @@ ms.suite: ems
 ---
 
 
-# FastTrack Center Benefit Process for Enterprise Mobility Suite - source environment expectations
-When you use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, your environment will need to meet the expectations described in the following sections.
+# FastTrack Center Benefit Process for Enterprise Mobility + Security - source environment expectations
+When you use the [FastTrack Center Benefit for Enterprise Mobility + Security](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, your environment will need to meet the expectations described in the following sections.
 
-To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility + Security](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
-You may already have Microsoft Active Directory on-premise in your current environment that you want to integrate with EMS or any of its individual services for leveraging rich identity management from a single console. The FastTrack Center benefit includes helping you integrate Microsoft Azure Active Directory Premium with your existing on-premises implementation. If integration is required, your source environment must be at a minimum level for that application.
+You may already have Microsoft Active Directory on-premise in your current environment that you want to integrate with Enterprise Mobility + Security (EMS) or any of its individual services for leveraging rich identity management from a single console. The FastTrack Center benefit includes helping you integrate Microsoft Azure Active Directory Premium with your existing on-premises implementation. If integration is required, your source environment must be at a minimum level for that application.
 
 The following table shows what is expected in your existing source environment for onboarding.
 
@@ -44,5 +44,5 @@ The following table shows what is expected in your existing source environment f
 Read about the next part of the FastTrack onboarding process: [Phases of the onboarding process](fasttrack-center-benefit-process-for-ems-phases.md)
 
 ### Want to learn more?
-See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 

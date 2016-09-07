@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - phases
+title: FastTrack Center Benefit Process for Enterprise Mobility + Security - phases
 description:
 keywords:
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -25,10 +25,10 @@ ms.suite: ems
 
 ---
 
-# FastTrack Center Benefit Process for Enterprise Mobility Suite - phases
-When you use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
+# FastTrack Center Benefit Process for Enterprise Mobility + Security - phases
+When you use the [FastTrack Center Benefit for Enterprise Mobility + Security](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
 
-To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility + Security](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 Onboarding has four primary phases, as shown in the following figure:
@@ -51,7 +51,7 @@ Once the onboarding process begins, Microsoft will work with you to assess your 
 
 Microsoft will also connect you with guidance about how to drive successful adoption of the eligible services.
 
-Based on your current setup, we’ll provide a remediation plan that will bring your source environment up to the minimum requirements for successful onboarding to EMS or its individual cloud services. We’ll also set up appropriate checkpoint calls for the remediation phase.
+Based on your current setup, we’ll provide a remediation plan that will bring your source environment up to the minimum requirements for successful onboarding to Enterprise Mobility + Security (EMS) or its individual cloud services. We’ll also set up appropriate checkpoint calls for the remediation phase.
 
 ![Onboarding assess phase](./media/ft-4-assess-phase.png)
 
@@ -167,5 +167,5 @@ AzRMS setup includes enabling the following features:
 Read about the next part of the FastTrack onboarding process: [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 
 ### Want to learn more?
-See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
