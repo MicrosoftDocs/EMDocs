@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Enterprise Mobility FastTrack Program
+title: Enterprise Mobility + Security FastTrack Program
 description:
 keywords:
 author: staciebarker
@@ -25,8 +25,8 @@ ms.suite: ems
 
 ---
 
-# Enterprise Mobility FastTrack Program
-The Enterprise Mobility FastTrack Center Benefit program enables customers, who have purchased eligible services, to work remotely with Microsoft specialists to get Azure Active Directory Premium, Microsoft Intune, and/or Azure Rights Management ready for use. The following links describe the FastTrack Center Benefit, which services are eligible, and details about what you can expect when you participate in the program.
+# Enterprise Mobility + Security FastTrack Program
+The Enterprise Mobility + Security FastTrack Center Benefit program enables customers, who have purchased eligible services, to work remotely with Microsoft specialists to get Azure Active Directory Premium, Microsoft Intune, and/or Azure Rights Management ready for use. The following links describe the FastTrack Center Benefit, which services are eligible, and details about what you can expect when you participate in the program.
 
 [FastTrack Center Benefit for Enterprise Mobility + Security](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
 
