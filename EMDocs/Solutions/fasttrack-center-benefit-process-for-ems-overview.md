@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - overview
+title: FastTrack Center Benefit Process for Enterprise Mobility + Security - overview
 description:
 keywords:
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -25,18 +25,18 @@ ms.suite: ems
 
 ---
 
-# FastTrack Center Benefit Process for Enterprise Mobility Suite - overview
+# FastTrack Center Benefit Process for Enterprise Mobility + Security - overview
 
-You can use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use. Use the information in this section to get an illustrated overview of the onboarding process.
+You can use the [FastTrack Center Benefit for Enterprise Mobility + Security](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use. Use the information in this section to get an illustrated overview of the onboarding process.
 
-To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility + Security](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 Onboarding has two major components:
 
 -   **Core onboarding** - tasks required for tenant configuration and integration with Azure Active Directory, if needed. Core onboarding also provides the baseline for onboarding other Microsoft Online eligible services.
 
--   **Service onboarding** - tasks required to configure any of the standalone variants of the EMS suite (Azure Active Directory Premium, Microsoft Intune, Azure Rights Management Premium).
+-   **Service onboarding** - tasks required to configure any of the standalone variants of the Enterprise Mobility + Security suite (Azure Active Directory Premium, Microsoft Intune, Azure Rights Management Premium).
 
 The following diagram describes the high-level onboarding phases of using the FastTrack Center Benefit.
 
@@ -61,5 +61,5 @@ All onboarding support will be provided remotely by assigned Microsoft personnel
 Read about the next part of the FastTrack onboarding process: [Expectations for your source environment](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 
 ### Want to learn more?
-See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
