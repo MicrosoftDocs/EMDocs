@@ -86,4 +86,4 @@
 
 ## [Downloadable Software licenses included with EMS](subscription-might-include-downloadable-software.md)
 
-## [EMS Frequently Asked Questions](ems-faq.md)
+## [EMS Support Frequently Asked Questions](ems-support-faq.md)
