@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - Microsoft's responsibilities
+title: FastTrack Center Benefit Process for Enterprise Mobility + Security - Microsoft's responsibilities
 description:
 keywords:
 author: staciebarker
-manager: jeffgilb
+manager: angrobe
 ms.date: 07/07/2016
 ms.topic: article
 ms.prod:
@@ -25,10 +25,10 @@ ms.suite: ems
 
 ---
 
-# FastTrack Center Benefit Process for Enterprise Mobility Suite - Microsoft's responsibilities
-The following sections describe what you can expect of Microsoft when your organization is using the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use.
+# FastTrack Center Benefit Process for Enterprise Mobility + Security - Microsoft's responsibilities
+The following sections describe what you can expect of Microsoft when your organization is using the [FastTrack Center Benefit for Enterprise Mobility + Security](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use.
 
-To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility + Security](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 ## General
@@ -245,5 +245,5 @@ Provide guidance about:
 Read about the next part of the FastTrack onboarding process: [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
 
 ### Want to learn more?
-See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 

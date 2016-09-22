@@ -2,26 +2,26 @@
 asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
 layout: HubPage
 
-title: Enterprise Mobility Documentation | Microsoft Docs
-description: Technical documentation for Microsoft Enterprise Mobility  
+title: Enterprise Mobility + Security Documentation | Microsoft Docs
+description: Technical documentation for Microsoft Enterprise Mobility + Security   
 keywords: microsoft docs, enterprise mobility documentation, Learn enterprise mobility, enterprise mobility guide, enterprise mobility technical documentation  
 author: msswadhwa  
 manager: swadhwa  
-ms.date: 04/28/2016  
+ms.date: 10/03/2016  
 ms.topic: hubpage   
 ms.suite: ems  
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620  
 
 ---
-# Enterprise Mobility Documentation
+# Enterprise Mobility + Security Documentation
 <article id="main">
     <section id="hero-content" class="graph">
         <h1>Enterprise Mobility Documentation</h1>
-        <h2>Welcome to the technical documentation for Microsoft Enterprise Mobility. These articles will help you understand and explore the solutions and products within Enterprise Mobility, get started with the services, and plan your implementation. You will also find deep technical content to help deploy and use the services, develop applications, and troubleshoot problems.</h2>
-	    <h3>New to Enterprise Mobility? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Visit the Microsoft Enterprise Mobility page &rarr;</a></h3>
+        <h2>Welcome to the technical documentation for Microsoft Enterprise Mobility + Security. These articles will help you understand and explore the solutions and products within Enterprise Mobility + Security, get started with the services, and plan your implementation. You will also find deep technical content to help deploy and use the services, develop applications, and troubleshoot problems.</h2>
+	    <h3>New to Enterprise Mobility + Security? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Visit the Microsoft Enterprise Mobility page &rarr;</a></h3>
     </section>
     <aside class="alert section-border">
-        <p>Sign up for a 30-day trial of the Enterprise Mobility Suite</p>
+        <p>Sign up for a 30-day trial of Enterprise Mobility + Security</p>
         <ol class="action-list">
         <li><a href="http://go.microsoft.com/fwlink/?LinkId=816834" target="_blank" class="button-bordered button-translucent">Free Trial</a></li>
         </ol>
@@ -30,15 +30,24 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Featured Content</h2>
         <div class="features row">
             <ul class="column-half">
+<<<<<<< HEAD
                 <li><mark><b>NEW</b></mark> <a href="/information-protection/understand-explore/what-is-information-protection">General Availability: Azure Information Protection</a></li>
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
+=======
+                <li><mark><b>NEW</b></mark> <a href="/rights-management/information-protection/what-is-information-protection">Azure Information Protection (preview)</a></li>
+                <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for  Enterprise Mobility + Security</a></li>
+>>>>>>> 90abcb52b270f165ab44abf96b78d09d8fc9eb81
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">What is Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">What is Advanced Threat Analytics?</a></li>
             </ul>
             <ul class="column-half">
                 <li><a href="/active-directory/active-directory-whatis">What is Azure Active Directory?</a></li>
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
+<<<<<<< HEAD
                 <li><a href="/information-protection/get-started/infoprotect-quick-start-tutorial">Quick start tutorial for Azure Information Protection</a></li>
+=======
+                <li><a href="/information-protection/understand-explore/what-is-azure-rms">What is Azure Information Protection?</a></li>
+>>>>>>> 90abcb52b270f165ab44abf96b78d09d8fc9eb81
                 <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
             </ul>
         </div>
@@ -113,7 +122,11 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                             <li class="column column-third">
                                 <a href="/information-protection/">
                                 <h3>Azure Information Protection</h3>
+<<<<<<< HEAD
                                 <p>Classify, label, and apply protection to email and other sensitive data.</p>
+=======
+                                <p>Protect your information from unauthorized access, and control how information is used.</p>
+>>>>>>> 90abcb52b270f165ab44abf96b78d09d8fc9eb81
                                 </a>
                             </li>
                             <li class="column column-third">
@@ -122,26 +135,6 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                                 <p>Identify breaches &amp; threats using behavioral analysis, and create reports on an attack timeline.</p>
                                 </a>
                             </li>
-                        </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                        <div class="title column-third">
-                        <span class="icon icon-desktops"></span>
-                        <p>Desktop Virtualization</p>
-                        </div>
-                        <p class="description column-two-thirds">Stream applications from your datacenter or the cloud to keep users productive anywhere, on any device, and your data more secure.
-                        </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                        <li class="column column-third">
-                            <a href="/remoteapp/">
-                            <h3>Azure RemoteApp</h3>
-                            <p>Deploy Windows cloud apps in the cloud and run them on any device.</p>
-                            </a>
-                        </li>
                         </ul>
                     </section>
                 </li>
@@ -168,7 +161,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
     <aside class="alert alert-social">
         <p>Keep up with the latest news</p>
         <ol class="action-list">
-            <li><a href="https://blogs.technet.microsoft.com/enterprisemobility/" target="_blank" class="button-bordered button-translucent">Enterprise Mobility Blog</a></li>
+            <li><a href="https://blogs.technet.microsoft.com/enterprisemobility/" target="_blank" class="button-bordered button-translucent">Enterprise Mobility + Security Blog</a></li>
             <li><a href="https://blogs.technet.microsoft.com/in_the_cloud/" target="_blank" class="button-bordered button-translucent">In The Cloud Blog</a></li>
         </ol>
     </aside>
