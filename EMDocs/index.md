@@ -38,7 +38,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             <ul class="column-half">
                 <li><a href="/active-directory/active-directory-whatis">What is Azure Active Directory?</a></li>
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
-                <li><a href="/information-protection/understand-explore/what-is-information-protection">Learn about Azure Information Protection, a cloud-based solution that helps you classify, label, and protect your documents and emails.</a></li>
+                <li><a href="/information-protection/understand-explore/what-is-information-protection">What is Azure Information Protection?</a></li>
                 <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
             </ul>
         </div>
