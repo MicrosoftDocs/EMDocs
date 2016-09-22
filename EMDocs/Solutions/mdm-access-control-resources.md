@@ -83,7 +83,7 @@ Use the table below as a reference to assist you choosing the MDM option that be
 
 - Azure AD cloud service is not included when you purchase Intune subscription
 
-## Enterprise Mobility Suite
+## Enterprise Mobility + Security
 
 **Advantages**
 
