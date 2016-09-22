@@ -30,7 +30,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Featured Content</h2>
         <div class="features row">
             <ul class="column-half">
-                <li><mark><b>NEW</b></mark> <a href="/information-protection/understand-explore/what-is-information-protection">General Availability: Azure Information Protection</a></li>
+                <li><mark><b>NEW</b></mark> <a href="/information-protection/">General Availability: Azure Information Protection</a></li>
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">What is Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">What is Advanced Threat Analytics?</a></li>
@@ -38,7 +38,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             <ul class="column-half">
                 <li><a href="/active-directory/active-directory-whatis">What is Azure Active Directory?</a></li>
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
-                <li><a href="/information-protection/get-started/infoprotect-quick-start-tutorial">Quick start tutorial for Azure Information Protection</a></li>
+                <li><a href="/information-protection/understand-explore/what-is-information-protection">Learn about Azure Information Protection, a cloud-based solution that helps you classify, label, and protect your documents and emails.</a></li>
                 <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
             </ul>
         </div>
