@@ -132,17 +132,17 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
         <section class="resources container">
             <h2 class="section-heading"><span class="icon icon-note"></span> Scenarios &amp; Solutions</h2>
             <div class="resource-list row">
-                <ul class="column-half">
-                    <li><a href="/enterprise-mobility/solutions/mdm-design-considerations-guide">Mobile Device Management Design Considerations Guide</a></li>
-                    <li><a href="/enterprise-mobility/solutions/byod-design-considerations-guide">BYOD Design Considerations Guide</a></li>
-                    <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Hybrid Identity Design Considerations Guide</a></li>
-                </ul>
-                <ul class="column-half">
-                    <li><a href="/enterprise-mobility/solutions/conditional-access-intune">Conditional Access with Intune</a></li>
-                    <li><a href="/enterprise-mobility/solutions/architecture-guidance-for-protecting-company-email-and-documents">Protect Company Email and Documents</a></li>
-                    <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Office 365 security & protection capabilities</a></li>
-                </ul>
-            </div>
+              <ul class="column-half">
+                  <li><a href="/enterprise-mobility/solutions/identity-driven-security">EMS Technical Scenarios</a></li>
+                  <li><a href="/enterprise-mobility/solutions/architecture-guidance-for-protecting-company-email-and-documents">Protect Company Email and Documents</a></li>
+                  <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Office 365 security & protection capabilities</a></li>
+              </ul>
+              <ul class="column-half">
+                  <li><a href="https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview">Hybrid Identity Design Considerations Guide</a></li>
+                  <li><a href="/enterprise-mobility/solutions/byod-design-considerations-guide">BYOD Design Considerations Guide</a></li>
+                  <li><a href="/enterprise-mobility/solutions/mdm-design-considerations-guide">Mobile Device Management Design Considerations Guide</a></li>
+            </ul>
+            </div>            
         </section>
     </div>
     <aside class="alert alert-social">
