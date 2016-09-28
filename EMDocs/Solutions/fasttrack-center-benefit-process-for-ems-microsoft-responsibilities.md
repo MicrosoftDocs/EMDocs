@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility Suite - Microsoft's responsibilities
+title: Microsoft responsibilities
 description:
 keywords:
 author: staciebarker
-manager: jeffgilb
-ms.date: 07/07/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -18,18 +18,16 @@ ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ROBOTS: noindex
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
 ---
 
-# FastTrack Center Benefit Process for Enterprise Mobility Suite - Microsoft's responsibilities
-The following sections describe what you can expect of Microsoft when your organization is using the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use.
+# Microsoft responsibilities
 
-To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
-
+Microsoft has the following responsibilities during onboarding.
 
 ## General
 
@@ -114,18 +112,18 @@ Provide guidance about:
 
     -   Configuring password synchronization with the Azure Active Directory Connect tool.
 
--   For a multiple forest environment:
+-   For a multiple-forest environment:
 
     -   Install Azure Active Directory Connect synchronization, set up for multiple forest scenarios. Note that password hash sync and password writeback support multiple forest.  However, other writeback scenarios are not supported.
 
     -   Configure synchronization between on-premises Active Directory forests and Microsoft Azure Active Directory Premium directory (Azure Active Directory).
 
-        > [!NOTE] 
+        > [!NOTE]
         > Development and implementation for custom rules extensions are out of scope.
 
--   For a single forest when the target is federated identities: Installing and configuring Active Directory Federation Services (AD FS) for local domain authentication with Microsoft Azure AD Premium in a single-site, fault-tolerant configuration, if required.
+-   For a single forest when the target is federated identities: Installing and configuring Active Directory Federation Services (AD FS) for local domain authentication with Microsoft Azure Active Directory Premium in a single-site, fault-tolerant configuration, if required.
 
-    > [!NOTE] 
+    > [!NOTE]
     > For all multiple forest configurations, AD FS deployments are out of scope.
 
 -   Testing single sign-on (SSO) functionality, if deployed.
@@ -138,24 +136,28 @@ Provide guidance about setting up:
 
 -   Azure Active Directory Connect directory synchronization (with password writeback and password hash sync).
 
--   Active Directory Federation Services (AD FS).
+  - Self-Service Password Reset (SSPR).
 
-- Self-Service Password Reset (SSPR).
+  - Azure Multi-Factor Authentication (MFA).
 
-- Azure Multi-Factor Authentication (MFA).
+  - One Software as a Service (SaaS) application integration with Single Sign On (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
-- One integrated application, which can include Single Sign-On for SaaS applications.
+  - Customized logon screen, including logo, text and images.
 
-- Usage and security reports to administrators.
+  - Self-Service & Dynamic Groups (Groups).
 
-- Self Service Group Management (SSGM).
+  - Azure Active Directory Application Proxy.
 
-- Application proxy.
+  - Azure Active Directory Connect Health.
 
-- Administrator notifications.
+  - Identity Protection.
 
-- Customized logon screen, including logo, text and images.
- 
+  - Privileged Identity Management.
+
+  - Usage and security reports to administrators.
+
+  - Administrative notifications and alerts.
+
 ### Enable phase - Microsoft Intune
 Provide guidance with:
 
@@ -169,10 +171,10 @@ Provide guidance with:
 
     -   Set Microsoft Intune as your MDM authority when Microsoft Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
 
-    -   If you have an existing implementation of System Center Configuration Manager and you are looking to expand its management capabilities with Microsoft Intune, set Configuration Manager as your MDM authority.
+    -   If you have an existing implementation of System Center Configuration Manager and you want to expand its management capabilities with Microsoft Intune, set Configuration Manager as your MDM authority.
 
-        > [!NOTE] 
-        > If you are only looking to leverage Mobile Application Management over your end-users' owned devices, shared, or kiosk-type devices, setting up an MDM authority is not required.
+        > [!NOTE]
+        > If you only want to leverage Mobile Application Management over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
 
 -   If Mobile Device Management is in your scope, we’ll provide guidance with:
 
@@ -188,11 +190,11 @@ Provide guidance with:
 
         -   Setting up the Microsoft Intune Exchange Connector, when applicable.
 
-    -   Enrolling up to two test devices of each supported platform to your Microsoft Intune or Configuration Manager with Microsoft Intune service.
+    -   Enrolling devices of each supported platform to your Microsoft Intune or Configuration Manager with Microsoft Intune service.
 
     -   Using hardware and software inventory reports.
 
--   If Mobile Application Management (MAM) is in your scope, or if you are looking to complement your existing third-party MDM solution with MAM policies, we’ll provide guidance with:
+-   If Mobile Application Management (MAM) is in your scope, or if you want to complement your existing third-party MDM solution with MAM policies, we’ll provide guidance with:
 
     -   Configuring MAM policies for each supported platform.
 
@@ -204,46 +206,6 @@ Provide guidance with:
 
 -   If PC management is in your scope, we’ll provide guidance with:
 
-    -   When needed, installing the Intune client software.
+    -   Installing the Intune client software, when needed.
 
     -   Using the software and hardware reports available in Intune.
-
-### Enable phase - Azure Right Management Premium
-
-Provide guidance about:
-
--   Activating your Azure RMS tenant.
-
--   Adding additional information security administrators to manage templates.
-
--   Assigning a super user account to Azure RMS.
-
--   Licensing two pilot users for Azure RMS.
-
--   Configuring two test distribution groups to validate policies.
-
--   Configuring one custom Azure RMS template for your directory.
-
--   Providing guidance in setting up SharePoint Online and Exchange Online integration with Azure RMS, including:
-
-    -   Configuring and validating Exchange Online integration with Azure RMS.
-
-    -   Setting up one test mail flow rule to encrypt sensitive messages sent to recipients outside your organization.
-
-    -   Configuring and validating SharePoint Online protection of one test Library to be protected with Azure RMS.
-
--   Configuring one server on-premises with the RMS Connector, when applicable:
-
-    -   Configuring and validating Exchange 2013/2010 on-premises integration with Azure RMS.
-
-    -   Setting up one test mail flow rule to encrypt sensitive messages sent to recipients outside your organization using the Connector.
-
-    -   Configuring and Validating SharePoint 2013/2010 on-premises protection of one test Library to be protected with Azure RMS.
-
--   Setting up RMS Sharing Application for Windows and non-Windows devices.
-
-Read about the next part of the FastTrack onboarding process: [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-
-### Want to learn more?
-See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
