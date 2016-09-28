@@ -32,7 +32,7 @@
         - name: Understand & Explore
           href: /advanced-threat-analytics/understand-explore/
           homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
-        - name: Plan & Design 
+        - name: Plan & Design
           href: /advanced-threat-analytics/plan-design/
           homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
         - name: Deploy & Use
@@ -48,7 +48,7 @@
         - name: Understand & Explore
           href: /intune/understand-explore/
           homepage: /intune/understand/ways-to-do-enterprise-mobility
-        - name: Plan & Design 
+        - name: Plan & Design
           href: /intune/plan-design/
           homepage: /intune/plandesign/plan-you-user-and-device-groups
         - name: Deploy & Use
@@ -63,7 +63,7 @@
         - name: Develop & Customize Apps
           href: /intune/develop/
           homepage: /intune/develop/intune-app-sdk
-          
+
     - name: Azure Information Protection
       href: /information-protection/
       homepage: /information-protection
@@ -94,7 +94,7 @@
             - name: Android
               href: /information-protection/sdk/4.2/api/android/
               homepage: /information-protection/develop/android-namespaces
-            - name: iOS 
+            - name: iOS
               href: /information-protection/sdk/4.2/api/iOS/
               homepage: /information-protection/sdk/4.2/api/iOS/iOS
             - name: WinRT
@@ -127,7 +127,7 @@
         - name: Understand & Explore
           href: /microsoft-identity-manager/understand-explore/
           homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
-        - name: Plan & Design 
+        - name: Plan & Design
           href: /microsoft-identity-manager/plan-design/
           homepage: /microsoft-identity-manager/plan-design/journey-plan-design
         - name: Deploy & Use
@@ -142,5 +142,29 @@
         - name: PAM
           href: /microsoft-identity-manager/pam/
           homepage: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
-  
-  
+
+    - name: Configuration Manager
+      href: /sccm/
+      homepage: /sccm/index
+      items:
+        - name: Core infrastructure guide
+          href: /sccm/core/
+          homepage: /sccm/core/understand/introduction
+        - name: Application management guide
+          href: /sccm/apps/
+          homepage: /sccm/apps/understand/get-started-with-application-management
+        - name: Device compliance guide
+          href: /sccm/compliance/
+          homepage: /sccm/compliance/understand/ensure-device-compliance
+        - name: Mobile device management guide
+          href: /sccm/mdm/
+          homepage: /sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management
+        - name: Operating system deployment guide
+          href: /sccm/osd/
+          homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
+        - name: Protect data and infrastructure guide
+          href: /sccm/protect/
+          homepage: /sccm/protect/understand/protect-data-and-site-infrastructure
+        - name: Software update management guide
+          href: /sccm/sum/
+          homepage: /sccm/sum/understand/software-updates-introduction
