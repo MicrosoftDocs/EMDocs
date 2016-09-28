@@ -145,7 +145,7 @@
 
     - name: Configuration Manager
       href: /sccm/
-      homepage: /sccm/index
+      homepage: /sccm
       items:
         - name: Core infrastructure guide
           href: /sccm/core/
