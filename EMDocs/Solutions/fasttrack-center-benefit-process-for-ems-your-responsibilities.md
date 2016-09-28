@@ -112,3 +112,7 @@ You have the following responsibilities during onboarding.
 -   Implement a user-provisioning approach per guidance from Microsoft.
 
 -   Enable various services per guidance from Microsoft.
+
+**Want to learn more?**
+
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)

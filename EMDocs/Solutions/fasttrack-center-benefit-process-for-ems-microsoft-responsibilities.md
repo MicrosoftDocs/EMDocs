@@ -209,3 +209,7 @@ Provide guidance with:
     -   Installing the Intune client software, when needed.
 
     -   Using the software and hardware reports available in Intune.
+
+**Want to learn more?**
+
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
