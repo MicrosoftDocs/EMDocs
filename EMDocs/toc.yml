@@ -32,7 +32,7 @@
         - name: Understand & Explore
           href: /advanced-threat-analytics/understand-explore/
           homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
-        - name: Plan & Design 
+        - name: Plan & Design
           href: /advanced-threat-analytics/plan-design/
           homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
         - name: Deploy & Use
@@ -48,7 +48,7 @@
         - name: Understand & Explore
           href: /intune/understand-explore/
           homepage: /intune/understand/ways-to-do-enterprise-mobility
-        - name: Plan & Design 
+        - name: Plan & Design
           href: /intune/plan-design/
           homepage: /intune/plandesign/plan-you-user-and-device-groups
         - name: Deploy & Use
@@ -63,66 +63,63 @@
         - name: Develop & Customize Apps
           href: /intune/develop/
           homepage: /intune/develop/intune-app-sdk
-          
-    - name: Azure Rights Management
-      href: /rights-management/
-      homepage: /rights-management
+
+    - name: Azure Information Protection
+      href: /information-protection/
+      homepage: /information-protection
       items:
         - name: Understand & Explore
-          href: /rights-management/understand-explore/
-          homepage: /rights-management/understand-explore/what-is-azure-rights-management
+          href: /information-protection/understand-explore/
+          homepage: /information-protection/understand-explore/what-is-azure-rights-management
         - name: Get Started
-          href: /rights-management/get-started/
-          homepage: /rights-management/get-started/requirements-for-azure-rights-management
+          href: /information-protection/get-started/
+          homepage: /information-protection/get-started/requirements-for-azure-rights-management
         - name: Plan & Design
-          href: /rights-management/plan-design/
-          homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap
+          href: /information-protection/plan-design/
+          homepage: /information-protection/plan-design/azure-rights-management-deployment-roadmap
         - name: Deploy & Use the Service
-          href: /rights-management/deploy-use/
-          homepage: /rights-management/deploy-use/activating-azure-rights-management
+          href: /information-protection/deploy-use/
+          homepage: /information-protection/deploy-use/activating-azure-rights-management
         - name: Deploy & Use the Client
-          href: /rights-management/rms-client/
-          homepage: /rights-management/rms-client/rights-management-rms-client
+          href: /information-protection/rms-client/
+          homepage: /information-protection/rms-client/rights-management-rms-client
         - name: Develop & Customize Apps
-          href: /rights-management/develop/
-          homepage: /rights-management/develop/developers-guide
+          href: /information-protection/develop/
+          homepage: /information-protection/develop/developers-guide
           items:
           - name: SDK 4.2
-            href: /rights-management/sdk/4.2/api/
-            homepage: /rights-management/develop/api-reference-4-2
+            href: /information-protection/sdk/4.2/api/
+            homepage: /information-protection/develop/api-reference-4-2
             items:
             - name: Android
-              href: /rights-management/sdk/4.2/api/android/
-              homepage: /rights-management/develop/android-namespaces
-            - name: iOS 
-              href: /rights-management/sdk/4.2/api/iOS/
-              homepage: /rights-management/sdk/4.2/api/iOS/iOS
+              href: /information-protection/sdk/4.2/api/android/
+              homepage: /information-protection/develop/android-namespaces
+            - name: iOS
+              href: /information-protection/sdk/4.2/api/iOS/
+              homepage: /information-protection/sdk/4.2/api/iOS/iOS
             - name: WinRT
-              href: /rights-management/sdk/4.2/api/winrt/
-              homepage: /rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement
+              href: /information-protection/sdk/4.2/api/winrt/
+              homepage: /information-protection/sdk/4.2/api/winrt/Microsoft.RightsManagement
           - name: SDK 2.1
-            href: /rights-management/sdk/2.1/api/
-            homepage: /rights-management/develop/api-reference-2-1
+            href: /information-protection/sdk/2.1/api/
+            homepage: /information-protection/develop/api-reference-2-1
             items:
             - name: Win
-              href: /rights-management/sdk/2.1/api/win/
-              homepage: /rights-management/develop/api-reference-2-1
+              href: /information-protection/sdk/2.1/api/win/
+              homepage: /information-protection/develop/api-reference-2-1
               items:
               - name: Constants
-                href: /rights-management/sdk/2.1/api/win/constants/
-                homepage: /rights-management/sdk/2.1/api/win/constants
+                href: /information-protection/sdk/2.1/api/win/constants/
+                homepage: /information-protection/sdk/2.1/api/win/constants
               - name: Data Types
-                href: /rights-management/sdk/2.1/api/win/data%20types/
-                homepage: /rights-management/sdk/2.1/api/win/data%20types
+                href: /information-protection/sdk/2.1/api/win/data%20types/
+                homepage: /information-protection/sdk/2.1/api/win/data%20types
               - name: Functions
-                href: /rights-management/sdk/2.1/api/win/functions/
-                homepage: /rights-management/sdk/2.1/api/win/functions
+                href: /information-protection/sdk/2.1/api/win/functions/
+                homepage: /information-protection/sdk/2.1/api/win/functions
               - name: Structures
-                href: /rights-management/sdk/2.1/api/win/structures/
-                homepage: /rights-management/sdk/2.1/api/win/structures
-        - name: Information Protection (preview)
-          href: /rights-management/information-protection/
-          homepage: /rights-management/information-protection/what-is-information-protection
+                href: /information-protection/sdk/2.1/api/win/structures/
+                homepage: /information-protection/sdk/2.1/api/win/structures
     - name: Microsoft Identity Manager
       href: /microsoft-identity-manager/
       homepage: /microsoft-identity-manager
@@ -130,7 +127,7 @@
         - name: Understand & Explore
           href: /microsoft-identity-manager/understand-explore/
           homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
-        - name: Plan & Design 
+        - name: Plan & Design
           href: /microsoft-identity-manager/plan-design/
           homepage: /microsoft-identity-manager/plan-design/journey-plan-design
         - name: Deploy & Use
@@ -145,5 +142,29 @@
         - name: PAM
           href: /microsoft-identity-manager/pam/
           homepage: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
-  
-  
+
+    - name: Configuration Manager
+      href: /sccm/
+      homepage: /sccm
+      items:
+        - name: Core infrastructure guide
+          href: /sccm/core/
+          homepage: /sccm/core/understand/introduction
+        - name: Application management guide
+          href: /sccm/apps/
+          homepage: /sccm/apps/understand/get-started-with-application-management
+        - name: Device compliance guide
+          href: /sccm/compliance/
+          homepage: /sccm/compliance/understand/ensure-device-compliance
+        - name: Mobile device management guide
+          href: /sccm/mdm/
+          homepage: /sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management
+        - name: Operating system deployment guide
+          href: /sccm/osd/
+          homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
+        - name: Protect data and infrastructure guide
+          href: /sccm/protect/
+          homepage: /sccm/protect/understand/protect-data-and-site-infrastructure
+        - name: Software update management guide
+          href: /sccm/sum/
+          homepage: /sccm/sum/understand/software-updates-introduction
