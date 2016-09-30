@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility + Security - phases
+title: Onboarding and Migration Phases
 description:
 keywords:
 author: staciebarker
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -18,32 +18,30 @@ ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ROBOTS: noindex
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
 ---
 
-# FastTrack Center Benefit Process for Enterprise Mobility + Security - phases
-When you use the [FastTrack Center Benefit for Enterprise Mobility + Security](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
+# Onboarding and Migration Phases
+When you use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium and/or Microsoft Intune ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
 
-To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility + Security](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Onboarding has the following primary phases:
 
-
-Onboarding has four primary phases, as shown in the following figure:
-
-
-![The four phases of the FastTrack onboarding process](./media/ft-2-onboarding-phases.png)
+![The four phases of the FastTrack onboarding process](./media/ft-onboarding-benefit.png)
 
 
 ## Initiate phase
 
-After you have purchased the appropriate number of licenses, follow the guidance from the purchase confirmation email to associate the licenses to your existing tenant or new tenant. Microsoft will verify your eligibility for the FastTrack Center Benefit, and will attempt to contact you to offer onboarding assistance. You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you are ready to deploy these services for your organization. To request assistance, sign in to the [FastTrack Center](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com), go to the dashboard, click the Offers tab, and click “Request Assistance for Microsoft Intune, Azure Active Directory Premium, or Azure Rights Management Premium”. Once onboarding support starts, we’ll set up a schedule of online meetings.
+After you have purchased the appropriate number of licenses, follow the guidance from the purchase confirmation email to associate the licenses to your existing tenant or new tenant. Microsoft will verify your eligibility for the FastTrack Center Benefit, and will attempt to contact you to offer onboarding assistance. You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you are ready to deploy these services for your organization.
+
+To request assistance, sign in to the [FastTrack Center](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com) with your work or school account, click your company (or add it if needed), click the Services tab, and click “Request Assistance for Microsoft Intune or Azure Active Directory Premium. Once onboarding support starts, we’ll set up a schedule of online meetings.
 
 During this phase, we’ll discuss the onboarding process, verify data, and set up a kick-off meeting.
 
-![Onboarding initiate phase](./media/ft-3-initiate-phase.png)
+![Onboarding initiate phase](./media/ft-initiate-phase.png)
 
 ## Assess phase
 
@@ -51,14 +49,14 @@ Once the onboarding process begins, Microsoft will work with you to assess your 
 
 Microsoft will also connect you with guidance about how to drive successful adoption of the eligible services.
 
-Based on your current setup, we’ll provide a remediation plan that will bring your source environment up to the minimum requirements for successful onboarding to Enterprise Mobility + Security (EMS) or its individual cloud services. We’ll also set up appropriate checkpoint calls for the remediation phase.
+Based on your current setup, we’ll provide a remediation plan that will bring your source environment up to the minimum requirements for successful onboarding to EMS or its individual cloud services. We’ll also set up appropriate checkpoint calls for the remediation phase.
 
-![Onboarding assess phase](./media/ft-4-assess-phase.png)
+![Onboarding assess phase](./media/ft-assess-phase.png)
 
 ## Remediate phase
 If needed, you’ll do the tasks in the remediation plan on your source environment so that you meet the requirements for onboarding and adopting each service.
 
-![Onboarding remediate phase](./media/ft-5-remediate-phase.png)
+![Onboarding remediate phase](./media/ft-remediate-phase.png)
 
 Before beginning the Enable phase, we’ll jointly verify the outcomes of the remediation activities to make sure you’re ready to proceed.
 
@@ -67,31 +65,45 @@ When all remediation activities are complete, the project shifts to configuring 
 
 **Enable phase - Core capabilities**
 
-Core onboarding involves service provisioning and tenant and identity integration. It also includes steps for providing a foundation for onboarding online services such as Azure Active Directory Premium, Microsoft Intune and Azure Rights Management Premium.
+Core onboarding involves service provisioning and tenant and identity integration. It also includes steps for providing a foundation for onboarding online services such as Azure Active Directory Premium and Microsoft Intune.
 
-![Onboarding enable phase - Core capabilities](./media/ft-6-enable-phase-core.png)
+![Onboarding enable phase - Core capabilities](./media/ft-enable-phase-core-01.png)
 
-###Enable phase - Azure Active Directory Premium
+![Onboarding enable phase - Core capabilities](./media/ft-enable-phase-core-02.png)
+
+### Enable phase - Azure Active Directory Premium
 
 The Azure Active Directory Premium environment can be set up with Azure Active Directory Connect tool directory synchronization and Active Directory Federation Services (AD FS), as needed.
 
-For Azure Active Directory Premium scenarios that include synchronizing on-premises identities to the cloud, we’ll help you by adding IT administrators and users to your subscription, configuring management prerequisites, setting up Azure Active Directory Premium, setting up directory synchronization using the Azure Active Directory Connect tool, and Active Directory Federation Services (AD FS), using the Azure Active Directory Connect tool, configuring test users and validating your core use cases for the service.
+For Azure Active Directory Premium scenarios that include synchronizing on-premises identities to the cloud, we’ll help you by adding IT administrators and users to your subscription, configuring management prerequisites, setting up Azure Active Directory Premium, setting up directory synchronization and Active Directory Federation Services (AD FS) using the Azure Active Directory Connect tool, configuring test users, and validating your core use cases for the service.
 
 Azure Active Directory Premium setup includes enabling the following features:
 
--   Self Service Password Reset (SSPR)
+-   Self Service Password Reset (SSPR).
 
--   Azure Multi-Factor Authentication (MFA)
+-   Azure Multi-Factor Authentication (Azure MFA).
 
--   Software as a Service (SaaS) application--set up one SaaS application from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+-   One Software as a Service (SaaS) application integration with Single Sign On (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
--   Self-Service Group Management (SSGM)
+-   Customized logon screen, including logo, text and images.
 
--   Administrative reports
+-   Self-Service and Dynamic Group (Groups).
 
-![Onboarding enable phase - AADP](./media/ft-7-enable-phase-aadp.png)
+-   Azure Active Directory Application Proxy.
 
-###Enable phase - Microsoft Intune
+-   Azure Active Directory Connect Health.
+
+-   Identity Protection.
+
+-   Privileged Identity Management.
+
+-   Usage and security reports to administrators.
+
+-   Administrative notification and alerts.
+
+![Onboarding enable phase - AADP](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
+
+### Enable phase - Microsoft Intune
 
 For Microsoft Intune, and based on your mobile device and mobile applications management needs, we’ll guide you through getting ready to use Microsoft Intune to manage devices. The exact steps depend on your source environment, and may include:
 
@@ -105,10 +117,10 @@ For Microsoft Intune, and based on your mobile device and mobile applications ma
 
     -   Set Microsoft Intune as your MDM authority when Microsoft Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
 
-    -   If you have an existing implementation of System Center Configuration Manager and you are looking to expand its management capabilities with Microsoft Intune, set Configuration Manager as your MDM authority.
+    -   If you have an existing implementation of System Center Configuration Manager and you want to expand its management capabilities with Microsoft Intune, set Configuration Manager as your MDM authority.
 
         > [!NOTE]
-        > If you are only looking to leverage Mobile Application Management over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
+        > If you only want to leverage Mobile Application Management over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
 
 -   If Mobile Device Management is in your scope, we’ll provide guidance with:
 
@@ -126,7 +138,7 @@ For Microsoft Intune, and based on your mobile device and mobile applications ma
 
     -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to your Microsoft Intune or Configuration Manager with Microsoft Intune service.
 
--   If Mobile Application Management (MAM) is in your scope, or if you are looking to complement your existing Microsoft or third-party MDM solution with MAM policies, we’ll provide guidance with:
+-   If Mobile Application Management (MAM) is in your scope, or if you want to complement your existing Microsoft or third-party MDM solution with MAM policies, we’ll provide guidance with:
 
     -   Configuring MAM policies for each supported platform.
 
@@ -138,34 +150,16 @@ For Microsoft Intune, and based on your mobile device and mobile applications ma
 
 -   If PC management is in your scope, we’ll provide guidance with:
 
-    -   When needed, installing the Intune client software.
+    -   Installing the Intune client software, when needed.
 
     -   Using the software and hardware reports available in Intune.
 
 Microsoft will also connect you with guidance about how to drive successful adoption of the eligible services.
 
-![Onboarding enable phase - Intune](./media/ft-8-enable-phase-intune.png)
+![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mam.png)
 
-###Enable phase - Azure Right Management Premium
+![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
 
-The Azure Right Management Premium environment can be set up with Azure Active Directory Connect directory synchronization and Active Directory Federation Services (AD FS), as needed.
+**Want to learn more?**
 
-For AzRMS scenarios that include synchronizing on-premises identities to the cloud, we’ll help you by adding IT administrators and users to your subscription, configuring management prerequisites, setting up Azure Right Management Premium, setting up directory synchronization using Azure Active Directory Connect tool, and Active Directory Federation Services using Azure Active Directory Connect, configuring test users and validating your core use cases for the service.
-
-AzRMS setup includes enabling the following features:
-
--   AzRMS Service Enablement
-
--   IRM Configuration for Exchange Online and Sharepoint Online
-
--   Rights Management Connector with Exchange on-premise and Sharepoint on-premise
-
--   RMS Sharing Application for Windows and non-Windows devices
-
-![Onboarding enable phase - Azure RMS](./media/ft-7-enable-phase-aadp.png)
-
-Read about the next part of the FastTrack onboarding process: [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
-
-### Want to learn more?
-See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)

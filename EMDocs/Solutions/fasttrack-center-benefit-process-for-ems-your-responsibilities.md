@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility + Security - your responsibilities
+title: Your responsibilities
 description:
 keywords:
 author: staciebarker
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -18,22 +18,20 @@ ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ROBOTS: noindex
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
 ---
 
-# FastTrack Center Benefit Process for Enterprise Mobility + Security - your responsibilities
+# Your responsibilities
 
-When you use the [FastTrack Center Benefit for Enterprise Mobility + Security](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use, your organization will have some responsibilities to meet during the process. The following sections describe your responsibilities in each phase of the onboarding process.
-
-To read about the other parts of the FastTrack onboarding process, see [FastTrack Center Benefit Process for Enterprise Mobility + Security](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+You have the following responsibilities during onboarding.
 
 ## General responsibilities
 
--   Any enhancements and integrations to your Enterprise Mobility + Security (EMS) tenant beyond the configurable options listed in this article.
+-   Any enhancements and integrations to your EMS tenant beyond the configurable options listed in this article.
 
 -   Overall program and project management of your resources.
 
@@ -51,7 +49,7 @@ To read about the other parts of the FastTrack onboarding process, see [FastTrac
 
 -   Managing, configuring, and applying security policies beyond those created for your EMS services baseline configuration and functionality.
 
--   Enrolling user accounts beyond those used to test the Microsoft Azure AD Premium EMS services baseline configuration and functionality.
+-   Enrolling user accounts beyond those used to test the Microsoft Azure AD EMS services baseline configuration and functionality.
 
 -   Network configuration, analysis, bandwidth validation, testing, and monitoring.
 
@@ -69,7 +67,7 @@ To read about the other parts of the FastTrack onboarding process, see [FastTrac
 
 -   Providing and configuring any public SSL certificates.
 
--   Writing the organization’s Terms of Use (TOU) statement to be configured and displayed on the Microsoft Intune company portals accessible to end users.
+-   Writing the organization’s Terms of Use (TOU) statement to be configured and displayed on the Microsoft Intune company portals that end users can access.
 
 ## Initiate phase
 
@@ -115,8 +113,6 @@ To read about the other parts of the FastTrack onboarding process, see [FastTrac
 
 -   Enable various services per guidance from Microsoft.
 
-This is the last part of the FastTrack onboarding process.
+**Want to learn more?**
 
-### Want to learn more?
-See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)

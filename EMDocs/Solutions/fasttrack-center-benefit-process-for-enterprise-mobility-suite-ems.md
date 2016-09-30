@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit for Enterprise Mobility + Security
+title: FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)
 description:
 keywords:
 author: staciebarker
 manager: angrobe
-ms.date: 04/28/2016
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -18,18 +18,18 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
 
 ---
 
-# FastTrack Center Benefit Process for Enterprise Mobility + Security
-If your organization is eligible for the FastTrack Center Benefit for Enterprise Mobility + Security (EMS), you can work remotely with Microsoft specialists to get Azure Active Directory Premium, Microsoft Intune and/or Azure Rights Management ready for use. To learn whether your organization is eligible, see [FastTrack Center Benefit for Enterprise Mobility + Security](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+# FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)
+If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with Microsoft specialists to get Azure Active Directory Premium and/or  Microsoft Intune ready for use. You can also request help through the FastTrack portal for Azure Information Protection, Microsoft Cloud App Security and Microsoft Advanced Threat Analytics. To learn whether your organization is eligible, see [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
-The elements that make up the FastTrack Center benefit process are: 
+Here's what we cover about the onboarding process:
 
 -   [Overview of the onboarding process](fasttrack-center-benefit-process-for-ems-overview.md)
 
@@ -56,9 +56,3 @@ Here’s what you can expect when onboarding is complete:
     -   Synchronized from Active Directory with the Azure Active Directory Connect tool for customers with a single Active Directory forest configuration.
 
     -   Federated with Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 or later from your on-premises Active Directory.
-
-Read about the next part of the FastTrack onboarding process: [Overview of the onboarding process](fasttrack-center-benefit-process-for-ems-overview.md)
-
-### Want to learn more?
-See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
