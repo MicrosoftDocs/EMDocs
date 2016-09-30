@@ -16,7 +16,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 # Enterprise Mobility + Security Documentation
 <article id="main">
     <section id="hero-content" class="graph">
-        <h1>Enterprise Mobility Documentation</h1>
+        <h1>Enterprise Mobility + Security Documentation</h1>
         <h2>Welcome to the technical documentation for Microsoft Enterprise Mobility + Security. These articles will help you understand and explore the solutions and products within Enterprise Mobility + Security, get started with the services, and plan your implementation. You will also find deep technical content to help deploy and use the services, develop applications, and troubleshoot problems.</h2>
 	    <h3>New to Enterprise Mobility + Security? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Visit the Microsoft Enterprise Mobility page &rarr;</a></h3>
     </section>
@@ -122,6 +122,12 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                                 <p>Identify breaches &amp; threats using behavioral analysis, and create reports on an attack timeline.</p>
                                 </a>
                             </li>
+                            <li class="column column-third">
+                                <a href="https://technet.microsoft.com/library/mt489024.aspx">
+                                <h3>Cloud App Security</h3>
+                                <p>Bring the security of your on-premises systems to your cloud applications for deeper visibility, comprehensive controls, and enhanced protection.</p>
+                                </a>
+                            </li>
                         </ul>
                     </section>
                 </li>
@@ -133,7 +139,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
             <h2 class="section-heading"><span class="icon icon-note"></span> Scenarios &amp; Solutions</h2>
             <div class="resource-list row">
               <ul class="column-half">
-                  <li><a href="/enterprise-mobility/solutions/identity-driven-security">EMS Technical Scenarios</a></li>
+                  <li><a href="/solutions/enterprise-mobility-fasttrack-program">EMS Technical Scenarios</a></li>
                   <li><a href="/enterprise-mobility/solutions/architecture-guidance-for-protecting-company-email-and-documents">Protect Company Email and Documents</a></li>
                   <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Office 365 security & protection capabilities</a></li>
               </ul>
