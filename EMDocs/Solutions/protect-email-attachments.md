@@ -40,7 +40,7 @@ Managed apps are apps that are deployed by your IT admin that comply with your c
 
 -   Selectively wipe only data that is associated with the managed app. When a device is lost, stolen, or is no longer managed by your IT, a selective wipe can remove all corporate data from the apps, leaving only personal app data behind. This is known as multi-identity.
 
-With [Azure Rights Management Services](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms), you can extend email protection in the following ways:
+With [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms), you can extend email protection in the following ways:
 
 -   Email messages can be encrypted so only the right users can read or view the content whether within your company or outside the company.
 

@@ -51,7 +51,7 @@ Microsoft products, technologies, and services for a BYOD infrastructure solutio
 - Active Directory Federation Services (AD FS)
 - Dynamic Access Control
 - Microsoft Rights Management service
-- Azure Rights Management 
+- Azure Information Protection 
 - SMB Encryption
 - Single Sign-On (SSO)
 - Work Folders
