@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Onboarding and Migration Phases
-When you use the [FastTrack Center Benefit for Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium and/or Microsoft Intune ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
+When you use the [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Azure Active Directory Premium and/or Microsoft Intune ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
 
 Onboarding has the following primary phases:
 
