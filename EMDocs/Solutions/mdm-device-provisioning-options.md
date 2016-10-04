@@ -6,10 +6,10 @@ description:
 keywords:
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 
@@ -38,7 +38,7 @@ When a user can use and enroll their own device, this increases the requirements
 
 1. With <token>Windows Server 2012 R2, a new concept known as device registration was introduced.  Users can register their devices for single sign-on and access to corporate data using Workplace Join.  As part of this registration process, a certificate is installed on the device. In return for registering their device and making in known to the device management solution, the user gains access to corporate resources that were previously not available outside of their domain-joined PC.
 2. Users can enroll devices which configure the device for management with Intune [using the Company Portal](/Intune/deploy-use/enroll-devices-in-microsoft-intune), and then leverage the Microsoft Intune Company Portal for easy access to corporate applications, data and to be able to manage their own devices, performing tasks such as remote wiping them in the event they are lost, stolen or replaced.
-3. You can publish access to corporate resources with the built in capability available in Windows Server 2012 R2 called [Web Application Proxy](https://technet.microsoft.com/library/dn584107.aspx) based on device awareness (i.e. is it registered) and the users identity. If you’re using the Enterprise Mobility Suite, you can also publish applications using the Azure AD Application Proxy. Multi-factor authentication can be used through [Azure Active Authentication](https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/).
+3. You can publish access to corporate resources with the built in capability available in Windows Server 2012 R2 called [Web Application Proxy](https://technet.microsoft.com/library/dn584107.aspx) based on device awareness (i.e. is it registered) and the users identity. If you’re using the Enterprise Mobility + Security, you can also publish applications using the Azure AD Application Proxy. Multi-factor authentication can be used through [Azure Active Authentication](https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/).
 4. In order to provide administrators with a unified view of their entire environment, the data from Intune is synchronized with ConfigMgr which provides unified management across both on-premises and in the cloud.
 5. As part of the enrollment process, a new device object is created in Active Directory.  This device object establishes a link between the user and their device, making it known to the device management solution, and allowing the device to be authenticated, effectively a seamless two-factor authentication.
 

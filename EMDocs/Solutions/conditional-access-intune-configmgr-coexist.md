@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Use conditional access in Exchange Online and on-premises with Microsoft Intune and Configuration Manager
+title: Conditional access in Exchange with Intune and Configuration Manager
 description: Use a coexistence of Exchange on-premises and Exchange Online along with Configuration Manager and Intune to manage email access and protect email data on mobile devices.
 keywords:
 author: craigcaseyMSFT
@@ -9,7 +9,7 @@ manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 
@@ -35,7 +35,7 @@ If you are already using Configuration Manager along with a coexistence of Excha
 ## Prerequisites
 To configure a coexistence type of environment that implements both Exchange on-premises and Exchange Online, your existing Exchange organization must meet certain requirements. If you don't meet these requirements, you won't be able to complete the steps necessary to configure a hybrid deployment between your on-premises Exchange organization and the Exchange Online organization in Microsoft Office 365.
 
-See [Hybrid deployment prerequisites](https://technet.microsoft.com/en-us/library/hh534377.aspx) to review the requirements for creating and configuring this type of environment.
+See [Hybrid deployment prerequisites](https://technet.microsoft.com/library/hh534377.aspx) to review the requirements for creating and configuring this type of environment.
 
 ## Deployment Steps
 To deploy a coexistence solution, follow the steps above for deploying both the [Exchange Server on-premises](conditional-access-intune-configmgr-exchange.md) and [Exchange Online](conditional-access-intune-configmgr-exchange-online.md) solutions.

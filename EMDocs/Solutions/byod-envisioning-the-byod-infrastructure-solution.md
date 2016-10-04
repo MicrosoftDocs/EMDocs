@@ -6,10 +6,10 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 
@@ -35,7 +35,7 @@ To solve the problems previously identified and assist organizations to encourag
 
 - Provide users the flexibility to use their own devices to access corporate apps and data.
 - Manage devices that are accessing corporate resources when on-premises and from the cloud.
-- Enable an IT department to protect corporate data stored on devices by using encryption and rights management to safeguard against unauthorized local access, and remotely wiping corporate data over the Internet when a device is lost or retired, or during an employee’s termination process.
+- Enable an IT department to protect corporate data stored on devices by using encryption and information protection to safeguard against unauthorized local access, and remotely wiping corporate data over the Internet when a device is lost or retired, or during an employee’s termination process.
 - Provide users a common identity when they are accessing resources when on-premises and from the cloud.
 - Enable IT to manage multiple identities and keep information in sync across different environments.
 - Enable enterprise authentication services such as multi-factor authentication and single sign-on.

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Use conditional access with Microsoft Intune and Exchange Server on-premises
+title: Use conditional access with Intune and Exchange Server on-premises
 description: Deploy the Exchange on-premises with Intune solution.
 keywords:
 author: craigcaseyMSFT
@@ -9,7 +9,7 @@ manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 2a64e898-4c60-48bf-ae14-b05e091e0533
 

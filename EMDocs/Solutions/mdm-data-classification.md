@@ -6,10 +6,10 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
 
@@ -34,7 +34,7 @@ Most companies already have a [data classification](http://blogs.microsoft.com/c
 
 Office 365 provides some automatic data classification of email that can help surface sensitive information that should be protected. Office 365 uses transport rules, incorporated into mail flow processing, to detect sensitive information. Then the [DLP feature](http://blogs.office.com/2013/10/28/office-365-compliance-controls-data-loss-prevention/) performs deep content analysis through keyword matches, dictionary matches, regular expression evaluation, internal functions such as validate checksum on credit card numbers, and other content examination to detect specific content types within the message body or attachments. 
 
-Intune and ConfigMgr don’t have data classification built in, so they rely on cloud-based classification using Azure RMS or on-premises using ADRMS. Another option is to use the [Enterprise Mobility Suite (EMS)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx) as your MDM solution. With EMS, you’ll have access to [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) and [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx), which can be used to classify data. Data classification using Azure RMS can be integrated with an on-premises management solution in a hybrid environment. 
+Intune and ConfigMgr don’t have data classification built in, so they rely on cloud-based classification using Azure RMS or on-premises using ADRMS. Another option is to use the [Enterprise Mobility + Security (EMS)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx) as your MDM solution. With EMS, you’ll have access to [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) and [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx), which can be used to classify data. Data classification using Azure RMS can be integrated with an on-premises management solution in a hybrid environment. 
 
 Intune enables IT to comply with policies by using compliance policies, which is set of rules and settings that a device must comply with in order to be considered compliant by conditional access polices. You can also use compliance policies to monitor and remediate compliant issues with devices independently of conditional access. Read [Manage device compliance policies for Microsoft Intune](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) for more information.
 
@@ -71,7 +71,7 @@ Use the table below as a reference to assist you choosing the MDM option that be
 
 - Not available
 
-## Enterprise Mobility Suite
+## Enterprise Mobility + Security
 
 **Advantages**
 

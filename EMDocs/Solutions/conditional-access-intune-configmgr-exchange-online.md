@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Use conditional access with Exchange Online, Microsoft Intune and Configuration Manager
+title: Conditional access- Exchange Online, Intune, Configuration Manager
 description: Use Configuration Manager, Exchange Online and Intune to manage email access and protect email data on mobile devices.
 keywords:
 author: craigcaseyMSFT
@@ -9,7 +9,7 @@ manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 
@@ -93,7 +93,7 @@ Make sure your environment includes these requirements for implementing this sol
 Follow these steps to deploy the Exchange Online solution:
 
 ### Step 1: Create compliance policies and deploy to users.
-Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Compliance Policies in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131417.aspx) to create compliance policies.
+Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Compliance Policies in Configuration Manager](https://technet.microsoft.com/library/mt131417.aspx) to create compliance policies.
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
 
@@ -104,7 +104,7 @@ If you specify this compliance policy, a user who has already set up their email
 After the compliance policy is created, select the compliance policy name in the list and click **Deploy**.
 
 ### Step 2: Configure conditional access policy.
-First, decide how and when you want to enforce conditional access and which employees will be affected. Then, follow the steps at [Conditional Access for Exchange Email in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131421.aspx) to enable the conditional access policy for Exchange Online.
+First, decide how and when you want to enforce conditional access and which employees will be affected. Then, follow the steps at [Conditional Access for Exchange Email in Configuration Manager](https://technet.microsoft.com/library/mt131421.aspx) to enable the conditional access policy for Exchange Online.
 
 > [!NOTE]
 > Conditional access policy must be configured in the Intune console. These steps begin by accessing the Intune console through Configuration Manager. If prompted, log in using the same credentials that were used to set up the connector between Configuration Manager and Intune.
@@ -113,16 +113,16 @@ First, decide how and when you want to enforce conditional access and which empl
 Configuration Manager supports only one connector in an Exchange organization.
 
 > [!IMPORTANT]
-> Before you install the Exchange Server connector, confirm that Configuration Manager supports the version of Microsoft Exchange that you are using. For more information, see [Supported Configurations for Configuration Manager](https://technet.microsoft.com/en-us/library/gg682077.aspx).
+> Before you install the Exchange Server connector, confirm that Configuration Manager supports the version of Microsoft Exchange that you are using. For more information, see [Supported Configurations for Configuration Manager](https://technet.microsoft.com/library/gg682077.aspx).
 
-Follow the steps at [How to Manage Mobile Devices by Using Configuration Manager and Exchange](https://technet.microsoft.com/en-us/library/gg682001.aspx) to install and configure the Exchange Server connector.
+Follow the steps at [How to Manage Mobile Devices by Using Configuration Manager and Exchange](https://technet.microsoft.com/library/gg682001.aspx) to install and configure the Exchange Server connector.
 
 ## Verification Steps
 If you configured the optional Exchange Server connector for this solution, you can use the Configuration Manager Trace Log Tool to open the EasDisc.log file (located in the Microsoft Configuration Manager/Logs folder where you installed Configuration Manager). Search the log file for “Exchange Connector” to find information about whether the Exchange Connector is running and how many devices are connected.
 
 ![Screenshot showing the EasDisc.log file opened in the Configuration Manager Trace Log Tool](./media/ProtectEmail/Hybrid-Onprem-Eas-DiscLog-Sample.PNG)
 
-The Configuration Manager Trace Log Tool is included in the [System Center 2012 R2 Configuration Manager Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=50012).
+The Configuration Manager Trace Log Tool is included in the [System Center 2012 R2 Configuration Manager Toolkit](https://www.microsoft.com/download/details.aspx?id=50012).
 
 ## Reporting
 If you configured the optional Exchange Server connector, you can use the Configuration Manager console to view specific information about devices that have been discovered by the Exchange Connector. For devices on which conditional access is enforced, you can view the current status of each device, the last time the device was connected with the Exchange server, and so on.

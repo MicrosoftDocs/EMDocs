@@ -6,10 +6,10 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 07/07/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 
@@ -38,7 +38,7 @@ With Windows Server 2012 R2, it is possible to encrypt data at rest in users’ 
 
 If you think of storage as a container of content, great value comes with protecting the consumption of that content. Data leakage can be prevented by enforcing policies that will affect how the content that resides in the storage will be used by the end user. [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/library/hh831554.aspx) can be used to augment the security strategy for your organization by protecting documents that use information rights management (IRM). AD RMS allows individuals and administrators through IRM policies to specify access permissions to documents, workbooks, and presentations. This helps prevent sensitive information from being printed, forwarded, or copied by unauthorized people. After permission for a file has been restricted by using IRM, the access and usage restrictions are enforced no matter where the information is, because the permission to a file is stored in the file itself.
 
-If your company wants to use a cloud based solution for file protection, they can also use [Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx). Azure Rights Management can protect company’s sensitive information using encryption, identity, and authorization policies to help secure files and email, and it works across multiple devices—phones, tablets, and PCs. Information can be protected both within the organization and outside the organization because that protection remains with the data, even when it leaves the organization’s boundaries. 
+If your company wants to use a cloud based solution for file protection, they can also use [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection). Azure Information Protection can protect company’s sensitive information using encryption, identity, and authorization policies to help secure files and email, and it works across multiple devices—phones, tablets, and PCs. Information can be protected both within the organization and outside the organization because that protection remains with the data, even when it leaves the organization’s boundaries. 
 
 Other storage technologies available in the Windows operating system can also be used to enhance the overall protection of the data, such as BitLocker for drive encryption and [Encrypting File System (EFS)](https://technet.microsoft.com/library/cc700811.aspx) for file encryption. Use the following table to see the advantages and disadvantage for storage protection. Keep in mind that these options are not mutually exclusive. In other words, your design decision might conclude that you need all of these options in your BYOD infrastructure solution for storage protection.
 
@@ -76,7 +76,7 @@ Use the list below to understand the advantages and disadvantages of each storag
 		- Can be enabled by using Group Policy on a per-user or per-device basis
 		- Integration with Microsoft Intune, which allows selective wipe for data located in Work Folders on users’ devices
 		- Can force users to reauthenticate before they can access data located in Work Folders
-		- Enables integration with Microsoft Rights Management services for data classification
+		- Enables integration with Microsoft Information Protection services for data classification
 	- Disadvantages
 		- Available only for Windows 8.1, Windows RT 8.1 and Windows 10
 		- Requires Windows Server 2012 R2 for hosting the sync shares
@@ -203,12 +203,12 @@ Use the list below to understand the advantages and disadvantages of each direct
 		- Requires a server infrastructure for federation.
 		- Requires certificate to secure the communication between the federation server and the cloud service.
 
-Hybrid environments that require users to have connectivity with cloud services from their own devices can take advantage of the integration between [Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/) and Active Directory Domain Services (AD DS). In a [hybrid identity scenario](https://technet.microsoft.com/library/dn550987.aspx), companies that want to preserve seamless user authentication can choose from the following options:
+Hybrid environments that require users to have connectivity with cloud services from their own devices can take advantage of the integration between [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) and Active Directory Domain Services (AD DS). In a [hybrid identity scenario](https://technet.microsoft.com/library/dn550987.aspx), companies that want to preserve seamless user authentication can choose from the following options:
 
 - Directory Synchronization with Password Sync: using DirSync with [password hash sync](https://technet.microsoft.com/library/dn246918.aspx) between AD DS and Azure AD.
 - Federated authentication with single sign-on: user attributes are synchronized using DirSync. Authentication is passed back through federation (AD FS) and completed against AD DS.
 
-When using Device Registration Service in Windows 8.1, a certificate is installed in a user’s device and a device record is created in AD DS with the certificate’s thumbprint number. This link between the device and the user allows IT to track which devices are getting registered by each user. This capability does not require an Enterprise PKI. Device registration is also available in Azure AD for Windows 10. Read [Get started with Azure Active Directory Device Registration](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-device-registration-overview/) for more information about Device Registration using Azure AD and Windows 10.
+When using Device Registration Service in Windows 8.1, a certificate is installed in a user’s device and a device record is created in AD DS with the certificate’s thumbprint number. This link between the device and the user allows IT to track which devices are getting registered by each user. This capability does not require an Enterprise PKI. Device registration is also available in Azure AD for Windows 10. Read [Get started with Azure Active Directory Device Registration](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-device-registration-overview/) for more information about Device Registration using Azure AD and Windows 10.
 
 ## Authentication and authorization
 
@@ -220,7 +220,7 @@ The decision to enable users to access apps and data from their devices must gua
 
 Authentication and authorization are handled by AD FS in connection with AD DS. The data in flight in the datacenter will also use the HTTPS protocol when connecting with the File Server role and Authentication Services.
 
-To enforce Multi-Factor Authentication, companies can use the built-in capabilities in AD FS or use [Azure Multi-Factor Authentication (MFA)](https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/). By leveraging this capability in Azure, IT has the ability to enforce multi-factor authentication for users who are accessing company resources from the Internet. For more information about multi-factor authentication, see [Manage Risk with Additional Multi-Factor Authentication for Sensitive Applications](https://technet.microsoft.com/library/dn280949.aspx).
+To enforce Multi-Factor Authentication, companies can use the built-in capabilities in AD FS or use [Azure Multi-Factor Authentication (MFA)](https://azure.microsoft.com/documentation/articles/multi-factor-authentication/). By leveraging this capability in Azure, IT has the ability to enforce multi-factor authentication for users who are accessing company resources from the Internet. For more information about multi-factor authentication, see [Manage Risk with Additional Multi-Factor Authentication for Sensitive Applications](https://technet.microsoft.com/library/dn280949.aspx).
 
 To enforce authorization per app on users who are accessing apps either from an external or internal network, IT can leverage Web Application Proxy. By using Web Application Proxy, IT can create specific rules to enforce authentication and authorization in conjunction with AD FS. Web Application Proxy publishing works for any user device; they can use personal laptops, tablets, or smartphones. In addition, users are not required to install any additional software on their devices to access published apps. Web Application Proxy serves as a reverse proxy for any apps published through it, and as such, the user experience is the same as if users’ devices were connected directly to the apps. For more information about Web Application Proxy, see [Web Application Proxy Overview](https://technet.microsoft.com/library/dn280944.aspx).
 

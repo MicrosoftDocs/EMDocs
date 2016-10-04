@@ -6,10 +6,10 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 
@@ -51,7 +51,7 @@ Microsoft products, technologies, and services for a BYOD infrastructure solutio
 - Active Directory Federation Services (AD FS)
 - Dynamic Access Control
 - Microsoft Rights Management service
-- Azure Rights Management 
+- Azure Information Protection 
 - SMB Encryption
 - Single Sign-On (SSO)
 - Work Folders

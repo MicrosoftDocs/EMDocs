@@ -6,10 +6,10 @@ description:
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 
@@ -60,7 +60,7 @@ As you can see in the preceding table, when designing the BYOD infrastructure so
 
 If the company chooses to support different types of devices, you need to understand the devices’ capabilities, such as storage encryption, VPN connectivity options, and supported programming languages. Evaluate what can be implemented to be in compliance with company policies. Monitoring devices in order to meet compliance can be done by enforcing policies. Consider enabling device encryption while data is at rest in users’ devices; this can assist you in your data leakage strategy. Enforcing policies such as password unlock, password history, and strong passwords can lend similar security across on-premises and mobile devices.
 
-Compliance settings in Configuration Manager allow IT to manage the configuration and compliance of servers, laptops, desktop computers, and mobile devices in the enterprise. Consider using the default compliance settings built into Configuration Manager for mobile devices as a baseline, and from there, customize according to your company’s needs. For more information about compliance settings in Configuration Manager, see [Introduction to Compliance Settings in Configuration Manager](https://technet.microsoft.com/en-us/library/gg682139.aspx).
+Compliance settings in Configuration Manager allow IT to manage the configuration and compliance of servers, laptops, desktop computers, and mobile devices in the enterprise. Consider using the default compliance settings built into Configuration Manager for mobile devices as a baseline, and from there, customize according to your company’s needs. For more information about compliance settings in Configuration Manager, see [Introduction to Compliance Settings in Configuration Manager](https://technet.microsoft.com/library/gg682139.aspx).
 
 By using Windows Selective Wipe, IT can secure the enterprise’s corporate data that is dispersed to corporate or personal devices. Developers can create apps to use a Windows Selective Wipe policy on data and protect it on an Internet domain that is owned by the enterprise. For more information about Windows Selective Wipe, see Windows Selective Wipe for Device Data Management.
 
@@ -184,7 +184,7 @@ The management solution that will be adopted by the company is also responsible 
 
 One challenge in this area is to be able to manage different platforms and preserve a centralized management interface that allows IT to quickly identify devices that are connected on-premises and in the cloud. You must consider the adoption of a management platform that can consolidate both (on-premises and cloud), and also a management platform that is capable of managing Windows and non-Windows systems.
 
-For centralized management on-premises, you can use Configuration Manager. By using this option, IT can leverage the Enterprise Enrollment capability to enroll devices with the company’s Configuration Manager Server. For more information about how to manage devices using Configuration Manager, see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](https://technet.microsoft.com/en-us/library/jj884158.aspx).
+For centralized management on-premises, you can use Configuration Manager. By using this option, IT can leverage the Enterprise Enrollment capability to enroll devices with the company’s Configuration Manager Server. For more information about how to manage devices using Configuration Manager, see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
 
 To manage other platforms that are not Windows-based devices, you can leverage the Microsoft Intune cloud service. The Microsoft Intune Company Portal can be used to enroll, manage, and install licensed apps. Users can have easy access to apps and install them on their devices. 
 

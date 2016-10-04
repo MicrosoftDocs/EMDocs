@@ -5,6 +5,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "EMDocs",
+      "build_source_folder": "EMDocs",
       "build_output_subfolder": "EMDocs",
       "locale": "en-us",
       "version": 0,
@@ -15,6 +16,7 @@
     },
     {
       "docset_name": "EMSolutions",
+      "build_source_folder": "EMDocs/Solutions",
       "build_output_subfolder": "EMDocs/Solutions",
       "locale": "en-us",
       "version": 0,
@@ -27,13 +29,16 @@
   "notification_subscribers": [
     ""
   ],
+  "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/EMDocs",
   "skip_source_output_uploading": false,
+  "need_preview_pull_request": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master"
+      "branch": "master",
+      "branch_mapping": {}
     }
   ]
 }

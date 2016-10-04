@@ -2,14 +2,14 @@
 # required metadata
 
 title: End-user experience of MAM
-description: End-user experience of mobile access management policies.
+description: End-user experience of mobile app management policies.
 keywords:
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 
@@ -25,7 +25,7 @@ ms.suite: ems
 
 ---
 
-# End-user experience of mobile access management policies
+# End-user experience of mobile app management policies
 MAM polices are applied only when apps are used in the work context. Read the following example scenarios to help you educate your users so that they understand how managed apps work.
 
 This section provides examples of the following end-user experiences:
@@ -35,9 +35,9 @@ This section provides examples of the following end-user experiences:
 
 For information on other specific end-user experiences, see the following articles:
 
-- [Using apps with multi-identity support](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support)
-- [Managing user accounts](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
-- [Viewing media files with the Rights Management sharing app](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)
+- [Using apps with multi-identity support](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support)
+- [Managing user accounts](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
+- [Viewing media files with the Rights Management sharing app](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)
 
 ## Scenario: Accessing OneDrive on an iOS device
 
@@ -68,4 +68,4 @@ For information on other specific end-user experiences, see the following articl
 4.	Once the PIN is set and confirmed, the user can continue using **OneDrive**, which is now managed by app policies.
 
 ## Where to go from here
-There are other end-user experiences you can read more about, including [Using apps with multi-identity support](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Managing user accounts](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts), and [Viewing media files with the Rights Management sharing app](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).
+There are other end-user experiences you can read more about, including [Using apps with multi-identity support](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Managing user accounts](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts), and [Viewing media files with the Rights Management sharing app](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).

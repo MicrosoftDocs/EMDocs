@@ -40,7 +40,7 @@ Managed apps are apps that are deployed by your IT admin that comply with your c
 
 -   Selectively wipe only data that is associated with the managed app. When a device is lost, stolen, or is no longer managed by your IT, a selective wipe can remove all corporate data from the apps, leaving only personal app data behind. This is known as multi-identity.
 
-With [Azure Rights Management Services](https://technet.microsoft.com/en-us/library/jj585026.aspx), you can extend email protection in the following ways:
+With [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms), you can extend email protection in the following ways:
 
 -   Email messages can be encrypted so only the right users can read or view the content whether within your company or outside the company.
 
@@ -65,7 +65,7 @@ With [Azure Rights Management Services](https://technet.microsoft.com/en-us/libr
 ## The IT admin experience:
 Your IT admin creates the mobile application management policies, associates the policy to the app, and deploys it to users or devices. When the managed app is installed on the device, the app restrictions take effect. Creating and deploying managed apps involve little or no additional effort:
 
--   There are existing apps that already have the App SDK which allows you to apply restrictions to the app. These require no other processing, but just adding a link pointing to an app store such as iTunes or Google Play. Read [this](https://technet.microsoft.com/en-us/library/dn708489.aspx) article to see the list of managed apps.
+-   There are existing apps that already have the App SDK which allows you to apply restrictions to the app. These require no other processing, but just adding a link pointing to an app store such as iTunes or Google Play. Read [this article](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) to see the list of managed apps.
 
 -   If you want to manage apps that are created in-house, you can repackage the apps with Microsoft Intune App Wrapping tool. The tool repackages the app which allows you to apply restrictions to the app.
 
