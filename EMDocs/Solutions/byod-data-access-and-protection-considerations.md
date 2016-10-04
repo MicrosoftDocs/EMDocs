@@ -38,7 +38,7 @@ With Windows Server 2012 R2, it is possible to encrypt data at rest in users’ 
 
 If you think of storage as a container of content, great value comes with protecting the consumption of that content. Data leakage can be prevented by enforcing policies that will affect how the content that resides in the storage will be used by the end user. [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/library/hh831554.aspx) can be used to augment the security strategy for your organization by protecting documents that use information rights management (IRM). AD RMS allows individuals and administrators through IRM policies to specify access permissions to documents, workbooks, and presentations. This helps prevent sensitive information from being printed, forwarded, or copied by unauthorized people. After permission for a file has been restricted by using IRM, the access and usage restrictions are enforced no matter where the information is, because the permission to a file is stored in the file itself.
 
-If your company wants to use a cloud based solution for file protection, they can also use [Azure Rights Management](https://technet.microsoft.com/library/jj585026.aspx). Azure Rights Management can protect company’s sensitive information using encryption, identity, and authorization policies to help secure files and email, and it works across multiple devices—phones, tablets, and PCs. Information can be protected both within the organization and outside the organization because that protection remains with the data, even when it leaves the organization’s boundaries. 
+If your company wants to use a cloud based solution for file protection, they can also use [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection). Azure Information Protection can protect company’s sensitive information using encryption, identity, and authorization policies to help secure files and email, and it works across multiple devices—phones, tablets, and PCs. Information can be protected both within the organization and outside the organization because that protection remains with the data, even when it leaves the organization’s boundaries. 
 
 Other storage technologies available in the Windows operating system can also be used to enhance the overall protection of the data, such as BitLocker for drive encryption and [Encrypting File System (EFS)](https://technet.microsoft.com/library/cc700811.aspx) for file encryption. Use the following table to see the advantages and disadvantage for storage protection. Keep in mind that these options are not mutually exclusive. In other words, your design decision might conclude that you need all of these options in your BYOD infrastructure solution for storage protection.
 
@@ -76,7 +76,7 @@ Use the list below to understand the advantages and disadvantages of each storag
 		- Can be enabled by using Group Policy on a per-user or per-device basis
 		- Integration with Microsoft Intune, which allows selective wipe for data located in Work Folders on users’ devices
 		- Can force users to reauthenticate before they can access data located in Work Folders
-		- Enables integration with Microsoft Rights Management services for data classification
+		- Enables integration with Microsoft Information Protection services for data classification
 	- Disadvantages
 		- Available only for Windows 8.1, Windows RT 8.1 and Windows 10
 		- Requires Windows Server 2012 R2 for hosting the sync shares

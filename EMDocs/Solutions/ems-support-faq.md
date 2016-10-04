@@ -32,11 +32,11 @@ Microsoft provides global pre-sales, billing, subscription, and technical suppor
 
 **I can't submit an Enterprise Mobility + Security support request through the Azure portal because I do not have an Azure support plan. Isn’t support included for Enterprise Mobility + Security**
 
-Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Rights Management, and Microsoft Intune through the  Office 365 portal.
+Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, and Microsoft Intune through the  Office 365 portal.
 
 **Why am I not able to submit a support request through the Azure portal?**
 
-Only Enterprise Mobility + Security customers that have also purchased an Azure support plan can submit support requests through the Azure portal at this time. Support for Azure Active Directory Premium, Azure Rights Management, and Intune is available through the  Office 365 portal.
+Only Enterprise Mobility + Security customers that have also purchased an Azure support plan can submit support requests through the Azure portal at this time. Support for Azure Active Directory Premium, Azure Information Protection, and Intune is available through the  Office 365 portal.
 
 **How do I get Intune support?**
 
@@ -65,6 +65,6 @@ Go to the  Azure portal for license assignment. Please follow the instructions i
 ## Additional help for other questions
 [Azure Active Directory support forum](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)
 
-[Azure Rights Management support forum](http://www.yammer.com/AskIPTeam)
+[Azure Information Protection support forum](http://www.yammer.com/AskIPTeam)
 
 [Intune support forum](https://social.technet.microsoft.com/forums/windows/home?category=microsoftintune)
