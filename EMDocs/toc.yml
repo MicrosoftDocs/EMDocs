@@ -150,7 +150,7 @@
         - name: Core infrastructure
           href: /sccm/core/
           homepage: /sccm/core/understand/introduction
-        - name: Application management guide
+        - name: Application management
           href: /sccm/apps/
           homepage: /sccm/apps/understand/get-started-with-application-management
         - name: Device compliance
