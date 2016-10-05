@@ -167,11 +167,11 @@ Your device is now enrolled in Intune, and you are taken back to the Company Por
   ![Screenshot prompting the user to enroll the Mac OS X device](./media/ft-userEnrollMacOSx-2-enrollDevice.png)
 4.	On the Install Management Profile dialog, tap **Install**. If a dialog box appears asking you to enter your credentials, enter your username and password, and then tap **Continue > Install**.
 
-  ![prompting the user to install the management profile on a Mac OS X device](./media/ft-userEnrollMacOSx-3-installProfile.png)
+  ![Screenshot prompting the user to install the management profile on a Mac OS X device](./media/ft-userEnrollMacOSx-3-installProfile.png)
 
 When you finish enrolling, you'll see a Management Profile page showing that your profile has been verified.
 
   ![Screenshot showing that the management profile is verified on a Mac OS X device](./media/ft-userEnrollMacOSx-4-profileVerified.png)
 
 ### Want to learn more?
-See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
