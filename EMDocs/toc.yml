@@ -147,24 +147,24 @@
       href: /sccm/
       homepage: /sccm
       items:
-        - name: Core infrastructure guide
+        - name: Core infrastructure
           href: /sccm/core/
           homepage: /sccm/core/understand/introduction
-        - name: Application management guide
+        - name: Application management
           href: /sccm/apps/
           homepage: /sccm/apps/understand/get-started-with-application-management
-        - name: Device compliance guide
+        - name: Device compliance
           href: /sccm/compliance/
           homepage: /sccm/compliance/understand/ensure-device-compliance
-        - name: Mobile device management guide
+        - name: Mobile device management
           href: /sccm/mdm/
           homepage: /sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management
-        - name: Operating system deployment guide
+        - name: Operating system deployment
           href: /sccm/osd/
           homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
-        - name: Protect data and infrastructure guide
+        - name: Protect data and infrastructure
           href: /sccm/protect/
           homepage: /sccm/protect/understand/protect-data-and-site-infrastructure
-        - name: Software update management guide
+        - name: Software update management
           href: /sccm/sum/
           homepage: /sccm/sum/understand/software-updates-introduction
