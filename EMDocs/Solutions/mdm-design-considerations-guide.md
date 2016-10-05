@@ -6,10 +6,10 @@ description:
 keywords:
 author: andredm7
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod:
-ms.service: microsoft-intune
+ms.service: 
 ms.technology:
 ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd
 
@@ -21,7 +21,7 @@ ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd
 ms.reviewer: 
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+ms.custom: microsoft-intune
 
 ---
 
