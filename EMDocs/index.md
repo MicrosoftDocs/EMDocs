@@ -96,7 +96,13 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                                 <p>Manage &amp; protect corporate apps &amp; data on devices using Intune's MDM &amp; MAM capabilities.</p>
                                 </a>
                             </li>
-                        </ul>
+                            <li class="column column-third">
+                                <a href="/sccm/">
+                                <h3>System Center Configuration Manager</h3>
+                                <p>Manage and protect corporate computers, servers, and devices with Configuration Manager on-premises infrastructure.</p>
+                                </a>
+                            </li>
+                          </ul>
                     </section>
                 </li>
                 <li class="journey-step">
