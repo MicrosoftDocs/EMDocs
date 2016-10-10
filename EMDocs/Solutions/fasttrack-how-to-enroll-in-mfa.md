@@ -40,10 +40,10 @@ Using the enrollment process, you will be able to specify your preferred method 
 
 |Method|Description|
 |------------|----------------------------------|
-|Mobile Phone Call|Places an automated voice call to the authentication phone number. The user answers the call and presses # in the phone keypad to authenticate. This phone number will not be synchronized to the on-premises Active Directory.|
-|Mobile Phone Text Message|Sends a text message containing a verification code to the user. The user is prompted to either reply to the text message with the verification code or to enter the verification code into the sign-in interface.|
-|Office Phone Call|Places an automated voice call to the user. The user answers the call and presses # in the phone keypad to authenticate.|
-|Mobile App|Pushes a notification to the Azure Authenticator mobile app on the user’s smartphone or tablet. The user taps Verify in the app to authenticate. Alternately, the app can also be used as an OTP token for offline authentication. The user enters the token into the sign-in screen to authenticate.|
+|[Mobile Phone Call](#mobile-phone-(text-or-call))|Places an automated voice call to the authentication phone number. The user answers the call and presses # in the phone keypad to authenticate. This phone number will not be synchronized to the on-premises Active Directory.|
+|[Mobile Phone Text Message](#mobile-phone-(text-or-call))|Sends a text message containing a verification code to the user. The user is prompted to either reply to the text message with the verification code or to enter the verification code into the sign-in interface.|
+|[Office Phone Call](#office-phone-call)|Places an automated voice call to the user. The user answers the call and presses # in the phone keypad to authenticate.|
+|[Mobile App](#mobile-application)|Pushes a notification to the Azure Authenticator mobile app on the user’s smartphone or tablet. The user taps Verify in the app to authenticate. Alternately, the app can also be used as an OTP token for offline authentication. The user enters the token into the sign-in screen to authenticate.|
 
 _The Azure Authenticator app can operate in two different modes to provide the additional security that a multi-factor authentication service can provide. These are the following:_
 
@@ -123,4 +123,4 @@ The Azure Authenticator app is available for Windows Phone, Android, and IOS.
 12.	Click **Done**.
 
 ### Want to learn more?
-See [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
