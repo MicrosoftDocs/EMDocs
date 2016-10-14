@@ -16,15 +16,24 @@
       href: /active-directory/
       homepage: /active-directory
       items:
-        - name: AD Authentication Library
+        - name: ADAL v3
           href: /active-directory/adal/
           homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
+        - name: ADAL v3
+          href: /active-directory/adal/v3
+          homepage: /active-directory/adal/v3/microsoft.identitymodel.clients.activedirectory
+        - name: ADAL v2
+          href: /active-directory/adal/v2
+          homepage: /active-directory/adal/v2/microsoft.identitymodel.clients.activedirectory
         - name: AD Graph API
           href: /azure-ad-graph-api/api/
           homepage: /azure-ad-graph-api/api/api-catalog
     - name: Multi-factor Authentication
       href: /multi-factor-authentication/
       homepage: /multi-factor-authentication
+    - name: Cloud App Security
+      href: /cloud-app-security/
+      homepage: /cloud-app-security
     - name: Advanced Threat Analytics
       href: /advanced-threat-analytics/
       homepage: /advanced-threat-analytics
