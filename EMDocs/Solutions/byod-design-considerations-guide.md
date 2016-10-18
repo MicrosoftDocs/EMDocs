@@ -2,11 +2,11 @@
 # required metadata
 
 title: BYOD Design Considerations Guide
-description:
+description: Introduction to BYOD adoption and overview of design considerations process. 
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Source Environment Expectations
-description:
+description: Source environment requirements for using the FastTrack Center Benefit
 keywords:
 author: staciebarker
 manager: angrobe

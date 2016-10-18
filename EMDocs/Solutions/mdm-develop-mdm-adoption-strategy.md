@@ -2,11 +2,11 @@
 # required metadata
 
 title: Develop your mobile device management adoption strategy
-description:
+description: Design considerations for adopting mobile device management. 
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

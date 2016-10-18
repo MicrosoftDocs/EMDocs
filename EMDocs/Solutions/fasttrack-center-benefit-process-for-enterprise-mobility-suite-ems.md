@@ -2,7 +2,7 @@
 # required metadata
 
 title: FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)
-description:
+description: Overview of the FastTrack Center Benefit onboarding process
 keywords:
 author: staciebarker
 manager: angrobe
