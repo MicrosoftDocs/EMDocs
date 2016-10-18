@@ -2,7 +2,7 @@
 # required metadata
 
 title: Plan for enhancing mobile devices protection
-description:
+description: Design considerations for protecting your mobile devices in a mobile device management scenario. 
 keywords:
 author: YuriDio
 manager: swadhwa

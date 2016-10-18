@@ -2,11 +2,11 @@
 # required metadata
 
 title: User and devices requirements
-description:
+description: Common requirements for users and devices in a BYOD scenario.
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

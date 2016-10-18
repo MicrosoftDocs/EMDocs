@@ -2,7 +2,7 @@
 # required metadata
 
 title: Onboarding and Migration Phases
-description:
+description: Phases of the FastTrack Center Benefit
 keywords:
 author: staciebarker
 manager: angrobe

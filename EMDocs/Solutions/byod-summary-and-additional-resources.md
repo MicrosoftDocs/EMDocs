@@ -2,11 +2,11 @@
 # required metadata
 
 title: BYOD Summary and Additional Resources | BYOD Design Considerations Guide
-description:
+description: BYOD design considerations guide summary and more resources to learn 
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
@@ -35,10 +35,9 @@ We recommend that you review and familiarize yourself with the following resourc
 
 For solutions related to the BYOD scenario, see:
 
+- [Understanding BYOD: What it Means for My Company](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-1-Understanding-BYOD-What-it-Means-for-My-Company)
+- [Understanding BYOD: How to Make it Happen](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-2-Understanding-BYOD-How-to-Make-it-Happen)
+- [BYOD and Design Considerations](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-3-BYOD-and-Design-Considerations)
 - [Mobile Device Management Design Considerations Guide](http://aka.ms/mdmdcg)
-- [Manage identities for hybrid environments using DirSync with Federation (Single Sign-On)](https://technet.microsoft.com/library/dn550987.aspx)
-- [Manage identities for hybrid environments using DirSync with Password Sync](https://technet.microsoft.com/library/dn550986.aspx)
-- [Secure access to company resources from any location on any device](https://technet.microsoft.com/library/dn550982.aspx)
-- [Manage mobile devices and PCs by migrating to Configuration Manager with Microsoft Intune](https://technet.microsoft.com/library/dn582037.aspx)
-- [Mobile device management for Configuration Manager 2007 customers planning to migrate to System Center 2012 R2 Configuration Manager](https://technet.microsoft.com/library/dn508400.aspx)
+
 

@@ -2,11 +2,11 @@
 # required metadata
 
 title: Data access and protection requirements
-description:
+description: Common requirements for data access and protection in a BYOD scenario.
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
