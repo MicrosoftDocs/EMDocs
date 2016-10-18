@@ -44,7 +44,7 @@ Azure Information Protection lets organizations classify, label, and protect dat
 
 The organization also has access to detailed tracking and reporting so they can see what’s happening with the shared data to manage it better. The following diagram summarizes the information protection lifecycle:
 
-![Information protection lifecycle](../media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig1.png)
+![Information protection lifecycle](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig1.png)
 
 Watch this short video for a quick introduction on how Azure Information Protection makes it simpler to classify, label and protect information, even as it travels outside of your organization.
 
@@ -67,7 +67,7 @@ Companies need to identify which data needs protection and which data does not n
 
 Before implementing this solution, review the [requirements for Azure Information Protection](requirements-azure-infoprotect.md) and ensure that Azure Rights Management is activated. If it is activated, you should see the following screen in Azure Portal:
 
-![Azure Portal](../media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig2.png)
+![Azure Portal](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig2.png)
 
 When you activate Azure Rights Management, you can protect important data by using applications and services supported by this information protection solution. You can also manage and monitor protected files and emails that your organization owns. You must activate Azure Rights Management before you can use the Rights Management features within Office, SharePoint, and Exchange to protect sensitive or confidential files.
 
@@ -82,15 +82,16 @@ When planning to implement information protection policies and labels, use the f
 
 The following diagram has an example of how this could be implemented:
 
-![Classification](../media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
+![Classification](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
 Azure Information Protection comes with default labels, however you can [customize](configure-policy-new-label.md) and create your own labels or sub-labels that users see on the Information Protection bar. 
 
-> [!IMPORTANT] Labels are metadata written to documents. Labels are in clear text so that other systems such as a DLP engine can read it.
+> [!IMPORTANT] 
+> Labels are metadata written to documents. Labels are in clear text so that other systems such as a DLP engine can read it.
 
 In the following example, you can see custom sub-labels that were created under the **Secret** label:
 
-![Label](../media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
+![Label](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
 Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](configure-policy-protection.md#to-configure-a-label-to-apply-rights-management-protection). 
 
