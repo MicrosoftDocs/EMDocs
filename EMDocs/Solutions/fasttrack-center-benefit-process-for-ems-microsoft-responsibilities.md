@@ -2,7 +2,7 @@
 # required metadata
 
 title: Microsoft responsibilities
-description:
+description: Microsoft's responsibilities when customers are using the FastTrack Center Benefit
 keywords:
 author: staciebarker
 manager: angrobe

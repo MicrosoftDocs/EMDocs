@@ -2,11 +2,11 @@
 # required metadata
 
 title: Develop your incident response requirements
-description:
+description: Common requirements to develop an incident response process for mobile device management scenario.
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

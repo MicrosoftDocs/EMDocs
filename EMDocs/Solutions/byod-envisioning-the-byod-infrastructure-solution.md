@@ -2,11 +2,11 @@
 # required metadata
 
 title: Envisioning the BYOD Infrastructure Solution
-description:
+description: Solution definition for BYOD based on the choices that were made during the designing process.
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
