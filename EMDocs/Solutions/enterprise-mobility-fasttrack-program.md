@@ -2,7 +2,7 @@
 # required metadata
 
 title: Enterprise Mobility FastTrack Program
-description:
+description: A program to help eligible customers plan and deploy Intune and Azure Active Directory Premium
 keywords:
 author: staciebarker
 manager: angrobe

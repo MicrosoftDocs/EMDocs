@@ -2,7 +2,7 @@
 # required metadata
 
 title: FastTrack Center Benefit Overview
-description:
+description: Overview and components of the FastTrack Center Benefit
 keywords:
 author: staciebarker
 manager: angrobe

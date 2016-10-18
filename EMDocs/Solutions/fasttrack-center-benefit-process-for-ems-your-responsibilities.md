@@ -2,7 +2,7 @@
 # required metadata
 
 title: Your responsibilities
-description:
+description: Customer responsibilities when using the FastTrack Center Benefit
 keywords:
 author: staciebarker
 manager: angrobe
