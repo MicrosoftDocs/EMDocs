@@ -2,11 +2,11 @@
 # required metadata
 
 title: Identify Business Needs
-description:
+description: Guidelines to identity business needs to justify a mobile device management adoption.
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
