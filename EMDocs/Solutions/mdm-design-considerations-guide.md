@@ -6,7 +6,7 @@ description:
 keywords:
 author: andredm7
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
@@ -66,6 +66,9 @@ You will develop a mobile device management design that best meets your requirem
 - [Step 3: Plan for securing mobile devices](mdm-step-3-plan-enhancing-mobile-devices-protection.md)
 - [Step 4: Plan for Software as a Service mobile device management](mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
 - [Next steps and additional resources](mdm-next-steps-and-additional-resources.md)
+
+>[!NOTE]
+> Before you use this guide, you can also watch [Design Considerations for Mobile Device Management presentation](https://channel9.msdn.com/Shows/TechNet+Radio/TNR1610) at Channel9 to understand how this guide will help you. 
         
 ## Looking for a downloadable version?
 Get a downloadable copy of this entire guide at the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).

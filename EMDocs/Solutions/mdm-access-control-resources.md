@@ -2,11 +2,11 @@
 # required metadata
 
 title: Access control to resources
-description:
+description: Access control design considerations for mobile device management.
 keywords:
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
