@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Secure data using classification, labeling and protection with Azure Information Protection | Azure Information Protection
+title: Secure data using classification, labeling and protection | Azure Information Protection
 description: A scenario that describes how Enterprise Mobility + Security can be used to classify, label and protect data by leveraging Microsoft Azure Information Protection capabilities.
 author: yuridio
 manager: swadhwa
@@ -24,7 +24,7 @@ ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 
 ---
 
-# Secure data using classification, labeling and protection with Azure Information Protection 
+# Secure data using classification, labeling and protection 
 
 Nowadays information sharing is taking place from multiple devices and across organizational boundaries.  It becomes imperative to ensure that critical corporate data is not compromised in this process while enabling users to securely share what’s important for them to perform their jobs. With trends such as outsourcing, you may need to share company confidential data with contractors and vendors. Because not all content needs the same protection, companies are challenged to identify which data needs protection and which data does not.
 
