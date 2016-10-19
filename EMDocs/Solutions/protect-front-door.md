@@ -110,7 +110,7 @@ To have access to Azure AD Privileged Identity Management you must first [instal
 
 ![Logon screen](./media/protect-front-door/protect-front-door-fig7-1.png)
 
-Click **Set it up now** and follow the wizard that will ask you to type of you mobile or telephone number. Once you finish this wizard you will see the verification completed message:
+Click **Set it up now** and follow the wizard. You need to type your mobile or telephone number for verification purpose. Once you finish this wizard you will see the verification completed message:
 
 ![Verification](./media/protect-front-door/protect-front-door-fig8-1.png)
 
