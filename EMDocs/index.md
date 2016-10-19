@@ -129,7 +129,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                                 </a>
                             </li>
                             <li class="column column-third">
-                                <a href="https://technet.microsoft.com/library/mt489024.aspx">
+                                <a href="/cloud-app-security/">
                                 <h3>Cloud App Security</h3>
                                 <p>Bring the security of your on-premises systems to your cloud applications for deeper visibility, comprehensive controls, and enhanced protection.</p>
                                 </a>
