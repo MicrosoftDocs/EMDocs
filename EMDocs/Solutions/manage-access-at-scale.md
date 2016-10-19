@@ -47,7 +47,7 @@ Azure AD provides  automated advanced user lifecycle management by leveraging, d
 
 ![Graphic showing how Azure AD Connect synchronizes users and groups between Windows Server Active Directory and Azure Active Directory](./media/ManageAccessAtScale/fig1.png)
 #### Application management
-How many users like to remember passwords for each application they  use every day? [Single Sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem: you can log into several SaaS applications by using a single user account and password, which can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications such as Office 365, and for third-party applications such as Salesforce, ServiceNow, and Workday.
+How many users like to remember passwords for each application they  use every day? [Single sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem: you can log into several SaaS applications by using a single user account and password, which can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications such as Office 365, and for third-party applications such as Salesforce, ServiceNow, and Workday.
 
  It is also available for on-premises applications through [Azure AD Application Proxy](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-publish/), which offers a simple, secure, and cost-effective remote access as a service solution to all your on-premises applications. Your remote employees can access your on-premises resources without being restricted to the corporate network and without requiring IT to implement VPN, DMZ environments, or reverse proxies.
 
@@ -88,8 +88,8 @@ If for some reason an employee needs to leave the company, you can remove them f
 ### How to manage cloud and on-premises applications
 Here are the steps that you could take to add, deploy and manage Microsoft, and third-party SaaS applications with Azure AD.
 - Learn more about [Integrating Azure AD with applications](https://azure.microsoft.com/documentation/articles/active-directory-integrating-applications-getting-started/).
-- Learn more about [Enabling Single-Sign-On to SaaS apps](https://azure.microsoft.com/documentation/articles/active-directory-sso-integrate-saas-apps/).
-- Learn more about [Managing Access to Apps](https://azure.microsoft.com/documentation/articles/active-directory-managing-access-to-apps/).
+- Learn more about [Enabling single sign-on to SaaS apps](https://azure.microsoft.com/documentation/articles/active-directory-sso-integrate-saas-apps/).
+- Learn more about [Managing access to apps](https://azure.microsoft.com/documentation/articles/active-directory-managing-access-to-apps/).
 
 ## How to implement password reset self-service portal
 By default, Azure AD comes with a free feature that lets every admin  perform their own self-service password reset.
