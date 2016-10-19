@@ -4,8 +4,8 @@
 title: Manage access at scale
 description: Manage access at scale
 keywords:
-author: craigcaseyMSFT
-manager: jeffgilb
+author: andredm7
+manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: article
 ms.prod:
