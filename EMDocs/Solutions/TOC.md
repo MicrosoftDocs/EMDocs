@@ -1,8 +1,10 @@
 # Solutions
-## [Identity and Access Management](byod-design-considerations-guide.md)
-## [Identity Driven Security](mdm-design-considerations-guide.md)
-## [Information Protection](architecture-guidance-for-protecting-company-email-and-documents.md)
-### [Secure data using classification, labeling and protection](infoprotect-secure-classify-scenario.md)
+## [Identity and Access Management](manage-access-at-scale.md)
+### [Manage access at scale](manage-access-at-scale.md)
+## [Identity Driven Security](protect-front-door.md)
+### [Protect at the front door](protect-front-door.md)
+## [Information Protection](infoprotect-secure-classify-scenario.md)
+### [Secure data using classification, labeling, and protection](infoprotect-secure-classify-scenario.md)
 ## [Managed Mobile Productivity](protect-office365-data-with-intune.md)
 ### [Protect Office 365 company data with Intune](protect-office365-data-with-intune.md)
 
