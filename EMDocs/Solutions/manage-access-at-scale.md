@@ -85,6 +85,7 @@ Here’s more detail about Azure AD Health:
 
 ## How to implement an advanced user lifecycle management
 Let’s go through a few examples and the steps that you might take to implement this solution:
+
 1. In a real-world scenario, your organization hires a professional and adds a user to the HR system as a member of the Marketing team.
 2.	Assuming you’ve already integrated your on-premises Active Directory instance with Azure AD through directory synchronization, the on-premises Azure AD Connect syncs the user account with Azure AD.
 3.	After the user account appears on Azure AD, you can create dynamic group membership rules that automatically assign Marketing users to it.
