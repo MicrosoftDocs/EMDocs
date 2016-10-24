@@ -16,6 +16,9 @@
       href: /active-directory/
       homepage: /active-directory
       items:
+        - name: ADAL Home
+          href: /active-directory/adal/
+          homepage: /active-directory/adal/index
         - name: Current
           href: /active-directory/adal/
           homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
