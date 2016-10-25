@@ -2,7 +2,7 @@
 # required metadata
 
 title: Thousands of apps, one identity
-description: Thousands of apps, one identity
+description: This article describes how Enterprise Mobility + Security can be used to provide a single identity that works across any web-based apps in the industry by leveraging tools within Azure Active Directory.
 keywords:
 author: andredm7
 manager: swadhwa

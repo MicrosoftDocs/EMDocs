@@ -2,14 +2,14 @@
 # required metadata
 
 title: Manage access at scale
-description: Manage access at scale
+description: This article describes how Enterprise Mobility + Security can be used to empower an organization with identity access management by leveraging tools within Azure Active Directory.
 keywords:
 author: andredm7
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: active-directory
 ms.technology:
 ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 
@@ -18,7 +18,7 @@ ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 ROBOTS: noindex
 #audience:
 #ms.devlang:
-ms.reviewer:
+ms.reviewer: atkladak, jsnow
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:

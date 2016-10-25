@@ -2,7 +2,7 @@
 # required metadata
 
 title: Cloud-powered protection
-description: Cloud-powered protection
+description: This article describes how Enterprise Mobility + Security can be used to provide a comprehensive set of security tools to proactively help identity, and respond to security threats at your organization by leveraging tools within Azure Active Directory.
 keywords:
 author: andredm7
 manager: swadhwa
