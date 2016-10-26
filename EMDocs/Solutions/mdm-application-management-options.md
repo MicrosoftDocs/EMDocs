@@ -2,7 +2,7 @@
 # required metadata
 
 title: Application management options
-description:
+description: It explains the Mobile Application Management (MAM) capabilities on Intune standalone and hybrid, so customers can secure corporate data on corporate-owned and personal devices (BYOD).
 keywords:
 author: andredm7
 manager: swadhwa
@@ -46,19 +46,13 @@ Depending on how you answered the questions in Step 1, you should be able to det
 
 ## Intune (standalone)
 
-**Advantages**
-
 - Supports managing applications on devices enrolled in Intune, on devices enrolled in other management solutions, or on devices not enrolled in any management solution
 - Isolates company data from consumer personal data within apps enlightened for Intune. These include Office Mobile apps, third-party apps that have adopted the Intune SDK, or line-of-business apps wrapped by Intune
 - Sharing company data with cut/copy/paste across company apps, while preventing the sharing of company data into personal apps
 - Key data loss prevention policies like per-app PINs, save-as controls, and managed data sharing between apps.
 - Support for these capabilities in Microsoft Word, Excel, PowerPoint, Outlook, OneNote, and OneDrive for Business
 - Manage iOS apps purchased through the Apple Volume Purchase Program for Business volume-purchase program
-- Supported on Android and iOS devices
-
-**Disadvantages**
-
-- Not supported on Windows Phone  devices
+- Supported on Android, iOS devices, and Windows 10 devices through its built-in feature [Windows information protection](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
 
 ## MDM for Office 365
 

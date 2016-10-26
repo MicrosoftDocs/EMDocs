@@ -2,7 +2,7 @@
 # required metadata
 
 title: Gather monitoring requirements
-description:
+description: This article helps to identity the Mobile device monitoring options when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa

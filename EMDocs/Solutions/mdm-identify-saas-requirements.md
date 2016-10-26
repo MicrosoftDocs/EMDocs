@@ -2,7 +2,7 @@
 # required metadata
 
 title: Identify SaaS requirements
-description:
+description: This article helps identify SaaS requirements when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa
