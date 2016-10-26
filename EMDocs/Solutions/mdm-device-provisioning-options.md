@@ -2,7 +2,7 @@
 # required metadata
 
 title: Device provisioning options
-description:
+description: This article intent to provide device provisioning options when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa

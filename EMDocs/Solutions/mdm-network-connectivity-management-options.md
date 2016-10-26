@@ -2,7 +2,7 @@
 # required metadata
 
 title: Network connectivity management options
-description:
+description: This article intent to provide the network connectivity management options when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Email management options
-description:
+description: This article intent to provide the email management options when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa
