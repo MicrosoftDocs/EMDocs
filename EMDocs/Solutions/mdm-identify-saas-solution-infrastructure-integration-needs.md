@@ -2,7 +2,7 @@
 # required metadata
 
 title: Identify SaaS solution infrastructure integration needs
-description:
+description: This article helps identify the SaaS solution infrastructure integration needs when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa

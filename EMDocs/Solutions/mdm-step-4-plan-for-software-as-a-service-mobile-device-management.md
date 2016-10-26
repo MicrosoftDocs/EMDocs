@@ -2,7 +2,7 @@
 # required metadata
 
 title: Step 4 - Plan for Software as a Service mobile device management
-description:
+description: This article helps customers plan for a SaaS mobile device management implementation.
 keywords:
 author: andredm7
 manager: swadhwa

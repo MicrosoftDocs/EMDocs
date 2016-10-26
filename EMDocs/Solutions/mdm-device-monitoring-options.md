@@ -2,7 +2,7 @@
 # required metadata
 
 title: Device monitoring options
-description:
+description: This article intent to provide device monitoring options when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa
