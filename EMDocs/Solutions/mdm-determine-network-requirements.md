@@ -2,7 +2,7 @@
 # required metadata
 
 title: Determine network requirements
-description:
+description: This article helps customers to determine the network requirements when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Certificate management options
-description:
+description: Provide decision points on how to plan and design a certificate infrastructure to support certificate provisioning with Intune standalone and hybrid.
 keywords:
 author: andredm7
 manager: swadhwa
@@ -30,7 +30,7 @@ ms.custom: microsoft-intune
 >[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Using digital certificate management and certificate profiles is supported both by [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) standalone and [hybrid Intune and ConfigMgr](https://technet.microsoft.com/library/dn261202.aspx) deployment scenarios. These features allow you to deploy trusted root certificates to mobile devices, as well as Simple Certificate Enrollment Protocol (SCEP) based profiles that instruct mobile devices to get additional certificates from a NDES server in your organization.
+Using digital certificate management and certificate profiles is supported both by [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) standalone and [hybrid](https://technet.microsoft.com/library/dn261202.aspx) deployment scenarios. These features allow you to deploy trusted root certificates to mobile devices, as well as Simple Certificate Enrollment Protocol (SCEP) based profiles that instruct mobile devices to get additional certificates from a NDES server in your organization.
 
 Since SCEP is natively supported by iOS, Windows 10 and 8.1, and Windows Phone 10 and 8.1, and is also supported through the Microsoft Intune Company Portal app for Android, using this enrollment protocol has the advantage of having the private key generated directly on the mobile device. The private key is never generated, cached, or stored by either ConfigMgr or by Intune - which helps to keep the mobile device secure.
 
