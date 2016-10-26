@@ -26,10 +26,10 @@ ms.suite: ems
 ---
 
 # Manage access at scale
-Microsoft has been empowering organizations since its existence. Microsoft provides not only identity that takes you everywhere, but also a set of tools to automate, secure, and manage IT within your organization. Even after the advent of cloud computing, there is still demand to manage and control IT tasks like helpdesk calls to reset user passwords, user group management, and application requests.
+Microsoft has been empowering organizations since its existence. Microsoft provides not only identity that takes you everywhere, but also a set of tools to automate, help secure, and manage IT within your organization. Even after the advent of cloud computing, there is still demand to manage and control IT tasks like helpdesk calls to reset user passwords, user group management, and application requests.
 
 ## How Enterprise Mobility + Security can help you
-Enterprise Mobility + Security (EMS) is the only comprehensive cloud solution that natively protects corporate data on the device itself and beyond with four layers of protection across identities, devices, apps, and data. EMS helps you solve one of the key challenges in the mobile-first, cloud-first world—how to provide a comprehensive set of tools within Azure Active Directory (Azure AD) that will help you with the following:
+Enterprise Mobility + Security (EMS) is the only comprehensive cloud solution that natively helps protect corporate data on the device itself and beyond with four layers of protection across identities, devices, apps, and data. EMS helps you solve one of the key challenges in the mobile-first, cloud-first world—how to provide a comprehensive set of tools within Azure Active Directory (Azure AD) that will help you with the following:
 - Advanced user lifecycle management
 - Low IT overhead and cost
 - Monitoring your identity bridge
@@ -41,8 +41,8 @@ Azure AD provides automated, advanced user lifecycle management by using dynamic
 
 Here’s more detail:
 
-- For organizations with on-premises HR, Microsoft identity Manager establishes user identities in Windows Server Active Directory.
-- For organizations with software as a service (SaaS)–delivered HR, Azure AD currently integrates with Workday. It will integrate with more apps in the future.
+- For organizations with on-premises HR, Microsoft Identity Manager establishes user identities in Windows Server Active Directory.
+- For organizations with software as a service (SaaS)–delivered HR, Azure AD currently integrates with Workday.
 - Azure AD Connect syncs users and groups between Windows Server Active Directory and Azure AD.
 - Azure AD provides group-based automated licensing for Office 365 and other Microsoft online services.
 
@@ -50,7 +50,7 @@ Here’s more detail:
 ### Application management
 How many users like to remember passwords for each application they  use every day? [Single sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem: you can log in to several SaaS applications by using a single user account and password. Single sign-on can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications like Office 365, and for third-party applications like Salesforce, ServiceNow, and Workday.
 
- It is also available for on-premises applications through [Azure AD Application Proxy](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-publish/). AD Application Proxy offers a simple, secure, and cost-effective solution (remote access as a service) to all your on-premises applications. Your remote employees can access your on-premises resources without being restricted to the corporate network and without requiring IT to implement VPN, perimeter network (also known as DMZ, demilitarized zone, and screened subnet) environments, or reverse proxies.
+ It is also available for on-premises applications through [Azure AD Application Proxy](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-publish/). Azure AD Application Proxy offers a simple, security-minded, and cost-effective solution (remote access as a service) for all your on-premises applications. Your remote employees can access your on-premises resources without being restricted to the corporate network and without requiring IT to implement VPN, perimeter network (also known as DMZ, demilitarized zone, and screened subnet) environments, or reverse proxies.
 
  Here’s more detail about single sign-on:
 
@@ -69,7 +69,7 @@ Here’s more detail about password reset:
 - Users can update their AD password or unlock their own AD accounts in real time.
 - Real-time notifications are sent to users and admins.
 
-![Graphic that shows how Azure Active Directory securely works on-premises and in the cloud to provide self-service password reset capabilities to end users](./media/ManageAccessAtScale/fig2.png)
+![Graphic that shows how Azure Active Directory works on-premises and in the cloud to provide self-service password reset capabilities to end users](./media/ManageAccessAtScale/fig2.png)
 
 ### Monitor your identity bridge
 Azure AD Connect Health helps organizations to monitor and gain insight into their on-premises identity infrastructure and the synchronization services. It also helps organizations maintain a reliable connection to Office 365 and Microsoft Online Services by providing monitoring capabilities for their key identity components. These components include Active Directory Federation Services (AD FS) servers, Azure AD Connect servers, and Active Directory domain controllers (DCs).
