@@ -35,9 +35,9 @@ Enterprise Mobility + Security (EMS) is the only comprehensive cloud solution th
 - Monitor your identity bridge
 
 
-### Recommended solution
+## Recommended solution
 Azure AD Premium is the recommended solution to empower your organization with identity access management.
-#### Advanced user lifecycle management
+### Advanced user lifecycle management
 Azure AD provides  automated advanced user lifecycle management by leveraging, dynamic group membership rules, and application management capabilities.
 
 - For organizations with on-premises HR, Microsoft identity Manager establishes user identities in Windows Server Active Directory.
@@ -46,7 +46,7 @@ Azure AD provides  automated advanced user lifecycle management by leveraging, d
 - Azure AD provides group-based automated licensing for Office 365, and other Microsoft online services.
 
 ![Graphic showing how Azure AD Connect synchronizes users and groups between Windows Server Active Directory and Azure Active Directory](./media/ManageAccessAtScale/fig1.png)
-#### Application management
+### Application management
 How many users like to remember passwords for each application they  use every day? [Single sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem: you can log into several SaaS applications by using a single user account and password, which can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications such as Office 365, and for third-party applications such as Salesforce, ServiceNow, and Workday.
 
  It is also available for on-premises applications through [Azure AD Application Proxy](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-publish/), which offers a simple, secure, and cost-effective remote access as a service solution to all your on-premises applications. Your remote employees can access your on-premises resources without being restricted to the corporate network and without requiring IT to implement VPN, DMZ environments, or reverse proxies.
@@ -56,7 +56,7 @@ How many users like to remember passwords for each application they  use every d
  - It offers great security. When you publish your apps using Azure AD Application Proxy, you can take advantage of the rich authorization controls and security analytics in Azure. This means that you get advanced security capabilities for all your existing apps without having to change any app.
  - It gives your users a consistent authentication experience. Single sign-on gives your end users the ease and simplicity of access to all the apps they need to be productive with one password.
 
-#### Low IT overhead and cost
+### Low IT overhead and cost
 Azure AD Premium also offers self-service for password reset, group management, and app management capabilities to empower IT and end-user’s productivity in your organization. There’s no need for users to make helpdesk phone calls and spend minutes and minutes in a call, provide a lot of information to get a temporary password, which is sent by e-mail or shared during the call in an unsecured way.
 - It works with federation, password sync, or cloud-only user accounts. It also enforces all your on-premises password policies.
 - All traffic is encrypted with tenant-specific key, and over HTTPS.
@@ -65,7 +65,7 @@ Azure AD Premium also offers self-service for password reset, group management, 
 
 ![Graphic showing how Azure Active Directory securely works on-premises and in the cloud to provide self-service password reset capabilities to end users.  ](./media/ManageAccessAtScale/fig2.png)
 
-#### Monitor your identity bridge
+### Monitor your identity bridge
 Azure AD Connect Health helps organizations to monitor and gain insight into their on-premises identity infrastructure and the synchronization services, as well as to maintain a reliable connection to Office 365 and Microsoft Online Services by providing monitoring capabilities for their key identity components, such as AD FS Servers, Azure AD Connect servers, and Active Directory Domain Controllers.
 
 - One-click audit & compliance through Azure portal.
@@ -98,7 +98,7 @@ When using Azure AD Premium, you can go beyond IT administrators by providing pa
 
 Learn more about the [pre-requisites, how to enable, and how to configure the password self-service portal](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/) on your Azure AD tenant.
 
-## How to implement Azure AD Connect Health
+## How to use Azure AD Connect Health
 You can check the [Azure AD Connect Health documentation](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health/) to gather more information about the tool, its capabilities, and the steps you can take to start using it in your organization.
 
 Azure AD Connect Health is available at [Azure portal](https://ms.portal.azure.com) and requires a health agent to be installed on the on-premises domain controllers you want to monitor. Learn more about [how to install the health agent](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health-agent-install/).
