@@ -2,7 +2,7 @@
 # required metadata
 
 title: Develop SaaS mobile device management strategy
-description:
+description: This article intend to help customers to develop a SaaS mobile device management strategy.
 keywords:
 author: andredm7
 manager: swadhwa

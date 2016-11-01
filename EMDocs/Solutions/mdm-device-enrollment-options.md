@@ -2,7 +2,7 @@
 # required metadata
 
 title: Device enrollment options
-description:
+description: This article intent to provide device enrollment options when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa

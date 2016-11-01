@@ -2,7 +2,7 @@
 # required metadata
 
 title: Next steps and additional resources
-description:
+description: This article provides additional resources, links of how-to articles to deploy and support Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa

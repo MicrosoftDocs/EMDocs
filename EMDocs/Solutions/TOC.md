@@ -1,13 +1,17 @@
 # Solutions
 ## [Identity and Access Management](manage-access-at-scale.md)
 ### [Manage access at scale](manage-access-at-scale.md)
+### [Enable business without borders](enable-business-without-borders.md)
+### [Thousands of apps, one identity](thousands-apps-one-identity.md)
+### [Cloud-powered protection](cloud-powered-protection.md)
 ## [Identity Driven Security](protect-front-door.md)
 ### [Protect at the front door](protect-front-door.md)
+### [Protect data against user mistakes](protect-data-user-mistake.md)
 ## [Information Protection](infoprotect-secure-classify-scenario.md)
 ### [Secure data using classification, labeling, and protection](infoprotect-secure-classify-scenario.md)
+### [Share sensitive data internally and externally](share-sensitive-data.md)
 ## [Managed Mobile Productivity](protect-office365-data-with-intune.md)
 ### [Protect Office 365 company data with Intune](protect-office365-data-with-intune.md)
-
 ## [Design and Architecture Guides](byod-design-considerations-guide.md)
 ### [BYOD Design Guide](byod-design-considerations-guide.md)
 #### [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Understand the MDM lifecycle
-description:
+description: This article helps to understand how the Microsoft MDM lifecycle works.
 keywords:
 author: andredm7
 manager: swadhwa

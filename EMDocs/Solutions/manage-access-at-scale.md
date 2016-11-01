@@ -2,14 +2,14 @@
 # required metadata
 
 title: Manage access at scale
-description: Manage access at scale
+description: This article describes how Enterprise Mobility + Security can be used to empower an organization with identity access management by leveraging tools within Azure Active Directory.
 keywords:
 author: andredm7
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: active-directory
 ms.technology:
 ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 
@@ -18,7 +18,7 @@ ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 ROBOTS: noindex
 #audience:
 #ms.devlang:
-ms.reviewer:
+ms.reviewer: atkladak, jsnow
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -34,12 +34,11 @@ Enterprise Mobility + Security (EMS) is the only comprehensive cloud solution th
 - Low IT overhead and cost
 - Monitoring your identity bridge
 
+## Recommended solution
 Azure AD Premium is the recommended solution to empower your organization with identity access management.
 
 ### Advanced user lifecycle management
-Azure AD provides automated, advanced user lifecycle management by using dynamic group membership rules and application management capabilities.
-
-Here’s more detail:
+Azure AD provides automated, advanced user lifecycle management by using dynamic group membership rules and application management capabilities. Here’s more detail:
 
 - For organizations with on-premises HR, Microsoft identity Manager establishes user identities in Windows Server Active Directory.
 - For organizations with software as a service (SaaS)–delivered HR, Azure AD currently integrates with Workday. It will integrate with more apps in the future.
@@ -47,10 +46,9 @@ Here’s more detail:
 - Azure AD provides group-based automated licensing for Office 365 and other Microsoft online services.
 
 ![Graphic that shows how Azure AD Connect syncs users and groups between Windows Server Active Directory and Azure Active Directory](./media/ManageAccessAtScale/fig1.png)
-### Application management
-How many users like to remember passwords for each application they  use every day? [Single sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem: you can log in to several SaaS applications by using a single user account and password. Single sign-on can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications like Office 365, and for third-party applications like Salesforce, ServiceNow, and Workday.
 
- It is also available for on-premises applications through [Azure AD Application Proxy](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-publish/). AD Application Proxy offers a simple, secure, and cost-effective solution (remote access as a service) to all your on-premises applications. Your remote employees can access your on-premises resources without being restricted to the corporate network and without requiring IT to implement VPN, perimeter network (also known as DMZ, demilitarized zone, and screened subnet) environments, or reverse proxies.
+### Application management
+How many users like to remember passwords for each application they use every day? [Single sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem. You can log in to several SaaS applications by using a single user account and password. Single sign-on can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications like Office 365, and for third-party applications like Salesforce, ServiceNow, and Workday.
 
  Here’s more detail about single sign-on:
 
@@ -60,7 +58,7 @@ How many users like to remember passwords for each application they  use every d
  - It gives your users a consistent authentication experience. Single sign-on gives your users access to all the apps they need to be productive with one password.
 
 ### Low IT overhead and cost
-Azure AD Premium offers self-service for password reset, group management, and app management capabilities to empower IT and users’ productivity in your organization. There’s no need for users to make a helpdesk phone call and provide a lot of information to get a temporary password, which is sent by email or shared during the call in an unsecured way.
+Azure AD Premium offers self-service for password reset, group management, and app management capabilities to empower IT and users’ productivity in your organization. There’s no need for users to make a helpdesk phone call and provide a lot of information to get a temporary password that’s sent in e-mail or shared during the call in an unsecured way.
 
 Here’s more detail about password reset:
 
@@ -106,7 +104,7 @@ When you’re using Azure AD Premium, you can go beyond IT admins by providing p
 
 Learn more about the [prerequisites, how to enable, and how to set up the password self-service portal](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/) on your Azure AD tenant.
 
-## How to implement Azure AD Connect Health
+## How to use Azure AD Connect Health
 You can check the [Azure AD Connect Health documentation](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health/) to gather more information about the tool, its capabilities, and the steps you can take to start using it in your organization.
 
 Azure AD Connect Health is available in the [Azure portal](https://ms.portal.azure.com) and requires a health agent to be installed on the on-premises domain controllers that you want to monitor. Learn more about [how to install the health agent](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health-agent-install/).

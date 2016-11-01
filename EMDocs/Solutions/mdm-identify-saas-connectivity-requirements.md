@@ -2,7 +2,7 @@
 # required metadata
 
 title: Identify SaaS connectivity requirements
-description:
+description: This article helps to identify the SaaS connectivity requirements when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
 manager: swadhwa
