@@ -47,14 +47,10 @@ Azure AD provides automated, advanced user lifecycle management by using dynamic
 
 ![Graphic that shows how Azure AD Connect syncs users and groups between Windows Server Active Directory and Azure Active Directory](./media/ManageAccessAtScale/fig1.png)
 
-<<<<<<< HEAD
 ### Application management
 How many users like to remember passwords for each application they use every day? [Single sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem. You can log in to several SaaS applications by using a single user account and password. Single sign-on can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications like Office 365, and for third-party applications like Salesforce, ServiceNow, and Workday.
-=======
- It is also available for on-premises applications through [Azure AD Application Proxy](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-publish/). Azure AD Application Proxy offers a simple, security-minded, and cost-effective solution (remote access as a service) for all your on-premises applications. Your remote employees can access your on-premises resources without being restricted to the corporate network and without requiring IT to implement VPN, perimeter network (also known as DMZ, demilitarized zone, and screened subnet) environments, or reverse proxies.
->>>>>>> 417b86378d7a7ca80476f1ae36478c1c0dfc4d19
 
- Here’s more detail about single sign-on:
+Here’s more detail about single sign-on:
 
  - It works in the cloud, so you can save time and money. On-premises solutions require you to set up and maintain perimeter networks, edge servers, or other complex infrastructures.
  - It is easier to set up and secure than on-premises solutions because you don't have to open any inbound connections through your firewall.
