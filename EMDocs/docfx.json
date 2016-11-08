@@ -1,0 +1,41 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "Solutions/**",
+          "_themes/**",
+          "**/Token/**"
+        ]
+      }
+    ],
+    "resource": [
+        {
+          "files": [
+          "**/images/**", 
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.bmp",
+          "**/*.html"
+          ],
+        "exclude": [
+          "**/obj/**",
+          "_themes/**",
+          "Solutions/**"
+        ]
+      }
+    ],
+    "dest": "EMDocs",
+    "template": "docs.html",
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "breadcrumb_path": "/enterprise-mobility-security/toc.json"
+    }
+  }
+}
