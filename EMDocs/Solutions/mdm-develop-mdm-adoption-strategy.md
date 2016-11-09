@@ -5,6 +5,7 @@ title: Develop your mobile device management adoption strategy
 description: Design considerations for adopting mobile device management. 
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution

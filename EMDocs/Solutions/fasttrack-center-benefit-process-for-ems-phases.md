@@ -5,6 +5,7 @@ title: Onboarding and Migration Phases
 description: Phases of the FastTrack Center Benefit
 keywords:
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article

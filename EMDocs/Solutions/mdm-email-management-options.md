@@ -5,6 +5,7 @@ title: Email management options
 description: This article intent to provide the email management options when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

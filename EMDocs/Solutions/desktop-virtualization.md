@@ -5,6 +5,7 @@ title: Desktop virtualization scenarios
 description: Using EMS to ensure end-user productivity through access to remote applications hosted on premises or in the cloud.
 keywords:
 author: andredm
+ms.author: andredm
 manager: swadhwa
 ms.date: 09/16/2016
 ms.topic: article

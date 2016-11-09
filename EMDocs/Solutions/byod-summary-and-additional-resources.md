@@ -5,6 +5,7 @@ title: BYOD Summary and Additional Resources | BYOD Design Considerations Guide
 description: BYOD design considerations guide summary and more resources to learn 
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution

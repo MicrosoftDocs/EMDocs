@@ -4,6 +4,7 @@
 title: Share sensitive data internally and externally | Azure Information Protection
 description: A scenario that describes how Enterprise Mobility + Security can be used to share sensitive data internally and externally by leveraging Microsoft Azure Information Protection capabilities.
 author: yuridio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/24/2016
 ms.topic: solution

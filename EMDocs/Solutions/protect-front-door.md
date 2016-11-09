@@ -4,11 +4,12 @@
 title: Protect at the front door | Azure Active Directory Identity Protection
 description: A scenario that describes how Enterprise Mobility + Security can be used to protect identity for secure access to company resources by leveraging Microsoft Azure Active Directory Identity Protection and Azure Active Directory Privileged Identity Management capabilities.
 author: yuridio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/19/2016
 ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology: techgroup-identity
 ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 
@@ -20,7 +21,7 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 #ms.reviewer: v-craic
 #ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, microsoft-identity-manager
 
 ---
 
@@ -72,7 +73,7 @@ The second stage of this solution (steps 4 to 6) will implement Azure Active Dir
 
 Before implementing this solution, ensure that an [Azure AD Premium license](https://azure.microsoft.com/documentation/articles/active-directory-get-started-premium/) is assigned to the end user. In case you are using a federated domain and you want to enforce password change in the cloud to be written back on-premises, you need to enable [password writeback](https://azure.microsoft.com/documentation/articles/active-directory-passwords-getting-started/). After finishing reviewing these requirements, [enable Azure AD Identity Protection](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-enable/) by installing it from Marketplace. After finishing this installation, you will have access to the Azure AD Identity Protection dashboard, which may appear empty as shown in the following image.
 
-![Azure AD Identity Protection](./media/protect-front-door/protect-front-door-fig1-1.png)
+![Azure AD Identity Protection](./media/protect-front-door/protect-front-door-fig2.png)
 
 ### Step 2: Configure Azure AD Identity Protection
 
@@ -84,7 +85,7 @@ When planning to implement Azure AD Identity Protection, you must start by defin
 
 These policies are located at the Azure AD Identity Protection dashboard, under the **Configure** section as shown in the following screen:
 
-![Policies](./media/protect-front-door/protect-front-door-fig2-1.png)
+![Policies](./media/protect-front-door/protect-front-door-fig3.png)
 
 In addition to configure security policies, you can also customize which users will receive alerts. You should use the **Alerts** option under the Settings section in the Azure AD Identity Protection dashboard as shown in the following image:
 
@@ -108,17 +109,17 @@ You can also leverage [Azure AD Premium access and usage reports](https://azure.
 
 To have access to Azure AD Privileged Identity Management you must first [install it from Marketplace](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-getting-started/). Azure AD Privileged Identity Management and Azure Multi-Factor Authentication (MFA) work together to help IT manage access to secure applications and services. After installing Azure AD Privileged Identity Management, a test will be done to verify if you're able to use MFA. When you click the option to verify your account, you will be redirected to a web page where you need to type your credentials. If your account is not MFA enabled yet, you will see a similar message as shown in the following screen:
 
-![Logon screen](./media/protect-front-door/protect-front-door-fig7-1.png)
+![Logon screen](./media/protect-front-door/protect-front-door-fig7.png)
 
 Click **Set it up now** and follow the wizard. You need to type your mobile or telephone number for verification purpose. Once you finish this wizard, you will see the verification completed message:
 
-![Verification](./media/protect-front-door/protect-front-door-fig8-1.png)
+![Verification](./media/protect-front-door/protect-front-door-fig8.png)
 
 ### Step 5: Configure Azure AD Privileged Identity Management
 
 The initial configuration is performed using a [Security Wizard](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-security-wizard/), which has three stages as shown in the **Protect your organization** blade:
 
-![Security wizard](./media/protect-front-door/protect-front-door-fig9-1.png)
+![Security wizard](./media/protect-front-door/protect-front-door-fig9.png)
 
 In the first stage you will review the [privileged roles](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-roles/) that were discovered by Azure AD Privileged Identity Management. The second stage has the intent to reduce the number of users in your organization who have permanent privileged role assignments, which directly minimizes your vulnerability to security breaches. The last stage allows you to review the changes to your users in privileged roles.
 
@@ -128,6 +129,6 @@ If during this process you granted another user an administrative role, you made
 
 Now that you have Azure AD Privileged Identity Management installed and configured, you can perform the initial assessment to verify your current role schema and alerts. In the **Privilege Identity Management** blade click **Manage privileged roles** and you will see a similar dashboard as shown in the following image:
 
-![Privileged roles](./media/protect-front-door/protect-front-door-fig10-1.png)
+![Privileged roles](./media/protect-front-door/protect-front-door-fig10.png)
 
-In this dashboard, you can see the current activity, such as [security alerts](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) and [access review](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/). You can also use this dashboard to [add](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) or [remove](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim) one or more users' access to Azure AD Privileged Identity Management. 
+In this dashboard, you can see the current activity, such as [security alerts](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) and [access review](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/). You can also use this dashboard to [add](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) or [remove](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim) one or more users' access to Azure AD Privileged Identity Management.

@@ -5,6 +5,7 @@ title: Gather your data protection requirements
 description: Common requirements for data protection in a mobile device management scenario.
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution

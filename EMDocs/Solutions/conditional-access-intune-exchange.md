@@ -5,6 +5,7 @@ title: Use conditional access with Intune and Exchange Server on-premises
 description: Deploy the Exchange on-premises with Intune solution.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
