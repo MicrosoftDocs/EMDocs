@@ -6,7 +6,7 @@ description: A program to help eligible customers plan and deploy Intune and Azu
 keywords:
 author: staciebarker
 manager: angrobe
-ms.date: 10/02/2016
+ms.date: 11/07/2016
 ms.topic: article
 ms.prod:
 ms.service:
