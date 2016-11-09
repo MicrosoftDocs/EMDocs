@@ -5,14 +5,8 @@ title: Protect Office 365 company data with Microsoft Intune
 description: Together, EMS and Office 365 offer a complete managed mobile productivity solution that equips your users with the gold standard of productivity and your IT staff with deeply integrated data controls.
 keywords:
 author: jeffgilb
-<<<<<<< HEAD
 manager: swadhwa
 ms.date: 11/04/2016
-=======
-ms.author: jeffgilb
-manager: angrobe
-ms.date: 10/18/2016
->>>>>>> 0eacdea52150bc8282df618ae73c96724cec26c5
 ms.topic: solution
 ms.prod:
 ms.service: ems
