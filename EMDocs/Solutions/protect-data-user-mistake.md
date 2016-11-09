@@ -8,7 +8,7 @@ manager: swadhwa
 ms.date: 10/24/2016
 ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology: techgroup-identity
 ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 
@@ -20,7 +20,7 @@ ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 #ms.reviewer: v-craic
 #ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: cloud-app-security, information-protection
 
 ---
 
@@ -47,7 +47,7 @@ To address the requirements of this scenario, EMS uses [Cloud App Security](http
 
 The following diagram summarizes the capabilities involved in this scenario and how they are used to protect your resources:
 
-![Graphic showing how Cloud App Security and Azure Information Protection work together to protect data on premises and in the cloud.](./media/protect-data-user-mistake/protect-data-user-mistake-fig1.png)
+![Graphic showing how Cloud App Security and Azure Information Protection work together to protect data on premises and in the cloud.](./media/protect-data-user-mistake/protect-data-user-mistake-fig1-1.png)
 
 ## How to implement this solution
 
@@ -66,7 +66,7 @@ Follow step 1 to discover the cloud apps in your environment and implement polic
 
 The first step to use Cloud App Security is to [discover your apps](https://technet.microsoft.com/en-us/library/mt657567.aspx). If you skip this step, there will be no apps to analyze and to restrict using policies. If you didn’t start the discover process, the Discover option in the Cloud App Security dashboard will show the following message:
 
-![Screenshot showing message that user has not yet uploaded a Cloud Discovery log.](./media/protect-data-user-mistake/protect-data-user-mistake-fig2.png)
+![Screenshot showing message that user has not yet uploaded a Cloud Discovery log.](./media/protect-data-user-mistake/protect-data-user-mistake-fig2-1.png)
 
 Discovering which apps are in use across your organization is the first step in making sure your sensitive corporate data is protected. Once the discover process is finished, you will be able to see a list of apps that were discovered under the [Cloud Discovery dashboard](https://technet.microsoft.com/en-us/library/mt727946.aspx).
 
