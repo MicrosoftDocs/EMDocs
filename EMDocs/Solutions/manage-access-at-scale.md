@@ -5,6 +5,7 @@ title: Manage access at scale
 description: This article describes how Enterprise Mobility + Security can be used to empower an organization with identity access management by leveraging tools within Azure Active Directory.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: article

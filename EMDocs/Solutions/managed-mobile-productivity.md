@@ -5,6 +5,7 @@ title: Managed mobile productivity scenarios
 description: Microsoft's modern approach to EMM provides unmatched management of Office 365 apps and allows your people to do their best work on any device, while keeping company data secure.
 keywords:
 author: jeffgilb
+ms.author: jeffgilb
 manager: swadhwa
 ms.date: 09/16/2016
 ms.topic: article

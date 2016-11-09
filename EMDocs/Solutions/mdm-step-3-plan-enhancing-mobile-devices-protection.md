@@ -5,6 +5,7 @@ title: Plan for enhancing mobile devices protection
 description: Design considerations for protecting your mobile devices in a mobile device management scenario. 
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

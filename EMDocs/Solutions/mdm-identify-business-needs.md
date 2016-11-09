@@ -5,6 +5,7 @@ title: Identify Business Needs
 description: Guidelines to identity business needs to justify a mobile device management adoption.
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution

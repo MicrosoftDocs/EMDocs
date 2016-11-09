@@ -5,6 +5,7 @@ title: Enterprise Mobility FastTrack Program
 description: A program to help eligible customers plan and deploy Intune and Azure Active Directory Premium
 keywords:
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article

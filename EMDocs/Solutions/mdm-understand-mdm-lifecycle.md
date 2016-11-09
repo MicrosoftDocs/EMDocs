@@ -5,6 +5,7 @@ title: Understand the MDM lifecycle
 description: This article helps to understand how the Microsoft MDM lifecycle works.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

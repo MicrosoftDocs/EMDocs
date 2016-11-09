@@ -5,6 +5,7 @@ title: Protect Office 365 company data with Microsoft Intune | Microsoft Intune
 description:
 keywords:
 author: jeffgilb
+ms.author: jeffgilb
 manager: angrobe
 ms.date: 10/18/2016
 ms.topic: solution

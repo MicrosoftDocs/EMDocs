@@ -4,6 +4,7 @@
 title: Protect data against user mistakes | Azure Active Directory Information Protection
 description: A scenario that describes how Enterprise Mobility + Security can be used to protect corporate data from user mistakes and prevent data loss by leveraging Cloud App Security and Azure Information Protection capabilities.
 author: yuridio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/24/2016
 ms.topic: solution

@@ -5,6 +5,7 @@ title: Next steps and additional resources
 description: This article provides additional resources, links of how-to articles to deploy and support Microsoft MDM solutions.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

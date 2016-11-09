@@ -5,6 +5,7 @@ title: Using Mobile App Management Policies in Intune
 description: Create and deploy an app in Intune with a mobile app management policy.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article

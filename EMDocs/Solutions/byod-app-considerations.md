@@ -5,6 +5,7 @@ title: App considerations
 description: Design consideration for apps in a BYOD scenario.
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution

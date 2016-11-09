@@ -5,6 +5,7 @@ title: How to use applications with multi-identity support
 description: How to use apps with multi-identity support
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: jeffgilb
 ms.date: 09/28/2016
 ms.topic: article

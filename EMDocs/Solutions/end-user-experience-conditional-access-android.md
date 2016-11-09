@@ -5,6 +5,7 @@ title: End-user experience of conditional access on Android devices
 description: The end-user experience of enrolling an Android device.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

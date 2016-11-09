@@ -5,6 +5,7 @@ title: Microsoft responsibilities
 description: Microsoft's responsibilities when customers are using the FastTrack Center Benefit
 keywords:
 author: staciebarker
+ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article
