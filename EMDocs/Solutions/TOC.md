@@ -1,4 +1,6 @@
 # Solutions
+## [Learn about Enterprise Mobility + Security](learn-about-ems.md)
+## [Get started with Enterprise Mobility + Security](ems-get-started.md)
 ## [Identity and Access Management](manage-access-at-scale.md)
 ### [Manage access at scale](manage-access-at-scale.md)
 ### [Enable business without borders](enable-business-without-borders.md)
@@ -12,6 +14,7 @@
 ### [Share sensitive data internally and externally](share-sensitive-data.md)
 ## [Managed Mobile Productivity](protect-office365-data-with-intune.md)
 ### [Protect Office 365 company data with Intune](protect-office365-data-with-intune.md)
+### [Protect on-premises company data with Intune](protect-on-premises-data-with-intune.md)
 ## [Design and Architecture Guides](byod-design-considerations-guide.md)
 ### [BYOD Design Guide](byod-design-considerations-guide.md)
 #### [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)
