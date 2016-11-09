@@ -5,6 +5,7 @@ title: Determine network requirements
 description: This article helps customers to determine the network requirements when planning to implement Microsoft MDM solutions.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

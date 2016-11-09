@@ -5,6 +5,7 @@ title: Enable business without borders
 description: This article describes how Enterprise Mobility + Security can be used to provide a single identity that works across cloud and on-premises assets, and keeps users as productive as possible by leveraging tools within Azure Active Directory.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/19/2016
 ms.topic: solution

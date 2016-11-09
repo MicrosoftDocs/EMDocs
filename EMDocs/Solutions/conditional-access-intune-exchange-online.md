@@ -5,6 +5,7 @@ title: Use conditional access with Microsoft Intune and Exchange Online
 description: Deploy the Exchange Online with Intune solution.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

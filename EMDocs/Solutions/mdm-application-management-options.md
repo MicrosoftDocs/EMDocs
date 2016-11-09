@@ -5,6 +5,7 @@ title: Application management options
 description: It explains the Mobile Application Management (MAM) capabilities on Intune standalone and hybrid, so customers can secure corporate data on corporate-owned and personal devices (BYOD).
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

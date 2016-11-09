@@ -5,6 +5,7 @@ title: Use conditional access with Microsoft Intune
 description: Use conditional access in Intune to help secure email and other services.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

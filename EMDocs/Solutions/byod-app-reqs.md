@@ -5,6 +5,7 @@ title: App requirements
 description: Common requirements when deploying apps in a BYOD scenario.
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution

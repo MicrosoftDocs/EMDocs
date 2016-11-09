@@ -5,6 +5,7 @@ title: Learn how to deploy a solution for protecting company email and documents
 description: Determine and then deploy the best solution for your company to enforce conditional access.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

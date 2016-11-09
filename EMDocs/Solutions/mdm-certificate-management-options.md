@@ -5,6 +5,7 @@ title: Certificate management options
 description: Provide decision points on how to plan and design a certificate infrastructure to support certificate provisioning with Intune standalone and hybrid.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

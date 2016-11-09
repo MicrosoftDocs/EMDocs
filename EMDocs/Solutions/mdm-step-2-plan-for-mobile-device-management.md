@@ -5,6 +5,7 @@ title: Step 2 - Plan for mobile device management
 description:
 keywords: This article helps customers to plan for a Microsoft MDM implementation.
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

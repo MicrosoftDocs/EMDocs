@@ -5,6 +5,7 @@ title: Authentication and authorization
 description: Authentication and authorization design considerations for mobile device management scenario.
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution

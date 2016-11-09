@@ -5,6 +5,7 @@ title: End-user experience of conditional access on Windows Phone
 description: The end-user experience of enrolling a Windows Phone.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

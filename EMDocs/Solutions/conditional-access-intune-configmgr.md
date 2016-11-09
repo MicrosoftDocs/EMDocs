@@ -5,6 +5,7 @@ title: Use conditional access with Intune and Configuration Manager
 description: Deploy the Intune with Configuration Manager solution.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

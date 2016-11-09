@@ -5,6 +5,7 @@ title: Specify your mobile device management location requirements
 description: Common requirements regarding device location in a mobile device management scenario.
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution
