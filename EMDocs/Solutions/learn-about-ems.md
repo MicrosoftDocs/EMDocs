@@ -43,7 +43,7 @@ Watch this short video to learn more about how Enterprise Mobility + Security (E
 
 
 ## What’s included in EMS?
-It’s easy to [buy Microsoft Enterprise Mobility + Security offerings](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-pricing). To keep things simple, each product is priced per user, not per device, and there are also volume discounts.
+It’s easy to [buy Microsoft Enterprise Mobility + Security offerings](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-pricing). To keep things simple, each product is priced per user, not per device, and there are also volume discounts.
 
 You can purchase EMS licenses through either the EMS E3 or EMS E5 offering. With EMS E5, you get everything included in E3 along with additional cloud security capabilities as you can see in the following table:
 
@@ -52,7 +52,7 @@ You can purchase EMS licenses through either the EMS E3 or EMS E5 offering. With
 | **EMS E3** |**Azure Active Directory Premium P1**. Secure Single-Sign on to cloud and On-premises apps. MFA, Conditional Access and advanced security reporting. | **Microsoft Intune.** Mobile device and app management to protect corporate apps and data on any device. | **Azure Information Protection Premium P1**. Encryption for all files and storage locations. Cloud based file tracking. | **Microsoft Advanced Threat Analytics**. Protection from advanced targeted attacks leveraging user and entity behavioral analytics. |
 | **EMS E5** *(includes all capabilities in EMS E3)*  | **Azure Active Directory Premium P2**. Identity and Access Management with advanced protection for users and privileged identities. *(includes all capabilities in P1)* |    | **Azure Information Protection Premium P2**. Intelligent classification, & encryption for files shared inside & outside your organization *(includes all capabilities in P1)* | **Microsoft Cloud App Security**. Enterprise-grade visibility, control, and protection for your cloud applications.|
 
-**Tip:** Secure Productive Enterprise (SPE) replaces the Enterprise Cloud Suite (ECS) as the most trusted, secure, and productive way to work that brings together Office 365, Enterprise Mobility + Security, and Windows 10 Enterprise. And, just like EMS [you can purchase either the SPE E3 or E5 offering](https://www.microsoft.com/Licensing/product-licensing/secure-productive-enterprise.aspx).
+**Tip:** Secure Productive Enterprise (SPE) replaces the Enterprise Cloud Suite (ECS) as the most trusted, secure, and productive way to work that brings together Office 365, Enterprise Mobility + Security, and Windows 10 Enterprise. And, just like EMS [you can purchase either the SPE E3 or E5 offering](https://www.microsoft.com/en-us/Licensing/product-licensing/secure-productive-enterprise.aspx).
 
 
 ## Office 365 and EMS. Better together.

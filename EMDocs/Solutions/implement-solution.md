@@ -10,7 +10,7 @@ manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 

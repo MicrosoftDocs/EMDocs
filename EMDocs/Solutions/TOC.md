@@ -12,6 +12,7 @@
 ## [Information Protection](infoprotect-secure-classify-scenario.md)
 ### [Secure data using classification, labeling, and protection](infoprotect-secure-classify-scenario.md)
 ### [Share sensitive data internally and externally](share-sensitive-data.md)
+### [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario.md)
 ## [Managed Mobile Productivity](protect-office365-data-with-intune.md)
 ### [Protect Office 365 company data with Intune](protect-office365-data-with-intune.md)
 ## [Design and Architecture Guides](byod-design-considerations-guide.md)
