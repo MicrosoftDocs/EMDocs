@@ -46,7 +46,7 @@ Azure AD provides automated, advanced user lifecycle management by using dynamic
 - Azure AD Connect syncs users and groups between Windows Server Active Directory and Azure AD.
 - Azure AD provides group-based automated licensing for Office 365 and other Microsoft online services.
 
-![Graphic that shows how Azure AD Connect syncs users and groups between Windows Server Active Directory and Azure Active Directory](./media/ManageAccessAtScale/fig1.png)
+![Graphic that shows how Azure AD Connect syncs users and groups between Windows Server Active Directory and Azure Active Directory](./media/manage-access-at-scale/manage-access-at-scale-fig1.png)
 
 ### Application management
 How many users like to remember passwords for each application they use every day? [Single sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem. You can log in to several SaaS applications by using a single user account and password. Single sign-on can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications like Office 365, and for third-party applications like Salesforce, ServiceNow, and Workday.
@@ -68,7 +68,7 @@ Here’s more detail about password reset:
 - Users can update their AD password or unlock their own AD accounts in real time.
 - Real-time notifications are sent to users and admins.
 
-![Graphic that shows how Azure Active Directory works on-premises and in the cloud to provide self-service password reset capabilities to end users](./media/ManageAccessAtScale/fig2.png)
+![Graphic that shows how Azure Active Directory works on-premises and in the cloud to provide self-service password reset capabilities to end users](./media/manage-access-at-scale/manage-access-at-scale-fig2.png)
 
 ### Monitor your identity bridge
 Azure AD Connect Health helps organizations to monitor and gain insight into their on-premises identity infrastructure and the synchronization services. It also helps organizations maintain a reliable connection to Office 365 and Microsoft Online Services by providing monitoring capabilities for their key identity components. These components include Active Directory Federation Services (AD FS) servers, Azure AD Connect servers, and Active Directory domain controllers (DCs).
@@ -80,7 +80,7 @@ Here’s more detail about Azure AD Health:
 - Activity reports: provides audit, sign-ins, self-service password reset, group activity, app activity, app provisioning, and more
 - Security reports: provides mitigation and resolution for security anomalies through identity protection
 
-![Graphic that shows how Azure AD Connect Health helps organizations monitor their key identity components, like AD FS servers, Azure AD Connect servers, and Active Directory domain controllers](./media/ManageAccessAtScale/fig3.png)
+![Graphic that shows how Azure AD Connect Health helps organizations monitor their key identity components, like AD FS servers, Azure AD Connect servers, and Active Directory domain controllers](./media/manage-access-at-scale/manage-access-at-scale-fig3.png)
 
 ## How to implement an advanced user lifecycle management
 Let’s go through a few examples and the steps that you might take to implement this solution:
@@ -113,20 +113,20 @@ Azure AD Connect Health is available in the [Azure portal](https://ms.portal.azu
 
 The **Domain Controllers** dashboard provides a single view into the health and operational status of the environment. There, the admin can easily find which DCs are Flexible Single Master Operations (FSMO) role owners, which DCs have active alerts, and which DCs are global catalogs. Other columns include **PDC reachable**, **GC reachable**, and **SYSVOL state**.
 
-![Screenshot that shows the Domain Controllers dashboard with information about a selected domain controller](./media/ManageAccessAtScale/fig4.png)
+![Screenshot that shows the Domain Controllers dashboard with information about a selected domain controller](./media/manage-access-at-scale/manage-access-at-scale-fig4.png)
 
 In addition, DCs can be grouped by their corresponding domain, or the admin can group them by site.
 
-![Screenshot that shows domain controllers grouped by site](./media/ManageAccessAtScale/fig5.png)
+![Screenshot that shows domain controllers grouped by site](./media/manage-access-at-scale/manage-access-at-scale-fig5.png)
 
 The **Replication Status** dashboard shows what the replication topology looks like within the environment, along with information about the last replication attempt for each naming context.
 
-![Screenshot that shows the Replication Status dashboard with information about the last replication attempt](./media/ManageAccessAtScale/fig6.png)
+![Screenshot that shows the Replication Status dashboard with information about the last replication attempt](./media/manage-access-at-scale/manage-access-at-scale-fig6.png)
 
 The details of an alert have more information about the issue that’s causing the alert, the required fix, and a link to more troubleshooting resources.
 
-![Screenshot that shows details about a specified alert](./media/ManageAccessAtScale/fig7.png)
+![Screenshot that shows details about a specified alert](./media/manage-access-at-scale/manage-access-at-scale-fig7.png)
 
 AD Connect Health performance monitoring provides an easy way to compare the performance of the monitored DCs against each other, as well as comparing different metrics of interest.
 
-![Screenshot that shows performance monitoring of selected domain controllers](./media/ManageAccessAtScale/fig8.png)
+![Screenshot that shows performance monitoring of selected domain controllers](./media/manage-access-at-scale/manage-access-at-scale-fig8.png)
