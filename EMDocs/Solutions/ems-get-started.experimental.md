@@ -148,4 +148,4 @@ Cloud App Security provides deep visibility into user and data activity, so you 
 
 [Learn about Enterprise Mobility + Security](learn-about-ems.md)
 
-[Try out EMS for free](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial)
+[Try out EMS for free](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)

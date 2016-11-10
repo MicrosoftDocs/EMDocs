@@ -96,4 +96,4 @@ EMS seamlessly integrates advanced company data protection into the rhythm of yo
 
 [Learn about Enterprise Mobility + Security](learn-about-ems.md)
 
-[Try out EMS for free](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial)
+[Try out EMS for free](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)
