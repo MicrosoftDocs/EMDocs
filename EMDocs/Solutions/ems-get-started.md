@@ -23,8 +23,8 @@ ms.suite: ems
 #ms.tgt_pltfrm:
 ms.custom: active-directory,advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
 
-experimental: true
-experiment_id: "jeffgilb-length-20161110"
+#experimental: true
+#experiment_id: jeffgilb-length-20161110
 
 ---
 # Start using Enterprise Mobility + Security
@@ -96,4 +96,4 @@ EMS seamlessly integrates advanced company data protection into the rhythm of yo
 
 [Learn about Enterprise Mobility + Security](learn-about-ems.md)
 
-[Try out EMS for free](https://www.microsoft.com/cloud-platform/enterprise-mobility-security-trial)
+[Try out EMS for free](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)
