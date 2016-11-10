@@ -24,7 +24,7 @@ ms.suite: ems
 ms.custom: active-directory,advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
 
 experimental: true
-experiment_id: "jeffgilb-length-20161110"
+experiment_id: jeffgilb-length-20161110
 
 ---
 # Start using Enterprise Mobility + Security
