@@ -1,16 +1,16 @@
 ---
 # required metadata
 
-title: Onboarding and Migration Phases
+title: Onboarding and migration phases
 description: Phases of the FastTrack Center Benefit
 keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
-ms.topic: article
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 
@@ -22,7 +22,7 @@ ROBOTS: noindex
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
@@ -66,7 +66,7 @@ When all remediation activities are complete, the project shifts to configuring 
 
 **Enable phase - Core capabilities**
 
-Core onboarding involves service provisioning and tenant and identity integration. It also includes steps for providing a foundation for onboarding online services such as Azure AD Premium and Microsoft Intune.
+Core onboarding involves service provisioning and tenant and identity integration. It also includes steps for providing a foundation for onboarding online services such as Azure AD Premium and Intune.
 
 ![Onboarding enable phase - Core capabilities](./media/ft-enable-phase-core-01.png)
 
@@ -104,21 +104,21 @@ Azure AD Premium setup includes enabling the following features:
 
 ![Onboarding enable phase - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
-### Enable phase - Microsoft Intune
+### Enable phase - Intune
 
-For Microsoft Intune, we guide you through getting ready to use Microsoft Intune to manage devices. The exact steps depend on your source environment and are based on your mobile device and mobile app management needs. The steps can include:
+For Intune, we guide you through getting ready to use Microsoft Intune to manage devices. The exact steps depend on your source environment and are based on your mobile device and mobile app management needs. The steps can include:
 
 -   Licensing your end users. We also provide assistance on how to activate volume licenses for your Microsoft cloud service tenant (as needed).
 
--   Configuring identities to be used by Microsoft Intune by leveraging either your on-premises Active Directory or cloud identities.
+-   Configuring identities to be used by Intune by leveraging either your on-premises Active Directory or cloud identities.
 
--   Adding users to your Microsoft Intune subscription, defining IT admin roles, and creating user and device groups.
+-   Adding users to your Intune subscription, defining IT admin roles, and creating user and device groups.
 
 -   Configuring your Mobile Device Management (MDM) authority, based on your management needs, including:
 
-    -   Setting Microsoft Intune as your MDM authority when Microsoft Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
+    -   Setting Intune as your MDM authority when Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
 
-    -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of System Center Configuration Manager and you want to expand its management capabilities with Microsoft Intune.
+    -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
         > [!NOTE]
         > If you only want to leverage MDM over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority isn't required.
@@ -137,7 +137,7 @@ For Microsoft Intune, we guide you through getting ready to use Microsoft Intune
 
         -   Setting up the Microsoft Intune Exchange Connector (when applicable).
 
-    -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to your Microsoft Intune or System Center Configuration Manager with Microsoft Intune service.
+    -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to your Intune or Configuration Manager with Intune service.
 
 -   Providing Mobile Application Management (MAM) guidance about:
 

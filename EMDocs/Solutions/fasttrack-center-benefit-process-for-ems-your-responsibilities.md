@@ -8,9 +8,9 @@ author: staciebarker
 ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
-ms.topic: article
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 
@@ -22,7 +22,7 @@ ROBOTS: noindex
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
