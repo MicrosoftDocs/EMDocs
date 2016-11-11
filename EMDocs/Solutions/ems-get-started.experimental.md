@@ -23,8 +23,7 @@ ms.suite: ems
 #ms.tgt_pltfrm:
 ms.custom: active-directory,advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
 
-#experimental: true
-#experiment_id: jeffgilb-length-20161110
+experiment_id: jeffgilb-length-20161110
 
 ---
 
