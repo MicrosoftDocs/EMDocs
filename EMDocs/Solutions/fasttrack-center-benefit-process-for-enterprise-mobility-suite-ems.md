@@ -1,16 +1,16 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)
+title: The FastTrack process
 description: Overview of the FastTrack Center Benefit onboarding process
 keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
-ms.topic: article
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 
@@ -22,7 +22,7 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
@@ -46,7 +46,7 @@ Here’s what you can expect when onboarding is complete:
 
 -   Your EMS tenants for your selected services are created.
 
--   Licensed users can access the Microsoft Intune service by using one of the following identity options:
+-   Licensed users can access the Intune service by using one of the following identity options:
 
     -   Cloud Identities (unique EMS accounts).
 

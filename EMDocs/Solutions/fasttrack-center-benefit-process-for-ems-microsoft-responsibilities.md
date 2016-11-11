@@ -8,9 +8,9 @@ author: staciebarker
 ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
-ms.topic: article
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 
@@ -22,7 +22,7 @@ ROBOTS: noindex
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
@@ -88,14 +88,14 @@ Provide guidance about:
         > [!NOTE]
         > Development and implementation for custom rules extensions are out of scope.
 
--   For a single forest when the target is federated identities: Installing and configuring Active Directory Federation Services (AD FS) for local domain authentication with Microsoft Intune in a single-site, fault-tolerant configuration, if required.
+-   For a single forest when the target is federated identities: Installing and configuring Active Directory Federation Services (AD FS) for local domain authentication with Intune in a single-site, fault-tolerant configuration, if required.
 
     > [!NOTE]
     > For all multiple forest configurations, AD FS deployments are out of scope.
 
 -   Testing single sign-on (SSO) functionality, if deployed.
 
-### Enable phase - Azure AD Premium
+### Enable phase - Microsoft Azure Active Directory Premium
 
 Provide guidance about:
 
@@ -164,20 +164,20 @@ Provide guidance about setting up:
 
   - Administrative notifications and alerts.
 
-### Enable phase - Microsoft Intune
+### Enable phase - Intune
 Provide guidance about:
 
 -   Licensing your end users.
 
--   Configuring identities to be used by Microsoft Intune, by either leveraging your on-premises Active Directory or cloud identities.
+-   Configuring identities to be used by Intune, by either leveraging your on-premises Active Directory or cloud identities.
 
--   Adding users to your Microsoft Intune subscription, defining IT admin roles, and creating user and device groups.
+-   Adding users to your Intune subscription, defining IT admin roles, and creating user and device groups.
 
 -   Configuring your Mobile Device Management MDM) authority, based on your management needs, including:
 
-    -   Setting Microsoft Intune as your MDM authority when Microsoft Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
+    -   Setting Intune as your MDM authority when Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
 
-    -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of System Center Configuration Manager and you want to expand its management capabilities with Microsoft Intune.
+    -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
         > [!NOTE]
         > If you only want to leverage MDM over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
@@ -194,7 +194,7 @@ Provide guidance about:
 
         -   Setting up the Microsoft Intune Exchange Connector (when applicable).
 
-    -   Enrolling devices of each supported platform to your Microsoft Intune or Configuration Manager with Microsoft Intune service.
+    -   Enrolling devices of each supported platform to your Intune or Configuration Manager with Microsoft Intune service.
 
     -   Using hardware and software inventory reports.
 
@@ -206,7 +206,7 @@ Provide guidance about:
 
     -   Using managed-applications usage reports.
 
-    -   Installing the Microsoft Intune client software (when needed).
+    -   Installing the Intune client software (when needed).
 
     -   Using the software and hardware reports available in Intune.
 
