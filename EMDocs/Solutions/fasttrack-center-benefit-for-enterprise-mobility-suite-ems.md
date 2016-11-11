@@ -1,16 +1,16 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Eligible Services and Plans
+title: Eligible services and plans
 description: Eligible services and plans for the FastTrack Center Benefit
 keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
-ms.topic: article
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 
@@ -22,7 +22,7 @@ ROBOTS: noindex
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 

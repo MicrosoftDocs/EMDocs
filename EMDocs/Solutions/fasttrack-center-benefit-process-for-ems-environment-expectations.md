@@ -1,16 +1,16 @@
 ---
 # required metadata
 
-title: Source Environment Expectations
+title: Source environment expectations
 description: Source environment requirements for using the FastTrack Center Benefit
 keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
-ms.topic: article
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
 
@@ -22,7 +22,7 @@ ROBOTS: noindex
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
@@ -38,7 +38,7 @@ The following table shows expectations for your existing source environment for 
 |------------|----------------------------------|
 |Core onboarding|Active Directory forests with the functional forest level set to Windows Server 2008 or above, with the following forest configuration:<br /><br />-   Single Active Directory forest<br />-   Multiple Active Directory forests </br></br>**Note**: For all multiple forests configurations, Active Directory Federation Services (AD FS) deployment is out of scope for the FastTrack Center Benefit.|
 |Azure AD Premium onboarding|The on-premises Active Directory and its environment have been prepared for Azure AD Premium, which includes remediation of identified issues that prevent integration with Azure AD and Azure AD Premium features.|
-|Microsoft Intune, cloud only or integrated with System Center Configuration Manager, onboarding|For device management with System Center Configuration Manager 2012 R2 or later, connected with Microsoft Intune, IT admins need to follow the [Administrator Checklist: Configuring Configuration Manager to Manage Mobile Devices by Using Microsoft Intune](https://technet.microsoft.com/library/jj943763.aspx).</br></br> **Note**: The service benefit doesn't include assistance for setting up or upgrading System Center Configuration Manager to the minimum requirements needed for Microsoft Intune integration with System Center Configuration Manager.|
+|Intune, cloud only or integrated with System Center Configuration Manager, onboarding|For device management with Configuration Manager 2012 R2 or later, connected with Intune, IT admins need to follow the [Administrator Checklist: Configuring Configuration Manager to Manage Mobile Devices by Using Microsoft Intune](https://technet.microsoft.com/library/jj943763.aspx).</br></br> **Note**: The service benefit doesn't include assistance for setting up or upgrading Configuration Manager to the minimum requirements needed for Microsoft Intune integration with Configuration Manager.|
 
 **Want to learn more?**
 

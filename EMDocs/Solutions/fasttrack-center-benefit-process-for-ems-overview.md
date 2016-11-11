@@ -1,16 +1,16 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Overview
-description: Overview and components of the FastTrack Center Benefit
+title: Overview
+description: Overview
 keywords:
 author: staciebarker
 ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
-ms.topic: article
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 
@@ -22,7 +22,7 @@ ROBOTS: noindex
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
@@ -35,7 +35,7 @@ Onboarding has two major components:
 
 -   **Core onboarding** - Tasks required for tenant configuration and integration with Azure Active Directory, if needed. Core onboarding also provides the baseline for onboarding other Microsoft Online eligible services.
 
--   **Service onboarding** - Tasks required to configure any of the standalone variants of the EMS workload (Azure AD Premium and Microsoft Intune).
+-   **Service onboarding** - Tasks required to configure any of the standalone variants of the EMS workload (Azure AD Premium and Intune).
 
 The following diagram describes the high-level onboarding phases for the the FastTrack Center Benefit.
 
