@@ -10,7 +10,7 @@ manager: jeffgilb
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod:
-ms.service: microsoft-intune
+ms.service: ems
 ms.technology:
 ms.assetid: 586ecd93-b097-42a0-9229-bcf3b781021c
 
