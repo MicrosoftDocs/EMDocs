@@ -5,11 +5,12 @@ title: Microsoft responsibilities
 description: Microsoft's responsibilities when customers are using the FastTrack Center Benefit
 keywords:
 author: staciebarker
+ms.author: stabar
 manager: angrobe
-ms.date: 10/02/2016
-ms.topic: article
+ms.date: 11/07/2016
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 
@@ -21,7 +22,7 @@ ROBOTS: noindex
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
@@ -65,7 +66,7 @@ Microsoft has the following responsibilities during onboarding.
 
 -   Hold conference calls with you according to the agreed-upon schedule to review the progress of the remediation activities.
 
--   Assist with running tools to identify and remediate issues, and with interpreting the results.
+-   Assist with running tools to identify and remediate issues and with interpreting the results.
 
 ## Enable phase
 Provide guidance about:
@@ -80,75 +81,80 @@ Provide guidance about:
 
 -   For a single-forest environment:
 
-    -   Installing a directory synchronization server between your Active Directory Domain Services (AD DS) and the eligible Microsoft online service(s), if required.
+    -   Installing a directory synchronization server between your Active Directory Domain Services (AD DS) and the eligible Microsoft online services (if required).
 
     -   Configuring password synchronization (password hash) to Microsoft Intune (Azure Active Directory) with the Azure Active Directory Connect tool.
 
         > [!NOTE]
         > Development and implementation for custom rules extensions are out of scope.
 
--   For a single forest when the target is federated identities: Installing and configuring Active Directory Federation Services (AD FS) for local domain authentication with Microsoft Intune in a single-site, fault-tolerant configuration, if required.
-
-    > [!NOTE]
-    > For all multiple forest configurations, AD FS deployments are out of scope.
-
--   Testing single sign-on (SSO) functionality if deployed.
-
-### Enable phase - Azure Active Directory Premium
-
-Provide guidance about:
-
--   Activating your Microsoft Azure Active Directory Premium tenant.
-
--   Configuring firewall ports.
-
--   Configuring DNS for eligible services.
-
--   Validating connectivity to Microsoft Azure Active Directory Premium services.
-
--   For a single-forest environment:
-
-    -   Installing a directory synchronization between your Active Directory Domain Services (AD DS) and Azure Active Directory Connect, if required.
-
-    -   Configuring password synchronization with the Azure Active Directory Connect tool.
-
--   For a multiple-forest environment:
-
-    -   Install Azure Active Directory Connect synchronization, set up for multiple forest scenarios. Note that password hash sync and password writeback support multiple forest.  However, other writeback scenarios are not supported.
-
-    -   Configure synchronization between on-premises Active Directory forests and Microsoft Azure Active Directory Premium directory (Azure Active Directory).
-
-        > [!NOTE]
-        > Development and implementation for custom rules extensions are out of scope.
-
--   For a single forest when the target is federated identities: Installing and configuring Active Directory Federation Services (AD FS) for local domain authentication with Microsoft Azure Active Directory Premium in a single-site, fault-tolerant configuration, if required.
+-   For a single forest when the target is federated identities: Installing and configuring Active Directory Federation Services (AD FS) for local domain authentication with Intune in a single-site, fault-tolerant configuration, if required.
 
     > [!NOTE]
     > For all multiple forest configurations, AD FS deployments are out of scope.
 
 -   Testing single sign-on (SSO) functionality, if deployed.
 
-### Enable phase - Azure Active Directory Premium--with Azure Active Directory Connect and Active Directory Federation Services (AD FS)
+### Enable phase - Microsoft Azure Active Directory Premium
+
+Provide guidance about:
+
+-   Activating your Azure AD Premium tenant.
+
+-   Configuring firewall ports.
+
+-   Configuring DNS for eligible services.
+
+-   Validating connectivity to Azure AD Premium services.
+
+-   For a single-forest environment:
+
+    -   Installing a directory synchronization between your Active Directory Domain Services (AD DS) and Azure AD Connect, if required.
+
+    -   Configuring password synchronization with the Azure AD Connect tool.
+
+-   For a multiple-forest environment:
+
+    -   Installing Azure AD Connect synchronization, set up for multiple forest scenarios.
+
+		> [!NOTE]
+        > Password hash sync and password writeback support multiple forests. However, other writeback scenarios aren't supported.
+
+    -   Configuring synchronization between on-premises Active Directory forests and Microsoft Azure Active Directory Premium directory (Azure Active Directory).
+
+        > [!NOTE]
+        > Development and implementation for custom rules extensions are out of scope.
+
+-   For a single forest when the target is federated identities:
+
+    -   Installing and configuring AD FS for local domain authentication with Azure AD Premium in a single-site, fault-tolerant configuration (if required).
+
+    > [!NOTE]
+    > For all multiple forest configurations, AD FS deployments are out of scope.
+
+-   Testing SSO functionality (if deployed).
+
+### Enable phase - Azure AD Premium--with Azure AD Connect and AD FS
 
 Provide guidance about setting up:
 
 -   User provisioning, including licensing.
 
--   Azure Active Directory Connect directory synchronization (with password writeback and password hash sync).
+-   Azure AD Connect directory synchronization (with password writeback and password hash sync).
 
-  - Self-Service Password Reset (SSPR).
+  - Self Service Password Reset (SSPR).
 
-  - Azure Multi-Factor Authentication (MFA).
+  - Azure Multi-Factor Authentication.
 
-  - One Software as a Service (SaaS) application integration with Single Sign On (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+  - One Software as a Service (SaaS) application integration with SSO from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
   - Customized logon screen, including logo, text and images.
 
-  - Self-Service & Dynamic Groups (Groups).
+  - Self-Service and Dynamic Groups (Groups).
 
   - Azure Active Directory Application Proxy.
 
-  - Azure Active Directory Connect Health.
+  - Azure AD Connect Health.
 
   - Identity Protection.
 
@@ -158,43 +164,39 @@ Provide guidance about setting up:
 
   - Administrative notifications and alerts.
 
-### Enable phase - Microsoft Intune
-Provide guidance with:
+### Enable phase - Intune
+Provide guidance about:
 
--   Licensing your end users. When needed, we’ll also provide assistance on how to activate volume licenses for your Microsoft cloud service tenant.
+-   Licensing your end users.
 
--   Configuring identities to be used by Microsoft Intune, by either leveraging your on-premise Active Directory or cloud identities.
+-   Configuring identities to be used by Intune, by either leveraging your on-premises Active Directory or cloud identities.
 
--   Adding users to your Microsoft Intune subscription, defining IT Admin roles, and creating user and device groups.
+-   Adding users to your Intune subscription, defining IT admin roles, and creating user and device groups.
 
--   Based on your management needs, configuring your Mobile Device Management authority:
+-   Configuring your Mobile Device Management MDM) authority, based on your management needs, including:
 
-    -   Set Microsoft Intune as your MDM authority when Microsoft Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
+    -   Setting Intune as your MDM authority when Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
 
-    -   If you have an existing implementation of System Center Configuration Manager and you want to expand its management capabilities with Microsoft Intune, set Configuration Manager as your MDM authority.
+    -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
         > [!NOTE]
-        > If you only want to leverage Mobile Application Management over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
-
--   If Mobile Device Management is in your scope, we’ll provide guidance with:
+        > If you only want to leverage MDM over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
 
     -   Configuring tests groups to be used to validate MDM management policies.
 
-    -   Configuring MDM management policies and services such as:
+    -   Configuring MDM management policies and services like:
 
         -   Application deployment for each supported platform through web links or deep links.
 
         -   Conditional access policies.
 
-        -   Deployment of e-mail profiles.
+        -   Deployment of e-mail, wireless networks, and VPN profiles.
 
-        -   Setting up the Microsoft Intune Exchange Connector, when applicable.
+        -   Setting up the Microsoft Intune Exchange Connector (when applicable).
 
-    -   Enrolling devices of each supported platform to your Microsoft Intune or Configuration Manager with Microsoft Intune service.
+    -   Enrolling devices of each supported platform to your Intune or Configuration Manager with Microsoft Intune service.
 
     -   Using hardware and software inventory reports.
-
--   If Mobile Application Management (MAM) is in your scope, or if you want to complement your existing third-party MDM solution with MAM policies, we’ll provide guidance with:
 
     -   Configuring MAM policies for each supported platform.
 
@@ -204,9 +206,7 @@ Provide guidance with:
 
     -   Using managed-applications usage reports.
 
--   If PC management is in your scope, we’ll provide guidance with:
-
-    -   Installing the Intune client software, when needed.
+    -   Installing the Intune client software (when needed).
 
     -   Using the software and hardware reports available in Intune.
 

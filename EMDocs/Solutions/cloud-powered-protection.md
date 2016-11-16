@@ -5,6 +5,7 @@ title: Cloud-powered protection
 description: This article describes how Enterprise Mobility + Security can be used to provide a comprehensive set of security tools to proactively help identity, and respond to security threats at your organization by leveraging tools within Azure Active Directory.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/24/2016
 ms.topic: solution
@@ -26,7 +27,7 @@ ms.suite: ems
 ---
 
 # Cloud-powered protection
-Microsoft has been securing cloud-based identities for over a decade, and with Azure Active directory, Microsoft is making these same protection systems available to enterprise customers, to ensure user’s and administrator’s accountability with better security and governance.
+Microsoft has been securing cloud-based identities for over a decade, and with Azure Active directory, Microsoft is making these same protection systems available to enterprise customers, to ensure users' and administrators' accountability with better security and governance.
 
 ## How can Enterprise Mobility + Security help you?
 Enterprise Mobility + Security (EMS) is the only comprehensive cloud solution that natively protects corporate data on the device itself, and beyond with four layers of protection across identities, devices, apps, and data. EMS helps you solve one of the key challenges in the mobile-first, cloud-first world – how to provide a comprehensive set of security tools to proactively help identity, and respond to security threats at your organization:
@@ -36,7 +37,7 @@ Enterprise Mobility + Security (EMS) is the only comprehensive cloud solution th
 - Mitigate administrative risks
 - Governance of on-premises and cloud identities
 
-Azure Active directory identity protection is unique. It uses machine learning to analyze more than 10TB of behavioral and contextual data every day, which provides visibility over suspicious activity, and allows you to take immediate action if necessary.
+Azure Active Directory Identity Protection is unique. It uses machine learning to analyze more than 10TB of behavioral and contextual data every day, which provides visibility over suspicious activity, and allows you to take immediate action if necessary.
 
 In addition, Azure AD conditional access rules allows customers to control access to online services, based on attributes such as device compliance or network location. The following may be distinguished:
 - Azure AD MFA-based conditional access
@@ -45,7 +46,7 @@ In addition, Azure AD conditional access rules allows customers to control acces
 
 
 ## Recommended solution
-### Azure Active directory identity protection
+### Azure Active Directory identity protection
 
 Azure AD Identity Protection is a security service that provides a consolidated view into risk events and potential vulnerabilities affecting your organization’s identities:
 - Respond to Advanced Threats with Risk Based Policies and Monitoring (Azure AD Identity Protection)
@@ -54,7 +55,7 @@ Azure AD Identity Protection is a security service that provides a consolidated 
 
 In a world of increasing identity theft incidents, persistent bad actors and frequent security breaches, Azure Active Directory Identity Protection is a must-have.
 
-The Azure AD identity protection dashboard gives you access to reports like users flagged for risk, risk events and vulnerabilities. It also provides settings like the configuration of your security policies, notifications and multi-factor authentication registration.
+The Azure AD Identity Protection dashboard gives you access to reports like users flagged for risk, risk events and vulnerabilities. It also provides settings like the configuration of your security policies, notifications and multi-factor authentication registration.
 ### Azure AD conditional access
 The move to cloud services and an always increasing need for mobility are driving organizations to look for solutions that protect data while enhancing user productivity and device flexibility. Customers require the ability to control access to Office 365 based on various attributes such as network location or MFA enforcement. This is particularly important for regulated customers such as government or financial customers.
 
@@ -71,8 +72,8 @@ For example, customers may configure conditional access rules to enforce control
 
 Let’s talk about the necessary steps to start using Azure AD Identity Protection, and Conditional Access. This section also provides how-to articles which will provide more details for specific steps.
 
-### Azure AD identity protection
-Azure AD identity protection is available with Azure AD premium 2 offering, in combination with Azure AD privileged identity management to provide seamlessly conditional access policy capabilities.
+### Azure AD Identity Protection
+Azure AD Identity Protection is available with Azure AD premium 2 offering, in combination with Azure AD privileged identity management to provide seamlessly conditional access policy capabilities.
 
 You can enable Azure AD identity protection by going to the Azure Marketplace, and searching for: “identity protection”, then you can click on Azure AD identity protection tile, which will open the dashboard with a consolidated view of risk data for your tenant. Let’s highlight a few examples of how identity protection can help your organization with account security threats.
 

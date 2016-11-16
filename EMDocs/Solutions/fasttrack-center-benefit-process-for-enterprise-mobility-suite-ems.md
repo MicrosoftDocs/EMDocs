@@ -1,15 +1,16 @@
 ---
 # required metadata
 
-title: FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)
+title: The FastTrack process
 description: Overview of the FastTrack Center Benefit onboarding process
 keywords:
 author: staciebarker
+ms.author: stabar
 manager: angrobe
-ms.date: 10/02/2016
-ms.topic: article
+ms.date: 11/07/2016
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 
@@ -21,12 +22,12 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
 # FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)
-If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with Microsoft specialists to get Azure Active Directory Premium and/or  Microsoft Intune ready for use. You can also request help through the [FastTrack site](http://fasttrack.microsoft.com/ems) for Azure Information Protection, Microsoft Cloud App Security and Microsoft Advanced Threat Analytics. To learn whether your organization is eligible, see [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with Microsoft specialists to get Microsoft Azure Active Directory Premium and Microsoft Intune ready for use. You can also request help through the [FastTrack site](http://fasttrack.microsoft.com/ems) for Azure Information Protection, Microsoft Cloud App Security and Microsoft Advanced Threat Analytics. To learn whether your organization is eligible, see [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
 Here's what we cover about the onboarding process:
@@ -43,16 +44,16 @@ Here's what we cover about the onboarding process:
 
 Here’s what you can expect when onboarding is complete:
 
--   Your EMS tenant(s) for your selected services is created.
+-   Your EMS tenants for your selected services are created.
 
--   Licensed users can access the Microsoft Intune service by using one of the following identity options:
+-   Licensed users can access the Intune service by using one of the following identity options:
 
     -   Cloud Identities (unique EMS accounts).
 
-    -   Synchronized Identities: EMS accounts synchronized from your on-premises Active Directory with  the Azure Active Directory Connect tool for customers with a single forest or multiple Active Directory forests.
+    -   Synchronized Identities: EMS accounts synchronized from your on-premises Active Directory by using the Azure Active Directory Connect tool. This option is for customers with a single forest or multiple Active Directory forests.
 
 -   Federated Identities--with Microsoft EMS accounts that are:
 
-    -   Synchronized from Active Directory with the Azure Active Directory Connect tool for customers with a single Active Directory forest configuration.
+    -   Synchronized from Active Directory with the Azure AD Connect tool. This option is for customers with a single Active Directory forest configuration.
 
     -   Federated with Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 or later from your on-premises Active Directory.

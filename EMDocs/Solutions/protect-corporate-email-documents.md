@@ -5,11 +5,12 @@ title: Protect company email and documents
 description: Allow only compliant devices to access your company’s email and protect the content in email and attachments.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 

@@ -5,11 +5,12 @@ title: Learn how to deploy a solution for protecting company email and documents
 description: Determine and then deploy the best solution for your company to enforce conditional access.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
 

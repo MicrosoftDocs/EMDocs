@@ -5,11 +5,12 @@ title: Your responsibilities
 description: Customer responsibilities when using the FastTrack Center Benefit
 keywords:
 author: staciebarker
+ms.author: stabar
 manager: angrobe
-ms.date: 10/02/2016
-ms.topic: article
+ms.date: 11/07/2016
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 
@@ -21,7 +22,7 @@ ROBOTS: noindex
 ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 
@@ -31,43 +32,43 @@ You have the following responsibilities during onboarding.
 
 ## General responsibilities
 
--   Any enhancements and integrations to your EMS tenant beyond the configurable options listed in this article.
+-   Provide any enhancements and integrations to your Enterprise Mobility + Security (EMS) tenant beyond the configurable options listed here.
 
--   Overall program and project management of your resources.
+-   Provide overall program and project management of your resources.
 
--   End-user communications, documentation, training, and change management.
+-   Provide end-user communications, documentation, training, and change management.
 
--   Helpdesk documentation and training.
+-   Provide helpdesk documentation and training.
 
--   Producing any reports, presentations, or meeting minutes that are specific to your organization.
+-   Produce any reports, presentations, or meeting minutes that are specific to your organization.
 
--   Creating architectural and technical documentation specific to your organization.
+-   Create architectural and technical documentation specific to your organization.
 
--   Designing, procuring, installing, and configuring hardware and networking.
+-   Design, procure, install, and configure hardware and networking.
 
--   Procuring, installing, and configuring software.
+-   Procure, install, and configure software.
 
--   Managing, configuring, and applying security policies beyond those created for your EMS services baseline configuration and functionality.
+-   Manage, configure, and apply security policies beyond those created for your EMS services baseline configuration and functionality.
 
--   Enrolling user accounts beyond those used to test the Microsoft Azure AD EMS services baseline configuration and functionality.
+-   Enroll user accounts beyond those used to test the Microsoft Azure Active Directory EMS services baseline configuration and functionality.
 
--   Network configuration, analysis, bandwidth validation, testing, and monitoring.
+-   Manage network configuration, analysis, bandwidth validation, testing, and monitoring.
 
--   Managing a technical change management approval process and creating supporting documentation.
+-   Manage a technical change management approval process and creating supporting documentation.
 
 -   Modifying your operational model and operation guides.
 
--   Setting up on-premise multifactor authentication.
+-   Set up on-premises multi-factor authentication.
 
--   Decommissioning and removing source environments and services previously used by the customer.
+-   Decommission and remove previously used source environments and services.
 
--   Constructing and maintaining your test environment.
+-   Construct and maintain your test environment.
 
--   Installing service packs and other required updates on infrastructure servers.
+-   Install service packs and other required updates on infrastructure servers.
 
--   Providing and configuring any public SSL certificates.
+-   Provide and configure any public Secure Sockets Layer (SSL) certificates.
 
--   Writing the organization’s Terms of Use (TOU) statement to be configured and displayed on the Microsoft Intune company portals that end users can access.
+-   Write the organization’s Terms of Use (TOU) statement to be configured and displayed on the Microsoft Intune company portal that end users can access.
 
 ## Initiate phase
 
@@ -79,7 +80,7 @@ You have the following responsibilities during onboarding.
 
 -   Identify appropriate stakeholders (including a project manager) to complete the necessary assessment activities.
 
--   If you choose to, share your screen with Microsoft if guidance is needed when running evaluation tools against your environment or your EMS or its individual cloud service subscriptions.
+-   Share your screen with Microsoft if guidance is needed when running evaluation tools against your environment, EMS, or its individual cloud service subscriptions (if you choose to).
 
 -   Participate in the meetings to create the remediation checklist and to contribute to the overall plan, including infrastructure, network, administration, directory synchronization preparation, network security, and federated identity topics.
 
@@ -97,15 +98,13 @@ You have the following responsibilities during onboarding.
 
 ## Enable phase
 
--   If you choose to, share your screen with Microsoft if guidance is needed when running changes to your environment or your EMS or its individual cloud service subscriptions.
-
--   Manage resources as appropriate.
+-   Share your screen with Microsoft if guidance is needed when running evaluation tools against your environment, EMS, or its individual cloud service subscriptions (if you choose to). Manage resources as needed.
 
 -   Configure network-related items per guidance from Microsoft.
 
 -   Perform directory readiness and configure directory synchronization per guidance from Microsoft.
 
--   Configure security-related infrastructure (such as firewall ports) per guidance from Microsoft.
+-   Configure security-related infrastructure (like firewall ports) per guidance from Microsoft.
 
 -   Implement the appropriate client infrastructure.
 

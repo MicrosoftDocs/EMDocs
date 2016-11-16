@@ -5,6 +5,7 @@ title: Your paid Microsoft Intune or Enterprise Mobility subscription might incl
 description:
 keywords:
 author: NathBarn
+ms.author: nathbarn
 manager: jeffgilb
 ms.date: 06/08/2016
 ms.topic: article

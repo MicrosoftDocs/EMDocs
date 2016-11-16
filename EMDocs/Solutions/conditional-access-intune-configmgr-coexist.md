@@ -5,6 +5,7 @@ title: Conditional access in Exchange with Intune and Configuration Manager
 description: Use a coexistence of Exchange on-premises and Exchange Online along with Configuration Manager and Intune to manage email access and protect email data on mobile devices.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article

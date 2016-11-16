@@ -5,6 +5,7 @@ title: Develop SaaS mobile device management strategy
 description: This article intend to help customers to develop a SaaS mobile device management strategy.
 keywords:
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

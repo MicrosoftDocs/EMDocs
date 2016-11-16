@@ -1,15 +1,16 @@
 ---
 # required metadata
 
-title: Enterprise Mobility FastTrack Program
+title: FastTrack Center Benefit for Enterprise Mobility + Security (EMS)
 description: A program to help eligible customers plan and deploy Intune and Azure Active Directory Premium
 keywords:
 author: staciebarker
+ms.author: stabar
 manager: angrobe
-ms.date: 10/02/2016
-ms.topic: article
+ms.date: 11/07/2016
+ms.topic: solution
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 
@@ -21,7 +22,7 @@ ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 ms.reviewer: 
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+#ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
 ---
 

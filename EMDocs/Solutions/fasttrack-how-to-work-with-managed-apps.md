@@ -5,11 +5,12 @@ title: How to use mobile applications that your organization manages
 description: How to use mobile apps managed by your organization
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: jeffgilb
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: 174348f0-dbc6-4204-8626-3c6f38b7bbde
 

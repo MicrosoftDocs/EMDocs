@@ -5,6 +5,7 @@ title: Using Mobile App Management policies in Configuration Manager
 description: Create and deploy an app in Configuration Manager with a mobile app management (MAM) policy.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article

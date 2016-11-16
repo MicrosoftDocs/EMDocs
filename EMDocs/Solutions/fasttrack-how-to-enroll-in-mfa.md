@@ -5,11 +5,12 @@ title: How to enroll in multi-factor authentication
 description: How to set up your preferred method for additional security verification
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: jeffgilb
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
 

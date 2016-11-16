@@ -5,6 +5,7 @@ title: Develop your data encryption requirements
 description: This topic has design considerations data encryption in mobile devices. This topic is part of a larger set of articles about Mobile Device Management Design Considerations. 
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution

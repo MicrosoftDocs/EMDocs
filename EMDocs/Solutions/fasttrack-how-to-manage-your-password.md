@@ -5,11 +5,12 @@ title: How to manage your password
 description: How to manage your own password
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: jeffgilb
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: ems
 ms.technology:
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 

@@ -5,11 +5,12 @@ title: Implementing a solution for protecting company email and attachments
 description: Prepare for and implement a solution for protecting company email content and attachments.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
-ms.service:
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 

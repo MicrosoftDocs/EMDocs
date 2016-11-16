@@ -5,6 +5,7 @@ title: Access control to resources
 description: Access control design considerations for mobile device management.
 keywords:
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution

@@ -5,6 +5,7 @@ title: End-user experience of MAM
 description: End-user experience of mobile app management policies.
 keywords:
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article
