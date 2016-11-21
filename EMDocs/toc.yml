@@ -177,3 +177,10 @@
         - name: Software update management
           href: /sccm/sum/
           homepage: /sccm/sum/understand/software-updates-introduction
+        - name: Develop
+          href: /sccm/develop/
+          homepage: /sccm/develop/core/misc/system-center-configuration-manager-sdk
+          items:
+            - name: Reference
+              href: /sccm/develop/reference
+              homepage: /sccm/develop/reference/configuration-manager-reference
