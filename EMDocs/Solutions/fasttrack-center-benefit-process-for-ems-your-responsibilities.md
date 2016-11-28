@@ -68,6 +68,10 @@ You have the following responsibilities during onboarding.
 
 -   Provide and configure any public Secure Sockets Layer (SSL) certificates.
 
+- 	Set up or upgrade Configuration Manager to the minimum requirements for Microsoft Intune integration with Configuration Manager.
+
+- 	If needed for deploying Wi-Fi and VPN profiles with Intune, provide and configure certificate authority, Wi-Fi and VPN infrastructures as needed.
+
 -   Write the organization’s Terms of Use (TOU) statement to be configured and displayed on the Microsoft Intune company portal that end users can access.
 
 ## Initiate phase

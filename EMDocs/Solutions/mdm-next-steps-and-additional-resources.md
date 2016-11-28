@@ -2,7 +2,7 @@
 # required metadata
 
 title: Next steps and additional resources
-description: This article provides additional resources, links of how-to articles to deploy and support Microsoft MDM solutions.
+description: This article provides additional resources, how-to articles to deploy and support Microsoft Mobile device Management solutions in Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

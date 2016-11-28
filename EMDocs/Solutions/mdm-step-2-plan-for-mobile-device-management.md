@@ -2,8 +2,8 @@
 # required metadata
 
 title: Step 2 - Plan for mobile device management
-description:
-keywords: This article helps customers to plan for a Microsoft MDM implementation.
+description: This article helps customers to plan and design a Microsoft Mobile Device Management implementation using Enterprise Mobility + Security.
+keywords:
 author: andredm7
 ms.author: andredm
 manager: swadhwa

@@ -133,7 +133,7 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
         -   Conditional access policies.
 
-        -   Deployment of email, wireless networks, and virtual private network (VPN) profiles.
+        -   Deployment of email, wireless networks, and virtual private network (VPN) profiles if you have an existing  certificate authority, Wi-Fi or VPN infrastructure in your organization.
 
         -   Setting up the Microsoft Intune Exchange Connector (when applicable).
 

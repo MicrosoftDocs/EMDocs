@@ -2,7 +2,7 @@
 # required metadata
 
 title: Understand the MDM lifecycle
-description: This article helps to understand how the Microsoft MDM lifecycle works.
+description: This article provides guidance on how the Microsoft Mobile device management solution lifecycle works, so customers can better plan and design their mobile device management solutions using Microsoft Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

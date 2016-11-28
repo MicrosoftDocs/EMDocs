@@ -2,12 +2,12 @@
 # required metadata
 
 title: Hardening mobile devices
-description: Considerations when hardening mobile devices in a mobile device management scenario.
+description: This article provides a set of design considerations for hardening mobile devices in a mobile device management scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

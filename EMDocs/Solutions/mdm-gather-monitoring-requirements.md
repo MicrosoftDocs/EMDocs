@@ -2,7 +2,7 @@
 # required metadata
 
 title: Gather monitoring requirements
-description: This article helps to identity the Mobile device monitoring options when planning to implement Microsoft MDM solutions.
+description: This article helps to identity the Mobile Device Management monitoring options when planning and designing a Microsoft Mobile Device Management solution using Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

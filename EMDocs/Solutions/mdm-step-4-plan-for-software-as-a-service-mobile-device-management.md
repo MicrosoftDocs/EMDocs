@@ -2,7 +2,7 @@
 # required metadata
 
 title: Step 4 - Plan for Software as a Service mobile device management
-description: This article helps customers plan for a SaaS mobile device management implementation.
+description: This article helps customers to plan and design a Software as a service for mobile device management implementation using Microsoft Enterprise Mobility + Security solution.
 keywords:
 author: andredm7
 ms.author: andredm
