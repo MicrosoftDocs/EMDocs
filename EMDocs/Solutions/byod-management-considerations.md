@@ -2,12 +2,12 @@
 # required metadata
 
 title: Management considerations
-description: Management considerations for a BYOD scenario.
+description: This article provides a set of management design considerations that should be used in a Bring Your Own Device scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

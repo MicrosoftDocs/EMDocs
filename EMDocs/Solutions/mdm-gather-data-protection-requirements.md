@@ -2,12 +2,12 @@
 # required metadata
 
 title: Gather your data protection requirements
-description: Common requirements for data protection in a mobile device management scenario.
+description: This article provides a set of common requirements that should be used for data protection in a mobile device management scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

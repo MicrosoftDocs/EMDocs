@@ -2,12 +2,12 @@
 # required metadata
 
 title: BYOD Design Considerations Guide
-description: Introduction to BYOD adoption and overview of design considerations process. 
+description: This article provides an introduction to Bring Your Own Device adoption, and overview of design considerations process. 
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

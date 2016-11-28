@@ -2,12 +2,12 @@
 # required metadata
 
 title: Envisioning the BYOD Infrastructure Solution
-description: Solution definition for BYOD based on the choices that were made during the designing process.
+description: This article provides a solution definition for Bring Your Own Device scenario based on the choices that were made during the designing process.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

@@ -2,12 +2,12 @@
 # required metadata
 
 title: Specify your access requirements
-description: Common access requirements for mobile device management scenario.
+description: This article provides a series of common access requirements that should be used in a mobile device management scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

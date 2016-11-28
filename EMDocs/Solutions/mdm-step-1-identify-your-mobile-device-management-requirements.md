@@ -2,12 +2,12 @@
 # required metadata
 
 title: Step 1 - Identify your mobile device management requirements
-description: Design considerations when identifying mobile device management requirements for your organization.
+description: This article provides design considerations when identifying mobile device management requirements for your organization.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
