@@ -2,7 +2,7 @@
 # required metadata
 
 title: Identify SaaS requirements
-description: This article helps identify SaaS requirements when planning to implement Microsoft MDM solutions.
+description: This article helps identify Software as a service requirements when planning and designing Microsoft Mobile device management using Enterprise Mobility + Security solutions.
 keywords:
 author: andredm7
 ms.author: andredm

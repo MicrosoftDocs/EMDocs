@@ -2,7 +2,7 @@
 # required metadata
 
 title: Determine network requirements
-description: This article helps customers to determine the network requirements when planning to implement Microsoft MDM solutions.
+description: This article helps customers to determine the network requirements when planning and designing a Microsoft Mobile Device Management solution using Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

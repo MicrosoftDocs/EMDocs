@@ -2,7 +2,7 @@
 # required metadata
 
 title: Device enrollment options
-description: This article intent to provide device enrollment options when planning to implement Microsoft MDM solutions.
+description: This article provides guidance on the device enrollment options when planning and designing a Microsoft Mobile Device Management solution using Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

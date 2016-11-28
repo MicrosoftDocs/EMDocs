@@ -2,7 +2,7 @@
 # required metadata
 
 title: Identify SaaS connectivity requirements
-description: This article helps to identify the SaaS connectivity requirements when planning to implement Microsoft MDM solutions.
+description: This article helps to identify the Software as a service connectivity requirements when planning to implement mobile device management using Enterprise Mobility + Security solutions.
 keywords:
 author: andredm7
 ms.author: andredm
