@@ -2,12 +2,12 @@
 # required metadata
 
 title: Data classification
-description: Data classification design considerations for mobile device management scenario.
+description: This article provides a set of design considerations for data classification that should be used in a mobile device management scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

@@ -2,12 +2,12 @@
 # required metadata
 
 title: Access control to resources
-description: Access control design considerations for mobile device management.
+description: This article provides a set of design considerations for access control that should be used in a mobile device management scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
