@@ -190,7 +190,7 @@ Provide guidance about:
 
         -   Conditional access policies.
 
-        -   Deployment of e-mail, wireless networks, and VPN profiles.
+        -   Deployment of e-mail, wireless networks, and VPN profiles if you have an existing certificate authority, Wi-Fi or VPN infrastructure in your organization.
 
         -   Setting up the Microsoft Intune Exchange Connector (when applicable).
 

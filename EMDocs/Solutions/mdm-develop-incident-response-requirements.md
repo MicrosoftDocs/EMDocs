@@ -2,12 +2,12 @@
 # required metadata
 
 title: Develop your incident response requirements
-description: Common requirements to develop an incident response process for mobile device management scenario.
+description: This article provides a set of common requirements to develop an incident response process for mobile device management scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

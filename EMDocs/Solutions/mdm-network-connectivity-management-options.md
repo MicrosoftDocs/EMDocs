@@ -2,7 +2,7 @@
 # required metadata
 
 title: Network connectivity management options
-description: This article intent to provide the network connectivity management options when planning to implement Microsoft MDM solutions.
+description: This article provides guidance on the network connectivity management options when planning and designing a Microsoft Mobile Device Management solution, using Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Mobile Device Management Design Considerations Guide
-description: This article provides guidance on how to design Microsoft Mobile Device Management (MDM) solutions.
+description: This article provides guidance to IT professionals on how to design Microsoft Mobile Device Management (MDM) solutions which is built in Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

@@ -2,12 +2,12 @@
 # required metadata
 
 title: User and devices requirements
-description: Common requirements for users and devices in a BYOD scenario.
+description: This article provides a set of common requirements to be adopted by users and their devices in a Bring Your Own Device scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 

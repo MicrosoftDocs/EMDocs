@@ -2,7 +2,7 @@
 # required metadata
 
 title: Device management options
-description: This article intent to provide device management options when planning to implement Microsoft MDM solutions.
+description: This article provides guidance on the device management options when planning and designing a Microsoft Mobile Device Management solution using Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Device provisioning options
-description: This article intent to provide device provisioning options when planning to implement Microsoft MDM solutions.
+description: This article provides guidance on the device provisioning options when planning and designing a Microsoft Mobile Device Management solution using Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

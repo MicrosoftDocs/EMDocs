@@ -2,7 +2,7 @@
 # required metadata
 
 title: Device monitoring options
-description: This article intent to provide device monitoring options when planning to implement Microsoft MDM solutions.
+description: This article provides guidance on the existing device monitoring options when planning and designing a Microsoft Mobile Device Management solution using Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

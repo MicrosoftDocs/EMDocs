@@ -2,12 +2,12 @@
 # required metadata
 
 title: BYOD Summary and Additional Resources | BYOD Design Considerations Guide
-description: BYOD design considerations guide summary and more resources to learn 
+description: This article provides a summary of resources to learn more about solutions related to Bring Your Own Device scenario. 
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod:
 ms.service: 
