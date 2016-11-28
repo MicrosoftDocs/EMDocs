@@ -2,7 +2,7 @@
 # required metadata
 
 title: Develop SaaS mobile device management strategy
-description: This article intend to help customers to develop a SaaS mobile device management strategy.
+description: This article intend to help customers to develop a Software as a service strategy for you mobile device management using Microsoft Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm

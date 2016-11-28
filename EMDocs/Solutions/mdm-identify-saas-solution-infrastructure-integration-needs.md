@@ -2,7 +2,7 @@
 # required metadata
 
 title: Identify SaaS solution infrastructure integration needs
-description: This article helps identify the SaaS solution infrastructure integration needs when planning to implement Microsoft MDM solutions.
+description: This article helps identify the Software as a service infrastructure integration requirements when planning and designing a mobile device management using Microsoft Enterprise Mobility + Security.
 keywords:
 author: andredm7
 ms.author: andredm
