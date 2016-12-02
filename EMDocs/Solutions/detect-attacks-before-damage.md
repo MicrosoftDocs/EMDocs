@@ -46,9 +46,6 @@ The following diagram summarizes the capabilities involved in this scenario and 
 
 ![Graphic showing the capabilities of each product solution and how they work to protect against attacks.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig1.png)
 
-## How to implement this solution
-Follow these steps to implement [Advanced Threats Analytics](https://docs.microsoft.com/en-us/advanced-threat-analytics/) and [Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security):
-
 # How to detect attacks before they cause damage
 Traditionally, security investments were focused only on protection. However nowadays it is imperative to also have good detection and response. IT organizations should focus on an approach that looks at how to protect, detect, and respond to threats.
 
@@ -64,8 +61,13 @@ Read [ATA capacity planning](https://docs.microsoft.com/en-us/advanced-threat-an
 
 To detect threats for cloud apps, this scenario uses [Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security). Make sure to follow the [general setup instructions](https://docs.microsoft.com/en-us/cloud-app-security/general-setup) to setup Cloud App Security and use [cloud discovery](https://docs.microsoft.com/en-us/cloud-app-security/set-up-cloud-discovery) option to analyze your traffic logs against Cloud App Security's cloud app catalog. Follow step 2 to use Cloud App Security to detect threats and compliance violations.
 
+## How to implement this solution
+Follow these steps to implement [Advanced Threats Analytics](https://docs.microsoft.com/en-us/advanced-threat-analytics/) and [Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security):
 
-## Step 1: Using ATA to detect suspicious activity
+- Step 1: Use Advanced Threat Analytics (ATA) to detect suspicious activity on-premises
+- Step 2: Use Cloud App Security to detect threats and compliance violations for cloud apps  
+
+### Step 1: Using ATA to detect suspicious activity
 The constant reporting of traditional security tools and sifting through them to locate the important and relevant alerts can get overwhelming. Instead, ATA provides an easy-to-consume, simple-to-drill-down, social media feed-like report helping IT to focus on what is important fast. Presenting this quantity of data as a timeline gives you the power of perspective, and insight into who’s accessing what, when they’re accessing it, and how they’re accessing the data.
 
 When you open the [attack timeline](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/working-with-suspicious-activities) in ATA, you see a comprehensive report with suspicious activities showing the [entities](https://docs.microsoft.com/en-us/advanced-threat-analytics/plan-design/ata-architecture) that were involved in this activity and what the recommendations are:
@@ -77,7 +79,7 @@ In this example, there is an event indicating suspicion of identity theft using 
 ATA uses machine learning both in its deterministic and detection engines to establish an understanding of the normal behavior patterns for both users and entities, and it’s that unique capability that allows us to provide timely and accurate alerts across a huge variety of attack vectors.
 
 
-## Step 2: Using Cloud App Security to detect threats and policy violations for cloud apps
+### Step 2: Using Cloud App Security to detect threats and policy violations for cloud apps
 
 More and more organizations are adopting SaaS apps, not only to reduce costs but also to unlock competitive advantages such as improved time to market and better collaboration. Even if your company does not use cloud applications, your employees probably do. According to research, more than 80 percent of employees admit to using non-approved SaaS apps in their jobs.
 
@@ -107,4 +109,4 @@ While the previous example was based on a policy violation, Cloud App Security i
 
 ![Screenshot showing anomalies that were detected by Cloud App Security.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig8.png)
 
-On this page, you can see which user triggered the alert, the IP address, the group membership of the user, and more information about the suspicious behavior. You can view more details about this activity, which includes the failed logon attempts, the location where the logon was originated, and the app that was used to perform the logon attempt. 
+On this page, you can see which user triggered the alert, the IP address, the group membership of the user, and more information about the suspicious behavior. You can view more details about this activity, which includes the failed logon attempts, the location where the logon was originated, and the app that was used to perform the logon attempt.
