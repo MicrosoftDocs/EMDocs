@@ -9,6 +9,7 @@
 ## [Identity Driven Security](protect-front-door.md)
 ### [Protect at the front door](protect-front-door.md)
 ### [Protect data against user mistakes](protect-data-user-mistake.md)
+### [Detect attacks before they cause damage](detect-attacks-before-damage.md)
 ## [Information Protection](infoprotect-secure-classify-scenario.md)
 ### [Secure data using classification, labeling, and protection](infoprotect-secure-classify-scenario.md)
 ### [Share sensitive data internally and externally](share-sensitive-data.md)
