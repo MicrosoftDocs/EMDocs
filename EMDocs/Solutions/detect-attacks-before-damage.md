@@ -6,7 +6,7 @@ description: A scenario that describes how Enterprise Mobility + Security can be
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/24/2016
+ms.date: 12/2/2016
 ms.topic: solution
 ms.prod:
 ms.service: ems
