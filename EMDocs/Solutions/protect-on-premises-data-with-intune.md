@@ -48,6 +48,7 @@ After preparing the Intune service, the process to enroll devices into managemen
 -   **Android devices**. There's nothing you need to do to get the Intune service ready to enroll Android devices. Users can just [enroll their Android devices](https://docs.microsoft.com/intune/deploy-use/set-up-android-management-with-microsoft-intune) into management using the Company Portal app available from Google Play.
 -   **Android for Work**. To [set up Android for Work](https://docs.microsoft.com/intune/deploy-use/set-up-android-for-work) for Android 5.0 Lollipop and later devices that support work profiles to be managed by Intune, your organization needs to sign up for Android for Work with Google and then configure Android for Work settings in the ADMIN node of the Intune administration console.
 -   **Windows Phones and PCs**. You should [set a DNS alias for the enrollment server](https://docs.microsoft.com/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune) to make enrolling Windows devices easier. Otherwise, you can [enroll Windows devices](https://docs.microsoft.com/intune/enduser/enroll-your-w10-phone-or-w10-pc-windows) by adding a work or school account.
+
 > [!TIP]
 > You can make enrolling Windows devices even easier for your users by [enabling the automatic enrollment](https://docs.microsoft.com/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune#azure-active-directory-enrollment) feature in your Azure AD (Premium). When you do that, devices will automatically be enrolled into management with Intune when a user adds a work or school account to register their personal device or a company owned device joins your organization’s Azure AD.
 
@@ -103,7 +104,7 @@ Intune Wi-Fi configuration policies make it easy for you to [deploy wireless net
 ### Deploy VPN settings to managed devices
 VPN connections are used when your users need to remotely connect to company resources on their mobile devices. With Intune, you can [create and deploy VPN configuration profiles](https://docs.microsoft.com/intune/deploy-use/vpn-connections-in-microsoft-intune#create-a-vpn-profile) that enable users to easily and securely access the corporate network resources without manually configuring VPN server or authentication method information.
 
-You can configure VPN settings for the many [VPN connection types supported by Intune](https://docs.microsoft.com/intune/deploy-use/vpn-connections-in-microsoft-intune#vpn-connection-types) on the following managed device types:
+You can configure VPN settings for the many [VPN connection types supported by Intune](https://docs.microsoft.com/intune/deploy-use/vpn-connections-in-microsoft-intune#vpn-connection-types) on the following kinds of devices:
 
 -   Android (4.0 and later, Samsung KNOX Standard, and Android for Work)
 -   iOS (8.0 and later)
@@ -122,7 +123,7 @@ You can also enable single sign-on (SSO) and conditional access to secure remote
 
 [Setting up the Azure Active Directory Application Proxy](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-enable) is easy to do. Just enable the feature in Azure AD (Basic or Premium), install a small Windows Server service called a connector inside your network, and then publish applications to it. There’s no need to open any inbound firewall ports or put anything in a DMZ. Once you have it set up, access to on-premises web applications is provided by single sign on to Azure AD. [Conditional Access rules](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-conditional-access), like requiring multi-factor authentication or blocking access when employees aren’t at work, provide additional safeguards
 
-## Increase company access security with certificates
+## Use certificates to secure company resource access
 When you give users access to corporate resources through VPN, Wi-Fi, or email profiles, you can [secure that access by using a certificate](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles) that is installed on each user device rather than depend on a simple user name and password for authentication.
 
 You can create and deploy either a **PKCS \#12 (.PFX)** or **Simple Certificate Enrollment Protocol (SCEP)** certificate profile to be used by devices requesting authentication certificates on these device platforms:
