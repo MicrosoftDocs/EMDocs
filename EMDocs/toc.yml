@@ -72,6 +72,9 @@
         - name: Develop & Customize Apps
           href: /intune/develop/
           homepage: /intune/develop/intune-app-sdk
+        - name: Azure preview
+          href: /intune-azure
+          homepage: /intune-azure/
 
     - name: Azure Information Protection
       href: /information-protection/
