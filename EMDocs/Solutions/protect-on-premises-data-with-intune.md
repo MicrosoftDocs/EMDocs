@@ -39,6 +39,13 @@ Here's a short video to give you a quick introduction about how conditional acce
 
 <iframe width="675" height="480" src="https://youtube.com/embed/fvCT7Y3nlAY" frameborder="0" allowfullscreen></iframe>
 
+### How to implement this solution
+The rest of this solution is divided into the following sections that show you how to protect Office 365 company data with Intune:
+- **Enroll mobile devices and Windows PCs into management**. This solution requires that devices are managed by Microsoft Intune and this section shows you how to enroll them into management (iOS, Android, Android for Work, and Windows PCs).
+- **Access and protect company email**. Learn how Intune can automatically configure native app email settings for your users and how to provide conditional access to your on-premises Exchange Server.
+- **Provide access to other on-premises company resources**. This section shows you how to provide your employees with secure access to on-premises network resources by using Wi-Fi, VPN, or the Azure Active Directory Application Proxy.
+- **Use certificates to secure company resource access**. This section helps you create and deploy either a PKCS #12 (.PFX) or Simple Certificate Enrollment Protocol (SCEP) certificate to secure user access to company resources.
+
 ## Enroll mobile devices and Windows PCs into management
 Enrolling devices and PCs into management with Intune ensures all the policies and access profiles you’ve configured for managed devices can be applied. Before you can enroll devices, you will first need to [prepare the Intune service](https://docs.microsoft.com/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune) itself by assigning licenses to users, setting the mobile device management authority, and satisfy the various enrollment requirements for the different device types that you want to manage. While you are at it, you should probably also [customize the company portal](https://docs.microsoft.com/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune#configure-the-intune-company-portal) with support information and company-specific branding to provide a trusted enrollment and support experience for your users.
 
@@ -124,9 +131,9 @@ You can also enable single sign-on (SSO) and conditional access to secure remote
 [Setting up the Azure Active Directory Application Proxy](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-enable) is easy to do. Just enable the feature in Azure AD (Basic or Premium), install a small Windows Server service called a connector inside your network, and then publish applications to it. There’s no need to open any inbound firewall ports or put anything in a DMZ. Once you have it set up, access to on-premises web applications is provided by single sign on to Azure AD. [Conditional Access rules](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-conditional-access), like requiring multi-factor authentication or blocking access when employees aren’t at work, provide additional safeguards
 
 ## Use certificates to secure company resource access
-When you give users access to corporate resources through VPN, Wi-Fi, or email profiles, you can [secure that access by using a certificate](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles) that is installed on each user device rather than depend on a simple user name and password for authentication.
+When you give users access to company resources through VPN, Wi-Fi, or email profiles, you can [secure that access by using a certificate](https://docs.microsoft.com/intune/deploy-use/configure-intune-certificate-profiles) that is installed on each user device rather than depend on a simple user name and password for authentication.
 
-You can create and deploy either a **PKCS \#12 (.PFX)** or **Simple Certificate Enrollment Protocol (SCEP)** certificate profile to be used by devices requesting authentication certificates on these device platforms:
+You can create and deploy either a **PKCS #12 (.PFX)** or **Simple Certificate Enrollment Protocol (SCEP)** certificate profile to be used by devices requesting authentication certificates on these device platforms:
 
 -   iOS (8.0 and later)
 -   Mac OS X (10.9 and later)

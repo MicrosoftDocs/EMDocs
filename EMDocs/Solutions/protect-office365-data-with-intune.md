@@ -40,6 +40,14 @@ Here's a short video to give you a quick introduction to how Intune and Office 3
 
 <iframe width="675" height="480" src="https://www.youtube.com/embed/To9zfl6-Z6Y" frameborder="0" allowfullscreen></iframe>
 
+### How to implement this solution
+The rest of this solution is divided into the following sections that show you how to protect Office 365 company data with Intune:
+- **Enroll mobile devices and Windows PCs into management**. This solution requires that devices are managed by Microsoft Intune and this section shows you how to enroll them into management (iOS, Android, Android for Work, and Windows PCs). 
+- **Secure access to Office 365 services**. Learn about Intune compliance policies and how to manage conditional access to the Exchange Online and SharePoint online Office 365 services.
+- **Protect company data**. This section describes how to use app protection policies for Android and iOS devices, and also how to leverage Windows Information Protection (WIP) policies to safeguard company app data on Windows 10 PCs managed as devices by Intune.
+- **Selectively wipe company data**. This section describes how to remove company apps and data from devices when they are no longer needed for work or have been stolen.
+
+
 ## Enroll mobile devices and Windows PCs into management
 Enrolling devices and PCs into management with Intune ensures all the policies and access profiles you’ve configured for managed devices are applied. Before you can enroll devices, you will first need to [prepare the Intune service](https://docs.microsoft.com/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune) itself by assigning licenses to users, setting the mobile device management authority, and satisfy the various enrollment requirements for the different device types that you want to manage. While you are at it, you should probably also [customize the company portal](https://docs.microsoft.com/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune#configure-the-intune-company-portal) with support information and company-specific branding to provide a trusted enrollment and support experience for your users.
 
