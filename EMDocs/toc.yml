@@ -52,8 +52,8 @@
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
 
     - name: Intune Azure preview
-      href: /intune-azure
-      homepage: /intune-azure/
+      href: /intune-azure/
+      homepage: /intune-azure
 
     - name: Intune
       href: /intune/
