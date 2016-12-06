@@ -50,6 +50,11 @@
         - name: Troubleshoot
           href: /advanced-threat-analytics/troubleshoot/
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+
+    - name: Intune Azure preview
+      href: /intune-azure
+      homepage: /intune-azure/
+
     - name: Intune
       href: /intune/
       homepage: /intune
@@ -72,9 +77,7 @@
         - name: Develop & Customize Apps
           href: /intune/develop/
           homepage: /intune/develop/intune-app-sdk
-        - name: Azure preview
-          href: /intune-azure
-          homepage: /intune-azure/
+ 
 
     - name: Azure Information Protection
       href: /information-protection/
