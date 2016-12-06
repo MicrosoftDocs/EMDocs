@@ -41,9 +41,9 @@ Here's a short video to give you a quick introduction about how conditional acce
 
 ### How to implement this solution
 The rest of this solution is divided into the following sections that show you how to protect Office 365 company data with Intune:
-- **Enroll mobile devices and Windows PCs into management**. This solution requires that devices are managed by Microsoft Intune and this section shows you how to enroll them into management (iOS, Android, Android for Work, and Windows PCs).
-- **Access and protect company email**. Learn how Intune can automatically configure native app email settings for your users and how to provide conditional access to your on-premises Exchange Server.
-- **Provide access to other on-premises company resources**. This section shows you how to provide your employees with secure access to on-premises network resources by using Wi-Fi, VPN, or the Azure Active Directory Application Proxy.
+- **Enroll mobile devices and Windows PCs into management**. This section describes how to enroll devices (iOS, Android, Android for Work, and Windows PCs) into management so that you can configure secure access to on-premises resources with Intune.
+- **Access and protect company email**. This section shows you how Intune can automatically configure native app email settings for your users and how to provide conditional access to your on-premises Exchange Server.
+- **Provide access to other on-premises company resources**. This section describes how to provide employees with secure access to on-premises network resources by using Wi-Fi, VPN, or the Azure Active Directory Application Proxy.
 - **Use certificates to secure company resource access**. This section helps you create and deploy either a PKCS #12 (.PFX) or Simple Certificate Enrollment Protocol (SCEP) certificate to secure user access to company resources.
 
 ## Enroll mobile devices and Windows PCs into management
