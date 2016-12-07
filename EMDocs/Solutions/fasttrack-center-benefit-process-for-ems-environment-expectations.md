@@ -8,7 +8,7 @@ author: staciebarker
 ms.author: stabar
 manager: angrobe
 ms.date: 11/07/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
 ms.service: ems
 ms.technology:
