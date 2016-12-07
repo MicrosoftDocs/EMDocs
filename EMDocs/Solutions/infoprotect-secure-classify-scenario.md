@@ -66,7 +66,7 @@ Companies need to identify which data needs protection and which data does not n
 
 ### Step 1: Preparing for document protection and content classification
 
-Before implementing this solution, review the [requirements for Azure Information Protection](requirements-azure-infoprotect.md) and ensure that Azure Rights Management is activated. If it is activated, you should see the following screen in Azure Portal:
+Before implementing this solution, review the [requirements for Azure Information Protection](./information-protection/get-started/requirements.md) and ensure that Azure Rights Management is activated. If it is activated, you should see the following screen in Azure Portal:
 
 ![Azure Portal](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig2.png)
 
@@ -85,7 +85,7 @@ The following diagram has an example of how this could be implemented:
 
 ![Classification](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
-Azure Information Protection comes with default labels, however you can [customize](configure-policy-new-label.md) and create your own labels or sub-labels that users see on the Information Protection bar. 
+Azure Information Protection comes with default labels, however you can [customize](./information-protection/deploy-use/configure-policy-new-label.md) and create your own labels or sub-labels that users see on the Information Protection bar. 
 
 > [!IMPORTANT] 
 > Labels are metadata written to documents. Labels are in clear text so that other systems such as a DLP engine can read it.
@@ -94,13 +94,13 @@ In the following example, you can see custom sub-labels that were created under 
 
 ![Label](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
-Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](configure-policy-protection.md#to-configure-a-label-to-apply-rights-management-protection). 
+Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](./information-protection/deploy-use/configure-policy-new-label.md). 
 
 ### Step 3: Implement content based automatic classification
 
 With Azure Information Protection, data classification and protection controls are integrated into Office and other common applications. This integration provides simple one-click options to secure data that users are working on. In the Azure portal, you can apply predefined patterns, such as “Credit card numbers” or “USA Social Security Numbers”, as a condition for automatic classification. Alternately, you can use text patterns and regular expressions to define a custom string or pattern.
 
-When you configure conditions for a label, you can automatically assign a label to a document/email or, you can prompt users to select the label that you recommend. Read [How to configure conditions for automatic and recommended classification for Azure Information Protection](configure-policy-classification.md) for more information on how to perform this configuration.
+When you configure conditions for a label, you can automatically assign a label to a document/email or, you can prompt users to select the label that you recommend. Read [How to configure conditions for automatic and recommended classification for Azure Information Protection](./information-protection/deploy-use/configure-policy-classification.md) for more information on how to perform this configuration.
 
 
 ### Step 4: Configure conditions for automatic and recommended classification
@@ -113,4 +113,4 @@ Policies can be set by IT Admins for automatically applying classification and p
 - USA Social Security Number (SSN)
 - International Banking Account Number (IBAN)
 
-Read [Information about the built-in conditions](configure-policy-classification.md#information-about-the-built-in-conditions) for more details about this type of implementation.
+Read [Information about the built-in conditions](./information-protection/deploy-use/configure-policy-classification.md#information-about-the-built-in-conditions) for more details about this type of implementation.
