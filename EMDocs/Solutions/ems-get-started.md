@@ -9,7 +9,7 @@ manager: swadhwa
 ms.date: 11/10/2016
 ms.topic: solution
 ms.prod:
-ms.service: ems
+ms.service: active-directory
 ms.technology:
 ms.assetid: 1df56825-c0d1-48ac-a294-5ebd1667bc38
 
@@ -21,7 +21,7 @@ ms.assetid: 1df56825-c0d1-48ac-a294-5ebd1667bc38
 ms.reviewer: mhamerof
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: active-directory,advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
+ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
 
 experimental: true
 experiment_id: jeffgilb-length-20161110

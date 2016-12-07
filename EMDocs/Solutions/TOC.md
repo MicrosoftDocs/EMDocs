@@ -16,6 +16,7 @@
 ### [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario.md)
 ## [Managed Mobile Productivity](protect-office365-data-with-intune.md)
 ### [Protect Office 365 company data with Intune](protect-office365-data-with-intune.md)
+### [Protect on-premises company data with Intune](protect-on-premises-data-with-intune.md)
 ## [Design and Architecture Guides](byod-design-considerations-guide.md)
 ### [BYOD Design Guide](byod-design-considerations-guide.md)
 #### [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)
