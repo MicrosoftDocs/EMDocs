@@ -9,7 +9,7 @@ manager: swadhwa
 ms.date: 11/10/2016
 ms.topic: solution
 ms.prod:
-ms.service: ems
+ms.service: active-directory
 ms.technology:
 ms.assetid: f1421a9b-25e6-469e-b6b3-a2a068e9ac46
 
@@ -21,7 +21,7 @@ ms.assetid: f1421a9b-25e6-469e-b6b3-a2a068e9ac46
 ms.reviewer: mhamerof
 ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom:
+ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
 
 ---
 # Learn about Enterprise Mobility + Security
