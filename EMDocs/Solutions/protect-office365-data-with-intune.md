@@ -40,13 +40,25 @@ Here's a short video to give you a quick introduction to how Intune and Office 3
 
 <iframe width="675" height="480" src="https://www.youtube.com/embed/To9zfl6-Z6Y" frameborder="0" allowfullscreen></iframe>
 
+### How to implement this solution
+The rest of this solution is divided into the following sections that show you how to protect Office 365 company data with Intune:
+- **Enroll mobile devices and Windows PCs into management**. This section describes how to enroll devices  (iOS, Android, Android for Work, and Windows PCs) into management with Intune so that you deploy policies to them that protect Office 365 company data.
+- **Secure access to Office 365 services**. In this section you can learn about Intune compliance policies and how to manage conditional access to the Exchange Online and SharePoint online Office 365 services.
+- **Protect company data**. This section shows you how to use app protection policies for Android and iOS devices, and also how to leverage Windows Information Protection (WIP) policies to safeguard company app data on Windows 10 PCs managed as devices by Intune.
+- **Selectively wipe company data**. This section helps you learn how to remove company apps and data from devices when they are no longer needed for work or have been lost or stolen.
+
+
 ## Enroll mobile devices and Windows PCs into management
 Enrolling devices and PCs into management with Intune ensures all the policies and access profiles you’ve configured for managed devices are applied. Before you can enroll devices, you will first need to [prepare the Intune service](https://docs.microsoft.com/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune) itself by assigning licenses to users, setting the mobile device management authority, and satisfy the various enrollment requirements for the different device types that you want to manage. While you are at it, you should probably also [customize the company portal](https://docs.microsoft.com/intune/deploy-use/get-ready-to-enroll-devices-in-microsoft-intune#configure-the-intune-company-portal) with support information and company-specific branding to provide a trusted enrollment and support experience for your users.
 
 After preparing the Intune service, the process to enroll devices into management is pretty straightforward, but slightly different for the various device types:
 - **iOS and Mac devices**. You'll need to get an Apple Push Notification service (APNs) certificate to enroll iPads, iPhones, or Mac OS X devices. After you've [uploaded your APNs certificate to Intune](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-ios-and-mac-management-with-microsoft-intune), you can [enroll iOS devices](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-ios) using the Company Portal app and use the Company Portal website to [enroll Mac OS X devices](https://docs.microsoft.com/intune/enduser/enroll-your-device-in-intune-mac-os-x).
 - **Android devices**. There's nothing you need to do to get the Intune service ready to enroll Android devices. Users can just [enroll their Android devices](https://docs.microsoft.com/intune/deploy-use/set-up-android-management-with-microsoft-intune) into management using the Company Portal app available from Google Play.
+-   **Android for Work**. To [set up Android for Work](https://docs.microsoft.com/intune/deploy-use/set-up-android-for-work) for Android 5.0 Lollipop and later devices that support work profiles to be managed by Intune, your organization needs to sign up for Android for Work with Google and then configure Android for Work settings in the ADMIN node of the Intune administration console.
 - **Windows Phones and PCs**. You should [set a DNS alias for the enrollment server](https://docs.microsoft.com/en-us/intune/deploy-use/set-up-windows-phone-management-with-microsoft-intune) to make enrolling Windows devices easier. Otherwise, you can [enroll Windows devices](https://docs.microsoft.com/intune/enduser/enroll-your-w10-phone-or-w10-pc-windows) by adding a work or school account.
+
+> [!TIP]
+> You can make enrolling Windows devices even easier for your users by [enabling the automatic enrollment](https://docs.microsoft.com/intune/deploy-use/set-up-windows-device-management-with-microsoft-intune#azure-active-directory-enrollment) feature in your Azure AD (Premium). When you do that, devices will automatically be enrolled into management with Intune when a user adds a work or school account to register their personal device or a company owned device joins your organization’s Azure AD.
 
 ## Secure access to Office 365 services
 Your users expect to get access to all of their company email and files when using Office 365 mobile apps, but you also need to be sure that only trusted devices are connecting to company resources. To help accomplish this, you can use Intune conditional access policies to make sure that employees access Office 365 cloud services only from managed and policy compliant devices.
@@ -58,7 +70,9 @@ For conditional access policies to work you first have to define an [Intune devi
 
 [Conditional access policies](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) can be used to secure access to Office 365 services such as Dynamics CRM Online<sup>1</sup>, Exchange Online<sup>2</sup>, SharePoint Online<sup>2</sup>, and Skype for Business Online<sup>1</sup>. Conditional access policies will be configured for Exchange Online and SharePoint Online in the following examples.  
 
-> <sup>1</sup> iOS and Android only, <sup>2</sup> iOS, Android, and Windows devices
+> <sup>1</sup> iOS and Android only.
+
+> <sup>2</sup> iOS, Android, and Windows devices.
 
 ### Secure access to Exchange Online
 With Intune, your company’s Exchange Online email is protected according to the conditional access and compliance policies that you set. For example, you can [restrict access to Exchange Online](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune) email to devices that don’t use a strong password, are not jailbroken, and are not encrypted.
@@ -131,6 +145,6 @@ Performing a selective wipe of a device is as easy as right-clicking a device na
 Once initiated, the device will immediately begin the selective wipe process to be removed from management. When the process is complete, all company data is deleted and the device name will be removed from the Intune administrator console completing the device management lifecycle.
 
 ### Learn more
-[Managed mobile productivity scenarios](https://docs.microsoft.com/enterprise-mobility/solutions/managed-mobile-productivity)
+[Start using Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility)
