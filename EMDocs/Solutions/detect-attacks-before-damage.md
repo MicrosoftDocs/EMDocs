@@ -6,7 +6,7 @@ description: A scenario that describes how Enterprise Mobility + Security can be
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/2/2016
+ms.date: 12/7/2016
 ms.topic: solution
 ms.prod:
 ms.service: ems
@@ -18,10 +18,10 @@ ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: v-craic
-#ms.suite: ems
+ms.reviewer: v-craic
+ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom: active-directory, advanced-threat-analytics, cloud-app-security
+ms.custom: active-directory, advanced-threat-analytics, cloud-app-security
 
 ---
 
