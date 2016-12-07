@@ -6,7 +6,7 @@ description: With Enterprise Mobility + Security (EMS) you'll be able to keep yo
 keywords:
 author: jeffgilb
 manager: swadhwa
-ms.date: 12/12/2016
+ms.date: 12/7/2016
 ms.topic: solution
 ms.prod:
 ms.service: ems
