@@ -61,18 +61,18 @@
       items:
         - name: Understand & Explore
           href: /intune/understand-explore/
-          homepage: /intune/understand/ways-to-do-enterprise-mobility
+          homepage: /intune/understand/introduction-to-microsoft-intune
         - name: Plan & Design
           href: /intune/plan-design/
-          homepage: /intune/plandesign/plan-you-user-and-device-groups
+          homepage: /intune/plan-design/
         - name: Deploy & Use
           href: /intune/deploy-use/
-          homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
+          homepage: /intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
         - name: Troubleshoot
           href: /intune/troubleshoot/
-          homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
+          homepage: /intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
         - name: Get Started
-          href: /intune/get-started/
+          href: /intune/get-started/get-started
           homepage: /intune/get-started/what-s-new-in-microsoft-intune
         - name: Develop & Customize Apps
           href: /intune/develop/
