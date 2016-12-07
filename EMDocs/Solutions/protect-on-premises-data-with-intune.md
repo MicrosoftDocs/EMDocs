@@ -9,7 +9,7 @@ manager: swadhwa
 ms.date: 12/7/2016
 ms.topic: solution
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: ebf7be63-4ac2-4158-9772-58f15416ccb7
 
@@ -21,7 +21,7 @@ ms.assetid: ebf7be63-4ac2-4158-9772-58f15416ccb7
 ms.reviewer: vlpetros
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune,active-directory
+ms.custom: active-directory
 
 ---
 # Protect on-premises company data with Intune

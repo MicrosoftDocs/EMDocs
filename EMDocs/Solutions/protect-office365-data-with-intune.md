@@ -9,7 +9,7 @@ manager: swadhwa
 ms.date: 10/18/2016
 ms.topic: solution
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 
@@ -21,7 +21,7 @@ ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+ms.custom:
 
 ---
 
