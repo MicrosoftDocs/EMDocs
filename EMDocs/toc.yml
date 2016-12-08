@@ -61,7 +61,7 @@
       items:
         - name: Understand & Explore
           href: /intune/understand-explore/
-          homepage: /intune/understand/introduction-to-microsoft-intune
+          homepage: /intune/understand-explore/introduction-to-microsoft-intune
         - name: Plan & Design
           href: /intune/plan-design/
           homepage: /intune/plan-design/

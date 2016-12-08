@@ -5,10 +5,10 @@ title: Track usage of shared data and respond to data abuse | Azure Rights Manag
 description: A scenario that describes how Enterprise Mobility + Security can be used to track usage of shared data and respond to data abuse by leveraging Azure Rights Management capabilities.
 author: yuridio
 manager: swadhwa
-ms.date: 11/8/2016
+ms.date: 12/7/2016
 ms.topic: solution
 ms.prod:
-ms.service: ems
+ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 
@@ -17,10 +17,10 @@ ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: v-craic
-#ms.suite: ems
+ms.reviewer: v-craic
+ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom: rights-management
+
 
 ---
 
