@@ -6,7 +6,7 @@ description: A scenario that describes how Enterprise Mobility + Security can be
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/19/2016
+ms.date: 12/07/2016
 ms.topic: solution
 ms.prod:
 ms.service: ems
@@ -18,10 +18,10 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: v-craic
-#ms.suite: ems
+ms.reviewer: v-craic
+ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom: active-directory, microsoft-identity-manager
+ms.custom: active-directory, microsoft-identity-manager
 
 ---
 
