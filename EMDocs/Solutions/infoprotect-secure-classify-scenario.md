@@ -113,4 +113,4 @@ Policies can be set by IT Admins for automatically applying classification and p
 - USA Social Security Number (SSN)
 - International Banking Account Number (IBAN)
 
-Read [Information about the built-in conditions](./information-protection/deploy-use/configure-policy-classification.md#information-about-the-built-in-conditions) for more details about this type of implementation.
+Read [Information about the built-in conditions](/information-protection/deploy-use/configure-policy-classification.md#information-about-the-built-in-conditions) for more details about this type of implementation.
