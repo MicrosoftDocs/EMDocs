@@ -147,4 +147,4 @@ Once initiated, the device will immediately begin the selective wipe process to 
 ### Learn more
 [Start using Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
-[Microsoft Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility)
+[Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
