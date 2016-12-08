@@ -18,10 +18,10 @@ ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 #ROBOTS:
 #audience:
 #ms.devlang:
-#ms.reviewer: v-craic
-#ms.suite: ems
+ms.reviewer: v-craic
+ms.suite: ems
 #ms.tgt_pltfrm:
-#ms.custom: cloud-app-security, information-protection
+ms.custom: cloud-app-security, information-protection
 
 ---
 

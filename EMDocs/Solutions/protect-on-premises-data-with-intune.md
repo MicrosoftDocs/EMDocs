@@ -159,4 +159,4 @@ When you [deploy certificate profiles](https://docs.microsoft.com/intune/deploy-
 
 [Start using Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
-[Microsoft Enterprise Mobility](https://www.microsoft.com/cloud-platform/enterprise-mobility)
+[Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
