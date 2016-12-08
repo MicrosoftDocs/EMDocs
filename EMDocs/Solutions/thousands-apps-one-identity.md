@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager: swadhwa
-ms.date: 10/19/2016
+ms.date: 12/07/2016
 ms.topic: solution
 ms.prod:
 ms.service: active-directory
@@ -16,7 +16,7 @@ ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
 
 # optional metadata
 
-ROBOTS: noindex
+ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: atkladak, jsnow
