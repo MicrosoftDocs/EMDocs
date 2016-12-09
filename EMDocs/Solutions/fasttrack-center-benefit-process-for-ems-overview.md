@@ -43,7 +43,7 @@ The following diagram describes the high-level onboarding phases for the the Fas
 
 Here's how the process works:
 
-- Microsoft tries to contact you to offer onboarding assistance after you purchase licenses of an eligible service. You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you're ready to deploy these services for your organization. To request assistance, sign in to the [FastTrack Center](http://fasttrack.microsoft.com/) with your work or school account, go to the dashboard, expand the **Need Help?** at the left of the screen, and then follow the prompts to complete your request. Once onboarding support starts, we’ll set up a schedule of online meetings.
+- Microsoft tries to contact you to offer onboarding assistance after you purchase licenses of an eligible service. You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you're ready to deploy these services for your organization. To request assistance, sign in to the [FastTrack Center](http://fasttrack.microsoft.com/) with your work or school account, go to the dashboard, expand the **Need Help?** link at the lower-right corner of the page, and then follow the prompts to complete your request. Once onboarding support starts, we’ll set up a schedule of online meetings.
 
 -   The Microsoft Onboarding team helps you first with core capabilities (common for all Microsoft Online Services) and then with onboarding each eligible service.
 
