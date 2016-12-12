@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
 
@@ -19,10 +19,10 @@ ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -33,14 +33,14 @@ ms.custom: microsoft-intune
 
 Now that you’ve completed defining your requirements and examining all the options for your mobile device management solution, you’re ready to take the next steps for deploying the supporting infrastructure that’s right for you and your organization.
 
-## Mobile device management solutions 
+## Mobile device management solutions
 
-Leveraging specific solution scenarios that fit your needs is a great way to review and plan for the details of deploying a mobile device management infrastructure. The following solutions outline several of the most common mobile device management scenarios: 
+Leveraging specific solution scenarios that fit your needs is a great way to review and plan for the details of deploying a mobile device management infrastructure. The following solutions outline several of the most common mobile device management scenarios:
 
-- The [manage mobile devices and PCs in enterprise environments](https://technet.microsoft.com/library/dn582037.aspx) solution helps you manage mobile devices by extending your on-premises System Center 2012 R2 Configuration Manager infrastructure into the cloud with Microsoft Intune. This hybrid infrastructure helps medium and large companies enable BYOD and remote access while reducing administration complexity. 
+- The [manage mobile devices and PCs in enterprise environments](https://technet.microsoft.com/library/dn582037.aspx) solution helps you manage mobile devices by extending your on-premises System Center 2012 R2 Configuration Manager infrastructure into the cloud with Microsoft Intune. This hybrid infrastructure helps medium and large companies enable BYOD and remote access while reducing administration complexity.
 - The [managing mobile devices for Configuration Manager 2007](https://technet.microsoft.com/library/dn508400.aspx) solution helps you manage mobile devices when your infrastructure rests on System Center Configuration Manager 2007. This solution shows you how to set up a single server running System Center 2012 R2 Configuration Manager so you can then run Microsoft Intune and take advantage of its MDM capabilities.
 - The [managing mobile devices in small environments](https://technet.microsoft.com/library/dn715906.aspx) solution is intended for small businesses that need to support MDM. It explains how to use Microsoft Intune to extend your current infrastructure to support mobile device management and BYOD. This solution describes the simplest scenario supported for using Microsoft Intune in a standalone, cloud-only configuration without local servers.
-        
+
 ## Mobile device management documentation
 
 Conceptual and procedural planning, deployment, and administration content are useful when implementing your mobile device management solution:

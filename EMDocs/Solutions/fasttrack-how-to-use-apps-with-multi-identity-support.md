@@ -4,19 +4,19 @@
 title: How to use applications with multi-identity support
 description: How to use apps with multi-identity support
 keywords:
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 586ecd93-b097-42a0-9229-bcf3b781021c
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer:

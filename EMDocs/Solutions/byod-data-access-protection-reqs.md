@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 
@@ -19,10 +19,10 @@ ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: 
 
 ---
 

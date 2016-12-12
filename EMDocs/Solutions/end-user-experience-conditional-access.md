@@ -4,9 +4,9 @@
 title: End-user experience of conditional access
 description: The end-user experience of enrolling a device or fixing compliance issues.
 keywords:
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
