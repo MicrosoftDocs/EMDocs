@@ -4,19 +4,19 @@
 title: How to enroll in multi-factor authentication
 description: How to set up your preferred method for additional security verification
 keywords:
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer:

@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 26b15471-b496-4404-934d-67e621655bca
 
@@ -19,10 +19,10 @@ ms.assetid: 26b15471-b496-4404-934d-67e621655bca
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 

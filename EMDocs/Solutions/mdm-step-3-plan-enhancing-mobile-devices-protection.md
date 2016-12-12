@@ -2,15 +2,15 @@
 # required metadata
 
 title: Plan for enhancing mobile devices protection
-description: This article provides design considerations for protecting your mobile devices in a mobile device management scenario. 
+description: This article provides design considerations for protecting your mobile devices in a mobile device management scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
 
@@ -19,10 +19,10 @@ ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -32,7 +32,7 @@ ms.custom: microsoft-intune
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 While on-premises and remote users can be more productive by accessing company resources on their mobile devices, letting them to do also increases security threats that you’ll need to mitigate in order to help protect your company’s data and maintain user privacy. Your company might have specific requirements about how to balance these needs. Compliance rules can vary depending on the industry in which your company operates, for example, which may lead to different design decisions.
- 
+
 However, there are some general aspects of security in mobile device management to explore and conform to, regardless of the industry. These are shown in the figure below.
 
 ![Core security capabilities for the MDM platform](./media/MDM_Figure_08.png)
@@ -79,5 +79,3 @@ There are 12 steps in this section of the guide. Total time to read through the 
 - [Data classification](mdm-data-classification.md)
 - [Authentication and authorization](mdm-authentication-authorization.md)
 - [Access control to resources](mdm-access-control-resources.md)
-
-

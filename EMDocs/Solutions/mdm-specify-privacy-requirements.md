@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 
@@ -19,10 +19,10 @@ ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -32,14 +32,14 @@ ms.custom: microsoft-intune
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 
-In the previous step, you defined device management tasks, including device management and content distribution management. In this task, the goal is to define the privacy requirements for company content that will reside on the mobile device. 
+In the previous step, you defined device management tasks, including device management and content distribution management. In this task, the goal is to define the privacy requirements for company content that will reside on the mobile device.
 
->[!TIP] 
+>[!TIP]
 > Read the solution Streamlined management for mobile devices and computers in a hybrid environment for more information about content distribution for mobile devices.
 
-An organization’s privacy and compliance requirements will vary according to the industry, applicable regulations, and type of business. For example, you may want your MDM solution to allow you to perform basic hardware inventories, software inventories, file collections, and software distribution on mobile devices. Hardware inventory and software distribution are usually supported by default. 
+An organization’s privacy and compliance requirements will vary according to the industry, applicable regulations, and type of business. For example, you may want your MDM solution to allow you to perform basic hardware inventories, software inventories, file collections, and software distribution on mobile devices. Hardware inventory and software distribution are usually supported by default.
 
-Keep in mind that privacy concerns that apply to your client computers for inventory and software distribution also apply to mobile devices. 
+Keep in mind that privacy concerns that apply to your client computers for inventory and software distribution also apply to mobile devices.
 
 Before choosing a mobile device management solution, consider your unique privacy requirements. For example, consider the following:
 
@@ -47,7 +47,7 @@ Before choosing a mobile device management solution, consider your unique privac
 	- Are you required to provide users with your company privacy policy, and what should it include?
 		- If yes, does the MDM solution include the ability to easily provide a privacy policy to users?
 	- Does the MDM solution store user’s mobile device information or data in the cloud?
-		- If yes, how is user’s privacy maintained in the cloud? 
+		- If yes, how is user’s privacy maintained in the cloud?
 - Who has access to their data?
 - How is their data kept private?
 - Data Classification and compliance: It’s important to define what constitutes company data, and how it will be protected. Having policies and mechanisms in place to classify data should be part of the plan to ensure privacy when managing mobile devices.

@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 
@@ -19,10 +19,10 @@ ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -37,10 +37,10 @@ Data segregation is important, not only for your organization, but also to keep 
 
 ## User’s personal data is isolated from company’s data
 
-By keeping separate all apps, company data, and policies that were deployed by the MDM solution, those can be removed from the device if necessary without affecting a user’s personal content and apps by using selective wipe. 
+By keeping separate all apps, company data, and policies that were deployed by the MDM solution, those can be removed from the device if necessary without affecting a user’s personal content and apps by using selective wipe.
 
->[!TIP] 
-> Read [Help protect your data with full or selective wipe using Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) for more about how remote wipe will behave in other platforms like iOS and Android 
+>[!TIP]
+> Read [Help protect your data with full or selective wipe using Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) for more about how remote wipe will behave in other platforms like iOS and Android
 
 Selective wipe for mobile device data management is included in Windows Server 2012 R2 and Windows 8.1. It works by linking resources that help Exchange Server and Microsoft Intune administrators to manage enterprise data on devices and to develop apps that can use [Windows Selective Wipe](https://technet.microsoft.com/library/dn486874.aspx) capabilities.  Windows Phone 8 and later supports separating data in the internal storage.
 
@@ -48,13 +48,13 @@ Selective wipe for mobile device data management is included in Windows Server 2
 
 Read more about Windows Phone 8.1 security capabilities by downloading the [Windows Phone 8.1 Security Overview](http://www.microsoft.com/download/details.aspx?id=42509)
 
-Data segregation can be challenging if users switch between personal accounts and corporate accounts on their mobile devices. In a BYOD scenario, it’s common for users to use multiple credentials to perform different tasks on their device. 
+Data segregation can be challenging if users switch between personal accounts and corporate accounts on their mobile devices. In a BYOD scenario, it’s common for users to use multiple credentials to perform different tasks on their device.
 
-Enterprise Data Protection (EDP) provides data separation but neither uses containers nor requires a special version of an app to access business data, and then a second instance of it to access personal data. There are no containers, partitions, or special folders to physically separate personal and business data. Instead, Windows 10 Mobile is the access control broker, identifying enterprise data because it’s encrypted to the enterprise. 
+Enterprise Data Protection (EDP) provides data separation but neither uses containers nor requires a special version of an app to access business data, and then a second instance of it to access personal data. There are no containers, partitions, or special folders to physically separate personal and business data. Instead, Windows 10 Mobile is the access control broker, identifying enterprise data because it’s encrypted to the enterprise.
 
 EDP provides data separation by virtue of encrypting enterprise data. Read [Enterprise data protection (EDP) overview](https://technet.microsoft.com/library/dn985838.aspx) for more information. Intune EDP policies will manage the list of apps protected by EDP, enterprise network locations, protection level, and encryption settings.
 
-When a user installs and signs in to an app that supports multiple identities (multi-identity) on an Intune-managed device, such as Outlook, Intune checks to see if the account they’re using matches the managed account on the device. If the account is managed, and there is also a policy for the app and the user, then the policy settings protect data in that account. When the user adds personal accounts to the app, those accounts are outside of Intune management and protection. This allows personal use of the application without compromising corporate protection. Read [Protect data using mobile application management policies with Microsoft Intune](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) for more information about multi-identity capability in Intune. 
+When a user installs and signs in to an app that supports multiple identities (multi-identity) on an Intune-managed device, such as Outlook, Intune checks to see if the account they’re using matches the managed account on the device. If the account is managed, and there is also a policy for the app and the user, then the policy settings protect data in that account. When the user adds personal accounts to the app, those accounts are outside of Intune management and protection. This allows personal use of the application without compromising corporate protection. Read [Protect data using mobile application management policies with Microsoft Intune](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) for more information about multi-identity capability in Intune.
 
 The table below compares selective wipe features available with different MDM solutions to help you choose the MDM solution that best fits your organization’s data segregation requirements.
 

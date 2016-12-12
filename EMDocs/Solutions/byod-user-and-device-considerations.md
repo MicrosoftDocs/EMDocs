@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 
@@ -19,10 +19,10 @@ ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom:
 
 ---
 
@@ -60,7 +60,7 @@ The user profile proposed in this guide are:
 	- Access to computers using Remote Desktop
 	- Access to other computers located on-premises
 
-You will need to determine which user profile is more suitable for your BYOD infrastructure solution. You might consider establishing multiple users’ profiles according to their job requirements. Ideally, the technology that you use to implement your BYOD infrastructure solution should be able accommodate all user profiles, because the requirements might vary according to each individual. 
+You will need to determine which user profile is more suitable for your BYOD infrastructure solution. You might consider establishing multiple users’ profiles according to their job requirements. Ideally, the technology that you use to implement your BYOD infrastructure solution should be able accommodate all user profiles, because the requirements might vary according to each individual.
 
 ## Devices
 
@@ -209,8 +209,7 @@ Use the list below to understand the advantages and disadvantages of the Wi-Fi s
 	- Disadvantages
 		- Requires IPsec for Implementation using [Microsoft Network Access Protection (NAP)](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), which can be a problem in a BYOD scenario that requires support for “any device.”
 
-> [!NOTE] 
+> [!NOTE]
 > For more information about Wi-Fi Profiles in Configuration Manager, see [Introduction to Wi-Fi Profiles in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Network location plays an important role for user and device considerations. You can leverage multi-factor access control in AD FS to enable per-application authorization policies, whereby you can permit or deny access based on user, device, and network location. See [Manage Risk with Multi-Factor Access Control](https://technet.microsoft.com/library/dn280936.aspx) for more information about how to set up an environment to validate this capability.
-
