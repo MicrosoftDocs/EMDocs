@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 
@@ -19,10 +19,10 @@ ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: 
 
 ---
 
@@ -123,4 +123,3 @@ app requirements are categorized in six areas:
 - Did you perform any privacy analysis for these apps?
 - Will the apps use live tiles?
 	- If so, could these live tiles inadvertently cause information disclosure?
-

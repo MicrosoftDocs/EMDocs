@@ -2,15 +2,15 @@
 # required metadata
 
 title: Develop your data encryption requirements
-description: This topic has design considerations data encryption in mobile devices. This topic is part of a larger set of articles about Mobile Device Management Design Considerations. 
+description: This topic has design considerations data encryption in mobile devices. This topic is part of a larger set of articles about Mobile Device Management Design Considerations.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 
@@ -19,10 +19,10 @@ ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -37,28 +37,28 @@ Now that you’ve answered the questions in Task 1 regarding the requirements fo
 
 ## Different levels of encryption
 
-You can use full disk encryption or encryption based on the data handled by an app. [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) allows you to enforce policies that will perform file encryption on mobile devices. Although some mobile devices, like Windows Phone 8, are automatically encrypted, others only encrypt data if another option is enabled. For example, on iOS devices, the encryption takes place automatically only after you configure the setting to require a password on the device. 
+You can use full disk encryption or encryption based on the data handled by an app. [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx) allows you to enforce policies that will perform file encryption on mobile devices. Although some mobile devices, like Windows Phone 8, are automatically encrypted, others only encrypt data if another option is enabled. For example, on iOS devices, the encryption takes place automatically only after you configure the setting to require a password on the device.
 
 Windows 10 Mobile uses device encryption, based on BitLocker technology, to encrypt all internal storage, including operating system and data storage partitions. The user can activate device encryption, or the IT department can activate and enforce encryption for company-managed devices through MDM tools. When device encryption is turned on, all data stored on the phone is encrypted automatically. A Windows 10 Mobile device with encryption turned on helps protect the confidentiality of data stored if the device is lost or stolen. Read Windows 10 Mobile security guide for more information.
 
->[!TIP] 
+>[!TIP]
 > For more information about the mobile devices that can have encryption enabled using ConfigMgr, read [Compliance Settings for Mobile Devices in Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
 
-For apps that are associated with an Intune mobile application management policy, encryption is provided by Microsoft. Data is encrypted synchronously during file I/O operations according to the setting in the mobile application management policy. On Android devices, managed apps use AES-128 encryption in Cipher Block Chaining (CBC) mode utilizing the platform cryptography libraries, which is not FIPS 140-2 certified. 
+For apps that are associated with an Intune mobile application management policy, encryption is provided by Microsoft. Data is encrypted synchronously during file I/O operations according to the setting in the mobile application management policy. On Android devices, managed apps use AES-128 encryption in Cipher Block Chaining (CBC) mode utilizing the platform cryptography libraries, which is not FIPS 140-2 certified.
 
-This option allows you to specify that all data associated with a particular app will be encrypted, including data stored on external media, such as SD cards. The same capability is also available with [MDM for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx). 
+This option allows you to specify that all data associated with a particular app will be encrypted, including data stored on external media, such as SD cards. The same capability is also available with [MDM for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx).
 
-Public cloud storage services, such as OneDrive for Business, can also be integrated with Intune Standalone and also with [System Center 2012 R2 Configuration Manager SP1](https://technet.microsoft.com/library/mt131422.aspx). You can deploy the OneDrive for Business app to the user’s device and then all documents in the user’s OneDrive for Business account will be encrypted. 
+Public cloud storage services, such as OneDrive for Business, can also be integrated with Intune Standalone and also with [System Center 2012 R2 Configuration Manager SP1](https://technet.microsoft.com/library/mt131422.aspx). You can deploy the OneDrive for Business app to the user’s device and then all documents in the user’s OneDrive for Business account will be encrypted.
 
-Most MDM solutions use SSL to protect data in transit, so you’ll just need to decide if you will be using an existing PKI to issue certificates or if you will be using a third-party vendor certificate authority (CA). The advantage of using a third party CA is that users using their own device to access company’s resources will automatically trust a well-recognized public CA. 
+Most MDM solutions use SSL to protect data in transit, so you’ll just need to decide if you will be using an existing PKI to issue certificates or if you will be using a third-party vendor certificate authority (CA). The advantage of using a third party CA is that users using their own device to access company’s resources will automatically trust a well-recognized public CA.
 
 ## Intune (standalone)
 
-**Advantages** 
+**Advantages**
 
 - Encrypt data associated with apps controlled by Intune management policy
 
-**Disadvantages** 
+**Disadvantages**
 
 - Does not include native encryption for mobile device storage
 - No integration with current on-premises MDM platform means an additional management interface for you to use

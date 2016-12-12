@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 
@@ -19,10 +19,10 @@ ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom:
 
 ---
 
@@ -61,7 +61,7 @@ Most mobile device management solutions provide email access protection by using
 - When a mobile device needs to be disconnected from your email system, how will email data be deleted from the mobile device?
 - Will both administrators and users need the ability to delete email data or the connection to the email system?
 - How will confirmation of email data deletion be verified or confirmed?
-- If you’re using both an on-premises and cloud-based email system, how do they integrated with the mobile device management solution? 
+- If you’re using both an on-premises and cloud-based email system, how do they integrated with the mobile device management solution?
 - Are email profiles or managed access policies administered the same or differently from the IT perspective? Is the user email connection experience the same or different depending on where their mailbox is hosted?
 
 ## Network connectivity management
@@ -77,7 +77,7 @@ Mobile devices typically connect to corporate networks and resources by using th
 ### Network connectivity management planning questions
 
 Answer the following planning questions about network connectivity management:
- 
+
 - What type of VPN platform do you have deployed in your on-premises network?
 - Is the VPN platform supported or able to be integrated with the mobile device management solution?
 - If the VPN platform is already integrated or support by an existing non-mobile device management solution – does the mobile device management solution integrate with both systems?

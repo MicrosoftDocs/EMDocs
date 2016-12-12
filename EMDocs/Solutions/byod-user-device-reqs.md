@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 
@@ -19,10 +19,10 @@ ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -73,4 +73,3 @@ User and device requirements are categorized in three areas:
 ### Technical Support
 - Are your network/security team ready to accommodate a regular device compliance audits?
 - Do you have change management policies and procedures in place to support BYOD implementation?
-

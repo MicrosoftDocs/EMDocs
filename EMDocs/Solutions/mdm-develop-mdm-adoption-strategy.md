@@ -2,15 +2,15 @@
 # required metadata
 
 title: Develop your mobile device management adoption strategy
-description: This article provides a series of design considerations for adopting mobile device management in your organization. 
+description: This article provides a series of design considerations for adopting mobile device management in your organization.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 
@@ -19,10 +19,10 @@ ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -31,7 +31,7 @@ ms.custom: microsoft-intune
 >[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-In this task, you’ll develop the mobile device management adoption strategy that will meet the business requirements that you identified in Tasks 1 and 2. 
+In this task, you’ll develop the mobile device management adoption strategy that will meet the business requirements that you identified in Tasks 1 and 2.
 
 ## Device ownership
 
@@ -39,7 +39,7 @@ After reviewing your organization’s current policy and strategy to manage devi
 
 ## Employee owns the device (BYOD)
 
-**Advantages** 
+**Advantages**
 
 - Your company does not need to buy mobile devices for the employees
 - Usually allows employees to be more productive since they will be using the mobile device of their choice
@@ -53,7 +53,7 @@ After reviewing your organization’s current policy and strategy to manage devi
 
 ## Company-owned device
 
-**Advantages** 
+**Advantages**
 
 - Full management capability, including device hardening and security controls
 - More control over mobile devices
@@ -106,7 +106,7 @@ The decision you made regarding device ownership will help you identify which mo
 - Native integration between Intune and ConfigMgr
 - Allows you to use a centralized console to deploy policies and manage on-premises PCs, servers, and mobile devices
 
-**Disadvantages** 
+**Disadvantages**
 
 - Requires additional configuration steps to connect Intune and ConfigMgr
 - If the organization does not have a current ConfigMgr infrastructure on-premises, it will require to plan, install and configure this platform prior to the integration
@@ -133,7 +133,7 @@ Based on the requirements that were defined in Task 1, you can choose which mobi
 
 **Disadvantages**
 
-- Lacks integration with on-premises device management solutions, which introduces an additional management interface for you to use when managing mobile devices if you have an on-premises solution. 
+- Lacks integration with on-premises device management solutions, which introduces an additional management interface for you to use when managing mobile devices if you have an on-premises solution.
 - Policies created using an on-premises MDM platform aren’t replicated to the cloud service, requiring two sets of management and compliance policies (if you have ab on-premises MDM solution)
 
 
@@ -172,7 +172,5 @@ Based on the requirements that were defined in Task 1, you can choose which mobi
 
 Understanding user behavior and being able to identify their location are important factors to include in your mobile device management strategy. How devices will be tracked will vary according to your business requirements and needs.  Different tracking capabilities are available in each mobile operating system so the mobile device platforms you choose to support will impact your options. For example, compliance requirements may influence you to prioritize adopting mobile devices platforms that allow you to track user’s location and use geofencing.
 
->[!TIP] 
-> Geofencing allows you to monitor a mobile device’s geographic location and enable/disable device and network resources based on that location. For example, Windows 8.1 supports allows an app to define a geographical region and have the system alert the app when the device it's running on enters or exits that area. For more information about this feature in Windows 8.1, read [Geofencing, start to finish (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
-
-
+>[!TIP]
+> Geofencing allows you to monitor a mobile device’s geographic location and enable/disable device and network resources based on that location. For example, Windows 8.1 supports allows an app to define a geographical region and have the system alert the app when the device it's running on enters or exits that area. For more information about this feature in Windows 8.1, read [Geofencing, start to finish (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx).

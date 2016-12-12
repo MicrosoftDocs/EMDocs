@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 
@@ -19,10 +19,10 @@ ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -44,7 +44,7 @@ Mobile device enrollment in mobile device management solutions are typically ini
 
 - Administrator-managed enrollment
 - User/owner self-enrollment
- 
+
 Administrator-managed enrollment offers a centrally managed enrollment experience, and typically is centered on bulk enrollment of multiple devices using a single directory account. This is useful if you need to enroll many company-owned devices into your mobile device management solution.
 
 With self-enrollment, the device user/owner enrolls their device in the mobile device management solution. This is typically used in “bring your own device” (BYOD) scenarios, although it can also be used in scenarios where the company owns the device. This type of enrollment typically uses a “push-based” enrollment model, where devices are automatically triggered to enroll in the mobile device management solution when the user tries to connect to the corporate network or network resource from the device. Users can sometimes also elect to enroll their devices before connecting to an organization’s network or resources.

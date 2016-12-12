@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 
@@ -19,10 +19,10 @@ ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -57,7 +57,7 @@ Depending on how you answered the questions in Step 1, you should be able to det
 **Disadvantages**
 
 - Additional management interface for provisioning mobile devices (only) if using an on-premises management platform for non-mobile devices
-- Separate device compliance and security policies for the cloud-based service and the on-premises management platform 
+- Separate device compliance and security policies for the cloud-based service and the on-premises management platform
 
 ## MDM for Office 365
 
