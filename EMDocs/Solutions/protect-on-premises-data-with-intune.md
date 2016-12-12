@@ -138,12 +138,9 @@ You can create and deploy either a **PKCS #12 (.PFX)** or **Simple Certificate E
 -   iOS (8.0 and later)
 -   Mac OS X (10.9 and later)
 -   Android (4.0 and later, and Android for Work)
--   Windows 10 (desktop and mobile) and later
-
-You can only use a **SCEP Certificate Profile** for devices running these platforms:
-
 -   Window 8.1 (and later)
 -   Windows Phone (8.1 and later)
+-   Windows 10 (desktop and mobile) and later
 
 Although you need an Enterprise Certification Authority (CA) to do any certificate-based authentication for you company, there are other prerequisites that must be met before using either SCEP or .PFX certificates to secure access to company resources.
 
