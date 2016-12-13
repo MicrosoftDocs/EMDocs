@@ -53,7 +53,7 @@ The rest of this solution is divided into the following sections that show you h
 When managing app data on unmanaged devices, you don’t deploy apps like you would with managed devices. Instead, users download Office 365 apps from the public app store on their personal iOS or Android devices and then log in with their work accounts just like usual. Office 365 app protection policies are automatically applied by Intune and enforced between personal and work accounts and apps. Because Intune is integrated with Azure AD and O365, work data is protected while personal data in the same office apps remains untouched.
 
 >[!NOTE]
->App protection polices like these are available for Windows 10 computers managed by Intune as mobile devices using [Windows Information Protection policies](https://technet.microsoft.com/itpro/windows/keep-secure/create-wip-policy-using-intune).
+>App protection polices like these are available for Windows 10 computers managed by Intune as mobile devices using [Windows Information Protection (WIP)  policies](https://technet.microsoft.com/itpro/windows/keep-secure/create-wip-policy-using-intune).
 
 App protection policies are simple to create in the Azure portal that allow you to restrict actions such as copy/paste/save as, enforce a PIN, require encryption, and selectively wipe corporate data from your mobile apps. And all of this can be done while keeping personal data intact. For employees, the process is entirely seamless. They use their Office 365 credentials to log into Office 365 mobile apps and take advantage of the familiar O365 experience for both work and personal use. Intune works directly with O365 to apply MAM policies to protect corporate data and help prevent data leaks.
 
@@ -64,7 +64,7 @@ Here’s how easy it is to select apps to protect, configure app protection poli
 
 -   **Create a mobile app protection policy.** Other than naming (and optionally providing a description) for the policy, all you need to do to [create an app protection policy](https://docs.microsoft.com/intune-azure/manage-apps/app-protection-policies#create-an-app-protection-policy) is to define the platform, select required apps, and configure the policy settings to enforce:
 
-> **Define the platform**: You’ll be able to select either the iOS or Android platforms, but you won’t be able to create app protection policies for Windows devices. You can use WIP policies for those instead.
+> **Define the platform**: You’ll be able to select either the iOS or Android platforms, but you won’t be able to create app protection policies for Windows devices. You can [use WIP policies](https://technet.microsoft.com/itpro/windows/keep-secure/create-wip-policy-using-intune) for those instead.
 
 > **Select required apps** from the list of available apps capable of being protected on unmanaged devices. As more apps become supported, they’ll automatically be added to the list of available apps. By default, none are selected, but you can CTRL+Click to multi-select as many apps as you’d like to protect by the policy. Alternatively, you can add our own line of business (LOB) app for iOS or Android here.
 
