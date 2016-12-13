@@ -6,7 +6,7 @@ description: EMS delivers innovative data loss protection capabilities with Micr
 keywords:
 author: jeffgilb
 manager: swadhwa
-ms.date: 12/19/2016
+ms.date: 12/15/2016
 ms.topic: solution
 ms.prod:
 ms.service: microsoft-intune
