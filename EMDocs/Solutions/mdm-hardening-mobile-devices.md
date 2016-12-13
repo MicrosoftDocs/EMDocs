@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 
@@ -19,10 +19,10 @@ ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -31,7 +31,7 @@ ms.custom: microsoft-intune
 >[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-When creating a configuration baseline for mobile devices to harden its capabilities according to your business needs, make sure that you are balancing usability with security. A very strict hardening template can cause usability and access problems for your employees, which defeats the purpose of helping users be productive by accessing company resources with their devices. 
+When creating a configuration baseline for mobile devices to harden its capabilities according to your business needs, make sure that you are balancing usability with security. A very strict hardening template can cause usability and access problems for your employees, which defeats the purpose of helping users be productive by accessing company resources with their devices.
 
 Also, keep in mind that not all security policies are available for all mobile device platforms. You may need to balance priorities for allowing mobile device platforms in your organization with your security compliance requirements for hardening devices.
 One way to approach mobile device hardening is by having different layers of security. The settings that are available for each layer can also vary, depending on your MDM solution. The figure below shows an example of how this layered approach be set up.
@@ -96,5 +96,5 @@ Hardening the mobile device platform plays an important role in keeping your com
 
 - If your company doesn’t have a current on-premises ConfigMgr infrastructure, it will require resources to plan, install and configure ConfigMgr prior to integration
 
->[!TIP] 
-> Read more about mobile device management settings that you can configure in a Microsoft Intune mobile device security policy at [Mobile device management policy settings for Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
+>[!TIP]
+> Read more about mobile device management settings that you can configure in a Microsoft Intune mobile device security policy at [Mobile device management policy settings for Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx).

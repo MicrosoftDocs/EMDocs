@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 
@@ -19,10 +19,10 @@ ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -49,7 +49,7 @@ The figure below shows how Intune and ConfigMgr use the NDES to provide secure c
 6. NDES sends a certificate issuance request to the CA and it sends the certificate to the NDES role.
 7. NDES role sends the certificate to the device.
 
-Depending on how you answered the questions in Task 3, you should be able to determine how you want certificates managed in the mobile device management solution. Currently, MDM for Office 365 doesn’t support managing certificate profiles for mobile devices. 
+Depending on how you answered the questions in Task 3, you should be able to determine how you want certificates managed in the mobile device management solution. Currently, MDM for Office 365 doesn’t support managing certificate profiles for mobile devices.
 
 The lists below will help you understand the advantages and disadvantages of the certificate profile management for Intune and the hybrid Intune with ConfigMgr deployment scenario:
 
@@ -82,7 +82,7 @@ The lists below will help you understand the advantages and disadvantages of the
 
 **Disadvantages**
 
-- To use certificate profiles, some existing on-premises infrastructure must be in place. 
+- To use certificate profiles, some existing on-premises infrastructure must be in place.
 - You must integrate the following on-premises infrastructure with Intune:
  - A server that runs the Network Device Enrollment Service
  - An Enterprise Certification Authority

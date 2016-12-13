@@ -9,7 +9,7 @@ manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
 ms.prod:
-ms.service: ems
+ms.service: active-directory
 ms.technology: techgroup-identity
 ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 
@@ -21,7 +21,7 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: active-directory, microsoft-identity-manager
+ms.custom: microsoft-identity-manager
 
 ---
 

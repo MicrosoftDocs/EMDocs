@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 
@@ -19,10 +19,10 @@ ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -44,7 +44,7 @@ Before making decisions on how you’ll use a SaaS solution to manage your mobil
 ## Cloud types
 
 *Multi-tenant* SaaS solutions are what are typically called “public” cloud infrastructures. This is when the software architecture of the service is in a single instance, but serves multiple tenants or organizations. The solution is designed to provide every tenant a reserved share of its services, such as user or device management, configuration, and data support. The tenant accounts and services are separated virtually, with each tenant accessing the platform infrastructure in separate instances. Multi-tenant SaaS solutions also typically offer cost-savings earned from sharing the infrastructure and distributing the overhead costs amongst multiple tenants. Most mobile device management platforms are offered in a multi-tenant SaaS platform infrastructure.
-                
+
 *Private*, or dedicated cloud services are instances of SaaS solutions that are operated for a single organization or tenant. These can either be private cloud services hosted by the organization or private cloud services hosted by a 3rd party provider. Private cloud solutions also typically offer greater opportunities for customization, both in the areas of services and security. Some dedicated SaaS solutions offer mobile device management services as a part of larger private cloud tenant options.
 
 *Hybrid* SaaS solutions can offer a combination of either multi-tenant and private cloud infrastructures, or a combination of hosted (either multi-tenant or private) and on-premises cloud infrastructures. A hybrid infrastructure may also include leveraging an external cloud SaaS solution for delivering certain types of services (such as applications), but leveraging internal resources for other types of services. Most SaaS solutions offer the ability to support a hybrid cloud configuration, but may vary significantly on the depth and completeness of integration with on-premises or other hosted cloud platforms.
@@ -97,7 +97,7 @@ As part of SaaS management lifecycle planning, you’ll want to answer the follo
 Since the SaaS infrastructure is cloud-based and hosted across multiple datacenters, resiliency is typically subject to less instability or outages than traditional on-premises hosted services. Multi-location service hosts offer protection against geographic-based outages and service interruptions by using fail-over infrastructure and processes to replicate data across multiple datacenter nodes. Depending on the SaaS solution, access to the service may or may not remain in the original geographic area during a fail-over.
 
 ### Resiliency questions
- 
+
 As part of SaaS management lifecycle planning, you’ll want to answer the following planning questions about cloud resiliency:
 
 - In the event of primary SaaS solution fail-over, how will mobile device management services be impacted?
