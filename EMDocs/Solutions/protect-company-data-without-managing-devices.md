@@ -30,7 +30,7 @@ We live in a mobile world where employees require on the go access to corporate 
 
 ## How can Enterprise Mobility + Security (EMS) help you?
 
-EMS delivers innovative data loss protection capabilities with Microsoft Intune. With it, you can protect company data and preserve the great user experience with Office 365 apps that employees are accustomed to. And you can do it without requiring users to enroll their devices for management--which can significantly increase the chances of success of your BYOD program and end user compliance with IT policies. You get the control you need and users enjoy modern experience they've come to expect. Because Microsoft Intune works directly with Azure Active Directory and Office 365 to manage access and protect company data, there’s no need to install and maintain an on-premises infrastructure or to route all traffic through it.
+EMS delivers innovative data loss protection capabilities with Microsoft Intune. With it, you can protect company data and preserve the great user experience with Office 365 apps that employees are accustomed to. And you can do it without requiring users to enroll their devices for management, which can significantly increase the chances of success of your BYOD program and end user compliance with IT policies. You get the control you need and users enjoy modern experience they've come to expect. Because Microsoft Intune works directly with Azure Active Directory and Office 365 to manage access and protect company data, there’s no need to install and maintain an on-premises infrastructure or to route all traffic through it.
 
 ### Recommended solution
 
@@ -60,7 +60,7 @@ App protection policies are simple to create in the Azure portal that allow you 
 Here’s how easy it is to select apps to protect, configure app protection policy settings, and deploy policy to groups of end users after you log into the Azure portal:
 
 >[!TIP]
->To find the Intune app protection policy settings, just log into [the Azure portal](portal.azure.com) with your Intune administrator credentials and search for **Intune App Protection** in the *Search resources* box at the top of the portal. All of the following steps are completed from there.
+>To find the Intune app protection policy settings, just log into [the Azure portal](https://portal.azure.com) with your Intune administrator credentials and search for **Intune App Protection** in the *Search resources* box at the top of the portal. All of the following steps are completed from there.
 
 -   **Create a mobile app protection policy.** Other than naming (and optionally providing a description) for the policy, all you need to do to [create an app protection policy](https://docs.microsoft.com/intune-azure/manage-apps/app-protection-policies#create-an-app-protection-policy) is to define the platform, select required apps, and configure the policy settings to enforce:
 
@@ -83,7 +83,7 @@ The app protection policy will now begin restricting the sharing of company data
 
 ## Allow only mobile apps that support Intune MAM policies to access Office 365 services
 
-Even without managing devices with Intune, you can configure app conditional access policies that restrict access to Office 365 services to only apps that support Intune’s app protection policies. By default all users and all apps have access to Exchange Online, but you can easily control who and what apps are granted access. For example, right now in [the Azure portal](portal.azure.com) you can create a policy that restricts access to Exchange Online to only certain groups using specific apps like the Outlook app on Android and iOS.
+Even without managing devices with Intune, you can configure app conditional access policies that restrict access to Office 365 services to only apps that support Intune’s app protection policies. By default all users and all apps have access to Exchange Online, but you can easily control who and what apps are granted access. For example, right now in [the Azure portal](https://portal.azure.com) you can create a policy that restricts access to Exchange Online to only certain groups using specific apps like the Outlook app on Android and iOS.
 
 -   **Create an app protection conditional access policy to Exchange Online.** [These policies are created](https://docs.microsoft.com/en-us/intune/deploy-use/mam-ca-for-exchange-online) in the same place as the app protection polices discussed earlier. In addition to defining the apps allowed to access Exchange Online, you’ll also need to define user access groups to manage connections to Exchange Online.
 
