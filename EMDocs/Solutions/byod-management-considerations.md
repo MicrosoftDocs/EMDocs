@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 
@@ -19,10 +19,10 @@ ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: 
 
 ---
 
@@ -115,7 +115,7 @@ For more information about Configuration Manager reporting capabilities, see [In
 
 After new apps are developed and accessed remotely by users using their own devices, app performance might suffer if the solution has not been well planned. Though this design considerations guide does not intend to offer you a deeper look into performance considerations, questions about the management infrastructure must be answered:
 
-- Is the current management solution that your company uses able to manage storage and compute resources for the platform that supports the apps accessed from users’ devices? 
+- Is the current management solution that your company uses able to manage storage and compute resources for the platform that supports the apps accessed from users’ devices?
 - Does the current management solution that your company uses have the capability to increase compute and storage resources for the platform that supports app access from users’ devices according to a set of preestablished rules?
 If the management solution that is currently in place is not capable of addressing those two requirements, consider using a management solution that can manage compute and storage by addressing the two core requirements shown in the following table.
 
@@ -142,7 +142,7 @@ Use the list below to understand the advantages and disadvantages of each storag
 
 System Center 2012 R2 has the capability to use resource pooling and the elasticity to manage storage and compute. System Center 2012 R2 also integrates storage with optimization of differencing disks to reduce storage requirements by allowing a large percentage of disk data to be shared among multiple virtual disks, which optimizes storage costs. Servers that are virtualized using System Center 2012 R2 and will be consumed by apps used by remote users can take advantage of this technology.
 
-For more information about System Center 2012 R2 storage capabilities, see [What's New in VMM in System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx). 
+For more information about System Center 2012 R2 storage capabilities, see [What's New in VMM in System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx).
 
 ## Automation
 
@@ -187,10 +187,10 @@ One challenge in this area is to be able to manage different platforms and prese
 
 For centralized management on-premises, you can use Configuration Manager. By using this option, IT can leverage the Enterprise Enrollment capability to enroll devices with the company’s Configuration Manager Server. For more information about how to manage devices using Configuration Manager, see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
 
-To manage other platforms that are not Windows-based devices, you can leverage the Microsoft Intune cloud service. The Microsoft Intune Company Portal can be used to enroll, manage, and install licensed apps. Users can have easy access to apps and install them on their devices. 
+To manage other platforms that are not Windows-based devices, you can leverage the Microsoft Intune cloud service. The Microsoft Intune Company Portal can be used to enroll, manage, and install licensed apps. Users can have easy access to apps and install them on their devices.
 
->[!TIP] 
->For more information about Microsoft Intune, see [Microsoft Intune page](/intune/understand-explore/introduction-to-microsoft-intune). 
+>[!TIP]
+>For more information about Microsoft Intune, see [Microsoft Intune page](/intune/understand-explore/introduction-to-microsoft-intune).
 
 Though these are two distinct options, you can integrate both in order to provide app deployment and provisioning from a single location. Use the following table to identify which option fits your BYOD design.
 
@@ -200,4 +200,3 @@ Though these are two distinct options, you can integrate both in order to provid
 | Deploy and provision apps to devices located outside the company.   | Microsoft Intune                                       |
 | Deploy and provision apps to non-Windows devices.                   | Microsoft Intune                                       |
 | Deploy and provision apps to devices located on-premises only, deploy and provision apps to devices located outside the company or deploy and provision apps to non-Windows devices.       | Microsoft Intune integrated with Configuration Manager
-                                                                    

@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 
@@ -19,10 +19,10 @@ ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: 
 
 ---
 
@@ -32,7 +32,7 @@ After clearly defining the BYOD problem you are trying to solve, you can begin t
 
 ## Solution definition
 
-To solve the problems previously identified and assist organizations to encourage users to bring their own devices to work and access corporate data with their devices, a company must switch from a device-centric IT approach to a people-centric IT approach. The design considerations in this guide can be used when defining your own BYOD infrastructure solution to: 
+To solve the problems previously identified and assist organizations to encourage users to bring their own devices to work and access corporate data with their devices, a company must switch from a device-centric IT approach to a people-centric IT approach. The design considerations in this guide can be used when defining your own BYOD infrastructure solution to:
 
 - Provide users the flexibility to use their own devices to access corporate apps and data.
 - Manage devices that are accessing corporate resources when on-premises and from the cloud.
@@ -56,4 +56,3 @@ The considerations regarding the BYOD problem domain presented in this guide wil
 - [Data access and protection requirements](byod-data-access-protection-reqs.md)
 - [Management requirements](byod-management-reqs.md)
 - [Apps requirements](byod-app-reqs.md)
-

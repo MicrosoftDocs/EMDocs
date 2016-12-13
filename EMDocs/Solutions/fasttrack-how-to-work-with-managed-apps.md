@@ -4,19 +4,19 @@
 title: How to use mobile applications that your organization manages
 description: How to use mobile apps managed by your organization
 keywords:
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 174348f0-dbc6-4204-8626-3c6f38b7bbde
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer:

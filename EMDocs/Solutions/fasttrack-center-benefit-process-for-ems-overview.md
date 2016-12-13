@@ -4,19 +4,19 @@
 title: Overview
 description: Overview
 keywords:
-author: staciebarker
-ms.author: stabar
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer:

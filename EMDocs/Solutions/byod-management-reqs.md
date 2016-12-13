@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 
@@ -19,10 +19,10 @@ ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom:
 
 ---
 
@@ -103,4 +103,3 @@ Management requirements questions are categorized in seven areas:
 - Are personal devices registered with the company by IT, or are they registered personally?
 - Will a plan be in place to allow users to provision services using their own devices?
 	- If so, does the management system natively enable users to perform this operation from their devices?
-

@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
 
@@ -19,10 +19,10 @@ ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -35,7 +35,7 @@ The main reason for implementing a mobile device management solution is usually 
 
 You follow a similar process to configure email management options in Intune, and hybrid Intune and ConfigMgr deployments. The primary difference is that you can implement more advanced email management options than you can in MDM for Office 365. For example, using Intune standalone, you can configure conditional email access to allow access mailboxes hosted on both Exchange Online and Exchange on-premises, as well as configure customized email profiles. Intune enables these features by using configuration and compliance policies.  Hybrid Intune and ConfigMgr deployments also supports conditional email access, but only for mailboxes hosted on Exchange Online
 
-In the scenario shown below in Figure 6, the user has enrolled their device in Intune and is now trying to access their corporate email using Office 365 or Exchange on-premises. Based on the settings defined by the IT administrator at their company, Intune runs a policy verification process. In this scenario, the user’s access is granted if the device is encrypted, a passcode is set, and the device isn’t jail broken or rooted. If a user tries to access corporate email and their device is not enrolled, or not compliant based upon settings defined by the IT admin, the user will receive an email explaining why their access has been blocked along with steps for how to resolve the issue. 
+In the scenario shown below in Figure 6, the user has enrolled their device in Intune and is now trying to access their corporate email using Office 365 or Exchange on-premises. Based on the settings defined by the IT administrator at their company, Intune runs a policy verification process. In this scenario, the user’s access is granted if the device is encrypted, a passcode is set, and the device isn’t jail broken or rooted. If a user tries to access corporate email and their device is not enrolled, or not compliant based upon settings defined by the IT admin, the user will receive an email explaining why their access has been blocked along with steps for how to resolve the issue.
 
 ![Conditional access](./media/MDM_Figure_06.png)
 
@@ -67,7 +67,7 @@ Your answers to the questions in Step 1 can help you determine how you want devi
 
 **Disadvantages**
 
-- Some advanced email management options aren’t supported 
+- Some advanced email management options aren’t supported
 - Deploying email profiles isn’t supported (except iOS)
 
 ## Hybrid (Intune with ConfigMgr)

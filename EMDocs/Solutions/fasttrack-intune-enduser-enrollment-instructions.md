@@ -4,19 +4,19 @@
 title: End-user Intune enrollment instructions for IT admins
 description: End user Intune enrollment instructions for IT administrators
 keywords:
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer:
