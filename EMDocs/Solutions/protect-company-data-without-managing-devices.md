@@ -44,11 +44,11 @@ Watch this demo to see how you can prevent data loss from mobile apps (including
 
 The rest of this solution is divided into the following sections that show you how to protect Office 365 company data with Intune:
 
-- **Protect app data with Intune mobile application protection policies**. This section describes how to create and deploy Microsoft Intune application protection policies to provide data loss prevention capabilities (like copy/paste/save as/PIN/encryption/selective wipe/etc.) to users of unmanaged mobile devices.
+- **Protect app data with Intune mobile app protection policies**. This section describes how to create and deploy Microsoft Intune application protection policies to provide data loss prevention capabilities (like copy/paste/save as/PIN/encryption/selective wipe/etc.) to users of unmanaged mobile devices.
 
-- **Allow only mobile apps that support Intune MAM policies to access Office 365 services**. In this section you learn how create a policy that allows only mobile apps that support Intune MAM policies to access O365 services like Exchange Online.
+- **Allow only mobile apps that support app protection policies to access Office 365 services**. In this section you learn how create a policy that allows only mobile apps that support Intune MAM policies to access O365 services like Exchange Online.
 
-## Protect app data with Intune mobile application protection policies
+## Protect app data with Intune mobile app protection policies
 
 When protecting app data on unmanaged devices, you don’t deploy apps like you would with managed devices. Instead, users download Office 365 apps from the public app store on their personal iOS or Android devices and then log in with their work accounts just like usual.
 
@@ -81,7 +81,7 @@ Because app protection polices work at the application instead of device level, 
 >[!TIP]
 >For highly confidential data, protection can be extended even further to the file level with the protection technology used by Azure Information Protection: [Azure Rights Management (Azure RMS).](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
-## Allow only mobile apps that support Intune MAM policies to access Office 365 services
+## Allow only mobile apps that support app protection policies to access Office 365 services
 By default, all users and all apps have access to company information hosted by Exchange Online. With Intune you can easily control who and what apps are granted access by configuring app conditional access policies that restrict access to Office 365 services to only apps that support Intune’s app protection policies. For example, from [the Azure portal](https://portal.azure.com) you can create a policy that restricts access to Exchange Online to only certain groups and apps on Android and iOS whether the device is managed or not.
 
 - **Create an app protection conditional access policy to Exchange Online.** [These policies are created](https://docs.microsoft.com/intune/deploy-use/mam-ca-for-exchange-online) in the same place as the app protection polices discussed earlier. In addition to defining the apps allowed to access Exchange Online, you’ll also need to define user access groups to manage connections to Exchange Online.
