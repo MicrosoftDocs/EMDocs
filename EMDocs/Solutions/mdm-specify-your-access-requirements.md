@@ -8,9 +8,9 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 1cdc3cdf-cb71-46d5-99fd-05ec96771b81
 
@@ -19,10 +19,10 @@ ms.assetid: 1cdc3cdf-cb71-46d5-99fd-05ec96771b81
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -31,13 +31,13 @@ ms.custom: microsoft-intune
 >[!NOTE]
 >This topic is part of a larger design considerations guide. If you'd like to start at the beginning of the guide, check out the [main topic](mdm-design-considerations-guide.md). To get a downloadable copy of this entire guide, visit the [TechNet Gallery](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-A mobile device that can’t use apps or access company data that is needed to perform work isn’t useful for your employees. So it’s critical to understand how the data will travel from the source location (on-premises or cloud) to the mobile device. 
+A mobile device that can’t use apps or access company data that is needed to perform work isn’t useful for your employees. So it’s critical to understand how the data will travel from the source location (on-premises or cloud) to the mobile device.
 
 The data will travel to and from mobile devices, and the considerations that should be in place for each path. Many companies that have security policies in place haven’t considered how mobile devices can increase the likelihood that corporate data might be leaked. So review your current company policies to ensure that the requirements you develop for authentication, authorization, and access control are aligned with your business requirements.
- 
+
 Answer the following questions to help determine the access requirements for mobile devices:
 
-- Authentication and authorization: As part of the strategy to allow your users to access to company data from mobile devices, you must identify which users are eligible for access. Some companies decide to initially allow data access for just a portion of their users, and then grant access to other employees as they request it, based on business need. To restrict access, your solution must authenticate (identify that the user is who they claim to be) and authorize (evaluate if the user should have access to the data that they are requesting) according to your company’s policy. 
+- Authentication and authorization: As part of the strategy to allow your users to access to company data from mobile devices, you must identify which users are eligible for access. Some companies decide to initially allow data access for just a portion of their users, and then grant access to other employees as they request it, based on business need. To restrict access, your solution must authenticate (identify that the user is who they claim to be) and authorize (evaluate if the user should have access to the data that they are requesting) according to your company’s policy.
 
 When designing your MDM solution, consider the following:
 
@@ -65,4 +65,4 @@ When designing your MDM solution, consider the following:
 	- If yes, does the MDM solution allow you to enable/disable application’s feature according to the user’s identity?
 	- If yes, does the MDM solution allow you to manage device attestation?
 
-Read the [Secure access to company resources from any location on any device](https://technet.microsoft.com/library/dn550982) to better understand how to leverage built in Windows Server 2012 R2 capabilities in conjunction with ConfigMgr to provide access to your company resources. 
+Read the [Secure access to company resources from any location on any device](https://technet.microsoft.com/library/dn550982) to better understand how to leverage built in Windows Server 2012 R2 capabilities in conjunction with ConfigMgr to provide access to your company resources.

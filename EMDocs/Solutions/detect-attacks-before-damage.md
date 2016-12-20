@@ -9,8 +9,8 @@ manager: swadhwa
 ms.date: 12/7/2016
 ms.topic: solution
 ms.prod:
-ms.service: ems
-ms.technology: techgroup-identity
+ms.service: active-directory
+ms.technology: 
 ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 
 # optional metadata
@@ -21,7 +21,7 @@ ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 ms.reviewer: v-craic
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: active-directory, advanced-threat-analytics, cloud-app-security
+ms.custom: advanced-threat-analytics, cloud-app-security
 
 ---
 

@@ -2,15 +2,15 @@
 # required metadata
 
 title: Design considerations
-description: This article provides a set of design considerations for products and technologies in a Bring Your Own Device scenario. 
+description: This article provides a set of design considerations for products and technologies in a Bring Your Own Device scenario.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 
@@ -19,10 +19,10 @@ ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: 
 
 ---
 
@@ -52,7 +52,7 @@ Microsoft products, technologies, and services for a BYOD infrastructure solutio
 - Active Directory Federation Services (AD FS)
 - Dynamic Access Control
 - Microsoft Rights Management service
-- Azure Information Protection 
+- Azure Information Protection
 - SMB Encryption
 - Single Sign-On (SSO)
 - Work Folders
@@ -84,5 +84,3 @@ The sections that follow outline the design process, but as mentioned in Envisio
 The remainder of the document addresses design considerations and the products, technologies, and services listed in the preceding table. When multiple Microsoft products, technologies, and services can be used to address different design considerations, the tradeoffs among them are discussed.
 
 The infrastructure design to support BYOD brings together the answers to the questions that were presented previously in this article and the technology capabilities and options that are made available to you. The design that is discussed in this document uses Microsoft-based technology. However, the design options and considerations can be applied to any infrastructure used to embrace the BYOD model.
-
-

@@ -2,15 +2,15 @@
 # required metadata
 
 title: BYOD Design Considerations Guide
-description: This article provides an introduction to Bring Your Own Device adoption, and overview of design considerations process. 
+description: This article provides an introduction to Bring Your Own Device adoption, and overview of design considerations process.
 keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 
@@ -19,10 +19,10 @@ ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: 
 
 ---
 
@@ -43,26 +43,26 @@ This guide provides the system architect and system designer with a collection o
 ## Intended audience
 
 The primary audience for this guide is the system architect or system designer who is interested in understanding the issues that need to be considered before implementing a BYOD infrastructure. Others who might be interested in this guide include IT implementers, enterprise security specialists, and device management specialists.</para>
-    
+
 ## Purpose
-  
+
 The purpose of this guide is:
 
 1. To provide the system architect or system designer a collection of issues and questions to be answered. The answers to these questions can serve as the requirements for a BYOD infrastructure design.
-2. To provide the system architect or system designer a collection of design options that can be evaluated and chosen based on identified requirements. 
+2. To provide the system architect or system designer a collection of design options that can be evaluated and chosen based on identified requirements.
 
 Though the questions can be used with any vendor, examples of available options will focus on capabilities within Windows Server 2012 R2, System Center 2012 R2, and Windows Intune
 
 In addition, this guide includes:
 
-- Vendor-agnostic design considerations to adapt an infrastructure to enable the BYOD model. 
+- Vendor-agnostic design considerations to adapt an infrastructure to enable the BYOD model.
 - Design considerations for users, devices, management platforms, apps, and data access and protection.
 
 Before embarking on a BYOD model in a production environment, security, availability, performance, and scalability issues need to be considered in the areas of networking, storage, compute, and identity. There is a tendency to want to embrace BYOD before there is a concrete analysis of the current environment and what needs to be done to securely enable users to work from any device anywhere.
 
 It is *not* the purpose of this guide to:
 
-- Provide a performance baseline for the infrastructure components of a BYOD model. 
+- Provide a performance baseline for the infrastructure components of a BYOD model.
 - Provide performance tuning and best practices for the infrastructure components of BYOD.
 - Provide app development guidance for mobile devices.
 - Provide app development best practices for mobile devices.
@@ -80,4 +80,3 @@ The following problems or challenges are typically the ones encountered by compa
 Organizations with a large infrastructure need to determine requirements before shifting from managing devices themselves—which assumes that IT has total control of devices—to a model in which IT must assume that it has less control of devices and at the same time needs to address users’ needs to access corporate data. This is often referred to as a switch from device-centric to people-centric IT. The same considerations and requirements must also be carefully planned for existing and new apps or for moving existing apps into a cloud environment. Figure 1 includes a conceptual diagram of the BYOD problem domain and the areas that will be covered in this guide.
 
 ![Problem Domain](./media/BYOD_Figure1.png)
-

@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 
@@ -19,10 +19,10 @@ ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -45,7 +45,7 @@ The lists below outline the advantages and disadvantages of managing wireless an
 
 **Advantages**
 
-- Supports wireless and VPN profiles on all major mobile device operating systems (Android, iOS, Windows 10, Windows 8.x, and Windows Phone) 
+- Supports wireless and VPN profiles on all major mobile device operating systems (Android, iOS, Windows 10, Windows 8.x, and Windows Phone)
 - Supports industry leading VPN connection types, including Cisco, Juniper, Dell SonicWall, Checkpoint, and others
 - Wireless and VPN profiles can be integrated with SCEP certificate profiles for increased security
 - Supports configuring customized wireless and VPN profiles for different types of users, devices, device operating systems, or user groups and roles
@@ -70,7 +70,7 @@ Support for Wi-Fi and VPN policies aren't supported in MDM for Office 365.
 
 **Disadvantages**
 
-- To support VPN profiles, you’ll need to deploy and maintain an on-premises VPN infrastructure 
+- To support VPN profiles, you’ll need to deploy and maintain an on-premises VPN infrastructure
 - Specific security permissions must be granted to manage [Wi-Fi profiles](https://technet.microsoft.com/library/dn408646.aspx) and [VPN profiles](https://technet.microsoft.com/library/dn408643.aspx) in ConfigMgr
 
 Explore the details about mobile device email configuration management options by reviewing the following:

@@ -4,19 +4,19 @@
 title: Source environment expectations
 description: Source environment requirements for using the FastTrack Center Benefit
 keywords:
-author: staciebarker
-ms.author: stabar
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer:

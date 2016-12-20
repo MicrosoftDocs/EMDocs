@@ -8,9 +8,9 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod:
-ms.service: 
+ms.service: microsoft-intune
 ms.technology:
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 
@@ -19,10 +19,10 @@ ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
-ms.custom: microsoft-intune
+#ms.custom: microsoft-intune
 
 ---
 
@@ -34,7 +34,7 @@ ms.custom: microsoft-intune
 
 Enrolling devices in Microsoft Intune, whether standalone or when connected to System Center 2012 R2 Configuration Manager (ConfigMgr), requires that you prepare the service for the devices. Enrolling mobile devices in MDM for Office 365 also requires that you activate MDM, configure basic settings, and include each user in a [security policy](https://technet.microsoft.com/library/ms.o365.cc.newdevicepolicy.aspx) respond to an enrollment message the next time they sign in to Office 365 on their mobile device. They must complete the enrollment and activation steps on each mobile device they will use to access Office 365 email and documents.
 
-Intune standalone needs to be configured to define the Mobile Device Management Authority solution, which can be either Intune or an on-premises ConfigMgr infrastructure. This simply means “which management platform do you want to use to manage Intune-enrolled devices – Intune *or* ConfigMgr?” It’s *very important* to understand the [impact of choosing the best option](/Intune/deploy-use/enroll-devices-in-microsoft-intune) for your organization, as the management solution cannot be easily changed once chosen. If you need to change this configuration later, you’ll have to contact Microsoft Support for assistance. For Office 365 tenants, you can more easily designate and change the MDM authority between MDM for Office 365 and Intune. You can easily switch the user-level management authority by changing the license assignment for a user. 
+Intune standalone needs to be configured to define the Mobile Device Management Authority solution, which can be either Intune or an on-premises ConfigMgr infrastructure. This simply means “which management platform do you want to use to manage Intune-enrolled devices – Intune *or* ConfigMgr?” It’s *very important* to understand the [impact of choosing the best option](/Intune/deploy-use/enroll-devices-in-microsoft-intune) for your organization, as the management solution cannot be easily changed once chosen. If you need to change this configuration later, you’ll have to contact Microsoft Support for assistance. For Office 365 tenants, you can more easily designate and change the MDM authority between MDM for Office 365 and Intune. You can easily switch the user-level management authority by changing the license assignment for a user.
 
 For most organizations that are already using ConfigMgr to manage PCs, servers, and other devices, connect the on-premises solution with Intune and managing devices with ConfigMgr is usually the best choice. To assign the mobile device management authority to ConfigMgr, you need to create an [Intune subscription](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) and select the option to allow ConfigMgr to manage the Intune subscription and Intune-enrolled devices. The Intune subscription can also be created [from within the ConfigMgr console](https://technet.microsoft.com/library/jj884158.aspx).
 
