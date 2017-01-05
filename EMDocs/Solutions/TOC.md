@@ -94,11 +94,6 @@
 #### [Onboarding and migration phases](fasttrack-center-benefit-process-for-ems-phases.md)
 #### [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 #### [Your responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-### [How to set up your preferred method for additional security verification](fasttrack-how-to-enroll-in-mfa.md)
-### [How to manage your own password](fasttrack-how-to-manage-your-password.md)
-### [End user Intune enrollment instructions for IT admins](fasttrack-intune-enduser-enrollment-instructions.md)
-### [How to use apps with multi-identity support](fasttrack-how-to-use-apps-with-multi-identity-support.md)
-### [How to use mobile apps managed by your organization](fasttrack-how-to-work-with-managed-apps.md)
 
 ## [Downloadable Software licenses included with EMS](subscription-might-include-downloadable-software.md)
 ## [EMS Support Frequently Asked Questions](ems-support-faq.md)
