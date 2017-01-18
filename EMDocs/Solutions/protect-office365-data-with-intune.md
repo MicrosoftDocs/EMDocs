@@ -6,7 +6,7 @@ description: Together, EMS and Office 365 offer a complete managed mobile produc
 keywords:
 author: jeffgilb
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 1/18/2017
 ms.topic: solution
 ms.prod:
 ms.service: microsoft-intune
@@ -34,7 +34,7 @@ EMS is the only solution that is designed to natively protect Microsoft Office e
 Office 365 is designed for employees who want the flexibility to take their work with them, wherever they go, without sacrificing the user experience. Together, EMS and Office 365 offer a complete managed mobile productivity solution that equips your users with the gold standard of productivity and your IT staff with deeply integrated data controls.
 
 ### Recommended solution
-Using Intune, the *"management arm"* of EMS, you can easily provide employees access to company applications, data, and resources from virtually anywhere on any device, while helping to keep corporate information safe and secure at the same time. In addition to just being easier, Intune is also a more modern and cost effective way to protect company data than most traditional on-premises solutions. With Intune securing Office 365 data, there’s no need to install and maintain any on-premises infrastructure or open your company firewall to route traffic through it.
+Using Intune you can easily provide employees access to company applications, data, and resources from virtually anywhere on any device, while helping to keep corporate information safe and secure at the same time. In addition to just being easier, Intune is also a more modern and cost effective way to protect company data than most traditional on-premises solutions. With Intune securing Office 365 data, there’s no need to install and maintain any on-premises infrastructure or open your company firewall to route traffic through it.
 
 Here's a short video to give you a quick introduction to how Intune and Office 365 work together to provide a seamless experience for employees to access your company data securely from iOS, Android, and Windows devices:
 

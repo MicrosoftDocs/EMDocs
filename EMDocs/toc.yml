@@ -10,11 +10,11 @@
       href: /enterprise-mobility-security/solutions/
       homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
     - name: Azure RemoteApp
-      href: /remoteapp/
-      homepage: /remoteapp
+      href: /azure/remoteapp/
+      homepage: /azure/remoteapp/remoteapp-whatis
     - name: Azure Active Directory
-      href: /active-directory/
-      homepage: /active-directory
+      href: /azure/active-directory/
+      homepage: /azure/active-directory
       items:
         - name: Current 
           href: /active-directory/adal/ 
@@ -29,8 +29,8 @@
           href: /azure-ad-graph-api/api/
           homepage: /azure-ad-graph-api/api/api-catalog
     - name: Multi-factor Authentication
-      href: /multi-factor-authentication/
-      homepage: /multi-factor-authentication
+      href: /azure/multi-factor-authentication/
+      homepage: /azure/multi-factor-authentication
     - name: Cloud App Security
       href: /cloud-app-security/
       homepage: /cloud-app-security
