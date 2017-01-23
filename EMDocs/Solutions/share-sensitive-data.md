@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Share sensitive data internally and externally | Azure Information Protection
+title: Share sensitive data internally and externally | Microsoft Docs
 description: A scenario that describes how Enterprise Mobility + Security can be used to share sensitive data internally and externally by leveraging Microsoft Azure Information Protection capabilities.
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod:
 ms.service: rights-management
@@ -29,11 +29,11 @@ ms.suite: ems
 
 While many data breaches are due to cyberattacks, experts agree that many more are the result of human error, otherwise known as “oops” moments that happen when employees inadvertently leak sensitive business data. With the right security information and data loss prevention protocols in place, nearly all of these kinds of breaches are avoidable.
 
-For business and users, data sharing is inevitable and while this is necessary, it also creates one of the biggest challenges in the industry, which is: how to enable data sharing across different devices while reducing leakage of data shared with others? The threat landscape is even broader when you need to share sensitive data with external sources, like partners, customers and other parties. 
+For business and users, data sharing is inevitable and while this is necessary, it also creates one of the biggest challenges in the industry, which is: how to enable data sharing across different devices while reducing leakage of data shared with others? The threat landscape is even broader when you need to share sensitive data with external sources, like partners, customers and other parties.
 
 ![Diagram](./media/share-sensitive-data/share-sensitive-data-fig1.png)
 
-In this context, it is a common scenario for enterprises to have projects where they need to enable employees to collaborate internally across data silos and externally with third-party vendors, while aligning security protocols to the business and influence end-user behavior in data classification and protection processes. 
+In this context, it is a common scenario for enterprises to have projects where they need to enable employees to collaborate internally across data silos and externally with third-party vendors, while aligning security protocols to the business and influence end-user behavior in data classification and protection processes.
 
 ## How can Enterprise Mobility + Security help you?
 
@@ -55,7 +55,7 @@ Some of the capabilities available with this solutions are described below:
 
 To configure Exchange Online to support Azure RMS, you must configure the information rights management (IRM) service for Exchange Online. Follow these steps to implement this solution:
 
-1. Integration with Exchange: 
+1. Integration with Exchange:
 	- Exchange Online: Enable Exchange Online to use Azure RMS
 	- Exchange On-premises: Deploying the Azure Rights Management connector
 2. Send a Protected Office Document Using Exchange
@@ -66,7 +66,7 @@ Companies need to need to enable employees to collaborate internally across data
 
 ### Step 1: Integration with Exchange
 
-Rights Management protection is applied to email by applying an Azure Rights Management policy template to an email message. The first step to enable this integration to take place will vary according to where you Exchange is located: in the cloud (Exchange online) or on-premises. 
+Rights Management protection is applied to email by applying an Azure Rights Management policy template to an email message. The first step to enable this integration to take place will vary according to where you Exchange is located: in the cloud (Exchange online) or on-premises.
 
 #### Enable Rights Management Integration with Exchange Online
 
@@ -98,5 +98,5 @@ On top of this window you must type the target user’s email, and select the ty
 
 ![EMail](./media/share-sensitive-data/share-sensitive-data-fig5.png)
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Watch [Collaborate securely using Azure Information Protection](https://myignite.microsoft.com/videos/49947) presentation from Microsoft Ignite for more information about this scenario.
