@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Protect on-premises company data with Microsoft Intune | Microsoft Docs
+title: Protect on-premises data with Microsoft Intune | Microsoft Docs
 description: With Enterprise Mobility + Security (EMS) you'll be able to keep your employees productive with their favorite apps and devices while also keeping your on-premises company data protected.
 keywords:
 author: jeffgilb
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod:
 ms.service: microsoft-intune
