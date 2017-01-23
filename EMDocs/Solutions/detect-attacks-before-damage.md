@@ -1,16 +1,16 @@
 ---
 # required metadata
 
-title: Detect attacks before they cause damage | Azure Active Directory Information Protection
+title: Detect attacks before they cause damage | Microsoft Docs
 description: A scenario that describes how Enterprise Mobility + Security can be used to protect corporate data from attacks before they cause damage by leveraging Advanced Threats Analytics, Cloud App Security, and Azure Active Directory Premium.
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod:
 ms.service: active-directory
-ms.technology: 
+ms.technology:
 ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 
 # optional metadata

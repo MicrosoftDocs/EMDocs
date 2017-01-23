@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Secure data using classification, labeling and protection | Azure Information Protection
+title: Secure data using classification, labeling and protection | Microsoft Docs
 description: A scenario that describes how Enterprise Mobility + Security can be used to classify, label and protect data by leveraging Microsoft Azure Information Protection capabilities.
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/17
 ms.topic: solution
 ms.prod:
 ms.service: rights-management
@@ -25,15 +25,15 @@ ms.suite: ems
 
 ---
 
-# Secure data using classification, labeling and protection 
+# Secure data using classification, labeling and protection
 
 Nowadays information sharing is taking place from multiple devices and across organizational boundaries.  It becomes imperative to ensure that critical corporate data is not compromised in this process while enabling users to securely share what’s important for them to perform their jobs. With trends such as outsourcing, you may need to share company confidential data with contractors and vendors. Because not all content needs the same protection, companies are challenged to identify which data needs protection and which data does not.
 
 Continue reading to learn more about how Enterprise Mobility + Security helps address this scenario.
 
 ## How can Enterprise Mobility + Security help you?
- 
-Enterprise Mobility + Security (EMS) is the only comprehensive cloud solution that protects corporate data on the device itself and beyond with four layers of protection across identities, devices, apps, and data. EMS helps you solve one of the key challenges in the mobile-first, cloud-first world – how to deliver secure data to employees on-the-go. With EMS, you will enable your employees to collaborate securely within and outside of your organization. EMS allows IT Administrators to leverage Azure Information Protection to help securing corporate data at the file level. By using this capability, they can rest assured the data is always protected–regardless of where it’s stored, with whom it’s shared, and whether it’s at rest or in transit. 
+
+Enterprise Mobility + Security (EMS) is the only comprehensive cloud solution that protects corporate data on the device itself and beyond with four layers of protection across identities, devices, apps, and data. EMS helps you solve one of the key challenges in the mobile-first, cloud-first world – how to deliver secure data to employees on-the-go. With EMS, you will enable your employees to collaborate securely within and outside of your organization. EMS allows IT Administrators to leverage Azure Information Protection to help securing corporate data at the file level. By using this capability, they can rest assured the data is always protected–regardless of where it’s stored, with whom it’s shared, and whether it’s at rest or in transit.
 
 ## Recommended solution
 
@@ -78,23 +78,23 @@ When planning to implement information protection policies and labels, use the f
 
 - Classify data based on sensitivity
 - Start with the data that is most sensitive
-- IT can set automatic rules; users can complement it 
+- IT can set automatic rules; users can complement it
 - Associate actions such as visual markings and protection
 
 The following diagram has an example of how this could be implemented:
 
 ![Classification](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
-Azure Information Protection comes with default labels, however you can [customize](/information-protection/deploy-use/configure-policy-new-label.md) and create your own labels or sub-labels that users see on the Information Protection bar. 
+Azure Information Protection comes with default labels, however you can [customize](/information-protection/deploy-use/configure-policy-new-label.md) and create your own labels or sub-labels that users see on the Information Protection bar.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Labels are metadata written to documents. Labels are in clear text so that other systems such as a DLP engine can read it.
 
 In the following example, you can see custom sub-labels that were created under the **Secret** label:
 
 ![Label](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
-Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](/information-protection/deploy-use/configure-policy-new-label.md). 
+Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](/information-protection/deploy-use/configure-policy-new-label.md).
 
 ### Step 3: Implement content based automatic classification
 

@@ -1,12 +1,12 @@
 ---
 # required metadata
 
-title: Protect company data without managing devices with Intune | Microsoft Docs
+title: Protect company data without managing devices | Microsoft Docs
 description: EMS delivers innovative data loss protection capabilities with Microsoft Intune. With it, you can protect company data and preserve the great user experience with Office 365 apps that employees are accustomed to without managing their devices.
 keywords:
 author: jeffgilb
 manager: swadhwa
-ms.date: 12/15/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod:
 ms.service: microsoft-intune
