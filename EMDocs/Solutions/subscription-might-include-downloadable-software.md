@@ -1,13 +1,13 @@
 ---
 # required metadata
 
-title: Your paid Microsoft Intune or Enterprise Mobility subscription might include a license to use certain downloadable software | Microsoft Intune
+title: Enterprise Mobility downloadable software | Microsoft Docs
 description:
 keywords:
 author: NathBarn
 ms.author: nathbarn
-manager: jeffgilb
-ms.date: 06/08/2016
+manager: angrobe
+ms.date: 01/23/2017
 ms.topic: article
 ms.prod:
 ms.service: ems
@@ -26,7 +26,7 @@ ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
 
 # Your paid Microsoft Intune or Enterprise Mobility subscription might include a license to use certain downloadable software
 
-The following software might be included in your paid Microsoft Online Services subscription.  You can confirm which software you are licensed for by reviewing your agreement terms.
+Your paid Microsoft Intune or Enterprise Mobility subscription might include a license to use certain downloadable software. You can confirm which software you are licensed for by reviewing your agreement terms.
 
 | **Microsoft Service**    | **On-premises software**           |
 | ------------- |-------------|
