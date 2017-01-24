@@ -359,7 +359,7 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-6.svg" alt="EMS Support FAQ" />
+                                                        <img data-scaleimage="images/ems_solutions-5.svg" alt="EMS Support FAQ" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
