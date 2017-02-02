@@ -108,22 +108,13 @@ In a situation where the IT administrator doesn’t control the device or the id
 
 It is not possible to completely stop a malicious external recipient with authorized access to the protected content. Azure Information Protection helps establish ethical boundaries and with the use of enlightened applications helps keep people honest on how they access the document. Azure Information Protection helps when there is implicit trust within the defined boundary of access given based on identity.
 
-However, detecting and mitigating future access is simpler. The [Document Tracking](/information-protection/rms-client/client-track-revoke.md) feature of the Azure Information Protection service can track access and the organization can act by revoking access to the specific document or revoking the access of the user, where an escalation is suspected.
+However, detecting and mitigating future access is simpler. The [Document Tracking](/information-protection/rms-client/client-track-revoke.md) feature of the Azure Information Protection service can track access and the organization can act by revoking access to the specific document or revoking the access of the user.
 
 If the content is very sensitive and the organization cannot trust the recipient, additional security of the content becomes paramount. The recommendation is to turn the dial in favor of security and place access controls on the document. Azure Information Protection does make it harder for trust-based attacks to take place by enabling [conditional access rules](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/27/protect-your-data-at-the-front-door-with-conditional-access-from-enterprise-mobility-security/), as shown in the following examples:
 
 - Deny access to *Highly Confidential* documents that are not on domain-joined machines. 
 - Deny access to *Secret documents* on unmanaged devices.
 - Require [multi-factor authentication](https://azure.microsoft.com/services/multi-factor-authentication/) for access to protected emails/documents
-
-## More to come
-
-Fortunately, this is not where Azure Information Protection stops as a product. We have been adding new functionality over the years and will continue to improve the security aspects of Azure Information Protection. Here is a sample of what’s coming up:
-
-- **Access throttling**:  to prevent bulk decryption by a malicious user, the Azure Information Protection administrator can set a throttle on the number of decrypt operations done in a day. If the number exceeds the admin-defined threshold, access can be denied and/or the admin is alerted.
-- **Improving integrity checks**:  this is specifically aimed at mitigating some attacks based on the document content and integrity of the original protected content
-- **Enabling conditional access**:  by having the right rules in place, Azure Information Protection will help ensure that the most important content always gets a stronger ‘client environment check’. 
-
 
 ## Summary
 
