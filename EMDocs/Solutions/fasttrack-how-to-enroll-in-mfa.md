@@ -7,7 +7,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 09/28/2016
+ms.date: 02/01/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -41,8 +41,8 @@ Using the enrollment process, you will be able to specify your preferred method 
 
 |Method|Description|
 |------------|----------------------------------|
-|[Mobile Phone Call](#mobile-phone-(text-or-call))|Places an automated voice call to the authentication phone number. The user answers the call and presses # in the phone keypad to authenticate. This phone number will not be synchronized to the on-premises Active Directory.|
-|[Mobile Phone Text Message](#mobile-phone-(text-or-call))|Sends a text message containing a verification code to the user. The user is prompted to either reply to the text message with the verification code or to enter the verification code into the sign-in interface.|
+|[Mobile Phone Call](#mobile-phone)|Places an automated voice call to the authentication phone number. The user answers the call and presses # in the phone keypad to authenticate. This phone number will not be synchronized to the on-premises Active Directory.|
+|[Mobile Phone Text Message](#mobile-phone)|Sends a text message containing a verification code to the user. The user is prompted to either reply to the text message with the verification code or to enter the verification code into the sign-in interface.|
 |[Office Phone Call](#office-phone-call)|Places an automated voice call to the user. The user answers the call and presses # in the phone keypad to authenticate.|
 |[Mobile App](#mobile-application)|Pushes a notification to the Azure Authenticator mobile app on the user’s smartphone or tablet. The user taps Verify in the app to authenticate. Alternately, the app can also be used as an OTP token for offline authentication. The user enters the token into the sign-in screen to authenticate.|
 
@@ -54,8 +54,8 @@ _The Azure Authenticator app can operate in two different modes to provide the a
 The Azure Authenticator app is available for [Windows Phone](http://www.windowsphone.com/en-us/store/app/azure-authenticator/03a5b2bf-6066-418f-b569-e8aecbc06e50), [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator),
 and [IOS](https://itunes.apple.com/us/app/azure-authenticator/id983156458).
 
-## Mobile Phone (Text or Call)
-If you want to use your mobile phone as your primary contact method, you can use the following steps. They will walk you through setting up multi-factor authentication to use your mobile phone for either a call or text as your contact method.
+## Mobile Phone
+If you want to use your mobile phone (text or call) as your primary contact method, you can use the following steps. They will walk you through setting up multi-factor authentication to use your mobile phone for either a call or text as your contact method.
 
 1. Under **Step 1: How should we contact you?** select **Authentication phone**.
 
