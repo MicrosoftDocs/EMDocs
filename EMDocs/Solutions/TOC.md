@@ -1,7 +1,7 @@
 # Solutions
 ## [Learn about Enterprise Mobility + Security](learn-about-ems.md)
 ## [Start using Enterprise Mobility + Security](ems-get-started.md)
-## [Identity and Access Management](manage-access-at-scale.md)
+## [Identity and Access Management](thousands-apps-one-identity.md)
 ### [Thousands of apps, one identity](thousands-apps-one-identity.md)
 ### [Enable business without borders](enable-business-without-borders.md)
 ### [Manage access at scale](manage-access-at-scale.md)
@@ -14,6 +14,7 @@
 ### [Secure data using classification, labeling, and protection](infoprotect-secure-classify-scenario.md)
 ### [Share sensitive data internally and externally](share-sensitive-data.md)
 ### [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario.md)
+### [Role of Azure Information Protection in securing data](azure-information-protection-securing-data.md)
 ## [Managed Mobile Productivity](protect-office365-data-with-intune.md)
 ### [Protect Office 365 company data with Intune](protect-office365-data-with-intune.md)
 ### [Protect on-premises company data with Intune](protect-on-premises-data-with-intune.md)
