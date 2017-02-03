@@ -50,7 +50,7 @@ Many enterprises today do not have any protection technology in place, with docu
 
 In a largely unprotected environment, Azure Information Protection provides a measure of security that was not available earlier. And while security is a constantly evolving subject and no organization can claim 100% protection at any point in time, Azure Information Protection when properly deployed increases the security footprint of an organization.
 
-## Security Principles for sharing content externally
+## Security principles for sharing content
 
 When using Azure Information Protection within the organization, IT administrators have full control over the client device and over user identity management, and this builds the right platform of trust for sharing within the organization. Sending information outside the organization is inherently less trustworthy. In thinking about the approach to information protection, there are some principles that you must perform a risk assessment. While performing this risk assessment, consider the following points:
 
@@ -121,7 +121,7 @@ Full security goes beyond one technology. Through a variety of interdependent me
 - **Azure AD Identity Protection**: enhances trust in the user identity
 - **EMS Conditional Access**: enhances trust in the device and identity
 
-## Additional Resources
+## Additional resources
 
 The scenarios below will go in more details on how Azure Information Protection can help you to protect your data:
 
