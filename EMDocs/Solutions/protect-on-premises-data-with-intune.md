@@ -5,8 +5,8 @@ title: Protect on-premises data with Microsoft Intune | Microsoft Docs
 description: With Enterprise Mobility + Security (EMS) you'll be able to keep your employees productive with their favorite apps and devices while also keeping your on-premises company data protected.
 keywords:
 author: jeffgilb
-manager: swadhwa
-ms.date: 01/23/2017
+manager: angrobe
+ms.date: 02/03/2017
 ms.topic: solution
 ms.prod:
 ms.service: microsoft-intune
@@ -71,6 +71,7 @@ You can easily [configure native email app settings](https://docs.microsoft.com/
 -   Windows 10 Desktop and Mobile
 -   iOS (8.0 and later)
 -   Android (Samsung Knox Standard 4.0 and later or Android for Work)
+
 > [!NOTE]
 > Intune supports Android for Work email profile configuration for the Gmail and Nine Work email apps found in the Google Play store.
 
