@@ -46,7 +46,7 @@
           homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
         - name: Deploy & Use
           href: /advanced-threat-analytics/deploy-use/
-          homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
+          homepage: /advanced-threat-analytics/deployuse/configure-port-mirroring
         - name: Troubleshoot
           href: /advanced-threat-analytics/troubleshoot/
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
