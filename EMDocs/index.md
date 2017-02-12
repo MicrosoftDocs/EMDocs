@@ -65,7 +65,7 @@ hide_bc: true
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Information Protection + Security</h3>
+                                                <h3>Information Protection and Security</h3>
                                                 <p>
                                                     <a href="/information-protection/">
                                                 Azure Information Protection
@@ -98,7 +98,7 @@ hide_bc: true
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_identity-access-mgmt-1.svg" alt="Azure Active Directory" />
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -117,7 +117,7 @@ hide_bc: true
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_identity-access-mgmt-2.svg" alt="Multi-factor Authentication" />
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -136,7 +136,7 @@ hide_bc: true
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_identity-access-mgmt-3.svg" alt="Microsoft Identity Manager" />
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -160,7 +160,7 @@ hide_bc: true
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_device-app-mgmt-1.svg" alt="Microsoft Intune" />
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -179,12 +179,12 @@ hide_bc: true
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_device-app-mgmt-2.svg" alt="System Center Configuration Manager" />
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>System Center Configuration Manager</h3>
-                                                    <p>Manage PCs, Macs, and UNIX/Linux servers along with cloud-based devices</p>
+                                                    <p>Manage PCs, servers, and mobile devices like iPhones and Android devices with on-premises and cloud-based infrastructure</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -203,7 +203,7 @@ hide_bc: true
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_info-protection-security-1.svg" alt="Azure Information Protection" />
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -223,7 +223,7 @@ hide_bc: true
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_info-protection-security-2.svg" alt="Advanced Threat Analytics" />
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -243,7 +243,7 @@ hide_bc: true
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_info-protection-security-3.svg" alt="Cloud App Security" />
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -266,27 +266,18 @@ hide_bc: true
                         <a href="#SolutionsPanel1"></a>
                         <ul id="SolutionsPanel1" class="cardsC">
                             <li>
-                                <div class="container">
-                                    <p>Example scenarios that help you understand what is included with Enterprise Mobility
-                                        + Security (EMS) and how to solve common business problems with it. You can also
-                                        find information about the FastTrack Center benefit for EMS and get answers to frequently
-                                        asked EMS support questions here.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="/enterprise-mobility-security/solutions/learn-about-ems">
+                                <a href="/enterprise-mobility-security/solutions/protect-office365-data-with-intune">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-1.svg" alt="Learn about EMS" />
+                                                        <img src="/media/hubs/ems/ems_solutions-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Learn about EMS</h3>
-                                                    <p>Learn how EMS provides flexible, comprehensive mobility and security
-                                                        solutions that enable your transition to mobility and the cloud.</p>
+                                                    <h3>Managed Mobile Productivity</h3>
+                                                    <p>Learn how to protect Office 365 company data with Intune, protect on-premises company data with Intune, and protect company data (without managing devices) with Intune.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -294,19 +285,18 @@ hide_bc: true
                                 </a>
                             </li>
                             <li>
-                                <a href="/enterprise-mobility-security/solutions/ems-get-started">
+                                <a href="/enterprise-mobility-security/solutions/thousands-apps-one-identity">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-2.svg" alt="Start using EMS" />
+                                                        <img src="/media/hubs/ems/ems_solutions-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Start using EMS</h3>
-                                                    <p>Get started with EMS and identity-driven scenarios that help your
-                                                        users stay secure and productive on their favorite apps and devices.</p>
+                                                    <h3>Identity and Access Management</h3>
+                                                    <p>Learn how Azure Active Directory makes your users more productive by providing a common identity for SaaS application users accessing both cloud and on-prem resources.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -314,19 +304,18 @@ hide_bc: true
                                 </a>
                             </li>
                             <li>
-                                <a href="/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">
+                                <a href="/enterprise-mobility-security/solutions/protect-front-door">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-3.svg" alt="Get on the FastTrack" />
+                                                        <img src="/media/hubs/ems/ems_solutions-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Get on the FastTrack</h3>
-                                                    <p>If you purchased at least 150 licenses for EMS you can work with Microsoft
-                                                        specialists to get started quickly with EMS.</p>
+                                                    <h3>Identity Driven Security</h3>
+                                                    <p>Take a more holistic and innovation approach to security to protect, detect, and respond to threats of all kinds on-premises and in the cloud.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -334,58 +323,18 @@ hide_bc: true
                                 </a>
                             </li>
                             <li>
-                                <a href="/enterprise-mobility-security/solutions/byod-design-considerations-guide">
+                                <a href="/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-4.svg" alt="Design and Architecture Guides" />
+                                                        <img src="/media/hubs/ems/ems_solutions-4.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Design and Architecture Guides</h3>
-                                                    <p>Get expert advice about the questions to ask and steps to follow to implement
-                                                        everything from BYOD to protecting company data.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://channel9.msdn.com/Tags/emm">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-5.svg" alt="EMS Support FAQ" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Watch videos on Channel 9</h3>
-                                                    <p>View the latest videos posted online.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/enterprise-mobility-security/solutions/ems-support-faq">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img data-scaleimage="images/ems_solutions-6.svg" alt="EMS Support FAQ" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>EMS Support FAQ</h3>
-                                                    <p>Get quick answers about pre-sales, billing, subscription, and technical
-                                                        support for EMS.</p>
+                                                    <h3>Information Protection</h3>
+                                                    <p>Learn how to secure data using classification, labeling, and protection, share sensitive data internally and externally, and track usage of shared data and respond to data abuse.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -396,5 +345,62 @@ hide_bc: true
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="#more">More resources</a>
+                <ul id="more">
+                    <li>
+                        <a href="#more-all"></a>
+                        <ul id="more-all" class="cardsFTitle">
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="/media/common/i_blog.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://blogs.technet.microsoft.com/enterprisemobility/">Read the Enterprise Mobility and Security Blog</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="/media/common/i_benefits.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="http://fasttrack.microsoft.com/ems">150+ licenses? Leverage your FastTrack benefits</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="/media/common/i_video.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3><a href="https://channel9.msdn.com/Tags/emm">Watch videos on Channel 9</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
         </ul>
     </div>
