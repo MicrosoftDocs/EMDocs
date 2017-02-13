@@ -27,7 +27,7 @@ ms.suite: ems
 
 # The role of Azure Information Protection in securing data
 
-[Azure Information Protection (AIP)](/information-protection/understand-explore/what-is-information-protection.md) provides customers with the ability to classify, label their data, and protect it using encryption. Azure Information Protection enables IT Administrators to:
+[Azure Information Protection (AIP)](/information-protection/understand-explore/what-is-information-protection) provides customers with the ability to classify, label their data, and protect it using encryption. Azure Information Protection enables IT Administrators to:
 
 - Automatically classify emails and documents based on preset rules
 - Add markers to content like custom headers, footers, and watermarks
@@ -40,7 +40,7 @@ ms.suite: ems
 These capabilities enable enterprises to have a greater end-to-end control over their data. In this context, Azure Information Protection plays an important role in securing company's data.
 
 > [!IMPORTANT]
-> For more information on how Azure Information Protection works, read [How does Azure RMS work? Under the hood](/information-protection/understand-explore/how-does-it-work.md).
+> For more information on how Azure Information Protection works, read [How does Azure RMS work? Under the hood](/information-protection/understand-explore/how-does-it-work).
 
 ## The state of enterprise protection today
 
@@ -79,11 +79,11 @@ The diagram below has an example of an user (Bob) sending a document to Tom. In 
 
 ![No access](./media/azure-information-protection-securing-data/aip-securing-data-fig2.png)
 
-The key takeaway in this scenario is that Azure Information Protection can stop attacks from unauthorized users. For more information about cryptographic controls in Azure Information Protection, read [Cryptographic controls used by Azure RMS: Algorithms and key lengths](/information-protection/understand-explore/how-does-it-work.md).
+The key takeaway in this scenario is that Azure Information Protection can stop attacks from unauthorized users. For more information about cryptographic controls in Azure Information Protection, read [Cryptographic controls used by Azure RMS: Algorithms and key lengths](/information-protection/understand-explore/how-does-it-work).
 
 ### Access by malicious programs on behalf of users
 
-Malicious program accessing on behalf of a user is usually something that takes place without the user's knowledge. Trojans , viruses, and other malware are classic examples of malicious programs that can act on behalf of the user. If such a program can impersonate the user's identity or leverage user's privileges to take an action, then it can use the [Azure Information Protection SDK](/information-protection/develop/developers-guide.md) to decrypt content on behalf of an unwitting user. Since this action takes place in the user’s context, there isn’t a simple way to prevent this attack.
+Malicious program accessing on behalf of a user is usually something that takes place without the user's knowledge. Trojans , viruses, and other malware are classic examples of malicious programs that can act on behalf of the user. If such a program can impersonate the user's identity or leverage user's privileges to take an action, then it can use the [Azure Information Protection SDK](/information-protection/develop/developers-guide) to decrypt content on behalf of an unwitting user. Since this action takes place in the user’s context, there isn’t a simple way to prevent this attack.
 
 ![Malicious programs](./media/azure-information-protection-securing-data/aip-securing-data-fig3.png)
 
@@ -125,6 +125,6 @@ Full security goes beyond one technology. Through a variety of interdependent me
 
 The scenarios below will go in more details on how Azure Information Protection can help you to protect your data:
 
-- [Secure data using classification, labeling and protection](infoprotect-secure-classify-scenario.md)
-- [Share sensitive data internally and externally](share-sensitive-data.md)
-- [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario.md)
+- [Secure data using classification, labeling and protection](infoprotect-secure-classify-scenario)
+- [Share sensitive data internally and externally](share-sensitive-data)
+- [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario)
