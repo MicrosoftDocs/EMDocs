@@ -43,7 +43,7 @@ With EMS you can provide capabilities and experiences to create a productive wor
 
 ### Recommended solution
 
-Using Intune you can easily provide employees access to company applications, data, and resources from virtually anywhere on any device, while helping to keep corporate information safe and secure at the same time. Direct integration with Office 365 enables amazing end user experiences and provides the most comprehensive data loss prevention capabilities for Office mobile apps and access control to Office 365. When a device is lost, stolen, or just simply just not needed for work anymore, Intune allows you to selectively wipe only company data from BYOD devices.
+Using Intune you can easily provide employees access to company applications, data, and resources from virtually anywhere on any device, while helping to keep corporate information safe and secure at the same time. Direct integration with Office 365 enables amazing end user experiences and provides the most comprehensive data loss prevention capabilities for Office mobile apps and access control to Office 365. When a device is lost, stolen, or simply just not needed for work anymore, Intune allows you to selectively wipe only company data from BYOD devices.
 
 Here's a short video to hear from real IT Pros and real users on their needs and challenges balancing productivity and protection in a mobile-first, cloud-first world:
 <iframe width="675" height="480" src="https://www.youtube.com/embed/pgAmKnluwVw" frameborder="0" allowfullscreen></iframe>
