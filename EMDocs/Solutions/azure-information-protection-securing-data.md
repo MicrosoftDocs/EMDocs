@@ -125,6 +125,6 @@ Full security goes beyond one technology. Through a variety of interdependent me
 
 The scenarios below will go in more details on how Azure Information Protection can help you to protect your data:
 
-- [Secure data using classification, labeling and protection](infoprotect-secure-classify-scenario)
-- [Share sensitive data internally and externally](share-sensitive-data)
-- [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario)
+- [Secure data using classification, labeling and protection](infoprotect-secure-classify-scenario.md)
+- [Share sensitive data internally and externally](share-sensitive-data.md)
+- [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario.md)
