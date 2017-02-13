@@ -6,7 +6,7 @@ description: This article describes the role of Azure Information Protection in 
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 02/03/17
+ms.date: 02/13/17
 ms.topic: solution
 ms.prod:
 ms.service: rights-management
@@ -32,19 +32,19 @@ ms.suite: ems
 - Automatically classify emails and documents based on preset rules
 - Add markers to content like custom headers, footers, and watermarks
 - Protect company's confidential files with Rights Management, which allows them to:
-	- Use RSA 2048-bit keys for public key cryptography and SHA-256 for signing operations. 
+	- Use RSA 2048-bit keys for public key cryptography and SHA-256 for signing operations.
 	- Encrypt the files to a specific set of recipients both inside and outside their organization
 	- Apply specific set of rights to restrict the usability of the file    
 	- Decrypt content based on the user’s identity and authorization in the rights policy
 
-These capabilities enable enterprises to have a greater end-to-end control over their data. In this context, Azure Information Protection plays an important role in securing company's data. 
+These capabilities enable enterprises to have a greater end-to-end control over their data. In this context, Azure Information Protection plays an important role in securing company's data.
 
 > [!IMPORTANT]
 > For more information on how Azure Information Protection works, read [How does Azure RMS work? Under the hood](/information-protection/understand-explore/how-does-it-work.md).
 
 ## The state of enterprise protection today
 
-Many enterprises today do not have any protection technology in place, with documents and emails being shared in cleartext and data custodians not having the clarity on which users have access to privileged content. Protection technologies like SMIME are complicated and ACLs do not necessarily travel with emails and documents. 
+Many enterprises today do not have any protection technology in place, with documents and emails being shared in cleartext and data custodians not having the clarity on which users have access to privileged content. Protection technologies like SMIME are complicated and ACLs do not necessarily travel with emails and documents.
 
 ![No document protection](./media/azure-information-protection-securing-data/aip-securing-data-fig1.png)
 
@@ -72,14 +72,14 @@ The sections that follow will explore three major scnearios of attacks on protec
 ### Attacks by unauthorized users
 
 The basis of protection in Azure Information Protection is that access to protected content is based on authenticated identity and authorization. This means that with Azure Information Protection *no authentication* or *authorization* implies *no access*. This is the primary reason to deploy Azure Information Protection, it enables enterprises to go from a state of unrestricted access to a state where access to information is based on user authentication and authorization.
- 
-By using this Azure Information Protection capability, enterprises are able to compartmentalize information. For example: keeping sensitive information of the Human Resources (HR) department isolated within the department; and keeping the finance department’s data restricted to the finance department. Azure Information Protection provides *access based on identity, rather than nothing at all*. 
 
-The diagram below has an example of an user (Bob) sending a document to Tom. In this case Bob is from the Finance department and Tom is from the Sales department. Tom cannot get access to the document, if no rights were granted. 
+By using this Azure Information Protection capability, enterprises are able to compartmentalize information. For example: keeping sensitive information of the Human Resources (HR) department isolated within the department; and keeping the finance department’s data restricted to the finance department. Azure Information Protection provides *access based on identity, rather than nothing at all*.
+
+The diagram below has an example of an user (Bob) sending a document to Tom. In this case Bob is from the Finance department and Tom is from the Sales department. Tom cannot get access to the document, if no rights were granted.
 
 ![No access](./media/azure-information-protection-securing-data/aip-securing-data-fig2.png)
 
-The key takeaway in this scenario is that Azure Information Protection can stop attacks from unauthorized users. For more information about cryptographic controls in Azure Information Protection, read [Cryptographic controls used by Azure RMS: Algorithms and key lengths](/information-protection/understand-explore/how-does-it-work.md#cryptographic-controls-used-by-azure-rms-algorithms-and-key-lengths).
+The key takeaway in this scenario is that Azure Information Protection can stop attacks from unauthorized users. For more information about cryptographic controls in Azure Information Protection, read [Cryptographic controls used by Azure RMS: Algorithms and key lengths](/information-protection/understand-explore/how-does-it-work.md).
 
 ### Access by malicious programs on behalf of users
 
@@ -87,16 +87,16 @@ Malicious program accessing on behalf of a user is usually something that takes 
 
 ![Malicious programs](./media/azure-information-protection-securing-data/aip-securing-data-fig3.png)
 
-The intent here is to enhance the security of the user's identity, this will assist in mitigating the ability of rogue applications to hijack user's identity. Azure Active Directory provides several solutions that can help secure the user identity, for example, using two-factor authentication. In addition, there are other capabilities that come as a part of Azure Activity Directory Identity Protection that should be explored to keep the user identity secure. 
+The intent here is to enhance the security of the user's identity, this will assist in mitigating the ability of rogue applications to hijack user's identity. Azure Active Directory provides several solutions that can help secure the user identity, for example, using two-factor authentication. In addition, there are other capabilities that come as a part of Azure Activity Directory Identity Protection that should be explored to keep the user identity secure.
 
 Securing identities falls outside the scope of Azure Information Protection, and falls in the realm of administrator responsibility.
 
 > [!IMPORTANT]
-> It is also important to focus on a “managed” environment to remove the presence of malicious programs. This will be covered in the next scenario. 
+> It is also important to focus on a “managed” environment to remove the presence of malicious programs. This will be covered in the next scenario.
 
 ### Malicious users with authorization
 
-Access by a malicious user is essentially a compromise of trust. The enabler in this scenario needs to be a program crafted to escalate user's privileges, because unlike the previous scenario, this user voluntarily provides credentials to break trust. 
+Access by a malicious user is essentially a compromise of trust. The enabler in this scenario needs to be a program crafted to escalate user's privileges, because unlike the previous scenario, this user voluntarily provides credentials to break trust.
 
 ![Malicious users](./media/azure-information-protection-securing-data/aip-securing-data-fig4.png)
 
@@ -110,12 +110,12 @@ The focus of this scenario is to secure the client device and applications, so t
 - Use applications that support [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx) for authentication and [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)
 
 An important takeaway from this scenario is that securing client machines and applications is an important part of the trust that underpins Azure Information Protection.
- 
+
 ## Summary
 
-Full security goes beyond one technology. Through a variety of interdependent means, an IT administrator can reduce the attack surface on protected content in the real world. 
+Full security goes beyond one technology. Through a variety of interdependent means, an IT administrator can reduce the attack surface on protected content in the real world.
 
-- **Azure Information Protection**: prevents unauthorized access to content 
+- **Azure Information Protection**: prevents unauthorized access to content
 - **Microsoft Intune, System Center Configuration Manager, and other device management products**: enables a managed and controlled environment free of malicious apps
 - **Windows AppLocker**: enables a managed and controlled environment free of malicious apps
 - **Azure AD Identity Protection**: enhances trust in the user identity
@@ -128,6 +128,3 @@ The scenarios below will go in more details on how Azure Information Protection 
 - [Secure data using classification, labeling and protection](infoprotect-secure-classify-scenario.md)
 - [Share sensitive data internally and externally](share-sensitive-data.md)
 - [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario.md)
- 
-
-
