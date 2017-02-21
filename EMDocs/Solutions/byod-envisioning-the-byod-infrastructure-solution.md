@@ -7,7 +7,7 @@ keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 11/28/2016
+ms.date: 02/21/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
