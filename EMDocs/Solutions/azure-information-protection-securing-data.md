@@ -6,7 +6,7 @@ description: This article describes the role of Azure Information Protection in 
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 02/13/17
+ms.date: 02/23/2017
 ms.topic: solution
 ms.prod:
 ms.service: rights-management
