@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Manage company owned devices with Intune
 
-There are many options available to meet their mobility experience expectations in the modern workplace, including bring your own device (BYOD) programs. However, many organizations want to have more control over which devices are used to access company data. In these scenarios, businesses can implement choose your own device (CYOD) strategies where IT provides managed, mobile devices to employees.
+There are many options available to meet employee mobility experience expectations in the modern workplace, including bring your own device (BYOD) programs. However, many organizations want to have more control over which devices are used to access company data. In these scenarios, businesses can implement choose your own device (CYOD) strategies where IT provides managed, mobile devices to employees.
 
 For CYOD strategies to be successful, companies must be able to offer a select variety of devices that users can choose from. This is especially true if the organization is implementing CYOD as an alternative to BYOD because if users do not like the device you issue them, they will find a way to use their own, unmanaged devices. With CYOD, IT can enroll only specific device types into management, reduce support costs, and help protect company data starting from the minute a device is issued to an employee.  Employees get the mobile device options they’ve grown accustomed to in their personal lives without needing to take any additional steps or call the help desk to get their devices managed and company data access configured.  
 
@@ -50,20 +50,13 @@ Using Intune you can easily provide employees access to company applications, da
 
 ### How to implement this solution
 The rest of this solution is divided into the following sections that show you how to:
-- **Enroll devices using a device enrollment manager (DEM) account**. Learn how DEM accounts enable a single person from IT to enroll more than the default number of devices into management.
 - **Enroll corporate-owned iOS devices**. This section describes how to use the Apple Configurator (on a Mac device) and Apple DEP integration to enroll corporate-owned devices.
 - **Enroll corporate-owned Windows 10 devices**. In this section, how to automatically enroll Windows 10 devices into management when they are joined to your company's Azure Active Directory is described.
+- **Enroll devices using a device enrollment manager (DEM) account**. Learn how DEM accounts enable a single person from IT to enroll more than the default number of devices into management.
 - **Tag corporate-owned devices with international mobile equipment identity (IMEI) numbers**. This section describes another option to begin managing corporate-owned devices at enrollment by importing IMEI numbers that identify corporate-owned devices.
 - **Make sure that managed devices comply with basic security requirements**. This section describes how to make sure that devices used to access company apps and data comply with basic security requirements.
 - **Provide access to company resources**. This section shows you how IT can enable users to easily, and securely, access company resources by deploying access profiles to managed devices, and how to manage volume-purchased app deployments with Intune.
 - **Protect company data**. This section helps you learn how to provide conditional access to company resources, prevent data loss, and remove company apps and data from devices when they are no longer needed for work or have been lost or stolen.
-
-## Enroll devices with a device enrollment manager (DEM) account
-You can create a single-user device enrollment manager (DEM) account in Intune to manage a large number of mobile devices for your organization. After you create a DEM account, a designated account manager can enroll more than the 15 devices that a standard user can enroll.
-
-You can use a DEM account to enroll only devices that aren't used by a single, specific user. Those types of devices are good for point-of-sale or utility apps, for example, but not for users who need to access email or company resources.
-- Users can't use Apple Volume Purchase Program (VPP) apps because of per-user Apple ID requirements for app management.
-- If you use DEM to enroll iOS devices, you can't use the Apple Configurator or Apple Device Enrollment Program (DEP) to enroll devices.
 
 ## Enroll corporate-owned iOS devices
 If you offer users iOS devices to choose from as part of your CYOD strategy, you can preconfigure enrollment so that the device is managed with Intune from the first time the user turns it on. Intune supports enrollment via the [Apple Device Enrollment Program (DEP)](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune), or by using the Apple Configurator tool on a Mac computer for [Setup Assistant](https://docs.microsoft.com/intune/deploy-use/ios-setup-assistant-enrollment-in-microsoft-intune) or  [direct](https://docs.microsoft.com/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune) enrollment. You can also deploy an enrollment profile *over the air* to iOS devices purchased through DEP.
@@ -75,7 +68,7 @@ When you use the [Setup Assistant enrollment option for iOS devices](https://doc
 [Direct enrollment for iOS devices](https://docs.microsoft.com/intune/deploy-use/ios-direct-enrollment-in-microsoft-intune) creates an Apple Configurator–compliant file for use during device preparation. The enrolled device isn’t factory reset, but it has no user affiliation. This method requires the admin to connect the iOS device through USB to a Mac computer running [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) to enroll the device.
 
 ### DEP enrollment
-Microsoft Intune can deploy an enrollment profile that enrolls iOS devices that were bought through the Device Enrollment Program (DEP) *over the air*. The enrollment package can include setup assistant options for the device so when a user runs Setup Assistant on the device, the device is enrolled in Intune to provide *day 0* management.
+Microsoft Intune can deploy an enrollment profile that enrolls iOS devices that were bought through the [Device Enrollment Program (DEP)](https://docs.microsoft.com/intune/deploy-use/ios-device-enrollment-program-in-microsoft-intune) *over the air*. The enrollment package can include setup assistant options for the device so when a user runs Setup Assistant on the device, the device is enrolled in Intune to provide *day 0* management.
 
 >[!Important]
 
@@ -93,15 +86,22 @@ You can make enrolling Windows devices into management seamless for your users b
 Azure AD Join is intended for enterprises that are cloud-first/cloud-only. These organizations are typically small and medium-sized businesses that do not have an on-premises Windows Server Active Directory Domain Services (AD DS) infrastructure. That said, Azure AD Join can and will also be used by large organizations on devices that are incapable of doing a traditional domain join (mobile devices, for example) or for users who primarily need to access Office 365 or other Azure AD SaaS apps. When device management is done with Intune, IT administrators can manage Azure AD-joined devices alongside AD DS domain-joined devices in the Configuration Manager management console through [hybrid MDM](https://docs.microsoft.com/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management#what-is-hybrid-mdm-with-configuration-manager).
 When a user adds a work or school account on a Windows 10 device, the device is automatically tagged as "corporate-owned."
 
+## Enroll devices with a device enrollment manager (DEM) account
+A single Intune [device enrollment manager (DEM) account](https://docs.microsoft.com/intune/deploy-use/enroll-corporate-owned-devices-with-the-device-enrollment-manager-in-microsoft-intune) can be used to enroll large numbers of mobile devices for your organization. After you create a DEM account, it can be used to enroll up to 1,000 devices.
+
+You can use a DEM account to enroll only devices that aren't used by a single, specific user. Those types of devices are good for point-of-sale or utility apps, for example, but not for users who need to access email or company resources.
+- Users can't use Apple Volume Purchase Program (VPP) apps because of per-user Apple ID requirements for app management.
+- If you use DEM to enroll iOS devices, you can't use the Apple Configurator or Apple Device Enrollment Program (DEP) to enroll devices.
+
 ## Tag corporate-owned devices with international mobile equipment identity (IMEI) numbers
 Microsoft Intune lets admins [import international mobile equipment identity (IMEI) numbers](https://docs.microsoft.com/intune/deploy-use/specify-corporate-owned-devices-with-international-mobile-equipment-identity-imei-numbers) for mobile device platforms by using IMEI numbers to help identify corporate-owned mobile devices.
 
 You can import up to 5,000 IMEI numbers using a specially formatted .CSV file or manually input up to 15 device IMEI numbers at a time from within the Intune administration console. When a device that has IMEI number enrolls in Intune, usually when a user installs the Company Portal app and completes the enrollment process, the device will be tagged as corporate-owned and appear as enrolled in the IMEI Devices group.
 
 ## Make sure that managed devices comply with basic security requirements
-Whether enrolling an iOS or Windows 10 device, IT needs to make sure that devices used to access company apps and data comply with basic security requirements. These rules might include using a PIN to access devices and encrypting data stored on devices. A set of such rules is called a [compliance policy](https://docs.microsoft.com/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune).
+Whether enrolling an iOS, Android, or Windows 10 device, IT needs to make sure that devices used to access company apps and data comply with basic security requirements. These rules might include using a PIN to access devices and encrypting data stored on devices. A set of such rules is called a [compliance policy](https://docs.microsoft.com/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune).
 
-When you [create and deploy a compliance policy](https://docs.microsoft.com/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune) to a user, all the devices they have managed by Intune will be checked to see if they comply with basic security requirements you’ve defined as part of your BYOD policy. After a device has been evaluated for policy compliance, it will report its status back to the Intune service. In some cases, users might be prompted to remediate non-compliant settings, such as using a PIN or device encryption, but other times the company portal app will only notify the user about any compliance problems found.
+When you [create and deploy a compliance policy](https://docs.microsoft.com/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune) to a user, all the devices they have managed by Intune will be checked to see if they comply with basic security requirements you’ve defined as part of your CYOD or BYOD policy. After a device has been evaluated for policy compliance, it will report its status back to the Intune service. In some cases, users might be prompted to remediate non-compliant settings, such as using a PIN or device encryption, but other times the company portal app will only notify the user about any compliance problems found.
 
 ## Provide access to company resources
 
@@ -114,6 +114,14 @@ The first thing most employees want on their mobile device is access to company 
 > Intune supports Android for Work email profile configuration for the Gmail and Nine Work email apps found in the Google Play store.
 
 In addition to email, EMS also helps you control access and protect on-premises company data being accessed from outside traditional corporate security boundaries. Microsoft Intune [Wi-Fi](https://docs.microsoft.com/intune/deploy-use/wi-fi-connections-in-microsoft-intune), [VPN](https://docs.microsoft.com/intune/deploy-use/vpn-connections-in-microsoft-intune#create-a-vpn-profile), and email profiles work together to help your users gain access to the files and resources that they need to do their work wherever they are. Your company's web applications and services hosted on-premises can also be securely accessed and protected using the Azure Active Directory Application Proxy and conditional access.
+
+### Add apps for enrolled devices
+It's easy to add apps for enrolled devices with Intune, but before you can deploy or manage an app, you must [add it to Intune](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune) using the Intune Software Publisher. You use the Intune Software Publisher to configure the properties of the app and, where applicable, upload it to your cloud storage space.
+
+With Intune, you can [deploy or manage the following types of apps](https://docs.microsoft.com/intune/deploy-use/add-apps) to enrolled devices:
+- **Software installer**. These kinds of apps include Windows software installer (.exe, or .msi), App Package for Android (.apk), App Package for iOS (.ipa), Windows Phone app package (.xap, .appx, and .appxbundle), Windows app package (.appx, .appxbundle), and Windows Installer through MDM (.msi) files. All software installer app types are uploaded to your [cloud storage space](https://docs.microsoft.com/intune/deploy-use/add-apps#cloud-storage-space).
+- **External link**. This type of app deployment provides an external link (URL) that lets users download an app from an app store or a link to a web-based app that runs from the web browser. Apps based on external links are not stored in your Intune cloud storage space.
+- **Managed iOS app from the app store**. You can use managed iOS apps to manage and deploy iOS apps that are free of charge from the app store. You can also use managed iOS apps to associate mobile application management policies with compatible apps and review their status in the administrator console. Managed iOS apps are not stored in your Intune cloud storage space.
 
 ### Manage volume-purchased apps
 You can easily [deliver store apps to managed devices](https://docs.microsoft.com/intune/deploy-use/deploy-apps-in-microsoft-intune), and even target apps to unmanaged devices using the company portal website, but Intune also allows you to manage and deploy apps that you purchased in volume from the iOS app store and the Windows Store for Business. This helps you reduce the administrative overhead of tracking volume-purchased apps.
@@ -129,7 +137,7 @@ With Intune it is easy to import the volume license information from either app 
 
 ## Protect company data
 
-Intune protects company data through multiple technology layers. At the identity layer, conditional access protects access to services by only allowing access from managed and compliant devices. At the client application layer, mobile application management (MAM) protects data loss by preventing data from moving to nonprotected apps or storage locations—and by wiping data when a device is lost or stolen.
+Intune protects company data through multiple technology layers. At the identity layer, conditional access protects access to services by only allowing access from managed and compliant devices. At the client application layer, app protection policies protect against data loss by preventing data from moving to nonprotected apps or storage locations—and by wiping data when a device is lost or stolen.
 
 ### Enforce conditional access to company resources
 
