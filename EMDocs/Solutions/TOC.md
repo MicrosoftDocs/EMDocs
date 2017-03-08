@@ -20,6 +20,7 @@
 ### [Protect on-premises company data with Intune](protect-on-premises-data-with-intune.md)
 ### [Protect company data without managing devices with Intune](protect-company-data-without-managing-devices.md)
 ### [Enable BYOD with Intune](enable-byod.md)
+### [Manage company owned devices with Intune](issue-corp-devices.md)
 ## [Design and Architecture Guides]()
 ### [BYOD Design Guide](byod-design-considerations-guide.md)
 #### [Envisioning the infrastructure solution](byod-envisioning-the-byod-infrastructure-solution.md)
