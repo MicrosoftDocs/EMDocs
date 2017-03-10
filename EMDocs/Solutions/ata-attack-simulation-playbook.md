@@ -80,11 +80,17 @@ Now you will create different roles for Helpdesk and Domain Administrators.  The
 
 First create the following users in the domain: 
 
-TABLE
+| Name | Members | Purpose |
+| --- | --- | --- |
+| Helpdesk | RonHD | Manages the clients of contoso.local. |
 
 Now create the following security group with one specific member:
 
-TABLE
+| Full Name | SAMAccount | Purpose |
+| --- | --- | --- |
+| Jeff Victim | JeffV | The victim of yet another impressively effective spear phishing attack |
+| Ron HD | RonHD | Ron is the "go-to-guy"; at Contoso's IT shop.  RonHD is a member of the "Helpdesk"; security group. |
+| Nuck Chorris | NuckC | Before now, believed not to exist.  At Contoso, he happens to be our Domain Admin. |
 
 > [!IMPORTANT]
 > Before proceeding, ensure *RonHD* was added as a member to the *Helpdesk* security group.
@@ -140,7 +146,15 @@ There are other ways to simulate this management workflow in this lab, such as c
 
 The table below summarizes the credentials that are saved on each computer:
 
-TABLE
+| Computer | Credentials saved on computer |
+| --- | --- |
+| Admin-PC |
+- NuckC
+ |
+| Victim-PC |
+- JeffV
+- RonHD (Caused by enacting the helpdesk scenario)
+ |
 
 At this point the lab environment is ready. The current lab state is in a position where it is one-exploit-away (#1ea) from domain compromise.  Next you will see that a single compromise typically comes from your environment’s lowest privileged assets against the most Internet facing applications from an adversary who is highly motivated and won’t stop.  This is where the [assume a breach](https://blogs.msdn.microsoft.com/azuresecurity/2015/10/19/an-insiders-look-at-the-security-of-microsoft-azure-assume-the-breach/) methodology comes in to place.
 
