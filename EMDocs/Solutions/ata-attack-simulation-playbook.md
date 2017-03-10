@@ -64,7 +64,12 @@ However, even when IT shops reduce the privileges to using non-admin accounts, o
 
 The following lists the computers you will need and the configurations used in this exercise.  These are all staged as guest virtual machines (VMs) on Windows 10 Hyper-V.  If you go this route, and we recommend you do, make sure the VMs are placed in the same virtual switch.
 
-TABLE
+| FQDN | OS | IP | Purpose |
+| --- | --- | --- | --- |
+| DC1.contoso.local | Windows Server 2012 R2 | 192.168.10.10 | Domain Controller with ATA the Lightweight Gateway (LWGW) installed |
+| ATACenter.contoso.local | Windows Server 2012 R2 | 192.168.10.20 | ATA Center |
+| Admin-PC.contoso.local | Windows 7 Enterprise | 192.168.10.30 | Admin's PC |
+| Victim-PC.contoso.local | Windows 7 Enterprise | 192.168.10.31 | Victim's PC |
 
 The domain for this lab is called “CONTOSO.LOCAL”. Create the domain, and then domain join these computers. Once all four machines are up and domain joined, go to the next section to add some fictitious users to the environment.
 
