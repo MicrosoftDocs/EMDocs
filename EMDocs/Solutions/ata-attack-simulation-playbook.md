@@ -148,13 +148,8 @@ The table below summarizes the credentials that are saved on each computer:
 
 | Computer | Credentials saved on computer |
 | --- | --- |
-| Admin-PC |
-- NuckC
- |
-| Victim-PC |
-- JeffV
-- RonHD (Caused by enacting the helpdesk scenario)
- |
+| Admin-PC | - NuckC |
+| Victim-PC | - JeffV- RonHD (Caused by enacting the helpdesk scenario) |
 
 At this point the lab environment is ready. The current lab state is in a position where it is one-exploit-away (#1ea) from domain compromise.  Next you will see that a single compromise typically comes from your environment’s lowest privileged assets against the most Internet facing applications from an adversary who is highly motivated and won’t stop.  This is where the [assume a breach](https://blogs.msdn.microsoft.com/azuresecurity/2015/10/19/an-insiders-look-at-the-security-of-microsoft-azure-assume-the-breach/) methodology comes in to place.
 
