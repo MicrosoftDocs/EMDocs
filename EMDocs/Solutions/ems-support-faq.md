@@ -6,8 +6,8 @@ description:
 keywords:
 author: jeffgilb
 ms.author: jeffgilb
-manager: swadhwa
-ms.date: 9/20/2016
+manager: femila
+ms.date: 3/13/2017
 ms.topic: article
 ms.prod:
 ms.service: ems
@@ -31,17 +31,13 @@ Microsoft provides global pre-sales, billing, subscription, and technical suppor
 
 ## Answers to common EMS support questions
 
-**I can't submit an Enterprise Mobility + Security support request through the Azure portal because I do not have an Azure support plan. Isn’t support included for Enterprise Mobility + Security**
+**Do I need to purchase an Azure support plan to submit an Enterprise Mobility + Security support request?**
 
-Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, and Microsoft Intune through the  Office 365 portal.
-
-**Why am I not able to submit a support request through the Azure portal?**
-
-Only Enterprise Mobility + Security customers that have also purchased an Azure support plan can submit support requests through the Azure portal at this time. Support for Azure Active Directory Premium, Azure Information Protection, and Intune is available through the  Office 365 portal.
+Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, and Microsoft Intune through the Office 365 portal. The Office 365 portal provides the intended support experience for EMS, but you can also submit Azure Active Directory Premium and Azure Information Protection support requests through the Azure portal without purchasing a support plan by choosing a *Subscription with technical support included*.
 
 **How do I get Intune support?**
 
-Enterprise Mobility + Security customers can submit support requests for Intune using the  Office 365 portal. Learn more about  Intune support options.
+Enterprise Mobility + Security customers can submit support requests for Intune using the  Office 365 portal. [Learn more about  Intune support options](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune).
 
 **I am not able to submit a support request through the Office 365 portal. Is there a phone number to call for support?**
 
