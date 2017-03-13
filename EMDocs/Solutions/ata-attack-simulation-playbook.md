@@ -26,7 +26,7 @@ ms.suite: ems
 
 # Advanced Threat Analytics attack simulation playbook
 
-This guide will help you to learn about Credential Theft, such as Pass-the-Hash, Pass-the-Ticket, over-pass-the-hash, and how to use publicly available research tools to perform such actions. This simulation playbook is based on a scenario that is build with valid Internet tools used by attackers. The intent is to show how to think like an attacker (in graphs), move within an environment with stolen credentials, and how to use Advanced Threat Analytics (ATA) to detect these activities in your environment.
+This guide will help you to learn about credential theft such as Pass-the-Hash, Pass-the-Ticket, Over-Pass-the-Hash, and how to use publicly available research tools to perform such actions. This simulation playbook is based on a scenario that is build with valid Internet tools used by attackers. The intent is to show how to think like an attacker (in graphs), move within an environment with stolen credentials, and how to use Microsoft Advanced Threat Analytics (ATA) to detect these activities in your environment.
 
 This guide will illustrate the following attack scenarios:
 
@@ -45,7 +45,7 @@ This guide will illustrate the following attack scenarios:
 
 ## Configuring your lab environment
 
-We recommend following these instructions closely, including the experiments at the end.  There is some setting up to do, specifically 4 computers, 3 users and some research software to grab off the Internet.
+We recommend following these instructions closely, including the experiments at the end.  There is some setting up to do, specifically four computers, three users and some research software to grab off the Internet.
 
 Visit [Advanced Threat Analytics Evaluations](http://aka.ms/ataeval), for more guidance on how to install ATA and obtain a 90 days evaluation copy. 
 
@@ -90,24 +90,24 @@ Now create the following security group with one specific member:
 | --- | --- | --- |
 | Jeff Victim | JeffV | The victim of yet another impressively effective spear phishing attack |
 | Ron HD | RonHD | Ron is the "go-to-guy"; at Contoso's IT shop.  RonHD is a member of the "Helpdesk"; security group. |
-| Nuck Chorris | NuckC | Before now, believed not to exist.  At Contoso, he happens to be our Domain Admin. |
+| Nuck Chorris | NuckC | Before now, believed not to exist.  At Contoso, he happens to be our *Domain Admin*. |
 
 > [!IMPORTANT]
 > Before proceeding, ensure *RonHD* was added as a member to the *Helpdesk* security group.
 
 
-Nuck Chorris, Contoso's Domain Admin, uses the *Admin-PC* workstation. The *Helpdesk* security group (that *RonHD* is a member of) also manages NuckC computer.  This can be configured using [Restricted Groups](https://support.microsoft.com/kb/279301). The Administrator's group proprieties should look similar the following screen:
+Nuck Chorris, Contoso's domain admin, uses the *Admin-PC* workstation. The *Helpdesk* security group (that *RonHD*  is a member of) also manages *NuckC* computer.  This can be configured using [Restricted Groups](https://support.microsoft.com/kb/279301). The Administrator's group proprieties should look similar the following screen:
 
 ![Admin properties](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig1.png)
 
-In addition, like in many IT shops, JeffV was added as an Administrator on his own device (Victim-PC).  This was done on purpose and will be explained further in the **Help Desk Simulation assumption** section, later in this article. The local Administrator's group properties should look similar the following screen:
+In addition, like in many IT shops, *JeffV* was added as an Administrator on his own device (*Victim-PC*).  This was done on purpose and will be explained later in this article. The local Administrator's group properties should look similar the following screen:
 
 ![Admin properties 2](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig2.png)
 
 
 ### Security research tools
 
-To configure this lab you will need to download and install the tools below under C:\tools in the Victim-PC computer:
+To configure this lab you will need to download and install the tools below under *C:\tools* in the *Victim-PC* computer:
 
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz)
 - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)
@@ -122,7 +122,7 @@ The tools folder should look similar the following screen:
 > [!IMPORTANT]
 > These tools are for research purposes only.  Microsoft does not own these tools nor can it guarantee their behavior.  These tools should only be run in a test lab environment.
 
-For the purpose of this lab, turn off all antivirus in the Victim-PC computer. Although turning off antivirus might seem like this just skewed the results, it is important to note that the source code for these tools is freely available, which means attackers can modify it to evade antivirus signature based detection. It is also important to note that as soon as an adversary achieves local admin on a machine, evasion of antivirus becomes very possible.  The goal at that point is protecting the rest of the organization. One computer compromise should not lead to domain escalation, and certainly not domain compromise.
+For the purpose of this lab, turn off all antivirus in the *Victim-PC* computer. Although turning off antivirus might seem like this just skewed the results, it is important to note that the source code for these tools is freely available, which means attackers can modify it to evade antivirus signature based detection. It is also important to note that as soon as an adversary achieves local admin on a machine, evasion of antivirus becomes very possible.  The goal at that point is protecting the rest of the organization. One computer compromise should not lead to domain escalation, and certainly not domain compromise.
 
 ### Environment topology
 
@@ -238,7 +238,7 @@ An example of the result of this command is shown in the following image:
 
 ![Net group 2](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig12.png)
 
-The attacker now has all the users and groups, and knows which users belong to the highly privileged *Domain Admins* group. In a real world scenario, the likelihood that the attack will continue to escalate and try to obtain Enterprise Admins is very high, since there is no security boundary between Enterprise Admins and Domain admins.
+The attacker now has all the users and groups, and knows which users belong to the highly privileged *Domain Admins* group. In a real world scenario, the likelihood that the attack will continue to escalate and try to obtain Enterprise Admins is very high, since there is no security boundary between *Enterprise Admins* and *Domain Admins*.
 
 > [!IMPORTANT]
 > For more information on security boundaries between Forests and Domains, Enterprise Admins and Domain Admins, and other “Tier-0”-level privileges, please refer to [Securing Privileged Access Reference Material](http://www.aka.ms/tier0).
@@ -259,7 +259,7 @@ At this point the attacker knows who they want to compromise the credentials, ho
 
 All authenticated users must connect to the domain controller to process Group Policy (against the SYSVOL) making SMB enumeration a valuable tool for attackers. This makes Domain Controllers (DC) prime targets to perform SMB Enumeration against.
 
-In this part of the lab you will use NetSess, the first research tool downloaded from the Internet.  NetSess is a command line tool to enumerate NetBIOS sessions on a specified local or remote machine.  
+In this part of the lab you will use *NetSess*, the first research tool downloaded from the Internet.  *NetSess* is a command line tool to enumerate NetBIOS sessions on a specified local or remote machine.  
 
 To enumerate who’s connected to a specific machine, in this case the DC, on *Victim-PC*, go to the location where NetSess is saved locally and run the following command:
 
@@ -279,10 +279,10 @@ The data that Microsoft ATA offers to you is vital to improve your security awar
 
 ### Lateral Movement
 
-The goal of this phase is to access the IP address that was previously discovered (192.168.10.30), where NuckC’s computer credentials are exposed. To perform this action you will enumerate  in-memory credentials located on *Victim-PC*. Remember that *Victim-PC* isn’t just exposed to *JeffV*’s credentials, there are many other accounts that might be useful to an attacker to discover. 
+The goal of this phase is to access the IP address that was previously discovered (192.168.10.30), where *NuckC’s* computer credentials are exposed. To perform this action you will enumerate  in-memory credentials located on *Victim-PC*. Remember that *Victim-PC* isn’t just exposed to *JeffV*’s credentials, there are many other accounts that might be useful to an attacker to discover. 
 
 
-To extract the credentials from Victim-PC you will use mimikatz, another research tool downloaded from the Internet. From an elevated command prompt on *Victim-PC*, go to the tools folder where *Mimikatz* is saved and execute the following command:
+To extract the credentials from *Victim-PC* you will use mimikatz, another research tool downloaded from the Internet. From an elevated command prompt on *Victim-PC*, go to the tools folder where *Mimikatz* is saved and execute the following command:
 
     mimikatz.exe “privilege::debug” “sekurlsa::logonpasswords” “exit” >> c:\temp\victim-pc.txt
 
@@ -292,7 +292,7 @@ An example of the result of this command is shown in the following image:
 
 The above command will execute mimikatz, which will then harvest credentials in-memory.  The tool will write this into a text file named “victim-pc.txt”. Open the file “victim-pc.txt” to see what you can find.
 
-The next step is to parse mimikatz’s credential dump output, and to do that you need to open the file, “victim-pc.txt” in notepad.  Your file will look different as different passwords were used, potentially different operating systems with default settings on/off, so don’t be alarmed if it doesn’t look exactly like the example below.
+The next step is to parse *mimikatz’s* credential dump output, and to do that you need to open the file, “victim-pc.txt” in notepad.  Your file will look different as different passwords were used, potentially different operating systems with default settings on/off, so don’t be alarmed if it doesn’t look exactly like the example below.
 
 ![Output](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig17.png)
 
@@ -312,14 +312,14 @@ An example of the result of this command is shown in the following image:
 
 ![net user domain](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig19.png)
 
-Based on this result the attacker will learn that *RonHD* is a member of the *Helpdesk*. RonHD’s account just became interesting to the attacker.  However, further more analysis is needed to see if the account has admin privileges on other computers. After all, it would make little sense to use it to laterally move to another computer only to discover that it has lower privileges than what the attacker already has.
+Based on this result the attacker will learn that *RonHD* is a member of the *Helpdesk*. *RonHD’s* account just became interesting to the attacker.  However, further more analysis is needed to see if the account has admin privileges on other computers. After all, it would make little sense to use it to laterally move to another computer only to discover that it has lower privileges than what the attacker already has.
 
-Based on that, the next step is to enumerate a remote computer’s memberships. In this step you will use PowerSploit, a series of PowerShell modules used by penetration testers. Open a PowerShell session and traverse to the location where PowerSploit is saved locally on *Victim-PC*.  In the PowerShell console, execute the command below:
+Based on that, the next step is to enumerate a remote computer’s memberships. In this step you will use *PowerSploit*, a series of PowerShell modules used by penetration testers. Open a PowerShell session and traverse to the location where *PowerSploit* is saved locally on *Victim-PC*.  In the PowerShell console, execute the command below:
 
     Import-Module .\PowerSploit.psm1
 	Get-NetLocalGroup 192.168.10.30
 
-The first command is used to import the PowerSploit module into memory and in the second command is to execute one of the provided functions provided by that module, in this case, *Get-NetLocalGroup*.
+The first command is used to import the *PowerSploit* module into memory and in the second command is to execute one of the provided functions provided by that module, in this case, *Get-NetLocalGroup*.
 
 An example of the result of this command is shown in the following image:
 
@@ -333,11 +333,11 @@ The IP 192.168.10.30 is the discovered IP address from the SMB Enumeration phase
 *RonHD* is a member of the *Helpdesk* group, therefore *RonHD* can give the attacker *Admin* privileges on *Admin-PC* (where the attacker knows *NuckC* is, from earlier reconnaissance).  
 The attacker used this [graph-like thinking](https://blogs.technet.microsoft.com/johnla/2015/04/26/defenders-think-in-lists-attackers-think-in-graphs-as-long-as-this-is-true-attackers-win/) is to discover relationships in the network. This kind of mentality is something that defenders need to adopt to handle new threats to enterprise networks. 
 
-Now is time to use RonHD to perform lateral movement, by using [Overpass-the-Hash]() attack. If the attacker is in an environment that did not disable WDigest, it is already game over as they have the plaintext password.  But, for the purpose of this lab the assumption is that you do not know/have access to the plaintext password.
+Now is time to use *RonHD* to perform lateral movement, by using [Overpass-the-Hash]() attack. If the attacker is in an environment that did not disable WDigest, it is already game over as they have the plaintext password.  But, for the purpose of this lab the assumption is that you do not know/have access to the plaintext password.
 
 Using a technique called Overpass-the-Hash you can take the NTLM hash and use it to obtain a Ticket Granting Ticket (TGT) via Kerberos\Active Directory.  With a TGT you can masquerade as Ron**HD and access any domain resource that *RonHD* has access to.  
 
-Copy RonHD’s NTLM hash from victim-pc.txt, harvested earlier (from “Action: Dump credentials from Victim-PC”). Next, go to *Victim-PC*, access the location where mimikatz is stored on the file system and execute the following commands:
+Copy *RonHD’s* NTLM hash from victim-pc.txt, harvested earlier (from “Action: Dump credentials from Victim-PC”). Next, go to *Victim-PC*, access the location where *mimikatz* is stored on the file system and execute the following commands:
 
     Mimikatz.exe “privilege::debug” “sekurlsa::pth /user:RonHD /ntlm:[ntlm hash] /domain:contoso.local” “exit”
 
@@ -347,7 +347,7 @@ An example of the result of this command is shown in the following image:
 
 ![mimikatz 2](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig21.png)
 
-A new command prompt session opens up, and this new command prompt injected RonHD’s credentials into it. To validate if you can read the contents of the C$ of the *Admin-PC*, (something *JeffV* shouldn't be able to do), execute the command below from the new command line session:
+A new command prompt session opens up, and this new command prompt injected *RonHD’s* credentials into it. To validate if you can read the contents of the C$ of the *Admin-PC*, (something *JeffV* shouldn't be able to do), execute the command below from the new command line session:
 
     dir \\admin-pc\c$
    
@@ -355,7 +355,7 @@ An example of the result of this command is shown in the following image:
 
 ![Dir](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig22.png)
 
-The result of this command proves that at this point you have access to the C drive of *Admin-PC*. Now, you will validate that the new command-prompt you have open injected RonHD’s ticket and you didn’t just misconfigure *JeffV* to have read rights.
+The result of this command proves that at this point you have access to the C drive of *Admin-PC*. Now, you will validate that the new command-prompt you have open injected *RonHD’s* ticket and you didn’t just misconfigure *JeffV* to have read rights.
 
 Next you will inspect tickets in overpass-the-hash command prompt. From the new command prompt that opened from the overpass-the-hash attack, execute the following command:
 
@@ -365,7 +365,7 @@ An example of the result of this command is shown in the following image:
 
 ![klist](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig23.png)
 
-As you can see, at this point you are impersonating RonHD in this command prompt which validates that you used his legitimate credential to gain access to his own *Admin-PC*.
+As you can see, at this point you are impersonating *RonHD* in this command prompt which validates that you used his legitimate credential to gain access to his own *Admin-PC*.
 
 At this point you may noticed that Microsoft ATA raised an alert about an unusual protocol  implementation, as shown below. This happens because overpass-the-hash uses NTLM, and thus RC4. From the defender’s perspective, you will learn that on *Victim-PC*, RonHD’s account successfully authenticated against the domain controller.  You could then start our investigation.
 
@@ -393,7 +393,7 @@ An example of the result of this command is shown in the following image:
 
 ![XCopy](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig25.png) 
 
-This operation showed that the attacker successfully copied the mimikatz tool over to *Admin-PC*. The attacker successfully executed mimikatz remotely, exporting all Kerberos tickets from *Admin-PC*.  Finally, the attacker copied back the results to *Victim-PC*, and now has NuckC’s credentials without having to exploit his computer.
+This operation showed that the attacker successfully copied the *mimikatz* tool over to *Admin-PC*. The attacker successfully executed mimikatz remotely, exporting all Kerberos tickets from *Admin-PC*.  Finally, the attacker copied back the results to *Victim-PC*, and now has *NuckC’s* credentials without having to exploit his computer.
 
 The next step is to locate the *NuckC* TGT. To do that you have to locate the kirbi files which are not *NuckC* (i.e. “ADMIN-PC$”), delete those and keep the *NuckC* tickets.
 
@@ -403,7 +403,7 @@ An example of the result of this command is shown in the following image:
 
 At this point the attacker can pass the ticket into memory and use them to gain access to resources as if you were *NuckC*. The attacker is ready to import them into *Victim-PC*’s memory, to get the credentials to access sensitive resources. This operation is done via [Pass-the-Ticket](https://blogs.technet.microsoft.com/windowsserver/tag/pass-the-ticket/) attack.
 
-From an elevated command prompt, where mimikatz is located on the file system, execute the following command:
+From an elevated command prompt, where *mimikatz* is located on the file system, execute the following command:
 
     mimikatz.exe “privilege::debug” “kerberos::ptt c:\temp\tickets” “exit”
 
@@ -464,11 +464,11 @@ The attacker has achieved domain dominance, they can run any code, as administra
  
 However, to ensure the persistence of domain dominance, backdoors and other mechanisms are put in place as insurance policies, in case the original method of attack was discovered or a credential randomly reset. The assumption at this point is that the attacker wants to create the ultimate backdoor to the DC, a way to instantly create *Admin* privileged users, this method is known as Skeleton Key. 
 
-Next step is to inject the Skeleton Key attack on DC1. First, you must copy mimikatz over to the DC. Note that in this phase it is important to know if the DC is a 32-bit or 64-bit machine.  The example uses a 64-bit machine—modify it to the needs of your specific environment.
+Next step is to inject the Skeleton Key attack on DC1. First, you must copy *mimikatz* over to the DC. Note that in this phase it is important to know if the DC is a 32-bit or 64-bit machine.  The example uses a 64-bit machine—modify it to the needs of your specific environment.
 
 	xcopy x64\mimikatz.exe \\dc1\c$\temp\
 
-Next, you will use PsExec to execute it remotely, and deploy the Skeleton Key, using the command below:
+Next, you will use *PsExec* to execute it remotely, and deploy the Skeleton Key, using the command below:
 
 	PsExec \\dc1 -accepteula cmd /c (cd c:\temp ^& mimikatz.exe “privilege::debug” “misc::skeleton” ^& “exit”)
 
@@ -509,10 +509,10 @@ Microsoft ATA will be able to detect this activity as shown in the sample below:
 
 ![Skeleton key](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig38.png) 
 
-So far, everything the attacker did on the DC required them to run arbitrary code on the DC.  ATA detected these actions by raising the respective Suspicious Activity flag as well as providing the network defender with information to remediate. However, an attacker might want to continue his intrusion by performing more covert attack, one that doesn’t run arbitrary code on the DC (without PsExec or injecting the Skeleton Key into the LSASS process directly).
-Mimikatz, the research tool of choice in this area, has a capability called “DC Sync”.  This allows the attacker, with Domain Admin credentials, to replicate any credential back to them as if they were a DC.
+So far, everything the attacker did on the DC required them to run arbitrary code on the DC.  ATA detected these actions by raising the respective Suspicious Activity flag as well as providing the network defender with information to remediate. However, an attacker might want to continue his intrusion by performing more covert attack, one that doesn’t run arbitrary code on the DC (without *PsExec* or injecting the Skeleton Key into the LSASS process directly).
+*Mimikatz*, the research tool of choice in this area, has a capability called “DC Sync”.  This allows the attacker, with Domain Admin credentials, to replicate any credential back to them as if they were a DC.
 
-Open the command prompt that has NuckC’s credentials, go to the command prompt and make sure that NuckC’s ticket is still injected in the session, as shown in the sample below:
+Open the command prompt that has *NuckC’s* credentials, go to the command prompt and make sure that NuckC’s ticket is still injected in the session, as shown in the sample below:
 
 ![ticket](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig39.png) 
 
