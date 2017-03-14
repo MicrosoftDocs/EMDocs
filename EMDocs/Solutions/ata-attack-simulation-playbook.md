@@ -1,11 +1,12 @@
 ---
 # required metadata
 
-title: This guide will help customers learn about credential theft attack against a Windows operating system, how to use publicly available research tools to perform such actions, and how Microsoft ATA can detect these threats.
+title: Advanced Threat Analytics attack simulation playbook
+description: This guide will help customers learn about credential theft attack against a Windows operating system, how to use publicly available research tools to perform such actions, and how Microsoft ATA can detect these threats.
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 03/10/2017
+ms.date: 03/13/2017
 ms.topic: solution
 ms.prod:
 ms.service: advanced-threat-analytics
