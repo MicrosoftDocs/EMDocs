@@ -13,84 +13,8 @@ hide_bc: true
                 <a href="#products">Products + Services</a>
                 <ul id="products">
                     <li>
-                        <a  data-default="true" href="#all">All</a>
-                        <ul id="all" class="cardsW">
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Identity and Access Management</h3>
-                                                <p>
-                                                    <a href="/azure/active-directory/index">Azure Active Directory</a>
-                                                </p>
-                                                <p>
-                                                    <a href="/azure/multi-factor-authentication/index">
-                                                Multi-factor Authentication
-                                            </a>
-                                                </p>
-                                                <p>
-                                                    <a href="/microsoft-identity-manager/">
-                                                Microsoft Identity Manager
-                                            </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Device and App Management</h3>
-                                                <p>
-                                                    <a href="/intune/">
-                                               Microsoft Intune
-                                            </a>
-                                                </p>
-                                                <p>
-                                                    <a href="/sccm/">
-                                                System Center Configuration Manager
-                                            </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Information Protection and Security</h3>
-                                                <p>
-                                                    <a href="/information-protection/">
-                                                Azure Information Protection
-                                            </a>
-                                                </p>
-                                                <p>
-                                                    <a href="/advanced-threat-analytics/">
-                                                Advanced Threat Analytics
-                                            </a>
-                                                </p>
-                                                <p>
-                                                    <a href="/cloud-app-security/">
-                                                Cloud App Security
-                                            </a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#identity">Identity and Access Management</a>
-                        <ul id="identity" class="cardsC">
+                        <a href="#products-all"></a>
+                        <ul id="products-all" class="cardsC">
                             <li>
                                 <a href="/azure/active-directory/index">
                                     <div class="cardSize">
@@ -104,6 +28,83 @@ hide_bc: true
                                                 <div class="cardText">
                                                     <h3>Azure Active Directory</h3>
                                                     <p>Synchronize on-premises directories and enable single sign-on</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/intune/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Intune</h3>
+                                                    <p>Manage mobile devices, apps, and PCs from the cloud</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/information-protection/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-1.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Information Protection</h3>
+                                                    <p>Classify data at time of creation or update based on source, context,
+                                                        and content</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/cloud-app-security/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Cloud App Security</h3>
+                                                    <p>Gain deep visibility, comprehensive controls, and enhanced SaaS security</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/microsoft-identity-manager/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Identity Manager</h3>
+                                                    <p>Manage identities with automated workflow, self-service, and more</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,49 +131,6 @@ hide_bc: true
                                 </a>
                             </li>
                             <li>
-                                <a href="/microsoft-identity-manager/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft Identity Manager</h3>
-                                                    <p>Manage identities with automated workflow, self-service, and more</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#management">Device and App Management</a>
-                        <ul id="management" class="cardsC">
-                            <li>
-                                <a href="/intune/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-1.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft Intune</h3>
-                                                    <p>Manage mobile devices, apps, and PCs from the cloud</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="/sccm/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -191,31 +149,6 @@ hide_bc: true
                                     </div>
                                 </a>
                             </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#security">Information Protection and Security</a>
-                        <ul id="security" class="cardsC">
-                            <li>
-                                <a href="/information-protection/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_info-protection-security-1.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Azure Information Protection</h3>
-                                                    <p>Classify data at time of creation or update based on source, context,
-                                                        and content</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
                             <li>
                                 <a href="/advanced-threat-analytics/">
                                     <div class="cardSize">
@@ -228,27 +161,7 @@ hide_bc: true
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Advanced Threat Analytics</h3>
-                                                    <p>Identify breaches and threats using behavioral analysis, and create reports
-                                                        on an attack timeline</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/cloud-app-security/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_info-protection-security-3.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Cloud App Security</h3>
-                                                    <p>Gain deep visibility, comprehensive controls, and enhanced SaaS security</p>
+                                                    <p>Identify breaches and threats using behavioral analysis, and create reports on an attack timeline</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -402,5 +315,7 @@ hide_bc: true
                         </ul>
                     </li>
                 </ul>
+            </li>
         </ul>
     </div>
+</div>
