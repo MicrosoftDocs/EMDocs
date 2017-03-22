@@ -54,19 +54,18 @@ hide_bc: true
                                 </a>
                             </li>
                             <li>
-                                <a href="/information-protection/">
+                                <a href="/sccm/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_info-protection-security-1.svg" alt="" />
+                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-2.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Azure Information Protection</h3>
-                                                    <p>Classify data at time of creation or update based on source, context,
-                                                        and content</p>
+                                                    <h3>System Center Configuration Manager</h3>
+                                                    <p>Manage PCs, servers, and mobile devices like iPhones and Android devices with on-premises and cloud-based infrastructure </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -93,18 +92,19 @@ hide_bc: true
                                 </a>
                             </li>
                             <li>
-                                <a href="/microsoft-identity-manager/">
+                                <a href="/information-protection/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
+                                                        <img src="/media/hubs/ems/ems_info-protection-security-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Identity Manager</h3>
-                                                    <p>Manage identities with automated workflow, self-service, and more</p>
+                                                    <h3>Azure Information Protection</h3>
+                                                    <p>Classify data at time of creation or update based on source, context,
+                                                        and content</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -131,25 +131,6 @@ hide_bc: true
                                 </a>
                             </li>
                             <li>
-                                <a href="/sccm/">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_device-app-mgmt-2.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>System Center Configuration Manager</h3>
-                                                    <p>Manage PCs, servers, and mobile devices like iPhones and Android devices with on-premises and cloud-based infrastructure</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="/advanced-threat-analytics/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -162,6 +143,25 @@ hide_bc: true
                                                 <div class="cardText">
                                                     <h3>Advanced Threat Analytics</h3>
                                                     <p>Identify breaches and threats using behavioral analysis, and create reports on an attack timeline</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/microsoft-identity-manager/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/media/hubs/ems/ems_identity-access-mgmt-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Identity Manager</h3>
+                                                    <p>Manage identities with automated workflow, self-service, and more</p>
                                                 </div>
                                             </div>
                                         </div>
