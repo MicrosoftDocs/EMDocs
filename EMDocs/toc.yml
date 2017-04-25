@@ -55,10 +55,6 @@
       href: /intune-azure/
       homepage: /intune-azure
 
-    - name: Intune for Education
-      href: /intune-education/
-      homepage: /intune-education
-
     - name: Intune
       href: /intune/
       homepage: /intune
@@ -84,6 +80,10 @@
         - name: What's New
           href: /intune/whats-new/
           homepage: /intune/whats-new/whats-new-in-microsoft-intune
+
+        - name: Intune for Education
+          href: /intune-education/
+          homepage: /intune-education
 
 
     - name: Azure Information Protection
