@@ -55,7 +55,11 @@
       href: /intune-azure/
       homepage: /intune-azure
 
-    - name: Intune
+    - name: Intune for Education
+      href: /intune-education/
+      homepage: /intune-education
+
+- name: Intune
       href: /intune/
       homepage: /intune
       items:
