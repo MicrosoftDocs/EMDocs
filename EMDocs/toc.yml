@@ -59,7 +59,7 @@
       href: /intune-education/
       homepage: /intune-education
 
-- name: Intune
+    - name: Intune
       href: /intune/
       homepage: /intune
       items:
