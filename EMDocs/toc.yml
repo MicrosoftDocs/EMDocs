@@ -51,40 +51,39 @@
           href: /advanced-threat-analytics/troubleshoot/
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
 
-    - name: Intune Azure preview
-      href: /intune-azure/
-      homepage: /intune-azure
-
     - name: Intune
       href: /intune/
       homepage: /intune
       items:
-        - name: Understand & Explore
-          href: /intune/understand-explore/
-          homepage: /intune/understand-explore/introduction-to-microsoft-intune
-        - name: Plan & Design
-          href: /intune/plan-design/
-          homepage: /intune/plan-design/
-        - name: Deploy & Use
-          href: /intune/deploy-use/
-          homepage: /intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
-        - name: Troubleshoot
-          href: /intune/troubleshoot/
-          homepage: /intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
-        - name: Get Started
-          href: /intune/get-started/
-          homepage: /intune/get-started/get-started
-        - name: Develop & Customize Apps
-          href: /intune/develop/
-          homepage: /intune/develop/intune-app-sdk
-        - name: What's New
-          href: /intune/whats-new/
-          homepage: /intune/whats-new/whats-new-in-microsoft-intune
-
         - name: Intune for Education
           href: /intune-education/
           homepage: /intune-education
 
+    - name: Intune Classic
+      href: /intune-classic/
+      homepage: /intune-classic
+      items:
+        - name: Understand & Explore
+          href: /intune-classic/understand-explore/
+          homepage: /intune-classic/understand-explore/introduction-to-microsoft-intune
+        - name: Plan & Design
+          href: /intune-classic/plan-design/
+          homepage: /intune-classic/plan-design/
+        - name: Deploy & Use
+          href: /intune-classic/deploy-use/
+          homepage: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
+        - name: Troubleshoot
+          href: /intune-classic/troubleshoot/
+          homepage: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
+        - name: Get Started
+          href: /intune-classic/get-started/
+          homepage: /intune-classic/get-started/get-started
+        - name: Develop & Customize Apps
+          href: /intune-classic/develop/
+          homepage: /intune-classic/develop/intune-app-sdk
+        - name: What's New
+          href: /intune-classic/whats-new/
+          homepage: /intune-classic/whats-new/whats-new-in-microsoft-intune
 
     - name: Azure Information Protection
       href: /information-protection/
