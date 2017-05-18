@@ -5,8 +5,8 @@ title: Secure data using classification, labeling and protection | Microsoft Doc
 description: A scenario that describes how Enterprise Mobility + Security can be used to classify, label and protect data by leveraging Microsoft Azure Information Protection capabilities.
 author: yuridio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/17
+manager: mbaldwin
+ms.date: 05/18/17
 ms.topic: solution
 ms.prod:
 ms.service: rights-management
