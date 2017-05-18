@@ -6,8 +6,8 @@ description: This article provides a set of design considerations for client pri
 keywords:
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
