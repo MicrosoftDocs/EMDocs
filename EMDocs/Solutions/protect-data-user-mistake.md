@@ -50,6 +50,11 @@ The following diagram summarizes the capabilities involved in this scenario and 
 
 ![Graphic showing how Cloud App Security and Azure Information Protection work together to protect data on premises and in the cloud.](./media/protect-data-user-mistake/protect-data-user-mistake-fig1-1.png)
 
+Here's a short video to give you a quick introduction to how Enterprise Mobility + Security (EMS) enables IT to gain deeper visibility and control:
+
+<iframe width="675" height="480" src="https://www.youtube.com/embed/LWlRVHp7sKQ" frameborder="0" allowfullscreen></iframe>
+
+
 ## How to implement this solution
 
 Follow these steps to implement [Cloud App Security](https://technet.microsoft.com/library/mt668458.aspx) and [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection):
