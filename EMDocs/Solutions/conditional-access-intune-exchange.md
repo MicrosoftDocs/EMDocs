@@ -48,7 +48,7 @@ Follow the steps at [Configure Microsoft Intune on-premises connector for on-pre
 Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy in Microsoft Intune](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune) to create and deploy compliance policies.
 
 If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.
-![Screenshot showing the "Rules" page of the Create Compliance Policy Wizard where you can specify that an email profile must be managed by Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![Screenshot showing the "Email Profiles" section on the General tab of the Intune Create Policy wizard where you can specify that an email profile must be managed by Intune.](./media/ProtectEmail/intune-create-policy-email-profile.PNG)
 
 If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](end-user-experience-conditional-access.md).
 
