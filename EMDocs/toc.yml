@@ -68,7 +68,7 @@
           homepage: /intune-classic/understand-explore/introduction-to-microsoft-intune
         - name: Plan & Design
           href: /intune-classic/plan-design/
-          homepage: /intune-classic/plan-design/
+          homepage: /intune-classic/plan-design/introduction
         - name: Deploy & Use
           href: /intune-classic/deploy-use/
           homepage: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
