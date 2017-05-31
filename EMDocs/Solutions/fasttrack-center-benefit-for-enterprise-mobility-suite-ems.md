@@ -20,7 +20,7 @@ ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 #audience:
 #ms.devlang:
 ms.reviewer:
-ms.suite: ems 
+ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
@@ -52,14 +52,14 @@ EMS and the cloud services included in the FastTrack Center Benefit for EMS are 
 |Microsoft Advanced Threat Analytics**|Limited</br>Success Plan only and requesting assistance through **Get Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
 |Microsoft Cloud App Security**|Limited</br>Success Plan only and requesting assistance through **Get Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
 
-*Available only for cloud services that are eligible for the benefits. See the following table.
+&ast; Available only for cloud services that are eligible for the benefits. See the following table.
 
-**Purchased as a standalone plan.
+** Purchased as a standalone plan.
 
 |Cloud Service|Eligible for the service benefit?|
 |--------|-------------------------------------|
 |Microsoft Azure Active Directory Premium (E3 and E5)|Yes|
 |Microsoft Intune|Yes|
-|Microsoft Azure Information Protection (E3 and E5)|Limited</br>Success Plan only and request for help through Get Help team|
-|Microsoft Advanced Threat Analytics|Limited</br>Success Plan only and request for help through Get Help team|
-|Microsoft Cloud App Security|Limited</br>Success Plan only and request for help through Get Help team|
+|Microsoft Azure Information Protection (E3 and E5)|Limited</br>Success Plan only and requesting assistance through **Get Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Advanced Threat Analytics|Limited</br>Success Plan only and requesting assistance through **Get Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Cloud App Security|Limited</br>Success Plan only and requesting assistance through **Get Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
