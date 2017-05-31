@@ -20,7 +20,7 @@ ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 #audience:
 #ms.devlang:
 ms.reviewer:
-ms.suite: ems
+ms.suite: ems 
 #ms.tgt_pltfrm:
 #ms.custom: active-directory, ad-health-connect, multi-factor-authentication, microsoft-intune
 
