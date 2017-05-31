@@ -7,7 +7,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 05/31/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -47,9 +47,10 @@ EMS and the cloud services included in the FastTrack Center Benefit for EMS are 
 |Enterprise Mobility + Security (as part of the Secure Productive Enterprise)|Yes*|
 |Microsoft Azure Active Directory Premium (E3 and E5)**|Yes|
 |Microsoft Intune**|Yes|
-|Microsoft Azure Information Protection (E3 and E5)**|Limited</br>Success Plan only and request for help through Get Help team|
-|Microsoft Advanced Threat Analytics**|Limited</br>Success Plan only and request for help through Get Help team|
-|Microsoft Cloud App Security**|Limited</br>Success Plan only and request for help through Get Help team|
+|Microsoft Intune for Education** |Yes |
+|Microsoft Azure Information Protection (E3 and E5)**|Limited</br>Success Plan only and requesting assistance through **Get Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Advanced Threat Analytics**|Limited</br>Success Plan only and requesting assistance through **Get Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Cloud App Security**|Limited</br>Success Plan only and requesting assistance through **Get Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
 
 *Available only for cloud services that are eligible for the benefits. See the following table.
 
