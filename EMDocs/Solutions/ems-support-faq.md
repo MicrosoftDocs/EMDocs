@@ -4,10 +4,10 @@
 title: Enterprise Mobility + Security Support FAQs
 description:
 keywords:
-author: jeffgilb
-ms.author: jeffgilb
-manager: femila
-ms.date: 3/13/2017
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
+ms.date: 5/31/2017
 ms.topic: article
 ms.prod:
 ms.service: ems
@@ -33,11 +33,18 @@ Microsoft provides global pre-sales, billing, subscription, and technical suppor
 
 **Do I need to purchase an Azure support plan to submit an Enterprise Mobility + Security support request?**
 
-Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, and Microsoft Intune through the Office 365 portal. The Office 365 portal provides the intended support experience for EMS, but you can also submit Azure Active Directory Premium and Azure Information Protection support requests through the Azure portal without purchasing a support plan by choosing a *Subscription with technical support included*.
+Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, and Microsoft Intune through the Office 365 portal. The Office 365 portal provides the intended support experience for EMS, but you can also submit Azure Active Directory Premium, Azure Information Protection, and Microsoft Intune support requests through the Azure portal without purchasing a support plan by choosing a *Subscription with technical support included*.
 
 **How do I get Intune support?**
 
 Enterprise Mobility + Security customers can submit support requests for Intune using the  Office 365 portal. [Learn more about  Intune support options](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune).
+
+**How do I get Azure Information Protection support?**
+
+Enterprise Mobility + Security customers can submit support requests for Azure information Protection using the Azure or Office 365 portal. [Learn more about Intune support options](https://docs.microsoft.com/information-protection/get-started/information-support#to-contact-microsoft-support).
+
+**How do I get Azure Active Directory support?**
+Enterprise Mobility + Security customers can submit support requests for Azure AD Premium 1 and Premium 2 using the Azure or Office 365 portal. Learn more about Intune support options. [Learn how to get support for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-troubleshooting-support-howto).
 
 **I am not able to submit a support request through the Office 365 portal. Is there a phone number to call for support?**
 
