@@ -6,7 +6,7 @@ description: This guide will help customers learn about credential theft attack 
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 05/18/2017
+ms.date: 06/06/2017
 ms.topic: solution
 ms.prod:
 ms.service: advanced-threat-analytics
@@ -112,7 +112,7 @@ To configure this lab you will need to download and install the tools below unde
 
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz)
 - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)
-- [PsExec](https://technet.microsoft.com/en-us/pxexec) 
+- [PsExec](https://technet.microsoft.com/en-us/sysinternals/bb897553.aspx) 
 - [NetSess.exe](http://www.joeware.net/freetools)
 
 The tools folder should look similar the following screen:
