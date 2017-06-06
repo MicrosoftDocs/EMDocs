@@ -31,7 +31,7 @@ This guide will help you to learn about credential theft such as Pass-the-Hash, 
 
 This guide will illustrate the following attack scenarios:
 
-- [DNS Reconnaissance](ata-attack-simulation-playbook.md#)
+- DNS Reconnaissance
 - Directory Services Enumeration
 - SMB Session Enumeration
 - Harvesting credentials (lsass.exe)
