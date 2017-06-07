@@ -6,7 +6,7 @@ description:
 keywords:
 author: jeffgilb
 manager: swadhwa
-ms.date: 11/10/2016
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod:
 ms.service: active-directory
