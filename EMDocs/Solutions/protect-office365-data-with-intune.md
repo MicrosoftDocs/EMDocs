@@ -6,7 +6,7 @@ description: Together, EMS and Office 365 offer a complete managed mobile produc
 keywords:
 author: jeffgilb
 manager: swadhwa
-ms.date: 1/23/2017
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod:
 ms.service: microsoft-intune
