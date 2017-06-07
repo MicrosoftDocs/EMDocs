@@ -6,7 +6,7 @@ description:
 keywords:
 author: jeffgilb
 manager: angrobe
-ms.date: 3/24/2017
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod:
 ms.service: microsoft-intune
