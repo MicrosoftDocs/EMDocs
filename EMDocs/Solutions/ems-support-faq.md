@@ -37,7 +37,7 @@ Support is included with Enterprise Mobility + Security. You can submit support 
 
 **How do I get Intune support?**
 
-Enterprise Mobility + Security customers can submit support requests for Intune using the Azure or Office 365 portal. [Learn more about  Intune support options](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune).
+Enterprise Mobility + Security customers can submit support requests for Intune using the Azure or Office 365 portal. [Learn more about Intune support options](https://docs.microsoft.com/intune/get-support).
 
 **How do I get Azure Information Protection support?**
 
