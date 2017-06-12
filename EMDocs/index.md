@@ -35,7 +35,7 @@ hide_bc: true
                                 </a>
                             </li>
                             <li>
-                                <a href="/intune/">
+                                <a href="/intune/index">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
