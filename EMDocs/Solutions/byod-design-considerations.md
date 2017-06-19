@@ -6,8 +6,8 @@ description: This article provides a set of design considerations for products a
 keywords:
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
