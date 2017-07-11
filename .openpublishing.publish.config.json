@@ -2,6 +2,7 @@
   "build_entry_point": "docs.ps1",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
+  "need_generate_pdf_url_template": true,
   "docsets_to_publish": [
     {
       "docset_name": "EMDocs",
@@ -40,6 +41,20 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+    "path_to_root": "_themes.pdf",
+    "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+    "branch": "master"
     }
-  ]
+  ],
+  "Targets": {  
+    "Pdf": {  
+    "template_folder": "_themes.pdf"  
+    }  
+  },
+  "branch_target_mapping": 
+  { 
+    "live": ["Publish", "Pdf"]
+  }
 }
