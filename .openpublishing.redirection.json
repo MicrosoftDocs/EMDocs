@@ -1,0 +1,9 @@
+{ 
+  "redirections": [ 
+    { 
+        "source_path": "emdocs/solutions/enable-byod.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": true 
+    } 
+  ] 
+}
