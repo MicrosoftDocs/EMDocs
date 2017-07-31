@@ -33,5 +33,9 @@
     "fileMetadata": {},
     "template": [],
     "dest": "microsoft-365-enterprise"
+  },
+    "globalMetadata": {
+    "layout": "Conceptual",
+    "breadcrumb_path": "/microsoft-365-enterprise/toc.json"
   }
 }
