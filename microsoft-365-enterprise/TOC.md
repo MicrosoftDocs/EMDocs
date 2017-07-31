@@ -1,4 +1,4 @@
-# [Index](index.md)
+# [Microsoft 365 Enterprise Documentation](index.md)
 
 # [Recommended security policies and configurations](microsoft-365-policies-configurations.md)
 ## [Secure email recommended policies](secure-email-recommended-policies.md)
