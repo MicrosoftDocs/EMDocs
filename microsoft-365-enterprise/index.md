@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise | Microsoft Docs
+title: Microsoft 365 Enterprise Documentation | Microsoft Docs
 description: This content provides an overview of Microsoft 365 Enterprise and enterprise use recommendations.
 author: jeffgilb
 manager: femila

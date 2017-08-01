@@ -1,5 +1,5 @@
 ---
-title: Deploying recommended policies for secure email | Microsoft Docs
+title: Deploying recommended policies for secure email - Microsoft 365 Enterprise | Microsoft Docs
 description:  Describes Microsoft recommendations and core concepts for deploying secure email policies and configurations.
 author: jeffgilb
 manager: femila

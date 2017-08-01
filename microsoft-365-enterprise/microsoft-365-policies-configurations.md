@@ -1,5 +1,5 @@
 ---
-title: Recommended security policies and configurations | Microsoft docs
+title: Recommended security policies and configurations - Microsoft 365 Enterprise | Microsoft docs
 description:  Describes Microsoft recommendations and core concepts for deploying secure email, docs, and apps policies and configurations.
 author: jeffgilb
 manager: femila
@@ -31,7 +31,7 @@ Your organization may be subject to regulatory or other compliance requirements,
 While we’ve done our best to account for a wide variety of organizational protection requirements, we’re not able to account for all possible requirements or for all the unique aspects of your organization. Use these recommendations as a guide for how Microsoft and the secure productive enterprise team is thinking about how to correctly apply policy.  
 
 >[!NOTE]
->For an overview of the core concepts necessary to understand the protection capabilities described in these recommendations, see [EMS and Office 365 services overview](services-overview.md).
+>For an overview of the core concepts necessary to understand the protection capabilities described in these recommendations, see the [Microsoft 365 Enterprise documentation home page](index.md).
 >
 
 ## Core concepts
@@ -151,10 +151,7 @@ The above table reflects the trend for many organizations to support a mix of co
 Corporate-owned devices are required to be managed by Intune or domain-joined to apply additional protections and control.  Depending on data sensitivity, your organization may choose to not allow BYOD for specific user populations or specific apps.
 
 ## Learn more
-Use the following links to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
+Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
 
 [Secure email policies and configurations](secure-email-recommended-policies.md). This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
 
-[Secure documents policies and configurations](secure-docs-recommended-policies.md). This article provides Microsoft recommended policies to help secure Office 365.
-
-[Secure apps policies and configurations](secure-apps-recommended-policies.md).
