@@ -3,8 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
-        ],
+         "**/**.md", 
+         "**/**.yml"],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -27,15 +27,11 @@
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {},
-    "fileMetadata": {},
-    "template": [],
-    "dest": "microsoft-365-enterprise"
-  },
+    "dest": "microsoft-365-enterprise",
+    "template": "docs.html",
     "globalMetadata": {
-    "layout": "Conceptual",
-    "breadcrumb_path": "/microsoft-365-enterprise/toc.json"
+      "layout": "Conceptual",
+      "breadcrumb_path": "/microsoft-365-enterprise/bread/toc.json"
+    }
   }
 }
