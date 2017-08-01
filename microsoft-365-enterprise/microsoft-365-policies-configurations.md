@@ -1,11 +1,11 @@
 ---
-title: Recommended security policies and configurations | Microsoft docs
+title: Recommended security policies and configurations - Microsoft 365 Enterprise | Microsoft docs
 description:  Describes Microsoft recommendations and core concepts for deploying secure email, docs, and apps policies and configurations.
 author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-business
 ms.topic: article
-ms.date: 07/31/2017
+ms.date: 08/01/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -151,10 +151,6 @@ The above table reflects the trend for many organizations to support a mix of co
 Corporate-owned devices are required to be managed by Intune or domain-joined to apply additional protections and control.  Depending on data sensitivity, your organization may choose to not allow BYOD for specific user populations or specific apps.
 
 ## Learn more
-Use the following links to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
+Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
 
-[Secure email policies and configurations](secure-email-recommended-policies.md). This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
-
-[Secure documents policies and configurations](secure-docs-recommended-policies.md). This article provides Microsoft recommended policies to help secure Office 365.
-
-[Secure apps policies and configurations](secure-apps-recommended-policies.md).
+[Secure email policies and configurations](secure-email-recommended-policies.md). Learn about the Microsoft recommended policies that help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
