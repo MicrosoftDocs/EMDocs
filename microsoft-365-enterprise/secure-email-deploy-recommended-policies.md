@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-business
 ms.topic: article
-ms.date: 07/31/2017
+ms.date: 08/01/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro

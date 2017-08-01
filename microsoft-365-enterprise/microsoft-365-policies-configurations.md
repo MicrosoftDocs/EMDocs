@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-business
 ms.topic: article
-ms.date: 07/31/2017
+ms.date: 08/01/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -154,3 +154,4 @@ Corporate-owned devices are required to be managed by Intune or domain-joined to
 Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
 
 [Secure email policies and configurations](secure-email-recommended-policies.md). This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
+
