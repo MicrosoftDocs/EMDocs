@@ -5,16 +5,16 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-business
 ms.topic: article
-ms.date: 07/31/2017
+ms.date: 08/01/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
 # Microsoft 365 Enterprise Documentation
-Microsoft 365 is a complete, intelligent solution, including Office 365, Windows 10, and Enterprise Mobility + Security, that empowers everyone to be creative and work together, securely. 
+Microsoft 365 Enterprise is a complete, intelligent solution, including Office 365, Windows 10, and Enterprise Mobility + Security (EMS), that empowers everyone to be creative and work together, securely. 
 
-Microsoft 365 Enterprise is designed for large organizations and integrates Office 365 Enterprise, Windows 10 Enterprise, and Enterprise Mobility + Security. 
+Microsoft 365 Enterprise is designed for large organizations and integrates Office 365 Enterprise, Windows 10 Enterprise, and EMS. 
 
 
 ## Microsoft 365 services overview
@@ -30,7 +30,7 @@ This section provides an overview of the EMS and Office 365 services included wi
 |[Microsoft Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)|Intune is a cloud-based enterprise mobility management (EMM) service that helps enable your workforce to be productive while keeping your corporate data protected. Intune integrates closely with Azure AD for identity and access control and is used for device and application management. [Intune’s device management](https://docs.microsoft.com/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) capabilities are used to configure and protect your user’s devices, including Windows PCs. <br><br>Intune device management capabilities support both [Bring Your Own Device (BYOD)](https://docs.microsoft.com/enterprise-mobility-security/solutions/enable-byod) enrollment which lets users enroll their personal phones, tablets, or PCs, and [Corporate-owned Device (COD)](https://docs.microsoft.com/enterprise-mobility-security/solutions/issue-corp-devices) enrollment that enable management scenarios like automatic enrollment, shared devices, or pre-authorized enrollment requirement configurations. For added security, you can even require MFA to enroll a device. Once enrolled into management, Intune can configure device features and settings to enable secure access to company resources.|
 
 
-## EMS concepts
+## Important concepts to understand
 Core concepts and EMS capabilities that you should be familiar with are described in the table below.
 
 |Core Concept|Description|
