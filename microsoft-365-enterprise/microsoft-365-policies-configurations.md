@@ -31,7 +31,7 @@ Your organization may be subject to regulatory or other compliance requirements,
 While we’ve done our best to account for a wide variety of organizational protection requirements, we’re not able to account for all possible requirements or for all the unique aspects of your organization. Use these recommendations as a guide for how Microsoft and the secure productive enterprise team is thinking about how to correctly apply policy.  
 
 >[!NOTE]
->For an overview of the core concepts necessary to understand the protection capabilities described in these recommendations, see [EMS and Office 365 services overview](services-overview.md).
+>For an overview of the core concepts necessary to understand the protection capabilities described in these recommendations, see the [Microsoft 365 Enterprise documentation home page](index.md).
 >
 
 ## Core concepts
@@ -152,5 +152,6 @@ Corporate-owned devices are required to be managed by Intune or domain-joined to
 
 ## Learn more
 Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
+
 
 [Secure email policies and configurations](secure-email-recommended-policies.md). Learn about the Microsoft recommended policies that help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
