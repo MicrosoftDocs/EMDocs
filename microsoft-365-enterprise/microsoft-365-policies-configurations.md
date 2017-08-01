@@ -153,5 +153,5 @@ Corporate-owned devices are required to be managed by Intune or domain-joined to
 ## Learn more
 Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
 
+[Secure email policies and configurations](secure-email-recommended-policies.md). This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
 
-[Secure email policies and configurations](secure-email-recommended-policies.md). Learn about the Microsoft recommended policies that help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
