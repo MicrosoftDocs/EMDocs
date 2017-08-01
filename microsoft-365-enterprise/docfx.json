@@ -27,15 +27,11 @@
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {},
-    "fileMetadata": {},
-    "template": [],
-    "dest": "microsoft-365-enterprise"
-  },
+    "dest": "microsoft-365-enterprise",
+    "template": "docs.html",
     "globalMetadata": {
-    "layout": "Conceptual",
-    "breadcrumb_path": "/enterprise-mobility-security/toc.json"
+      "layout": "Conceptual",
+      "breadcrumb_path": "/enterprise-mobility-security/toc.json"
+    }
   }
 }
