@@ -31,7 +31,7 @@
     "template": "docs.html",
     "globalMetadata": {
       "layout": "Conceptual",
-      "breadcrumb_path": "/microsoft-365-enterprise/toc.json"
+      "breadcrumb_path": "/microsoft-365-enterprise/bread/toc.json"
     }
   }
 }
