@@ -1,6 +1,5 @@
 {
   "build_entry_point": "docs.ps1",
-  "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
@@ -84,7 +83,6 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true,
   "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
