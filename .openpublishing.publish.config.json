@@ -36,7 +36,7 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_groups": [],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -73,9 +73,13 @@
     "live": [
       "Publish",
       "Pdf"
+    ],
+   "master": [
+      "Publish",
+      "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": false,
+  "need_generate_pdf_url_template": true,
   "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
