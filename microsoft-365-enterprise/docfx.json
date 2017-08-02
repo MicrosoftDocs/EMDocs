@@ -32,7 +32,7 @@
     "template": "docs.html",
     "globalMetadata": {
       "layout": "Conceptual",
-      "breadcrumb_path": "/enterprise-mobility-security/toc.json"
+      "breadcrumb_path": "/microsoft-365-enterprise/bread/toc.json"
     }
   }
 }
