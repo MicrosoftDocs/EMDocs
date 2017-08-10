@@ -30,7 +30,7 @@ With WIP and Intune:
 
 -   End users can seamlessly transition between work and personal productivity.
 
-WIP and Intune run silently in the background and are virtually invisible to users when users don’t mix personal and enterprise content.
+WIP and Intune run silently in the background and are virtually invisible when users don’t mix personal and enterprise content.
 
 [Office Add-ins](https://dev.office.com/docs/add-ins/overview/office-add-ins) are built on web technologies. They bring the power and information from the web to Office applications. Add-ins interact with the content in an Office application via the APIs available in Office.js. Core tenets of Office Add-ins include:
 
@@ -52,7 +52,7 @@ One of the goals for add-ins is to remove any blocking issues for end users whil
 
 -   Eliminate prompts for end users when the document and the add-in have the same context.
 
-# Add-ins and WIP
+## Add-ins and WIP
 
 When you enable WIP in your environment, you can enable the following scenarios for your Office Add-ins:
 
@@ -79,7 +79,7 @@ Note:
 |**Unsaved**      |Add-in loads in personal context.<br><br>Navigation to enterprise URLs is not allowed (even if in its own app domain).<br><br>Navigation to personal URLs is allowed.|Add-in loads in enterprise context, and the document is silently converted to enterprise context. This means the document must be saved to an enterprise location.<br><br>Navigation to enterprise URLs is allowed.Navigation to personal URLs is allowed.            |
 
 
-# Add-ins and Intune
+## Add-ins and Intune
 
 On Office for iPad, Office Add-ins are currently supported for Word, Excel, and PowerPoint. Outlook currently supports add-ins on iOS (iPad and iPhone). Outlook administrators can turn off the add-ins by default, including developer installed add-ins, and only enable the specific add-ins approved by their organization. The following table outlines support for data protection scenarios for add-ins running on Office for iOS devices that use the Intune app protection tools.
 
@@ -89,7 +89,7 @@ On Office for iPad, Office Add-ins are currently supported for Word, Excel, and 
 |**Document type**|**Add-ins in personal document or mailbox context for iOS with Intune App Protection<sup>*</sup>**|**Add-ins in enterprise document or mailbox context for iOS with Intune App Protection<sup>*</sup>**|
 |:-----|:-----|:-----|
 |**Personal**|Add-ins usage is unaffected by Intune app protection in personal documents.|Add-ins usage is unaffected by Intune app protection in personal documents.|
-|**Enterprise**|Personal add-ins are allowed to activate.<br><br>Intune app protection policies can protect cut, copy, paste and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|•	Enterprise add-ins are allowed to activate. Administrators can control which add-ins are published via Office management tools [(Office 365 centralized deployment)](https://support.office.com/article/Deploy-Office-add-ins-in-the-Office-365-admin-center-737e8c86-be63-44d7-bf02-492fa7cd9c3f?ui=en-US&rs=en-US&ad=US&fromAR=1).<br><br>Intune app protection policies can protect cut, copy, paste and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|
+|**Enterprise**|Personal add-ins are allowed to activate.<br><br>Intune app protection policies can protect cut, copy, paste, and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|•	Enterprise add-ins are allowed to activate. Administrators can control which add-ins are published via Office management tools [(Office 365 centralized deployment)](https://support.office.com/article/Deploy-Office-add-ins-in-the-Office-365-admin-center-737e8c86-be63-44d7-bf02-492fa7cd9c3f?ui=en-US&rs=en-US&ad=US&fromAR=1).<br><br>Intune app protection policies can protect cut, copy, paste, and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|
 
 >**<sup>*</sup>** Administrators can use [Office 365 Centralized deployment](https://support.office.com/article/Deploy-Office-add-ins-in-the-Office-365-admin-center-737e8c86-be63-44d7-bf02-492fa7cd9c3f?ui=en-US&rs=en-US&ad=US&fromAR=1) to deploy Word, Excel, and PowerPoint add-ins to individual users, groups, or an organization directly from the Office 365 admin center or using PowerShell scripts. When users open an Office application on Windows, Mac, or Office Online, the add-in is automatically installed on their ribbon.
 
