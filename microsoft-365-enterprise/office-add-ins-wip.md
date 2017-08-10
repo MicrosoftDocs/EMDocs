@@ -66,11 +66,9 @@ When you enable WIP in your environment, you can enable the following scenarios 
 
 The following table lists the expected add-in behavior in enterprise and personal contexts and documents when WIP is enabled.
 
-Note:
-
--   Cut, copy, and paste operations within and outside of the host application work as expected in all scenarios.
-
--   Data transfer to add-in services is not protected in all scenarios
+> [!NOTE]
+> - Cut, copy, and paste operations within and outside of the host application work as expected in all scenarios.
+> - Data transfer to add-in services is not protected in all scenarios.
 
 |**Document type**|**Add-in in personal document or mailbox context**|**Add-in in enterprise document or mailbox context**|
 |:----------------|:-------------------------------------------------|:---------------------------------------------------|
@@ -89,7 +87,7 @@ On Office for iPad, Office Add-ins are currently supported for Word, Excel, and 
 |**Document type**|**Add-ins in personal document or mailbox context for iOS with Intune App Protection<sup>*</sup>**|**Add-ins in enterprise document or mailbox context for iOS with Intune App Protection<sup>*</sup>**|
 |:-----|:-----|:-----|
 |**Personal**|Add-ins usage is unaffected by Intune app protection in personal documents.|Add-ins usage is unaffected by Intune app protection in personal documents.|
-|**Enterprise**|Personal add-ins are allowed to activate.<br><br>Intune app protection policies can protect cut, copy, paste, and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|•	Enterprise add-ins are allowed to activate. Administrators can control which add-ins are published via Office management tools [(Office 365 centralized deployment)](https://support.office.com/article/Deploy-Office-add-ins-in-the-Office-365-admin-center-737e8c86-be63-44d7-bf02-492fa7cd9c3f?ui=en-US&rs=en-US&ad=US&fromAR=1).<br><br>Intune app protection policies can protect cut, copy, paste, and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|
+|**Enterprise**|Personal add-ins are allowed to activate.<br><br>Intune app protection policies can protect cut, copy, paste, and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|Enterprise add-ins are allowed to activate. Administrators can control which add-ins are published via Office management tools [(Office 365 centralized deployment)](https://support.office.com/article/Deploy-Office-add-ins-in-the-Office-365-admin-center-737e8c86-be63-44d7-bf02-492fa7cd9c3f?ui=en-US&rs=en-US&ad=US&fromAR=1).<br><br>Intune app protection policies can protect cut, copy, paste, and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|
 
 >**<sup>*</sup>** Administrators can use [Office 365 Centralized deployment](https://support.office.com/article/Deploy-Office-add-ins-in-the-Office-365-admin-center-737e8c86-be63-44d7-bf02-492fa7cd9c3f?ui=en-US&rs=en-US&ad=US&fromAR=1) to deploy Word, Excel, and PowerPoint add-ins to individual users, groups, or an organization directly from the Office 365 admin center or using PowerShell scripts. When users open an Office application on Windows, Mac, or Office Online, the add-in is automatically installed on their ribbon.
 
