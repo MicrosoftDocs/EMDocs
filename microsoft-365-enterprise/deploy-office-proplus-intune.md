@@ -16,7 +16,7 @@ Microsoft 365 Enterprise a modern workplace solution that empowers everyone to b
 
 It's now easier than ever for you to select specific Office 365 ProPlus apps (using Click-to-Run or C2R technology), deploy them to enrolled devices running Windows 10 Creators Update, and view deployment metrics through the new Intune portal on Azure. This works nicely with Windows AutoPilot to get employees' devices work-ready by just providing company credentials during the out of box experience (OOBE) while Azure AD and Intune work together in the background to register the device, deploy the necessary configurations, and now also install Office 365 ProPlus apps.
 
-[Simplify Windows 10 management and lower TCO with EMS](./media/deploy-office-proplus-intune/deploy-office-proplus-intune/windows-10-management-ems.png)
+![Simplify Windows 10 management and lower TCO with EMS](./media/deploy-office-proplus-intune/windows-10-management-ems.png)
 
 You can [download this infographic here](https://gallery.technet.microsoft.com/Infographic-Simplify-37e77674).
 
@@ -27,15 +27,15 @@ Through the new Intune portal, we have made it easy to add and customize Office 
 
 1. First, choose the applications you want to install on end user devices.
 
-[Choose applications to deploy](./media/deploy-office-proplus-intune/Configure-App-Suite-1024x858.png)
+![Choose applications to deploy](./media/deploy-office-proplus-intune/Configure-App-Suite.png)
 
 2. Next, configure the application suite’s information. For example, you might want to add a short description of which apps are in this suite to be displayed in the Intune Company Portal.
 
-[Configure application suite information](./media/deploy-office-proplus-intune/App-Suite-Informaiton-1024x858.png)
+![Configure application suite information](./media/deploy-office-proplus-intune/App-Suite-Information.png)
 
 3. Finally, configure a few installation settings, such as system architecture or update channel.
 
-[Configure installation settings](./media/deploy-office-proplus-intune/App-Suite-Settings-1024x858.png)
+![Configure installation settings](./media/deploy-office-proplus-intune/App-Suite-Settings.png)
 
 Your end users can install Office apps through the Intune Company portal if you’ve made them available. Otherwise, users simply enjoy a silent install. Once Office is installed on their devices, users can sign in, activate the product, and experience the latest features as [Office is automatically kept up to date  by the service](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
 
