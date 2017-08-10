@@ -25,15 +25,15 @@ Let’s take a look at how you can configure an Office 365 ProPlus deployment wi
 
 Through the new Intune portal, we have made it easy to add and customize Office 365 ProPlus deployments. After choosing the ‘Office 365 ProPlus Suite (Windows 10)’ app type, you can customize the deployment of Office apps in three easy steps.
 
-1. First, choose the applications you want to install on end user devices:
+First, choose the applications you want to install on end user devices:
 
 ![Choose applications to deploy](./media/deploy-office-proplus-intune/Configure-App-Suite.png)
 
-2. Next, configure the application suite’s information. For example, you might want to add a short description of which apps are in this suite to be displayed in the Intune Company Portal:
+Next, configure the application suite’s information. For example, you might want to add a short description of which apps are in this suite to be displayed in the Intune Company Portal:
 
 ![Configure application suite information](./media/deploy-office-proplus-intune/App-Suite-Information.png)
 
-3. Finally, configure a few installation settings, such as system architecture or update channel:
+Finally, configure a few installation settings, such as system architecture or update channel:
 
 ![Configure installation settings](./media/deploy-office-proplus-intune/App-Suite-Settings.png)
 
