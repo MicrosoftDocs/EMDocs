@@ -3,7 +3,7 @@ title: Recommended security policies and configurations - Microsoft 365 Enterpri
 description:  Describes Microsoft recommendations and core concepts for deploying secure email, docs, and apps policies and configurations.
 author: jeffgilb
 manager: femila
-ms.prod: microsoft-365-business
+ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/01/2017
 ms.author: jeffgilb
