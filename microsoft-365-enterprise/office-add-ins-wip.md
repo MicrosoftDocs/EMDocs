@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/10/2017
+ms.date: 08/14/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -70,7 +70,7 @@ The following table lists the expected add-in behavior in enterprise and persona
 > - Cut, copy, and paste operations within and outside of the host application work as expected in all scenarios.
 > - Data transfer to add-in services is not protected in all scenarios.
 
-|**Document type**|**Add-in in personal document or mailbox context**|**Add-in in enterprise document or mailbox context**|
+|**Document or mailbox type**|**Add-in in personal context**|**Add-in in enterprise context**|
 |:----------------|:-------------------------------------------------|:---------------------------------------------------|
 |**Personal**     |Add-in loads in personal context.<br><br>Navigation to enterprise URLs is not allowed (even if in its own app domain).<br><br>Navigation to personal URLS is allowed|Add-in fails to load or activate.<br><br>If the document’s context is elevated (for example: by saving it to an enterprise location):<br><br>- Navigation to enterprise URLs is allowed.<br><br>- Navigation to personal URLs is allowed.|
 |**Enterprise**   |Add-in loads in enterprise context.<br><br>Navigation to enterprise URLs is allowed.<br><br>Navigation to personal URLs is allowed.|Add-in loads in enterprise context.<br><br>Navigation to enterprise URLs is allowed.<br><br>Navigation to personal URLs is allowed.|
@@ -84,7 +84,7 @@ On Office for iPad, Office Add-ins are currently supported for Word, Excel, and 
 > [!NOTE]
 > For information about Outlook add-ins running on Android and iOS devices, see [Manage user access to add-ins for Outlook](https://technet.microsoft.com/library/jj943757(v=exchg.150).aspx).
 
-|**Document type**|**Add-ins in personal document or mailbox context for iOS with Intune App Protection<sup>*</sup>**|**Add-ins in enterprise document or mailbox context for iOS with Intune App Protection<sup>*</sup>**|
+|**Document or mailbox type**|**Add-ins in personal context for iOS with Intune App Protection<sup>*</sup>**|**Add-ins in enterprise context for iOS with Intune App Protection<sup>*</sup>**|
 |:-----|:-----|:-----|
 |**Personal**|Add-ins usage is unaffected by Intune app protection in personal documents.|Add-ins usage is unaffected by Intune app protection in personal documents.|
 |**Enterprise**|Personal add-ins are allowed to activate.<br><br>Intune app protection policies can protect cut, copy, paste, and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|Enterprise add-ins are allowed to activate. Administrators can control which add-ins are published via Office management tools [(Office 365 centralized deployment)](https://support.office.com/article/Deploy-Office-add-ins-in-the-Office-365-admin-center-737e8c86-be63-44d7-bf02-492fa7cd9c3f?ui=en-US&rs=en-US&ad=US&fromAR=1).<br><br>Intune app protection policies can protect cut, copy, paste, and data transfer scenarios between the add-in and other applications on the device.<br><br>Data transfer to add-in services is not protected.|
