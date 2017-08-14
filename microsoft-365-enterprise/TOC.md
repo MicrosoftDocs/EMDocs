@@ -4,4 +4,7 @@
 ## [Secure email recommended policies](secure-email-recommended-policies.md)
 ### [Deploy recommended secure email policies](secure-email-deploy-recommended-policies.md)
 
+# [Protect enterprise data in documents running Office Add-ins](office-add-ins-wip.md)
+
 # [Deploy Office 365 ProPlus with Intune](deploy-office-proplus-intune.md)
+
