@@ -21,7 +21,7 @@ To successfully deploy the recommended polices, you need to take actions in the 
 
 You can target both Azure AD and Intune policies towards specific groups of users. We suggest rolling out the policies defined earlier in a staged way. This way you can validate the performance of the policies and your support teams relative to the policy incrementally.
 
-## Baseline conditional access policy
+## Baseline 
 
 To create a new conditional access policy, log in to the Microsoft Azure portal with your administrator credentials. Then navigate to **Azure Active Directory > Security > Conditional access**. 
 
@@ -50,7 +50,7 @@ The following table describes the conditional access policy settings to implemen
 |**Enable policy**|||On|Deploys conditional access policy|
 
 
-## Sensitive conditional access policy
+## Sensitive 
 
 ### Low and above risk requires MFA
 The following table describes the conditional access policy settings to implement for low- and above-risk policies.
@@ -81,7 +81,7 @@ The following table describes the conditional access policy settings to implemen
 
 Once the pilot project has been completed, these policies should be applied to users in your organization who require access to email considered sensitive.
 
-## Highly regulated conditional access policy
+## Highly regulated 
 ### MFA required
 
 The following table describes the conditional access policy settings to implement for the highly regulated policy.
@@ -105,8 +105,7 @@ The following table describes the conditional access policy settings to implemen
 #### Apply to
 Once the pilot project has been completed, these policies should be applied to users in your organization who require access to email considered highly regulated.
 
-## User risk policy
-### High risk users must change password
+### High risk users policy
 To ensure that all high-risk users compromised accounts are forced to perform a password change when signing-in, you must apply the following policy. 
 
 Log in to the [Microsoft Azure portal (http://portal.azure.com)](http://portal.azure.com/) with your administrator credentials, and then navigate to **Azure AD Identity Protection > User Risk Policy**.
@@ -120,3 +119,6 @@ Log in to the [Microsoft Azure portal (http://portal.azure.com)](http://portal.a
 ||Access|Require password change|True|Check|
 |**Review**|N/A|N/A|N/A|N/A|
 |**Enforce policy**|||On|Starts enforcing policy|
+
+## Next steps
+[Learn more about Microsoft 365 services](index.md)

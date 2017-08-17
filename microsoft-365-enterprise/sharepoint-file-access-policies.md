@@ -11,7 +11,7 @@ ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
-# SharePoint site and file access policy recommendations
+# SharePoint Site and file access policy recommendations
 
 In addition to the polices deployed in the section for secure email; the following new policies must be created, and existing policies amended, as described here.
 
@@ -80,7 +80,7 @@ Make the following changes to the existing CA policy:
 
 (See baseline instructions)
 
-## Highly regulated conditional access policy
+## Highly regulated 
 
 ### MFA required
 

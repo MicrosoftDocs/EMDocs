@@ -61,7 +61,7 @@ To manage mobile apps, log in to the Microsoft Azure portal with your administra
 
 Once your pilot project has been completed, these policies should be applied to all users in your organization.
 
-## Sensitive
+## Sensitive 
 Need to pull delta from common policy article.
 
 ## Highly regulated
