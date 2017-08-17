@@ -181,13 +181,13 @@
           homepage: /sccm/core/understand/introduction
         - name: Application management
           href: /sccm/apps/
-          homepage: /sccm/apps/understand/get-started-with-application-management
+          homepage: /sccm/apps/understand/introduction-to-application-management
         - name: Device compliance
           href: /sccm/compliance/
           homepage: /sccm/compliance/understand/ensure-device-compliance
         - name: Mobile device management
           href: /sccm/mdm/
-          homepage: /sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management
+          homepage: /sccm/mdm/understand/hybrid-mobile-device-management
         - name: Operating system deployment
           href: /sccm/osd/
           homepage: /sccm/osd/understand/introduction-to-operating-system-deployment

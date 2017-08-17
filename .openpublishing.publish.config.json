@@ -1,6 +1,6 @@
 {
+  "need_generate_pdf_url_template": true,
   "build_entry_point": "docs.ps1",
-  "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
@@ -9,11 +9,13 @@
       "build_output_subfolder": "EMDocs",
       "locale": "en-us",
       "monikers": [],
-      "moniker_groups": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content"
       },
+      "template_folder": "_themes",
+      "moniker_groups": [],
       "version": 0
     },
     {
@@ -22,11 +24,13 @@
       "build_output_subfolder": "EMDocs/Solutions",
       "locale": "en-us",
       "monikers": [],
-      "moniker_groups": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content"
       },
+      "template_folder": "_themes",
+      "moniker_groups": [],
       "version": 0
     },
     {
@@ -35,7 +39,7 @@
       "build_output_subfolder": "microsoft-365-enterprise",
       "locale": "en-us",
       "monikers": [],
-      "moniker_groups": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -44,6 +48,7 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
+      "moniker_groups": [],
       "version": 0
     }
   ],
@@ -73,9 +78,12 @@
     "live": [
       "Publish",
       "Pdf"
+    ],
+   "master": [
+      "Publish",
+      "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": false,
   "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
