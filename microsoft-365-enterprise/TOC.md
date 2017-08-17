@@ -1,5 +1,6 @@
 # [Microsoft 365 Enterprise Documentation](index.md)
 
+
 # [Architecture models and posters]()
 
 # [Identity and device access configurations](microsoft-365-policies-configurations.md)
@@ -20,5 +21,4 @@
 # [Industry-specific solutions]()
 ## [Security guidance for political campaigns and nonprofit orgs]()
 ## [Privacy guidance for GDPR environments]()
-
 
