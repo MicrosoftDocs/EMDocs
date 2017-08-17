@@ -19,9 +19,9 @@ This article describes recommended policies to help you secure organizational em
 > [!NOTE]
 > The following recommendations are based on three different tiers of security and protection for your email that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
 
-## Baseline conditional access policy
+## Baseline 
 
-## Require a compliant or domain joined device
+### Require a compliant or domain joined device
 
 To create a new Intune Conditional Access Policy for Exchange Online, log in to the [Microsoft Management portal (http://manage.microsoft.com)](http://manage.microsoft.com/) with your administrator credentials and then navigate to **Policy > Conditional Access > Exchange Online Policy**.
 
@@ -60,6 +60,12 @@ To manage mobile apps, log in to the Microsoft Azure portal with your administra
 #### Apply to
 
 Once your pilot project has been completed, these policies should be applied to all users in your organization.
+
+## Sensitive
+Need to pull delta from common policy article.
+
+## Highly regulated
+Need to pull delta from common policy article.
 
 
 ## Additional configurations

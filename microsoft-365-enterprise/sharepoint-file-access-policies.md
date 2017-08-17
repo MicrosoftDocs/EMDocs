@@ -11,11 +11,11 @@ ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
-# General identity and device access policy recommendations
+# SharePoint site and file access policy recommendations
 
 In addition to the polices deployed in the section for secure email; the following new policies must be created, and existing policies amended, as described here.
 
-## Baseline conditional access policy
+## Baseline 
 
 ### Medium and above risk requires MFA
 
@@ -62,7 +62,7 @@ To manage mobile apps, log in to the Microsoft Azure portal with your administra
 
 Once your pilot project has been completed, these policies should be applied to all users in your organization.
 
-## Sensitive conditional access policy
+## Sensitive 
 
 ### Low and above risk requires MFA
 
@@ -74,11 +74,11 @@ Make the following changes to the existing CA policy:
 
 ### Require a compliant or domain joined device
 
-[See baseline instructions.](common-identity-access-policies.md)
+(See baseline instructions)
 
 ### Mobile application management conditional access for Exchange online
 
-[See baseline instructions.](common-identity-access-policies.md)
+(See baseline instructions)
 
 ## Highly regulated conditional access policy
 
@@ -90,12 +90,10 @@ Make the following changes to the existing CA policy:
 |Assignments|Cloud apps|Include|Select apps:<br></br>Select Office 365 Exchange Online<br></br>Office 365 SharePoint Online|Select both|
 
 ### Require a compliant or domain joined device
-
-[See baseline instructions.](common-identity-access-policies.md)
+(See baseline instructions)
 
 ### Mobile application management conditional access for Exchange online
-
-[See baseline instructions.](common-identity-access-policies.md)
+(See baseline instructions)
                                                      
 
 ## Next steps
