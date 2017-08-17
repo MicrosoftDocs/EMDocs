@@ -6,7 +6,7 @@
 ## [Identity and device access policies overview](identity-access-policies.md)
 ## [Common identity and device access policies](common-identity-access-policies.md)
 ## [Email access policies](secure-email-recommended-policies.md)
-## [SharePoint site and file access policies]()
+## [SharePoint site and file access policies](sharepoint-file-access-policies.md)
 
 
 # [Secure SharePoint sites and files]()
