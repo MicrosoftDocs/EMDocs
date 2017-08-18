@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/18/2017
+ms.date: 08/21/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -190,4 +190,4 @@ For most organizations, it is important to be able to set expectations for users
  
  ## Next steps
 
- [Deploy common identity and device access policies](common-identity-access-policies.md)
+ [Deploy secure email policies](secure-email-recommended-policies.md)

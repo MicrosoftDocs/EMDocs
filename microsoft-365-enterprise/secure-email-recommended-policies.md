@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/01/2017
+ms.date: 08/21/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -321,4 +321,6 @@ If a user reports that they are now expected to perform MFA when this was previo
 Users within the organization with a Global Administrator or Security Administrator role can use Azure AD Identity Protection to review the risky events that contributed to the calculated risk score. If they identify some events that were flagged as suspicious, but are confirmed to be valid (such as a login from an unfamiliar location when an employee is on vacation), the administrator can resolve the event so it no longer contributes to the risk score.
 
 ## Next steps
-[Learn more about Microsoft 365 services](index.md)
+
+[Deploy secure file access policies](sharepoint-file-access-policies.md)
+ 
