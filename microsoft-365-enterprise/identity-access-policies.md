@@ -39,7 +39,26 @@ The following email clients support Modern Authentication and Conditional Access
 In order to access Azure Information Protection protected documents additional software may be required. Be sure that you are using [supported software and document formats](https://docs.microsoft.com/information-protection/get-started/requirements-applications) to create and view protected documents with Azure Information Protection.
 
 
-### Recommended secure docs client table goes here
+### Recommended client platforms when securing documents
+The following clients are recommended when a Secure Documents policy has been applied. 
+
+|Platform|Word/Excel/PowerPoint|OneNote|OneDrive App|SharePoint App|OneDrive Sync Client|
+|:-------|:-----|:------------|:-------|:-------------|:-----|
+|Windows 7|Supported|Supported|N/A|N/A|Preview<sup>*</sup>|
+|Windows 8.1|Supported|Supported|N/A|N/A|Preview<sup>*</sup>|
+|Windows 10|Supported|Supported|N/A|N/A|Preview<sup>*</sup>|
+|Windows Phone 10|Not supported|Not supported|Supported|Supported|N/A|
+|Android|Supported|Supported|Supported|Supported|N/A|
+|iOS|Supported|Supported|Supported|Supported|N/A|
+|macOS|Coming Soon|Not supported|N/A|N/A|Not supported|
+|Linux|Not supported|Not supported|Not supported|Not supported|Not supported|
+
+<sup>*</sup> Learn more about the [OneDrive Sync Client Preview](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e).
+
+### Lock down legacy protocols
+Conditional access policies protect access through browser flows and apps using modern authentication; like Office 2016 and the apps on the supported platform list. For older Office desktop applications, like Office 2010, conditional access policy is not applied. 
+
+Older apps that don’t use modern authentication can be blocked [using the OneDrive admin portal](https://support.office.com/article/Control-access-based-on-network-location-or-app-59b83701-cefd-4bf8-b4d1-d4659b60da08). The SharePoint admin PowerShell cmdlet can also be used to disable SharePoint legacy protocols. To use PowerShell, just run the [Set-SPOTenant cmdlet](https://technet.microsoft.com/library/fp161390.aspx) and set **-LegacyAuthProtocolsEnabled** to **$false**.  Once set, legacy protocol support is disabled and all access to SharePoint using older client applications will be blocked.
 
 
 > [!NOTE]
