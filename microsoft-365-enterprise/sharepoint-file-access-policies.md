@@ -23,7 +23,7 @@ Make the following changes to the existing CA policy:
 
 | Category|Type|Properties|Values|Notes|
 |:-----|:-----|:-----|:-----|:-----|
-|Assignments|Cloud apps|Include|Select apps:<br></br>- Office 365 Exchange Online<br></br>- Office 365 SharePoint Online|Select both|
+|Assignments|Cloud apps|Include|Select apps:<br></br>  Office 365 Exchange Online<br></br>  Office 365 SharePoint Online|Select both|
 
 ### Require a compliant or domain joined device
 
@@ -70,7 +70,7 @@ Make the following changes to the existing CA policy:
 
 | Category|Type|Properties|Values|Notes|
 |:-----|:-----|:-----|:-----|:-----|
-|Assignments|Cloud apps|Include|Select apps:<br></br>Office 365 Exchange Online<br></br>Office 365 SharePoint Online|Select both|
+|Assignments|Cloud apps|Include|Select apps:<br></br>  Office 365 Exchange Online<br></br>  Office 365 SharePoint Online|Select both|
 
 ### Require a compliant or domain joined device
 
@@ -87,7 +87,7 @@ Make the following changes to the existing CA policy:
 Make the following changes to the existing CA policy:
 | Category|Type|Properties|Values|Notes|
 |:-----|:-----|:-----|:-----|:-----|
-|Assignments|Cloud apps|Include|Select apps:<br></br>Select Office 365 Exchange Online<br></br>Office 365 SharePoint Online|Select both|
+|Assignments|Cloud apps|Include|Select apps:<br></br>  Office 365 Exchange Online<br></br>  Office 365 SharePoint Online|Select both|
 
 ### Require a compliant or domain joined device
 (See baseline instructions)

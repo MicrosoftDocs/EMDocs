@@ -4,11 +4,9 @@
 # [Architecture models and posters]()
 
 # [Identity and device access configurations](microsoft-365-policies-configurations.md)
-## [Identity and device access policies overview](identity-access-policies.md)
-## [Common identity and device access policies](common-identity-access-policies.md)
+## [Common identity and device access policies](identity-access-policies.md)
 ## [Email access policies](secure-email-recommended-policies.md)
 ## [File access policies](sharepoint-file-access-policies.md)
-
 
 # [Secure SharePoint sites and files]()
 ## [Deploy sites for three tiers of protection]()

@@ -14,6 +14,16 @@ ms.custom: it-pro
 # General identity and device access policy recommendations
 This article describes the common recommended policies to help you secure Microsoft 365 Enterprise. Also discussed are the default platform client configurations we recommend to provide the best SSO experience to your users, as well as the technical pre-requisites for conditional access.
 
+This guidance discusses how to deploy the recommended policies in a newly provisioned environment. Setting up these policies in a separate lab environment allows you to understand and evaluate the recommended policies before staging the rollout to your pre-production and production environments. Your newly provisioned environment may be cloud-only or Hybrid.  
+
+To successfully deploy the recommended polices, you need to take actions in the Azure portal to meet the prerequisites stated earlier. Specifically, you need to:
+* Configure named networks, to ensure Azure Identity Protection can properly generate a risk score
+* Require all users to register for multi-factor authentication (MFA)
+* Configure password sync and self-service password reset to enable users to be able to reset passwords themselves
+
+You can target both Azure AD and Intune policies towards specific groups of users. We suggest rolling out the policies defined earlier in a staged way. This way you can validate the performance of the policies and your support teams relative to the policy incrementally.
+
+
 ## Prerequisites
 
 Before implementing the policies described in the remainder of this document, there are several prerequisites that your organization must meet:
