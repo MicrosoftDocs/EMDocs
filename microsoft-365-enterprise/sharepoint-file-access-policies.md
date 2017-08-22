@@ -94,6 +94,14 @@ Make the following changes to the existing CA policy:
 
 ### Mobile application management conditional access for Exchange online
 (See baseline instructions)
+
+## Additional configurations
+In addition to the above policies, you must also lock down legacy protocols that do not support modern authentication.
+
+### Lock down legacy protocols
+Conditional access policies protect access through browser flows and apps using modern authentication; like Office 2016 and the apps on the supported platform list. For older Office desktop applications, like Office 2010, conditional access policy is not applied. 
+
+Older apps that don’t use modern authentication can be blocked [using the OneDrive admin portal](https://support.office.com/article/Control-access-based-on-network-location-or-app-59b83701-cefd-4bf8-b4d1-d4659b60da08). The SharePoint admin PowerShell cmdlet can also be used to disable SharePoint legacy protocols. To use PowerShell, just run the [Set-SPOTenant cmdlet](https://technet.microsoft.com/library/fp161390.aspx) and set **-LegacyAuthProtocolsEnabled** to **$false**.  Once set, legacy protocol support is disabled and all access to SharePoint using older client applications will be blocked.
                                                      
 
 ## Next steps
