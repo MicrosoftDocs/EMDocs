@@ -22,8 +22,8 @@ Here are the most current versions of Windows 10 and Office 365 ProPlus for the 
 
 |     |**Semi-annual Channel (Pilot)**|**Semi-annual Channel (Broad)**|
 |:-----|:-----|:-----|
-|**Windows 10**|Version 1709|Version 1703|
-|**Office 365 ProPlus|Version 1707 (Build ####.####|Version 1705 (Build 8201.####|) 
+|**Windows 10**|[Version 1709](http://windows.microsoft.com/windows-10/update-history-windows-10)|[Version 1703](https://support.microsoft.com/help/4018124/windows-10-update-history)|
+|**Office 365 ProPlus**|[Version 1707 (Build ####.####)](https://technet.microsoft.com/office/mt465751)|[Version 1705 (Build 8201.####)](https://technet.microsoft.com/office/mt465751)| 
 
 For a more complete release history for Windows 10 and Office 365 ProPlus, see the following articles:
 - [Windows 10 release information](https://technet.microsoft.com/windows/release-info) 
@@ -47,6 +47,6 @@ For more information, see the following articles:
 - [Overview of update channels for Office 365 ProPlus](https://support.officeppe.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4) 
 
 ## Next steps
-[Learn more about Microsoft 365 Enterprise services](microsoft-365-enterprise-overview.md)
+[Learn more about Microsoft 365 Enterprise services](microsoft-365-enterprise-services.md)
 
 [Microsoft 365 Enterprise product page](https://www.microsoft.com/microsoft-365/enterprise) 

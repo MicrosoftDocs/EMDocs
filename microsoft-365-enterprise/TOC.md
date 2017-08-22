@@ -1,5 +1,5 @@
 # [Microsoft 365 Enterprise Documentation](index.md)
-# [Microsoft 365 Enterprise services overview](microsoft-365-enterprise-services.md)
+# [About Microsoft 365 Enterprise](microsoft-365-enterprise-services.md)
 
 # [Architecture models and posters]()
 
