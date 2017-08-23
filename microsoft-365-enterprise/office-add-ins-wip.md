@@ -82,7 +82,7 @@ The following table lists the expected add-in behavior in enterprise and persona
 On Office for iPad, Office Add-ins are currently supported for Word, Excel, and PowerPoint. Outlook currently supports add-ins on iOS (iPad and iPhone). Outlook administrators can turn off the add-ins by default, including developer installed add-ins, and only enable the specific add-ins approved by their organization. The following table outlines support for data protection scenarios for add-ins running on Office for iOS devices that use the Intune app protection tools.
 
 > [!NOTE]
-> For information about Outlook add-ins running on Android and iOS devices, see [Manage user access to add-ins for Outlook](https://technet.microsoft.com/library/jj943757(v=exchg.150).aspx).
+> For information about Outlook add-ins running on Android and iOS devices, see [Manage user access to add-ins for Outlook](https://technet.microsoft.com/library/jj943757(v=exchg.150).aspx) and [Add-ins for Outlook](https://technet.microsoft.com/en-us/library/jj943753(v=exchg.150).aspx).
 
 |**Document or mailbox type**|**Add-ins in personal context for iOS with Intune App Protection<sup>*</sup>**|**Add-ins in enterprise context for iOS with Intune App Protection<sup>*</sup>**|
 |:-----|:-----|:-----|
