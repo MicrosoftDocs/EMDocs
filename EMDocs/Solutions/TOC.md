@@ -1,6 +1,4 @@
 # Solutions
-## [Learn about Enterprise Mobility + Security](learn-about-ems.md)
-## [Start using Enterprise Mobility + Security](ems-get-started.md)
 ## [Identity and Access Management]()
 ### [Thousands of apps, one identity](thousands-apps-one-identity.md)
 ### [Enable business without borders](enable-business-without-borders.md)
@@ -17,10 +15,8 @@
 ### [Track usage of shared data and respond to data abuse](infoprotect-track-usage-scenario.md)
 ### [Role of Azure Information Protection in securing data](azure-information-protection-securing-data.md)
 ## [Managed Mobile Productivity]()
-### [Protect Office 365 company data with Intune](protect-office365-data-with-intune.md)
 ### [Protect on-premises company data with Intune](protect-on-premises-data-with-intune.md)
 ### [Protect company data without managing devices with Intune](protect-company-data-without-managing-devices.md)
-### [Enable BYOD with Intune](enable-byod.md)
 ### [Manage company owned devices with Intune](issue-corp-devices.md)
 ### [Enable a limited-use shared device solution with Intune](limited-use-shared-devices.md)
 ## [Design and Architecture Guides]()
