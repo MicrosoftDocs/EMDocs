@@ -4,11 +4,7 @@
         "source_path": "emdocs/solutions/enable-byod.md",
         "redirect_url": "/intune/byod-enable", 
         "redirect_document_id": true 
-    },    { 
-        "source_path": "emdocs/solutions/enable-byod.md",
-        "redirect_url": "/intune/byod-enable", 
-        "redirect_document_id": true 
-    },
+    },    
     {
 			"source_path": "emdocs/solutions/learn-about-ems.md",
 			"redirect_url": "https://www.microsoft.com/cloud-platform/enterprise-mobility-security",
@@ -166,11 +162,6 @@
     },
     { 
         "source_path": "emdocs/solutions/mdm-device-provisioning-options.md",
-        "redirect_url": "/intune/device-management", 
-        "redirect_document_id": false 
-    },
-    { 
-        "source_path": "emdocs/solutions/mdm-device-management-options.md",
         "redirect_url": "/intune/device-management", 
         "redirect_document_id": false 
     },
