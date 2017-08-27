@@ -250,5 +250,60 @@
         "redirect_url": "/intune/device-management", 
         "redirect_document_id": false 
     },
+    { 
+        "source_path": "emdocs/solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md",
+        "redirect_url": "/intune/exchange-online-protect", 
+        "redirect_document_id": true 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": true 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-configmgr.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-configmgr-coexist.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-configmgr-exchange-online.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-exchange.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-exchange-online.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-conditional-access.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-conditional-access-android.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-conditional-access-ios.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-conditional-access-winphone.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    }, 
   ] 
 }
