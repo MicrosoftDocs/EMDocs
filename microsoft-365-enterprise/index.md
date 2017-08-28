@@ -16,11 +16,11 @@ Microsoft 365 Enterprise is a complete, intelligent solution, including Office 3
 
 Microsoft 365 Enterprise is designed for large organizations and integrates Office 365 Enterprise, Windows 10 Enterprise, and EMS.
 
-Both Windows 10 and Office 365 ProPlus provide new feature releases to the enterprise in March and September via the Semi-annual Channel. A feature release of Semi-annual Channel is supported for 18 months.
+Both Windows 10 and Office 365 ProPlus provide new feature releases to the enterprise in March and September via the Semi-Annual Channel. A feature release of Semi-Annual Channel is supported for 18 months.
 
 Here are the most current versions of Windows 10, Office 365 ProPlus, Microsoft Intune, and System Center Configuration Manager:
 
-|     |**Semi-annual Channel (Pilot)**|**Semi-annual Channel (Broad)**|
+|     |**Semi-Annual Channel (Targeted)**|**Semi-Annual Channel**|
 |:-----|:-----|:-----|
 |**Windows 10**|Version 1709|Version 1703|
 |**Office 365 ProPlus**|Version 1707|Version 1705|
@@ -65,4 +65,4 @@ For more information, see the following articles:
 
 [Microsoft 365 Enterprise product page](https://www.microsoft.com/microsoft-365/enterprise) 
 
-[Cloud platform roadmap](https://www.microsoft.com/cloud-platform/roadmap)]
+[Cloud platform roadmap](https://www.microsoft.com/cloud-platform/roadmap)
