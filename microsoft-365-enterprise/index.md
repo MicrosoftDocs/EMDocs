@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/29/2017
+ms.date: 09/15/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -22,7 +22,7 @@ Here are the most current versions of Windows 10, Office 365 ProPlus, Microsoft 
 
 |     |**Semi-Annual Channel (Targeted)**|**Semi-Annual Channel**|
 |:-----|:-----|:-----|
-|**Windows 10**|Version 1709|Version 1703|
+|**Windows 10**|Windows 10 Fall Creator's Update (coming soon)|Version 1703|
 |**Office 365 ProPlus**|Version 1707|Version 1705|
 |**Intune**|N/A|Version 1708|
 |**System Center Configuration Manager**|Technical Preview Version 1708|Version 1706<sup>*</sup>|
@@ -33,9 +33,11 @@ Here are the most current versions of Windows 10, Office 365 ProPlus, Microsoft 
 > Microsoft Azure services are also updated on a regular basis, but are not referenced by a version number. To review the latest updates, and what's coming, for Azure services, see the [cloud platform roadmap](https://www.microsoft.com/cloud-platform/roadmap).
 
 For a more complete release history information, see the following articles:
+- [What's new in Windows 10](https://docs.microsoft.com/windows/whats-new/)
 - [Windows 10 release information](https://technet.microsoft.com/windows/release-info) 
-- [Update history for Office 365 ProPlus](https://support.officeppe.com/article/Update-history-for-Office-365-ProPlus-ae942449-1fca-4484-898b-a933ea23def7) 
+- [Update history for Office 365 ProPlus](https://support.office.com/article/Update-history-for-Office-365-ProPlus-ae942449-1fca-4484-898b-a933ea23def7) 
 - [What's new in Microsoft Intune](https://docs.microsoft.com/intune/whats-new)
+- [What's new in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/changes/whats-new-incremental-versions)
 - [Capabilities in Technical Preview 1708 for System Center Configuration Manager](https://docs.microsoft.com/sccm/core/get-started/capabilities-in-technical-preview-1708)
 
 ## Deploy Windows 10 and Office 365 ProPlus
@@ -43,8 +45,8 @@ Learn how to deploy Windows 10 and Office 365 ProPlus and integrate into Microso
 
 For more information, see the following articles:
 - [Windows 10 deployment considerations](https://docs.microsoft.com/windows/deployment/planning/windows-10-deployment-considerations) 
-- [Deployment guide for Office 365 ProPlus](https://support.officeppe.com/article/Deployment-guide-for-Office-365-ProPlus-f99f8cd0-e648-4834-8f45-f5637351899d) 
-- [Best practices guide for deploying Office 365 ProPlus in the enterprise](https://support.officeppe.com/article/Best-practices-guide-for-deploying-Office-365-ProPlus-in-the-enterprise-31a384ca-650c-4265-b76c-a87b414fd8b8) 
+- [Deployment guide for Office 365 ProPlus](https://support.office.com/article/Deployment-guide-for-Office-365-ProPlus-f99f8cd0-e648-4834-8f45-f5637351899d) 
+- [Best practices guide for deploying Office 365 ProPlus in the enterprise](https://support.office.com/article/Best-practices-guide-for-deploying-Office-365-ProPlus-in-the-enterprise-31a384ca-650c-4265-b76c-a87b414fd8b8) 
 - [Deploy Office 365 ProPlus apps to Windows 10 devices using Intune](https://docs.microsoft.com/intune/apps-add-office365)
 
 Need help deploying? For deployment assistance with Office 365 ProPlus or Windows 10, [contact FastTrack](https://go.microsoft.com/fwlink/p/?linkid=847279).
