@@ -18,13 +18,13 @@ Microsoft 365 Enterprise is designed for large organizations and integrates Offi
 
 Both Windows 10 and Office 365 ProPlus provide new feature releases to the enterprise in March and September via the Semi-annual Channel. A feature release of Semi-annual Channel is supported for 18 months.
 
-Here are the most current versions of Windows 10 and Office 365 ProPlus for the Semi-annual Channel.
+Here are the most current versions of Windows 10, Office 365 ProPlus, Microsoft Intune, and System Center Configuration Manager:
 
 |     |**Semi-annual Channel (Pilot)**|**Semi-annual Channel (Broad)**|
 |:-----|:-----|:-----|
 |**Windows 10**|Version 1709|Version 1703|
 |**Office 365 ProPlus**|Version 1707|Version 1705|
-|**Microsoft Intune**|N/A|Version 1708|
+|**Intune**|N/A|Version 1708|
 |**System Center Configuration Manager**|Technical Preview Version 1708|Version 1706<sup>*</sup>|
 
 <sup>*</sup> Update 1706 for System Center Configuration Manager current branch is available as an in-console update for previously installed sites that run version 1606, 1610, or 1702.
@@ -39,7 +39,7 @@ For a more complete release history information, see the following articles:
 - [Capabilities in Technical Preview 1708 for System Center Configuration Manager](https://docs.microsoft.com/sccm/core/get-started/capabilities-in-technical-preview-1708)
 
 ## Deploy Windows 10 and Office 365 ProPlus
-Learn how to deploy Windows 10 and Office 365 ProPlus and integrate into Microsoft Azure Active Directory (Azure AD) or on-premises Active Directory Domain Services (AD DS). Deploy Windows 10, Office 365 ProPlus, and your other line of business apps to new devices or upgrade existing devices to Windows 10 using Microsoft Intune, System Center Configuration Manager, and Group Policy to manage devices.
+Learn how to deploy Windows 10 and Office 365 ProPlus and integrate into Microsoft Azure Active Directory (Azure AD) or on-premises Active Directory Domain Services (AD DS). Deploy Windows 10, Office 365 ProPlus, and your other line-of-business apps to new devices or upgrade existing devices to Windows 10 using Intune, System Center Configuration Manager, and Group Policy to manage devices.
 
 For more information, see the following articles:
 - [Windows 10 deployment considerations](https://docs.microsoft.com/windows/deployment/planning/windows-10-deployment-considerations) 

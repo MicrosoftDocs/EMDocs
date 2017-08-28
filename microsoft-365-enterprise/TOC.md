@@ -14,8 +14,6 @@
 ## [Protect files with AIP]()
 ## [Use WIP with files running Office add-ins]()
 
-# [Deploy Office 365 ProPlus with Intune]()
-
 # [Industry-specific solutions]()
 ## [Security guidance for political campaigns and nonprofit orgs]()
 ## [Privacy guidance for GDPR environments]()
