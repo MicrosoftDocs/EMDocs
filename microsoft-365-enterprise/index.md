@@ -12,17 +12,15 @@ ms.custom: it-pro
 ---
 
 # Microsoft 365 Enterprise overview
-Microsoft 365 Enterprise is a complete, intelligent solution, including Office 365, Windows 10, and Enterprise Mobility + Security (EMS), that empowers everyone to be creative and work together, securely. 
+Microsoft 365 Enterprise is designed for large organizations and integrates Office 365 Enterprise, Windows 10 Enterprise, and Enterprise Mobility + Security (EMS) to empower everyone to be creative and work together, securely. Microsoft 365 Enterprise includes an enterprise edition of Windows 10 and Office applications through Office 365 ProPlus.
 
-Microsoft 365 Enterprise is designed for large organizations and integrates Office 365 Enterprise, Windows 10 Enterprise, and EMS.
-
-Both Windows 10 and Office 365 ProPlus provide new feature releases to the enterprise in March and September via the Semi-Annual Channel. A feature release of Semi-Annual Channel is supported for 18 months.
+Both Windows 10 and Office 365 ProPlus provide new feature releases to the enterprise in March and September via the Semi-Annual Channel. A feature release of Semi-Annual Channel is supported for 18 months. Both Microsoft Intune and System Center Configuration Manager provide capabilities to deploy and update Windows 10 and Office 365 ProPlus.
 
 Here are the most current versions of Windows 10, Office 365 ProPlus, Microsoft Intune, and System Center Configuration Manager:
 
 |     |**Semi-Annual Channel (Targeted)**|**Semi-Annual Channel**|
 |:-----|:-----|:-----|
-|**Windows 10**|Windows 10 Fall Creator's Update (coming soon)|Version 1703|
+|**Windows 10**|Windows 10 Fall Creators Update (coming soon)|Version 1703|
 |**Office 365 ProPlus**|Version 1707|Version 1705|
 |**Intune**|N/A|Version 1708|
 |**System Center Configuration Manager**|Technical Preview Version 1708|Version 1706<sup>*</sup>|
@@ -32,10 +30,11 @@ Here are the most current versions of Windows 10, Office 365 ProPlus, Microsoft 
 > [!NOTE]
 > Microsoft Azure services are also updated on a regular basis, but are not referenced by a version number. To review the latest updates, and what's coming, for Azure services, see the [cloud platform roadmap](https://www.microsoft.com/cloud-platform/roadmap).
 
-For a more complete release history information, see the following articles:
+For more information about the features available in these versions, see the following articles:
 - [What's new in Windows 10](https://docs.microsoft.com/windows/whats-new/)
 - [Windows 10 release information](https://technet.microsoft.com/windows/release-info) 
-- [Update history for Office 365 ProPlus](https://support.office.com/article/Update-history-for-Office-365-ProPlus-ae942449-1fca-4484-898b-a933ea23def7) 
+- [Update history for Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)
+- [Office 365 client update channel releases](https://technet.microsoft.com/office/mt465751) 
 - [What's new in Microsoft Intune](https://docs.microsoft.com/intune/whats-new)
 - [What's new in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/changes/whats-new-incremental-versions)
 - [Capabilities in Technical Preview 1708 for System Center Configuration Manager](https://docs.microsoft.com/sccm/core/get-started/capabilities-in-technical-preview-1708)
@@ -45,20 +44,21 @@ Learn how to deploy Windows 10 and Office 365 ProPlus and integrate into Microso
 
 For more information, see the following articles:
 - [Windows 10 deployment considerations](https://docs.microsoft.com/windows/deployment/planning/windows-10-deployment-considerations) 
-- [Deployment guide for Office 365 ProPlus](https://support.office.com/article/Deployment-guide-for-Office-365-ProPlus-f99f8cd0-e648-4834-8f45-f5637351899d) 
-- [Best practices guide for deploying Office 365 ProPlus in the enterprise](https://support.office.com/article/Best-practices-guide-for-deploying-Office-365-ProPlus-in-the-enterprise-31a384ca-650c-4265-b76c-a87b414fd8b8) 
+- [Deployment guide for Office 365 ProPlus](https://support.office.com/article/f99f8cd0-e648-4834-8f45-f5637351899d) 
+- [Best practices guide for deploying Office 365 ProPlus in the enterprise](https://support.office.com/article/31a384ca-650c-4265-b76c-a87b414fd8b8) 
 - [Deploy Office 365 ProPlus apps to Windows 10 devices using Intune](https://docs.microsoft.com/intune/apps-add-office365)
 
-Need help deploying? For deployment assistance with Office 365 ProPlus or Windows 10, [contact FastTrack](https://go.microsoft.com/fwlink/p/?linkid=847279).
+For deployment assistance with Microsoft 365, [contact FastTrack](https://fasttrack.microsoft.com/microsoft365).
 
 ## Manage updates to Windows 10 and Office 365 ProPlus
 The following links show you how to gain maximum control over quality and feature updates for Windows 10 and Office 365 ProPlus. Learn how to effectively control bandwidth usage and keep Windows and Office up-to-date with the newest features, capabilities, and security updates. 
 
 For more information, see the following articles:
 - [Overview of Windows as a service](https://docs.microsoft.com/windows/deployment/update/waas-overview) 
-- [Overview of update channels for Office 365 ProPlus](https://support.officeppe.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4) 
+- [Overview of update channels for Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4) 
 - [Manage software updates with Intune](https://docs.microsoft.com/intune/windows-update-for-business-configure)
 - [Deploy Windows 10 updates using System Center Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)<sup>*</sup>
+- [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates)
 
 <sup>*</sup> Microsoft encourages organizations currently using Configuration Manager for Windows update management to continue doing so for Windows 10 client computers.
 
