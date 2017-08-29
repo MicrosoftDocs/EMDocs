@@ -5,28 +5,33 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/21/2017
+ms.date: 08/30/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
 # SharePoint Site and file access policy recommendations
+The following recommendations are provided *in addition to* the [policy recommendations for securing email](secure-email-recommended-policies.md). To safeguard SharePoint Online files, new policies must be created, and existing policies amended, as described here. 
 
-In addition to the polices deployed in the section for secure email; the following new policies must be created, and existing policies amended, as described here.
+The recommendations are based on three different tiers of security and protection for SharePoint files that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
+
+> [NOTE!]
+>It is important to note that all security groups created as part of these recommendations must be created with Office features enabled. This is specifically important for the deployment of AIP when securing documents in SharePoint. 
+>
+>![Office features enabled for security groups](./media/security-group.png)
+>
 
 ## Baseline 
 
 ### Medium and above risk requires MFA
-
-Make the following changes to the existing CA policy:
+Make the following changes to the existing CA policy created when applying [policy recomendations to secure email](secure-email-recommended-policies.md):
 
 | Category|Type|Properties|Values|Notes|
 |:-----|:-----|:-----|:-----|:-----|
 |Assignments|Cloud apps|Include|Select apps:<br></br>  Office 365 Exchange Online<br></br>  Office 365 SharePoint Online|Select both|
 
 ### Require a compliant or domain joined device
-
 To create a new Intune Conditional Access Policy for SharePoint Online, log in to the [Microsoft Management portal](http://manage.microsoft.com) with your administrator credentials and then navigate to **Policy** > **Conditional Access** > **SharePoint Online Policy**.
 
 ![SharePoint Online Policy](./media/secure-docs/sharepoint-online-policy.png)
@@ -66,7 +71,7 @@ Once your pilot project has been completed, these policies should be applied to 
 
 ### Low and above risk requires MFA
 
-Make the following changes to the existing CA policy:
+Make the following changes to the existing CA policy created when applying [policy recomendations to secure email](secure-email-recommended-policies.md):
 
 | Category|Type|Properties|Values|Notes|
 |:-----|:-----|:-----|:-----|:-----|
@@ -76,7 +81,7 @@ Make the following changes to the existing CA policy:
 
 (See baseline instructions)
 
-### Mobile application management conditional access for Exchange online
+### Mobile application management conditional access for SharePoint online
 
 (See baseline instructions)
 
@@ -84,7 +89,8 @@ Make the following changes to the existing CA policy:
 
 ### MFA required
 
-Make the following changes to the existing CA policy:
+Make the following changes to the existing CA policy created when applying [policy recomendations to secure email](secure-email-recommended-policies.md):
+
 | Category|Type|Properties|Values|Notes|
 |:-----|:-----|:-----|:-----|:-----|
 |Assignments|Cloud apps|Include|Select apps:<br></br>  Office 365 Exchange Online<br></br>  Office 365 SharePoint Online|Select both|
@@ -92,7 +98,7 @@ Make the following changes to the existing CA policy:
 ### Require a compliant or domain joined device
 (See baseline instructions)
 
-### Mobile application management conditional access for Exchange online
+### Mobile application management conditional access for SharePoint online
 (See baseline instructions)
 
 ## Additional configurations

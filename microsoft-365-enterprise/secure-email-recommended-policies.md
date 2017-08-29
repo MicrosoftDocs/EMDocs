@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/21/2017
+ms.date: 08/30/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -15,9 +15,13 @@ ms.custom: it-pro
  
 This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access. 
 
+The following recommendations are based on three different tiers of security and protection for your email that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
 
-> [!NOTE]
-> The following recommendations are based on three different tiers of security and protection for your email that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
+> [NOTE!]
+>It is important to note that all security groups created as part of these recommendations must be created with Office features enabled. This is specifically important for the deployment of AIP when securing documents in SharePoint. 
+>
+>![Office features enabled for security groups](./media/security-group.png)
+>
 
 ## Baseline 
 To create a new conditional access policy, log in to the Microsoft Azure portal with your administrator credentials. Then navigate to **Azure Active Directory > Security > Conditional access**. 

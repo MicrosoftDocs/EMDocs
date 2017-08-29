@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/21/2017
+ms.date: 08/30/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -78,7 +78,7 @@ Traditionally, domain joined Windows devices, using Windows Integrated Authentic
 >The recommendations described in this document assume that one of these apps (Microsoft Authenticator or Intune Company Portal) has been deployed to your users' iOS or Android devices.
 
 ### Multi-factor authentication
-Multi-factor Authentication (MFA) provides a high level of trust about the subject of authentication, because the subject provides multiple proofs or pieces of evidence about its identity. The proofs can be pre-established secrets that only the subject and the authority are aware of or a physical entity that only the subject is expected to possess. MFA is typically performed in stages. First it establishes the identity using passwords, and then it require a different (less prone to malicious attacks) authentication method as the second factor, or vice versa.
+Multi-factor Authentication (MFA) provides a high level of trust about the subject of authentication, because the subject provides multiple proofs or pieces of evidence about its identity. The proofs can be pre-established secrets that only the subject and the authority are aware of or a physical entity that only the subject is expected to possess. MFA is typically performed in stages. First it establishes the identity using passwords, and then it requires a different (less prone to malicious attacks) authentication method as the second factor, or vice versa.
 
 Different authorities may have a slightly different interpretation of MFA, or strong authentication. For example, some authorities (or more specifically the admins configuring policy on those authorities) may choose to interpret the physical smartcard-based authentication as MFA. This can happen even though strictly speaking smartcard authentication is a single stage authentication. 
 
@@ -151,7 +151,7 @@ The above table reflects the trend for many organizations to support a mix of co
 Corporate-owned devices are required to be managed by Intune or domain-joined to apply additional protections and control.  Depending on data sensitivity, your organization may choose to not allow BYOD for specific user populations or specific apps.
 
 ## Learn more
-Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
+Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deployment configurations:
 
 [Secure email policies and configurations](secure-email-recommended-policies.md). This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
 

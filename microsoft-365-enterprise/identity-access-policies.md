@@ -1,11 +1,11 @@
 ---
 title: Identity and device access policies overview - Microsoft 365 Enterprise | Microsoft Docs
-description: Describes the policies for Microsoft recommendations about how to apply email policies and configurations.
+description: Describes the policies for Microsoft recommendations about how to apply identity and device access policies and configurations.
 author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/21/2017
+ms.date: 08/30/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -60,7 +60,7 @@ The following clients are recommended when a Secure Documents policy has been ap
 |Windows Phone 10|Not supported|Not supported|Supported|Supported|N/A|
 |Android|Supported|Supported|Supported|Supported|N/A|
 |iOS|Supported|Supported|Supported|Supported|N/A|
-|macOS|Coming Soon|Not supported|N/A|N/A|Not supported|
+|macOS|Public Preview|Public Preview|N/A|N/A|Not supported|
 |Linux|Not supported|Not supported|Not supported|Not supported|Not supported|
 
 <sup>*</sup> Learn more about the [OneDrive Sync Client Preview](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e).
