@@ -1,20 +1,20 @@
 # [Microsoft 365 Enterprise Documentation](index.md)
 # [About Microsoft 365 Enterprise](microsoft-365-enterprise-services.md)
 
-# [Architecture models and posters]()
+# [Architecture models and posters](architecture-models-posters.md)
 
 # [Identity and device access configurations](microsoft-365-policies-configurations.md)
 ## [Common identity and device access policies](identity-access-policies.md)
 ## [Exchange Online access policies](secure-email-recommended-policies.md)
 ## [SharePoint Online access policies](sharepoint-file-access-policies.md)
 
-# [Secure SharePoint sites and files]()
-## [Deploy sites for three tiers of protection]()
-## [Protect files with Office 365 labels and DLP]()
-## [Protect files with AIP]()
-## [Use WIP with files running Office add-ins]()
+# [Secure SharePoint sites and files](secure-sharepoint-online-sites-and-files.md)
+## [Deploy sites for three tiers of protection](deploy-sites-for-three-tiers-of-protection.md)
+## [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md)
+## [Protect files with AIP](protect-files-with-aip.md)
+## [Use WIP with files running Office add-ins](office-add-ins-wip.md)
 
 # [Industry-specific solutions]()
 ## [Security guidance for political campaigns and nonprofit orgs]()
-## [Privacy guidance for GDPR environments]()
+
 
