@@ -74,7 +74,7 @@ You must set a Conditional Access policy specifically for Exchange Online in the
 |||No exempt users|True|Selected|
 |||Selected security groups|False|||
 
-### Mobile application management conditional access for Exchange online
+### Mobile application management conditional access for Exchange Online
 
 You must set a Conditional Access policy specifically for Exchange Online in the Intune Management portal to manage mobile apps.
 
@@ -317,7 +317,7 @@ In the [Intune management portal (https://manage.microsoft.com)](https://manage.
 
 For all the above policies to be considered deployed, they must be targeted at user groups. You can do this by creating the policy (on Save) or later by selecting Manage Deployment in the Policy section (same level as Add).
 
-## Remediating events that have results in medium or high risk access
+## Remediating medium or high risk access events
 If a user reports that they are now expected to perform MFA when this was previously not required, support can review their status from a risk perspective.  
 
 Users within the organization with a Global Administrator or Security Administrator role can use Azure AD Identity Protection to review the risky events that contributed to the calculated risk score. If they identify some events that were flagged as suspicious, but are confirmed to be valid (such as a login from an unfamiliar location when an employee is on vacation), the administrator can resolve the event so it no longer contributes to the risk score.

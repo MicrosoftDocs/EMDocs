@@ -51,7 +51,7 @@ You must set a Conditional Access policy specifically for SharePoint Online in t
 |     |     |No exempt users|True|Selected|
 |     |     |Selected security groups|False|     |
 
-### Mobile application management conditional access for SharePoint online
+### Mobile application management conditional access for SharePoint Online
 
 You must set a Conditional Access policy specifically for SharePoint Online in the Intune Management portal to manage mobile apps.
 
