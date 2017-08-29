@@ -21,7 +21,7 @@ Here are the most current versions of Windows 10, Office 365 ProPlus, Microsoft 
 |     |**Semi-Annual Channel (Targeted)**|**Semi-Annual Channel**|
 |:-----|:-----|:-----|
 |**Windows 10**|Windows 10 Fall Creators Update (coming soon)|Version 1703|
-|**Office 365 ProPlus**|Version 1707|Version 1705|
+|**Office 365 ProPlus**|Version 1708|Version 1705|
 |**Intune**|N/A|Version 1708|
 |**System Center Configuration Manager**|Technical Preview Version 1708|Version 1706<sup>*</sup>|
 
