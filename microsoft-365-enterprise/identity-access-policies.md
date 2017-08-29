@@ -70,7 +70,8 @@ The following clients are recommended when a Secure Documents policy has been ap
 
 
 ## Baseline 
-This section describes the secure email recommendations for the baseline tier of data, identity, and device protection. These recommendations should meet the default protection needs of many organizations.
+This section describes the recommendations for the baseline tier of data, identity, and device protection. These recommendations should meet the default protection needs of many organizations.
+
 >[!NOTE]
 >The policies below are additive and build upon each other. Each section describes only the additions applied to each tier.
 >
@@ -109,7 +110,7 @@ Users typically benefit from single sign-on (SSO) except during the following si
 * When users at risk sign-in, and successfully complete MFA, they will be asked to change their password.
 
 ## Sensitive
-This section describes the secure email recommendations for the sensitive tier of data, identity, and device protection. These recommendations are for customers who have a subset of data that must be protected at higher levels or require all data to be protected at these higher levels. 
+This section describes the recommendations for the sensitive tier of data, identity, and device protection. These recommendations are for customers who have a subset of data that must be protected at higher levels or require all data to be protected at these higher levels. 
 
 You can apply increased protection to all or specific data sets in your Office 365 environment. For example, you can apply policies to ensure sensitive data is only shared between protected apps to prevent data loss. We recommend protecting identities and devices that access sensitive data with comparable levels of security. 
 
@@ -147,7 +148,7 @@ Users typically benefit from single sign-on (SSO) except under the following sit
 * When users at risk sign-in, and successfully complete MFA, they will be asked to change their password.
 
 ## Highly regulated
-This section describes the secure email recommendations for the highly regulated tier of data, identity, and device protection. These recommendations are for customers who may have a very small amount of data that is highly classified, trade secret, or regulated data. Microsoft provides capabilities to help organizations meet these requirements, including added protection for identities and devices. 
+This section describes the recommendations for the highly regulated tier of data, identity, and device protection. These recommendations are for customers who may have a very small amount of data that is highly classified, trade secret, or regulated data. Microsoft provides capabilities to help organizations meet these requirements, including added protection for identities and devices. 
 
 ### Conditional access policy settings
 #### Identity protection 
@@ -169,11 +170,11 @@ For the highly regulated tier, we recommend requiring apps that support Intune A
 |:--------------------|:----------|
 |**Require user PC management**|Require users to join their Windows PCs to an Active Directory Domain, **or** enroll their PCs into management with Intune or Configuration Manager and ensure those devices are compliant with policies before allowing email access.|
 |**Apply security settings via group policy objects (GPO) or Configuration Manager policies for domain joined PCs**|Deploy policies that configure managed PCs to enable BitLocker, enable anti-virus, and enable firewall.|
-|**Require user mobile device management**|Require that devices used to access email are managed by Intune or company email is accessed only through mobile email apps protected by Intune App Protection policies such as Outlook Mobile.|
+|**Require user mobile device management**|Require that devices used to access Office 365 email and files are managed by Intune or company email is accessed only through mobile email apps protected by Intune App Protection policies such as Outlook Mobile.|
 |**Apply an Intune Device Compliance Policy on managed devices**|Apply an Intune Device Compliance Policy for managed corporate mobile devices and Intune-managed PCs that requires: a PIN with minimum length 6, device encryption, a healthy device (is not jailbroken, rooted; passes health attestation), and, if available, require devices that are Low risk as determined by a third-party MTP like Lookout or SkyCure.|
 
 ### User impact
-For most organizations, it is important to be able to set expectations for users specific to when and under what conditions they will be expected to sign into Office 365 email. 
+For most organizations, it is important to be able to set expectations for users specific to when and under what conditions they will be expected to sign into Office 365 files. 
 
 * Maximum lifetime of a single sign-on session is 1 day. Users will be required to re-authenticate with MFA after their sessions expire.
 * When users at risk sign-in they will be asked to change their password after completing MFA.
