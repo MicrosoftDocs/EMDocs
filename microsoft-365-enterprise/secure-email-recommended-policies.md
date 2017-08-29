@@ -13,7 +13,7 @@ ms.custom: it-pro
 
 # Policy recommendations to help secure email
  
-This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access. 
+This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access. These recommendations are in addition to the [common identity and access policy recommendations](identity-access-policies.md).
 
 The following recommendations are based on three different tiers of security and protection for your email that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
 
