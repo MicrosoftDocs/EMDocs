@@ -17,8 +17,8 @@ This article describes recommended policies to help you secure organizational em
 
 The following recommendations are based on three different tiers of security and protection for your email that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
 
-> [NOTE!]
->It is important to note that all security groups created as part of these recommendations must be created with Office features enabled. This is specifically important for the deployment of AIP when securing documents in SharePoint. 
+>[!NOTE]
+>All security groups created as part of these recommendations must be created with Office features enabled. This is specifically important for the deployment of AIP when securing documents in SharePoint. 
 >
 >![Office features enabled for security groups](./media/security-group.png)
 >
@@ -178,9 +178,7 @@ Add a new policy (+Add) as shown in the following screen shot:
 >There are slight differences in the app protection policy options between iOS and Android. The below policy is specifically for Android.
 >
 
-The following tables describe, in details, the appropriate settings necessary to express the policies required for each level of protection.
-|
-The following table describes the recommended Intune app protection policy settings.
+The following tables describe the recommended Intune app protection policy settings:
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|

@@ -14,10 +14,10 @@ ms.custom: it-pro
 # SharePoint Site and file access policy recommendations
 The following recommendations are provided *in addition to* the [policy recommendations for securing email](secure-email-recommended-policies.md). To safeguard SharePoint Online files, new policies must be created, and existing policies amended, as described here. 
 
-The recommendations are based on three different tiers of security and protection for SharePoint files that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
+The following recommendations are based on three different tiers of security and protection for SharePoint files that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
 
-> [NOTE!]
->It is important to note that all security groups created as part of these recommendations must be created with Office features enabled. This is specifically important for the deployment of AIP when securing documents in SharePoint. 
+>[!NOTE]
+>All security groups created as part of these recommendations must be created with Office features enabled. This is specifically important for the deployment of AIP when securing documents in SharePoint. 
 >
 >![Office features enabled for security groups](./media/security-group.png)
 >
@@ -111,4 +111,4 @@ Older apps that don’t use modern authentication can be blocked [using the OneD
                                                      
 
 ## Next steps
-[Learn more about Microsoft 365 services](index.md)
+[Learn more about Microsoft 365 services](microsoft-365-enterprise-services.md)
