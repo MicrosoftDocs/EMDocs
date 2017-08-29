@@ -306,72 +306,72 @@
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/subscription-might-include-downloadable-software.md)",
+        "source_path": "emdocs/solutions/subscription-might-include-downloadable-software.md",
         "redirect_url": "https://www.microsoft.com/cloud-platform/enterprise-mobility-security-pricing", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/ems-support-faq.md)",
+        "source_path": "emdocs/solutions/ems-support-faq.md",
         "redirect_url": "/intune/get-support", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/architecture-guidance-for-protecting-company-email-and-documents.md)",
+        "source_path": "emdocs/solutions/architecture-guidance-for-protecting-company-email-and-documents.md",
         "redirect_url": "/intune/exchange-online-protect", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/protect-corporate-email-documents.md)",
+        "source_path": "emdocs/solutions/protect-corporate-email-documents.md",
         "redirect_url": "/intune/exchange-online-protect", 
         "redirect_document_id": false 
     },
     { 
-        "source_path": "emdocs/solutions/protect-email-attachments.md)",
+        "source_path": "emdocs/solutions/protect-email-attachments.md",
         "redirect_url": "/intune/exchange-online-protect", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/implement-solution.md)",
+        "source_path": "emdocs/solutions/implement-solution.md",
         "redirect_url": "/intune/exchange-online-protect", 
         "redirect_document_id": false 
     },  
     { 
-        "source_path": "emdocs/solutions/protect-on-premises-data-with-intune.md)",
+        "source_path": "emdocs/solutions/protect-on-premises-data-with-intune.md",
         "redirect_url": "/intune/device-lifecycle", 
         "redirect_document_id": false 
     },  
     { 
-        "source_path": "emdocs/solutions/protect-company-data-without-managing-devices.md)",
+        "source_path": "emdocs/solutions/protect-company-data-without-managing-devices.md",
         "redirect_url": "/intune/device-lifecycle", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/issue-corp-devices.md)",
+        "source_path": "emdocs/solutions/issue-corp-devices.md",
         "redirect_url": "/intune/device-lifecycle", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/limited-use-shared-devices.md)",
+        "source_path": "emdocs/solutions/limited-use-shared-devices.md",
         "redirect_url": "/intune/device-lifecycle", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/protect-company-data-on-mobile-devices-through-application-management-policies.md)",
+        "source_path": "emdocs/solutions/protect-company-data-on-mobile-devices-through-application-management-policies.md",
         "redirect_url": "/intune/app-management", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/MAM-intune.md)",
+        "source_path": "emdocs/solutions/MAM-intune.md",
         "redirect_url": "/intune/app-management", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/MAM-configmgr.md)",
+        "source_path": "emdocs/solutions/MAM-configmgr.md",
         "redirect_url": "/intune/app-management", 
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/end-user-experience-MAM.md)",
+        "source_path": "emdocs/solutions/end-user-experience-MAM.md",
         "redirect_url": "/intune/app-management", 
         "redirect_document_id": false 
     }, 
