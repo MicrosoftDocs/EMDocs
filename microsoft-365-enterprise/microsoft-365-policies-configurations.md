@@ -150,11 +150,6 @@ The above table reflects the trend for many organizations to support a mix of co
 
 Corporate-owned devices are required to be managed by Intune or domain-joined to apply additional protections and control.  Depending on data sensitivity, your organization may choose to not allow BYOD for specific user populations or specific apps.
 
-## Learn more
-Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deployment configurations:
-
-[Secure email policies and configurations](secure-email-recommended-policies.md). This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
-
 ## Next steps
 
  [Deploy common identity and device access policies](identity-access-policies.md)

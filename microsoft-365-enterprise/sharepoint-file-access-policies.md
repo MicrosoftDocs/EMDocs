@@ -1,5 +1,5 @@
 ---
-title: Deploy recommended secure document policies - Microsoft 365 Enterprise | Microsoft Docs
+title: Recommended secure document policies - Microsoft 365 Enterprise | Microsoft Docs
 description: Describes the policies for Microsoft recommendations about how to secure SharePoint file access.
 author: jeffgilb
 manager: femila
@@ -11,7 +11,7 @@ ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
-# SharePoint Site and file access policy recommendations
+# Policy recommendations for securing SharePoint Sites and Files
 The following recommendations are provided *in addition to* the [common identity and access policy recommendations](identity-access-policies.md) and [policy recommendations for securing email](secure-email-recommended-policies.md). To safeguard SharePoint Online files, new policies must be created, and existing policies amended, as described here. 
 
 The following recommendations are based on three different tiers of security and protection for SharePoint files that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).

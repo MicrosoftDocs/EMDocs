@@ -11,7 +11,7 @@ ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
-# Policy recommendations to help secure email
+# Policy recommendations for securing Email
  
 This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access. These recommendations are in addition to the [common identity and access policy recommendations](identity-access-policies.md).
 
