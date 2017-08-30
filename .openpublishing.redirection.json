@@ -1,9 +1,379 @@
 { 
   "redirections": [ 
-    { 
+  { 
         "source_path": "emdocs/solutions/enable-byod.md",
         "redirect_url": "/intune/byod-enable", 
         "redirect_document_id": true 
-    } 
+    },    
+    {
+			"source_path": "emdocs/solutions/learn-about-ems.md",
+			"redirect_url": "https://www.microsoft.com/cloud-platform/enterprise-mobility-security",
+			"redirect_document_id": false
+    }, 
+    {
+			"source_path": "emdocs/solutions/ems-get-started.md",
+			"redirect_url": "https://signup.microsoft.com/Signup?OfferId=87dd2714-d452-48a0-a809-d2f58c4f68b7&ali=1",
+			"redirect_document_id": false
+    }, 
+    {
+			"source_path": "emdocs/solutions/protect-office365-data-with-intune.md",
+			"redirect_url": "/intune/apps-add-office365",
+			"redirect_document_id": true
+    }, 
+    { 
+        "source_path": "emdocs/solutions/byod-design-considerations-guide.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-app-considerations.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-app-reqs.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-data-access-and-protection-considerations.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-data-access-protection-reqs.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-design-considerations.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-envisioning-the-byod-infrastructure-solution.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-management-considerations.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },  
+    { 
+        "source_path": "emdocs/solutions/byod-management-reqs.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/byod-summary-and-additional-resources.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-user-and-device-considerations.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/byod-user-device-reqs.md",
+        "redirect_url": "/intune/byod-enable", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-access-control-resources.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-application-management-options.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-authentication-authorization.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-certificate-management-options.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-client-privacy.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-data-classification.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-data-encryption.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-data-segregation.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-design-considerations-guide.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-determine-network-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-develop-incident-response-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-develop-mdm-adoption-strategy.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-develop-saas-mdm-strategy.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-device-enrollment-options.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-device-management-options.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-device-monitoring-options.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-device-provisioning-options.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-gather-data-protection-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-gather-monitoring-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-hardening-mobile-devices.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-identify-business-needs.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-identify-saas-connectivity-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-identify-saas-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-identify-saas-solution-infrastructure-integration-needs.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-network-connectivity-management-options.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-next-steps-and-additional-resources.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-specify-mdm-location-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-specify-privacy-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-specify-your-access-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-understand-mdm-lifecycle.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-step-1-identify-your-mobile-device-management-requirements.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-step-2-plan-for-mobile-device-management.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-step-3-plan-enhancing-mobile-devices-protection.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md",
+        "redirect_url": "/intune/device-management", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md",
+        "redirect_url": "/intune/exchange-online-protect", 
+        "redirect_document_id": true 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": true 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-configmgr.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-configmgr-coexist.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-configmgr-exchange-online.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-exchange.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/conditional-access-intune-exchange-online.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-conditional-access.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-conditional-access-android.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-conditional-access-ios.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-conditional-access-winphone.md",
+        "redirect_url": "/intune/conditional-access", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/subscription-might-include-downloadable-software.md",
+        "redirect_url": "https://www.microsoft.com/cloud-platform/enterprise-mobility-security-pricing", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/ems-support-faq.md",
+        "redirect_url": "/intune/get-support", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/architecture-guidance-for-protecting-company-email-and-documents.md",
+        "redirect_url": "/intune/exchange-online-protect", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/protect-corporate-email-documents.md",
+        "redirect_url": "/intune/exchange-online-protect", 
+        "redirect_document_id": false 
+    },
+    { 
+        "source_path": "emdocs/solutions/protect-email-attachments.md",
+        "redirect_url": "/intune/exchange-online-protect", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/implement-solution.md",
+        "redirect_url": "/intune/exchange-online-protect", 
+        "redirect_document_id": false 
+    },  
+    { 
+        "source_path": "emdocs/solutions/protect-on-premises-data-with-intune.md",
+        "redirect_url": "/intune/device-lifecycle", 
+        "redirect_document_id": false 
+    },  
+    { 
+        "source_path": "emdocs/solutions/protect-company-data-without-managing-devices.md",
+        "redirect_url": "/intune/device-lifecycle", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/issue-corp-devices.md",
+        "redirect_url": "/intune/device-lifecycle", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/limited-use-shared-devices.md",
+        "redirect_url": "/intune/device-lifecycle", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/protect-company-data-on-mobile-devices-through-application-management-policies.md",
+        "redirect_url": "/intune/app-management", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/MAM-intune.md",
+        "redirect_url": "/intune/app-management", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/MAM-configmgr.md",
+        "redirect_url": "/intune/app-management", 
+        "redirect_document_id": false 
+    }, 
+    { 
+        "source_path": "emdocs/solutions/end-user-experience-MAM.md",
+        "redirect_url": "/intune/app-management", 
+        "redirect_document_id": false 
+    }, 
   ] 
 }
