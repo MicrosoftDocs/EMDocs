@@ -51,7 +51,7 @@ While there is no single best recommendation for all customer environments, the 
 [Policy recommendations to help secure email](secure-email-recommended-policies.md) provides Microsoft recommendations to help you secure organizational email, and email clients that support Modern Authentication and Conditional Access. These recommendations are in addition to the [common identity and access policy recommendations](identity-access-policies.md).
 
 ### SharePoint Online access policies
-Recommendations are provided to [safeguard SharePoint Online file access](sharepoint-file-access-policies.md) in addition to the[common identity and access policy recommendations](identity-access-policies.md) and [policy recommendations to help secure email](secure-email-recommended-policies.md). This article describes the new policies that must be created, and how existing policies should be amended, to protect both Exchange Online email and SharePoint online file access.
+Recommendations are provided to [safeguard SharePoint Online file access](sharepoint-file-access-policies.md) in addition to the [common identity and access policy recommendations](identity-access-policies.md) and [policy recommendations to help secure email](secure-email-recommended-policies.md). This article describes the new policies that must be created, and how existing policies should be amended, to protect both Exchange Online email and SharePoint online file access.
 
 ## Learn more
 [Microsoft 365 Enterprise product page](https://www.microsoft.com/microsoft-365/enterprise) 

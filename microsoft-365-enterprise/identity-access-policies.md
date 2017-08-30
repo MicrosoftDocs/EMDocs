@@ -185,4 +185,4 @@ For most organizations, it is important to be able to set expectations for users
  
 ## Next steps
 
-[Deploy secure email policies](secure-email-recommended-policies.md)
+[Learn about policy recommendations for securing email](secure-email-recommended-policies.md)

@@ -11,7 +11,7 @@ ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
-# Policy recommendations for securing Email
+# Policy recommendations for securing email
  
 This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access. These recommendations are in addition to the [common identity and access policy recommendations](identity-access-policies.md).
 
@@ -324,5 +324,5 @@ Users within the organization with a Global Administrator or Security Administra
 
 ## Next steps
 
-[Deploy secure file access policies](sharepoint-file-access-policies.md)
+[Learn about policy recommendations for securing SharePoint Sites and files](sharepoint-file-access-policies.md)
  
