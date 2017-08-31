@@ -13,8 +13,3 @@
 ## [Protect files with AIP](protect-files-with-aip.md)
 ## [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
 ## [Use WIP with files running Office add-ins](office-add-ins-wip.md)
-
-# [Industry-specific solutions]()
-## [Security guidance for political campaigns and nonprofit orgs]()
-
-

@@ -60,6 +60,7 @@ To create the labels, you can use the Office 365 Admin center or Microsoft Power
 2. Fill out the list of label names, and then run these commands at the PowerShell command prompt:
 ```
 $labelNames=@([list of label names, each enclosed in quotes and separated by commas])
+
 ForEach ($element in $labelNames){ New-ComplianceTag -Name $element }
 ```
 
