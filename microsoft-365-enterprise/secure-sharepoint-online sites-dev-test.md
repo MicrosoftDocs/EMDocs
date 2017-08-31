@@ -22,14 +22,14 @@ ms.author: josephd
 
 ## Introduction
 
-This article provides step-by-step instructions to create a dev/test environment that includes the four different types of SharePoint Online team sites for the [Secure SharePoint Online sites and files solution](https://technet.microsoft.com/en-us/library/mt842190.aspx). 
+This article provides step-by-step instructions to create a dev/test environment that includes the four different types of SharePoint Online team sites for the [Secure SharePoint Online sites and files solution](secure-sharepoint-online-sites-and-files.md). 
 
 Use this dev/test environment to experiment with the information protection behaviors and fine tune settings for your specific needs before deploying SharePoint Online team sites in production.
 
 ## Phase 1: Create your dev/test environment
 In this phase, you obtain trial subscriptions for Office 365 and Enterprise Mobility + Security for a fictional organization.
 
-First, follow the instructions in **Phase 2** of the [Office 365 dev/test environment](https://technet.microsoft.com/en-us/library/mt736406.aspx).
+First, follow the instructions in **Phase 2** of the [Office 365 dev/test environment](https://technet.microsoft.com/library/mt736406.aspx).
 
 Next, sign up for the **EMS trial subscription** and add it to the same organization as your Office 365 trial subscription, and then follow these steps:
 
@@ -376,8 +376,11 @@ When you are ready for production deployment of secure SharePoint Online sites, 
 
 
 ## Next steps
-[Secure SharePoint Online sites and files](https://technet.microsoft.com/en-us/library/mt842190.aspx)
-[Security solutions](https://technet.microsoft.com/en-us/library/mt784690.aspx)
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/en-us/library/dn262744.aspx)
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/en-us/library/mt493213.aspx)
+[Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
+
+[Security solutions](https://technet.microsoft.com/library/mt784690.aspx)
+
+[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
+
+[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
 

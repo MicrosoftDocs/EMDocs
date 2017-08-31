@@ -32,8 +32,8 @@ The configurations in this article align with Microsoft's recommendations for th
 
 For more information about these tiers and capabilities recommended for each tier, see the following resources. 
 
-* [Identity and Device Protection for Office 365](https://technet.microsoft.com/en-us/library/28986107-e2fb-4116-bfdd-f66d751a7c16#BKMK_O365IDP)
-* [File Protection Solutions in Office 365](https://technet.microsoft.com/en-us/library/28986107-e2fb-4116-bfdd-f66d751a7c16#BKMK_O365fileprotect)
+* [Identity and Device Protection for Office 365](https://technet.microsoft.com/library/28986107-e2fb-4116-bfdd-f66d751a7c16#BKMK_O365IDP)
+* [File Protection Solutions in Office 365](https://technet.microsoft.com/library/28986107-e2fb-4116-bfdd-f66d751a7c16#BKMK_O365fileprotect)
 
 ## Capability overview
 Recommendations for SharePoint Online team sites draw on a variety of Office 365 capabilities. For highly confidential sites, Azure Information Protection is recommended. This is included in Enterprise Mobility + Security (EMS). 
@@ -98,7 +98,7 @@ The following table summarizes the configuration for each of the team sites desc
 |DLP policies|||Warn users when sending files that are labeled as Sensitive outside the organization. <br>To block external sharing of sensitive data types, such as credit card numbers or other personal data, you can configure additional DLP policies for these data types (including custom data types you configure).|Block users from sending files that are labeled as highly confidential outside organization. Allow users to override this by providing justification, including who they are sharing the file with.|
 |Azure Information Protection||||Use Azure Information Protection to automatically encrypt and grant permissions to files. This protection travels with the files in case they are leaked. Office 365 cannot read files encrypted with Azure Information Protection. Additionally, DLP policies can only work with the metadata (including labels) but not the contents of these files (such as credit card numbers within files).|
 
-For information about deploying the four different types of SharePoint Online team sites in this solution, see [Deploy sites for three tiers of protection](https://technet.microsoft.com/en-us/library/mt842185.aspx).
+For information about deploying the four different types of SharePoint Online team sites in this solution, see [Deploy sites for three tiers of protection](deploy-sites-for-three-tiers-of-protection.md).
 
 ## Office 365 classification and labels
 Using Office 365 labels is recommended for environments with sensitive data. After you configure and publish Office 365 labels, you can:
@@ -120,7 +120,7 @@ As illustrated, this solution includes creating the following labels:
 
 These labels are mapped to the recommended sites in the illustrations and charts earlier in this article. This solution recommends configuring DLP policies to help prevent the leakage of files labeled as Sensitive and Highly Confidential.
 
-For information about configuring Office 365 labels and DLP policies in this solution, see [Protect files with Office 365 labels and DLP](https://technet.microsoft.com/en-us/library/mt842187.aspx).
+For information about configuring Office 365 labels and DLP policies in this solution, see [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md).
 
 ## Azure Information Protection
 Use Azure Information Protection to apply labels and protections that follow the files wherever they go. For this solution, we recommend you use the Highly Confidential label to encrypt and grant permissions to files that need to be protected with the highest level of security. 
@@ -144,12 +144,15 @@ There are two ways you can grant external users access to files protected with A
  You can add all users from an organization (e.g. Fabrikam.com), an Azure AD group (such as a finance group within an organization), or an individual user. For example, you can add an external team of regulators to the protection for a label. With this method, permissions are granted only to files protected with the label after the external entity is added to the protection.
 
 ### Deploying and using Azure Information Protection
-For information about configuring Azure Information Protection (AIP) in this solution, see [Protect files with AIP](https://technet.microsoft.com/en-us/library/mt842188.aspx).
+For information about configuring Azure Information Protection (AIP) in this solution, see [Protect files with AIP](protect-files-with-aip.md).
 
 ## Next steps 
 
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/en-us/library/mt493213.aspx)
-[Security solutions](https://technet.microsoft.com/en-us/library/mt784690.aspx)
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/en-us/library/dn262744.aspx)
-[Secure SharePoint Online sites in a dev/test environment](https://technet.microsoft.com/en-us/library/mt842552.aspx)
+[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
+
+[Security solutions](https://technet.microsoft.com/library/mt784690.aspx)
+
+[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
+
+[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
  

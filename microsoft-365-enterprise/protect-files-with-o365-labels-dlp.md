@@ -21,7 +21,7 @@ ms.author: josephd
 # Protect files with Office 365 labels and Data Loss Prevention
 
 ## Introduction
-Use the steps in this article to design and deploy Office 365 labels and Data Loss Prevention (DLP) policies for baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](https://technet.microsoft.com/en-us/library/mt842190.aspx).
+Use the steps in this article to design and deploy Office 365 labels and Data Loss Prevention (DLP) policies for baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md).
 
 ## Office 365 labels for your SharePoint Online sites
 You must complete the following three phases when creating and assigning Office 365 labels to SharePoint Online team sites.
@@ -143,13 +143,16 @@ Below is your resulting configuration for high confidentiality SharePoint Online
 
  ![Highly Confidential Protection](./media/protect-files-with-o365-labels-dlp/hc_w_dlp.png)
 
-For more information, see [Protect files with AIP](https://technet.microsoft.com/en-us/library/mt842188.aspx).
+For more information, see [Protect files with AIP](protect-files-with-aip.md).
 
 ## Next steps
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/en-us/library/mt493213.aspx)
-[Secure SharePoint Online sites and files](https://technet.microsoft.com/en-us/library/mt842190.aspx)
-[Secure SharePoint Online sites in a dev/test environment](https://technet.microsoft.com/en-us/library/mt842552.aspx)
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/en-us/library/dn262744.aspx)
+[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
+
+[Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
+
+[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
+
+[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
 
 
 

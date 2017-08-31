@@ -24,7 +24,7 @@ ms.author: josephd
 
 Use the steps in this article to configure Azure Information Protection (AIP) to provide encryption and permissions for files in a highly confidential SharePoint Online team site. 
 
-The encryption and permissions protection travels with a file even when it is downloaded from the site. For more information about highly confidential SharePoint Online team sites, see [Secure SharePoint Online sites and files](https://technet.microsoft.com/en-us/library/mt842190.aspx).
+The encryption and permissions protection travels with a file even when it is downloaded from the site. For more information about highly confidential SharePoint Online team sites, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md).
 
 ## Configure Azure Information Protection
 
@@ -69,10 +69,13 @@ Make sure that your users know the SharePoint Online team site to store their hi
 >
 
 ## Next steps
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/en-us/library/mt493213.aspx)
-[Secure SharePoint Online sites and files](https://technet.microsoft.com/en-us/library/mt842190.aspx)
-[Create team sites in a political campaign dev/test environment](https://technet.microsoft.com/en-us/library/mt842184.aspx)
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/en-us/library/dn262744.aspx)
+[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
+
+[Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
+
+[Create team sites in a political campaign dev/test environment](secure-sharepoint-online sites-dev-test.md)
+
+[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
 
 
 

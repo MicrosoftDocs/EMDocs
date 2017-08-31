@@ -22,7 +22,7 @@ ms.author: josephd
 
 ## Introduction
 
-Use the steps in this article to design and deploy baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](https://technet.microsoft.com/en-us/library/mt842190.aspx).
+Use the steps in this article to design and deploy baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md).
 
 ## Baseline SharePoint Online team sites
 Baseline protection includes both public and private team sites. Public team sites can be discovered and accessed by anybody in the organization. Private sites can only be discovered and accessed by members of the Office 365 group associated with the team site. Both of these types of team sites allow members to share the site with others.
@@ -83,7 +83,7 @@ For example, the recommended group structure and permission levels look like thi
 
 The SharePoint groups and permission levels are created by default for a team site. You need to determine the names of your access groups.
 
-For the details of the design process, see [Design an isolated SharePoint Online team site](https://technet.microsoft.com/en-us/library/mt784687.aspx).
+For the details of the design process, see [Design an isolated SharePoint Online team site](https://technet.microsoft.com/library/mt784687.aspx).
 
 ### Step 2: Deploy your isolated site
 To deploy your isolated site, you first need to:
@@ -91,7 +91,7 @@ To deploy your isolated site, you first need to:
 * Determine the user accounts and groups to add to each of your access groups.
 * Create the access groups and add the user and group members.
 
-For the detailed steps, see **Phase 1** of [Deploy an isolated SharePoint Online team site](https://technet.microsoft.com/en-us/library/mt784693.aspx).
+For the detailed steps, see **Phase 1** of [Deploy an isolated SharePoint Online team site](https://technet.microsoft.com/library/mt784693.aspx).
 
 Next, create the SharePoint Online team site with these steps.
 
@@ -159,7 +159,7 @@ For example, the recommended group structure and permission levels look like thi
 
 The SharePoint groups and permission levels are created by default for a team site. You need to determine the names of your access groups.
 
-For the details of the design process, see [Design an isolated SharePoint Online team site](https://technet.microsoft.com/en-us/library/mt784687.aspx).
+For the details of the design process, see [Design an isolated SharePoint Online team site](https://technet.microsoft.com/library/mt784687.aspx).
 
 ### Step 2: Deploy your isolated site
 To deploy your isolated site, you first need to:
@@ -168,7 +168,7 @@ To deploy your isolated site, you first need to:
 * Create the access groups and add the user and group members.
 * Create an isolated team site that uses your access groups.
 
-For the detailed steps, see [Deploy an isolated SharePoint Online team site](https://technet.microsoft.com/en-us/library/mt784693.aspx).
+For the detailed steps, see [Deploy an isolated SharePoint Online team site](https://technet.microsoft.com/library/mt784693.aspx).
 
 Below are the results of the permission settings:
 
@@ -184,13 +184,16 @@ Here is your resulting configuration.
 
 The members of the site, through group membership in one of the access groups, can now securely collaborate on the resources of the site. 
 
-For more information, see [Protect files with Office 365 labels and DLP](https://technet.microsoft.com/en-us/library/mt842187.aspx).
+For more information, see [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md).
 
 ## Next steps
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/en-us/library/mt493213.aspx)
-[Secure SharePoint Online sites and files](https://technet.microsoft.com/en-us/library/mt842190.aspx)
-[Secure SharePoint Online sites in a dev/test environment](https://technet.microsoft.com/en-us/library/mt842552.aspx)
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/en-us/library/dn262744.aspx)
+[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
+
+[Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
+
+[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
+
+[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
 
 
 
