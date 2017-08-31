@@ -58,9 +58,9 @@ To create the labels, you can use the Office 365 Admin center or Microsoft Power
 
 1. [Connect to the Office 365 Security & Compliance Center using remote PowerShell](http://go.microsoft.com/fwlink/?LinkID=799771&clcid=0x409) and specify the credentials of an account that has the Security Administrator or Company Administrator role.
 2. Fill out the list of label names, and then run these commands at the PowerShell command prompt:
+
 ```
 $labelNames=@([list of label names, each enclosed in quotes and separated by commas])
-
 ForEach ($element in $labelNames){ New-ComplianceTag -Name $element }
 ```
 
