@@ -1,10 +1,15 @@
 # [Microsoft 365 Enterprise Documentation](index.md)
 
-# [Recommended security policies and configurations](microsoft-365-policies-configurations.md)
-## [Secure email recommended policies](secure-email-recommended-policies.md)
-### [Deploy recommended secure email policies](secure-email-deploy-recommended-policies.md)
+# [Architecture models and posters](architecture-models-posters.md)
 
-# [Protect enterprise data in documents running Office Add-ins](office-add-ins-wip.md)
+# [Identity and device access configurations](microsoft-365-policies-configurations.md)
+## [Common identity and device access policies](identity-access-policies.md)
+## [Exchange Online access policies](secure-email-recommended-policies.md)
+## [SharePoint Online access policies](sharepoint-file-access-policies.md)
 
-# [Deploy Office 365 ProPlus with Intune](deploy-office-proplus-intune.md)
-
+# [Secure SharePoint sites and files](secure-sharepoint-online-sites-and-files.md)
+## [Deploy sites for three tiers of protection](deploy-sites-for-three-tiers-of-protection.md)
+## [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md)
+## [Protect files with AIP](protect-files-with-aip.md)
+## [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
+## [Use WIP with files running Office add-ins](office-add-ins-wip.md)

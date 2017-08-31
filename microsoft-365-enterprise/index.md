@@ -1,21 +1,18 @@
 ---
-title: Microsoft 365 Enterprise Documentation | Microsoft Docs
+title: Microsoft 365 Enterprise services overview | Microsoft Docs
 description: This content provides an overview of Microsoft 365 Enterprise and enterprise use recommendations.
 author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-business
 ms.topic: article
-ms.date: 08/01/2017
+ms.date: 08/23/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
-# Microsoft 365 Enterprise Documentation
-Microsoft 365 Enterprise is a complete, intelligent solution, including Office 365, Windows 10, and Enterprise Mobility + Security (EMS), that empowers everyone to be creative and work together, securely. 
-
+# Microsoft 365 Enterprise services and concepts
 Microsoft 365 Enterprise is designed for large organizations and integrates Office 365 Enterprise, Windows 10 Enterprise, and EMS. 
-
 
 ## Microsoft 365 services overview
 
@@ -45,12 +42,16 @@ Core concepts and EMS capabilities that you should be familiar with are describe
 |Microsoft Identity Brokers|Microsoft provides applications for every mobile platform that allow for the bridging of credentials across applications from different vendors and allows for special enhanced features that require a single secure place from where to validate credentials. We call these brokers. On iOS and Android these brokers are provided through the Microsoft Authenticator and Intune Company Portal apps. In Windows 10, this functionality is provided by an account chooser built in to the operating system, known technically as the Web Authentication Broker.|
 
 ## Security best practices and recommendations
+While there is no single best recommendation for all customer environments, the [recommended security policies and configurations](microsoft-365-policies-configurations.md) article introduces important security best practices concepts to understand. This article also describes general Microsoft recommendations about how to apply policy and configuration within the Microsoft cloud to ensure that your employees are both secure and productive. 
 
 ### Baseline recommended security policies and configurations
-While there is no single best recommendation for all customer environments, the best practices for [recommended scurity policies and configurations](microsoft-365-policies-configurations.md) describe general Microsoft recommendations about how to apply Microsoft 365 Enterprise policy and configuration settings within the Microsoft cloud to ensure that your employees are both secure and productive. 
+[General identity and device access policy recommendations](identity-access-policies.md) describes the common recommended policies to help you secure Microsoft 365 Enterprise. Also discussed are the default platform client configurations we recommend to provide the best SSO experience to your users, as well as the technical pre-requisites for conditional access.
 
-### Secure email recommended policies
-The [secure email recommended polcies](secure-email-recommended-policies.md) in this article provide policy recommendations to help you secure organizational email and email clients that support Modern Authentication and Conditional Access. Also discussed are the default platform client configurations we recommend to provide the best SSO experience to your users, as well as the technical pre-requisites for conditional access.
+### Exchange Online access policies
+[Policy recommendations to help secure email](secure-email-recommended-policies.md) provides Microsoft recommendations to help you secure organizational email, and email clients that support Modern Authentication and Conditional Access. These recommendations are in addition to the [common identity and access policy recommendations](identity-access-policies.md).
+
+### SharePoint Online access policies
+Recommendations are provided to [safeguard SharePoint Online file access](sharepoint-file-access-policies.md) in addition to the [common identity and access policy recommendations](identity-access-policies.md) and [policy recommendations to help secure email](secure-email-recommended-policies.md). This article describes the new policies that must be created, and how existing policies should be amended, to protect both Exchange Online email and SharePoint online file access.
 
 ## Learn more
 [Microsoft 365 Enterprise product page](https://www.microsoft.com/microsoft-365/enterprise) 

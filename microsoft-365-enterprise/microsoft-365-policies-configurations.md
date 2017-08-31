@@ -5,7 +5,7 @@ author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/01/2017
+ms.date: 08/30/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -78,7 +78,7 @@ Traditionally, domain joined Windows devices, using Windows Integrated Authentic
 >The recommendations described in this document assume that one of these apps (Microsoft Authenticator or Intune Company Portal) has been deployed to your users' iOS or Android devices.
 
 ### Multi-factor authentication
-Multi-factor Authentication (MFA) provides a high level of trust about the subject of authentication, because the subject provides multiple proofs or pieces of evidence about its identity. The proofs can be pre-established secrets that only the subject and the authority are aware of or a physical entity that only the subject is expected to possess. MFA is typically performed in stages. First it establishes the identity using passwords, and then it require a different (less prone to malicious attacks) authentication method as the second factor, or vice versa.
+Multi-factor Authentication (MFA) provides a high level of trust about the subject of authentication, because the subject provides multiple proofs or pieces of evidence about its identity. The proofs can be pre-established secrets that only the subject and the authority are aware of or a physical entity that only the subject is expected to possess. MFA is typically performed in stages. First it establishes the identity using passwords, and then it requires a different (less prone to malicious attacks) authentication method as the second factor, or vice versa.
 
 Different authorities may have a slightly different interpretation of MFA, or strong authentication. For example, some authorities (or more specifically the admins configuring policy on those authorities) may choose to interpret the physical smartcard-based authentication as MFA. This can happen even though strictly speaking smartcard authentication is a single stage authentication. 
 
@@ -86,7 +86,7 @@ The combination of requiring a physical smartcard and the requirement to enter a
 
 Azure AD and AD FS use the MFA claim to indicate whether the authentication is performed with MFA. By default, Azure AD issues tokens with MFA claim when authentication is done with [Azure MFA](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-get-started-cloud) or [Windows Hello for Business](https://docs.microsoft.com/windows/access-protection/hello-for-business/hello-identity-verification). In federation scenarios, Azure AD honors the MFA claim from federated identity providers such as AD FS and carries over the MFA claim in the tokens. 
 
-## Recommended client configuration for SSO and conditional access
+## Recommended client configurations 
 This section describes the default platform client configurations we recommend to provide the best SSO experience to your users, as well as the technical pre-requisites for conditional access.
 
 ### Windows devices
@@ -103,10 +103,10 @@ We recommend users install the [Intune Company Portal app](https://play.google.c
 
 We also recommend that corporate-owned devices (COD) are standardized on OEMs and versions that support Android for Work or Samsung Knox to allow mail accounts to be managed and protected by Intune MDM policy.
 
-### Security guidelines
+## Security guidelines
 This section contains general security guidelines that should be followed when implementing any of the recommendations provided in later sections.
 
-#### Security and productivity trade-offs
+### Security and productivity trade-offs
 There is a trade-off to be made between security and productivity. To help understand these trade-offs, the Security-Functionality-Usability/Ease of Use (SFU) security triad is widely used:
 
 ![Security and productivity trade-offs](./media/policies-configurations/security-triad.png)
@@ -116,12 +116,12 @@ The recommendations are have provided are based on the following SFU security tr
 * Know the audience - Be flexible by job function/security bar
 * Apply security policy just in time and ensure it is meaningful
 
-#### Administrators versus users
+### Administrators versus users
 We recommend creating security groups that contain all the users who have administrative accounts or are eligible to receive an administrative account privileges on a temporary basis. These security groups should then be used to define conditional access policies specific to Azure AD and Office 365 administrators.  
 
 The provided policy recommendations consider the privileges associated with an account. [Office 365 administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) roles have substantially more privileges to Office 365 services. Thus, our policy recommendations for these accounts are more stringent than for regular user accounts. All the policies that refer to Administrators indicate the recommended policy for Office 365 administrative accounts.
 
-#### Reduce the number of accounts with persistent admin access
+### Reduce the number of accounts with persistent admin access
 Use Azure AD Privileged Identity Management to reduce the number of persistent administrative accounts. In addition, we recommend that Office 365 administrators have a separate user account for regular non-administrative use and only use their administrative account when necessary to complete a task associated with their job function.
 
 ## Tiers of security and protection
@@ -150,8 +150,6 @@ The above table reflects the trend for many organizations to support a mix of co
 
 Corporate-owned devices are required to be managed by Intune or domain-joined to apply additional protections and control.  Depending on data sensitivity, your organization may choose to not allow BYOD for specific user populations or specific apps.
 
-## Learn more
-Use the following link to learn more about Microsoft 365 Enterprise policy recommendations and deploymennt configurations:
+## Next steps
 
-[Secure email policies and configurations](secure-email-recommended-policies.md). This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access.
-
+ [Deploy common identity and device access policies](identity-access-policies.md)
