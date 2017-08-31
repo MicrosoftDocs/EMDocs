@@ -109,6 +109,5 @@ Conditional access policies protect access through browser flows and apps using 
 
 Older apps that don’t use modern authentication can be blocked [using the OneDrive admin portal](https://support.office.com/article/Control-access-based-on-network-location-or-app-59b83701-cefd-4bf8-b4d1-d4659b60da08). The SharePoint admin PowerShell cmdlet can also be used to disable SharePoint legacy protocols. To use PowerShell, just run the [Set-SPOTenant cmdlet](https://technet.microsoft.com/library/fp161390.aspx) and set **-LegacyAuthProtocolsEnabled** to **$false**.  Once set, legacy protocol support is disabled and all access to SharePoint using older client applications will be blocked.
                                                      
-
 ## Next steps
-[Learn more about Microsoft 365 services](microsoft-365-enterprise-services.md)
+[Learn more about Microsoft 365 services](index.md)
