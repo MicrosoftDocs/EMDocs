@@ -1,12 +1,12 @@
 ---
 title: Protect enterprise documents running Microsoft Office Add-ins - Microsoft 365 Enterprise | Microsoft Docs
 description:  Describes how to use WIP and Intune to protect enterprise data in documents running Office Add-ins.
-author: jeffgilb
-manager: femila
+author: barlanmsft
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/14/2017
-ms.author: jeffgilb
+ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ---
@@ -91,7 +91,7 @@ On Office for iPad, Office Add-ins are currently supported for Word, Excel, and 
 
 >**<sup>*</sup>** Administrators can use [Office 365 Centralized deployment](https://support.office.com/article/Deploy-Office-add-ins-in-the-Office-365-admin-center-737e8c86-be63-44d7-bf02-492fa7cd9c3f?ui=en-US&rs=en-US&ad=US&fromAR=1) to deploy Word, Excel, and PowerPoint add-ins to individual users, groups, or an organization directly from the Office 365 admin center or using PowerShell scripts. When users open an Office application on Windows, Mac, or Office Online, the add-in is automatically installed on their ribbon.
 
-## Summary 
+## Summary
 
 Given the principles with respect to Office Add-ins, WIP and Intune enable administrators to manage enterprise data and provide the tools that end users need to accomplish their work. This creates the potential for enterprise data to leak outside the organization’s boundaries. The Office JavaScript APIs do not currently provide a way for developers to recognize the type of data being transmitted between the Office document and the add-in. This requires developers to surface multiple prompts to the user and in some cases erroneously mark personal files as enterprise files, which can have a negative effect on the user experience, and does not align with data protection principles.
 
