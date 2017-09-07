@@ -191,7 +191,7 @@ For more information, see [Protect files with Office 365 labels and DLP](protect
 
 [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
 
-[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
+[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md)
 
 [Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
 

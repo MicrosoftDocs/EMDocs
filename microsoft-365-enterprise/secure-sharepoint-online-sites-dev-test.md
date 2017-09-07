@@ -187,7 +187,7 @@ Next, configure the documents folder of the Organization wide team site for the 
 
 Below is your resulting configuration.
 
- ![Public Team Site Protection](./media/secure-sharepoint-online sites-dev-test/pubsite.png)
+ ![Public Team Site Protection](./media/secure-sharepoint-online-sites-dev-test/pubsite.png)
 
 ### Project 1 team site
 To create a baseline private SharePoint Online team site for a project within the organization, do the following:
@@ -210,7 +210,7 @@ Next, configure the documents folder of the Project 1 team site for the Private 
 
 Below is your resulting configuration.
 
- ![Private Team Site Protection](./media/secure-sharepoint-online sites-dev-test/privsite.png)
+ ![Private Team Site Protection](./media/secure-sharepoint-online-sites-dev-test/privsite.png)
 
 ### Marketing campaigns team site
 
@@ -279,7 +279,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
 
 Below is your resulting configuration.
 
- ![Sensitive Protection](./media/secure-sharepoint-online sites-dev-test/senssite.png)
+ ![Sensitive Protection](./media/secure-sharepoint-online-sites-dev-test/senssite.png)
 
 ### Company strategy team site
 To create an isolated SharePoint Online team site at the highly confidential level for strategic company resources of the chief executives of the organization, do the following:
@@ -362,7 +362,7 @@ To protect a document with Azure Information Protection and the Highly Confident
 
 Below is your resulting configuration.
 
- ![Highly Confidential Protection](./media/secure-sharepoint-online sites-dev-test/hcsite.png)
+ ![Highly Confidential Protection](./media/secure-sharepoint-online-sites-dev-test/hcsite.png)
 
 ### Create documents and test access
 
@@ -370,7 +370,7 @@ You are now ready to create documents in these four sites and test access to the
 
 Below is the overall configuration for all four SharePoint Online team sites.
 
- ![Final Configuration](./media/secure-sharepoint-online sites-dev-test/finalconfig.png)
+ ![Final Configuration](./media/secure-sharepoint-online-sites-dev-test/finalconfig.png)
 
 When you are ready for production deployment of secure SharePoint Online sites, see [Secure SharePoint Online sites and files](https://technet.microsoft.com/library/mt842190.aspx) for detailed information and links to step-by-step deployment articles.
 
