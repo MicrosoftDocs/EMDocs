@@ -63,7 +63,7 @@ For more information, see the following articles:
 <sup>*</sup> Microsoft encourages organizations currently using Configuration Manager for Windows update management to continue doing so for Windows 10 client computers.
 
 ## Next steps
-[Learn more about Microsoft 365 Enterprise services](microsoft-365-enterprise-services.md)
+[Learn more about Microsoft 365 Enterprise services](services-overview.md)
 
 [Microsoft 365 Enterprise product page](https://www.microsoft.com/microsoft-365/enterprise)
 
