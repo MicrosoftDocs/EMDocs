@@ -6,9 +6,9 @@ keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 36
 documentationcenter: ''
 author: JoeDavies-MSFT
 manager: laurawi
-ms.assetid: 
+ms.assetid:
 ms.prod: microsoft-365-enterprise
-ms.service: 
+ms.service:
 ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
@@ -28,13 +28,13 @@ This guidance describes how to implement a secure cloud environment. The solutio
 
 |**Item**|**Description**|
 |:-----|:-----|
-|**Microsoft Security Guidance for Political Campaigns**<br> ![Political Campaigns](./media/microsoft-security-guidance/ic872535.png)|This guidance uses a political campaign organization as an example. Use this guidance as a starting point for any environment.|
+|**Microsoft Security Guidance for Political Campaigns**<br> ![Political Campaigns](./media/microsoft-security-guidance/ic872535.png)(https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf)|This guidance uses a political campaign organization as an example. Use this guidance as a starting point for any environment.|
 
 [PDF](http://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf) |  [Visio](http://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.vsdx)
 
 |**Item**|**Description**|
 |:-----|:-----|
-|**Microsoft Security Guidance for Nonprofits**<br> ![Nonprofits](./media/microsoft-security-guidance/ic872857.png)|This guide is slightly revised for nonprofit organizations. For example, it references Office 365 Nonprofit plans. The technical guidance is the same as the political campaign solution guide.|
+|**Microsoft Security Guidance for Nonprofits**<br> ![Nonprofits](./media/microsoft-security-guidance/ic872857.png)(http://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf)|This guide is slightly revised for nonprofit organizations. For example, it references Office 365 Nonprofit plans. The technical guidance is the same as the political campaign solution guide.|
 
 [PDF](http://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf) |  [Visio](http://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.vsdx)
 
@@ -52,5 +52,3 @@ To create a dev/test environment for this solution, use the following test lab g
 [Cloud adoption Test Lab Guides (TLGs)](https://technet.microsoft.com/library/dn635308.aspx)
 
 [Microsoft Cloud IT architecture resources](https://technet.microsoft.com/library/dn919927.aspx)
-
-
