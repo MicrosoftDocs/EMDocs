@@ -98,7 +98,7 @@ Microsoft has developed leading-edge best practices in the design and management
 Cloud migration changes the volume and nature of traffic flows within and outside a corporate network. It also affects approaches to mitigating security risk. Learn about network infrastructure components affected by adoption of Office 365, Microsoft Intune, or Dynamics 365 and by deploying line-of-business applications in Azure PaaS and IaaS.
 
 
- [![Cloud Networking(./media/architecture-models-posters/image7.png)](https://www.microsoft.com/download/details.aspx?id=54425)
+ [![Cloud Networking](./media/architecture-models-posters/image7.png)](https://www.microsoft.com/download/details.aspx?id=54425)
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842073) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842074) | [Article](https://technet.microsoft.com/library/mt733214.aspx) | [More languages](https://www.microsoft.com/download/details.aspx?id=54425)
 
