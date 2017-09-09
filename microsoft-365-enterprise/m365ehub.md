@@ -54,8 +54,8 @@ description: Learn about the product documentation and resources available for M
         <h1>Microsoft 365 Enterprise documentation and resources</h1>
         <ul class="pivots">
             <li>
-                <a href="#partner-it">IT admin</a>
-                <ul id="partner-it">
+                <a href="#itadmin">IT admin</a>
+                <ul id="itadmin">
                     <li>
                         <a data-default="true" href="#getstarted">Get started</a>
                         <ul id="getstarted" class="cardsL">
@@ -106,8 +106,8 @@ description: Learn about the product documentation and resources available for M
                         </ul>
                     </li>
                     <li>
-                        <a href="#user-mgmt">Collaboration</a>
-                        <ul id="user-mgmt" class="cardsC">
+                        <a href="#it-collab">Collaboration</a>
+                        <ul id="it-collab" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>TBD</p>
@@ -154,8 +154,8 @@ description: Learn about the product documentation and resources available for M
                         </ul>
                     </li>
                     <li>
-                        <a href="#user-mgmt">Voice</a>
-                        <ul id="user-mgmt" class="cardsC">
+                        <a href="#it-voice">Voice</a>
+                        <ul id="it-voice" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>TBD</p>
@@ -202,8 +202,8 @@ description: Learn about the product documentation and resources available for M
                         </ul>
                     </li>
                     <li>
-                        <a href="#user-mgmt">Devices</a>
-                        <ul id="user-mgmt" class="cardsC">
+                        <a href="#it-devices">Devices</a>
+                        <ul id="it-devices" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>TBD</p>
@@ -250,152 +250,8 @@ description: Learn about the product documentation and resources available for M
                         </ul>
                     </li>
                     <li>
-                        <a href="#user-mgmt">Security</a>
-                        <ul id="user-mgmt" class="cardsC">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>TBD</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#user-mgmt">Voice</a>
-                        <ul id="user-mgmt" class="cardsC">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>TBD</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#user-mgmt">Devices</a>
-                        <ul id="user-mgmt" class="cardsC">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>TBD</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#user-mgmt">Security</a>
-                        <ul id="user-mgmt" class="cardsC">
+                        <a href="#it-security">Security</a>
+                        <ul id="it-security" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>TBD</p>
@@ -545,11 +401,11 @@ description: Learn about the product documentation and resources available for M
                 </ul>
             </li>
             <li>
-                <a href="#bus-owner">Partner</a>
-                <ul id="bus-owner">
+                <a href="#partner">Partner</a>
+                <ul id="partner">
                     <li>
-                        <a data-default="true" href="#bus-owner-1">Get started</a>
-                        <ul id="bus-owner-1" class="cardsC">
+                        <a data-default="true" href="#partner-1">Get started</a>
+                        <ul id="partner-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>TBD</p>
