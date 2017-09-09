@@ -37,11 +37,11 @@ description: Learn about the product documentation and resources available for M
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="/media/common/ih_tools.svg" src="/media/common/ih_tools.png" alt="Start FastTrack for Microsoft 365 Enterprise" />
+                                        <img data-hoverimage="/media/common/ih_tools.svg" src="/media/common/ih_tools.png" alt="Start FastTrack for Microsoft 365" />
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <span class="likeAnH3">For IT admins:<br />Start FastTrack for Microsoft 365 Enterprise</span>
+                                    <span class="likeAnH3">For IT admins:<br />Start FastTrack for Microsoft 365</span>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +297,9 @@ description: Learn about the product documentation and resources available for M
                             </li>
                         </ul>
                     </li>
-                <li>
+                </ul>
+            </li>
+            <li>
                 <a href="#i-worker">Information worker</a>
                 <ul id="i-worker">
                     <li>
@@ -447,8 +449,6 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                        </ul>
-                    </li>
                         </ul>
                     </li>
                 </ul>
