@@ -408,7 +408,7 @@ description: Learn about the product documentation and resources available for M
                         <ul id="bus-owner-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Learn about Microsoft 365 Business and find out how you can start using it for your business.</p>
+                                    <p>TBD</p>
                                 </div>
                             </li>
                             <li>
