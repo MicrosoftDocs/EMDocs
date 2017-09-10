@@ -69,9 +69,10 @@ description: Learn about the product documentation and resources available for M
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Office 365</h3>
-                                                <a class="barLink" href="https://fasttrack.microsoft.com/office" data-linktype="absolute-path">FastTrack for Office 365</a>
-                                                <a class="barLink" href="/en-us/azure/virtual-machines/windows/index" data-linktype="absolute-path">Donec ornare augue ut fermentum porta.</a>
+                                                <h3>FastTrack</h3>
+                                                <a class="barLink" href="https://fasttrack.microsoft.com/office" data-linktype="absolute-path" target="_blank">FastTrack for Office 365</a>
+                                                <a class="barLink" href="https://fasttrack.microsoft.com/windows" data-linktype="absolute-path" target="_blank">FastTrack for Windows 10</a>
+                                                <a class="barLink" href="https://fasttrack.microsoft.com/ems" data-linktype="absolute-path" target="_blank">FastTrack for EMS</a>                                                
                                             </div>
                                         </div>
                                     </div>
@@ -82,9 +83,10 @@ description: Learn about the product documentation and resources available for M
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Windows 10</h3>
-                                                <a class="barLink" href="https://fasttrack.microsoft.com/windows" data-linktype="absolute-path">FastTrack for Windows 10</a>
-                                                <a class="barLink" href="/en-us/azure/virtual-machines/windows/index" data-linktype="absolute-path">Donec ornare augue ut fermentum porta.</a>
+                                                <h3>Overview and posters</h3>
+                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Microsoft 365 overview</a>
+                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Services and concepts</a>
+                                                <a class="barLink" href="https://docs.microsoft.com/en-us/microsoft-365-enterprise/architecture-models-posters" data-linktype="absolute-path" target="_blank">Architecture models and posters</a>
                                             </div>
                                         </div>
                                     </div>
@@ -95,9 +97,9 @@ description: Learn about the product documentation and resources available for M
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Enterprise Mobility + Security</h3>
-                                                <a class="barLink" href="https://fasttrack.microsoft.com/ems" data-linktype="absolute-path">FastTrack for EMS</a>
-                                                <a class="barLink" href="/en-us/azure/virtual-machines/windows/index" data-linktype="absolute-path">Donec ornare augue ut fermentum porta.</a>
+                                                <h3>TBD</h3>
+                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Donec ornare augue ut fermentum porta.</a>
+                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Donec ornare augue ut fermentum porta.</a>
                                             </div>
                                         </div>
                                     </div>
@@ -110,7 +112,7 @@ description: Learn about the product documentation and resources available for M
                         <ul id="it-collab" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>TBD</p>
+                                    <p>See these guidance and reosurces to enhance user productivity by helping users access, edit, manage, and semaless share the content they need.</p>
                                 </div>
                             </li>
                             <li>
