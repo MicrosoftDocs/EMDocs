@@ -112,11 +112,11 @@ description: Learn about the product documentation and resources available for M
                         <ul id="it-collab" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>See these guidance and reosurces to enhance user productivity by helping users access, edit, manage, and semaless share the content they need.</p>
+                                    <p>See these guidance and reosurces to enhance user productivity by helping users access, edit, manage, and seamlessly share the content they need.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -126,8 +126,84 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>Microsoft 365 customer dashboard</h3>
+                                                    <p>Plan your collaboration capability by working with your Microsoft partner on a FastTrack success plan.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://partnercenter.microsoft.com/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Find a Microsoft-certified partner</h3>
+                                                    <p>Don't have a Microsoft-certified partner? Visit the Partner Center to find a partner in your area.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Office 365 setup guide</h3>
+                                                    <p>Follow this guide to ensure a smooth deployment of Office 365 for business.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://portal.office.com/adminportal/home?ref=FindWizards" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Office 365 setup wizard</h3>
+                                                    <p>Log in to the Office 365 admin portal and get guided assistance through the first steps of the setup.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://aka.ms/oppdeployguide" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Office 365 ProPlus deployment guide</h3>
+                                                    <p>Microsoft 365 Enterprise includes an enterprise edition of Office apps through Office 365 ProPlus. See the deployment guide to plan, deploy, and manage Office 365 ProPlus.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,8 +221,27 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>Microsoft Teams implementation guide</h3>
+                                                    <p>See the guide and toolset to implement and manage Microsoft Teams. You can also follow the workshop to help your organization get started with Microsoft Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Skype Operations Framework (SOF)</h3>
+                                                    <p>See the guide and toolset to implement and manage Skype for Business. SOF extends FastTrack with guidance for ongoing operational management and provides additional info for planning and deployment.</p>
                                                 </div>
                                             </div>
                                         </div>
