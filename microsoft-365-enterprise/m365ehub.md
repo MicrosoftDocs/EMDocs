@@ -602,25 +602,6 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Create impactful content together</h3>
-                                                    <p>Learn how to use Office integration with OneDrive and SharePoint to access, share, and coauthor documents. You can also download Office mobile apps to help you access everything you need while you're on the move.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
                                                     <h3>Work more securely from anywhere, on almost any device</h3>
                                                     <p>Use Office 365 mobile apps to protect business and client information.</p>
                                                 </div>
@@ -659,8 +640,8 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Communicate with your team in real time</h3>
-                                                    <p>Find out how to use Microsoft Teams to find and collaborate with colleagues through chat, access content and tools in a centralized repository, share information and get input, and stay up-to-date with your team's status and activities.</p>
+                                                    <h3>Create impactful content together</h3>
+                                                    <p>Learn how to use Office integration with OneDrive and SharePoint to access, share, and coauthor documents. You can also download Office mobile apps to help you access everything you need while you're on the move.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -699,6 +680,25 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>Gain insight into your work habits</h3>
                                                     <p>Learn how to manage your time effectively, improve productivity, surface cotnent that other team members are working on, and more through MyAnalytics.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Communicate with your team in real time</h3>
+                                                    <p>Find out how to use Microsoft Teams to find and collaborate with colleagues through chat, access content and tools in a centralized repository, share info and get input, and stay up-to-date with your team's status and activities.</p>
                                                 </div>
                                             </div>
                                         </div>
