@@ -311,11 +311,6 @@
         "redirect_document_id": false 
     }, 
     { 
-        "source_path": "emdocs/solutions/ems-support-faq.md",
-        "redirect_url": "/intune/get-support", 
-        "redirect_document_id": false 
-    }, 
-    { 
         "source_path": "emdocs/solutions/architecture-guidance-for-protecting-company-email-and-documents.md",
         "redirect_url": "/intune/exchange-online-protect", 
         "redirect_document_id": false 
