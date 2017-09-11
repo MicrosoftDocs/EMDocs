@@ -831,6 +831,44 @@ description: Learn about the product documentation and resources available for M
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/placeholder.svg" alt="Authorized Microsoft 365 Partner directory" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Authorized Microsoft 365 Partner directory</h3>
+                                                    <p>Search through the list of Authorized Microsoft 365 Partners worldwide who can deliver on customer licensing requirements, and provide solutions and services to current and future enterprise needs.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Partner community Yammer group" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft 365 Partner community Yammer group</h3>
+                                                    <p>Sign in with your Microsoft Partner account and join the Microsoft 365 Partner community private group on Yammer.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
                                                         <img src="media/hub/placeholder.svg" alt="TBD" />
                                                     </div>
@@ -857,44 +895,6 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>Microsoft 365 Partner Network</h3>
                                                     <p>Find out what it takes to become a Microsoft-certified partner and access the latest news and announcements for Microsoft 365 partners.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Authorized Microsoft 365 Partner directory" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Authorized Microsoft 365 Partner directory</h3>
-                                                    <p>Search through the list of Authorized Microsoft 365 Partners worldwide who can deliver on customer licensing requirements, and provide solutions and services to current and future enterprise needs.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Partner community Yammer group" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft 365 Partner community Yammer group</h3>
-                                                    <p>TBD - Sign in with your Microsoft Partner account and join the Microsoft 365 Partner community private group on Yammer.</p>
                                                 </div>
                                             </div>
                                         </div>
