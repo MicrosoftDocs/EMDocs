@@ -95,7 +95,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Microsoft 365 Enterprise overview</h3>
-                                                    <p>Get an overview of Microsoft 365 Enterprise including information about the most current versions of the products and links to information on deploying and managing updates to Windows 10 and Office 365 ProPlus.</p>
+                                                    <p>Get an overview of Microsoft 365 Enterprise including information about the most current versions of the products and how to deploy and manage updates to Windows 10 and Office 365 ProPlus.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Architecture models and posters</h3>
-                                                    <p>Adopting enterprise cloud capabilities included in the Microsoft 365 Enterprise plans and want to learn about recommended capabilities and architectures? Download from a variety of architecture models and posters&mdash;you can even modify them for your own use.</p>
+                                                    <p>Thinking about adopting enterprise cloud capabilities included in Microsoft 365 Enterprise and want to learn about recommended capabilities and architectures? Select and download architecture models and posters&mdash;you can even modify them for your own use.</p>
                                                 </div>
                                             </div>
                                         </div>
