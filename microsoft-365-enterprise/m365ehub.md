@@ -58,7 +58,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="itadmin">
                     <li>
                         <a data-default="true" href="#getstarted">Get started - style1</a>
-                        <ul id="it-collab" class="cardsC">
+                        <ul id="getstarted" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Get started here with resources and tools for maximizing your success with Office 365, Windows 10, and Enterprise Mobility + Security.</p>
@@ -143,8 +143,8 @@ description: Learn about the product documentation and resources available for M
                         </ul>
                     </li>
                     <li>
-                        <a data-default="true" href="#getstarted">Get started - style2</a>
-                        <ul id="getstarted" class="cardsL">
+                        <a data-default="true" href="#getstarted2">Get started - style2</a>
+                        <ul id="getstarted2" class="cardsL">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Get started here with resources and tools for maximizing your success with Office 365, Windows 10, and Enterprise Mobility + Security.</p>
