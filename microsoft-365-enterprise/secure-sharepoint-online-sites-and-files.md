@@ -1,6 +1,6 @@
 ---
 title: Secure SharePoint Online sites and files | Microsoft Docs
-description: Configuration recommendations for protecting files in SharePoint Online and Office 365.
+description: Configuration recommendations for protecting files for SharePoint Online team sites in Office 365.
 services: active-directory
 keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 365 Enterprise
 documentationcenter: ''
@@ -13,7 +13,7 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 09/12/2017
 ms.author: josephd
 
 ---
@@ -98,7 +98,9 @@ The following table summarizes the configuration for each of the team sites desc
 |DLP policies|||Warn users when sending files that are labeled as Sensitive outside the organization. <br>To block external sharing of sensitive data types, such as credit card numbers or other personal data, you can configure additional DLP policies for these data types (including custom data types you configure).|Block users from sending files that are labeled as highly confidential outside organization. Allow users to override this by providing justification, including who they are sharing the file with.|
 |Azure Information Protection||||Use Azure Information Protection to automatically encrypt and grant permissions to files. This protection travels with the files in case they are leaked. Office 365 cannot read files encrypted with Azure Information Protection. Additionally, DLP policies can only work with the metadata (including labels) but not the contents of these files (such as credit card numbers within files).|
 
-For information about deploying the four different types of SharePoint Online team sites in this solution, see [Deploy sites for three tiers of protection](deploy-sites-for-three-tiers-of-protection.md).
+For the steps to deploy the four different types of SharePoint Online team sites in this solution, see [Deploy sites for three tiers of protection](deploy-sites-for-three-tiers-of-protection.md).
+
+For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md).
 
 ## Office 365 classification and labels
 Using Office 365 labels is recommended for environments with sensitive data. After you configure and publish Office 365 labels, you can:
@@ -107,7 +109,6 @@ Using Office 365 labels is recommended for environments with sensitive data. Aft
 * Apply labels to content automatically if it matches specific conditions.
 * Create DLP policies that are based on Office 365 labels.
 * Enable people in your organization to apply a label manually to content in Outlook on the web, Outlook 2010 and later, OneDrive for Business, SharePoint Online, and Office 365 groups. Users often know best what type of content they’re working with, so they can classify it and have the appropriate DLP policy applied.
-
 
  ![Office 365 Labels](./media/secure-sharepoint-online-sites-and-files/labels.png)
  
@@ -118,9 +119,11 @@ As illustrated, this solution includes creating the following labels:
 * Private
 * Internal Public
 
-These labels are mapped to the recommended sites in the illustrations and charts earlier in this article. This solution recommends configuring DLP policies to help prevent the leakage of files labeled as Sensitive and Highly Confidential.
+These labels are mapped to the recommended sites in the illustrations and charts earlier in this article. This solution recommends configuring DLP policies to help prevent the leakage of files labeled as Sensitive and Highly Confidential outside the organization.
 
-For information about configuring Office 365 labels and DLP policies in this solution, see [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md).
+For the steps to configure Office 365 labels and DLP policies in this solution, see [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md).
+
+For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md).
 
 ## Azure Information Protection
 Use Azure Information Protection to apply labels and protections that follow the files wherever they go. For this solution, we recommend you use the Highly Confidential label to encrypt and grant permissions to files that need to be protected with the highest level of security. 
@@ -144,15 +147,10 @@ There are two ways you can grant external users access to files protected with A
  You can add all users from an organization (e.g. Fabrikam.com), an Azure AD group (such as a finance group within an organization), or an individual user. For example, you can add an external team of regulators to the protection for a label. With this method, permissions are granted only to files protected with the label after the external entity is added to the protection.
 
 ### Deploying and using Azure Information Protection
-For information about configuring Azure Information Protection (AIP) in this solution, see [Protect files with AIP](protect-files-with-aip.md).
+For the steps to configure Azure Information Protection (AIP) in this solution, see [Protect files with AIP](protect-files-with-aip.md).
+
+For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md).
 
 ## Next steps 
 
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
-
-[Security solutions](https://technet.microsoft.com/library/mt784690.aspx)
-
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
-
-[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
- 
+[Deploy sites for three tiers of protection](deploy-sites-for-three-tiers-of-protection.md)
