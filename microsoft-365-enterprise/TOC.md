@@ -11,7 +11,7 @@
 ## [Deploy sites for three tiers of protection](deploy-sites-for-three-tiers-of-protection.md)
 ## [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md)
 ## [Protect files with AIP](protect-files-with-aip.md)
-## [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
+## [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md)
 ## [Use WIP with files running Office add-ins](office-add-ins-wip.md)
 
 # [Industry-specific solutions]()

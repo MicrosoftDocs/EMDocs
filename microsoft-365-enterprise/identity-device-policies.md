@@ -19,7 +19,7 @@ Intune (Require a compliant or domain joined device)
 Intune MAM for Exchange Online
 
 ## Baseline
-To create a new conditional access policy, log in to the Microsoft Azure portal with your administrator credentials. Then navigate to Azure Active Directory > Security > Conditional access. 
+To create a new conditional access policy, log in to the Microsoft Azure portal with your administrator credentials. Then navigate to Azure Active Directory > Security > Conditional access.
 
 ### Conditional access policy
 Azure conditional access policy to require MFA for medium and above risk
@@ -31,7 +31,7 @@ Intune MAM for Exchange Online
 
 
 ## Sensitive
-Conditinoal access low and above risk requires MFA
+Conditional access low and above risk requires MFA
 
 
 
