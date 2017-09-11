@@ -1,6 +1,6 @@
 ---
 title: Deploy sites for three tiers of protection | Microsoft Docs
-description: Create and configure SharePoint Online team sites for various levels of information protection.
+description: Create and configure SharePoint Online team sites in Office 365 for various levels of information protection.
 services: active-directory
 keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 365 Enterprise
 documentationcenter: ''
@@ -13,7 +13,7 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 09/11/2017
 ms.author: josephd
 
 ---
@@ -46,7 +46,7 @@ Below is your resulting configuration.
 ### Private
 To create a baseline SharePoint Online team site with private access and permissions, do the following:
 
-1. Sign in to the **Office 365 portal** with an account that will also be used to administer the SharePoint Online team site (a SharePoint Online administrator). For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. If needed, sign in to the **Office 365 portal** with an account that will also be used to administer the SharePoint Online team site (a SharePoint Online administrator). For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
 2. In the list of tiles, click **SharePoint**.
 3. On the new **SharePoint** tab in your browser, click + **Create site**.
 4. On the **Create a site** page, click **Team site**.
@@ -73,7 +73,7 @@ To design your isolated team site, you need to determine:
  The recommended set of access groups is one for site members, one for site viewers, and one for site administrators.
 * Whether you will use nested groups within your access groups.
 
-For example, the recommended group structure and permission levels look like this:
+For example, the recommended SharePoint group structure and permission levels look like this:
 
 |**SharePoint group**|**Permission level**|**Access group (examples)**|
 |:-----|:-----|:-----|
@@ -95,7 +95,7 @@ For the detailed steps, see **Phase 1** of [Deploy an isolated SharePoint Online
 
 Next, create the SharePoint Online team site with these steps.
 
-1. Sign in to the **Office 365 portal** with an account that will also be used to administer the SharePoint Online team site (a SharePoint Online administrator). For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. If needed, sign in to the **Office 365 portal** with an account that will also be used to administer the SharePoint Online team site (a SharePoint Online administrator). For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
 2. In the list of tiles, click **SharePoint**.
 3. In the new **SharePoint tab** of your browser, click + **Create site**.
 4. On the **Create a site** page, click **Team site**.
@@ -106,7 +106,7 @@ Next, create the SharePoint Online team site with these steps.
 
 Next, from the new SharePoint Online team site, configure permissions with these steps.
 
-1. Determine the User Principal Name (UPN) of the IT administrator or other person who will be responsible for responding to and addressing requests for access to the site (_belindan@contoso.com_ is an example of a UPN). Write that UPN down.
+1. Determine the User Principal Name (UPN) of the IT administrator or other person who will be responsible for responding to and addressing requests for access to the site (belindan@contoso.com is an example of a UPN). Write that UPN down.
 2. In the toolbar, click the settings icon, and then click **Site permissions**.
 3. In the **Site permissions** pane, click **Advanced permissions settings**.
 4. On the new **Permissions** tab of your browser, click **Access Request Settings**.
@@ -184,16 +184,9 @@ Here is your resulting configuration.
 
 The members of the site, through group membership in one of the access groups, can now securely collaborate on the resources of the site. 
 
-For more information, see [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md).
-
 ## Next steps
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
 
-[Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
-
-[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md)
-
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
+[Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md)
 
 
 
