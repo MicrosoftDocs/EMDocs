@@ -57,7 +57,93 @@ description: Learn about the product documentation and resources available for M
                 <a href="#itadmin">IT admin</a>
                 <ul id="itadmin">
                     <li>
-                        <a data-default="true" href="#getstarted">Get started</a>
+                        <a data-default="true" href="#getstarted">Get started - style1</a>
+                        <ul id="it-collab" class="cardsC">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Get started here with resources and tools for maximizing your success with Office 365, Windows 10, and Enterprise Mobility + Security.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://fasttrack.microsoft.com/microsoft365" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>FastTrack for Microsoft 365</h3>
+                                                    <p>Find best practices, tools, resources, and experts who work closely with your internal teams and Microsoft partners, and can help you move to Microsft 365 completely, and at your own pace.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft 365 overview</h3>
+                                                    <p>Get an overview of Microsoft 365 Enterprise including information about the most current versions of the products and links to information on deploying and managing updates to Windows 10 and Office 365 ProPlus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Services and concepts</h3>
+                                                    <p>Learn about the services that comprise Microsoft 365 Enterprise, important concepts to understand, and security best practices and recommendations.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/microsoft-365-enterprise/architecture-models-posters" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Architecture models and posters</h3>
+                                                    <p>Adopting enterprise cloud capabilities included in the Microsoft 365 Enterprise plans and want to learn about recommended capabilities and architectures? Download from a variety of architecture models and posters&emdash;you can even modify them for your own use.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a data-default="true" href="#getstarted">Get started - style2</a>
                         <ul id="getstarted" class="cardsL">
                             <li class="fullSpan">
                                 <div class="container intro">
