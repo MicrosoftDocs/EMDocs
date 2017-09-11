@@ -85,7 +85,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="cardText">
                                                 <h3>Overview and posters</h3>
                                                 <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Microsoft 365 overview</a>
-                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Services and concepts</a>
+                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Microsoft 365 services and concepts</a>
                                                 <a class="barLink" href="https://docs.microsoft.com/microsoft-365-enterprise/architecture-models-posters" data-linktype="absolute-path" target="_blank">Architecture models and posters</a>
                                             </div>
                                         </div>
@@ -250,7 +250,7 @@ description: Learn about the product documentation and resources available for M
                             </li>
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Looking for more information? Check out more resources at <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
+                                    <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
                                 </div>
                             </li>
                         </ul>
@@ -303,7 +303,7 @@ description: Learn about the product documentation and resources available for M
                             </li>
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Looking for more information? Check out more resources at <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
+                                    <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
                                 </div>
                             </li>
                         </ul>
@@ -356,7 +356,7 @@ description: Learn about the product documentation and resources available for M
                             </li>
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Looking for more information? Check out more resources at <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
+                                    <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
                                 </div>
                             </li>
                         </ul>
@@ -467,7 +467,7 @@ description: Learn about the product documentation and resources available for M
                             </li>
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Looking for more information? Check out more resources at <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
+                                    <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
                                 </div>
                             </li>
                         </ul>
@@ -478,11 +478,12 @@ description: Learn about the product documentation and resources available for M
                 <a href="#i-worker">Information worker</a>
                 <ul id="i-worker">
                     <li>
-                        <a data-default="true" href="#i-worker-1">Set up devices</a>
+                        <a data-default="true" href="#i-worker-1">End user hub</a>
                         <ul id="i-worker-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Employees and other users can follow the guidance here to set up devices.</p>
+                                    <p>Employees and other users can get training, watch videos, read recommendations, and more at the <a href="https://www.microsoft.com/microsoft-365/enterprise" target="_blank">Microsoft 365 Enterprise end user hub</a>.</p>
+                                    <p>Here are some resources to help you get started.</p>
                                 </div>
                             </li>
                             <li>
@@ -496,8 +497,8 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>Create impactful content together</h3>
+                                                    <p>Learn how to use Office integration with OneDrive and SharePoint to access, share, and coauthor documents. You can also download Office mobile apps to help you access everything you need while you're on the move.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -515,8 +516,84 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>Work more securely from anywhere, on almost any device</h3>
+                                                    <p>Use Office 365 mobile apps to protect business and client information.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Meet and collaborate with ease</h3>
+                                                    <p>Learn how to use Skype for Business to start an ad-hoc conversation, make an audio or video call, share and collaborate, and schedule an online meeting.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Communicate with your team in real time</h3>
+                                                    <p>Find out how to use Microsoft Teams to find and collaborate with colleagues through chat, access content and tools in a centralized repository, share information and get input, and stay up-to-date with your team's status and activities.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Share sites and content</h3>
+                                                    <p>Use SharePoint to power sharing and collaboration on your company's intranet&mdash;learn how to create a team site, sharing files and collaborating, creating lists, and staying in-the-know using the mobile app.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Gain insight into your work habits</h3>
+                                                    <p>Learn how to manage your time effectively, improve productivity, surface cotnent that other team members are working on, and more through MyAnalytics.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -530,7 +607,7 @@ description: Learn about the product documentation and resources available for M
                         <ul id="i-worker-2" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>When you're using Office or Windows and have a question about how to do something, you can search the product help for info. </p>
+                                    <p>When you're using Office 365 or Windows 10 and you have a question about how to do something, you can search the product help for info. </p>
                                 </div>
                             </li>
                             <li>
@@ -618,6 +695,63 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>TBD</h3>
                                                     <p>TBD</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Partner Network" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft 365 Partner Network</h3>
+                                                    <p>Find out what it takes to become a Microsoft-certified partner and access the latest news and announcements for Microsoft 365 partners.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/placeholder.svg" alt="Authorized Microsoft 365 Partner directory" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Authorized Microsoft 365 Partner directory</h3>
+                                                    <p>Search through the list of Authorized Microsoft 365 Partners worldwide who can deliver on customer licensing requirements, and provide solutions and services to current and future enterprise needs.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Partner community Yammer group" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft 365 Partner community Yammer group</h3>
+                                                    <p>TBD - Sign in with your Microsoft Partner account and join the Microsoft 365 Partner community private group on Yammer.</p>
                                                 </div>
                                             </div>
                                         </div>
