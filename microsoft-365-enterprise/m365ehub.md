@@ -94,7 +94,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 365 overview</h3>
+                                                    <h3>Microsoft 365 Enterprise overview</h3>
                                                     <p>Get an overview of Microsoft 365 Enterprise including information about the most current versions of the products and links to information on deploying and managing updates to Windows 10 and Office 365 ProPlus.</p>
                                                 </div>
                                             </div>
@@ -680,6 +680,63 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>Gain insight into your work habits</h3>
                                                     <p>Learn how to manage your time effectively, improve productivity, surface cotnent that other team members are working on, and more through MyAnalytics.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Create and impress customers by understanding their preferences</h3>
+                                                    <p>Find out how to use Delve Boards to know how customers feel, get feedback directly through Yammer posts, visualize trends with Power BI, and use Sway to create and share reports and presentations.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Help employees filter relevant information and find answers faster</h3>
+                                                    <p>See how you can use Yammer Activity Report to understand your organization's level of engagement, use SharePoint to provide info such as news and training, streamline employee communication through Office 365 groups, and use Delve to help connect employees with peers and information.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Windows 10 Tips</h3>
+                                                    <p>Looking for how to do something on Windows 10? Launch the Tips app!</p>
                                                 </div>
                                             </div>
                                         </div>
