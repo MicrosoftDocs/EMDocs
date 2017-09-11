@@ -112,7 +112,7 @@ description: Learn about the product documentation and resources available for M
                         <ul id="it-collab" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>See these guidance and reosurces to enhance user productivity by helping users access, edit, manage, and seamlessly share the content they need.</p>
+                                    <p>See these guidance and resources to enhance user productivity by helping users access, edit, manage, and seamlessly share the content they need.</p>
                                 </div>
                             </li>
                             <li>
