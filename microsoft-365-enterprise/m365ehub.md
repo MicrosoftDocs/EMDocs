@@ -583,6 +583,25 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
+                                                    <h3>Windows 10 Tips</h3>
+                                                    <p>Looking for how to do something on Windows 10? Launch the Tips app!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
                                                     <h3>Create impactful content together</h3>
                                                     <p>Learn how to use Office integration with OneDrive and SharePoint to access, share, and coauthor documents. You can also download Office mobile apps to help you access everything you need while you're on the move.</p>
                                                 </div>
@@ -718,25 +737,6 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>Help employees filter relevant information and find answers faster</h3>
                                                     <p>See how you can use Yammer Activity Report to understand your organization's level of engagement, use SharePoint to provide info such as news and training, streamline employee communication through Office 365 groups, and use Delve to help connect employees with peers and information.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Windows 10 Tips</h3>
-                                                    <p>Looking for how to do something on Windows 10? Launch the Tips app!</p>
                                                 </div>
                                             </div>
                                         </div>
