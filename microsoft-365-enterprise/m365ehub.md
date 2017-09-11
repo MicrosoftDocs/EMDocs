@@ -133,7 +133,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Architecture models and posters</h3>
-                                                    <p>Adopting enterprise cloud capabilities included in the Microsoft 365 Enterprise plans and want to learn about recommended capabilities and architectures? Download from a variety of architecture models and posters&emdash;you can even modify them for your own use.</p>
+                                                    <p>Adopting enterprise cloud capabilities included in the Microsoft 365 Enterprise plans and want to learn about recommended capabilities and architectures? Download from a variety of architecture models and posters&mdash;you can even modify them for your own use.</p>
                                                 </div>
                                             </div>
                                         </div>
