@@ -346,11 +346,12 @@ description: Learn about the product documentation and resources available for M
                         <ul id="it-voice" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>TBD</p>
+                                    <p>Voice capabilities in Microsoft 365 can help your users be more productive by enabling audio and video collaboration from virtually any device in real time.</p>
+                                    <p>There's a wide range of business scenarios to consider when you're starting to plan. Start with these resources to get going.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -360,8 +361,27 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>Microsoft 365 customer dashboard</h3>
+                                                    <p>Plan for your cloud voice needs by working with your Microsoft partner on a FastTrack success plan.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://partnercenter.microsoft.com/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Find a Microsoft-certified partner</h3>
+                                                    <p>If you don't have a Microsoft account team, you can visit the Partner Center to find a Microsoft-certified partner in your area.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -399,7 +419,8 @@ description: Learn about the product documentation and resources available for M
                         <ul id="it-devices" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>TBD</p>
+                                    <p>A Microsoft 365-powered device is a PC with Windows 10 Enterprise and Office 365 ProPlus, managed with Enterprise Mobility + Security (EMS). It is a fully configured device for users, ready for business, and with built-in security.</p>
+                                    <p>See these resources to make the most out of your Microsoft 365-powered devices.</p>
                                 </div>
                             </li>
                             <li>
