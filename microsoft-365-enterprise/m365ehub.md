@@ -57,7 +57,7 @@ description: Learn about the product documentation and resources available for M
                 <a href="#itadmin">IT admin</a>
                 <ul id="itadmin">
                     <li>
-                        <a data-default="true" href="#getstarted">Get started - style1</a>
+                        <a data-default="true" href="#getstarted">Get started</a>
                         <ul id="getstarted" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
@@ -65,18 +65,18 @@ description: Learn about the product documentation and resources available for M
                                 </div>
                             </li>
                             <li>
-                                <a href="https://fasttrack.microsoft.com/microsoft365" target="_blank">
+                                <a href="http://www.microsoft.com/microsoft-365/enterprise" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub/placeholder.svg" alt="Learn more about Microsoft 365 Enterprise" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for Microsoft 365</h3>
-                                                    <p>Find best practices, tools, resources, and experts who work closely with your internal teams and Microsoft partners, and can help you move to Microsft 365 completely, and at your own pace.</p>
+                                                    <h3>Why Microsoft 365 Enterprise?</h3>
+                                                    <p>Got a large organization? Find out how you can unlock creativity, provide the broadest and deepest set of apps and services with a universal toolkit for teamwork, simplify IT by unifying management across users, devices, apps, and services, and help safeguard customer data, company data, and intellectual property.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -140,56 +140,24 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a data-default="true" href="#getstarted2">Get started - style2</a>
-                        <ul id="getstarted2" class="cardsL">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Get started here with resources and tools for maximizing your success with Office 365, Windows 10, and Enterprise Mobility + Security.</p>
-                                </div>
-                            </li>
                             <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>FastTrack</h3>
-                                                <a class="barLink" href="https://fasttrack.microsoft.com/office" data-linktype="absolute-path" target="_blank">FastTrack for Office 365</a>
-                                                <a class="barLink" href="https://fasttrack.microsoft.com/windows" data-linktype="absolute-path" target="_blank">FastTrack for Windows 10</a>
-                                                <a class="barLink" href="https://fasttrack.microsoft.com/ems" data-linktype="absolute-path" target="_blank">FastTrack for EMS</a>                                                
+                                <a href="https://fasttrack.microsoft.com/microsoft365" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>FastTrack for Microsoft 365</h3>
+                                                    <p>Find best practices, tools, resources, and experts who work closely with your internal teams and Microsoft partners, and can help you move to Microsft 365 completely, and at your own pace.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Overview and posters</h3>
-                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Microsoft 365 overview</a>
-                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Microsoft 365 services and concepts</a>
-                                                <a class="barLink" href="https://docs.microsoft.com/microsoft-365-enterprise/architecture-models-posters" data-linktype="absolute-path" target="_blank">Architecture models and posters</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>TBD</h3>
-                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Donec ornare augue ut fermentum porta.</a>
-                                                <a class="barLink" href="TBD" data-linktype="absolute-path" target="_blank">Donec ornare augue ut fermentum porta.</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -342,16 +310,17 @@ description: Learn about the product documentation and resources available for M
                         </ul>
                     </li>
                     <li>
-                        <a href="#it-voice">Voice</a>
-                        <ul id="it-voice" class="cardsC">
+                        <a href="#it-security">Security</a>
+                        <ul id="it-security" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Voice capabilities in Microsoft 365 can help your users be more productive by enabling audio and video collaboration from virtually any device in real time.</p>
-                                    <p>There's a wide range of business scenarios to consider when you're starting to plan. Start with these resources to get going.</p>
+                                    <p>Microsoft's leading Enterprise Mobility + Security (EMS) offerings combined with Windows 10 Enterprise and Office 365 ProPlus security capabilities provide identity and access management, threat protection, information protection, and security management.</p>
+                                    <p>See these resources for security-related recommendations and guidance.</p>
                                 </div>
                             </li>
+                            <!--
                             <li>
-                                <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
+                                <a href="http://fasttrack.microsoft.com/microsoft365" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -361,8 +330,8 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 365 customer dashboard</h3>
-                                                    <p>Plan for your cloud voice needs by working with your Microsoft partner on a FastTrack success plan.</p>
+                                                    <h3>Work with your Microsoft account team</h3>
+                                                    <p>We strongly recommend starting with a success plan to document your goals, stakeholders, unique considerations, and timelines. Sign in to FastTrack now to work with your Microsoft account team.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -388,8 +357,9 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
+                            -->
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://docs.microsoft.com/microsoft-365-enterprise/microsoft-365-policies-configurations" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -399,8 +369,46 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>Identity and device access configurations</h3>
+                                                    <p>Learn about general Microsoft recommendations and best practices on how to apply policy and configuration within the Microsoft cloud to ensure that your employees are both secure and productive.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/microsoft-365-enterprise/secure-sharepoint-online-sites-and-files" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Secure SharePoint Online sites and files</h3>
+                                                    <p>Get recommendations for configuring SharePoint Online team sites and file protection to balance security with ease of collaboration, and learn about recommended configurations for SharePoint Online team sites.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft security guidance for political campaigns, nonprofits, and other agile organizations</h3>
+                                                    <p>If your organization is agile, you have a small IT team, and your threat profile is higher than average, see this guidance for prescriptive security recommendations for protecting data, identities, email, and access from mobile devices.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -469,16 +477,16 @@ description: Learn about the product documentation and resources available for M
                         </ul>
                     </li>
                     <li>
-                        <a href="#it-security">Security</a>
-                        <ul id="it-security" class="cardsC">
+                        <a href="#it-voice">Voice</a>
+                        <ul id="it-voice" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft's leading Enterprise Mobility + Security (EMS) offerings combined with Windows 10 Enterprise and Office 365 ProPlus security capabilities provide identity and access management, threat protection, information protection, and security management.</p>
-                                    <p>See these resources for security-related recommendations and guidance.</p>
+                                    <p>Voice capabilities in Microsoft 365 can help your users be more productive by enabling audio and video collaboration from virtually any device in real time.</p>
+                                    <p>There's a wide range of business scenarios to consider when you're starting to plan. Start with these resources to get going.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com/microsoft365" target="_blank">
+                                <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -488,8 +496,8 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Work with your Microsoft account team</h3>
-                                                    <p>We strongly recommend starting with a success plan to document your goals, stakeholders, unique considerations, and timelines. Sign in to FastTrack now to work with your Microsoft account team.</p>
+                                                    <h3>Microsoft 365 customer dashboard</h3>
+                                                    <p>Plan for your cloud voice needs by working with your Microsoft partner on a FastTrack success plan.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -516,7 +524,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/microsoft-365-enterprise/microsoft-365-policies-configurations" target="_blank">
+                                <a href="TBD" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -526,46 +534,8 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Identity and device access configurations</h3>
-                                                    <p>Learn about general Microsoft recommendations and best practices on how to apply policy and configuration within the Microsoft cloud to ensure that your employees are both secure and productive.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/microsoft-365-enterprise/secure-sharepoint-online-sites-and-files" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Secure SharePoint Online sites and files</h3>
-                                                    <p>Get recommendations for configuring SharePoint Online team sites and file protection to balance security with ease of collaboration, and learn about recommended configurations for SharePoint Online team sites.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft security guidance for political campaigns, nonprofits, and other agile organizations</h3>
-                                                    <p>If your organization is agile, you have a small IT team, and your threat profile is higher than average, see this guidance for prescriptive security recommendations for protecting data, identities, email, and access from mobile devices.</p>
+                                                    <h3>TBD</h3>
+                                                    <p>TBD</p>
                                                 </div>
                                             </div>
                                         </div>
