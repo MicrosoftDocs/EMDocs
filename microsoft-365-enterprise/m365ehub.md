@@ -170,44 +170,6 @@ description: Learn about the product documentation and resources available for M
                                 </div>
                             </li>
                             <li>
-                                <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft 365 customer dashboard</h3>
-                                                    <p>Plan your collaboration capability by working with your Microsoft partner on a FastTrack success plan.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://partnercenter.microsoft.com/" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Find a Microsoft-certified partner</h3>
-                                                    <p>If you don't have a Microsoft account team, you can visit the Partner Center to find a Microsoft-certified partner in your area.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -302,11 +264,51 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft 365 customer dashboard</h3>
+                                                    <p>Plan your collaboration capability by working with your Microsoft partner on a FastTrack success plan.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://partnercenter.microsoft.com/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Find a Microsoft-certified partner</h3>
+                                                    <p>If you don't have a Microsoft account team, you can visit the Partner Center to find a Microsoft-certified partner in your area.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
                                 </div>
                             </li>
+                            -->
                         </ul>
                     </li>
                     <li>
@@ -486,6 +488,26 @@ description: Learn about the product documentation and resources available for M
                                 </div>
                             </li>
                             <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>TBD</h3>
+                                                    <p>TBD</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--
+                            <li>
                                 <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -523,25 +545,7 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
+                            -->
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
@@ -751,7 +755,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/iw-producthelp-office.svg" alt="Office help and training" />
+                                                        <img src="media/hub/iw-producthelp-office.svg" alt="Office 365 end user help and training" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -770,12 +774,31 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/iw-producthelp-windows10.svg" alt="Windows help" />
+                                                        <img src="media/hub/iw-producthelp-windows10.svg" alt="Windows 10 end user help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Windows 10 help</h3>
                                                     <p>Get help, how-to, and other info for all things Windows 10.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/placeholder.svg" alt="Intune for end users" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Intune</h3>
+                                                    <p>TBD - Information worker/end user content for Intune</p>
                                                 </div>
                                             </div>
                                         </div>
