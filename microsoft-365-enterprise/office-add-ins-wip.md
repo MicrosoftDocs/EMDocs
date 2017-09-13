@@ -2,7 +2,7 @@
 title: Protect enterprise documents running Microsoft Office Add-ins - Microsoft 365 Enterprise | Microsoft Docs
 description:  Describes how to use WIP and Intune to protect enterprise data in documents running Office Add-ins.
 author: barlanmsft
-manager: femila
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/14/2017
