@@ -563,7 +563,7 @@ description: Learn about the product documentation and resources available for M
                         <ul id="i-worker-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Employees and other users can get training, watch videos, read recommendations, and more at the <a href="https://www.microsoft.com/microsoft-365/enterprise" target="_blank">Microsoft 365 Enterprise end user hub</a>.</p>
+                                    <p>Employees and other users can get curated training, watch videos, read recommendations, and more at the <a href="https://www.microsoft.com/microsoft-365/enterprise" target="_blank">Microsoft 365 Enterprise end user hub</a>.</p>
                                     <p>Here are some resources to help you get started.</p>
                                 </div>
                             </li>
@@ -745,7 +745,7 @@ description: Learn about the product documentation and resources available for M
                         <ul id="i-worker-2" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>When you're using Office 365 or Windows 10 and you have a question about how to do something, you can search the product help for info. </p>
+                                    <p>Looking for more info? When you're using Office 365 or Windows 10 and you have a question about how to do something, you can search the product help for info. </p>
                                 </div>
                             </li>
                             <li>
