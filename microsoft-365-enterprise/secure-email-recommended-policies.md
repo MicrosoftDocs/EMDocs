@@ -1,30 +1,30 @@
 ---
 title: Secure email recommended policies - Microsoft 365 Enterprise | Microsoft Docs
 description: Describes the policies for Microsoft recommendations about how to apply email policies and configurations.
-author: jeffgilb
-manager: femila
+author: barlanmsft
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
-ms.author: jeffgilb
+ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
 # Policy recommendations for securing email
- 
+
 This article describes recommended policies to help you secure organizational email and email clients that support Modern Authentication and Conditional Access. These recommendations are in addition to the [common identity and access policy recommendations](identity-access-policies.md).
 
 The following recommendations are based on three different tiers of security and protection for your email that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
 
 >[!NOTE]
->All security groups created as part of these recommendations must be created with Office features enabled. This is specifically important for the deployment of AIP when securing documents in SharePoint. 
+>All security groups created as part of these recommendations must be created with Office features enabled. This is specifically important for the deployment of AIP when securing documents in SharePoint.
 >
 >![Office features enabled for security groups](./media/security-group.png)
 >
 
-## Baseline 
-To create a new conditional access policy, log in to the Microsoft Azure portal with your administrator credentials. Then navigate to **Azure Active Directory > Security > Conditional access**. 
+## Baseline
+To create a new conditional access policy, log in to the Microsoft Azure portal with your administrator credentials. Then navigate to **Azure Active Directory > Security > Conditional access**.
 
 You can add a new policy (+Add) as shown in the following screen shot:
 
@@ -90,7 +90,7 @@ To manage mobile apps, log in to the Microsoft Azure portal with your administra
 
 Once your pilot project has been completed, these policies should be applied to all users in your organization.
 
-## Sensitive 
+## Sensitive
 
 ### Low and above risk requires MFA
 The following table describes the conditional access policy settings to implement for low- and above-risk policies.
@@ -121,7 +121,7 @@ The following table describes the conditional access policy settings to implemen
 
 Once the pilot project has been completed, these policies should be applied to users in your organization who require access to email considered sensitive.
 
-## Highly regulated 
+## Highly regulated
 ### MFA required
 
 The following table describes the conditional access policy settings to implement for the highly regulated policy.
@@ -146,7 +146,7 @@ The following table describes the conditional access policy settings to implemen
 Once the pilot project has been completed, these policies should be applied to users in your organization who require access to email considered highly regulated.
 
 ### High risk users policy
-To ensure that all high-risk users compromised accounts are forced to perform a password change when signing-in, you must apply the following policy. 
+To ensure that all high-risk users compromised accounts are forced to perform a password change when signing-in, you must apply the following policy.
 
 Log in to the [Microsoft Azure portal (http://portal.azure.com)](http://portal.azure.com/) with your administrator credentials, and then navigate to **Azure AD Identity Protection > User Risk Policy**.
 
@@ -162,9 +162,9 @@ Log in to the [Microsoft Azure portal (http://portal.azure.com)](http://portal.a
 
 
 ## Additional configurations
-In addition to the above policies, you must configure the following Mobile Application and Device Management settings discussed in this section. 
+In addition to the above policies, you must configure the following Mobile Application and Device Management settings discussed in this section.
 
-### Intune mobile application management 
+### Intune mobile application management
 
 To ensure email is protected by the policy recommendations stated earlier for each security and data protection tier, you must create Intune app protection policies from within the Azure portal.
 
@@ -325,4 +325,3 @@ Users within the organization with a Global Administrator or Security Administra
 ## Next steps
 
 [Learn about policy recommendations for securing SharePoint Sites and files](sharepoint-file-access-policies.md)
- 

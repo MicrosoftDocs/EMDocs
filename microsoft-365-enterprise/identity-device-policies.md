@@ -1,12 +1,12 @@
 ---
 title: Identity and device access policies - Microsoft 365 Enterprise | Microsoft Docs
 description: Describes the cumulative policy settings required for Microsoft recommendations for identity and device access policies and configurations.
-author: jeffgilb
-manager: femila
+author: barlanmsft
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
-ms.author: jeffgilb
+ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ---
