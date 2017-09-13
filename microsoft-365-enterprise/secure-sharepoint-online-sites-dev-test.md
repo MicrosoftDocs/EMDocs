@@ -6,9 +6,9 @@ keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 36
 documentationcenter: ''
 author: JoeDavies-MSFT
 manager: laurawi
-ms.assetid: 
+ms.assetid:
 ms.prod: microsoft-365-enterprise
-ms.service: 
+ms.service:
 ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
@@ -22,7 +22,7 @@ ms.author: josephd
 
 ## Introduction
 
-This article provides step-by-step instructions to create a dev/test environment that includes the four different types of SharePoint Online team sites for the [Secure SharePoint Online sites and files solution](secure-sharepoint-online-sites-and-files.md). 
+This article provides step-by-step instructions to create a dev/test environment that includes the four different types of SharePoint Online team sites for the [Secure SharePoint Online sites and files solution](secure-sharepoint-online-sites-and-files.md).
 
 Use this dev/test environment to experiment with the information protection behaviors and fine tune settings for your specific needs before deploying SharePoint Online team sites in production.
 
@@ -85,45 +85,45 @@ $PasswordProfile=New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfi
 $PasswordProfile.Password=$commonPassword
 
 $groupName="C-Suite"
-$userNames=@("CEO","CFO","CIO") 
+$userNames=@("CEO","CFO","CIO")
 $groupID=(Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
-ForEach ($element in $userNames){ 
-New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location 
+ForEach ($element in $userNames){
+New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $element }).ObjectID -ObjectId $groupID
 }
 $groupName="IT staff"
-$userNames=@("ITAdmin1","ITAdmin2") 
+$userNames=@("ITAdmin1","ITAdmin2")
 $groupID=(Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
-ForEach ($element in $userNames){ 
-New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location 
+ForEach ($element in $userNames){
+New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $element }).ObjectID -ObjectId $groupID
 }
 $groupName="Research staff"
-$userNames=@("Researcher1") 
+$userNames=@("Researcher1")
 $groupID=(Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
-ForEach ($element in $userNames){ 
-New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location 
+ForEach ($element in $userNames){
+New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $element }).ObjectID -ObjectId $groupID
 }
 $groupName="Regular staff"
-$userNames=@("Regular1", "Regular2") 
+$userNames=@("Regular1", "Regular2")
 $groupID=(Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
-ForEach ($element in $userNames){ 
-New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location 
+ForEach ($element in $userNames){
+New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $element }).ObjectID -ObjectId $groupID
 }
 $groupName="Marketing staff"
-$userNames=@("Marketing1", "Marketing2") 
+$userNames=@("Marketing1", "Marketing2")
 $groupID=(Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
-ForEach ($element in $userNames){ 
-New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location 
+ForEach ($element in $userNames){
+New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $element }).ObjectID -ObjectId $groupID
 }
 $groupName="Sales staff"
-$userNames=@("SalesPerson1") 
+$userNames=@("SalesPerson1")
 $groupID=(Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectID
-ForEach ($element in $userNames){ 
-New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location 
+ForEach ($element in $userNames){
+New-AzureADUser -DisplayName $element -PasswordProfile $PasswordProfile -UserPrincipalName ($element + "@" + $orgName + ".onmicrosoft.com") -AccountEnabled $true -MailNickName $element -UsageLocation $location
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $element }).ObjectID -ObjectId $groupID
 }
 ```
@@ -187,7 +187,7 @@ Next, configure the documents folder of the Organization wide team site for the 
 
 Below is your resulting configuration.
 
- ![Public Team Site Protection](./media/secure-sharepoint-online sites-dev-test/pubsite.png)
+ ![Public Team Site Protection](./media/secure-sharepoint-online-sites-dev-test/pubsite.png)
 
 ### Project 1 team site
 To create a baseline private SharePoint Online team site for a project within the organization, do the following:
@@ -210,7 +210,7 @@ Next, configure the documents folder of the Project 1 team site for the Private 
 
 Below is your resulting configuration.
 
- ![Private Team Site Protection](./media/secure-sharepoint-online sites-dev-test/privsite.png)
+ ![Private Team Site Protection](./media/secure-sharepoint-online-sites-dev-test/privsite.png)
 
 ### Marketing campaigns team site
 
@@ -279,7 +279,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
 
 Below is your resulting configuration.
 
- ![Sensitive Protection](./media/secure-sharepoint-online sites-dev-test/senssite.png)
+ ![Sensitive Protection](./media/secure-sharepoint-online-sites-dev-test/senssite.png)
 
 ### Company strategy team site
 To create an isolated SharePoint Online team site at the highly confidential level for strategic company resources of the chief executives of the organization, do the following:
@@ -362,7 +362,7 @@ To protect a document with Azure Information Protection and the Highly Confident
 
 Below is your resulting configuration.
 
- ![Highly Confidential Protection](./media/secure-sharepoint-online sites-dev-test/hcsite.png)
+ ![Highly Confidential Protection](./media/secure-sharepoint-online-sites-dev-test/hcsite.png)
 
 ### Create documents and test access
 
@@ -370,9 +370,9 @@ You are now ready to create documents in these four sites and test access to the
 
 Below is the overall configuration for all four SharePoint Online team sites.
 
- ![Final Configuration](./media/secure-sharepoint-online sites-dev-test/finalconfig.png)
+ ![Final Configuration](./media/secure-sharepoint-online-sites-dev-test/finalconfig.png)
 
-When you are ready for production deployment of secure SharePoint Online sites, see [Secure SharePoint Online sites and files](https://technet.microsoft.com/en-us/library/mt842190.aspx) for detailed information and links to step-by-step deployment articles.
+When you are ready for production deployment of secure SharePoint Online sites, see [Secure SharePoint Online sites and files](https://technet.microsoft.com/library/mt842190.aspx) for detailed information and links to step-by-step deployment articles.
 
 
 ## Next steps
@@ -383,4 +383,3 @@ When you are ready for production deployment of secure SharePoint Online sites, 
 [Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
 
 [Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
-

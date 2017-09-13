@@ -154,5 +154,5 @@ For information about configuring Azure Information Protection (AIP) in this sol
 
 [Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
 
-[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md)
+[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md)
  

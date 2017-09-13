@@ -31,7 +31,7 @@ Intune MAM for Exchange Online
 
 
 ## Sensitive
-Conditinoal access low and above risk requires MFA
+Conditional access low and above risk requires MFA
 
 
 
