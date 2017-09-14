@@ -76,7 +76,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Why Microsoft 365 Enterprise?</h3>
-                                                    <p>Got a large organization? Find out how you can unlock creativity, provide the broadest and deepest set of apps and services with a universal toolkit for teamwork, simplify IT by unifying management across users, devices, apps, and services, and help safeguard customer data, company data, and intellectual property.</p>
+                                                    <p>Find out how you can provide a broad and deep set of apps and services, simplify IT by unifying management across users, devices, apps, and services, and help safeguard customer data, company data, and intellectual property through Microsoft 365 Enterprise.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Architecture models and posters</h3>
-                                                    <p>Thinking about adopting enterprise cloud capabilities included in Microsoft 365 Enterprise and want to learn about recommended capabilities and architectures? Select and download architecture models and posters&mdash;you can even modify them for your own use.</p>
+                                                    <p>Thinking about adopting enterprise cloud capabilities and want to learn about recommended capabilities and architectures? Select and download architecture models and posters&mdash;you can even modify them for your own use.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -219,7 +219,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Office 365 ProPlus deployment guide</h3>
-                                                    <p>Microsoft 365 Enterprise includes an enterprise edition of Office apps through Office 365 ProPlus. See the deployment guide to plan, deploy, and manage Office 365 ProPlus.</p>
+                                                    <p>Microsoft 365 Enterprise includes an enterprise edition of Office apps through Office 365 ProPlus. See the guide to plan, deploy, and manage Office 365 ProPlus.</p>
                                                 </div>
                                             </div>
                                         </div>
