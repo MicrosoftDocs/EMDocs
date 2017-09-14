@@ -813,31 +813,12 @@ description: Learn about the product documentation and resources available for M
                 <a href="#partner">Partner</a>
                 <ul id="partner">
                     <li>
-                        <a data-default="true" href="#partner-1">Get started</a>
-                        <ul id="partner-1" class="cardsC">
+                        <a data-default="true" href="#partner">Get started</a>
+                        <ul id="partner" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>TBD</p>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
                             </li>
                             <li>
                                 <a href="TBD" target="_blank">
@@ -871,25 +852,6 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>Microsoft 365 Partner community Yammer group</h3>
                                                     <p>Sign in with your Microsoft Partner account and join the Microsoft 365 Partner community private group on Yammer.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
                                                 </div>
                                             </div>
                                         </div>
