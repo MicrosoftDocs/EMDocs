@@ -227,6 +227,25 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
+                                <a href="https://support.office.com/article/31a384ca-650c-4265-b76c-a87b414fd8b8" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Best practices for deploying Office 365 ProPlus in the enterprise</h3>
+                                                    <p>Learn about recommendations and real-world examples from the Office 365 Product Group and delivery experts from Microsoft Services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="TBD" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -434,7 +453,7 @@ description: Learn about the product documentation and resources available for M
                                 </div>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://docs.microsoft.com/windows/deployment/planning/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -444,8 +463,8 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>Plan for Windows 10 deployment</h3>
+                                                    <p>Check the FAQ for IT professionals, learn about deployment considerations, plan for infrastructure requirements, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -453,7 +472,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://docs.microsoft.com/intune/apps-add-office365" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -463,8 +482,27 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>Assign Office 365 ProPlus apps to Windows 10 devices with Intune</h3>
+                                                    <p>Find out how to configure the app suite, info, and settings when deploying Office 365 ProPlus apps to Windows 10 devices through Microsoft Intune.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/windows/deployment/update/waas-overview" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Overview of Windows as a service</h3>
+                                                    <p>Simplify Windows 10 management and maintain a consistent Windows 10 experience for your users. Learn the new way to build, deploy, and service Windows through Windows as a service.</p>
                                                 </div>
                                             </div>
                                         </div>
