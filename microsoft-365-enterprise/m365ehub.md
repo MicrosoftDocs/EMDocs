@@ -510,6 +510,25 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
+                                <a href="https://support.microsoft.com/help/4018124" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Windows 10 update history</h3>
+                                                    <p>Get more information about the improvements and fixes that were included with each Windows 10 update.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
