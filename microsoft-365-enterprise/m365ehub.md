@@ -58,7 +58,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="itadmin">
                     <li>
                         <a data-default="true" href="#getstarted">Get started</a>
-                        <ul id="getstarted" class="cardsC">
+                        <ul id="getstarted" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Get started here with resources and tools for maximizing your success with Office 365, Windows 10, and Enterprise Mobility + Security.</p>
@@ -163,7 +163,7 @@ description: Learn about the product documentation and resources available for M
                     </li>
                     <li>
                         <a href="#it-collab">Collaboration</a>
-                        <ul id="it-collab" class="cardsC">
+                        <ul id="it-collab" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>See these guidance and resources to enhance user productivity by helping users access, edit, manage, and seamlessly share the content they need.</p>
@@ -467,25 +467,6 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/intune/apps-add-office365" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Assign Office 365 ProPlus apps to Windows 10 devices with Intune</h3>
-                                                    <p>Find out how to configure the app suite, info, and settings when deploying Office 365 ProPlus apps to Windows 10 devices through Microsoft Intune.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="https://docs.microsoft.com/windows/deployment/update/waas-overview" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -497,7 +478,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Overview of Windows as a service</h3>
-                                                    <p>Simplify Windows 10 management and maintain a consistent Windows 10 experience for your users. Learn the new way to build, deploy, and service Windows through Windows as a service.</p>
+                                                    <p>Simplify management and maintain a consistent experience for your users. Learn the new way to build, deploy, and service Windows through Windows as a service.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -517,6 +498,25 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>Windows 10 update history</h3>
                                                     <p>Get more information about the improvements and fixes that were included with each Windows 10 update.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/intune/apps-add-office365" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Assign Office 365 ProPlus apps to Windows 10 devices with Intune</h3>
+                                                    <p>Learn to configure the app suite, info, and settings when deploying Office 365 ProPlus apps to devices using Intune.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -573,7 +573,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Deploy Windows 10 updates using Configuration Manager</h3>
-                                                    <p>Using System Center Configuration Manager for Windows update management? Go here for info on creating collections for deployment rings, using servicing plans or a task sequence to deploy updates, andsteps on managing updates for Windows 10.</p>
+                                                    <p>Using System Center Configuration Manager for Windows update management? Get info on managing Windows 10 updates using Configuration Manager.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -592,7 +592,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Manage Office 365 ProPlus with Configuration Manager</h3>
-                                                    <p>Get info about the Office 365 client management dashboard, deploying Office 365 apps and updates, adding languages for Office 365 update downloads, and changing the update channel.</p>
+                                                    <p>Get info about the Office 365 client management dashboard, deploying apps and updates, adding languages for update downloads, and changing the update channel.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -622,7 +622,7 @@ description: Learn about the product documentation and resources available for M
                     </li>
                     <li>
                         <a href="#it-voice">Voice</a>
-                        <ul id="it-voice" class="cardsC">
+                        <ul id="it-voice" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Voice capabilities in Microsoft 365 can help your users be more productive by enabling audio and video collaboration from virtually any device in real time.</p>
@@ -973,7 +973,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="partner">
                     <li>
                         <a data-default="true" href="#partner">Get started</a>
-                        <ul id="partner" class="cardsC">
+                        <ul id="partner" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>TBD</p>
