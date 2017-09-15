@@ -265,6 +265,45 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
+                                <a href="http://aka.ms/myadvisor" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>My Advisor</h3>
+                                                    <p>Practical guidance for Cloud Voice available through <a href="http://aka.ms/myadvisor" target="_blank">My Advisor</a> offers a comprehensive self-service guide and toolset for planning and managing Microsoft Teams and Skype for Business online Cloud Voice.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>FastTrack for collaboration</h3>
+                                                    <p>Get practices, tools, resources, and experts for the Microsoft 365 collaboration capabilities.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- This is being renamed. Hiding. See My Advisor for Cloud Voice above for the new entry. Delete when you get confirmation.
+                            <li>
                                 <a href="TBD" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -283,25 +322,7 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft 365 customer dashboard</h3>
-                                                    <p>Plan your collaboration capability by working with your Microsoft partner on a FastTrack success plan.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
+                            -->
                             <li>
                                 <a href="http://partnercenter.microsoft.com/" target="_blank">
                                     <div class="cardSize">
@@ -335,50 +356,10 @@ description: Learn about the product documentation and resources available for M
                         <ul id="it-security" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft's leading Enterprise Mobility + Security (EMS) offerings combined with Windows 10 Enterprise and Office 365 ProPlus security capabilities provide identity and access management, threat protection, information protection, and security management.</p>
+                                    <p>Microsoft's leading Enterprise Mobility + Security (EMS) offerings combined with Windows 10 Enterprise and Office 365 security capabilities provide identity and access management, threat protection, information protection, and security management.</p>
                                     <p>See these resources for security-related recommendations and guidance.</p>
                                 </div>
                             </li>
-                            <!--
-                            <li>
-                                <a href="http://fasttrack.microsoft.com/microsoft365" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Work with your Microsoft account team</h3>
-                                                    <p>We strongly recommend starting with a success plan to document your goals, stakeholders, unique considerations, and timelines. Sign in to FastTrack now to work with your Microsoft account team.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://partnercenter.microsoft.com/" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Find a Microsoft-certified partner</h3>
-                                                    <p>If you don't have a Microsoft account team, you can visit the Partner Center to find a Microsoft-certified partner in your area.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            -->
                             <li>
                                 <a href="https://docs.microsoft.com/microsoft-365-enterprise/microsoft-365-policies-configurations" target="_blank">
                                     <div class="cardSize">
@@ -436,10 +417,24 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
-                                </div>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>FastTrack for security</h3>
+                                                    <p>Get practices, tools, resources, and experts for the Microsoft 365 security capabilities.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -448,8 +443,8 @@ description: Learn about the product documentation and resources available for M
                         <ul id="it-devices" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>A Microsoft 365-powered device is a PC with Windows 10 Enterprise and Office 365 ProPlus, managed with Enterprise Mobility + Security (EMS). It is a fully configured device for users, ready for business, and with built-in security.</p>
-                                    <p>See these resources to make the most out of your Microsoft 365-powered devices.</p>
+                                    <p>A Microsoft 365 powered device is a PC with Windows 10 Enterprise and Office 365 ProPlus, managed with Enterprise Mobility + Security (EMS). It is a fully configured device for users, ready for business, and with built-in security.</p>
+                                    <p>See these resources to make the most out of your Microsoft 365 powered devices.</p>
                                 </div>
                             </li>
                             <li>
@@ -604,10 +599,24 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
-                                </div>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>FastTrack for devices</h3>
+                                                    <p>Get practices, tools, resources, and experts for the Microsoft 365 powered device capabilities.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -621,6 +630,25 @@ description: Learn about the product documentation and resources available for M
                                 </div>
                             </li>
                             <li>
+                                <a href="http://aka.ms/myadvisor" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>My Advisor</h3>
+                                                    <p>Practical guidance for Cloud Voice available through <a href="http://aka.ms/myadvisor" target="_blank">My Advisor</a> offers a comprehensive self-service guide and toolset for planning and managing Microsoft Teams and Skype for Business online Cloud Voice.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="TBD" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -631,54 +659,14 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>TBD</h3>
-                                                    <p>TBD</p>
+                                                    <h3>FastTrack for voice</h3>
+                                                    <p>Get practices, tools, resources, and experts for the Microsoft 365 voice capabilities.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <!--
-                            <li>
-                                <a href="https://microsoft365dashboard.microsoft.com//CustomerDashboard" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft 365 customer dashboard</h3>
-                                                    <p>Plan for your cloud voice needs by working with your Microsoft partner on a FastTrack success plan.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://partnercenter.microsoft.com/" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Find a Microsoft-certified partner</h3>
-                                                    <p>If you don't have a Microsoft account team, you can visit the Partner Center to find a Microsoft-certified partner in your area.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            -->
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
@@ -693,7 +681,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="i-worker">
                     <li>
                         <a data-default="true" href="#i-worker-1">End user hub</a>
-                        <ul id="i-worker-1" class="cardsC">
+                        <ul id="i-worker-1" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Employees and other users can get curated training, watch videos, read recommendations, and more at the <a href="https://www.microsoft.com/microsoft-365/enterprise" target="_blank">Microsoft 365 Enterprise end user hub</a>.</p>
@@ -751,6 +739,25 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>Meet and collaborate with ease</h3>
                                                     <p>Learn how to use Skype for Business to start an ad-hoc conversation, make an audio or video call, share and collaborate, and schedule an online meeting.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://go.microsoft.com/fwlink/?linkid=853882" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Choose the right collaboration tool for your group</h3>
+                                                    <p>With Office 365, you can meet the unique needs of every group in your company. Start using Outlook for email-based collaboration, Yammer to create communities of interest, Microsoft Teams for chat, Skype for Business for voice and video meetings on any device, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -827,6 +834,25 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>Communicate with your team in real time</h3>
                                                     <p>Find out how to use Microsoft Teams to find and collaborate with colleagues through chat, access content and tools in a centralized repository, share info and get input, and stay up-to-date with your team's status and activities.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://go.microsoft.com/fwlink/?linkid=853884" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Provide a chat-based workspace</h3>
+                                                    <p>Learn how you can use Microsoft Teams to organize conversations using channels, chat the way you work by commenting or mentioning people to bring a conversation to their attention, start a voice or video call from within the channel or private chat, and set up your channels with the tools and services your team needs.</p>
                                                 </div>
                                             </div>
                                         </div>
