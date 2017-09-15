@@ -353,7 +353,7 @@ description: Learn about the product documentation and resources available for M
                     </li>
                     <li>
                         <a href="#it-security">Security</a>
-                        <ul id="it-security" class="cardsC">
+                        <ul id="it-security" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Microsoft's leading Enterprise Mobility + Security (EMS) offerings combined with Windows 10 Enterprise and Office 365 security capabilities provide identity and access management, threat protection, information protection, and security management.</p>
@@ -372,7 +372,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Identity and device access configurations</h3>
-                                                    <p>Learn about general Microsoft recommendations and best practices on how to apply policy and configuration within the Microsoft cloud to ensure that your employees are both secure and productive.</p>
+                                                    <p>Learn about general Microsoft recommendations and best practices on how to apply policy and configuration to ensure that your employees are both secure and productive.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -391,7 +391,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Secure SharePoint Online sites and files</h3>
-                                                    <p>Get recommendations for configuring SharePoint Online team sites and file protection to balance security with ease of collaboration, and learn about recommended configurations for SharePoint Online team sites.</p>
+                                                    <p>Get recommendations for configuring SharePoint Online team sites and file protection, and getrecommended configurations for SharePoint Online team sites.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -410,7 +410,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Microsoft security guidance for political campaigns, nonprofits, and other agile organizations</h3>
-                                                    <p>If your organization is agile, you have a small IT team, and your threat profile is higher than average, see this guidance for prescriptive security recommendations for protecting data, identities, email, and access from mobile devices.</p>
+                                                    <p>If your organization is agile, have a small IT team, and your threat profile is higher than average, see this guidance for prescriptive security recommendations.</p>
                                                 </div>
                                             </div>
                                         </div>
