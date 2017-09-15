@@ -757,7 +757,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Choose the right collaboration tool for your group</h3>
-                                                    <p>With Office 365, you can meet the unique needs of every group in your company. Start using Outlook for email-based collaboration, Yammer to create communities of interest, Microsoft Teams for chat, Skype for Business for voice and video meetings on any device, and more.</p>
+                                                    <p>Office 365 has you covered&mdash;Outlook for email-based collaboration, Yammer to create communities of interest, Microsoft Teams for chat, or Skype for Business for voice and video meetings on any device.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -776,7 +776,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Create impactful content together</h3>
-                                                    <p>Learn how to use Office integration with OneDrive and SharePoint to access, share, and coauthor documents. You can also download Office mobile apps to help you access everything you need while you're on the move.</p>
+                                                    <p>Use Office integration with OneDrive and SharePoint to access, share, and coauthor documents. And download Office mobile apps to help you access everything you need while you're on the move.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -795,7 +795,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Share sites and content</h3>
-                                                    <p>Use SharePoint to power sharing and collaboration on your company's intranet&mdash;learn how to create a team site, sharing files and collaborating, creating lists, and staying in-the-know using the mobile app.</p>
+                                                    <p>Use SharePoint to power sharing and collaboration on your company's intranet&mdash;create a team site, share files and collaborating, create lists, and stay in-the-know using the mobile app.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -814,7 +814,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Gain insight into your work habits</h3>
-                                                    <p>Learn how to manage your time effectively, improve productivity, surface cotnent that other team members are working on, and more through MyAnalytics.</p>
+                                                    <p>Learn how to manage your time effectively, improve productivity, and surface cotnent that other team members are working on through MyAnalytics.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -833,7 +833,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Communicate with your team in real time</h3>
-                                                    <p>Find out how to use Microsoft Teams to find and collaborate with colleagues through chat, access content and tools in a centralized repository, share info and get input, and stay up-to-date with your team's status and activities.</p>
+                                                    <p>Find out how you can use Microsoft Teams to find and collaborate with colleagues through chat, access content and tools in a centralized repository, share info and get input, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -852,7 +852,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Provide a chat-based workspace</h3>
-                                                    <p>Learn how you can use Microsoft Teams to organize conversations using channels, chat the way you work by commenting or mentioning people to bring a conversation to their attention, start a voice or video call from within the channel or private chat, and set up your channels with the tools and services your team needs.</p>
+                                                    <p>Find out how you can combine chat, documents, people, and tools in one secure place.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -871,7 +871,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Create and impress customers by understanding their preferences</h3>
-                                                    <p>Find out how to use Delve Boards to know how customers feel, get feedback directly through Yammer posts, visualize trends with Power BI, and use Sway to create and share reports and presentations.</p>
+                                                    <p>Use Delve Boards to know how customers feel, get feedback directly through Yammer posts, visualize trends with Power BI, and use Sway to create and share reports and presentations.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -890,7 +890,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Help employees filter relevant information and find answers faster</h3>
-                                                    <p>See how you can use Yammer Activity Report to understand your organization's level of engagement, use SharePoint to provide info such as news and training, streamline employee communication through Office 365 groups, and use Delve to help connect employees with peers and information.</p>
+                                                    <p>See how you can use Yammer Activity Report to understand your organization's level of engagement, use SharePoint to provide info such as news and training, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
