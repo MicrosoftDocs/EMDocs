@@ -284,46 +284,6 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>FastTrack for collaboration</h3>
-                                                    <p>Get practices, tools, resources, and experts for the Microsoft 365 collaboration capabilities.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <!-- This is being renamed. Hiding. See My Advisor for Cloud Voice above for the new entry. Delete when you get confirmation.
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Skype Operations Framework (SOF)</h3>
-                                                    <p>See the guide and toolset to implement and manage Skype for Business. SOF extends FastTrack with guidance for ongoing operational management and provides additional info for planning and deployment.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            -->
-                            <li>
                                 <a href="http://partnercenter.microsoft.com/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -342,13 +302,25 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                            <!--
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
-                                </div>
+                            <li>
+                                <a href="TBD" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>FastTrack for collaboration</h3>
+                                                    <p>Get practices, tools, resources, and experts for the Microsoft 365 collaboration capabilities.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
-                            -->
                         </ul>
                     </li>
                     <li>
