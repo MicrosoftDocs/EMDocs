@@ -741,6 +741,25 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
+                                <a href="https://go.microsoft.com/fwlink/?linkid=853887" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Work in email, solo or as a group</h3>
+                                                    <p>Find out how you can use Exchange Online to personalize your inbox, manage versioning for email attachments, and use groups to collaborate with people.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=853882" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
