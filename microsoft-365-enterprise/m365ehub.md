@@ -573,7 +573,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Deploy Windows 10 updates using Configuration Manager</h3>
-                                                    <p>Using System Center Configuration Manager for Windows update management? Get info on managing Windows 10 updates using Configuration Manager.</p>
+                                                    <p>Using System Center Configuration Manager for Windows update management? Get info on managing Windows 10 updates.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -592,7 +592,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Manage Office 365 ProPlus with Configuration Manager</h3>
-                                                    <p>Get info about the Office 365 client management dashboard, deploying apps and updates, adding languages for update downloads, and changing the update channel.</p>
+                                                    <p>Learn about the client management dashboard, deploying apps and updates, changing the update channel, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -641,7 +641,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>My Advisor</h3>
-                                                    <p>Practical guidance for Cloud Voice available through <a href="http://aka.ms/myadvisor" target="_blank">My Advisor</a> offers a comprehensive self-service guide and toolset for planning and managing Microsoft Teams and Skype for Business online Cloud Voice.</p>
+                                                    <p>Practical guidance for Cloud Voice available through My Advisor offers a comprehensive self-service guide and toolset for planning and managing Microsoft Teams and Skype for Business online Cloud Voice.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -666,11 +666,6 @@ description: Learn about the product documentation and resources available for M
                                         </div>
                                     </div>
                                 </a>
-                            </li>
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Looking for more information? Check out <a href="http://fasttrack.microsoft.com/microsoft365/capabilities" target="_blank">FastTrack for Microsoft 365</a>.</p>
-                                </div>
                             </li>
                         </ul>
                     </li>
@@ -973,7 +968,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="partner">
                     <li>
                         <a data-default="true" href="#partner">Get started</a>
-                        <ul id="partner" class="cardsG">
+                        <ul id="partner" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>TBD</p>
@@ -991,7 +986,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Authorized Microsoft 365 Partner directory</h3>
-                                                    <p>Search through the list of Authorized Microsoft 365 Partners worldwide who can deliver on customer licensing requirements, and provide solutions and services to current and future enterprise needs.</p>
+                                                    <p>Search the list of Authorized Microsoft 365 Partners worldwide who can deliver on customer licensing requirements, and provide solutions and services for enterprise needs.</p>
                                                 </div>
                                             </div>
                                         </div>
