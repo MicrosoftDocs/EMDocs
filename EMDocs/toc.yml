@@ -105,13 +105,13 @@
           homepage: /information-protection/get-started/requirements-for-azure-rights-management
         - name: Plan & Design
           href: /information-protection/plan-design/
-          homepage: /information-protection/plan-design/azure-rights-management-deployment-roadmap
+          homepage: /information-protection/plan-design/deployment-roadmap
         - name: Deploy & Use the Service
           href: /information-protection/deploy-use/
-          homepage: /information-protection/deploy-use/activating-azure-rights-management
+          homepage: /information-protection/deploy-use/activate-service
         - name: Deploy & Use the Client
           href: /information-protection/rms-client/
-          homepage: /information-protection/rms-client/rights-management-rms-client
+          homepage: /information-protection/rms-client/use-client
         - name: Develop & Customize Apps
           href: /information-protection/develop/
           homepage: /information-protection/develop/developers-guide
