@@ -412,7 +412,7 @@ description: Learn about the product documentation and resources available for M
                     </li>
                     <li>
                         <a href="#it-devices">Devices</a>
-                        <ul id="it-devices" class="cardsC">
+                        <ul id="it-devices" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>A Microsoft 365 powered device is a PC with Windows 10 Enterprise and Office 365 ProPlus, managed with Enterprise Mobility + Security (EMS). It is a fully configured device for users, ready for business, and with built-in security.</p>
