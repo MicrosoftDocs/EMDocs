@@ -3,12 +3,12 @@
     "content": [
       {
         "files": [
-         "**/**.md", 
+         "**/**.md",
          "**/**.yml"],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
-          "**/_themes.pdf/**", 
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
