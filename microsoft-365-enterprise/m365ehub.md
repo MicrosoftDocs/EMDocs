@@ -656,6 +656,25 @@ description: Learn about the product documentation and resources available for M
                                 </div>
                             </li>
                             <li>
+                                <a href="https://technet.microsoft.com/windows/dn621092.aspx">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Windows 10 end user readiness</h3>
+                                                    <p>Find guides and tutorials to help you familiarize yourself with the basic and advanced features and capabilities of Windows 10 in a business environment.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="ms-get-started://">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -667,7 +686,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Windows 10 Tips</h3>
-                                                    <p>Looking for how to do something on Windows 10? Launch the Tips app!</p>
+                                                    <p>Looking for how to do other things on Windows 10? Launch the Tips app!</p>
                                                 </div>
                                             </div>
                                         </div>
