@@ -276,7 +276,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>My Advisor</h3>
-                                                    <p>Practical guidance for Cloud Voice available through <a href="http://aka.ms/myadvisor" target="_blank">My Advisor</a> offers a comprehensive self-service guide and toolset for planning and managing Microsoft Teams and Skype for Business online Cloud Voice.</p>
+                                                    <p>Take advantage of the Practical Guidance available through My Advisor&mdash;a comprehensive self-service guide and toolset for planning and managing Microsoft Teams and Skype for Business Online.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -613,7 +613,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>My Advisor</h3>
-                                                    <p>Practical guidance for Cloud Voice available through My Advisor offers a comprehensive self-service guide and toolset for planning and managing Microsoft Teams and Skype for Business online Cloud Voice.</p>
+                                                    <p>Take advantage of the Practical Guidance for Cloud Voice available through My Advisor&mdash;a comprehensive self-service guide and toolset for planning and managing Microsoft 365 Cloud Voice.</p>
                                                 </div>
                                             </div>
                                         </div>
