@@ -819,7 +819,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Gain insight into your work habits</h3>
-                                                    <p>Learn how to manage your time effectively, improve productivity, and surface cotnent that other team members are working on through MyAnalytics.</p>
+                                                    <p>Learn how to manage your time effectively, improve productivity, and surface content that other team members are working on through MyAnalytics.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -951,18 +951,18 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://docs.microsoft.com/en-us/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Intune for end users" />
+                                                        <img src="media/hub/placeholder.svg" alt="User help for Intune" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Microsoft Intune</h3>
-                                                    <p>TBD - Information worker/end user content for Intune</p>
+                                                    <p>Learn how your company manages your devices, what info your company sees when you enroll your device in Intune, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -981,22 +981,22 @@ description: Learn about the product documentation and resources available for M
                         <ul id="partner" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>TBD</p>
+                                    <p>Looking for resources available to Microsoft 365 Enterprise partners? Start here.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://partners.office.com/enterprise" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Authorized Microsoft 365 Partner directory" />
+                                                        <img src="media/hub/placeholder.svg" alt="Enterprise resources and training" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Authorized Microsoft 365 Partner directory</h3>
-                                                    <p>Search the list of Authorized Microsoft 365 Partners worldwide who can deliver on customer licensing requirements, and provide solutions and services for enterprise needs.</p>
+                                                    <h3>Enterprise resources and training</h3>
+                                                    <p>Find the latest training offerings and updates, and other resources.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1004,18 +1004,18 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://partners.office.com/news" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Partner community Yammer group" />
+                                                        <img src="media/hub/placeholder.svg" alt="News for partners" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 365 Partner community Yammer group</h3>
-                                                    <p>Sign in with your Microsoft Partner account and join the Microsoft 365 Partner community private group on Yammer.</p>
+                                                    <h3>News articles</h3>
+                                                    <p>Read the latest news articles on Office 365 and Microsoft 365.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1023,18 +1023,18 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="Thttps://office365partnerportal-staging.azurewebsites.net/fasttrack-and-partners" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Partner Network" />
+                                                        <img src="media/hub/placeholder.svg" alt="FastTrack and partners" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 365 Partner Network</h3>
-                                                    <p>Find out what it takes to become a Microsoft-certified partner and access the latest news and announcements for Microsoft 365 partners.</p>
+                                                    <h3>FastTrack and partners</h3>
+                                                    <p>Get the full suite of best practices, tools, remote assistance, and resources to help you and your customers move to Microsoft 365.</p>
                                                 </div>
                                             </div>
                                         </div>
