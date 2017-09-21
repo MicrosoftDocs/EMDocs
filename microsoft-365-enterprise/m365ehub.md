@@ -76,7 +76,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Why Microsoft 365 Enterprise?</h3>
-                                                    <p>Find out how you can provide a broad and deep set of apps and services, simplify IT by unifying management across users, devices, apps, and services, and help safeguard customer data, company data, and intellectual property through Microsoft 365 Enterprise.</p>
+                                                    <p>Find out how Microsoft 365 Enterprise can help your organization provide a broad set of apps and services, simplify IT by unifying management across users, devices, apps, and services, and help safeguard customer data, company data, and intellectual property.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -90,12 +90,12 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Enterprise overview" />
+                                                        <img src="media/hub/placeholder.svg" alt="Technical overview" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 365 Enterprise overview</h3>
-                                                    <p>Get an overview of Microsoft 365 Enterprise including information about the most current versions of the products and how to deploy and manage updates to Windows 10 and Office 365 ProPlus.</p>
+                                                    <h3>Technical overview</h3>
+                                                    <p>Get an overview of the services included with Microsoft 365 Enterprise, learn core concepts necessary to understand how to best use them for your oganizational needs, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
