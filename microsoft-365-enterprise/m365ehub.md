@@ -5,7 +5,9 @@ author: CelesteDG
 ms.author: celested
 ms.topic: hub-page
 ms.localizationpriority: high
-audience: microsoft-business 
+audience: microsoft-business
+ms.prod: microsoft-365-enterprise
+ms.date: 09/25/2017
 title: Microsoft 365 Enterprise documentation and resources
 description: Learn about the product documentation and resources available for Microsoft 365 Enterprise IT admins, information workers, and partners.
 ---
