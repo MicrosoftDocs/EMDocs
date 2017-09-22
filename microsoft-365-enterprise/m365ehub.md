@@ -631,7 +631,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="i-worker">
                     <li>
                         <a data-default="true" href="#i-worker-1">Product Help</a>
-                        <ul id="i-worker-1" class="cardsC">
+                        <ul id="i-worker-1" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Looking for more info? When you're using Office 365 or Windows 10 and you have a question about how to do something, you can search the product help for info. </p>
