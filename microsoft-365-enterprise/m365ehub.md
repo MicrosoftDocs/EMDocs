@@ -634,7 +634,7 @@ description: Learn about the product documentation and resources available for M
                         <ul id="i-worker-1" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Looking for more info? When you're using Office 365 or Windows 10 and you have a question about how to do something, you can search the product help for info. </p>
+                                    <p>When you're using Office 365 or Windows 10, or your devices are managed by your company, and you have a question about how to do something, you can search the product Help for info, get training and tips, and watch short videos and tutorials. </p>
                                 </div>
                             </li>
                             <li>
@@ -701,7 +701,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-windows10.svg" alt="Windows 10 end user help" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-deploy-1.svg" alt="Windows 10 end user help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -758,7 +758,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-intune.svg" alt="User help for Intune" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-intune-4.svg" alt="User help for Intune" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
