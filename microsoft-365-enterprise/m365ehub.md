@@ -667,7 +667,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>OOffice Training Center</h3>
+                                                    <h3>Office Training Center</h3>
                                                     <p>Training and tips on how to get the most out of Office.</p>
                                                 </div>
                                             </div>
