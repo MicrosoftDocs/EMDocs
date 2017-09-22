@@ -4,6 +4,7 @@ hide_bc: true
 author: CelesteDG
 ms.author: celested
 ms.topic: hub-page
+keywords: Microsoft 365, Microsoft 365 Enterprise, Office 365, Windows 10 Enterprise, EMS, Enterprise Mobility + Security, enterprise
 ms.localizationpriority: high
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
@@ -296,7 +297,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for collaboration</h3>
+                                                    <h3>FastTrack for collaboration - Coming soon</h3>
                                                     <p>Get practices, tools, resources, and experts for the Microsoft 365 collaboration capabilities.</p>
                                                 </div>
                                             </div>
@@ -383,7 +384,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for security</h3>
+                                                    <h3>FastTrack for security - Coming soon</h3>
                                                     <p>Get practices, tools, resources, and experts for the Microsoft 365 security capabilities.</p>
                                                 </div>
                                             </div>
@@ -565,7 +566,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for devices</h3>
+                                                    <h3>FastTrack for devices - Coming soon</h3>
                                                     <p>Get practices, tools, resources, and experts for the Microsoft 365 powered device capabilities.</p>
                                                 </div>
                                             </div>
@@ -614,7 +615,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for voice</h3>
+                                                    <h3>FastTrack for voice - Coming soon</h3>
                                                     <p>Get practices, tools, resources, and experts for the Microsoft 365 voice capabilities.</p>
                                                 </div>
                                             </div>
@@ -777,7 +778,8 @@ description: Learn about the product documentation and resources available for M
                         <ul id="i-worker-2" class="cardsG">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Employees and other users can get curated training, watch videos, read recommendations, and more from the <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">Microsoft 365 Enterprise Productivity Library</a>. Here are some links to help you get started.</p>
+                                    <p>Employees and other users can get curated training, watch videos, read recommendations, and more from the <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">Microsoft 365 Enterprise Productivity Library</a>.</p>
+                                    <p><i>Coming soon:</i> Follow these links to help you get started.</p>
                                 </div>
                             </li>
                             <li>
@@ -1044,7 +1046,7 @@ description: Learn about the product documentation and resources available for M
                             </li>
                             <!-- link below is TBD -->
                             <li>
-                                <a href="https://office365partnerportal-staging.azurewebsites.net/fasttrack-and-partners" target="_blank">
+                                <a href="TBD" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -1054,7 +1056,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack and partners</h3>
+                                                    <h3>FastTrack and partners - Coming soon</h3>
                                                     <p>Get the full suite of best practices, tools, remote assistance, and resources to help you and your customers move to Microsoft 365.</p>
                                                 </div>
                                             </div>
