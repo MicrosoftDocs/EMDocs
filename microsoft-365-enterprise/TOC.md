@@ -1,4 +1,4 @@
-# [Microsoft 365 Enterprise Documentation](index.md)
+# [Microsoft 365 Enterprise documentation and resources](index.md)
 
 # [Architecture models and posters](architecture-models-posters.md)
 
