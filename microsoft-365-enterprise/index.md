@@ -230,7 +230,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="http://fasttrack.microsoft.com" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -240,7 +240,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Teams implementation guide</h3>
+                                                    <h3>Microsoft Teams implementation guide - Coming soon</h3>
                                                     <p>See the guide and toolset to implement and manage Microsoft Teams. You can also follow the workshop to help your organization get started with Microsoft Teams.</p>
                                                 </div>
                                             </div>
@@ -287,7 +287,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="http://fasttrack.microsoft.com" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -374,7 +374,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="http://fasttrack.microsoft.com" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -556,7 +556,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="http://fasttrack.microsoft.com" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -605,7 +605,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="http://fasttrack.microsoft.com" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -779,11 +779,11 @@ description: Learn about the product documentation and resources available for M
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Employees and other users can get curated training, watch videos, read recommendations, and more from the <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">Microsoft 365 Enterprise Productivity Library</a>.</p>
-                                    <p><i>Coming soon:</i> Follow these links to help you get started.</p>
+                                    <p><b>Coming soon:</b> Follow these links to help you get started.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -802,7 +802,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -821,7 +821,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -840,7 +840,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -859,7 +859,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -878,7 +878,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -897,7 +897,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -916,7 +916,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -935,7 +935,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -954,7 +954,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -973,7 +973,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
