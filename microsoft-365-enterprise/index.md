@@ -1044,9 +1044,8 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                            <!-- link below is TBD -->
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://partners.office.com/fasttrack-and-partners" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -1056,7 +1055,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack and partners - Coming soon</h3>
+                                                    <h3>FastTrack and partners</h3>
                                                     <p>Get the full suite of best practices, tools, remote assistance, and resources to help you and your customers move to Microsoft 365.</p>
                                                 </div>
                                             </div>
