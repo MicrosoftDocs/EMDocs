@@ -1042,8 +1042,9 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
+                            <!-- link below is TBD -->
                             <li>
-                                <a href="Thttps://office365partnerportal-staging.azurewebsites.net/fasttrack-and-partners" target="_blank">
+                                <a href="https://office365partnerportal-staging.azurewebsites.net/fasttrack-and-partners" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
