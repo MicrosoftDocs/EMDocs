@@ -159,7 +159,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hhub-itadmin-collaborationub/admin-collaboration-setup-guide-1.svg" alt="Office 365 setup guide" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-setup-guide-1.svg" alt="Office 365 setup guide" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -428,7 +428,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub-itadmin-deviceshub/admin-devices-overview-2.svg" alt="Overview of Windows as a service" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-overview-2.svg" alt="Overview of Windows as a service" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -882,7 +882,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub-iw-productivitylibraryhub/iw-productivitylibrary-share-sites-8.svg" alt="Share sites and content" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-share-sites-8.svg" alt="Share sites and content" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
