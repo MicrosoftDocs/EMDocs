@@ -73,7 +73,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Learn about Microsoft 365 Enterprise" />
+                                                        <img src="media/hub-itadmin-getstarted/admin-get-started-why365-1.svg" alt="Learn about Microsoft 365 Enterprise" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -85,35 +85,14 @@ description: Learn about the product documentation and resources available for M
                                     </div>
                                 </a>
                             </li>
-                            <!--
                             <li>
-                                <a href="TBD" target="_blank">
+                                <a href="https://docs.microsoft.com/microsoft-365-enterprise/services-overview" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Technical overview" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Technical overview</h3>
-                                                    <p>Get an overview of the services included with Microsoft 365 Enterprise, learn core concepts necessary to understand how to best use them for your oganizational needs, and more.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            -->
-                            <li>
-                                <a href="TBD" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Enterprise services and concepts" />
+                                                        <img src="media/hub-itadmin-getstarted/admin-get-started-service-3.svg" alt="Microsoft 365 Enterprise services and concepts" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -132,7 +111,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Microsoft 365 Enterprise architecture models and posters" />
+                                                        <img src="media/hub-itadmin-getstarted/admin-get-started-architecture-4.svg" alt="Microsoft 365 Enterprise architecture models and posters" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -151,7 +130,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="FastTrack for Microsoft 365" />
+                                                        <img src="media/hub-itadmin-getstarted/admin-get-started-fasttrack-5.svg" alt="FastTrack for Microsoft 365" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -180,7 +159,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Office 365 setup guide" />
+                                                        <img src="media/hhub-itadmin-collaborationub/admin-collaboration-setup-guide-1.svg" alt="Office 365 setup guide" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -199,7 +178,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Office 365 setup wizard" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-setup-wizard-2.svg" alt="Office 365 setup wizard" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -218,7 +197,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Office 365 ProPlus deployment guide" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-proplus-deployment-3.svg" alt="Office 365 ProPlus deployment guide" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -237,7 +216,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Best practices for Office 365 ProPlus enterprise deployment" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-best-practices-4.svg" alt="Best practices for Office 365 ProPlus enterprise deployment" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -256,7 +235,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Microsoft Teams implementation guide" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-teams-5.svg" alt="Microsoft Teams implementation guide" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -275,7 +254,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="My Advisor" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-advisor-6.svg" alt="My Advisor" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -294,7 +273,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Find a Microsoft-certified partner" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-certified-partner-7.svg" alt="Find a Microsoft-certified partner" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -313,7 +292,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-fasttrack-collaboration-8.svg" alt="FastTrack for collaboration" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -343,7 +322,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Identity and device access configurations" />
+                                                        <img src="media/hub-itadmin-security/admin-security-configurations-1.svg" alt="Identity and device access configurations" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -362,7 +341,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Secure SharePoint Online sites and files" />
+                                                        <img src="media/hub-itadmin-security/admin-security-secure-sharepoint-2.svg" alt="Secure SharePoint Online sites and files" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -381,7 +360,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Security guidance for political campaigns, nonprofits, and other agile organizations" />
+                                                        <img src="media/hub-itadmin-security/admin-security-agile-organizations-3.svg" alt="Security guidance for political campaigns, nonprofits, and other agile organizations" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -400,7 +379,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="FastTrack for security" />
+                                                        <img src="media/hub-itadmin-security/admin-security-fasttrack-security-4.svg" alt="FastTrack for security" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -430,7 +409,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Plan for Windows 10 deployment" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-deploy-1.svg" alt="Plan for Windows 10 deployment" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -449,7 +428,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Overview of Windows as a service" />
+                                                        <img src="media/hub-itadmin-deviceshub/admin-devices-overview-2.svg" alt="Overview of Windows as a service" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -468,7 +447,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Windows 10 update history" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-update-history-3.svg" alt="Windows 10 update history" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -487,7 +466,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Assign Office 365 ProPlus apps to Windows 10 devices with Intune" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-intune-4.svg" alt="Assign Office 365 ProPlus apps to Windows 10 devices with Intune" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -506,7 +485,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="Update channels for Office 365 ProPlus" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-update-proplus-5.svg" alt="Update channels for Office 365 ProPlus" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -525,7 +504,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-intune-6.svg" alt="Manage software updates with Intune" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -544,7 +523,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-deploy-config-manager-7.svg" alt="Deploy Windows 10 updates using Configuration Manager" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -563,7 +542,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-manage-config-manager-8.svg" alt="Manage Office 365 ProPlus with Configuration Manager" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -582,7 +561,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-itadmin-devices/admin-devices-fastrack-devices-9.svg" alt="FastTrack for devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -612,7 +591,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-itadmin-collaboration/admin-collaboration-advisor-6.svg" alt="My Advisor" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -631,7 +610,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-itadmin-voice/admin-voice-fasttrack-voice-2.svg" alt="FastTrack for voice" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -651,13 +630,88 @@ description: Learn about the product documentation and resources available for M
                 <a href="#i-worker">Information worker</a>
                 <ul id="i-worker">
                     <li>
-                        <a data-default="true" href="#i-worker-1">End user hub</a>
-                        <ul id="i-worker-1" class="cardsG">
+                        <a data-default="true" href="#i-worker-1">Product Help</a>
+                        <ul id="i-worker-1" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Employees and other users can get curated training, watch videos, read recommendations, and more at the <a href="https://www.microsoft.com/microsoft-365/enterprise" target="_blank">Microsoft 365 Enterprise end user hub</a>.</p>
-                                    <p>Here are some resources to help you get started.</p>
+                                    <p>Looking for more info? When you're using Office 365 or Windows 10 and you have a question about how to do something, you can search the product help for info. </p>
                                 </div>
+                            </li>
+                            <li>
+                                <a href="https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-iw-producthelp/iw-producthelp-getstarted-office.svg" alt="Get started with Office" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Get started with Office</h3>
+                                                    <p>Short videos and tutorials to get you up and running fast.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://support.office.com/en-us/office-training-center " target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-iw-producthelp/iw-producthelp-officetraining.svg" alt="Office Training Center" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>OOffice Training Center</h3>
+                                                    <p>Training and tips on how to get the most out of Office.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://support.office.com" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-iw-producthelp/iw-producthelp-office.svg" alt="Office Help" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Office Help</h3>
+                                                    <p>The best help and support resources for all the Office apps.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://support.microsoft.com/products/windows" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-iw-producthelp/iw-producthelp-windows10.svg" alt="Windows 10 end user help" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Windows 10 help</h3>
+                                                    <p>Help, how-to, and other info for all things Windows 10.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                             <li>
                                 <a href="https://technet.microsoft.com/windows/dn621092.aspx">
@@ -666,12 +720,12 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-producthelp/iw-producthelp-win10-readiness.svg" alt="Windows 10 end user readiness" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Windows 10 end user readiness</h3>
-                                                    <p>Find guides and tutorials to help you familiarize yourself with the basic and advanced features and capabilities of Windows 10 in a business environment.</p>
+                                                    <p>Guides and tutorials to help you get familiar with the basic and advanced features and capabilities of Windows 10 in a business environment.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -685,7 +739,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-producthelp/iw-producthelp-win10tips.svg" alt="Windows 10 Tips" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -698,13 +752,42 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
+                                <a href="https://docs.microsoft.com/en-us/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-iw-producthelp/iw-producthelp-intune.svg" alt="User help for Intune" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Intune</h3>
+                                                    <p>Learn how your company manages your devices, what info your company sees when you enroll your device in Intune, and more.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a data-default="true" href="#i-worker-2">Productivity Library</a>
+                        <ul id="i-worker-2" class="cardsG">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Employees and other users can get curated training, watch videos, read recommendations, and more from the <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">Microsoft 365 Enterprise Productivity Library</a>. Here are some links to help you get started.</p>
+                                </div>
+                            </li>
+                            <li>
                                 <a href="TBD" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-work-securely-3.svg" alt="Work more securely from anywhere, on almost any device" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -723,7 +806,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-collaborate-4.svg" alt=">Meet and collaborate with ease" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -742,7 +825,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-email-5.svg" alt="Work in email, solo or as a group" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -761,7 +844,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-collab-tool-6.svg" alt="Choose the right collaboration tool for your group" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -780,7 +863,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-content-7.svg" alt="Create impactful content together" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -799,7 +882,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibraryhub/iw-productivitylibrary-share-sites-8.svg" alt="Share sites and content" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -818,7 +901,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-gain-insights-9.svg" alt="Gain insight into your work habits" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -837,7 +920,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-real-time-10.svg" alt="Communicate with your team in real time" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -856,7 +939,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-chat-bsed-11.svg" alt="Provide a chat-based workspace" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -875,7 +958,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-preferences-12.svg" alt="Create and impress customers by understanding their preferences" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -894,79 +977,12 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub/placeholder.svg" alt="TBD" />
+                                                        <img src="media/hub-iw-productivitylibrary/iw-productivitylibrary-help-13.svg" alt="Help employees filter relevant information and find answers faster" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Help employees filter relevant information and find answers faster</h3>
                                                     <p>See how you can use Yammer Activity Report to understand your organization's level of engagement, use SharePoint to provide info such as news and training, and more.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a data-default="true" href="#i-worker-2">Product help</a>
-                        <ul id="i-worker-2" class="cardsC">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Looking for more info? When you're using Office 365 or Windows 10 and you have a question about how to do something, you can search the product help for info. </p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="http://support.office.com" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/iw-producthelp-office.svg" alt="Office 365 end user help and training" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Office help and training</h3>
-                                                    <p>Discover everything you need to know about Office products.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://support.microsoft.com/products/windows" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/iw-producthelp-windows10.svg" alt="Windows 10 end user help" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Windows 10 help</h3>
-                                                    <p>Get help, how-to, and other info for all things Windows 10.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/en-us/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="User help for Intune" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft Intune</h3>
-                                                    <p>Learn how your company manages your devices, what info your company sees when you enroll your device in Intune, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -995,7 +1011,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Enterprise resources and training" />
+                                                        <img src="media/hub-partner/partner-resource-training-1.svg" alt="Enterprise resources and training" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1014,7 +1030,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="News for partners" />
+                                                        <img src="media/hub-partner/partner-news-2.svg" alt="News for partners" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1033,7 +1049,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="FastTrack and partners" />
+                                                        <img src="media/hub-partner/partner-fastrack-3.svg" alt="FastTrack and partners" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
