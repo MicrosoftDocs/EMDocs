@@ -715,7 +715,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://technet.microsoft.com/windows/dn621092.aspx">
+                                <a href="https://technet.microsoft.com/windows/dn621092.aspx" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
