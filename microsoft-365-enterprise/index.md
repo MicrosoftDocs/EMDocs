@@ -40,7 +40,7 @@ description: Learn about the product documentation and resources available for M
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="/media/common/i_get-started.svg" src="media/common/i_get-started.png" alt="Start FastTrack for Microsoft 365" />
+                                        <img data-hoverimage="/media/common/i_get-started.svg" src="/media/common/i_get-started.png" alt="Start FastTrack for Microsoft 365" />
                                     </div>
                                 </div>
                                 <div class="cardText">
