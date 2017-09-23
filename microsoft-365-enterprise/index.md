@@ -22,7 +22,7 @@ description: Learn about the product documentation and resources available for M
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="hub/ih_whats-new.png" src="hub/ih_whats-new.png" alt="Learn about Microsoft 365 Enterprise" />
+                                        <img data-hoverimage="media/hub/ih_whats-new.png" src="media/hub/ih_whats-new.png" alt="Learn about Microsoft 365 Enterprise" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -40,7 +40,7 @@ description: Learn about the product documentation and resources available for M
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="hub/ih_get-started.svg" src="hub/ih_get-started.png" alt="Start FastTrack for Microsoft 365" />
+                                        <img data-hoverimage="media/hub/ih_get-started.svg" src="media/hub/ih_get-started.png" alt="Start FastTrack for Microsoft 365" />
                                     </div>
                                 </div>
                                 <div class="cardText">
