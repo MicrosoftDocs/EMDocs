@@ -605,7 +605,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="hhttps://fasttrack.microsoft.com/microsoft365/capabilities?view=voice" target="_blank">
+                                <a href="https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
