@@ -230,7 +230,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://support.office.com/article/05cbe533-2181-4e95-a4b0-52cd7695fafc" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -240,8 +240,8 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Teams implementation guide - Coming soon</h3>
-                                                    <p>See the guide and toolset to implement and manage Microsoft Teams. You can also follow the workshop to help your organization get started with Microsoft Teams.</p>
+                                                    <h3>Admin Help: Microsoft Teams FAQ</h3>
+                                                    <p>Got questions about Microsoft Teams administration? Start here.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -287,7 +287,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://fasttrack.microsoft.com/microsoft365/capabilities?view=collaboration" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -297,7 +297,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for collaboration - Coming soon</h3>
+                                                    <h3>FastTrack for collaboration</h3>
                                                     <p>Get practices, tools, resources, and experts for the Microsoft 365 collaboration capabilities.</p>
                                                 </div>
                                             </div>
@@ -374,7 +374,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://fasttrack.microsoft.com/microsoft365/capabilities?view=security" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -384,7 +384,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for security - Coming soon</h3>
+                                                    <h3>FastTrack for security</h3>
                                                     <p>Get practices, tools, resources, and experts for the Microsoft 365 security capabilities.</p>
                                                 </div>
                                             </div>
@@ -556,7 +556,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://fasttrack.microsoft.com/microsoft365/capabilities?view=devices" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -566,7 +566,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for devices - Coming soon</h3>
+                                                    <h3>FastTrack for devices</h3>
                                                     <p>Get practices, tools, resources, and experts for the Microsoft 365 powered device capabilities.</p>
                                                 </div>
                                             </div>
@@ -605,7 +605,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="hhttps://fasttrack.microsoft.com/microsoft365/capabilities?view=voice" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -615,7 +615,7 @@ description: Learn about the product documentation and resources available for M
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>FastTrack for voice - Coming soon</h3>
+                                                    <h3>FastTrack for voice</h3>
                                                     <p>Get practices, tools, resources, and experts for the Microsoft 365 voice capabilities.</p>
                                                 </div>
                                             </div>
@@ -779,11 +779,11 @@ description: Learn about the product documentation and resources available for M
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Employees and other users can get curated training, watch videos, read recommendations, and more from the <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">Microsoft 365 Enterprise Productivity Library</a>.</p>
-                                    <p><b>Coming soon:</b> Follow these links to help you get started.</p>
+                                    <p>Here's some links to help you get started.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/work-more-securely-from-anywhere-on-almost-any-device" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -802,7 +802,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/meet-and-collaborate-with-ease" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -821,7 +821,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/work-in-email-solo-or-as-a-group" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -840,7 +840,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/choose-the-right-collaboration-tool-for-your-group" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -859,7 +859,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/create-impactful-content-together" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -878,7 +878,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/share-sites-and-content" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -897,7 +897,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/gain-insight-into-your-work-habits-to-manage-your-time-better" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -916,7 +916,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/communicate-with-your-team-in-real-time-to-gain-input-and-consensus" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -935,7 +935,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/provide-a-chat-based-workspace" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -954,7 +954,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/create-and-impress-loyal-customers-by-understanding-their-preferences" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -973,7 +973,7 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/help-employees-filter-relevant-information-and-find-answers-faster" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
