@@ -779,7 +779,7 @@ description: Learn about the product documentation and resources available for M
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Employees and other users can get curated training, watch videos, read recommendations, and more from the <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">Microsoft 365 Enterprise Productivity Library</a>.</p>
-                                    <p>Here's some links to help you get started.</p>
+                                    <p>Here are ome links to help you get started.</p>
                                 </div>
                             </li>
                             <li>
