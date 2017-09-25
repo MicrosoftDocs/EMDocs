@@ -347,7 +347,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Secure SharePoint Online sites and files</h3>
-                                                    <p>Get recommendations for configuring SharePoint Online team sites and file protection, and getrecommended configurations for SharePoint Online team sites.</p>
+                                                    <p>Get recommendations for protecting SharePoint Online team sites and files and step through their configuration, including a dev/test environment.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -645,7 +645,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-getstarted-office.svg" alt="Get started with Office" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-get-started-office-1.svg" alt="Get started with Office" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -664,7 +664,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-officetraining.svg" alt="Office Training Center" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-training-2.svg" alt="Office Training Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -683,7 +683,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-office.svg" alt="Office Help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3.svg" alt="Office Help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -702,7 +702,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-deploy-1.svg" alt="Windows 10 end user help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-windows-help-4.svg" alt="Windows 10 end user help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -759,7 +759,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-intune-4.svg" alt="User help for Intune" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-intune-7.svg" alt="User help for Intune" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
