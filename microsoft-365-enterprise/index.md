@@ -1104,7 +1104,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="News for partners" />
+                                                        <img src="media/hub/placeholder.svg" alt="Office Dev Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
