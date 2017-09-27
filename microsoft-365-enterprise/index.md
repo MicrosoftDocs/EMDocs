@@ -1079,18 +1079,18 @@ description: Learn about the product documentation and resources available for M
                                 </div>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                <a href="https://developer.microsoft.com/office" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Develop enterprise UWP apps" />
+                                                        <img src="media/hub-developer/developer-office-dev-center-2.svg" alt="Office Dev Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Develop enterprise UWP apps</h3>
-                                                    <p>Get an overview of key enterprise features for Windows 10 Universal Windows Platform (UWP) apps, including security, data binding and enterprises, networking and data serialization, and more.</p>
+                                                    <h3>Office Dev Center</h3>
+                                                    <p>Find guidance for developing solutions on Office products and services.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1098,18 +1098,37 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://dev.office.com/" target="_blank">
+                                <a href="https://developer.microsoft.com/graph" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub/placeholder.svg" alt="Office Dev Center" />
+                                                        <img src="media/hub/placeholder.svg" alt="Microsoft Graph" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Office Dev Center</h3>
-                                                    <p>Find guidance for developing solutions on Office products and services.</p>
+                                                    <h3>Microsoft Graph</h3>
+                                                    <p>Learn how to build smarter productivity apps with Microsoft Graph. Find examples, documentation, quick start, samples & SDKs, and more.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/developer-uwp-apps-1.svg" alt="Develop enterprise UWP apps" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Develop enterprise UWP apps</h3>
+                                                    <p>Get an overview of key enterprise features for Windows 10 Universal Windows Platform (UWP) apps, including security, data binding and enterprises, networking and data serialization, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
