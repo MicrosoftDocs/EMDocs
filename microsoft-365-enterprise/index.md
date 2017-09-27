@@ -1067,6 +1067,59 @@ description: Learn about the product documentation and resources available for M
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="#developer">Developer</a>
+                <ul id="developer">
+                    <li>
+                        <a data-default="true" href="#developer">Get started</a>
+                        <ul id="developer" class="cardsG">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Are you an app developer looking for information about developing enterprise apps? Start here.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/placeholder.svg" alt="Develop enterprise UWP apps" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Develop enterprise UWP apps</h3>
+                                                    <p>Get an overview of key enterprise features for Windows 10 Universal Windows Platform (UWP) apps, including security, data binding and enterprises, networking and data serialization, and more.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://dev.office.com/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub/placeholder.svg" alt="News for partners" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Office Dev Center</h3>
+                                                    <p>Find guidance for developing solutions on Office products and services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
