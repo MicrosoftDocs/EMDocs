@@ -1072,7 +1072,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="developer">
                     <li>
                         <a data-default="true" href="#developer">Get started</a>
-                        <ul id="developer" class="cardsC">
+                        <ul id="developer" class="cardsW">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Are you an app developer looking for information about developing enterprise apps? Start here.</p>
