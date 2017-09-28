@@ -683,7 +683,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3.svg" alt="Office Help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3b.svg" alt="Office Help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1000,7 +1000,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="partner">
                     <li>
                         <a data-default="true" href="#partner">Get started</a>
-                        <ul id="partner" class="cardsC">
+                        <ul id="partner" class="cardsW">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Looking for resources available to Microsoft 365 Enterprise partners? Start here.</p>
@@ -1057,6 +1057,78 @@ description: Learn about the product documentation and resources available for M
                                                 <div class="cardText">
                                                     <h3>FastTrack and partners</h3>
                                                     <p>Get the full suite of best practices, tools, remote assistance, and resources to help you and your customers move to Microsoft 365.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#developer">Developer</a>
+                <ul id="developer">
+                    <li>
+                        <a data-default="true" href="#developer">Get started</a>
+                        <ul id="developer" class="cardsW">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Are you an app developer looking for information about developing enterprise apps? Start here.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://developer.microsoft.com/office" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/developer-office-dev-center.svg" alt="Office Dev Center" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Office Dev Center</h3>
+                                                    <p>Find guidance for developing solutions on Office products and services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.microsoft.com/graph" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/ms365enterprise-developer-graph.svg" alt="Microsoft Graph" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Graph</h3>
+                                                    <p>Learn how to build smarter productivity apps with Microsoft Graph. Find examples, documentation, quick start, samples & SDKs, and more.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Develop enterprise UWP apps" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Develop enterprise UWP apps</h3>
+                                                    <p>Get an overview of key enterprise features for Windows 10 Universal Windows Platform (UWP) apps, including security, data binding and enterprises, networking and data serialization, and more.</p>
                                                 </div>
                                             </div>
                                         </div>
