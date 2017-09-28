@@ -1000,7 +1000,7 @@ description: Learn about the product documentation and resources available for M
                 <ul id="partner">
                     <li>
                         <a data-default="true" href="#partner">Get started</a>
-                        <ul id="partner" class="cardsC">
+                        <ul id="partner" class="cardsW">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Looking for resources available to Microsoft 365 Enterprise partners? Start here.</p>
