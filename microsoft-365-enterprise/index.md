@@ -1085,7 +1085,7 @@ description: Learn about the product documentation and resources available for M
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-developer/ms365enterprise-developer.svg" alt="Office Dev Center" />
+                                                        <img src="media/hub-developer/developer-office-dev-center.svg" alt="Office Dev Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
