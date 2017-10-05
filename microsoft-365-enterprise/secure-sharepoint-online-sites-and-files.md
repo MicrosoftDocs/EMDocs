@@ -13,7 +13,7 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 09/12/2017
+ms.date: 10/05/2017
 ms.author: josephd
 
 ---
@@ -100,7 +100,7 @@ The following table summarizes the configuration for each of the team sites desc
 
 For the steps to deploy the four different types of SharePoint Online team sites in this solution, see [Deploy sites for three tiers of protection](deploy-sites-for-three-tiers-of-protection.md).
 
-For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md).
+For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md).
 
 ## Office 365 classification and labels
 Using Office 365 labels is recommended for environments with sensitive data. After you configure and publish Office 365 labels, you can:
@@ -123,7 +123,7 @@ These labels are mapped to the recommended sites in the illustrations and charts
 
 For the steps to configure Office 365 labels and DLP policies in this solution, see [Protect files with Office 365 labels and DLP](protect-files-with-o365-labels-dlp.md).
 
-For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md).
+For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md).
 
 ## Azure Information Protection
 Use Azure Information Protection to apply labels and protections that follow the files wherever they go. For this solution, we recommend you use the Highly Confidential label to encrypt and grant permissions to files that need to be protected with the highest level of security. 
@@ -149,7 +149,7 @@ There are two ways you can grant external users access to files protected with A
 ### Deploying and using Azure Information Protection
 For the steps to configure Azure Information Protection (AIP) in this solution, see [Protect files with AIP](protect-files-with-aip.md).
 
-For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online sites-dev-test.md).
+For step-by-step instructions to set this up for demonstration, proof of concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md).
 
 ## Next steps 
 
