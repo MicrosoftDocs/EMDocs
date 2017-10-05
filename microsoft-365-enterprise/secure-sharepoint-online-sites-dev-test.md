@@ -13,7 +13,7 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 10/05/2017
 ms.author: josephd
 
 ---
@@ -386,9 +386,3 @@ When you are ready for production deployment of secure SharePoint Online sites, 
 
 ## Next steps
 [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
-
-[Security solutions](https://technet.microsoft.com/library/mt784690.aspx)
-
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
-
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
