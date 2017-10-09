@@ -13,7 +13,7 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 10/09/2017
 ms.author: josephd
 
 ---
@@ -50,31 +50,40 @@ Next, enable the Enterprise Mobility + Security E5 license for your global admin
 ## Phase 2: Create and configure your Azure Active Directory (AD) groups and users
 In this phase, you create and configure the Azure AD groups and users for your fictional organization.
 
-First, you must [connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
-
-Next, run these commands from the PowerShell command prompt or Integrated Script Environment (ISE):
-```
-$groupNames=@("C-Suite","IT staff","Research staff","Regular staff","Marketing staff","Sales staff")
-ForEach ($element in $groupNames){ New-AzureADGroup -DisplayName $element -MailEnabled $false -SecurityEnabled $true -MailNickName "NotSet" }
-```
+1. Create a separate tab in your browser, and then go to the **Azure portal** at [https://portal.azure.com](https://portal.azure.com). If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.
+2. In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.
+3. On the **All groups** blade, click **+ New group**.
+4. On the **Group** blade:
+* Type **C-Suite** in **Name**.
+* Select **Assigned** in **Membership**.
+* Click **Yes** for **Enable Office features**.
+5. Click **Create**, and then close the Group blade.
+6. Repeat steps 3-5 for the following group names:
+* IT staff
+* Research staff
+* Regular staff
+* Marketing staff
+* Sales staff
+7. Keep the Azure portal tab in your browser open.
 
 Next, configure automatic licensing so that members of your groups are automatically assigned licenses for your Office 365 and EMS subscriptions, and then follow these steps:
 
-1. Create a separate tab in your browser, and then go to the **Azure portal** at [https://portal.azure.com](https://portal.azure.com). If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.
-2. In the Azure portal, click **Azure Active Directory > Licenses > All products**.
-3. In the list, select **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5**, and click **Assign**.
-4. In the **Assign license** blade, click **Users and groups**.
-5. In the list of groups, select the following:
+1. In the Azure portal, click **Azure Active Directory > Licenses > All products**.
+2. In the list, select **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5**, and click **Assign**.
+3. In the **Assign license** blade, click **Users and groups**.
+4. In the list of groups, select the following:
  * C-Suite
  * IT staff
  * Research staff
  * Regular staff
  * Marketing staff
  * Sales staff
-6. Click **Select**, and click **Assign**.
-7. Close the Azure portal tab in your browser.
+5. Click **Select**, and click **Assign**.
+6. Close the Azure portal tab in your browser.
 
-Next, fill in your organization name, your location, and a common password. Run the below commands from the PowerShell command prompt or Integrated Script Environment (ISE) to create user accounts. Then, add them to their corresponding groups.
+Next, you [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
+
+Fill in your organization name, your location, and a common password. Run the below commands from the PowerShell command prompt or Integrated Script Environment (ISE) to create user accounts and add them to their corresponding groups.
 
 ```
 $orgName="[organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name]"
@@ -377,9 +386,3 @@ When you are ready for production deployment of secure SharePoint Online sites, 
 
 ## Next steps
 [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
-
-[Security solutions](https://technet.microsoft.com/library/mt784690.aspx)
-
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
-
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
