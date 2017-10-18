@@ -366,7 +366,7 @@ description: Learn about the product documentation and resources available for M
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Threat protection and security for enterprise</h3>
-                                                    <p>Learn how you can help protect your organization against threads in Windows 10.</p>
+                                                    <p>Learn how you can help protect your organization against threats in Windows 10.</p>
                                                 </div>
                                             </div>
                                         </div>
