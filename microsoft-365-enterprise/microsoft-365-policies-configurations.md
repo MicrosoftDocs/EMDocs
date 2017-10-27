@@ -57,6 +57,10 @@ For robust applications capable of using modern authentication protocols, such a
 
 Refresh tokens allow the client to obtain a new access token, without needing to do another interactive authentication. Refresh tokens have a much longer lifetime than access tokens and can be redeemed to obtain a new access and refresh token pair. The newly obtained refresh tokens can then be continually used to fetch another set of access and refresh tokens. The client continues this SSO process until either the refresh token maximum inactive time setting expires, the refresh token max age expires, or the authentication and authorization policy requirements change. This change occurs during the time when the original refresh token was issued. Significant user attribute changes, for example a password reset, also require a new authentication token to be generated. The client must do a fresh interactive authentication to continue further. Essentially it signifies a break in the SSO process that the client has not experienced until now.
 
+> [!NOTE]
+> By default, the maximum lifetime of a non-persistent single sign-on session is 1 day. Because of this, any users configured as highly regulated will be required to re-authenticate with MFA after their session expires.
+
+
 #### Conditional access
 Azure AD, acting as an authorization service for your applications, determines whether to issue access tokens based on an evaluation of any conditional access policies applied to the resource that you’re trying to access. If policy requirements are met, then an access token and updated refresh token are issued. If the policy is not met, the user receives instructions on how to meet the policy and/or is required to complete additional steps including multi-factor authentication (MFA). Once MFA has been completed, the MFA claim is added to the resulting refresh token.  
 
