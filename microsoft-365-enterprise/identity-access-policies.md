@@ -1,12 +1,12 @@
 ---
 title: Identity and device access policies overview - Microsoft 365 Enterprise | Microsoft Docs
 description: Describes the policies for Microsoft recommendations about how to apply identity and device access policies and configurations.
-author: jeffgilb
-manager: femila
+author: barlanmsft
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
-ms.author: jeffgilb
+ms.date: 10/27/2017
+ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ---
@@ -50,7 +50,7 @@ In order to access Azure Information Protection protected documents additional s
 
 
 ### Recommended client platforms when securing documents
-The following clients are recommended when a Secure Documents policy has been applied. 
+The following clients are recommended when a Secure Documents policy has been applied.
 
 |Platform|Word/Excel/PowerPoint|OneNote|OneDrive App|SharePoint App|OneDrive Sync Client|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
@@ -69,7 +69,7 @@ The following clients are recommended when a Secure Documents policy has been ap
 > The following recommendations are based on three different tiers of security and protection for your email that can be applied based on the granularity of your needs: **baseline**, **sensitive**, and **highly regulated**. You can learn more about these security tiers, and the recommended client operating systems, referenced by these recommendations in the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md).
 
 
-## Baseline 
+## Baseline
 This section describes the recommendations for the baseline tier of data, identity, and device protection. These recommendations should meet the default protection needs of many organizations.
 
 >[!NOTE]
@@ -78,7 +78,7 @@ This section describes the recommendations for the baseline tier of data, identi
 
 ### Conditional access policy settings
 
-#### Identity protection 
+#### Identity protection
 You can give users single sign-on (SSO) experience as described in earlier sections. You only need to intervene when necessary based on [risk events](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-risk-events).  
 
 * Require MFA based on **medium or above** sign-in risk
@@ -88,7 +88,7 @@ You can give users single sign-on (SSO) experience as described in earlier secti
 >[Password synchronization](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization) and [self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords) are required for this policy recommendation.
 >
 
-#### Data loss prevention 
+#### Data loss prevention
 The goal for your device and app management policies is to protect data loss in the event of a lost or stolen device. You can do this by ensuring that access to data is protected by a PIN, that the data is encrypted on the device, and that the device is not compromised.
 
 |Policy recommendation|Description|
@@ -103,19 +103,19 @@ The goal for your device and app management policies is to protect data loss in 
 
 For most organizations, it is important to be able to set user expectations around when and for which conditions they will be expected to sign into Office 365 to access their email.  
 
-Users typically benefit from single sign-on (SSO) except during the following situations: 
+Users typically benefit from single sign-on (SSO) except during the following situations:
 * When requesting authentication tokens for Exchange Online:
   * Users may be asked to MFA whenever a **medium or above** sign-in risk is detected and users has not yet performed MFA in their current sessions.  
-  * Users will be required to either use email apps that support the Intune App Protection SDK or access emails from Intune compliant or AD domain-joined devices. 
+  * Users will be required to either use email apps that support the Intune App Protection SDK or access emails from Intune compliant or AD domain-joined devices.
 * When users at risk sign-in, and successfully complete MFA, they will be asked to change their password.
 
 ## Sensitive
-This section describes the recommendations for the sensitive tier of data, identity, and device protection. These recommendations are for customers who have a subset of data that must be protected at higher levels or require all data to be protected at these higher levels. 
+This section describes the recommendations for the sensitive tier of data, identity, and device protection. These recommendations are for customers who have a subset of data that must be protected at higher levels or require all data to be protected at these higher levels.
 
-You can apply increased protection to all or specific data sets in your Office 365 environment. For example, you can apply policies to ensure sensitive data is only shared between protected apps to prevent data loss. We recommend protecting identities and devices that access sensitive data with comparable levels of security. 
+You can apply increased protection to all or specific data sets in your Office 365 environment. For example, you can apply policies to ensure sensitive data is only shared between protected apps to prevent data loss. We recommend protecting identities and devices that access sensitive data with comparable levels of security.
 
 ### Conditional access policy settings
-#### Identity protection 
+#### Identity protection
 
 You can give users single sign-on (SSO) experience as described in earlier sections. You only need to intervene when necessary based on [risk events](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-risk-events).   
 
@@ -126,7 +126,7 @@ You can give users single sign-on (SSO) experience as described in earlier secti
 >[Password synchronization](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization) and [self-service password reset](https://docs.microsoft.com/azure/active-directory/active-directory-passwords) are required for this policy recommendation.
 >
 
-#### Data loss prevention 
+#### Data loss prevention
 
 The goal for these device and app management policies is to protect data loss in the event of a lost or stolen device. You can do this by ensuring that access to data is protected by a PIN, that the data is encrypted on the device, and that the device is not compromised.
 
@@ -139,19 +139,19 @@ The goal for these device and app management policies is to protect data loss in
 |**Apply an Intune App Protection Policy for managed apps running on unmanaged devices**|Apply an Intune App Protection Policy for managed apps running on unmanaged, personal mobile devices to require: a PIN with minimum length 6, device encryption, and that the device is healthy (is not jailbroken, rooted; passes health attestation).|
 
 ### User impact
-For most organizations, it is important to be able to set expectations for users specific to when and under what conditions they will be expected to sign into Office 365 email. 
+For most organizations, it is important to be able to set expectations for users specific to when and under what conditions they will be expected to sign into Office 365 email.
 
-Users typically benefit from single sign-on (SSO) except under the following situations: 
+Users typically benefit from single sign-on (SSO) except under the following situations:
 * When requesting authentication tokens for Exchange Online:
   * Users will be asked to MFA whenever a **low or above** sign-in risk is detected and users has not yet performed MFA in their current sessions.  
-  * Users will be required to either use email apps that support the Intune App Protection SDK or access emails from Intune compliant or AD domain-joined devices. 
+  * Users will be required to either use email apps that support the Intune App Protection SDK or access emails from Intune compliant or AD domain-joined devices.
 * When users at risk sign-in, and successfully complete MFA, they will be asked to change their password.
 
 ## Highly regulated
-This section describes the recommendations for the highly regulated tier of data, identity, and device protection. These recommendations are for customers who may have a very small amount of data that is highly classified, trade secret, or regulated data. Microsoft provides capabilities to help organizations meet these requirements, including added protection for identities and devices. 
+This section describes the recommendations for the highly regulated tier of data, identity, and device protection. These recommendations are for customers who may have a very small amount of data that is highly classified, trade secret, or regulated data. Microsoft provides capabilities to help organizations meet these requirements, including added protection for identities and devices.
 
 ### Conditional access policy settings
-#### Identity protection 
+#### Identity protection
 
 For the highly regulated tier Microsoft recommends enforcing MFA for all new sessions.
 * Require MFA for all new sessions
@@ -174,15 +174,15 @@ For the highly regulated tier, we recommend requiring apps that support Intune A
 |**Apply an Intune Device Compliance Policy on managed devices**|Apply an Intune Device Compliance Policy for managed corporate mobile devices and Intune-managed PCs that requires: a PIN with minimum length 6, device encryption, a healthy device (is not jailbroken, rooted; passes health attestation), and, if available, require devices that are Low risk as determined by a third-party MTP like Lookout or SkyCure.|
 
 ### User impact
-For most organizations, it is important to be able to set expectations for users specific to when and under what conditions they will be expected to sign into Office 365 files. 
+For most organizations, it is important to be able to set expectations for users specific to when and under what conditions they will be expected to sign into Office 365 files.
 
-* Maximum lifetime of a single sign-on session is 1 day. Users will be required to re-authenticate with MFA after their sessions expire.
+* Users configured as highly regulated will be required to re-authenticate with MFA after their session expires.
 * When users at risk sign-in they will be asked to change their password after completing MFA.
 * When requesting authentication tokens for Exchange Online:
   * Users will be asked to perform MFA whenever they begin a new session.  
   * Users will be required to use email apps that support the Intune App Protection SDK
-  * Users will be required to access emails from Intune compliant or AD domain-joined devices. 
- 
+  * Users will be required to access emails from Intune compliant or AD domain-joined devices.
+
 ## Next steps
 
 [Learn about policy recommendations for securing email](secure-email-recommended-policies.md)

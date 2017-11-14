@@ -13,7 +13,7 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 10/05/2017
+ms.date: 10/09/2017
 ms.author: josephd
 
 ---
@@ -73,7 +73,7 @@ Next, configure automatic licensing so that members of your groups are automatic
 1. In the Azure portal, click **Azure Active Directory > Licenses > All products**.
 2. In the list, select **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5**, and click **Assign**.
 3. In the **Assign license** blade, click **Users and groups**.
-45. In the list of groups, select the following:
+4. In the list of groups, select the following:
  * C-Suite
  * IT staff
  * Research staff
@@ -83,7 +83,9 @@ Next, configure automatic licensing so that members of your groups are automatic
 5. Click **Select**, and click **Assign**.
 6. Close the Azure portal tab in your browser.
 
-Next, fill in your organization name, your location, and a common password. Run the below commands from the PowerShell command prompt or Integrated Script Environment (ISE) to create user accounts. Then, add them to their corresponding groups.
+Next, you [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
+
+Fill in your organization name, your location, and a common password. Run the below commands from the PowerShell command prompt or Integrated Script Environment (ISE) to create user accounts and add them to their corresponding groups.
 
 ```
 $orgName="[organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name]"
