@@ -50,20 +50,21 @@ Next, enable the Enterprise Mobility + Security E5 license for your global admin
 ## Phase 2: Create and configure your Azure Active Directory (AD) groups and users
 In this phase, you create and configure the Azure AD groups and users for your fictional organization.
 
+First, create a set of groups for a typical organization with the Azure portal.
 1. Create a separate tab in your browser, and then go to the **Azure portal** at [https://portal.azure.com](https://portal.azure.com). If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.
 2. In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.
 3. On the **All groups** blade, click **+ New group**.
 4. On the **Group** blade:
-* Type **C-Suite** in **Name**.
-* Select **Assigned** in **Membership**.
-* Click **Yes** for **Enable Office features**.
-5. Click **Create**, and then close the Group blade.
+ * Type **C-Suite** in **Name**.
+ * Select **Assigned** in **Membership**.
+ * Click **Yes** for **Enable Office features**.
+5. Click **Create**, and then close the **Group** blade.
 6. Repeat steps 3-5 for the following group names:
-* IT staff
-* Research staff
-* Regular staff
-* Marketing staff
-* Sales staff
+ * IT staff
+ * Research staff
+ * Regular staff
+ * Marketing staff
+ * Sales staff
 7. Keep the Azure portal tab in your browser open.
 
 Next, configure automatic licensing so that members of your groups are automatically assigned licenses for your Office 365 and EMS subscriptions, and then follow these steps:
