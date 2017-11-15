@@ -1,18 +1,18 @@
 ---
 title: Deploy Office 365 ProPlus with Microsoft Intune - Microsoft 365 Enterprise | Microsoft Docs
 description: Describes how to deploy Microsoft Office 365 ProPlus with Microsoft Intune.
-author: jeffgilb
-manager: femila
+author: barlanmsft
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/10/2017
-ms.author: jeffgilb
+ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ---
 
 # Deploy Office 365 ProPlus with Microsoft Intune
-Microsoft 365 Enterprise is a modern workplace solution that empowers everyone to be creative and work together, securely. Microsoft 365 Enterprise solutions are the result of close collaboration between the Enterprise Mobility + Security (EMS), Office 365, and Windows 10 teams. This collaboration leads to innovative solutions such as the ability to deploy Office 365 ProPlus applications to Windows 10 devices with Intune. 
+Microsoft 365 Enterprise is a modern workplace solution that empowers everyone to be creative and work together, securely. Microsoft 365 Enterprise solutions are the result of close collaboration between the Enterprise Mobility + Security (EMS), Office 365, and Windows 10 teams. This collaboration leads to innovative solutions such as the ability to deploy Office 365 ProPlus applications to Windows 10 devices with Intune.
 
 It's now easier than ever for you to select specific Office 365 ProPlus apps (using Click-to-Run), deploy them to enrolled devices running Windows 10 Creators Update, and view deployment metrics through the new Intune portal on Azure. This works nicely with Windows AutoPilot to get employees' devices work-ready by just providing company credentials during the out of box experience (OOBE) while Azure AD and Intune work together in the background to register the device, deploy the necessary configurations, and now also install Office 365 ProPlus apps.
 
@@ -20,7 +20,7 @@ It's now easier than ever for you to select specific Office 365 ProPlus apps (us
 
 You can [download this infographic here](https://gallery.technet.microsoft.com/Infographic-Simplify-37e77674).
 
-## Deploy Office 365 ProPlus with Intune 
+## Deploy Office 365 ProPlus with Intune
 Let’s take a look at how you can configure an Office 365 ProPlus deployment with Intune.
 
 Through the new Intune portal, we have made it easy to add and customize Office 365 ProPlus deployments. After choosing the **Office 365 ProPlus Suite (Windows 10)** app type, you can customize the deployment of Office apps in three easy steps.

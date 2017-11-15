@@ -66,15 +66,15 @@ Follow these steps to implement [Cloud App Security](https://technet.microsoft.c
 
 Cloud applications are in use by most enterprises today, and we will soon reach a time where more corporate data will be stored in the cloud than on-premises. Many times, users will be using SaaS apps from their devices without their company’s consent or knowledge, which causes an increase in Shadow IT usage of cloud. This conclusion comes from studies showing that 80% of employees admitted to using unapproved SaaS apps for corporate usage. [Cloud App Security](https://technet.microsoft.com/library/mt657567.aspx) provides a detailed overview of all cloud apps being used in the organization. It identifies all users and IP addresses accessing an application. It also conducts a risk assessment for more than 13,000 cloud apps and provides an automated risk score for each app based on more than 60 parameters. 
 
-Follow step 1 to discover the cloud apps in your environment and implement policies to control these apps. The second stage of this solution will implement [Azure Information Protection](https://docs.microsoft.com/en-us/information-protection/get-started/requirements) to protect and classify data, which can mitigate users' mistakes and data misuse.
+Follow step 1 to discover the cloud apps in your environment and implement policies to control these apps. The second stage of this solution will implement [Azure Information Protection](https://docs.microsoft.com/information-protection/get-started/requirements) to protect and classify data, which can mitigate users' mistakes and data misuse.
 
 ### Step 1: Discover cloud apps in use and control them with policy
 
-The first step to use Cloud App Security is to [discover your apps](https://technet.microsoft.com/en-us/library/mt657567.aspx). If you skip this step, there will be no apps to analyze and to restrict using policies. If you didn’t start the discover process, the Discover option in the Cloud App Security dashboard will show the following message:
+The first step to use Cloud App Security is to [discover your apps](https://technet.microsoft.com/library/mt657567.aspx). If you skip this step, there will be no apps to analyze and to restrict using policies. If you didn’t start the discover process, the Discover option in the Cloud App Security dashboard will show the following message:
 
 ![Screenshot showing message that user has not yet uploaded a Cloud Discovery log.](./media/protect-data-user-mistake/protect-data-user-mistake-fig2-1.png)
 
-Discovering which apps are in use across your organization is the first step in making sure your sensitive corporate data is protected. Once the discover process is finished, you will be able to see a list of apps that were discovered under the [Cloud Discovery dashboard](https://technet.microsoft.com/en-us/library/mt727946.aspx).
+Discovering which apps are in use across your organization is the first step in making sure your sensitive corporate data is protected. Once the discover process is finished, you will be able to see a list of apps that were discovered under the [Cloud Discovery dashboard](https://technet.microsoft.com/library/mt727946.aspx).
 
 ![Screenshot showing the Cloud Discovery dashboard and a list of apps that were discovered.](./media/protect-data-user-mistake/protect-data-user-mistake-fig3.png)
 
@@ -94,7 +94,7 @@ In this particular case, there are three matches for this policy, which means th
 
 ### Step 2: Protect data on-premises or in the cloud
 
-Before implementing this solution, review the requirements for [Azure Information Protection](https://docs.microsoft.com/en-us/information-protection/get-started/infoprotect-tutorial-step1).
+Before implementing this solution, review the requirements for [Azure Information Protection](https://docs.microsoft.com/information-protection/get-started/infoprotect-tutorial-step1).
 
 Microsoft’s Azure Information Protection helps you classify and label your data at the time of creation. Protection (encryption + authentication + use rights) can then be applied to sensitive data. Classification labels and protection are persistent, traveling with the data so that it’s identifiable and protected at all times, regardless of where it’s stored or with whom it’s shared. When planning to implement information protection policies and labels, use the following guidelines:
 
@@ -115,15 +115,15 @@ In the following example, you can see custom sub-labels that were created under 
 ![Screenshot showing the custom sub-labels that were created under the "Secret" label. ](./media/protect-data-user-mistake/protect-data-user-mistake-fig7.png)
 
 
-Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](https://docs.microsoft.com/en-us/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection).
+Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](https://docs.microsoft.com/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection).
 
 With Azure Information Protection, data classification and protection controls are integrated into Office and other common applications. This integration provides simple one-click options to secure data that users are working on. In the Azure portal, an administrator can apply predefined patterns, such as “Credit card numbers” or “USA Social Security Numbers” as a condition for automatic classification. Alternately, they can use text patterns and regular expressions to define a custom string or pattern.
 
-When you configure conditions for a label, you can automatically assign a label to a document/email or, you can prompt users to select the label that you recommend. Read [How to configure conditions for automatic and recommended classification for Azure Information Protection](https://docs.microsoft.com/en-us/rights-management/information-protection/configure-policy-classification) for more information on how to perform this configuration.
+When you configure conditions for a label, you can automatically assign a label to a document/email or, you can prompt users to select the label that you recommend. Read [How to configure conditions for automatic and recommended classification for Azure Information Protection](https://docs.microsoft.com/rights-management/information-protection/configure-policy-classification) for more information on how to perform this configuration.
 
 > [!NOTE]
-> For more information about data classification and protection read [Secure data using classification, labeling and protection](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario).
+> For more information about data classification and protection read [Secure data using classification, labeling and protection](https://docs.microsoft.com/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario).
 
 ## Next steps
 
-Microsoft Cloud App Security provides a holistic solution to discover, monitor, control and protect activities and data in cloud applications. Cloud App Security helps IT admins to encrypt directly from Cloud App Security console using Azure Information Protection. Through integration with Azure Information Protection, now you can apply generic protection for files stored in SharePoint Online and One Drive for Business if you see a need. For more information about the integration between Cloud App Security and Azure Information Protection, please read [Azure Information Protection integration](https://docs.microsoft.com/en-us/cloud-app-security/azip-integration).
+Microsoft Cloud App Security provides a holistic solution to discover, monitor, control and protect activities and data in cloud applications. Cloud App Security helps IT admins to encrypt directly from Cloud App Security console using Azure Information Protection. Through integration with Azure Information Protection, now you can apply generic protection for files stored in SharePoint Online and One Drive for Business if you see a need. For more information about the integration between Cloud App Security and Azure Information Protection, please read [Azure Information Protection integration](https://docs.microsoft.com/cloud-app-security/azip-integration).
