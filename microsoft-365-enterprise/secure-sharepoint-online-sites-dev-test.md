@@ -51,6 +51,7 @@ Next, enable the Enterprise Mobility + Security E5 license for your global admin
 In this phase, you create and configure the Azure AD groups and users for your fictional organization.
 
 First, create a set of groups for a typical organization with the Azure portal.
+
 1. Create a separate tab in your browser, and then go to the **Azure portal** at [https://portal.azure.com](https://portal.azure.com). If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.
 2. In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.
 3. On the **All groups** blade, click **+ New group**.
