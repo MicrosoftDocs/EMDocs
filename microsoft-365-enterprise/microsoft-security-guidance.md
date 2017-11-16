@@ -13,7 +13,7 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/31/2017
+ms.date: 11/16/2017
 ms.author: josephd
 
 ---
@@ -40,15 +40,10 @@ This guidance describes how to implement a secure cloud environment. The solutio
 
 
 ## Test Lab Guides
-To create a dev/test environment for this solution, use the following test lab guides:
-* [Office 365 dev/test environment](https://technet.microsoft.com/library/mt736406.aspx). Create a trial subscription for Office 365.
-* [The Microsoft 365 Enterprise dev/test environment](https://technet.microsoft.com/library/mt825155.aspx). Add a trial subscription for EMS.
-* [Secure SharePoint Online sites in a dev/test environment](https://technet.microsoft.com/library/mt842552.aspx). Add Azure AD groups and users. Create secure SharePoint sites and configure security for files. Use this environment to build out four SharePoint Online team sites with Internal, Private, Sensitive, and Highly Confidential levels of security.
+To create a dev/test environment for this solution, use the following:
+* [Configure groups and users](https://technet.microsoft.com/library/mt493459.aspx). Create Office 365 and Enterprise Mobility + Security (EMS) trial subscriptions with users and groups for a political campaign dev/test environment.
+* [Create SharePoint Online team sites](https://technet.microsoft.com/library/mt842184.aspx). Create public, private, sensitive, and highly confidential SharePoint Online team sites in your political campaign dev/test environment.
 
 
 ## Next steps
-[Security solutions](https://technet.microsoft.com/library/mt784690.aspx)
-
-[Cloud adoption Test Lab Guides (TLGs)](https://technet.microsoft.com/library/dn635308.aspx)
-
-[Microsoft Cloud IT architecture resources](https://technet.microsoft.com/library/dn919927.aspx)
+[See additional security solutions](https://technet.microsoft.com/library/mt784690.aspx)
