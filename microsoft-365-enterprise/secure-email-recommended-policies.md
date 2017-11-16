@@ -168,7 +168,7 @@ In addition to the above policies, you must configure the following Mobile Appli
 
 To ensure email is protected by the policy recommendations stated earlier for each security and data protection tier, you must create Intune app protection policies from within the Azure portal.
 
-To create a new app protection policy, log in to the Microsoft Azure portal with your administer credentials, and then navigate to **Intune App Protection > Settings > App policy**.
+To create a new app protection policy, log in to the Microsoft Azure portal with your administer credentials, and then navigate to **Intune App Protection > App policy**.
 
 Add a new policy (+Add) as shown in the following screen shot:
 
@@ -212,7 +212,7 @@ When complete, remember to click "Create". Repeat the above steps and replace th
 You create the following Configuration and Compliance policies by logging into the [Microsoft Management portal (http://manage.microsoft.com)](https://manage.microsoft.com/) with your administrator credentials.
 
 #### iOS email profile
-In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Configuration Policies > Add > iOS > Email Profile (iOS 8 and later)**.
+In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Configuration Policies > Add > iOS Email Policy**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
@@ -229,7 +229,7 @@ In the [Intune management portal (https://manage.microsoft.com)](https://manage.
 |||Synchronize recently used email addresses|True|Check|
 
 #### iOS app sharing profile
-In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at  **Policy > Configuration Policies > Add > iOS > General Configuration (iOS 8.0 and later)**.
+In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Configuration Policies > Add > iOS app sharing policy**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
@@ -247,7 +247,7 @@ In the [Intune management portal (https://manage.microsoft.com)](https://manage.
 ||Media content|All|Not configured|||
 
 #### Android email profile
-In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Configuration Policies > Add > iOS > Email Profile (Samsung KNOX Standard 4.0 and later)**.
+In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Configuration Policies > Add > Android Email Policy**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
@@ -268,7 +268,7 @@ In the [Intune management portal (https://manage.microsoft.com)](https://manage.
 |||Notes|True|Check|
 
 #### Android for work email profile
-In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Configuration Policies > Add > iOS > Email Profile (Android for Work - Gmail)**.
+In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Configuration Policies > Add > Android > Email Profile (Android for Work - Gmail)**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
@@ -281,7 +281,7 @@ In the [Intune management portal (https://manage.microsoft.com)](https://manage.
 |||Use SSL|True|Check|
 
 #### Android for work app sharing profile
-In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at  **Policy > Configuration Policies > Add > iOS > General Configuration (Android for Work)**.
+In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Configuration Policies > Add > Android for Work app sharing policy**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
@@ -298,7 +298,7 @@ In the [Intune management portal (https://manage.microsoft.com)](https://manage.
 |||Set default app permission policy (Android 6.0+)|Not configured|||
 
 #### Device compliance policy
-In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at  **Policy > Compliance Policy > Add**.
+In the [Intune management portal (https://manage.microsoft.com)](https://manage.microsoft.com/) create the following Configuration policies at **Policy > Compliance Policies > Add**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
