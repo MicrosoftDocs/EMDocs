@@ -176,6 +176,9 @@
         - name: Mobile device management
           href: /sccm/mdm/
           homepage: /sccm/mdm/understand/hybrid-mobile-device-management
+        - name: Microsoft Deployment Toolkit
+          href: /sccm/mdt/
+          homepage: /sccm/mdt/whats-new-in-mdt
         - name: Operating system deployment
           href: /sccm/osd/
           homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
