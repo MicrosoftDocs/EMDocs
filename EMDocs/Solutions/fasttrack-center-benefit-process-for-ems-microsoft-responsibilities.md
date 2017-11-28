@@ -7,7 +7,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -116,7 +116,16 @@ Provide guidance about:
 -   For a multiple-forest environment:
 
     -   Installing Azure AD Connect synchronization, set up for multiple forest scenarios.
+-   For single- and multiple-forest environments:
+    -   Configuring Azure Active Directory Pass-through Authentication, if required.
+    -   Configuring Azure Active Directory Seamless Single Sign-On (SSO), if required. 
+        > [!NOTE]
+        > Azure Active Directory Pass-through Authentication for multiple-forest environments is supported if there are forest trusts between your Active Directory forests and if name suffix routing is correctly configured. Additional agents can be installed on multiple on-premises servers to provide high availability for sign-in requests. 
 
+    - For more information, see [Azure Active Directory Pass-through Authentication: Quick start] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) and [Azure Active Directory Seamless Single Sign-On: Quick start] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
+    - For more information about pass-through authentication limits, see [Azure Active Directory Pass-through Authentication: Current limitations] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
+    - For more information about Seamless SSO issues, see [Troubleshoot Azure Active Directory Seamless Single Sign-On] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
+  
 		> [!NOTE]
         > Password hash sync and password writeback support multiple forests. However, other writeback scenarios aren't supported.
 
@@ -159,6 +168,8 @@ Provide guidance about setting up:
   - Identity Protection.
 
   - Privileged Identity Management.
+  
+  - Azure Active Directory Conditional Access. 
 
   - Usage and security reports to administrators.
 

@@ -48,7 +48,6 @@ To begin authentication, the client submits credentials (such as username and pa
 After the credentials and/or SSO artifact have been verified in Azure AD, and all applicable policies have been evaluated, an access token for the resource provider (Office 365 in the above diagram) is issued. Azure AD also issues an SSO artifact as part of the response to allow clients to achieve SSO in subsequent requests. The client stores the SSO artifact and submits the access token as a proof of identity to the resource provider. After Office 365 verifies the access token and performs necessary checks, it will grant the client access to the documents.
 
 #### Single sign-on (SSO) refresh tokens
-
 SSO can be achieved in various ways. For example, cookies from an identity provider can be used as the SSO artifact to store the sign-in state for a user within a browser. Future attempts to sign in silently (without any prompts for credentials) to applications using the same identity provider are then possible.
 
 When a user authenticates with Azure AD, an SSO session is established with the user’s browser and Azure AD. The SSO token, in the form of a cookie, represents this session. Azure AD uses two kinds of SSO session tokens: persistent and non-persistent. Persistent session tokens are stored as persistent cookies by browsers when the **Keep me signed in** checkbox is selected during sign in. Non-persistent session tokens are stored as session cookies, and are destroyed when the browser is closed.

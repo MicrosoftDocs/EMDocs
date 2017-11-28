@@ -5,7 +5,7 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
+ms.date: 10/27/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
@@ -176,7 +176,7 @@ For the highly regulated tier, we recommend requiring apps that support Intune A
 ### User impact
 For most organizations, it is important to be able to set expectations for users specific to when and under what conditions they will be expected to sign into Office 365 files.
 
-* Maximum lifetime of a single sign-on session is 1 day. Users will be required to re-authenticate with MFA after their sessions expire.
+* Users configured as highly regulated will be required to re-authenticate with MFA after their session expires.
 * When users at risk sign-in they will be asked to change their password after completing MFA.
 * When requesting authentication tokens for Exchange Online:
   * Users will be asked to perform MFA whenever they begin a new session.  

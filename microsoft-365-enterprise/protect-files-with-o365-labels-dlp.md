@@ -1,5 +1,5 @@
 ---
-title: Protect files with Office 365 labels and Data Loss Prevention | Microsoft Docs
+title: Protect SharePoint Online files with Office 365 labels and Data Loss Prevention | Microsoft Docs
 description: Apply Office 365 labels and data loss prevention (DLP) policies for SharePoint Online team sites with various levels of information protection.
 services: active-directory
 keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 365 Enterprise
@@ -13,12 +13,12 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/15/2017
 ms.author: josephd
 
 ---
 
-# Protect files with Office 365 labels and Data Loss Prevention
+# Protect SharePoint Online files with Office 365 labels and Data Loss Prevention
 
 ## Introduction
 Use the steps in this article to design and deploy Office 365 labels and Data Loss Prevention (DLP) policies for baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md).
@@ -85,9 +85,9 @@ Use these steps to apply the Office 365 labels to the documents folders of your 
 5. Under **Permissions and Management**, click **Apply label to items in this library**.
 6. In **Settings-Apply Label**, select the appropriate label, and click **Save**.
 7. Close the tab for the SharePoint Online site.
-8. Repeat the steps above to assign Office 365 labels to your additional SharePoint Online sites.
+8. Repeat steps 3-8 to assign Office 365 labels to your additional SharePoint Online sites.
 
-Below is your resulting configuration.
+Here is your resulting configuration.
 
  ![Baseline Protection](./media/protect-files-with-o365-labels-dlp/site_labels.png)
 
@@ -108,14 +108,15 @@ Use these steps to configure a DLP policy that notifies users when they share a 
 12.	In the **Customize the types of sensitive info you want to protect** pane, click **Next**.
 13.	In the **What do you want to do if we detect sensitive info?** pane, click** Customize the tip and email**.
 14.	In the **Customize policy tips and email notifications** pane, click **Customize the policy tip text**.
-15.	In the text box, type or paste in the following and click **OK**.
- * To share with a user outside the organization, download the file and then open it. Click **File**, then **Protect Document**, and then **Encrypt with Password**, and then specify a strong password. Send the password in a separate email or other means of communication.
+15.	In the text box, type or paste in the following:
+ * To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
  * Or type or paste in your own policy tip that instructs users on how to share a file outside your organization.
-16.	In the **What do you want to do if we detect sensitive info?** pane, clear the **Block people from sharing and restrict access to shared content** check box, and click **Next**.
+16.	Click **OK**
+In the **What do you want to do if we detect sensitive info?** pane, clear the **Block people from sharing and restrict access to shared content** check box, and click **Next**.
 17.	In the **Do you want to turn on the policy or test things out first?** pane, click **Yes**, turn it on right away, and click **Next**.
 18.	In the **Review your settings** pane, click **Create**, and click **Close**.
 
-Below is your resulting configuration for sensitive SharePoint Online team sites.
+Here is your resulting configuration for sensitive SharePoint Online team sites.
 
  ![Sensitive Protection](./media/protect-files-with-o365-labels-dlp/sensitive_w_dlp.png)
 
@@ -128,32 +129,28 @@ Next, use these steps to configure a DLP policy that blocks users when they shar
 5. In the **Name your policy** pane, type the name for the highly sensitive level DLP policy in **Name**, and click **Next**.
 6. In the **Choose locations** pane, click **Let me choose specific locations**, and click **Next**.
 7. In the list of locations, disable the **Exchange email** and **OneDrive accounts** locations, and click **Next**.
-8. In the **Customize the types of sensitive info you want to protect** pane, click **Edit**, then in **Choose the types of content to protect** pane, click **Add** in the drop-down box, and click **Labels**.
-9.	In the **Labels** pane, click **+ Add**, select the **Highly Confidential** label, click **Add**, and click **Done**.
-10.	In the **Choose the types of content to protect** pane, click **Save**, and in the **Customize the types of sensitive info you want to protect** pane, click **Next**.
-11.	In the **What do you want to do if we detect sensitive info?** pane, click **Customize the tip and email**.
-12.	In the **Customize policy tips and email notifications** pane, click **Customize the policy tip text**.
-13.	In the text box, type or paste in the following, and Click OK:
+8. In the **Customize the types of sensitive info you want to protect** pane, click **Edit**
+9. In **Choose the types of content to protect** pane, click **Add** in the drop-down box, and click **Labels**.
+10.	In the **Labels** pane, click **+ Add**, select the **Highly Confidential** label, click **Add**, and click **Done**.
+11.	In the **Choose the types of content to protect** pane, click **Save**.
+12.	In the **Customize the types of sensitive info you want to protect** pane, click **Next**.
+13.	In the **What do you want to do if we detect sensitive info?** pane, click **Customize the tip and email**.
+14.	In the **Customize policy tips and email notifications** pane, click **Customize the policy tip text**.
+15.	In the text box, type or paste in the following:
  * To share with a user outside the organization, download the file and then open it. Click **File**, then **Protect Document**, and **Encrypt with Password**, and then specify a strong password. Send the password in a separate email or other means of communication.
  * Or type or paste in your own policy tip that instructs users on how to share a file outside your organization.
-14.	In the **What do you want to do if we detect sensitive info?** pane, select **Require a business justification to override**, and click **Next**.
-15.	In the **Do you want to turn on the policy or test things out first?** pane, click **Yes**, turn it on right away, and click **Next**.
-16.	In the **Review your settings** pane, click **Create**, and click **Close**.
+16.	Click **OK**.
+17.	In the **What do you want to do if we detect sensitive info?** pane, select **Require a business justification to override**, and click **Next**.
+18.	In the **Do you want to turn on the policy or test things out first?** pane, click **Yes**, turn it on right away, and click **Next**.
+19.	In the **Review your settings** pane, click **Create**, and click **Close**.
 
-Below is your resulting configuration for high confidentiality SharePoint Online team sites.
+Here is your resulting configuration for high confidentiality SharePoint Online team sites.
 
  ![Highly Confidential Protection](./media/protect-files-with-o365-labels-dlp/hc_w_dlp.png)
 
-For more information, see [Protect files with AIP](protect-files-with-aip.md).
-
 ## Next steps
-[Microsoft Security Guidance for Political Campaigns, Nonprofit Organizations, and Other Agile Organizations](https://technet.microsoft.com/library/mt493213.aspx)
 
-[Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
-
-[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md)
-
-[Cloud adoption and hybrid solutions](https://technet.microsoft.com/library/dn262744.aspx)
+[Protect SharePoint Online files with Azure Information Protection](protect-files-with-aip.md)
 
 
 

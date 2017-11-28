@@ -153,21 +153,9 @@
       href: /microsoft-identity-manager/
       homepage: /microsoft-identity-manager
       items:
-        - name: Understand & Explore
-          href: /microsoft-identity-manager/understand-explore/
-          homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
-        - name: Plan & Design
-          href: /microsoft-identity-manager/plan-design/
-          homepage: /microsoft-identity-manager/plan-design/journey-plan-design
-        - name: Deploy & Use
-          href: /microsoft-identity-manager/deploy-use/
-          homepage: /microsoft-identity-manager/deploy-use/journey-deploy-use-html
         - name: Reference
           href: /microsoft-identity-manager/reference/
           homepage: /microsoft-identity-manager/reference/journey-develop-applications
-        - name: Get Started
-          href: /microsoft-identity-manager/get-started/
-          homepage: /microsoft-identity-manager/get-started/journey-get-started
         - name: PAM
           href: /microsoft-identity-manager/pam/
           homepage: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
@@ -188,6 +176,9 @@
         - name: Mobile device management
           href: /sccm/mdm/
           homepage: /sccm/mdm/understand/hybrid-mobile-device-management
+        - name: Microsoft Deployment Toolkit
+          href: /sccm/mdt/
+          homepage: /sccm/mdt/whats-new-in-mdt
         - name: Operating system deployment
           href: /sccm/osd/
           homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
