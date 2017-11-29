@@ -28,7 +28,7 @@ ms.suite: ems
 
 # End-user Intune enrollment instructions for IT administrators
 
-This document contains enrollment instructions that you can customize and give to your users to help them enroll their iOS and Android devices in Microsoft Intune™ (for Windows devices, see Using your Windows device with Intune). We recommend that you copy the parts of this document that you think are most appropriate for your users. For example, you may want to produce a single document for each device platform, or to add more screenshots.
+This document contains enrollment instructions that you can customize and give to your users to help them enroll their iOS and Android devices in Microsoft Intune™ (for Windows devices, see [Using your Windows device with Intune](/intune-user-help/using-your-windows-device-with-intune)). We recommend that you copy the parts of this document that you think are most appropriate for your users. For example, you may want to produce a single document for each device platform, or to add more screenshots.
 
 In addition to these written instructions, you can also include hyperlinks to any of the Intune end user videos, found at [https://channel9.msdn.com/Series/IntuneEnrollment](https://channel9.msdn.com/Series/IntuneEnrollment).
 
