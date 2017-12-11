@@ -31,6 +31,11 @@
         "redirect_document_id": false 
     },
     { 
+        "source_path": "emdocs/solutions/ata-attack-simulation-playbook.md",
+        "redirect_url": "https://gallery.technet.microsoft.com/ATA-Playbook-ef0a8e38", 
+        "redirect_document_id": false 
+    },
+    { 
         "source_path": "emdocs/solutions/byod-app-reqs.md",
         "redirect_url": "/intune/byod-enable", 
         "redirect_document_id": false 
