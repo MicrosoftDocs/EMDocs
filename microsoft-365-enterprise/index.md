@@ -8,7 +8,7 @@ keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 documentation, 
 ms.localizationpriority: high
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
-ms.date: 09/25/2017
+ms.date: 12/10/2017
 title: Microsoft 365 Enterprise documentation and resources
 description: Learn about the product documentation and resources available for Microsoft 365 Enterprise IT admins, information workers, and partners.
 ---
@@ -1136,18 +1136,18 @@ description: Learn about the product documentation and resources available for M
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                <a href="https://developer.microsoft.com/windows/enterprise" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Develop enterprise UWP apps" />
+                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Windows Dev Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Develop enterprise UWP apps</h3>
-                                                    <p>Get an overview of key enterprise features for Windows 10 Universal Windows Platform (UWP) apps, including security, data binding and enterprises, networking and data serialization, and more.</p>
+                                                    <h3>Windows Dev Center</h3>
+                                                    <p>Get an overview of key enterprise features for Windows 10 and find resources for developing Universal Windows Platform (UWP) apps.</p>
                                                 </div>
                                             </div>
                                         </div>
