@@ -4,13 +4,15 @@ title: Enterprise Mobility + Security Documentation | Microsoft Docs
 description: Technical documentation for Microsoft Enterprise Mobility + Security
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 hide_bc: true
+featureFlags:
+- clicktale
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Enterprise Mobility + Security Documentation</h1>
         <ul class="pivots">
             <li>
-                <a href="#products">Products + Services</a>
+                <a href="#products">Products</a>
                 <ul id="products">
                     <li>
                         <a href="#products-all"></a>
@@ -173,7 +175,7 @@ hide_bc: true
                 </ul>
             </li>
             <li>
-                <a href="#solutions">Solutions</a>
+<!--                <a href="#solutions">Solutions</a>
                 <ul id="solutions">
                     <li>
                         <a href="#SolutionsPanel1"></a>
@@ -259,6 +261,7 @@ hide_bc: true
                 </ul>
             </li>
             <li>
+-->
                 <a href="#more">More resources</a>
                 <ul id="more">
                     <li>
