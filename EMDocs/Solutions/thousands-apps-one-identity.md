@@ -118,6 +118,6 @@ The following steps describe how to implement each Azure AD capability previousl
 - **App Gallery on Azure.com**
   - https://azure.microsoft.com/marketplace/active-directory/
 - **SaaS Application List** (with integration capabilities)
-  - https://aadappgallery.azurewebsites.net/M
+  - https://aadappgallery.azurewebsites.net/Default.aspx?Microsoft_Integrated_Synchronization=on
 - **SaaS Application Tutorials**
   - https://azure.microsoft.com/documentation/articles/active-directory-saas-tutorial-list/
