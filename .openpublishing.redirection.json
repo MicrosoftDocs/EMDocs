@@ -6,19 +6,19 @@
         "redirect_document_id": true 
     },    
     {
-			"source_path": "emdocs/solutions/learn-about-ems.md",
-			"redirect_url": "https://www.microsoft.com/cloud-platform/enterprise-mobility-security",
-			"redirect_document_id": false
+	"source_path": "emdocs/solutions/learn-about-ems.md",
+	"redirect_url": "https://www.microsoft.com/cloud-platform/enterprise-mobility-security",
+	"redirect_document_id": false
     }, 
     {
-			"source_path": "emdocs/solutions/ems-get-started.md",
-			"redirect_url": "https://signup.microsoft.com/Signup?OfferId=87dd2714-d452-48a0-a809-d2f58c4f68b7&ali=1",
-			"redirect_document_id": false
+	"source_path": "emdocs/solutions/ems-get-started.md",
+	"redirect_url": "https://signup.microsoft.com/Signup?OfferId=87dd2714-d452-48a0-a809-d2f58c4f68b7&ali=1",
+	"redirect_document_id": false
     }, 
     {
-			"source_path": "emdocs/solutions/protect-office365-data-with-intune.md",
-			"redirect_url": "/intune/apps-add-office365",
-			"redirect_document_id": true
+	"source_path": "emdocs/solutions/protect-office365-data-with-intune.md",
+	"redirect_url": "/intune/apps-add-office365",
+	"redirect_document_id": true
     }, 
     { 
         "source_path": "emdocs/solutions/byod-design-considerations-guide.md",
