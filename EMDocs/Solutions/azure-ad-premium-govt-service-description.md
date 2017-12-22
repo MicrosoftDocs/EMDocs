@@ -61,10 +61,11 @@ Office 365 is currently available in both the GCC and GCC High environments. To 
 
 |Azure Active Directory Premium Government Offer|Corresponding Office 365 Government Offer|Compliance Commitment|
 |-----------|-----------|-----------|
-|Azure Active Directory Premium P1/P2 (commercial)|Office 365 <br/> GCC|FedRAMP-Moderate^|
-|Azure Active Directory Premium P1/P2 GCC High|Office 365 <br/> GCC High|FedRAMP-High^|
+|Azure Active Directory Premium P1/P2 (commercial)|Office 365 <br/> GCC|FedRAMP-Moderate|
+|Azure Active Directory Premium P1/P2 GCC High|Office 365 <br/> GCC High|FedRAMP-High|
 
-^ Target date for FedRAMP compliance is Calendar Year 2018
+> [!NOTE]
+> Target date for FedRAMP compliance is Calendar Year 2018
 
 ## Parity with Azure Active Directory Premium Commercial Offerings
 
