@@ -21,7 +21,7 @@
     {
       "docset_name": "EMSolutions",
       "build_source_folder": "EMDocs/Solutions",
-      "build_output_subfolder": "EMDocs/Solutions",
+      "build_output_subfolder": "EMDocs-Solutions",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
