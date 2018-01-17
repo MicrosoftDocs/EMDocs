@@ -236,7 +236,7 @@ When complete, remember to click "Create". Repeat the above steps and replace th
 You create the following device configuration profiles and device compliance policies by logging into the [Intune on Azure portal](https://portal.azure.com) with your Intune credentials.
 
 #### iOS email profile
-In the [Intune on Azure portal](https://portal.azure.com), you can create the following device configuration profiles at ** Device configuration > Profiles > Create Profile > Platform (iOS) > Profile type (E-mail) **.
+In the [Intune on Azure portal](https://portal.azure.com), you can create the following device configuration profiles at **Device configuration > Profiles > Create Profile > Platform (iOS) > Profile type (E-mail)**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
@@ -253,7 +253,7 @@ In the [Intune on Azure portal](https://portal.azure.com), you can create the fo
 |||Synchronize recently used email addresses|True|Check|
 
 #### Android email profile
-In the [Intune on Azure portal](https://portal.azure.com), you can create the following device configuration profiles at ** Device configuration > Profiles > Create Profile > Platform (Android) > Profile type (E-mail) **.
+In the [Intune on Azure portal](https://portal.azure.com), you can create the following device configuration profiles at **Device configuration > Profiles > Create Profile > Platform (Android) > Profile type (E-mail)**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
@@ -274,7 +274,7 @@ In the [Intune on Azure portal](https://portal.azure.com), you can create the fo
 |||Notes|True|Check|
 
 #### Android for work email profile
-In the [Intune on Azure portal](https://portal.azure.com), you can create the following device configuration profiles at ** Device configuration > Profiles > Create Profile > Platform (Android for Work) > Profile type (E-mail) **.
+In the [Intune on Azure portal](https://portal.azure.com), you can create the following device configuration profiles at **Device configuration > Profiles > Create Profile > Platform (Android for Work) > Profile type (E-mail)**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
@@ -287,7 +287,7 @@ In the [Intune on Azure portal](https://portal.azure.com), you can create the fo
 |||Use SSL|True|Check|
 
 #### Device compliance policy
-In the [Intune on Azure portal](https://portal.azure.com), you can create the following device compliance policies at ** Device compliance > Policies > Create Policy > Platform (iOS, Android or others) > Settings **.
+In the [Intune on Azure portal](https://portal.azure.com), you can create the following device compliance policies at **Device compliance > Policies > Create Policy > Platform (iOS, Android or others) > Settings**.
 
 |Categories|Type|Properties|Values|Notes|
 |:---------|:---|:---------|:-----|:----|
