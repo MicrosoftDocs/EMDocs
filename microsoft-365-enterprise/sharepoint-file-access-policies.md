@@ -17,7 +17,7 @@ The following recommendations are provided *in addition to* the [common identity
 The following recommendations are based on three different layers of security and protection for your email that can be applied based on the granularity of your needs:
 
 - **Baseline**: Microsoft recommends you establish a minimum standard for protecting data, as well as the identities and devices that access your data. Microsoft provides strong default protection that meets the needs of many organizations. Some organizations require additional capabilities to meet their baseline requirements.
-- **Increased protection**: Some customers have a subset of data that must be protected at higher levels. You can apply increased protection to specific data sets in your Office 365 environment. Microsoft recommends protecting identities and devices that access sensitive data with comparable levels of security. 
+- **Sensitive**: Some customers have a subset of data that must be protected at higher levels. You can apply increased protection to specific data sets in your Office 365 environment. Microsoft recommends protecting identities and devices that access sensitive data with comparable levels of security. 
 - **Highly regulated**: Some organizations may have a very small amount of data that is highly classified, trade secret, or regulated data. Microsoft provides capabilities to help organizations meet these requirements, including added protection for identities and devices.
 
 See the [recommended security policies and configurations introduction](microsoft-365-policies-configurations.md) topic for more details.
@@ -87,7 +87,7 @@ To add an app-based conditional access policy:
 
 7. Choose **Restricted user groups**, click **Select groups**, select the user or group you want to apply the policy for, then click **Select**.
 
-## Increased protection
+## Sensitive
 
 ### Low and above risk requires MFA
 
@@ -118,7 +118,7 @@ Make the following changes to the existing CA policy created when applying [poli
 ### Require a compliant or domain joined device
 (See baseline instructions)
 
-### Mobile application management conditional access for SharePoint online
+### App-based conditional access for SharePoint online
 (See baseline instructions)
 
 ## Additional configurations
