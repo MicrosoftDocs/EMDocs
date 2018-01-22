@@ -293,7 +293,7 @@ featureFlags:
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3><a href="http://fasttrack.microsoft.com/ems">150+ licenses? Leverage your FastTrack benefits</a></h3>
+                                                <h3><a href="https://docs.microsoft.com/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">150+ licenses? Leverage your FastTrack benefits</a></h3>
                                             </div>
                                         </div>
                                     </div>
