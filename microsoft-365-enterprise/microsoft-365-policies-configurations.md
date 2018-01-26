@@ -1,8 +1,8 @@
 ---
 title: Recommended security policies and configurations - Microsoft 365 Enterprise | Microsoft docs
 description:  Describes Microsoft recommendations and core concepts for deploying secure email, docs, and apps policies and configurations.
-author: barlanmsft
-manager: angrobe
+author: dougeby
+manager: dougeby
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
@@ -110,7 +110,7 @@ There is a trade-off to be made between security and productivity. To help under
 
 ![Security and productivity trade-offs](./media/policies-configurations/security-triad.png)
 
-The recommendations are have provided are based on the following SFU security triad principles:
+The recommendations provided are based on the following SFU security triad principles:
 
 * Know the audience - Be flexible by job function/security bar
 * Apply security policy just in time and ensure it is meaningful
