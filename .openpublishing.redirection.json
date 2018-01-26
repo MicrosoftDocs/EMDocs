@@ -374,6 +374,91 @@
         "source_path": "emdocs/solutions/end-user-experience-MAM.md",
         "redirect_url": "/intune/app-management", 
         "redirect_document_id": false 
-    }, 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/architecture-models-posters.md",
+        "redirect_url": "/microsoft-365/enterprise/architecture-models-posters", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/deploy-office-proplus-intune.md",
+        "redirect_url": "/microsoft-365/enterprise/deploy-office-proplus-intune", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/deploy-sites-for-three-tiers-of-protection.md",
+        "redirect_url": "/microsoft-365/enterprise/deploy-sites-for-three-tiers-of-protection", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/identity-access-policies.md",
+        "redirect_url": "/microsoft-365/enterprise/identity-access-policies", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/identity-device-policies.md",
+        "redirect_url": "/microsoft-365/enterprise/identity-device-policies", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/index.md",
+        "redirect_url": "/microsoft-365/enterprise/index", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/microsoft-365-overview.md",
+        "redirect_url": "/microsoft-365/enterprise/microsoft-365-overview", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/microsoft-365-policies-configurations.md",
+        "redirect_url": "/microsoft-365/enterprise/microsoft-365-policies-configurations", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/microsoft-security-guidance.md",
+        "redirect_url": "/microsoft-365/enterprise/microsoft-security-guidance", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/office-add-ins-wip.md",
+        "redirect_url": "/microsoft-365/enterprise/office-add-ins-wip", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/protect-files-with-aip.md",
+        "redirect_url": "/microsoft-365/enterprise/protect-files-with-aip", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/protect-files-with-o365-labels-dlp.md",
+        "redirect_url": "/microsoft-365/enterprise/protect-files-with-o365-labels-dlp", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/secure-email-recommended-policies.md",
+        "redirect_url": "/microsoft-365/enterprise/secure-email-recommended-policies", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/secure-sharepoint-online-sites-and-files.md",
+        "redirect_url": "/microsoft-365/enterprise/secure-sharepoint-online-sites-and-files", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/secure-sharepoint-online-sites-dev-test.md",
+        "redirect_url": "/microsoft-365/enterprise/secure-sharepoint-online-sites-dev-test", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/services-overview.md",
+        "redirect_url": "/microsoft-365/enterprise/services-overview", 
+        "redirect_document_id": true 
+    },
+	{ 
+        "source_path": "microsoft-365-enterprise/sharepoint-file-access-policies.md",
+        "redirect_url": "/microsoft-365/enterprise/sharepoint-file-access-policies", 
+        "redirect_document_id": true 
+    }
   ] 
 }
