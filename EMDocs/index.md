@@ -152,6 +152,24 @@ featureFlags:
                                 </a>
                             </li>
                             <li>
+                                <a href="/azure-threat-protection/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/images/ems_solutions-3.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Threat Protection</h3>
+                                                    <p>Protect your enterprise hybrid environments from multiple types of advanced targeted cyber attacks and insider threats</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            <li>
                                 <a href="/microsoft-identity-manager/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -175,93 +193,7 @@ featureFlags:
                 </ul>
             </li>
             <li>
-<!--                <a href="#solutions">Solutions</a>
-                <ul id="solutions">
-                    <li>
-                        <a href="#SolutionsPanel1"></a>
-                        <ul id="SolutionsPanel1" class="cardsC">
-                            <li>
-                                <a href="/enterprise-mobility-security/solutions/protect-office365-data-with-intune">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_solutions-1.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Managed Mobile Productivity</h3>
-                                                    <p>Learn how to protect Office 365 company data with Intune, protect on-premises company data with Intune, and protect company data (without managing devices) with Intune.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/enterprise-mobility-security/solutions/thousands-apps-one-identity">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_solutions-2.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Identity and Access Management</h3>
-                                                    <p>Learn how Azure Active Directory makes your users more productive by providing a common identity for SaaS application users accessing both cloud and on-prem resources.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/enterprise-mobility-security/solutions/protect-front-door">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_solutions-3.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Identity Driven Security</h3>
-                                                    <p>Take a more holistic and innovation approach to security to protect, detect, and respond to threats of all kinds on-premises and in the cloud.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="/media/hubs/ems/ems_solutions-4.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Information Protection</h3>
-                                                    <p>Learn how to secure data using classification, labeling, and protection, share sensitive data internally and externally, and track usage of shared data and respond to data abuse.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
--->
+
                 <a href="#more">More resources</a>
                 <ul id="more">
                     <li>
