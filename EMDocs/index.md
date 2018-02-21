@@ -152,7 +152,7 @@ featureFlags:
                                 </a>
                             </li>
                             <li>
-                                <a href="/azure-threat-protection/">
+                                <a href="/azure-advanced-threat-protection/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -162,7 +162,7 @@ featureFlags:
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Azure Threat Protection</h3>
+                                                    <h3>Azure Advanced Threat Protection</h3>
                                                     <p>Protect your enterprise hybrid environments from multiple types of advanced targeted cyber attacks and insider threats</p>
                                                 </div>
                                             </div>
