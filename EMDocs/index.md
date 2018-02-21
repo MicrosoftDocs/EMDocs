@@ -158,7 +158,7 @@ featureFlags:
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/images/ems_solutions-3.svg" alt="" />
+                                                        <img src="/enterprise-mobility-security/images/ems_solutions-3.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
