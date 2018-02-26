@@ -46,14 +46,14 @@ Here’s what you can expect when onboarding is complete:
 
 -   Your EMS tenants for your selected services are created.
 
--   Licensed users can access the Intune service by using one of the following identity options:
+-   Licensed users can access EMS Services by using one of the following identity options:
 
     -   Cloud Identities (unique EMS accounts).
 
     -   Synchronized Identities: EMS accounts synchronized from your on-premises Active Directory by using the Azure Active Directory Connect tool. This option is for customers with a single forest or multiple Active Directory forests.
 
--   Federated Identities--with Microsoft EMS accounts that are:
+    -   Federated Identities--with Microsoft EMS accounts that are:
 
-    -   Synchronized from Active Directory with the Azure AD Connect tool. This option is for customers with a single Active Directory forest configuration.
+        -   Synchronized from Active Directory with the Azure AD Connect tool. This option is for customers with a single Active Directory forest configuration.
 
-    -   Federated with Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 or later from your on-premises Active Directory.
+        -   Federated with Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 or later from your on-premises Active Directory.

@@ -35,7 +35,6 @@ Onboarding has four primary phases:
 
 
 ## Initiate phase
-
 After you purchase the appropriate number of licenses, follow the guidance from the purchase confirmation email to associate the licenses to your existing tenant or new tenant. Microsoft then verifies your eligibility for the FastTrack Center Benefit and tries to contact you to offer onboarding assistance. You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you're ready to deploy these services for your organization.
 
 To request assistance, sign in to the [FastTrack Center](http://fasttrack.microsoft.com/) with your work or school account, go to the dashboard, expand the **Need Help?** at the left of the screen, and then follow the prompts to complete your request. Once onboarding support starts, we set up a schedule of online meetings.
@@ -71,12 +70,17 @@ Core onboarding involves service provisioning and tenant and identity integratio
 ![Onboarding enable phase - Core capabilities](./media/ft-enable-phase-core-01.png)
 
 ![Onboarding enable phase - Core capabilities](./media/ft-enable-phase-core-02.png)
+> [!NOTE]
+> A managed authentication method includes, but is not limited to Password Hash Sync.
+
+> [!NOTE]
+> Identity integration is a one time activity and does not include migrating or decommissioning of existing authentication methods, such as managed or federated. 
 
 ### Enable phase - Azure AD Premium
 
 The Azure AD Premium environment can be set up by using the Azure Active Directory Connect tool directory synchronization and Active Directory Federation Services (AD FS) (as needed).
 
-For Azure AD Premium scenarios that include synchronizing on-premises identities to the cloud, we help you by adding IT admins and users to your subscription, configuring management prerequisites, setting up Azure AD Premium, setting up directory synchronization and AD FS using the Azure AD Connect tool, configuring test users, and validating your core use cases for the service.
+For Azure AD Premium scenarios that include synchronizing on-premises identities to the cloud, we help you by adding IT admins and users to your subscription, configuring management prerequisites, setting up Azure AD Premium, setting up directory synchronization with managed authentication and AD FS using the Azure AD Connect tool, configuring test users, and validating your core use cases for the service.
 
 Azure AD Premium setup includes enabling the following features:
 
@@ -84,7 +88,7 @@ Azure AD Premium setup includes enabling the following features:
 
 -   Azure Multi-Factor Authentication (Azure MFA).
 
--   One Software as a Service (SaaS) application integration with single sign-on (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+-   Up to three (3) or more Software as a Service (SaaS) application integrations with single sign-on (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
 -   Customized logon screen, including logo, text, and images.
 
@@ -97,6 +101,8 @@ Azure AD Premium setup includes enabling the following features:
 -   Identity Protection.
 
 -   Privileged Identity Management.
+
+-   Azure Active Directory Conditional Access
 
 -   Usage and security reports to administrators.
 
