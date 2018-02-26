@@ -111,7 +111,7 @@ Provide guidance about:
 
     -   Installing a directory synchronization between your Active Directory Domain Services (AD DS) and Azure AD Connect, if required.
 
-    -   Configuring password synchronization with the Azure AD Connect tool.
+    -   Configuring an authentication method (Password Hash Sync or Pass-Through Authentication) with the Azure AD Connect tool.
 
 -   For a multiple-forest environment:
 
@@ -155,7 +155,7 @@ Provide guidance about setting up:
 
   - Azure Multi-Factor Authentication.
 
-  - One Software as a Service (SaaS) application integration with SSO from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+  - Up to three (3) or more Software as a Service (SaaS) application integrations with SSO from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
   - Customized logon screen, including logo, text and images.
 
