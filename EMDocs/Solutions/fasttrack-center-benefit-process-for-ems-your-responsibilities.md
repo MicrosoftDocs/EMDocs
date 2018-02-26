@@ -108,6 +108,8 @@ You have the following responsibilities during onboarding.
 
 -   Perform directory readiness and configure directory synchronization per guidance from Microsoft.
 
+-   Configure an authentication method, such as managed or federated. 
+
 -   Configure security-related infrastructure (like firewall ports) per guidance from Microsoft.
 
 -   Implement the appropriate client infrastructure.
