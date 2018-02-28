@@ -76,7 +76,7 @@ You have the following responsibilities during onboarding.
 
 ## Initiate phase
 
--   Work with the Microsoft team to begin onboarding of eligible services.
+-   Work with the FastTrack team to begin onboarding of eligible services.
 
 -   Participate in the engagement kick-off meeting, manage and lead participants from your organization, and confirm remediation timelines.
 
@@ -84,7 +84,7 @@ You have the following responsibilities during onboarding.
 
 -   Identify appropriate stakeholders (including a project manager) to complete the necessary assessment activities.
 
--   Share your screen with Microsoft if guidance is needed when running evaluation tools against your environment, EMS, or its individual cloud service subscriptions (if you choose to).
+-   Share your screen with the FastTrack team if guidance is needed when running evaluation tools against your environment, EMS, or its individual cloud service subscriptions (if you choose to).
 
 -   Participate in the meetings to create the remediation checklist and to contribute to the overall plan, including infrastructure, network, administration, directory synchronization preparation, network security, and federated identity topics.
 
@@ -102,21 +102,21 @@ You have the following responsibilities during onboarding.
 
 ## Enable phase
 
--   Share your screen with Microsoft if guidance is needed when running evaluation tools against your environment, EMS, or its individual cloud service subscriptions (if you choose to). Manage resources as needed.
+-   Share your screen with the FastTrack team if guidance is needed when running evaluation tools against your environment, EMS, or its individual cloud service subscriptions (if you choose to). Manage resources as needed.
 
--   Configure network-related items per guidance from Microsoft.
+-   Configure network-related items per guidance from the FastTrack team.
 
--   Perform directory readiness and configure directory synchronization per guidance from Microsoft.
+-   Perform directory readiness and configure directory synchronization per guidance from the FastTrack team.
 
 -   Configure an authentication method, such as managed or federated. 
 
--   Configure security-related infrastructure (like firewall ports) per guidance from Microsoft.
+-   Configure security-related infrastructure (like firewall ports) per guidance from the FastTrack team.
 
 -   Implement the appropriate client infrastructure.
 
--   Implement a user-provisioning approach per guidance from Microsoft.
+-   Implement a user-provisioning approach per guidance from the FastTrack team.
 
--   Enable various services per guidance from Microsoft.
+-   Enable various services per guidance from the FastTrack team.
 
 **Want to learn more?**
 
