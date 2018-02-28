@@ -28,7 +28,7 @@ ms.suite: ems
 
 # FastTrack Center Benefit Overview
 
-With FastTrack Center Benefit for Microsoft Azure Active Directory Premium and Microsoft Intune, you work remotely with Microsoft specialists to get your environment ready for use and to plan the rollout and usage within your organization. To learn more about eligibility, see [FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+With FastTrack Center Benefit for Microsoft Azure Active Directory Premium and Microsoft Intune, you work remotely with FastTrack Specialists to get your environment ready for use and to plan the rollout and usage within your organization. To learn more about eligibility, see [FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 Onboarding has two major components:
@@ -43,19 +43,19 @@ The following diagram describes the high-level onboarding phases for the the Fas
 
 Here's how the process works:
 
-- Microsoft tries to contact you to offer onboarding assistance after you purchase licenses of an eligible service. You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you're ready to deploy these services for your organization. To request assistance, sign in to the [FastTrack Center](http://fasttrack.microsoft.com/) with your work or school account, go to the dashboard, expand the **Need Help?** link at the lower-right corner of the page, and then follow the prompts to complete your request. Once onboarding support starts, we’ll set up a schedule of online meetings.
+- The FastTrack Center tries to contact you to offer onboarding assistance after you purchase licenses of an eligible service. You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you're ready to deploy these services for your organization. To request assistance, sign in to the [FastTrack Center](http://fasttrack.microsoft.com/) with your work or school account, go to the dashboard, expand the **Need Help?** link at the lower-right corner of the page, and then follow the prompts to complete your request. Once onboarding support starts, we’ll set up a schedule of online meetings.
 
--   The Microsoft Onboarding team helps you first with core capabilities (common for all Microsoft Online Services) and then with onboarding each eligible service.
+-   The FastTrack team helps you first with core capabilities (common for all Microsoft Online Services) and then with onboarding each eligible service.
 
-All onboarding support is provided remotely by assigned Microsoft personnel:
+All onboarding support is provided remotely by assigned FastTrack personnel:
 
--   Microsoft remotely assists you with various onboarding activities by using a combination of tools, documentation, and guidance.
+-   The FastTrack team remotely assists you with various onboarding activities by using a combination of tools, documentation, and guidance.
 
 -   Onboarding support is provided by the FastTrack Center, and is available during normal business hours for a given region.
 
 -   Onboarding support is available in Traditional Chinese, Simplified Chinese (resources speak Mandarin only), English, French, German, Italian, Japanese, Korean, Portuguese (Brazil), Spanish, Thai, and Vietnamese.
 
--   Microsoft can work directly with you or your representative.
+-   The FastTrack team can work directly with you or your representative.
 
 **Want to learn more?**
 

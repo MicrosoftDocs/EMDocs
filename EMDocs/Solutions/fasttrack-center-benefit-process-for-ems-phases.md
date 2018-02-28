@@ -45,9 +45,9 @@ During this phase, we discuss the onboarding process, verify data, and set up a 
 
 ## Assess phase
 
-Once the onboarding process begins, Microsoft works with you to assess your source environment and the requirements. Tools are run to assess your environment, and Microsoft guides you through assessing your on-premises Active Directory, Internet browsers, client devices' operating systems, Domain Name System (DNS), network, infrastructure, and identity system to determine if any changes are required for onboarding.
+Once the onboarding process begins, the FastTrack Center works with you to assess your source environment and the requirements. Tools are run to assess your environment, and FastTrack Specialists guide you through assessing your on-premises Active Directory, Internet browsers, client devices' operating systems, Domain Name System (DNS), network, infrastructure, and identity system to determine if any changes are required for onboarding.
 
-Microsoft also connects you with guidance about how to drive successful adoption of the eligible services.
+The FastTrack Center also connects you with guidance about how to drive successful adoption of the eligible services.
 
 Based on your current setup, we provide a remediation plan that brings your source environment up to the minimum requirements for successful onboarding to EMS or its individual cloud services. We also set up appropriate checkpoint calls for the remediation phase.
 
@@ -102,7 +102,7 @@ Azure AD Premium setup includes enabling the following features:
 
 -   Privileged Identity Management.
 
--   Azure Active Directory Conditional Access
+-   Azure Active Directory Conditional Access.
 
 -   Usage and security reports to administrators.
 
