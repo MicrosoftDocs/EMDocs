@@ -73,7 +73,7 @@ These are the known existing gaps between EMS GCC High and our commercial offer 
 
 - Azure Active Directory Gallery with pre-configured apps will not be available. 
 
-- MFA FedRAMP Audit is separate from Azure AD FedRAMP Audit and is delayed. At launch, MFA will not have FedRAMP certification in place and customers must opt-in to this service. 
+- MFA FedRAMP Audit is separate from Azure AD FedRAMP Audit and is delayed. At launch, MFA will not have FedRAMP certification in place and customers must opt in to this service. 
 
 - Group Based Licensing. This is currently in preview in the commercial cloud. Once this feature is generally available in commercial cloud, we will work to bring this functionality to Azure Active Directory Premium GCC High. 
 

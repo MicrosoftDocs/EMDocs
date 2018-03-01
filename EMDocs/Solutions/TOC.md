@@ -3,7 +3,6 @@
 ### [Enterprise Mobility + Security for US Government Service Description](ems-govt-service-description.md)
 ###[Azure Active Directory Premium Government Service Description](azure-ad-premium-govt-service-description.md)
 ## [Identity and Access Management]()
-###[Azure Active Directory Premium Government Service Description](azure-ad-premium-govt-service-description.md)
 ### [Thousands of apps, one identity](thousands-apps-one-identity.md)
 ### [Enable business without borders](enable-business-without-borders.md)
 ### [Manage access at scale](manage-access-at-scale.md)
