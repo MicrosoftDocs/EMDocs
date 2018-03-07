@@ -4,10 +4,10 @@
 title: Your responsibilities
 description: Customer responsibilities when using the FastTrack Center Benefit
 keywords:
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+author: andredm7
+ms.author: andredm
+manager:
+ms.date: 03/09/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -118,6 +118,11 @@ You have the following responsibilities during onboarding.
 
 -   Enable various services per guidance from the FastTrack team.
 
-**Want to learn more?**
+> [!NOTE]
+> **Want to learn more?** See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## See also
+
+- [FastTrack benefit for EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
+- [FastTrack benefit for Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)
+

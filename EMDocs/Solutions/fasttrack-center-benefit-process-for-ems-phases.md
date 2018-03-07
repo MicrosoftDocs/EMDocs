@@ -4,10 +4,10 @@
 title: Onboarding and migration phases
 description: Phases of the FastTrack Center Benefit
 keywords:
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+author: andredm7
+ms.author: andredm
+manager:
+ms.date: 03/09/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -169,6 +169,9 @@ Microsoft also connects you with guidance about how to drive successful adoption
 
 ![Onboarding enable phase - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
-**Want to learn more?**
+> [!NOTE]
+> **Want to learn more?** see [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility).
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## Next steps
+
+[FastTrack benefit for EMS - Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
