@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 03/09/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -67,7 +67,7 @@ Microsoft has the following responsibilities during onboarding.
 ## Enable phase
 Provide guidance about:
 
--   Activating your Microsoft online service tenant.
+-   Activating your Microsoft online service tenant or subscription.
 
 -   Configuring TCP/IP protocols and firewall ports.
 
@@ -172,6 +172,9 @@ Provide guidance about setting up:
   - Administrative notifications and alerts.
 
 ### Enable phase - Intune
+
+> [!IMPORTANT]
+> FastTrack do not support Windows 10 PC Management with Intune.
 
 Provide guidance about:
 
