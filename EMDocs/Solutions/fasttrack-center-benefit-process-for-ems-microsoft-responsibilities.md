@@ -174,7 +174,7 @@ Provide guidance about setting up:
 ### Enable phase - Intune
 
 > [!IMPORTANT]
-> FastTrack do not support Windows 10 PC Management with Intune.
+> FastTrack do not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 management through Intune mobile device management (MDM).
 
 Provide guidance about:
 
