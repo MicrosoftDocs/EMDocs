@@ -156,9 +156,9 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
     -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to your Intune or Configuration Manager with Intune service.
 
--   Providing Mobile Application Management (MAM) guidance about:
+-   Providing Intune App Protection (app-management) guidance about:
 
-    -   Configuring MAM policies for each supported platform.
+    -   Configuring app protection policies for each supported platform.
 
     -   Configuring conditional access policies for managed apps.
 
@@ -171,6 +171,9 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
     -   Installing the Intune client software (when needed).
 
     -   Using the software and hardware reports available in Intune.
+
+	> [!IMPORTANT]
+	> FastTrack do not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 device management through Intune mobile device management (MDM).
 
 Microsoft also connects you with guidance about how to drive successful adoption of the eligible services.
 
