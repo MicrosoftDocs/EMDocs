@@ -1,4 +1,4 @@
----
+--
 # required metadata
 
 title: Enterprise Mobility + Security Support FAQs
@@ -47,7 +47,7 @@ Enterprise Mobility + Security customers can submit support requests for Azure i
 
 Enterprise Mobility + Security customers can submit support requests for Azure AD Premium 1 and Premium 2 using the Azure or Office 365 portal. Learn more about Intune support options. [Learn how to get support for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-troubleshooting-support-howto).
 
-**How do I get Claoud Application Security support?**
+**How do I get Cloud Application Security support?**
 
 Enterprise Mobility + Security customers can submit support requests for Cloud Application Security using the Azure or Office 365 portal. 
 
