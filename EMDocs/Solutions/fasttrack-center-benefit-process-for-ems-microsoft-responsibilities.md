@@ -195,57 +195,39 @@ Provide guidance about:
 
     -   Configuring tests groups to be used to validate MDM management policies.
     
-    -   Setting up Conditional access policies
+    -   Navigating the Intune admin portal to locate information on users and devices.
+    
+    -   Setting up Intune roles (Help desk operator, admins, etc.)
 
     -   Configuring MDM management policies and services like:
 
         -   App deployment for each supported platform through web links, MSI and/or deep links.
+	
+        -   Deploying Office ProPlus onto Windows 10 devices.
+	
+        -   Volume purchase programs for app deployment, including Apple's VPP, Windows Store for Business, and Google's Play for Work Store.
 
         -   Deployment of e-mail, wireless networks, and VPN profiles if you have an existing certificate authority, Wi-Fi or VPN infrastructure in your organization.
 
         -   Setting up the Microsoft Intune Exchange Connector (when applicable).
+	
+        -   Device configuration profiles for supported device platforms.
 
+    -   Setting up conditional access policies.
+    
+    -   Configuring and deploying Intune app protection policies for each supported platform.
+    
+    -   Preparing line-of-business (LOB) apps for Intune app protection policies, with guidance on available options. 
+    
     -   Enrolling devices of each supported platform to your Intune or Configuration Manager with Microsoft Intune service.
-
-    -   Using hardware and software inventory reports.
-
-    -   Configuring Intune app protection policies for each supported platform.
-
-    -   Configuring conditional access policies for managed apps.
-
-    -   Targeting the appropriate user groups with the above MAM policies.
-
-    -   Using managed-applications usage reports.
-
-    -   Using the software and hardware reports available in Intune.
     
-    -   Configuring following Intune Data Warehouse.
+    -   Connecting to Intune Data Warehouse.
     
-    -   Configuring Intune Configuration Service Provider (CSP).
+    -   Integrating Intune with Team Viewer for remote assistance, Mobile Threat Defense partners, and Telecom Expense partners (third party product licensing not included with Intune subscription).
     
-    -   Sideloading Windows apps.
+    -   Configuring Software updates for applicable supported platforms.
     
-    -   Customize Desktop.
-    
-    -   Deploying Office Pro Plus onto Windows 10 devices.
-    
-    -   Making LOB apps to users via company portal with Intune App Protection.
-    
-    -   Using Intune App wrapping for LOB Android and iOS app to prevent data leakage.
-    
-    -   Publishing additional configuration profiles such as Wi-Fi, VPN, and e-mail configurations.
-    
-    -   Configuring remote assistance to Intune enrolled devices through the integration with Team Viewer.
-    
-    -   Configuring Intune Mobile Threat Defense partners.
-    
-    -   Deploying or recommending Company license apps and books to company-managed Apple devices via the Apple VPP program.
-    
-    -   Deploying or recommending Company license apps to Windows 10 devices via Windows store for business.
-    
-    -   Configuring Software updates and Telecom expenses.
-    
-    -   Setting up Intune roles (Help desk operator, admins, etc.)
+    -   Resources for user adoption planning.
 
 > [!NOTE] 
 > **Want to learn more?** see [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).
