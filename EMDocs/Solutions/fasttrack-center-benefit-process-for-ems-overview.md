@@ -4,10 +4,10 @@
 title: Overview
 description: Overview
 keywords:
-author: NathBarn
-ms.author: NathBarn
+author: andredm7
+ms.author: andredm
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 03/09/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -28,8 +28,7 @@ ms.suite: ems
 
 # FastTrack Center Benefit Overview
 
-With FastTrack Center Benefit for Microsoft Azure Active Directory Premium and Microsoft Intune, you work remotely with FastTrack Specialists to get your environment ready for use and to plan the rollout and usage within your organization. To learn more about eligibility, see [FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
-
+With FastTrack Center Benefit for Microsoft Azure Active Directory Premium and Microsoft Intune, you work remotely with FastTrack specialists to get your environment ready for use and to plan the rollout and usage within your organization. To learn more about eligibility, see [FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 Onboarding has two major components:
 
@@ -57,6 +56,10 @@ All onboarding support is provided remotely by assigned FastTrack personnel:
 
 -   The FastTrack team can work directly with you or your representative.
 
-**Want to learn more?**
+> [!NOTE]
+> **Want to learn more?** see
+> [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## Next steps
+
+[FastTrack Center benefit for EMS - Source environment expectations](fasttrack-center-benefit-process-for-ems-environment-expectations.md)

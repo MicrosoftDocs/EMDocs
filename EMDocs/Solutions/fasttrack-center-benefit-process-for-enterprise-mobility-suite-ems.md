@@ -4,10 +4,10 @@
 title: The FastTrack process
 description: Overview of the FastTrack Center Benefit onboarding process
 keywords:
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+author: andredm7
+ms.author: andredm
+manager:
+ms.date: 03/09/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune

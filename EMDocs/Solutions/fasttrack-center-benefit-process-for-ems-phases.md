@@ -4,10 +4,10 @@
 title: Onboarding and migration phases
 description: Phases of the FastTrack Center Benefit
 keywords:
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+author: andredm7
+ms.author: andredm
+manager:
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -26,7 +26,8 @@ ms.suite: ems
 
 ---
 
-# Onboarding and Migration Phases
+# Onboarding phases
+
 When you use the [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) to get Microsoft Azure Active Directory Premium and Microsoft Intune ready for use, there are several phases involved in the process. The following sections describe each phase of the onboarding process.
 
 Onboarding has four primary phases:
@@ -35,11 +36,21 @@ Onboarding has four primary phases:
 
 
 ## Initiate phase
-After you purchase the appropriate number of licenses, follow the guidance from the purchase confirmation email to associate the licenses to your existing tenant or new tenant. Microsoft then verifies your eligibility for the FastTrack Center Benefit and tries to contact you to offer onboarding assistance. You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you're ready to deploy these services for your organization.
 
-To request assistance, sign in to the [FastTrack Center](http://fasttrack.microsoft.com/) with your work or school account, go to the dashboard, expand the **Need Help?** at the left of the screen, and then follow the prompts to complete your request. Once onboarding support starts, we set up a schedule of online meetings.
+After you purchase the appropriate number of licenses, follow the guidance from the purchase confirmation email to associate the licenses to your existing tenant or new tenant. Microsoft then verifies your eligibility for the FastTrack Center Benefit and tries to contact you to offer onboarding assistance.
 
-During this phase, we discuss the onboarding process, verify data, and set up a kick-off meeting.
+> [!NOTE] 
+> You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you're ready to deploy these services for your organization.
+
+### To request assistance
+
+1. Go to [FastTrack Center](http://fasttrack.microsoft.com/) and sign in with your work or school account.
+
+2. On the Customer Dashboard, choose **Go to FastTrack** at the bottom right of the page.
+
+3. On the FastTrack Dasboard, expand the **Need Help** at the bottom right of the page, and then follow the prompts to complete your request.
+
+Once the onboarding support starts, FastTrack sets up a schedule of online meetings with you to discuss the onboarding process, verify data, and set up a kick-off meeting.
 
 ![Onboarding initiate phase](./media/ft-initiate-phase.png)
 
@@ -145,9 +156,9 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
     -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to your Intune or Configuration Manager with Intune service.
 
--   Providing Mobile Application Management (MAM) guidance about:
+-   Providing Intune App Protection (app-management) guidance about:
 
-    -   Configuring MAM policies for each supported platform.
+    -   Configuring app protection policies for each supported platform.
 
     -   Configuring conditional access policies for managed apps.
 
@@ -161,6 +172,9 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
     -   Using the software and hardware reports available in Intune.
 
+	> [!IMPORTANT]
+	> FastTrack do not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 device management through Intune mobile device management (MDM).
+
 Microsoft also connects you with guidance about how to drive successful adoption of the eligible services.
 
 ![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mam.png)
@@ -169,6 +183,9 @@ Microsoft also connects you with guidance about how to drive successful adoption
 
 ![Onboarding enable phase - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
-**Want to learn more?**
+> [!NOTE]
+> **Want to learn more?** see [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility).
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## Next steps
+
+[FastTrack benefit for EMS - Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
