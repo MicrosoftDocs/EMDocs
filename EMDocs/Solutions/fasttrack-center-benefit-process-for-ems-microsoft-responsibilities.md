@@ -2,12 +2,12 @@
 # required metadata
 
 title: Microsoft responsibilities
-description: Microsoft's responsibilities when customers are using the FastTrack Center Benefit
+description: Microsoft's responsibilities when customers are using the FastTrack Center Benefit for EMS
 keywords:
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 10/23/2017
+author: andredm7
+ms.author: andredm
+manager:
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -34,11 +34,9 @@ Microsoft has the following responsibilities during onboarding.
 
 -   Provide remote support assistance to you for the required configuration activities as listed in the detailed phase descriptions.
 
--   Provide available documentation and software tools, admin consoles, and scripts to help you reduce or eliminate configuration tasks.
+-   Provide available documentation, software tools and admin consoles to help you reduce or eliminate configuration tasks.
 
 ## Initiate phase
-
--   Contact you within 30 days of the purchase of eligible licenses for a new tenant.
 
 -   Work with you to begin onboarding.
 
@@ -60,18 +58,16 @@ Microsoft has the following responsibilities during onboarding.
 
 -   Establish the timeline for remediation activities.
 
--   Provide a remediation checklist.
+-   Provide a remediation checklist for both Intune and Azure AD Premium.
 
 ## Remediate phase
 
--   Hold conference calls with you according to the agreed-upon schedule to review the progress of the remediation activities.
-
--   Assist with running tools to identify and remediate issues and with interpreting the results.
+-   Hold conference calls with you according to the agreed-upon schedule to review the progress of the remediation activities, for example, guide you through installation pre-requisites prior onboarding a Microsoft cloud service.
 
 ## Enable phase
 Provide guidance about:
 
--   Activating your Microsoft online service tenant.
+-   Activating your Microsoft online service tenant or subscription.
 
 -   Configuring TCP/IP protocols and firewall ports.
 
@@ -81,9 +77,9 @@ Provide guidance about:
 
 -   For a single-forest environment:
 
-    -   Installing a directory synchronization server between your Active Directory Domain Services (AD DS) and the eligible Microsoft online services (if required).
+    -   Installing a directory synchronization server between your Active Directory Domain Services (AD DS) and the eligible Microsoft online services (only guidance if required).
 
-    -   Configuring password synchronization (password hash) to Microsoft Intune (Azure Active Directory) with the Azure Active Directory Connect tool.
+    -   Configuring password synchronization (password hash) to Microsoft Intune (Azure Active Directory) with the Azure Active Directory Connect tool. (only guidance if required).
 
         > [!NOTE]
         > Development and implementation for custom rules extensions are out of scope.
@@ -176,17 +172,21 @@ Provide guidance about setting up:
   - Administrative notifications and alerts.
 
 ### Enable phase - Intune
+
+> [!IMPORTANT]
+> FastTrack do not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 management through Intune mobile device management (MDM).
+
 Provide guidance about:
 
--   Licensing your end users.
+-   Configuring identities to be used by Intune, by either leveraging your on-premises Active Directory or cloud identities (Azure Active Directory).
 
--   Configuring identities to be used by Intune, by either leveraging your on-premises Active Directory or cloud identities.
+-   Licensing your end users.
 
 -   Adding users to your Intune subscription, defining IT admin roles, and creating user and device groups.
 
 -   Configuring your Mobile Device Management MDM) authority, based on your management needs, including:
 
-    -   Setting Intune as your MDM authority when Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
+    -   Setting Intune as your MDM authority when Intune is your only MDM solution.
 
     -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
@@ -194,33 +194,44 @@ Provide guidance about:
         > If you only want to leverage MDM over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
 
     -   Configuring tests groups to be used to validate MDM management policies.
+    
+    -   Navigating the Intune admin portal to locate information on users and devices.
+    
+    -   Setting up Intune roles (Help desk operator, admins, etc.)
 
     -   Configuring MDM management policies and services like:
 
-        -   Application deployment for each supported platform through web links or deep links.
-
-        -   Conditional access policies.
+        -   App deployment for each supported platform through web links, MSI and/or deep links.
+	
+        -   Deploying Office ProPlus onto Windows 10 devices.
+	
+        -   Volume purchase programs for app deployment, including Apple's VPP, Windows Store for Business, and Google's Play for Work Store.
 
         -   Deployment of e-mail, wireless networks, and VPN profiles if you have an existing certificate authority, Wi-Fi or VPN infrastructure in your organization.
 
         -   Setting up the Microsoft Intune Exchange Connector (when applicable).
+	
+        -   Device configuration profiles for supported device platforms.
 
+    -   Setting up conditional access policies.
+    
+    -   Configuring and deploying Intune app protection policies for each supported platform.
+    
+    -   Preparing line-of-business (LOB) apps for Intune app protection policies, with guidance on available options. 
+    
     -   Enrolling devices of each supported platform to your Intune or Configuration Manager with Microsoft Intune service.
+    
+    -   Connecting to Intune Data Warehouse.
+    
+    -   Integrating Intune with Team Viewer for remote assistance, Mobile Threat Defense partners, and Telecom Expense partners (third party product licensing not included with Intune subscription).
+    
+    -   Configuring Software updates for applicable supported platforms.
+    
+    -   Resources for user adoption planning.
 
-    -   Using hardware and software inventory reports.
+> [!NOTE] 
+> **Want to learn more?** see [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).
 
-    -   Configuring MAM policies for each supported platform.
+## Next steps
 
-    -   Configuring conditional access policies for managed apps.
-
-    -   Targeting the appropriate user groups with the above MAM policies.
-
-    -   Using managed-applications usage reports.
-
-    -   Installing the Intune client software (when needed).
-
-    -   Using the software and hardware reports available in Intune.
-
-**Want to learn more?**
-
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+[FastTrack benefit for EMS - Your responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
