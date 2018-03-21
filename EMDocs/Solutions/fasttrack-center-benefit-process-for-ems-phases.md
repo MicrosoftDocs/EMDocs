@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 03/20/2018
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -137,9 +137,6 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
     -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
-        > [!NOTE]
-        > If you only want to leverage MDM over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority isn't required.
-
 -   Providing MDM guidance for:
 
     -   Configuring tests groups to be used to validate MDM management policies.
@@ -173,7 +170,7 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
     -   Using the software and hardware reports available in Intune.
 
 	> [!IMPORTANT]
-	> FastTrack do not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 device management through Intune mobile device management (MDM).
+	> FastTrack does not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 device management through Intune mobile device management (MDM).
 
 Microsoft also connects you with guidance about how to drive successful adoption of the eligible services.
 
