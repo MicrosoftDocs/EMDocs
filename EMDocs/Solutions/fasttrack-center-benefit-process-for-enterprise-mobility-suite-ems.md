@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 03/09/2018
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -27,7 +27,7 @@ ms.suite: ems
 ---
 
 # FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)
-If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with Microsoft specialists to get Microsoft Azure Active Directory Premium and Microsoft Intune ready for use. You can also request help through the [FastTrack site](http://fasttrack.microsoft.com/ems) for Azure Information Protection, Microsoft Cloud App Security and Microsoft Advanced Threat Analytics. To learn whether your organization is eligible, see [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with FastTrack specialists to get Microsoft Azure Active Directory Premium and Microsoft Intune ready for use. You can also request help through the [FastTrack site](http://fasttrack.microsoft.com/ems) for Azure Information Protection, Microsoft Cloud App Security and Microsoft Advanced Threat Analytics. To learn whether your organization is eligible, see [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
 Here's what we cover about the onboarding process:
@@ -50,7 +50,7 @@ Here’s what you can expect when onboarding is complete:
 
     -   Cloud Identities (unique EMS accounts).
 
-    -   Synchronized Identities: EMS accounts synchronized from your on-premises Active Directory by using the Azure Active Directory Connect tool. This option is for customers with a single forest or multiple Active Directory forests.
+    -   Synchronized Identities: EMS accounts synchronized from your on-premises Active Directory by using the Azure Active Directory Connect tool (Password Hash Sync or Pass-through Authentication). This option is for customers with a single forest or multiple Active Directory forests.
 
     -   Federated Identities--with Microsoft EMS accounts that are:
 
