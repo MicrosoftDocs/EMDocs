@@ -1,4 +1,11 @@
 { 
+    "redirections": [ 
+    { 
+          "source_path": "emdocs/solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md",
+          "redirect_url": "emdocs/solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities", 
+          "redirect_document_id": true 
+      },   
+{ 
   "redirections": [ 
   { 
         "source_path": "emdocs/solutions/enable-byod.md",
