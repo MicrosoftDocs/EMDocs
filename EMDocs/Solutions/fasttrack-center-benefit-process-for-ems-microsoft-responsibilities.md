@@ -174,7 +174,7 @@ Provide guidance about setting up:
 ### Enable phase - Intune
 
 > [!IMPORTANT]
-> FastTrack do not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 management through Intune mobile device management (MDM).
+> FastTrack does not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 management through Intune mobile device management (MDM).
 
 Provide guidance about:
 
@@ -189,9 +189,6 @@ Provide guidance about:
     -   Setting Intune as your MDM authority when Intune is your only MDM solution.
 
     -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
-
-        > [!NOTE]
-        > If you only want to leverage MDM over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
 
     -   Configuring tests groups to be used to validate MDM management policies.
     
