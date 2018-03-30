@@ -186,9 +186,6 @@ Provide guidance about:
 
     -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
-        > [!NOTE]
-        > If you only want to leverage MDM over your end-users' owned devices, shared devices, or kiosk-type devices, setting up an MDM authority is not required.
-
     -   Configuring tests groups to be used to validate MDM management policies.
 
     -   Navigating the Intune admin portal to locate information on users and devices.
