@@ -38,7 +38,7 @@ Here's what we cover about the onboarding process:
 
 -   [Phases of the onboarding process](fasttrack-center-benefit-process-for-ems-phases.md)
 
--   [Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) for each phase
+-   [FastTrack responsibilities](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md) for each phase
 
 -   [Customer responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) for each phase
 

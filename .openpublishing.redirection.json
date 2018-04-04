@@ -1,6 +1,11 @@
-{ 
+ { 
   "redirections": [ 
-  { 
+    { 
+        "source_path": "emdocs/solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md",
+        "redirect_url": "emdocs/solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities", 
+        "redirect_document_id": true 
+    },   
+    { 
         "source_path": "emdocs/solutions/enable-byod.md",
         "redirect_url": "/intune/byod-enable", 
         "redirect_document_id": true 
@@ -375,13 +380,13 @@
         "redirect_url": "/intune/app-management", 
         "redirect_document_id": false 
     },
-	{ 
+    { 
         "source_path": "microsoft-365-enterprise/architecture-models-posters.md",
         "redirect_url": "/microsoft-365/enterprise/architecture-models-posters", 
         "redirect_document_id": true 
     },
 	{ 
-        "source_path": "microsoft-365-enterprise/deploy-office-proplus-intune.md",
+       "source_path": "microsoft-365-enterprise/deploy-office-proplus-intune.md",
         "redirect_url": "/microsoft-365/enterprise/deploy-office-proplus-intune", 
         "redirect_document_id": true 
     },

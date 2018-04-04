@@ -39,7 +39,7 @@ Onboarding has four primary phases:
 
 After you purchase the appropriate number of licenses, follow the guidance from the purchase confirmation email to associate the licenses to your existing tenant or new tenant. Microsoft then verifies your eligibility for the FastTrack Center Benefit and tries to contact you to offer onboarding assistance.
 
-> [!NOTE] 
+> [!NOTE]
 > You can also request assistance from the [FastTrack Center](http://fasttrack.microsoft.com/) if you're ready to deploy these services for your organization.
 
 ### To request assistance
@@ -85,7 +85,7 @@ Core onboarding involves service provisioning and tenant and identity integratio
 > A managed authentication method includes, but is not limited to Password Hash Sync.
 
 > [!NOTE]
-> Identity integration is a one time activity and does not include migrating or decommissioning of existing authentication methods, such as managed or federated. 
+> Identity integration is a one time activity and does not include migrating or decommissioning of existing authentication methods, such as managed or federated.
 
 ### Enable phase - Azure AD Premium
 
@@ -114,10 +114,6 @@ Azure AD Premium setup includes enabling the following features:
 -   Privileged Identity Management.
 
 -   Azure Active Directory Conditional Access.
-
--   Usage and security reports to administrators.
-
--   Administrative notification and alerts.
 
 ![Onboarding enable phase - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
@@ -185,4 +181,4 @@ Microsoft also connects you with guidance about how to drive successful adoption
 
 ## Next steps
 
-[FastTrack benefit for EMS - Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+[FastTrack benefit for EMS - Microsoft responsibilities](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md)
