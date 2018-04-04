@@ -1,13 +1,13 @@
 ---
 # required metadata
 
-title: Microsoft responsibilities
-description: Microsoft's responsibilities when customers are using the FastTrack Center Benefit for EMS
+title: FastTrack responsibilities
+description: FastTrack's responsibilities when customers are using the FastTrack Center Benefit for EMS
 keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 03/21/2018
+ms.date: 03/26/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -26,9 +26,9 @@ ms.suite: ems
 
 ---
 
-# Microsoft responsibilities
+# FastTrack responsibilities
 
-Microsoft has the following responsibilities during onboarding.
+FastTrack has the following responsibilities during onboarding.
 
 ## General
 
@@ -79,7 +79,7 @@ Provide guidance about:
 
     -   Installing a directory synchronization server between your Active Directory Domain Services (AD DS) and the eligible Microsoft online services (only guidance if required).
 
-    -   Configuring password synchronization (password hash) to Microsoft Intune (Azure Active Directory) with the Azure Active Directory Connect tool. (only guidance if required).
+    -   Configuring managed authentication (Password Hash Sync or Pass-through Authentication) with the Azure Active Directory Connect tool. (only guidance if required).
 
         > [!NOTE]
         > Development and implementation for custom rules extensions are out of scope.
@@ -114,14 +114,14 @@ Provide guidance about:
     -   Installing Azure AD Connect synchronization, set up for multiple forest scenarios.
 -   For single- and multiple-forest environments:
     -   Configuring Azure Active Directory Pass-through Authentication, if required.
-    -   Configuring Azure Active Directory Seamless Single Sign-On (SSO), if required. 
+    -   Configuring Azure Active Directory Seamless Single Sign-On (SSO), if required.
         > [!NOTE]
-        > Azure Active Directory Pass-through Authentication for multiple-forest environments is supported if there are forest trusts between your Active Directory forests and if name suffix routing is correctly configured. Additional agents can be installed on multiple on-premises servers to provide high availability for sign-in requests. 
+        > Azure Active Directory Pass-through Authentication for multiple-forest environments is supported if there are forest trusts between your Active Directory forests and if name suffix routing is correctly configured. Additional agents can be installed on multiple on-premises servers to provide high availability for sign-in requests.
 
     - For more information, see [Azure Active Directory Pass-through Authentication: Quick start] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) and [Azure Active Directory Seamless Single Sign-On: Quick start] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
     - For more information about pass-through authentication limits, see [Azure Active Directory Pass-through Authentication: Current limitations] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
     - For more information about Seamless SSO issues, see [Troubleshoot Azure Active Directory Seamless Single Sign-On] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
-  
+
 		> [!NOTE]
         > Password hash sync and password writeback support multiple forests. However, other writeback scenarios aren't supported.
 
@@ -164,12 +164,8 @@ Provide guidance about setting up:
   - Identity Protection.
 
   - Privileged Identity Management.
-  
-  - Azure Active Directory Conditional Access. 
 
-  - Usage and security reports to administrators.
-
-  - Administrative notifications and alerts.
+  - Azure Active Directory Conditional Access.
 
 ### Enable phase - Intune
 
@@ -191,42 +187,42 @@ Provide guidance about:
     -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
     -   Configuring tests groups to be used to validate MDM management policies.
-    
+
     -   Navigating the Intune admin portal to locate information on users and devices.
-    
+
     -   Setting up Intune roles (Help desk operator, admins, etc.)
 
     -   Configuring MDM management policies and services like:
 
         -   App deployment for each supported platform through web links, MSI and/or deep links.
-	
+
         -   Deploying Office ProPlus onto Windows 10 devices.
-	
+
         -   Volume purchase programs for app deployment, including Apple's VPP, Windows Store for Business, and Google's Play for Work Store.
 
         -   Deployment of e-mail, wireless networks, and VPN profiles if you have an existing certificate authority, Wi-Fi or VPN infrastructure in your organization.
 
         -   Setting up the Microsoft Intune Exchange Connector (when applicable).
-	
+
         -   Device configuration profiles for supported device platforms.
 
     -   Setting up conditional access policies.
-    
+
     -   Configuring and deploying Intune app protection policies for each supported platform.
-    
-    -   Preparing line-of-business (LOB) apps for Intune app protection policies, with guidance on available options. 
-    
+
+    -   Preparing line-of-business (LOB) apps for Intune app protection policies, with guidance on available options.
+
     -   Enrolling devices of each supported platform to your Intune or Configuration Manager with Microsoft Intune service.
-    
+
     -   Connecting to Intune Data Warehouse.
-    
+
     -   Integrating Intune with Team Viewer for remote assistance, Mobile Threat Defense partners, and Telecom Expense partners (third party product licensing not included with Intune subscription).
-    
+
     -   Configuring Software updates for applicable supported platforms.
-    
+
     -   Resources for user adoption planning.
 
-> [!NOTE] 
+> [!NOTE]
 > **Want to learn more?** see [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).
 
 ## Next steps
