@@ -95,57 +95,57 @@ Provide guidance about:
 
 Provide guidance about:
 
--   Activating your Azure AD Premium tenant.
+- Activating your Azure AD Premium tenant.
 
--   Configuring firewall ports.
+- Configuring firewall ports.
 
--   Configuring DNS for eligible services.
+- Configuring DNS for eligible services.
 
--   Validating connectivity to Azure AD Premium services.
+- Validating connectivity to Azure AD Premium services.
 
--   For a single-forest environment:
+- For a single-forest environment:
 
-    -   Installing a directory synchronization between your Active Directory Domain Services (AD DS) and Azure AD Connect, if required.
+  -   Installing a directory synchronization between your Active Directory Domain Services (AD DS) and Azure AD Connect, if required.
 
-    -   Configuring an authentication method (Password Hash Sync or Pass-Through Authentication) with the Azure AD Connect tool.
+  -   Configuring an authentication method (Password Hash Sync or Pass-Through Authentication) with the Azure AD Connect tool.
 
--   For a multiple-forest environment:
+- For a multiple-forest environment:
 
-    -   Installing Azure AD Connect synchronization, set up for multiple forest scenarios.
--   For single- and multiple-forest environments:
-    -   Configuring Azure Active Directory Pass-through Authentication, if required.
-    -   Configuring Azure Active Directory Seamless Single Sign-On (SSO), if required.
-        > [!NOTE]
-        > Azure Active Directory Pass-through Authentication for multiple-forest environments is supported if there are forest trusts between your Active Directory forests and if name suffix routing is correctly configured. Additional agents can be installed on multiple on-premises servers to provide high availability for sign-in requests.
+  -   Installing Azure AD Connect synchronization, set up for multiple forest scenarios.
+- For single- and multiple-forest environments:
+  - Configuring Azure Active Directory Pass-through Authentication, if required.
+  - Configuring Azure Active Directory Seamless Single Sign-On (SSO), if required.
+    > [!NOTE]
+    > Azure Active Directory Pass-through Authentication for multiple-forest environments is supported if there are forest trusts between your Active Directory forests and if name suffix routing is correctly configured. Additional agents can be installed on multiple on-premises servers to provide high availability for sign-in requests.
 
-    - For more information, see [Azure Active Directory Pass-through Authentication: Quick start] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) and [Azure Active Directory Seamless Single Sign-On: Quick start] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
-    - For more information about pass-through authentication limits, see [Azure Active Directory Pass-through Authentication: Current limitations] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
-    - For more information about Seamless SSO issues, see [Troubleshoot Azure Active Directory Seamless Single Sign-On] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
+  - For more information, see [Azure Active Directory Pass-through Authentication: Quick start](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) and [Azure Active Directory Seamless Single Sign-On: Quick start](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
+  - For more information about pass-through authentication limits, see [Azure Active Directory Pass-through Authentication: Current limitations](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
+  - For more information about Seamless SSO issues, see [Troubleshoot Azure Active Directory Seamless Single Sign-On](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
 
-		> [!NOTE]
-        > Password hash sync and password writeback support multiple forests. However, other writeback scenarios aren't supported.
+      > [!NOTE]
+      > Password hash sync and password writeback support multiple forests. However, other writeback scenarios aren't supported.
 
-    -   Configuring synchronization between on-premises Active Directory forests and Microsoft Azure Active Directory Premium directory (Azure Active Directory).
-
-        > [!NOTE]
-        > Development and implementation for custom rules extensions are out of scope.
-
--   For a single forest when the target is federated identities:
-
-    -   Installing and configuring AD FS for local domain authentication with Azure AD Premium in a single-site, fault-tolerant configuration (if required).
+  - Configuring synchronization between on-premises Active Directory forests and Microsoft Azure Active Directory Premium directory (Azure Active Directory).
 
     > [!NOTE]
-    > For all multiple forest configurations, AD FS deployments are out of scope.
+    > Development and implementation for custom rules extensions are out of scope.
 
--   Testing SSO functionality (if deployed).
+- For a single forest when the target is federated identities:
+
+  -   Installing and configuring AD FS for local domain authentication with Azure AD Premium in a single-site, fault-tolerant configuration (if required).
+
+  > [!NOTE]
+  > For all multiple forest configurations, AD FS deployments are out of scope.
+
+- Testing SSO functionality (if deployed).
 
 ### Enable phase - Azure AD Premium--with Azure AD Connect and AD FS
 
 Provide guidance about setting up:
 
--   User provisioning, including licensing.
+- User provisioning, including licensing.
 
--   Azure AD Connect directory synchronization (with password writeback and password hash sync).
+- Azure AD Connect directory synchronization (with password writeback and password hash sync).
 
   - Self Service Password Reset (SSPR).
 

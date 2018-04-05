@@ -15,15 +15,15 @@
       }
     ],
     "resource": [
-        {
-          "files": [
-          "**/images/**", 
+      {
+        "files": [
+          "**/images/**",
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
           "**/*.bmp",
           "**/*.html"
-          ],
+        ],
         "exclude": [
           "**/obj/**",
           "_themes/**",
@@ -36,6 +36,7 @@
     "globalMetadata": {
       "layout": "Conceptual",
       "breadcrumb_path": "/enterprise-mobility-security/toc.json"
-    }
+    },
+    "markdownEngineName": "markdig"
   }
 }
