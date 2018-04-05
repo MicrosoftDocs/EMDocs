@@ -108,11 +108,11 @@ End users can then access your on-premises applications the same way they access
 ## How to implement this solution
 The following steps describe how to implement each Azure AD capability previously discussed. Each link represents a different set of articles with a different set of instructions/steps to be implemented in your organization:
 1. [Enable single sign-on with application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
-- [Provide secure remote access to on-premises applications.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
-  - [Working with custom domains in Azure AD application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
-  - [Working with claims aware apps in application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
-  - [Working with conditional access for apps published using application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
-- [Bring your own apps to Azure AD.](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
+2. [Provide secure remote access to on-premises applications.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
+   - [Working with custom domains in Azure AD application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
+   - [Working with claims aware apps in application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
+   - [Working with conditional access for apps published using application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
+3. [Bring your own apps to Azure AD.](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
 
 ## Additional resources
 - **App Gallery on Azure.com**
