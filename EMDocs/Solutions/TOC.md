@@ -18,6 +18,6 @@
 ### [The FastTrack process](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
 #### [Overview](fasttrack-center-benefit-process-for-ems-overview.md)
 #### [Source environment expectations](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-#### [Onboarding and migration phases](fasttrack-center-benefit-process-for-ems-phases.md)
+#### [Onboarding phases](fasttrack-center-benefit-process-for-ems-phases.md)
 #### [FastTrack responsibilities](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md)
 #### [Your responsibilities](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
