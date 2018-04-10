@@ -166,6 +166,8 @@ Provide guidance about setting up:
   - Privileged Identity Management.
 
   - Azure Active Directory Conditional Access.
+  
+  - Hybrid Azure AD Join
 
 ### Enable phase - Intune
 
