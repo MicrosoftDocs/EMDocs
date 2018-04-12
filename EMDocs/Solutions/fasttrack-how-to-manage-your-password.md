@@ -39,7 +39,7 @@ The fastest way to register for password reset is to go to [http://aka.ms/ssprse
 ![Screenshot showing blahblah](./media/ft-mngPW-1-setup.png)
 4.	Select your country code from the dropdown and enter your full phone number with area code.
 ![Screenshot showing how to select a country code. ](./media/ft-mngPW-2-enterNumber.png)![Screenshot showing where to enter a phone number.](./media/ft-mngPW-3-enterNumber2.png)
-5.	Select one of the **text me** or **call me** options. In this case, I'll select **text me**, which will send a 6 digit code to my phone. Wait for the code to arrive on your phone.
+5.	Select one of the **text me** or **call me** options. In this case, I'll select **text me**, which will send a 6 digit code to my phone. Wait for the code to arrive on your phone.  
 ![Screenshot showing a 6-digit code that has been sent to a phone.](./media/ft-mngPW-4-textCode.png)
 6.	Once the code arrives, enter it into the input box, then click "verify".
 7.	When you see **thanks**, that's it! Now you can use what you registered for to reset your password at any time by going to [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com).
@@ -70,7 +70,7 @@ Follow the steps below to reset your work or school account password from any wo
    ![Screenshot prompting user to choose the method in which they want to be contacted for verification.](./media/ft-mngPW-8-answerQuestions.png)
 5. We'll use the **text my mobile phone** option as an example. If you are using a phone-based option, you'll need to verify your phone number before we'll send a text. Enter your full phone number and then click **Next** to verify it's correct and send a text.
    ![Screenshot showing that user needs to enter phone number where they will receive the verification text message.](./media/ft-mngPW-9-textNumber.png)
-6. When you receive the text, make sure you use the verification code in the message body, not the number the code was sent from. It might take a few minutes to get the text, so grab a coffee!
+6. When you receive the text, make sure you use the verification code in the message body, not the number the code was sent from. It might take a few minutes to get the text, so grab a coffee!  
    ![Screenshot showing the verification code that was received.](./media/ft-mngPW-10-verificationCode.png)
 7. Now, enter the code you just received on your phone into the input box on the page.
    ![Screenshot showing that user must enter the verification code they just received.](./media/ft-mngPW-11-enterCode.png)
