@@ -168,14 +168,6 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 	> [!IMPORTANT]
 	> FastTrack does not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 device management through Intune mobile device management (MDM).
 
-FastTrack also provides you guidance on how to drive successful adoption of the eligible services.
-
-![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mam.png)
-
-![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
-
-![Onboarding enable phase - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
-
 #### Co-management
 
 FastTrack guides you through getting ready to concurrently manage Windows 10 devices with both Configuration Manager and Intune. The exact steps depend on your source environment, the steps can include:
@@ -204,7 +196,15 @@ FastTrack guides you through getting ready to concurrently manage Windows 10 dev
 
 - Provide guidance on how to monitor the Co-management activity in your environment.
 
-![Onboarding enable phase - Co-management](./media/.png)
+FastTrack also provides you guidance on how to drive successful adoption of the eligible services.
+
+![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mam.png)
+
+![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
+
+![Onboarding enable phase - Co-management](./media/ft-9-enable-phase-comanagement.png)
+
+![Onboarding enable phase - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
 > [!NOTE]
 > **Want to learn more?** see [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility).
