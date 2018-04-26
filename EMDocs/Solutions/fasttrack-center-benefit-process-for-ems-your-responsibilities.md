@@ -74,6 +74,10 @@ You have the following responsibilities during onboarding.
 
 -   Write the organization’s Terms of Use (TOU) statement to be configured and displayed on the Microsoft Intune company portal that end users can access.
 
+-   Sign up for Team Viewer, Mobile Threat Defense and Telecom expense management solution subscriptions.
+
+-   Sign up for Windows Defender Advanced Threat Protection licenses. (Windows or Microsoft E5 licenses).
+
 ## Initiate phase
 
 -   Work with the FastTrack team to begin onboarding of eligible services.

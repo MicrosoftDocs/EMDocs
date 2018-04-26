@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 03/26/2018
+ms.date: 04/26/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -174,7 +174,7 @@ Provide guidance about setting up:
 > [!IMPORTANT]
 > FastTrack does not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 management through Intune mobile device management (MDM).
 
-Provide guidance about:
+Provide **guidance** about:
 
 -   Configuring identities to be used by Intune, by either leveraging your on-premises Active Directory or cloud identities (Azure Active Directory).
 
@@ -218,7 +218,14 @@ Provide guidance about:
 
     -   Connecting to Intune Data Warehouse.
 
-    -   Integrating Intune with Team Viewer for remote assistance, Mobile Threat Defense partners, and Telecom Expense partners (third party product licensing not included with Intune subscription).
+    -   Integrating Intune with:
+	    -   Team Viewer for remote assistance (Team Viewer subscription is required).
+
+	    -   Mobile Threat Defense partner solutions (Mobile Threat Defense partner solution subscription is required).
+
+	    -   Telecom expense management solutions (Telecom expense management solution subscription is required).
+
+	    -   Windows Defender Advanced Threat Protection (Windows or Microsoft 365 E5 licenses are required).
 
     -   Configuring Software updates for applicable supported platforms.
 
