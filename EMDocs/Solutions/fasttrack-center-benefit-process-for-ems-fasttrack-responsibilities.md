@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 04/26/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -225,7 +225,7 @@ Provide **guidance** about:
 
 	    -   Telecom expense management solutions (Telecom expense management solution subscription is required).
 
-	    -   Windows Defender Advanced Threat Protection (Windows or Microsoft 365 E5 licenses are required).
+	    -   Windows Defender Advanced Threat Protection (Windows E5 or Microsoft 365 E5 licenses are required).
 
     -   Configuring Software updates for applicable supported platforms.
 
