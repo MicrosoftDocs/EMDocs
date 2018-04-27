@@ -82,10 +82,10 @@ Core onboarding involves service provisioning and tenant and identity integratio
 
 ![Onboarding enable phase - Core capabilities](./media/ft-enable-phase-core-02.png)
 > [!NOTE]
-> A managed authentication method includes, but is not limited to Password Hash Sync.
+> WAP stands for Web Application Proxy. SSL stands for Secure Sockets Layer. SDS stands for School Data Sync. For more information on SDS, see [Welcome to Microsoft School Data Sync](https://go.microsoft.com/fwlink/?linkid=871480).
 
 > [!NOTE]
-> Identity integration is a one time activity and does not include migrating or decommissioning of existing authentication methods, such as managed or federated.
+> A managed authentication method includes, but is not limited to password hash synchronization. Identity integration is a one time activity and does not include migrating or decommissioning of existing authentication methods, such as managed or federated.
 
 ### Enable phase - Azure AD Premium
 
