@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 03/21/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -73,6 +73,10 @@ You have the following responsibilities during onboarding.
 - 	If needed for deploying Wi-Fi and VPN profiles with Intune, provide and configure certificate authority, Wi-Fi and VPN infrastructures as needed.
 
 -   Write the organization’s Terms of Use (TOU) statement to be configured and displayed on the Microsoft Intune company portal that end users can access.
+
+-   Sign up for Team Viewer, Mobile Threat Defense and Telecom expense management solution subscriptions.
+
+-   Sign up for Windows Defender Advanced Threat Protection licenses. (Windows E5 or Microsoft E5 licenses).
 
 ## Initiate phase
 

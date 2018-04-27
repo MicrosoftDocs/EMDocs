@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 03/21/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -146,6 +146,17 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
         -   Deployment of email, wireless networks, and virtual private network (VPN) profiles if you have an existing  certificate authority, Wi-Fi or VPN infrastructure in your organization.
 
         -   Setting up the Microsoft Intune Exchange Connector (when applicable).
+
+        -   Connecting to Intune Data Warehouse
+
+        -   Integrating Intune with:
+	        -   Team Viewer for remote assistance (Team viewer subscription is required).
+
+	        -   Mobile Threat Defense (MTD) partner solutions (Mobile Threat Defense subcription is required).
+
+	        -   Telecom expense management solution (Telecom expense management solution subscription is required).
+
+	        -   Windows Defender Advanced Threat Protection (Windows E5 or Microsoft 365 E5 licenses are required).
 
     -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to your Intune or Configuration Manager with Intune service.
 
