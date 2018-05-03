@@ -28,12 +28,7 @@
         - name: AD Graph API
           href: /azure-ad-graph-api/api/
           homepage: /azure-ad-graph-api/api/api-catalog
-    - name: Multi-factor Authentication
-      href: /azure/multi-factor-authentication/
-      homepage: /azure/multi-factor-authentication
-    - name: Cloud App Security
-      href: /cloud-app-security/
-      homepage: /cloud-app-security
+
     - name: Advanced Threat Analytics
       href: /advanced-threat-analytics/
       homepage: /advanced-threat-analytics
@@ -97,62 +92,7 @@
           href: /intune-classic/whats-new/
           homepage: /intune-classic/whats-new/whats-new-in-microsoft-intune
 
-    - name: Azure Information Protection
-      href: /information-protection/
-      homepage: /information-protection
-      items:
-        - name: Understand & Explore
-          href: /information-protection/understand-explore/
-          homepage: /information-protection/understand-explore/what-is-azure-rights-management
-        - name: Get Started
-          href: /information-protection/get-started/
-          homepage: /information-protection/get-started/requirements-for-azure-rights-management
-        - name: Plan & Design
-          href: /information-protection/plan-design/
-          homepage: /information-protection/plan-design/deployment-roadmap
-        - name: Deploy & Use the Service
-          href: /information-protection/deploy-use/
-          homepage: /information-protection/deploy-use/activate-service
-        - name: Deploy & Use the Client
-          href: /information-protection/rms-client/
-          homepage: /information-protection/rms-client/use-client
-        - name: Develop & Customize Apps
-          href: /information-protection/develop/
-          homepage: /information-protection/develop/developers-guide
-          items:
-          - name: SDK 4.2
-            href: /information-protection/sdk/4.2/api/
-            homepage: /information-protection/develop/api-reference-4-2
-            items:
-            - name: Android
-              href: /information-protection/sdk/4.2/api/android/
-              homepage: /information-protection/develop/android-namespaces
-            - name: iOS
-              href: /information-protection/sdk/4.2/api/iOS/
-              homepage: /information-protection/sdk/4.2/api/iOS/iOS
-            - name: WinRT
-              href: /information-protection/sdk/4.2/api/winrt/
-              homepage: /information-protection/sdk/4.2/api/winrt/Microsoft.RightsManagement
-          - name: SDK 2.1
-            href: /information-protection/sdk/2.1/api/
-            homepage: /information-protection/develop/api-reference-2-1
-            items:
-            - name: Win
-              href: /information-protection/sdk/2.1/api/win/
-              homepage: /information-protection/develop/api-reference-2-1
-              items:
-              - name: Constants
-                href: /information-protection/sdk/2.1/api/win/constants/
-                homepage: /information-protection/sdk/2.1/api/win/constants
-              - name: Data Types
-                href: /information-protection/sdk/2.1/api/win/data%20types/
-                homepage: /information-protection/sdk/2.1/api/win/data%20types
-              - name: Functions
-                href: /information-protection/sdk/2.1/api/win/functions/
-                homepage: /information-protection/sdk/2.1/api/win/functions
-              - name: Structures
-                href: /information-protection/sdk/2.1/api/win/structures/
-                homepage: /information-protection/sdk/2.1/api/win/structures
+
     - name: Microsoft Identity Manager
       href: /microsoft-identity-manager/
       homepage: /microsoft-identity-manager
