@@ -86,7 +86,7 @@ featureFlags:
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Cloud App Security</h3>
+                                                    <h3>Microsoft Cloud App Security</h3>
                                                     <p>Gain deep visibility, comprehensive controls, and enhanced SaaS security</p>
                                                 </div>
                                             </div>
