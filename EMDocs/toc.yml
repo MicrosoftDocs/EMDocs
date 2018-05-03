@@ -1,201 +1,117 @@
 - name: Docs
-  href: /
-  homepage: /
+  tocHref: /
+  topicHref: /
   items:
   - name: Enterprise Mobility + Security
-    href: /enterprise-mobility-security/
-    homepage: /enterprise-mobility-security
+    tocHref: /enterprise-mobility-security/
+    topicHref: /enterprise-mobility-security
     items:
     - name: Solutions
-      href: /enterprise-mobility-security/solutions/
-      homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
-    - name: Azure RemoteApp
-      href: /azure/remoteapp/
-      homepage: /azure/remoteapp/remoteapp-whatis
+      tocHref: /enterprise-mobility-security/solutions/
+      topicHref: /enterprise-mobility/solutions/byod-design-considerations-guide
     - name: Azure Active Directory
-      href: /azure/active-directory/
-      homepage: /azure/active-directory
+      tocHref: /azure/active-directory/
+      topicHref: /azure/active-directory
       items:
         - name: Current
-          href: /active-directory/adal/
-          homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
+          tocHref: /active-directory/adal/
+          topicHref: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
         - name: ADAL v3
-          href: /active-directory/adal/v3/
-          homepage: /active-directory/adal/v3/microsoft.identitymodel.clients.activedirectory
+          tocHref: /active-directory/adal/v3/
+          topicHref: /active-directory/adal/v3/microsoft.identitymodel.clients.activedirectory
         - name: ADAL v2
-          href: /active-directory/adal/v2/
-          homepage: /active-directory/adal/v2/microsoft.identitymodel.clients.activedirectory
+          tocHref: /active-directory/adal/v2/
+          topicHref: /active-directory/adal/v2/microsoft.identitymodel.clients.activedirectory
         - name: AD Graph API
-          href: /azure-ad-graph-api/api/
-          homepage: /azure-ad-graph-api/api/api-catalog
-    - name: Multi-factor Authentication
-      href: /azure/multi-factor-authentication/
-      homepage: /azure/multi-factor-authentication
-    - name: Cloud App Security
-      href: /cloud-app-security/
-      homepage: /cloud-app-security
-    - name: Advanced Threat Analytics
-      href: /advanced-threat-analytics/
-      homepage: /advanced-threat-analytics
-      items:
-        - name: Understand & Explore
-          href: /advanced-threat-analytics/understand-explore/
-          homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
-        - name: Plan & Design
-          href: /advanced-threat-analytics/plan-design/
-          homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
-        - name: Deploy & Use
-          href: /advanced-threat-analytics/deploy-use/
-          homepage: /advanced-threat-analytics/deployuse/configure-port-mirroring
-        - name: Troubleshoot
-          href: /advanced-threat-analytics/troubleshoot/
-          homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
-
-    - name: Azure Threat Protection
-      href: /azure-threat-protection/
-      homepage: /azure-advanced-threat-protection
+          tocHref: /azure-ad-graph-api/api/
+          topicHref: /azure-ad-graph-api/api/api-catalog
 
     - name: Microsoft 365 Enterprise
-      href: /microsoft-365-enterprise/
-      homepage: /microsoft-365-enterprise
+      tocHref: /microsoft-365-enterprise/
+      topicHref: /microsoft-365-enterprise
       items:
         - name: Microsoft 365 Enterprise
-          href: /microsoft-365-enterprise/
-          homepage: /microsoft-365-enterprise
+          tocHref: /microsoft-365-enterprise/
+          topicHref: /microsoft-365-enterprise
 
     - name: Intune
-      href: /intune/
-      homepage: /intune
+      tocHref: /intune/
+      topicHref: /intune
       items:
         - name: Intune for Education
-          href: /intune-education/
-          homepage: /intune-education
+          tocHref: /intune-education/
+          topicHref: /intune-education
 
     - name: Intune - classic console
-      href: /intune-classic/
-      homepage: /intune-classic
+      tocHref: /intune-classic/
+      topicHref: /intune-classic
       items:
         - name: Understand & Explore
-          href: /intune-classic/understand-explore/
-          homepage: /intune-classic/understand-explore/introduction-to-microsoft-intune
+          tocHref: /intune-classic/understand-explore/
+          topicHref: /intune-classic/understand-explore/introduction-to-microsoft-intune
         - name: Plan & Design
-          href: /intune-classic/plan-design/
-          homepage: /intune-classic/plan-design/introduction
+          tocHref: /intune-classic/plan-design/
+          topicHref: /intune-classic/plan-design/introduction
         - name: Deploy & Use
-          href: /intune-classic/deploy-use/
-          homepage: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
+          tocHref: /intune-classic/deploy-use/
+          topicHref: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
         - name: Troubleshoot
-          href: /intune-classic/troubleshoot/
-          homepage: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
+          tocHref: /intune-classic/troubleshoot/
+          topicHref: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
         - name: Get Started
-          href: /intune-classic/get-started/
-          homepage: /intune-classic/get-started/get-started
+          tocHref: /intune-classic/get-started/
+          topicHref: /intune-classic/get-started/get-started
         - name: Develop & Customize Apps
-          href: /intune-classic/develop/
-          homepage: /intune-classic/develop/intune-app-sdk
+          tocHref: /intune-classic/develop/
+          topicHref: /intune-classic/develop/intune-app-sdk
         - name: What's New
-          href: /intune-classic/whats-new/
-          homepage: /intune-classic/whats-new/whats-new-in-microsoft-intune
+          tocHref: /intune-classic/whats-new/
+          topicHref: /intune-classic/whats-new/whats-new-in-microsoft-intune
 
-    - name: Azure Information Protection
-      href: /information-protection/
-      homepage: /information-protection
-      items:
-        - name: Understand & Explore
-          href: /information-protection/understand-explore/
-          homepage: /information-protection/understand-explore/what-is-azure-rights-management
-        - name: Get Started
-          href: /information-protection/get-started/
-          homepage: /information-protection/get-started/requirements-for-azure-rights-management
-        - name: Plan & Design
-          href: /information-protection/plan-design/
-          homepage: /information-protection/plan-design/deployment-roadmap
-        - name: Deploy & Use the Service
-          href: /information-protection/deploy-use/
-          homepage: /information-protection/deploy-use/activate-service
-        - name: Deploy & Use the Client
-          href: /information-protection/rms-client/
-          homepage: /information-protection/rms-client/use-client
-        - name: Develop & Customize Apps
-          href: /information-protection/develop/
-          homepage: /information-protection/develop/developers-guide
-          items:
-          - name: SDK 4.2
-            href: /information-protection/sdk/4.2/api/
-            homepage: /information-protection/develop/api-reference-4-2
-            items:
-            - name: Android
-              href: /information-protection/sdk/4.2/api/android/
-              homepage: /information-protection/develop/android-namespaces
-            - name: iOS
-              href: /information-protection/sdk/4.2/api/iOS/
-              homepage: /information-protection/sdk/4.2/api/iOS/iOS
-            - name: WinRT
-              href: /information-protection/sdk/4.2/api/winrt/
-              homepage: /information-protection/sdk/4.2/api/winrt/Microsoft.RightsManagement
-          - name: SDK 2.1
-            href: /information-protection/sdk/2.1/api/
-            homepage: /information-protection/develop/api-reference-2-1
-            items:
-            - name: Win
-              href: /information-protection/sdk/2.1/api/win/
-              homepage: /information-protection/develop/api-reference-2-1
-              items:
-              - name: Constants
-                href: /information-protection/sdk/2.1/api/win/constants/
-                homepage: /information-protection/sdk/2.1/api/win/constants
-              - name: Data Types
-                href: /information-protection/sdk/2.1/api/win/data%20types/
-                homepage: /information-protection/sdk/2.1/api/win/data%20types
-              - name: Functions
-                href: /information-protection/sdk/2.1/api/win/functions/
-                homepage: /information-protection/sdk/2.1/api/win/functions
-              - name: Structures
-                href: /information-protection/sdk/2.1/api/win/structures/
-                homepage: /information-protection/sdk/2.1/api/win/structures
+
     - name: Microsoft Identity Manager
-      href: /microsoft-identity-manager/
-      homepage: /microsoft-identity-manager
+      tocHref: /microsoft-identity-manager/
+      topicHref: /microsoft-identity-manager
       items:
         - name: Reference
-          href: /microsoft-identity-manager/reference/
-          homepage: /microsoft-identity-manager/reference/journey-develop-applications
+          tocHref: /microsoft-identity-manager/reference/
+          topicHref: /microsoft-identity-manager/reference/journey-develop-applications
         - name: PAM
-          href: /microsoft-identity-manager/pam/
-          homepage: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
+          tocHref: /microsoft-identity-manager/pam/
+          topicHref: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
 
     - name: Configuration Manager
-      href: /sccm/
-      homepage: /sccm
+      tocHref: /sccm/
+      topicHref: /sccm
       items:
         - name: Core infrastructure
-          href: /sccm/core/
-          homepage: /sccm/core/understand/introduction
+          tocHref: /sccm/core/
+          topicHref: /sccm/core/understand/introduction
         - name: Application management
-          href: /sccm/apps/
-          homepage: /sccm/apps/understand/introduction-to-application-management
+          tocHref: /sccm/apps/
+          topicHref: /sccm/apps/understand/introduction-to-application-management
         - name: Device compliance
-          href: /sccm/compliance/
-          homepage: /sccm/compliance/understand/ensure-device-compliance
+          tocHref: /sccm/compliance/
+          topicHref: /sccm/compliance/understand/ensure-device-compliance
         - name: Mobile device management
-          href: /sccm/mdm/
-          homepage: /sccm/mdm/understand/hybrid-mobile-device-management
+          tocHref: /sccm/mdm/
+          topicHref: /sccm/mdm/understand/hybrid-mobile-device-management
         - name: Microsoft Deployment Toolkit
-          href: /sccm/mdt/
-          homepage: /sccm/mdt/whats-new-in-mdt
+          tocHref: /sccm/mdt/
+          topicHref: /sccm/mdt/whats-new-in-mdt
         - name: Operating system deployment
-          href: /sccm/osd/
-          homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
+          tocHref: /sccm/osd/
+          topicHref: /sccm/osd/understand/introduction-to-operating-system-deployment
         - name: Protect data and infrastructure
-          href: /sccm/protect/
-          homepage: /sccm/protect/understand/protect-data-and-site-infrastructure
+          tocHref: /sccm/protect/
+          topicHref: /sccm/protect/understand/protect-data-and-site-infrastructure
         - name: Software update management
-          href: /sccm/sum/
-          homepage: /sccm/sum/understand/software-updates-introduction
+          tocHref: /sccm/sum/
+          topicHref: /sccm/sum/understand/software-updates-introduction
         - name: Develop
-          href: /sccm/develop/
-          homepage: /sccm/develop/core/misc/system-center-configuration-manager-sdk
+          tocHref: /sccm/develop/
+          topicHref: /sccm/develop/core/misc/system-center-configuration-manager-sdk
           items:
             - name: Reference
-              href: /sccm/develop/reference
-              homepage: /sccm/develop/reference/configuration-manager-reference
+              tocHref: /sccm/develop/reference
+              topicHref: /sccm/develop/reference/configuration-manager-reference
