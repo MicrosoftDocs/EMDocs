@@ -79,7 +79,7 @@ Follow the steps below to reset your work or school account password from any wo
    ![Screenshot showing that the user must enter and then confirm a new password.](./media/ft-mngPW-12-clickFinish.png)
 10.	Once you see the success page, you are good to go! You can now sign in with your new password.
     ![Screenshot showing that the password reset process is completed.](./media/ft-mngPW-13-success.png)
-    Run into a problem resetting your password? Read about [common problems and their solutions](https://azure.microsoft.com/en-us/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions).
+    Run into a problem resetting your password? Read about [common problems and their solutions](https://azure.microsoft.com/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions).
 
 ### Want to learn more?
 See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).

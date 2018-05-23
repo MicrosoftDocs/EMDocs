@@ -82,7 +82,7 @@ Risk events are events that were flagged as suspicious by the identity protectio
 
 Microsoft is continuing to invest in this space, and plans to continuously improve the detection accuracy of existing risk events and add new risk event types on an ongoing basis. For example, let’s you can investigate the Impossible travels risk event.
 
-You can find more details on the [Azure AD Identity playbook](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection-playbook/).
+You can find more details on the [Azure AD Identity playbook](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-playbook/).
 
 Here’s an example of a few risk events at the identity protection dashboard:
 
@@ -93,7 +93,7 @@ Within the Impossible travel blade, all flagged incidents are displayed by 1st a
 
 ![Screenshot of Azure AD identity protection dashboard showing locations of "impossible travels" risk events.](./media/cloud-powered-protection/cloud-powered-protection-fig2.png)
 
-You can find more details on the [types of risk events detected by Azure Active Directory Identity Protection](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection-risk-events-types/).
+You can find more details on the [types of risk events detected by Azure Active Directory Identity Protection](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-risk-events-types/).
 
 #### Remediation
 Aside from addressing incidents on an individual incident basis, Azure AD identity protection gives you the capability to address possible issues through a proactive approach by configuring a User risk remediation policy. Within the policy settings, you have the ability to target individual users, groups or all users. You also are able to set the specific condition (s), that will trigger the policy.
@@ -105,7 +105,7 @@ Lastly, you have the option of either blocking access entirely or allowing acces
 - Azure MFA registration
 - A password change
 
-You can find more details on [Azure AD Identity protection](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection/), and on this [Enterprise mobility and security blog post](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/07/azuread-identity-protection-azure-ad-privileged-identity-management-and-azure-ad-premium-p2-will-be-generally-available-sept-15th/).
+You can find more details on [Azure AD Identity protection](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/), and on this [Enterprise mobility and security blog post](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/07/azuread-identity-protection-azure-ad-privileged-identity-management-and-azure-ad-premium-p2-will-be-generally-available-sept-15th/).
 
 ### Azure AD conditional access
 The links below provide you information to use Azure AD conditional access based on Multi-factor authentication (MFA), location, and device policies.
