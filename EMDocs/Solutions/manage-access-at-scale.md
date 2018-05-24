@@ -49,7 +49,7 @@ Azure AD provides automated, advanced user lifecycle management by using dynamic
 ![Graphic that shows how Azure AD Connect syncs users and groups between Windows Server Active Directory and Azure Active Directory](./media/manage-access-at-scale/manage-access-at-scale-fig1.png)
 
 ### Application management
-How many users like to remember passwords for each application they use every day? [Single sign-on](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem. You can log in to several SaaS applications by using a single user account and password. Single sign-on can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications like Office 365, and for third-party applications like Salesforce, ServiceNow, and Workday.
+How many users like to remember passwords for each application they use every day? [Single sign-on](https://azure.microsoft.com/documentation/articles/active-directory-appssoaccess-whatis/) addresses this common problem. You can log in to several SaaS applications by using a single user account and password. Single sign-on can be automatically provisioned for all the applications within your organization. This capability is available for Microsoft cloud applications like Office 365, and for third-party applications like Salesforce, ServiceNow, and Workday.
 
 Here’s more detail about single sign-on:
 
@@ -104,7 +104,7 @@ By default, Azure AD comes with a free feature that lets every admin perform the
 
 When you’re using Azure AD Premium, you can go beyond IT admins by providing password reset self-service portal capabilities for your users. You can quickly enable user password reset policies that will extend the same admin capabilities to every user within your directory.
 
-Learn more about the [prerequisites, how to enable, and how to set up the password self-service portal](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/) on your Azure AD tenant.
+Learn more about the [prerequisites, how to enable, and how to set up the password self-service portal](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/) on your Azure AD tenant.
 
 ## How to use Azure AD Connect Health
 You can check the [Azure AD Connect Health documentation](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health/) to gather more information about the tool, its capabilities, and the steps you can take to start using it in your organization.
