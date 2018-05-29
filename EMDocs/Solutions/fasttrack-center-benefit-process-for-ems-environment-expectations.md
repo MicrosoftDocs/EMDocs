@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 05/15/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -40,6 +40,7 @@ The following table shows expectations for your existing source environment for 
 |Azure AD Premium onboarding|The on-premises Active Directory and its environment have been prepared for Azure AD Premium, which includes remediation of identified issues that prevent integration with Azure AD and Azure AD Premium features.|
 |Intune, cloud only or integrated with System Center Configuration Manager, onboarding|For device management with Configuration Manager 2012 R2 or later, connected with Intune, IT admins need to follow the [Administrator Checklist: Configuring Configuration Manager to Manage Mobile Devices by Using Microsoft Intune](https://technet.microsoft.com/library/jj943763.aspx).</br></br> **Note**: The service benefit doesn't include assistance for setting up or upgrading Configuration Manager to the minimum requirements needed for Microsoft Intune integration with Configuration Manager.</br></br>For WiFi and VPN profile deployment, IT admins need to have existing Certificate Authority, WiFi and VPN infrastructures already working in their production environments.</br></br> **Note**: The service benefit doesn’t include assistance for setting up or configuring Certificate Authorities, WiFi or VPN infrastructures. |
 |Co-management|With Co-management IT admins are responsible for preparing the on-premises environment which might include remediation of issues that prevent you from concurrently manage Windows 10 devices using both Configuration Manager and Intune. </br></br> **Note**: The FastTrack service benefit doesn't include assistance for setting up or upgrading Configuration Manager site server and/or Configuration Manager client to the minimum requirements needed to support Co-management with Windows 10 devices. |
+|Intune integrated with Windows Defender Advanced Threat Protection (Windows Defender ATP)|Your Windows Defender ATP subscription has been activated and configured based on your company security requirements.<br /><br />**Note**: The FastTrack service benefit provides assistance on integrating Intune with Windows Defender ATP, and creating device compliance policies based on its Windows 10 risk level assessments. The FastTrack service benefit does not provide assistance on purchasing, licensing, activating or using Windows Defender ATP and its Security Center console. |
 
 > [!NOTE]
 > **Want to learn more?**

@@ -64,4 +64,4 @@ Azure AD B2B collaboration is based on an invite and redeem model, which utilize
 ## How to implement this solution
 The following steps describe how to implement each Azure AD B2B collaboration previously discussed. Each link represents a different set of articles with a different set of instructions/steps to be implemented in your organization:
 - Learn [How to use Azure AD B2B collaboration](https://azure.microsoft.com/documentation/articles/active-directory-b2b-detailed-walkthrough/).
-- Learn [How to use CSV file to specify partner user information](https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-references-csv-file-format/).
+- Learn [How to use CSV file to specify partner user information](https://azure.microsoft.com/documentation/articles/active-directory-b2b-references-csv-file-format/).

@@ -101,17 +101,17 @@ You can onboard just about any web-based application that has a user name and pa
 ![Screenshot showing how you use the Azure AD application gallery to add an application for your organization.](./media/thousands-apps-one-identity/thousands-apps-one-identity-fig4.png)
 
 ### Secure remote access to on-premises apps
-[Azure AD Application Proxy](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-enable/) provides single sign-on (SSO) and secure remote access for web applications hosted on-premises. This can include SharePoint sites, Outlook Web Access, or any other LOB web applications you have. These on-premises web applications are integrated with Azure AD, the same identity and control platform that is used by O365.
+[Azure AD Application Proxy](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-enable/) provides single sign-on (SSO) and secure remote access for web applications hosted on-premises. This can include SharePoint sites, Outlook Web Access, or any other LOB web applications you have. These on-premises web applications are integrated with Azure AD, the same identity and control platform that is used by O365.
 
 End users can then access your on-premises applications the same way they access O365 and other SaaS apps integrated with Azure AD, without the need for a VPN or for changing the network infrastructure.
 
 ## How to implement this solution
 The following steps describe how to implement each Azure AD capability previously discussed. Each link represents a different set of articles with a different set of instructions/steps to be implemented in your organization:
-1. [Enable single sign-on with application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
-2. [Provide secure remote access to on-premises applications.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
-   - [Working with custom domains in Azure AD application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
-   - [Working with claims aware apps in application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
-   - [Working with conditional access for apps published using application proxy.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
+1. [Enable single sign-on with application proxy.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
+2. [Provide secure remote access to on-premises applications.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-get-started/)
+   - [Working with custom domains in Azure AD application proxy.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-custom-domains/)
+   - [Working with claims aware apps in application proxy.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
+   - [Working with conditional access for apps published using application proxy.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-conditional-access/)
 3. [Bring your own apps to Azure AD.](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
 
 ## Additional resources

@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 05/15/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -77,6 +77,10 @@ You have the following responsibilities during onboarding.
 -   Upgrade Configuration Manager site server and Configuration manager clients to the latest build versions (when needed).
 
 -   Sign up for 3rd party subscriptions like Mobile Threat Defense, Telecom expenses, etc. when integration with Microsoft Intune is needed.
+
+-   Sign up for Team Viewer, Mobile Threat Defense and Telecom expense management solution subscriptions.
+
+-   Sign up for Windows Defender Advanced Threat Protection licenses. (Windows E5 or Microsoft E5 licenses).
 
 ## Initiate phase
 
