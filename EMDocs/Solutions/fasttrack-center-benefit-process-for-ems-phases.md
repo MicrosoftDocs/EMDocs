@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -179,11 +179,41 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 	> [!IMPORTANT]
 	> FastTrack does not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 device management through Intune mobile device management (MDM).
 
-Microsoft also connects you with guidance about how to drive successful adoption of the eligible services.
+#### Co-management
+
+FastTrack guides you through getting ready to concurrently manage Windows 10 devices with both Configuration Manager and Intune. The exact steps depend on your source environment, the steps can include:
+
+- Explain the benefits of Co-management.
+
+- License your end users. FastTrack also provides assistance on how to activate volume licenses for your Microsoft cloud service tenant (as needed).
+
+- Configure identities to be used by Intune by leveraging either your on-premises Active Directory and/or cloud identities.
+
+- Adding users to your Intune subscription, defining IT admin roles, and creating user and device groups.
+
+- Provide guidance on how to move from Intune integrated with System Center Configuration Manager (Hybrid) to Intune Standalone.
+
+- Provide guidance on setting up Azure Active Directory for MDM auto-enrollment.
+
+- Provide guidance setting up hybrid Azure Active Directory Join.
+
+- Provide guidance on how to set up Cloud Management Gateway
+
+- Enable Co-management in Configuration Manager console.
+
+- Configure supported workloads that you want to switch to Intune.
+
+- Install Configuration Manger client in Intune enrolled devices.
+
+- Provide guidance on how to monitor the Co-management activity in your environment.
+
+FastTrack also provides you guidance on how to drive successful adoption of the eligible services.
 
 ![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mam.png)
 
 ![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
+
+![Onboarding enable phase - Co-management](./media/ft-9-enable-phase-comanagement.png)
 
 ![Onboarding enable phase - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
