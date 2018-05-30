@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -182,7 +182,7 @@ Provide **guidance** about:
 
 -   Configuring your Mobile Device Management MDM) authority, based on your management needs, including:
 
-    -   Setting Intune as your MDM authority when Intune is your only MDM solution.
+    -   Setting Intune as your MDM authority.
 
     -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
@@ -228,6 +228,44 @@ Provide **guidance** about:
     -   Configuring Software updates for applicable supported platforms.
 
     -   Resources for user adoption planning.
+
+### Enable phase - Co-management
+
+Provide guidance about:
+
+-   Licensing your end users.
+
+-   Adding users to your Intune subscription, defining IT admin roles, and creating user and device groups (if Intune is not installed).
+
+-   Setting up Azure Active Directory for MDM auto-enrollment.
+
+-   Set up hybrid Azure Active Directory Join.
+
+-   Set up Cloud Management Gateway.
+
+-   Adding users to your Intune subscription, defining IT admin roles, and creating user and device groups.
+
+-   Prepare Intune (if Intune is not installed):
+
+	-   Configuring your Mobile Device Management MDM) authority, based on your management needs, including:
+
+    -   Setting Intune as your MDM authority.
+
+    -   Configuring tests groups to be used to validate MDM management policies.
+
+    -   Navigating the Intune admin portal to locate information on users and devices.
+
+    -   Setting up Intune roles (Help desk operator, admins, etc.)
+
+    -   Configuring and deploying Intune app protection policies for each supported platform.
+
+    -   Enrolling Windows 10 devices to your Intune.
+
+- Enable Co-Management in the Configuration Manager console.
+
+- Switch workloads to Intune.
+
+- Monitor the Co-management activity in your environment.
 
 > [!NOTE]
 > **Want to learn more?** see [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).
