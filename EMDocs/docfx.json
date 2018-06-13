@@ -35,7 +35,8 @@
     "template": "docs.html",
     "globalMetadata": {
       "layout": "Conceptual",
-      "breadcrumb_path": "/enterprise-mobility-security/toc.json"
+      "breadcrumb_path": "/enterprise-mobility-security/toc.json",
+      "feedback_system": "None"
     },
     "markdownEngineName": "markdig"
   }
