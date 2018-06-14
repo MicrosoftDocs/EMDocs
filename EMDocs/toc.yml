@@ -89,7 +89,7 @@
           topicHref: /sccm/mdm/understand/hybrid-mobile-device-management
         - name: Microsoft Deployment Toolkit
           tocHref: /sccm/mdt/
-          topicHref: /sccm/mdt/whats-new-in-mdt
+          topicHref: /sccm/mdt/
         - name: Operating system deployment
           tocHref: /sccm/osd/
           topicHref: /sccm/osd/understand/introduction-to-operating-system-deployment
