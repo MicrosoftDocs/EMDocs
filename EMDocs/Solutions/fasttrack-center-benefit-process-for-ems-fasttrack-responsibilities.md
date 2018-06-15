@@ -5,9 +5,9 @@ title: FastTrack responsibilities
 description: FastTrack's responsibilities when customers are using the FastTrack Center Benefit for EMS
 keywords:
 author: andredm7
-ms.author: andredm
+ms.author: anmorgan
 manager:
-ms.date: 06/01/2018
+ms.date: 06/18/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -153,7 +153,7 @@ Provide guidance about setting up:
 
   - Up to three (3) or more Software as a Service (SaaS) application integrations with SSO from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
-  - Customized logon screen, including logo, text and images.
+  - Customized logon screen, including logo, text, and images.
 
   - Self-Service and Dynamic Groups (Groups).
 
@@ -165,7 +165,7 @@ Provide guidance about setting up:
 
   - Privileged Identity Management.
 
-  - Azure Active Directory Conditional Access.
+  - Azure Active Directory Conditional Access, including Terms of Use, if required.
 
 ### Enable phase - Intune
 

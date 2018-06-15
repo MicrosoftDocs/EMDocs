@@ -5,9 +5,9 @@ title: Onboarding and migration phases
 description: Phases of the FastTrack Center Benefit
 keywords:
 author: andredm7
-ms.author: andredm
+ms.author: anmorgan
 manager:
-ms.date: 06/01/2018
+ms.date: 06/18/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -113,7 +113,7 @@ Azure AD Premium setup includes enabling the following features:
 
 -   Privileged Identity Management.
 
--   Azure Active Directory Conditional Access.
+-   Azure Active Directory Conditional Access, including Terms of Use, if required.
 
 ![Onboarding enable phase - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
