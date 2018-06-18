@@ -35,6 +35,11 @@
       "layout": "Conceptual",
       "breadcrumb_path": "/enterprise-mobility/toc.json"
     },
+    "fileMetadata": {
+      "feedback_system": {
+        "*": "None"
+      }
+    },
     "markdownEngineName": "markdig"
   }
 }
