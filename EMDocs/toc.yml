@@ -7,21 +7,12 @@
     topicHref: /enterprise-mobility-security
     items:
     - name: Solutions
-      tocHref: /enterprise-mobility-security/solutions/
-      topicHref: /enterprise-mobility/solutions/byod-design-considerations-guide
+      tocHref: /enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program/
+      topicHref: /enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program
     - name: Azure Active Directory
       tocHref: /azure/active-directory/
       topicHref: /azure/active-directory
       items:
-        - name: Current
-          tocHref: /active-directory/adal/
-          topicHref: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
-        - name: ADAL v3
-          tocHref: /active-directory/adal/v3/
-          topicHref: /active-directory/adal/v3/microsoft.identitymodel.clients.activedirectory
-        - name: ADAL v2
-          tocHref: /active-directory/adal/v2/
-          topicHref: /active-directory/adal/v2/microsoft.identitymodel.clients.activedirectory
         - name: AD Graph API
           tocHref: /azure-ad-graph-api/api/
           topicHref: /azure-ad-graph-api/api/api-catalog
@@ -98,7 +89,7 @@
           topicHref: /sccm/mdm/understand/hybrid-mobile-device-management
         - name: Microsoft Deployment Toolkit
           tocHref: /sccm/mdt/
-          topicHref: /sccm/mdt/whats-new-in-mdt
+          topicHref: /sccm/mdt/
         - name: Operating system deployment
           tocHref: /sccm/osd/
           topicHref: /sccm/osd/understand/introduction-to-operating-system-deployment
