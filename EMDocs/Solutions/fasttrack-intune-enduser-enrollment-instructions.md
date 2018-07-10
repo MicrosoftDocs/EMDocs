@@ -44,7 +44,7 @@ To use your device at work, enroll it in Intune by using the Company Portal. You
 
 These enrollment steps are for Samsung Knox Android devices and "native” (non-Samsung Knox) Android devices. To determine if you have a Samsung Knox device, go to **Settings > About phone**. If you don't see the word "Knox" listed there, you have a native Android device. The screens shown on your device may look slightly different from the ones in this section.
 
-If you get an error while trying to enroll your device in Intune, see [Send enrollment errors to your IT admin](https://technet.microsoft.com/en-US/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors).
+If you get an error while trying to enroll your device in Intune, see [Send enrollment errors to your IT admin](https://technet.microsoft.com/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors).
 
 Before or after enrolling, you may be asked to choose a category that best describes how you use your device. Your IT administrator uses this category to help determine what apps you have access to.
 1. Install the free Microsoft Intune Company Portal app on your device from [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
