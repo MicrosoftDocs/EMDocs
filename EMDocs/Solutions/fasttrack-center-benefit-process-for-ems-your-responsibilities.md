@@ -132,5 +132,5 @@ You have the following responsibilities during onboarding.
 ## See also
 
 - [FastTrack benefit for EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
-- [FastTrack benefit for Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)
+- [FastTrack benefit for Office 365](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365)
 
