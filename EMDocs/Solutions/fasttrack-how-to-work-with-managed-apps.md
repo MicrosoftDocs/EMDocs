@@ -74,7 +74,9 @@ This section uses OneDrive for Business as the example to demonstrate how the us
    ![Screenshot prompting the Android user to go to the Google Play store to get the Intune Company Portal.](./media/ft-useMngdApps-7-installPortal.png)
 
    The Company Portal app helps keep the data secure and protected.
+   
    ![Screenshot prompting the Android user to install the Intune Company Portal.](./media/ft-useMngdApps-8-intunePortal.png)
+   
 5. Once you have completed the install, choose **Accept** to accept the terms.
 6. The **OneDrive for Business** app launches automatically.
 7. The next time you open OneDrive for Business, you will see the prompt to set a **PIN**, provided the policy settings are set to require a PIN to access the **OneDrive for Business** app.
