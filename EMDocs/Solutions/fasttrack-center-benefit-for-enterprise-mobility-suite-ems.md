@@ -31,7 +31,7 @@ You can use the service benefit when you purchase at least 150 licenses for Ente
 
 - To learn about the FastTrack Center process and who's responsible for what, see [FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
-- Are you looking for information about FastTrack for Office 365? See [FastTrack Center Benefit for Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
+- Are you looking for information about FastTrack for Office 365? See [FastTrack Center Benefit for Office 365](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365).
 
 ## Eligible services
 
