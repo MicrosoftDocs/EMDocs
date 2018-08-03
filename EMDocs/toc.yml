@@ -66,7 +66,7 @@
       items:
         - name: Reference
           tocHref: /microsoft-identity-manager/reference/
-          topicHref: /microsoft-identity-manager/reference/journey-develop-applications
+          topicHref: /microsoft-identity-manager/reference/microsoft-identity-manager-2016-developer-reference
         - name: PAM
           tocHref: /microsoft-identity-manager/pam/
           topicHref: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
