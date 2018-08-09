@@ -5,9 +5,9 @@ title: FastTrack responsibilities
 description: FastTrack's responsibilities when customers are using the FastTrack Center Benefit for EMS
 keywords:
 author: andredm7
-ms.author: anmorgan
+ms.author: andredm
 manager:
-ms.date: 06/18/2018
+ms.date: 08/13/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -183,8 +183,6 @@ Provide **guidance** about:
 -   Configuring your Mobile Device Management MDM) authority, based on your management needs, including:
 
     -   Setting Intune as your MDM authority.
-
-    -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
 
     -   Configuring tests groups to be used to validate MDM management policies.
 
