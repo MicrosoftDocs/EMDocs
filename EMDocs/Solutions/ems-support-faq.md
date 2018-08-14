@@ -33,7 +33,7 @@ Microsoft provides global pre-sales, billing, subscription, and technical suppor
 
 **Do I need to purchase an Azure support plan to submit an Enterprise Mobility + Security support request?**
 
-Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, Cloud Application Security and Microsoft Intune through the Azure 365 portal. The Azure portal provides the intended support experience for EMS without purchasing a support plan by choosing a Subsrciption with technicalsupport included. You can also submit Azure Active Directory Premium, Azure Information Protection, Cloud Application Security and Microsoft Intune support requests through the O365 portal.
+Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, Cloud App Security and Microsoft Intune through the Azure 365 portal. The Azure portal provides the intended support experience for EMS without purchasing a support plan by choosing a Subsrciption with technicalsupport included. You can also submit Azure Active Directory Premium, Azure Information Protection, Cloud App Security and Microsoft Intune support requests through the O365 portal.
 
 **How do I get Intune support?**
 
@@ -49,7 +49,7 @@ Enterprise Mobility + Security customers can submit support requests for Azure A
 
 **How do I get Claoud Application Security support?**
 
-Enterprise Mobility + Security customers can submit support requests for Cloud Application Security using the Azure or Office 365 portal. 
+Enterprise Mobility + Security customers can submit support requests for Cloud App Security using the Azure or Office 365 portal. 
 
 **I am not able to submit a support request through the Office 365 portal. Is there a phone number to call for support?**
 
