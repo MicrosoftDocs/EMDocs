@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: anmorgan
 manager:
-ms.date: 06/18/2018
+ms.date: 08/13/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -131,8 +131,6 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
     -   Setting Intune as your MDM authority when Intune is your only MDM solution or is in conjunction with Mobile Device Management for Office 365.
 
-    -   Setting System Center Configuration Manager as your MDM authority if you have an existing implementation of Configuration Manager and you want to expand its management capabilities with Intune.
-
 -   Providing MDM guidance for:
 
     -   Configuring tests groups to be used to validate MDM management policies.
@@ -158,7 +156,7 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
 	        -   Windows Defender Advanced Threat Protection (Windows E5 or Microsoft 365 E5 licenses are required).
 
-    -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to your Intune or Configuration Manager with Intune service.
+    -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to Intune.
 
 -   Providing Intune App Protection (app-management) guidance about:
 
@@ -214,8 +212,6 @@ FastTrack also provides you guidance on how to drive successful adoption of the 
 ![Onboarding enable phase - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
 
 ![Onboarding enable phase - Co-management](./media/ft-9-enable-phase-comanagement.png)
-
-![Onboarding enable phase - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
 > [!NOTE]
 > **Want to learn more?** see [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility).
