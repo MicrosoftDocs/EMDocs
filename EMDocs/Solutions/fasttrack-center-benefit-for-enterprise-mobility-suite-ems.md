@@ -53,18 +53,18 @@ EMS and the cloud services included in the FastTrack Center Benefit for EMS are 
 
 |Plan|Eligible for the service benefit?|
 |--------|-------------------------------------|
-|Enterprise Mobility + Security |Yes*|
-|Enterprise Mobility + Security (as part of the Secure Productive Enterprise)|Yes*|
-|Microsoft Azure Active Directory Premium (E3 and E5)**|Yes|
-|Microsoft Intune**|Yes|
-|Microsoft Intune for Education** |Yes |
-|Microsoft Azure Information Protection (E3 and E5)**|Limited</br>Success Plan only and requesting assistance through **Need Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
-|Microsoft Advanced Threat Analytics**|Limited</br>Success Plan only and requesting assistance through **Need Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
-|Microsoft Cloud App Security**|Limited</br>Success Plan only and requesting assistance through **Need Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Enterprise Mobility + Security |Yes\*|
+|Enterprise Mobility + Security (as part of the Secure Productive Enterprise)|Yes\*|
+|Microsoft Azure Active Directory Premium (E3 and E5)\*\*|Yes|
+|Microsoft Intune\*\*|Yes|
+|Microsoft Intune for Education\*\* |Yes |
+|Microsoft Azure Information Protection (E3 and E5)\*\*|Limited</br>Success Plan only and requesting assistance through **Need Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Advanced Threat Analytics\*\*|Limited</br>Success Plan only and requesting assistance through **Need Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Cloud App Security\*\*|Limited</br>Success Plan only and requesting assistance through **Need Help** in [Fast Track Center](https://fasttrack.microsoft.com/)|
 
 &ast; Available only for cloud services that are eligible for the benefits. See the following table.
 
-** Purchased as a standalone plan.
+\*\* Purchased as a standalone plan.
 
 &nbsp;
 
