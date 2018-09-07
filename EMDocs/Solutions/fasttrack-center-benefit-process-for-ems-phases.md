@@ -101,6 +101,8 @@ Azure AD Premium setup includes enabling the following features:
 
 -   Up to three (3) or more Software as a Service (SaaS) application integrations with single sign-on (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
+-   Automatic user provisioning for pre-integrated SaaS applications as listed in the [App integration tutorial list](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list), limited to outbound provisioning only.
+
 -   Customized logon screen, including logo, text, and images.
 
 -   Self-Service and Dynamic Groups (Groups).
