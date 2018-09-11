@@ -11,7 +11,6 @@ ms.date: 08/13/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
-ms.technology:
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 
 # optional metadata

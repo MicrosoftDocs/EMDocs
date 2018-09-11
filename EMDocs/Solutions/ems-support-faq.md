@@ -11,7 +11,6 @@ ms.date: 6/12/2017
 ms.topic: article
 ms.prod:
 ms.service: ems
-ms.technology:
 ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
 
 # optional metadata

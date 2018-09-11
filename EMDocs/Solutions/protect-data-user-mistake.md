@@ -10,7 +10,6 @@ ms.date: 05/18/2017
 ms.topic: solution
 ms.prod:
 ms.service: cloud-app-security
-ms.technology: techgroup-identity
 ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 
 # optional metadata

@@ -11,7 +11,6 @@ ms.date: 12/21/2017
 ms.topic: get-started-article
 ms.prod:
 ms.service: active-directory
-ms.technology:
 ms.assetid: 112289b0-0336-4cc0-b471-42fc2c015c64
 
 # optional metadata
