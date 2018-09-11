@@ -10,7 +10,6 @@ ms.date: 05/18/2017
 ms.topic: solution
 ms.prod:
 ms.service: rights-management
-ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 
 # optional metadata

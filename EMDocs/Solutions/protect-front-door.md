@@ -10,7 +10,6 @@ ms.date: 05/18/2017
 ms.topic: solution
 ms.prod:
 ms.service: active-directory
-ms.technology: techgroup-identity
 ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 
 # optional metadata
