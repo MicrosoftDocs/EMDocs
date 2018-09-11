@@ -11,7 +11,6 @@ ms.date: 12/07/2016
 ms.topic: solution
 ms.prod:
 ms.service: active-directory
-ms.technology:
 ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
 
 # optional metadata
