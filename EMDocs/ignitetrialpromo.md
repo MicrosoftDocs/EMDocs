@@ -72,6 +72,6 @@ Detect and investigate advanced attacks on-premises and in the cloud.
 - Learn [how to deploy](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) Azure Advanced Threat Protection.  
 
 ### Security Management
-Office 365 Secure Score helps you understand your security position, giving you advice on what controls you should consider enabling, and helping you understand how your score compares to other organizations.
+Microsoft Secure Score helps you understand your security position, giving you advice on what controls you should consider enabling, and helping you understand how your score compares to other organizations.
 - Learn about [Microsoft Secure Score](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Office-365-Secure-Score-is-now-Microsoft-Secure-Score/ba-p/182358).   
-- Learn [how to use](https://www.youtube.com/watch?v=DNh9E3MWa7o&t=294s&index=5&list=PL8nfc9haGeb6EssMfvTSRVUi4o3cW1tRh) Microsoft Secure Score  
+- Learn [how to use](https://www.youtube.com/watch?v=DNh9E3MWa7o&t=294s&index=5&list=PL8nfc9haGeb6EssMfvTSRVUi4o3cW1tRh) Microsoft Secure Score.  
