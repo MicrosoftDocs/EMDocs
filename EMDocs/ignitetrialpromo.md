@@ -65,7 +65,7 @@ Azure Active Directory (Azure AD) access reviews enable organizations to efficie
 
 ### Information Protection
 Help control and secure email, documents, and sensitive data that you share outside your company using easy classification, embedded labels, and permissions.  
-- Learn about [Azure Information Protection](https://azure.microsoft.com/services/information-protection/)   
+- Learn about [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).   
 - Learn [how to deploy](https://docs.microsoft.com/azure/information-protection/) Azure Information Protection.   
 
 ### Threat Protection
