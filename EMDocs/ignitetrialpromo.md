@@ -2,16 +2,17 @@
 # required metadata
 
 title: Enterprise Mobility + Security extended trial promotion exclusively or Ignite attendees
-description:
+description: Learn how you can start a free 6 month trial of EMS Enterprise for up to 250 users on your tenant.
 keywords:
-author: [GITHUB USERNAME]
-manager: [ALIAS]
-ms.date: 04/28/2016
+author: dougeby
+ms.author: dougeby
+manager: angrobe
+ms.date: 09/17/2018
 ms.topic: article
-ms.prod:
+ms.prod: microsoft-365-enterprise
 ms.service:
 ms.technology:
-ms.assetid: [GET ONE FROM guidgenerator.com]
+ms.assetid: 799848ca-8280-4879-9aa6-671dc8864af0
 
 # optional metadata
 
@@ -28,7 +29,7 @@ ms.assetid: [GET ONE FROM guidgenerator.com]
 Congratulations!  We hope you have found your time and experience at Ignite informative and productive.  You learned about Microsoft’s security solutions.  Now is your opportunity to kick the tires.  
 
 ## What the offer includes
-Customers who want to trial EMS Enterprise can do so for 90 days.  Because you attended Ignite, we are offering you a <u>full 6-month EMS trial</u> for up to 250 users on your tenant. 
+Customers who want to trial Enterprise Mobility + Security (EMS) Enterprise can do so for 90 days.  Because you attended Ignite, we are offering you a <u>full 6-month EMS trial</u> for up to 250 users on your tenant. 
 
 ## How to access the promotional trial
 To start your trial now, go to the [Enterprise Mobility + Security E5 Trial page](https://signup.microsoft.com/signup/logout?OfferId=87DD2714-D452-48A0-A809-D2F58C4F68B7&pc=24ed2ce8-5193-4e62-99dc-5b9bfb706c9c).
