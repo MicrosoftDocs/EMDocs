@@ -16,7 +16,7 @@ ms.assetid: 799848ca-8280-4879-9aa6-671dc8864af0
 
 # optional metadata
 
-#ROBOTS:
+ROBOTS: NOINDEX,NOFOLLOW
 #audience:
 #ms.devlang:
 #ms.reviewer: [ALIAS]
