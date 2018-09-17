@@ -25,7 +25,7 @@ ms.assetid: 799848ca-8280-4879-9aa6-671dc8864af0
 #ms.custom:
 
 ---
-# Enterprise Mobility + Security extended trial promotion exclusively or Ignite attendees
+# Enterprise Mobility + Security extended trial promotion exclusively for Ignite attendees
 Congratulations!  We hope you have found your time and experience at Ignite informative and productive.  You learned about Microsoft’s security solutions.  Now is your opportunity to kick the tires.  
 
 ## What the offer includes
