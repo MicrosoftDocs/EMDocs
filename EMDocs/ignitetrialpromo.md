@@ -31,7 +31,7 @@ Congratulations!  We hope you have found your time and experience at Ignite info
 Customers who want to trial EMS Enterprise can do so for 90 days.  Because you attended Ignite, we are offering you a <u>full 6-month EMS trial</u> for up to 250 users on your tenant. 
 
 ## How to access the promotional trial
-Start your trial now:  Go to the [Enterprise Mobility + Security E5 Trial page](https://signup.microsoft.com/signup/logout?OfferId=87DD2714-D452-48A0-A809-D2F58C4F68B7&pc=24ed2ce8-5193-4e62-99dc-5b9bfb706c9c).
+To start your trial now, go to the [Enterprise Mobility + Security E5 Trial page](https://signup.microsoft.com/signup/logout?OfferId=87DD2714-D452-48A0-A809-D2F58C4F68B7&pc=24ed2ce8-5193-4e62-99dc-5b9bfb706c9c).
 
 ## Learn more about what you can do with EMS
 [Azure Active Directory](https://azure.microsoft.com/services/active-directory/)  
@@ -43,7 +43,7 @@ Start your trial now:  Go to the [Enterprise Mobility + Security E5 Trial page](
 [Security Compliance Configuration Manager](https://www.microsoft.com/cloud-platform/system-center-configuration-manager)  
 
 ## Learn more about Microsoft Security
-Other security offerings in M365 include:  
+Other security offerings in Microsoft 365 include:     
 [Windows Hello](https://www.microsoft.com/windows/windows-hello)  
 [Windows credential guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard)  
 [Office 365 Data Loss Prevention](https://docs.microsoft.com/office365/securitycompliance/prevent-data-loss?redirectSourcePath=%252fen-us%252farticle%252fPrevent-data-loss-in-Office-365-6a888faa-c114-4395-b20d-a5b8ebd1ac0c)  
