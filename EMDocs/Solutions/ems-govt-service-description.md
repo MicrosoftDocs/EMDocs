@@ -7,21 +7,13 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 3/1/2018
+ms.date: 09/19/2018
 ms.topic: article
 ms.prod:
 ms.service: ems
-ms.assetid: de61a788-f45d-47bb-a047-e92b64b1ee03
 
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+
 
 ---
 # Enterprise Mobility + Security for US Government Service Description 
