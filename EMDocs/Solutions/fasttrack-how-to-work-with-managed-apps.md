@@ -4,8 +4,8 @@
 title: How to use mobile applications that your organization manages
 description: How to use mobile apps managed by your organization
 keywords:
-author: nathbarn
-ms.author: nathbarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 02/01/2017
 ms.topic: article
@@ -56,6 +56,7 @@ This section uses OneDrive for Business as the example to demonstrate how the us
    > When you change a deployed policy, the changes will be applied next time you open the app.
 
 ## Accessing OneDrive on an Android device
+
 This section uses OneDrive for Business as the example to demonstrate how the user’s experience can slightly change on an application managed by Intune.
 1. Launch the **OneDrive for Business** app to open the sign in page.
    > [!NOTE]
@@ -73,9 +74,9 @@ This section uses OneDrive for Business as the example to demonstrate how the us
    ![Screenshot prompting the Android user to go to the Google Play store to get the Intune Company Portal.](./media/ft-useMngdApps-7-installPortal.png)
 
    The Company Portal app helps keep the data secure and protected.
-   
+
    ![Screenshot prompting the Android user to install the Intune Company Portal.](./media/ft-useMngdApps-8-intunePortal.png)
-   
+
 5. Once you have completed the install, choose **Accept** to accept the terms.
 6. The **OneDrive for Business** app launches automatically.
 7. The next time you open OneDrive for Business, you will see the prompt to set a **PIN**, provided the policy settings are set to require a PIN to access the **OneDrive for Business** app.
@@ -84,4 +85,5 @@ This section uses OneDrive for Business as the example to demonstrate how the us
 8. Once the PIN is set and confirmed, you can continue using **OneDrive for Business**, which is now managed by app policies.
 
 ### Want to learn more?
+
 See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
