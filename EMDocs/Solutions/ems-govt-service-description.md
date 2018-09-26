@@ -6,7 +6,7 @@ description: EMS GCC High plans are monthly subscriptions and are licensed on a 
 keywords:
 author: dougeby
 ms.author: dougeby
-manager: dougeby
+manager: angrobe
 ms.date: 3/1/2018
 ms.topic: article
 ms.prod:

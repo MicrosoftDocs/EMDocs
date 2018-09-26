@@ -4,8 +4,8 @@
 title: How to use applications with multi-identity support
 description: How to use apps with multi-identity support
 keywords:
-author: NathBarn
-ms.author: NathBarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 02/01/2017
 ms.topic: article
@@ -28,6 +28,7 @@ ms.suite: ems
 # How to use apps with multi-identity support
 
 In this scenario, we are using Microsoft Word as the example. You can apply these same steps to other apps included in Office 365.
+
 1. Open the **Word** app on your device. In this example, we are using an iOS device.
 2. Tap **New** to create a new Word document.
 
@@ -51,5 +52,6 @@ In this scenario, we are using Microsoft Word as the example. You can apply thes
 
    ![Screenshot showing that the user can successfully paste the text into Facebook.](./media/ft-multiID-6-copyText.png)
 
-### Want to learn more?
+## Want to learn more?
+
 See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
