@@ -4,8 +4,8 @@
 title: Enterprise Mobility + Security Support FAQs
 description:
 keywords:
-author: nathbarn
-ms.author: nathbarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 6/12/2017
 ms.topic: article

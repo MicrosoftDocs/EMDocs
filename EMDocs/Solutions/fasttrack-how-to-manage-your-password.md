@@ -4,8 +4,8 @@
 title: How to manage your password
 description: How to manage your own password
 keywords:
-author: NathBarn
-ms.author: NathBarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 02/01/2017
 ms.topic: article
@@ -30,24 +30,26 @@ ms.suite: ems
 If you're a user (not an admin) in an organization that uses Office 365 or Microsoft Accounts to access work resources, read the sections below to learn how to fix common problems with your password.
 
 ## How to register for password reset
+
 The fastest way to register for password reset is to go to [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup).
 
-1.	Navigate to [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup).
-2.	Enter your username and password.
-3.	Choose an option to register for by clicking **set it up now**. In this case, I'll demonstrate registering my **authentication phone**.
+1. Navigate to [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup).
+2. Enter your username and password.
+3. Choose an option to register for by clicking **set it up now**. In this case, I'll demonstrate registering my **authentication phone**.
 ![Screenshot showing blahblah](./media/ft-mngPW-1-setup.png)
-4.	Select your country code from the dropdown and enter your full phone number with area code.
+4. Select your country code from the dropdown and enter your full phone number with area code.
 ![Screenshot showing how to select a country code. ](./media/ft-mngPW-2-enterNumber.png)![Screenshot showing where to enter a phone number.](./media/ft-mngPW-3-enterNumber2.png)
-5.	Select one of the **text me** or **call me** options. In this case, I'll select **text me**, which will send a 6 digit code to my phone. Wait for the code to arrive on your phone.  
+5. Select one of the **text me** or **call me** options. In this case, I'll select **text me**, which will send a 6 digit code to my phone. Wait for the code to arrive on your phone.  
 ![Screenshot showing a 6-digit code that has been sent to a phone.](./media/ft-mngPW-4-textCode.png)
-6.	Once the code arrives, enter it into the input box, then click "verify".
-7.	When you see **thanks**, that's it! Now you can use what you registered for to reset your password at any time by going to [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com).
+6. Once the code arrives, enter it into the input box, then click "verify".
+7. When you see **thanks**, that's it! Now you can use what you registered for to reset your password at any time by going to [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com).
 ![Screenshot showing the thank you message received when registration is completed.](./media/ft-mngPW-5-thanks.png)
 
 > [!IMPORTANT]
 > If your admin lets you register for more than one option, we highly recommend you also register a back-up option in case you lose your phone or access to your email.
 
 ## How to reset your password
+
 Follow the steps below to reset your work or school account password from any work or school account sign-in screen.
 
 > [!IMPORTANT]
@@ -76,9 +78,10 @@ Follow the steps below to reset your work or school account password from any wo
 8. Your admin may require a second verification step, in which case repeat step 4 with a different option selected.
 9. On the "choose a new password" screen, select a new password and confirm your choice, then click **Finish**.
    ![Screenshot showing that the user must enter and then confirm a new password.](./media/ft-mngPW-12-clickFinish.png)
-10.	Once you see the success page, you are good to go! You can now sign in with your new password.
+10. Once you see the success page, you are good to go! You can now sign in with your new password.
     ![Screenshot showing that the password reset process is completed.](./media/ft-mngPW-13-success.png)
     Run into a problem resetting your password? Read about [common problems and their solutions](https://azure.microsoft.com/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions).
 
 ### Want to learn more?
+
 See [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
