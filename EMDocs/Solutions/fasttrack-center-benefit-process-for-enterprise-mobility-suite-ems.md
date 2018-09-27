@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # FastTrack Center Benefit Process for Enterprise Mobility + Security (EMS)
-If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with FastTrack specialists to get Microsoft Azure Active Directory Premium and Microsoft Intune ready for use. You can also request help through the [FastTrack site](http://fasttrack.microsoft.com/ems) for Azure Information Protection, Microsoft Cloud App Security and Microsoft Advanced Threat Analytics. To learn whether your organization is eligible, see [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+If your organization is eligible for the FastTrack Center Benefit for EMS, you can work remotely with FastTrack Specialists to get Microsoft Azure Active Directory Premium and Microsoft Intune ready for use. You can also request help through the [FastTrack site](http://fasttrack.microsoft.com/ems) for Azure Information Protection, Microsoft Cloud App Security and Microsoft Advanced Threat Analytics. To learn whether your organization is eligible, see [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
 Here's what we cover about the onboarding process:
