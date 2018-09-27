@@ -30,7 +30,7 @@ ms.suite: ems
 You use the Enterprise Mobility + Security (EMS) FastTrack Center Benefit when you purchase at least 150 licenses for EMS or any of its individual cloud services in an eligible plan. You then work with FastTrack Specialists to assess, remediate, enable, and drive usage of those services. These specialists also provide migration guidance.
 
 > [!IMPORTANT]
-> For purposes of this document, FastTrack specialists can include Microsoft employees, Microsoft-approved vendors, and Microsoft-approved partners.
+> For purposes of this document, FastTrack Specialists can include Microsoft employees, Microsoft-approved vendors, and Microsoft-approved partners.
 
 - To learn more about eligible services and plans, see [FastTrack Center Benefit Eligible Services and Plans](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
