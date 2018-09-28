@@ -95,7 +95,7 @@ featureFlags:
                                 </a>
                             </li>
                             <li>
-                                <a href="/information-protection/">
+                                <a href="/azure/information-protection/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
