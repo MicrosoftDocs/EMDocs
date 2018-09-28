@@ -114,7 +114,7 @@ In the following example, you can see custom sub-labels that were created under 
 ![Screenshot showing the custom sub-labels that were created under the "Secret" label. ](./media/protect-data-user-mistake/protect-data-user-mistake-fig7.png)
 
 
-Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](https://docs.microsoft.com/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection).
+Once you define how you will be using your labels (default or custom ones), [configure a label to apply Rights Management protection](/azure/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection).
 
 With Azure Information Protection, data classification and protection controls are integrated into Office and other common applications. This integration provides simple one-click options to secure data that users are working on. In the Azure portal, an administrator can apply predefined patterns, such as “Credit card numbers” or “USA Social Security Numbers” as a condition for automatic classification. Alternately, they can use text patterns and regular expressions to define a custom string or pattern.
 
