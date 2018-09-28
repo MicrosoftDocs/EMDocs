@@ -33,8 +33,7 @@ The EMS GCC High offering is built on the Microsoft Azure Government Cloud, and 
 |EMS GCC High</br>Available in both E3 and E5|Office 365 GCC High|FedRAMP-High| 
 
 > [!Note]    
-> Target date for FedRAMP compliance is Calendar Year 2018.
-> \* This does not include certification for Microsoft Cloud App Security or Azure Information Protection.
+> Target date for FedRAMP compliance is Calendar Year 2018.  (* This does not include certification for Microsoft Cloud App Security or Azure Information Protection.)
 
 ## About EMS for US Government 
 EMS GCC High plans are monthly subscriptions and are licensed on a per user basis. Organizations that use EMS GCC High benefits from the following unique features:  
