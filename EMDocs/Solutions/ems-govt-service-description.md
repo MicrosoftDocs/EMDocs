@@ -17,7 +17,7 @@ ms.suite: ems
 
 ---
 # Enterprise Mobility + Security for US Government Service Description 
-In response to the unique and evolving requirements of the United States public sector, Microsoft has created Enterprise Mobility + Security plans for our United States Government customers. This document provides an overview of features that are specific to EMS plans.  
+In response to the unique and evolving requirements of the United States public sector, Microsoft has created Enterprise Mobility + Security (EM+S) plans for our United States Government customers. This document provides an overview of features that are specific to EMS plans.  
 
 ## How to use this Service Description 
 The EMS for US Government Service Description is designed to serve as an overview of our offering and will cover (1) which services and features are included in this offer, (2) how the Government offers differ from our existing commercial offers, and (3) our current compliance commitments. This document defines the unique commitments and differences compared to EMS commercial offerings.  
@@ -25,7 +25,7 @@ The EMS for US Government Service Description is designed to serve as an overvie
 ## EMS offers for US Government and Office 365 Interoperability 
 Office 365 is currently available in both the GCC and GCC High environments. To learn more about these offers, please reference the Office 365 Government Service Description. The EMS commercial offering is fully interoperable with Office 365 GCC, and we’re currently targeting FedRAMP-Moderate certification for this offer. 
 
-The EMS GCC High offering is built on the Microsoft Azure Government Cloud, and is designed to interoperate with the Office 365 GCC High and Office 365 DoD offers. We are targeting FedRAMP-High certification for the EMS GCC High offer. (Microsoft Cloud App Security and Azure ATP are not currently in scope for this offer.)
+The EMS GCC High offering is built on the Microsoft Azure Government Cloud, and is designed to interoperate with the Office 365 GCC High and Office 365 DoD offers. We are targeting FedRAMP-High certification for the EMS GCC High offer. (Microsoft Cloud App Security and Azure Advanced Threat Protection are not currently in scope for this offer.)
 
 |EMS offer|Corresponding Office 365 Government Offer|Compliance Commitment|
 |-----------|-----------|-----------|
@@ -33,7 +33,7 @@ The EMS GCC High offering is built on the Microsoft Azure Government Cloud, and 
 |EMS GCC High</br>Available in both E3 and E5|Office 365 GCC High|FedRAMP-High| 
 
 > [!Note]    
-> Target date for FedRAMP compliance is Calendar Year 2018.  (* This does not include certification for Microsoft Cloud App Security or Azure Information Protection.)
+> Target date for FedRAMP compliance is Calendar Year 2018. (*This does not include certification for Microsoft Cloud App Security or Azure Advanced Threat Protection.)
 
 ## About EMS for US Government 
 EMS GCC High plans are monthly subscriptions and are licensed on a per user basis. Organizations that use EMS GCC High benefits from the following unique features:  
