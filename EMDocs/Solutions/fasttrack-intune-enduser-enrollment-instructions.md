@@ -4,8 +4,8 @@
 title: End-user Intune enrollment instructions for IT admins
 description: End user Intune enrollment instructions for IT administrators
 keywords:
-author: nathbarn
-ms.author: nathbarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 02/01/2017
 ms.topic: article
