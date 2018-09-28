@@ -17,7 +17,7 @@ ms.suite: ems
 
 ---
 # Enterprise Mobility + Security for US Government Service Description 
-In response to the unique and evolving requirements of the United States public sector, Microsoft has created Enterprise Mobility + Security (EM+S) plans for our United States Government customers. This document provides an overview of features that are specific to EMS plans.  
+In response to the unique and evolving requirements of the United States public sector, Microsoft has created Enterprise Mobility + Security (EMS) plans for our United States Government customers. This document provides an overview of features that are specific to EMS plans.  
 
 ## How to use this Service Description 
 The EMS for US Government Service Description is designed to serve as an overview of our offering and will cover (1) which services and features are included in this offer, (2) how the Government offers differ from our existing commercial offers, and (3) our current compliance commitments. This document defines the unique commitments and differences compared to EMS commercial offerings.  
