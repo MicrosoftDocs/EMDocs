@@ -159,7 +159,7 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
     -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to Intune.
 
--   Providing Intune App Protection (app-management) guidance about:
+-   Providing Intune App Protection (app-management) guidance on:
 
     -   Configuring app protection policies for each supported platform.
 
@@ -169,7 +169,7 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
     -   Using managed-applications usage reports.
 
--   Providing PC management guidance about:
+-   Providing PC management guidance on:
 
     -   Installing the Intune client software (when needed).
 
@@ -178,9 +178,40 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 	> [!IMPORTANT]
 	> FastTrack does not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 device management through Intune mobile device management (MDM).
 
+#### Windows Autopilot
+
+FastTrack can help you through simplifying your device provisioning with Windows Autopilot and Intune by giving new devices to your end users without the need to build, maintain and apply custom operating system images to your devices.
+
+FastTrack supports the following Autopilot scenarios:
+
+- **Azure AD self-service:** Devices join Azure AD and enroll into Intune. This scenario is supported when using Windows 10 1703 and latest versions.
+
+- **Hybrid AAD self-service:** Devices join both on-premises AD and Azure AD and enroll into Intune. This scenario is supported when using Windows 10 1809 and latest versions.
+
+- **Self-provisioning:** Devices automatically join Azure AD. This scenario is supported when using Windows 1809 and latest versions.
+
+	> [!IMPORTANT]
+	> FastTrack does not support **Rip and Reuse** scenario (Autopilot reset).
+
+The steps to setup Windows Autopilot depends on your source environment and it can include:
+
+- Configure and setup Microsoft Intune for Windows Autopilot.
+
+- Configure Azure AD dynamic groups
+
+- Add your Company branding into Azure AD.
+
+- Create and assign devices to Windows Autopilot profiles (e.g a Windows Autopilot profile that restricts Local Administrator account creation).
+
+- Customize the Out-of-box-experience (OOBE) to comply with organization's requirements.
+
+- Configuring MDM Auto-enrollment in Azure AD and Intune.
+
+- Setting up the Configuration Manager agent in Intune to support co-management scenarios.
+
 #### Co-management
 
-FastTrack guides you through getting ready to concurrently manage Windows 10 devices with both Configuration Manager and Intune. The exact steps depend on your source environment, the steps can include:
+FastTrack guides you through getting ready to concurrently manage Windows 10 devices with both Configuration Manager and Intune. The exact steps depend on your source environment, and it can include:
 
 - Explain the benefits of Co-management.
 

@@ -173,7 +173,7 @@ Provide guidance about setting up:
 > [!IMPORTANT]
 > FastTrack does not support Windows 10 classic PC management with Intune. FastTrack only supports Windows 10 management through Intune mobile device management (MDM).
 
-Provide **guidance** about:
+Provide **guidance** on:
 
 -   Configuring identities to be used by Intune, by either leveraging your on-premises Active Directory or cloud identities (Azure Active Directory).
 
@@ -227,6 +227,25 @@ Provide **guidance** about:
     -   Configuring Software updates for applicable supported platforms.
 
     -   Resources for user adoption planning.
+
+- Setting up Windows Autopilot:
+
+	- Configure and setup Microsoft Intune for Windows Autopilot.
+
+	- Configure Azure AD dynamic groups
+
+	- Add your Company branding into Azure AD.
+
+	- Create and assign devices to Windows Autopilot profiles (e.g a Windows Autopilot profile that restricts Local Administrator account creation).
+
+	- Customize the Out-of-box-experience (OOBE) to comply with organization's requirements.
+
+	- Configuring MDM Auto-enrollment in Azure AD and Intune.
+
+	- Setting up the Configuration Manager agent in Intune to support co-management scenarios.
+
+    > [!NOTE]
+    > Setting up Windows Autopilot outside Intune is out of scope for the FastTrack benefit.
 
 ### Enable phase - Co-management
 
