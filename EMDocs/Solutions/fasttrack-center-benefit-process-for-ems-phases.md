@@ -191,7 +191,7 @@ FastTrack supports the following Autopilot scenarios:
 - **Self-provisioning:** Devices automatically join Azure AD. This scenario is supported when using Windows 1809 and latest versions.
 
 	> [!IMPORTANT]
-	> FastTrack does not support **Rip and Reuse** scenario (Autopilot reset).
+	> FastTrack does support Autopilot scenarios initiated from Configuration Manager.
 
 The steps to setup Windows Autopilot depends on your source environment and it can include:
 
@@ -206,8 +206,6 @@ The steps to setup Windows Autopilot depends on your source environment and it c
 - Customize the Out-of-box-experience (OOBE) to comply with organization's requirements.
 
 - Configuring MDM Auto-enrollment in Azure AD and Intune.
-
-- Setting up the Configuration Manager agent in Intune to support co-management scenarios.
 
 #### Co-management
 

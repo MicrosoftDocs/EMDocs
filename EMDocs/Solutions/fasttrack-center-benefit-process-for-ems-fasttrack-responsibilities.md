@@ -242,8 +242,6 @@ Provide **guidance** on:
 
 	- Configuring MDM Auto-enrollment in Azure AD and Intune.
 
-	- Setting up the Configuration Manager agent in Intune to support co-management scenarios.
-
     > [!NOTE]
     > Setting up Windows Autopilot outside Intune is out of scope for the FastTrack benefit.
 
