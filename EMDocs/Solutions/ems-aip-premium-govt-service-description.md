@@ -24,7 +24,7 @@ The Azure Information Protection Premium Government Service Description is desig
 
 Azure Information Protection Premium Government plans are monthly subscriptions and are licensed on a per user basis. Organizations that use Azure Information Protection Premium Government benefit from the following unique features: 
 
-* Your organization's content is logically segregated from content in Microsoft's commercial Azure Information Protection Premium services. 
+* Your organization's content is physically segregated from content in Microsoft's commercial Azure Information Protection Premium services. 
 
 * Your organization's content is stored within the United States. 
 
@@ -34,7 +34,7 @@ Azure Information Protection Premium Government plans are monthly subscriptions 
 
 ## Customer Eligibility 
 
-Azure Information Protection Premium Government is available to (1) US federal, state, local, tribal, and territorial government entities, and (2) other entities that handle data that is subject to government regulations and requirements and where use of Azure Information Protection Premium Government is appropriate to meet these requirements, subject to validation of eligibility. Validation of eligibility by Microsoft will include confirmation of handling government-regulated or controlled data. Validation may require proof of registration with the U.S. Department of State or sponsorship by a government entity with specific requirements for the handling of data. This offer is limited to customers that have at least 500 seats. Upon renewal of a customer's contract for Azure Information Protection Premium Government, re-validation of eligibility is required. Entities with questions about eligibility for Azure Information Protection Premium Government should consult their account team. 
+Azure Information Protection Premium Government is available to (1) US federal, state, local, and tribal government entities, and (2) other entities that handle data that is subject to government regulations and requirements and where use of Azure Information Protection Premium Government is appropriate to meet these requirements, subject to validation of eligibility. Validation of eligibility by Microsoft will include confirmation of handling government-regulated or controlled data. This offer is limited to customers that have at least 500 seats. Entities with questions about eligibility for Azure Information Protection Premium Government should consult their account team. 
 
 ## Location of Customer Data 
 
@@ -53,7 +53,7 @@ Office 365 is currently available in both the GCC and GCC High environments. To 
 Azure Information Protection Premium P1/P2 (commercial) | Office 365, GCC | FedRAMP-Moderate* 
 Azure Information Protection Premium P1/P2 GCC High | Office 365, GCC High | FedRAMP-High 
 
-*Note: Target date for FedRAMP Moderate compliance is Q3 of calendar year 2018. 
+*Note: Target date for FedRAMP Moderate compliance is H2 of calendar year 2018. 
 
 ## Parity with Azure Information Protection Premium Commercial Offerings 
 
