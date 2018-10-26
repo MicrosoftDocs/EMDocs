@@ -32,7 +32,7 @@ Congratulations!  We hope you have found your time and experience at Ignite info
 Customers who want to trial Enterprise Mobility + Security (EMS) Enterprise can do so for 90 days.  Because you attended Ignite, we are offering you a <u>full 6-month EMS trial</u> for up to 250 users on your tenant. 
 
 ## How to access the promotional trial
-To start your trial now, go to the [Enterprise Mobility + Security E5 Trial page](https://signup.microsoft.com/signup/logout?OfferId=87DD2714-D452-48A0-A809-D2F58C4F68B7&pc=24ed2ce8-5193-4e62-99dc-5b9bfb706c9c).
+To start your trial now, go to the [Enterprise Mobility + Security E5 Trial page](https://signup.microsoft.com/signup?OfferId=87DD2714-D452-48A0-A809-D2F58C4F68B7&pc=24ed2ce8-5193-4e62-99dc-5b9bfb706c9c&ali=1).
 
 ## Learn more about what you can do with EMS
 Security offerings in EMS include:    
