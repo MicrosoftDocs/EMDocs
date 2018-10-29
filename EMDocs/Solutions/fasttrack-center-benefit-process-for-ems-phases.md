@@ -191,7 +191,7 @@ FastTrack supports the following Autopilot scenarios:
 - **Self-provisioning:** Devices automatically join Azure AD. This scenario is supported when using Windows 1809 and latest versions.
 
 	> [!IMPORTANT]
-	> FastTrack does support Autopilot scenarios initiated from Configuration Manager.
+	> FastTrack does not support Autopilot scenarios initiated from Configuration Manager.
 
 The steps to setup Windows Autopilot depends on your source environment and it can include:
 
