@@ -43,11 +43,24 @@ After you purchase the appropriate number of licenses, follow the guidance from 
 
 ### To request assistance
 
-1. Go to [FastTrack Center](http://fasttrack.microsoft.com/) and sign in with your work or school account.
+1. Sign in to the [FastTrack site](https://go.microsoft.com/fwlink/?linkid=780698).
+2. Select **FastTrack**.
+3. Select **Services**.
+4. Complete the **Request for Assistance with Microsoft 365 form**.
 
-2. On the Customer Dashboard, choose **Go to FastTrack** at the bottom right of the page.
+Once onboarding support starts, we’ll set up a schedule of online meetings.
 
-3. On the FastTrack Dasboard, expand the **Need Help** at the bottom right of the page, and then follow the prompts to complete your request.
+> [!NOTE]
+> If you have a Microsoft partner listed in your Office 365 tenant, you won't see this option. Please consult your Microsoft partner for assistance.
+
+Microsoft partners can also get help through the [FastTrack site](https://go.microsoft.com/fwlink/?linkid=780698) on behalf of a customer. To do so:
+
+1. Sign in to the [FastTrack site](https://go.microsoft.com/fwlink/?linkid=780698).
+2. Select **FastTrack**.
+3. Select **My Customers**.
+4. Search for your customer or select them from your customer list.
+5. Select **Services**.
+6. Complete the **Request for Assistance with Microsoft 365 form**.
 
 Once the onboarding support starts, FastTrack sets up a schedule of online meetings with you to discuss the onboarding process, verify data, and set up a kick-off meeting.
 
