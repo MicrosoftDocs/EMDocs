@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 08/13/2018
+ms.date: 11/05/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -38,14 +38,24 @@ If you purchase any of the following Microsoft online services through an eligib
 
 ### To request assistance
 
-1. Sign in to the [FastTrack Center](http://fasttrack.microsoft.com/)
-
-2. Go to the dashboard, expand the **Need Help?** at the left of the screen, and then follow the prompts to complete your request.
+1. Sign in to the [FastTrack site](https://go.microsoft.com/fwlink/?linkid=780698).
+2. Select **FastTrack**.
+3. Select **Services**.
+4. Complete the **Request for Assistance with Microsoft 365 form**.
 
 Once onboarding support starts, we’ll set up a schedule of online meetings.
 
 > [!NOTE]
-> Customers can opt in to the onboarding process once per each eligible Microsoft online service.
+> If you have a Microsoft partner listed in your Office 365 tenant, you won't see this option. Please consult your Microsoft partner for assistance.
+
+Microsoft partners can also get help through the [FastTrack site](https://go.microsoft.com/fwlink/?linkid=780698) on behalf of a customer. To do so:
+
+1. Sign in to the [FastTrack site](https://go.microsoft.com/fwlink/?linkid=780698).
+2. Select **FastTrack**.
+3. Select **My Customers**.
+4. Search for your customer or select them from your customer list.
+5. Select **Services**.
+6. Complete the **Request for Assistance with Microsoft 365 form**.
 
 ## Eligible plans
 EMS and the cloud services included in the FastTrack Center Benefit for EMS are eligible for the service benefit if you purchase at least 150 licenses for a subscription in one of the following eligible plans:
