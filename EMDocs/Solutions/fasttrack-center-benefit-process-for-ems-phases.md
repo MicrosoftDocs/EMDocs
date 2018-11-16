@@ -5,9 +5,9 @@ title: Onboarding and migration phases
 description: Phases of the FastTrack Center Benefit
 keywords:
 author: andredm7
-ms.author: anmorgan
+ms.author: andredm
 manager:
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -172,7 +172,7 @@ For Intune, we guide you through getting ready to use Microsoft Intune to manage
 
     -   Enrolling devices of each [supported platform](https://technet.microsoft.com/library/dn600287.aspx) to Intune.
 
--   Providing Intune App Protection (app-management) guidance on:
+-   Providing App Protection guidance on:
 
     -   Configuring app protection policies for each supported platform.
 
@@ -220,6 +220,22 @@ The steps to setup Windows Autopilot depends on your source environment and it c
 
 - Configuring MDM Auto-enrollment in Azure AD and Intune.
 
+#### Deploy Outlook for iOS and Android securely
+
+FastTrack can help you by deploying Outlook for iOS and Android securely in your organization to ensure your users have all the required apps installed.
+
+The steps to securely deploy Outlook Mobile for iOS and Android with Intune depends on your source environment and it can include:
+
+- Download Outlook for iOS and Android, Microsoft Authenticator and the Intune Company portal app via the Apple App Store or Google Play Store.
+- Also provide guidance on setting up:
+	- Outlook for iOS and Android, Microsoft Authenticator and the Intune Company portal app deployment with Intune.
+	- App protection policies
+	- Conditional access policies
+	- App configuration policies
+
+	> [!IMPORTANT]
+	> FastTrack team does not support securing Outlook for iOS and Android with Exchange mobile device mailbox policies.
+
 #### Co-management
 
 FastTrack guides you through getting ready to concurrently manage Windows 10 devices with both Configuration Manager and Intune. The exact steps depend on your source environment, and it can include:
@@ -244,7 +260,7 @@ FastTrack guides you through getting ready to concurrently manage Windows 10 dev
 
 - Configure supported workloads that you want to switch to Intune.
 
-- Install Configuration Manger client in Intune enrolled devices.
+- Install Configuration Manager client in Intune enrolled devices.
 
 - Provide guidance on how to monitor the Co-management activity in your environment.
 
