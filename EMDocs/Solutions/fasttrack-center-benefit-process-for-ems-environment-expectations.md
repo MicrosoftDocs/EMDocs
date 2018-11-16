@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -35,12 +35,13 @@ The following table shows expectations for your existing source environment for 
 
 |Activity|Source environment expectation|
 |------------|----------------------------------|
-|Core on boarding|Active Directory forests with the functional forest level set to Windows Server 2008 or above, with the following forest configuration:<br /><br />-   Single Active Directory forest<br />-   Multiple Active Directory forests </br></br>**Note**: For all multiple forests configurations, Active Directory Federation Services (AD FS) deployment is out of scope for the FastTrack Center Benefit.|
+|Core on-boarding|Active Directory forests with the functional forest level set to Windows Server 2008 or above, with the following forest configuration:<br /><br />-   Single Active Directory forest<br />-   Multiple Active Directory forests </br></br>**Note**: For all multiple forests configurations, Active Directory Federation Services (AD FS) deployment is out of scope for the FastTrack Center Benefit.|
 |Azure AD Premium on-boarding|The on-premises Active Directory and its environment have been prepared for Azure AD Premium, which includes remediation of identified issues that prevent integration with Azure AD and Azure AD Premium features.|
 |Intune on-boarding| IT admins need to have existing Certificate Authority, WiFi, and VPN infrastructures already working in their production environments when planning on deploying WiFi and VPN profiles with Intune.<br /><br /> **Note**: The service benefit doesn’t include assistance for setting up or configuring Certificate Authorities, WiFi, VPN infrastructures, or Apple MDM push certificates for  |
 |Comanagement|With Comanagement IT admins are responsible for preparing the on-premises environment, which might include remediation of issues that prevent you from concurrently manage Windows 10 devices using both Configuration Manager and Intune.<br /><br />**Note**: The FastTrack service benefit doesn't include assistance for setting up or upgrading Configuration Manager site server and/or Configuration Manager client to the minimum requirements needed to support Comanagement with Windows 10 devices. |
 |Intune integrated with Windows Defender Advanced Threat Protection (Windows Defender ATP)|Your Windows Defender ATP subscription has been activated and configured based on your company security requirements.<br /><br />**Note**: The FastTrack service benefit provides assistance on integrating Intune with Windows Defender ATP, and creating device compliance policies based on its Windows 10 risk level assessment. The FastTrack service benefit does not provide assistance on purchasing, licensing, activating, or using Windows Defender ATP and its Security Center console. |
-|Windows Autopilot|IT admins are responsible for registering their devices to their organization by either having the hardware vendor upload their hardware IDs on their behalf or by uploading it themselves into the Windows Autopilot service.
+|Windows Autopilot|IT admins are responsible for registering their devices to their organization by either having the hardware vendor upload their hardware IDs on their behalf or by uploading it themselves into the Windows Autopilot service. |
+|Deploy Outlook for iOS and Android securely with Intune|<br /><br />-   User identities enabled in Azure AD for Office 365.<br />-   Exchange Online or Hybrid Exchange configured with user licenses assigned.<br />|
 
 > [!NOTE]
 > **Want to learn more?**
