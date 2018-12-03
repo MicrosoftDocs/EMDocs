@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 11/15/2018
+ms.date: 12/4/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -107,11 +107,11 @@ For Azure AD Premium scenarios that include synchronizing on-premises identities
 
 Azure AD Premium setup includes enabling the following features:
 
--   Self-Service Password Reset (SSPR).
+-   Azure Active Directory Self-Service Password Reset (SSPR).
 
 -   Azure Multi-Factor Authentication (Azure MFA).
 
--   Up to three (3) or more Software as a Service (SaaS) application integrations with single sign-on (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+-   Up to three (3) or more Software as a Service (SaaS) application integrations with Single Sign-On (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
 -   Automatic user provisioning for pre-integrated SaaS applications as listed in the [App integration tutorial list](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list), limited to outbound provisioning only.
 
@@ -123,11 +123,15 @@ Azure AD Premium setup includes enabling the following features:
 
 -   Azure Active Directory Connect Health.
 
--   Identity Protection.
+-   Azure Active Directory Conditional Access.
 
--   Privileged Identity Management.
+-   Azure Active Directory Terms of Use.
 
--   Azure Active Directory Conditional Access, including Terms of Use, if required.
+-   Azure Active Directory Identity Protection.
+
+-   Azure Active Directory Privileged Identity Management.
+
+-   Azure Active Directory Access Reviews.
 
 ![Onboarding enable phase - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
