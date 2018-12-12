@@ -7,7 +7,7 @@ keywords:
 author: andredm7
 ms.author: andredm
 manager:
-ms.date: 10/26/2018
+ms.date: 12/4/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -146,11 +146,11 @@ Provide guidance about setting up:
 
 - Azure AD Connect directory synchronization (with password writeback and password hash sync).
 
-  - Self Service Password Reset (SSPR).
+  - Azure Active Directory Self Service Password Reset (SSPR).
 
   - Azure Multi-Factor Authentication.
 
-  - Up to three (3) or more Software as a Service (SaaS) application integrations with SSO from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+  - Up to three (3) or more Software as a Service (SaaS) application integrations with Single Sign-On (SSO) from the [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
   - Automatic user provisioning for pre-integrated SaaS applications as listed in the [App integration tutorial list](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list), limited to outbound provisioning only.
 
@@ -160,13 +160,17 @@ Provide guidance about setting up:
 
   - Azure Active Directory Application Proxy.
 
-  - Azure AD Connect Health.
+  - Azure Active Directory Connect Health.
 
-  - Identity Protection.
+  - Azure Active Directory Conditional Access.
 
-  - Privileged Identity Management.
+  - Azure Active Directory Terms of Use.
 
-  - Azure Active Directory Conditional Access, including Terms of Use, if required.
+  - Azure Active Directory Identity Protection.
+
+  - Azure Active Directory Privileged Identity Management.
+
+  - Azure Active Directory Access Reviews.
 
 ### Enable phase - Intune
 
