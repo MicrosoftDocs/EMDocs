@@ -69,8 +69,36 @@ These are the known existing gaps between Azure Information Protection Premium G
 
 * Migration from Active Directory Rights Management Services (AD RMS) to Azure Information Protection is not supported. 
 
-* The Azure Information Protection viewer app on iOS and Android are not supported. 
-
 * Sharing of protected documents and emails to users in the commercial cloud is not supported. This includes Office 365 users in the commercial cloud, non-Office 365 users in the commercial cloud, and users with an RMS for Individuals license. 
 
 * Information Rights Management will not be supported with SharePoint Online. IRM-protected sites and libraries will not be available. 
+
+## Configuring Azure Information Protection for GCC High customers
+
+### DNS configuration for encryption
+For encryption to work correctly, Office client applications must connect to the GCC High instance of the service and bootstrap from there. To redirect clients applications to the right service instance, the tenant admin must configure a DNS SRV record with information about the Azure RMS URL. Without the DNS SRV record, the client application will attempt connect to the public cloud instance by default, will fail.
+
+Also, the assumption is that users will log in with the username based off the tenant-owned-domain (e.g.: joe@contoso.us), and not the onmicrosoft username (e.g.: joe@contoso.onmicrosoft.us). The domain name from the username is used for DNS redirection to the right service instance.
+
+* Get the Rights Management Service ID 
+  * Launch PowerShell as an Administrator 
+  * Run `Install-Module aadrm` if the AADRM module is not installed 
+  * Connect to service using `Connect-aadrmservice -environmentname azureusgovernment`
+  * Run `$(Get-aadrmconfiguration).RightsManagementServiceId` to get the Rights Management Service ID
+* Log in to your DNS provider, and navigate to the DNS settings for the domain 
+  * Service = `_rmsredir` 
+  * Protocol = `_http` 
+  * Name = `_tcp` 
+  * Target = `[GUID].rms.aadrm.us`  (where GUID is the Rights Management Service ID) 
+  * Port = `80` 
+  * Priority, Weight, Seconds, TTL = default values 
+* Associate the custom domain with the tenant in the [Azure portal](https://portal.azure.us/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). This will add an entry in DNS which might take some minutes to get verified after you add the value in the DNS settings.  
+* Login to the Office Admin Center with the corresponding global admin credentials and add the domain (example: contoso.us) for user creation. In the verification process, some more DNS changes might be required. Once verification is done, users can be created.
+
+### AIP apps configuration
+The AIP apps on Windows need a special registry key to point them to the right service instance for GCC High.  
+
+| Reg Key | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP\WebServiceUrl |
+| --- | --- |
+| Value | https://api.informationprotection.azure.us |
+| Type | String |
