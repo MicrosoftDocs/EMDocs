@@ -99,6 +99,9 @@
         - name: Software update management
           tocHref: /sccm/sum/
           topicHref: /sccm/sum/understand/software-updates-introduction
+        - name: Co-management
+          tocHref: /sccm/comanage/
+          topicHref: /sccm/comanage/overview
         - name: Develop
           tocHref: /sccm/develop/
           topicHref: /sccm/develop/core/misc/system-center-configuration-manager-sdk
