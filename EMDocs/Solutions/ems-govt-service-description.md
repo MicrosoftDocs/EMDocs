@@ -25,17 +25,17 @@ The EMS for US Government Service Description is designed to serve as an overvie
 
 |EMS US Government Offer|Location of Hosted Service |Corresponding Office 365 Government Offer|Compliance Commitment|
 |-----------|-----------|-----------|
-|EMS for GCC</br>Available in both E3 and E5.*|Azure Commercial Clud|Office 365 GCC|FedRAMP-Moderate*|
-|EMS for GCC High</br>Available in E3 and E5|Azure Government CLoud|Office 365 GCC High|FedRAMP-High| 
+|EMS for GCC</br>Available in both E3 and E5.*|Azure Commercial Cloud|Office 365 GCC|FedRAMP-Moderate*|
+|EMS for GCC High</br>Available in E3 and E5|Azure Government Cloud|Office 365 GCC High|FedRAMP-High| 
 
 > [!Note]    
 > E5 is limited to Azure AD P2 and Azure Information Protection P2 at this time.  Microsoft Cloud App Security and Azure Advanced Threat Protection are not currently included in the GCC or GCC High offerings.  However, GCC customers can choose to add-on commercial offerings of Microsoft Cloud App Security and Azure ATP offerings (which do not meet the same compliance standards) with the purchase of an EMS E5 SKU.
 
-Office 365 is currently available in both the GCC, GCC High, and DOD environments. To learn more about these offers, please reference the Office 365 Government Service Description. 
+Office 365 is currently available in both the GCC, GCC High, and DOD environments. To learn more about these offers, please reference the [Office 365 Government Service Description](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government). 
 
 ## EMS for GCC
 
-The EMS commercial offering is fully interoperable with Office 365 GCC.  Azure Active Directory P1/P2, Intune, and Azure Information Protection P1/P2 are certified FedRAMP-Moderate for this offer and meet the GCC criteria.
+The EMS commercial offering is fully interoperable with Office 365 GCC.  Azure Active Directory P1/P2, Intune, and Azure Information Protection P1/P2 are certified FedRAMP-Moderate for this offer and meet the [GCC criteria](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).
 
 ## EMS for GCC High
 
@@ -78,8 +78,8 @@ These are the known existing gaps between EMS GCC High and our commercial offer 
 
 - Azure Information Protection:
 
-  - Please visit the Azure Information Protection Premium page within the Azure Government documentation site for a list of features that are currently not available.
+  - Please visit the [Azure Information Protection Premium page](ems-aip-premium-govt-service-description.md) within the Azure Government documentation site for a list of features that are currently not available.
 
 - Azure Active Directory:
 
-  - Documentation site for a list of features that are currently not available in Azure Government.
+  - Please visit the [Azure Active Directory Premium page](/azure/azure-government/documentation-government-services-securityandidentity#azure-active-directory-premium-p1-and-p2) of the Azure Government Documentation site for a list of features that are currently not available in Azure Government.
