@@ -5,7 +5,7 @@ title: Protect data against user mistakes | Microsoft Docs
 description: A scenario that describes how Enterprise Mobility + Security can be used to protect corporate data from user mistakes and prevent data loss by leveraging Cloud App Security and Azure Information Protection capabilities.
 author: yuridio
 ms.author: yurid
-manager: mbaldwin
+manager: barbkess
 ms.date: 09/18/2018
 ms.topic: conceptual
 ms.prod:

@@ -5,7 +5,7 @@ title: Role of Azure Information Protection in securing data | Microsoft Docs
 description: This article describes the role of Azure Information Protection in keeping your organization's data secure.
 author: yuridio
 ms.author: yurid
-manager: mbaldwin
+manager: barbkess
 ms.date: 05/18/2017
 ms.topic: solution
 ms.prod:

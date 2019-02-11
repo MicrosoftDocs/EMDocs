@@ -5,7 +5,7 @@ title: Protect at the front door | Microsoft Docs
 description: A scenario that describes how Enterprise Mobility + Security can be used to protect identity for secure access to company resources by leveraging Microsoft Azure Active Directory Identity Protection and Azure Active Directory Privileged Identity Management capabilities.
 author: yuridio
 ms.author: yurid
-manager: mbaldwin
+manager: barbkess
 ms.date: 05/18/2017
 ms.topic: solution
 ms.prod:
