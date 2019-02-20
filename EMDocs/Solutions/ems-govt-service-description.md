@@ -41,6 +41,11 @@ The EMS commercial offering is fully interoperable with Office 365 GCC.  Azure A
 
 The EMS for GCC High offering is built on the Microsoft Azure Government Cloud and is designed to interoperate with the Office 365 GCC High offers. Azure Active Directory P1/P2, Intune, and Azure Information Protection P1/P2 are certified FedRAMP-High for this offer. (We are targeting to add Microsoft Cloud App Security and Azure Advanced Threat Protection to this offer in calendar year 2019, pending FedRAMP-High authorization.)
 
+GCC High customers can use a separate set of endpoints for Intune based on different requirements and management needs.  Below is a list of management portals available to EMS customers:
+* Office 365 Portal: [https://portal.office365.us](https://portal.office365.us) (for user, group, and license management])
+* Azure / Intune Admin Portal: [https://portal.azure.us](https://portal.azure.us)
+* Intune Web Company Portal: [https://portal.manage.microsoft.us](https://portal.manage.microsoft.us)
+
 Organizations that use EMS for GCC High benefit from the following unique features:
 * Your organization’s content is physically segregated from content in Microsoft's commercial EMS services.
 * Your organization’s content is stored within the United States.
