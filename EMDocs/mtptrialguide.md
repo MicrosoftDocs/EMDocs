@@ -27,7 +27,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 # Deploying Microsoft Threat Protection Services
-Microsoft Threat Protection (MTP) is a comprehensive, integrated, and intelligent solution securing the modern workplace across identities, endpoints, user data, cloud apps, and infrastructure.  The solution is built on and powered by the Microsoft Intelligent Security Graph, harnessing signals from the threat landscape, providing intelligent analysis, actionable insights, and ultimately, best in breed security for the modern workplace.  This guide will help you setup the services that are part of Microsoft Threat Protection.
+Microsoft Threat Protection (MTP) is a comprehensive, integrated, and intelligent solution securing the modern workplace across identities, endpoints, user data, cloud apps, and infrastructure.  The solution is built on and powered by the Microsoft Intelligent Security Graph, harnessing signals from the threat landscape, providing intelligent analysis, actionable insights, and ultimately, best in breed security for the modern workplace.  This guide will help you set up the following services that are part of Microsoft Threat Protection.
 
 - **Azure Active Directory** enhances security, simplifies access, and sets smart policies with a single identity platform.
 
@@ -43,8 +43,9 @@ Microsoft Threat Protection (MTP) is a comprehensive, integrated, and intelligen
 
 - **Azure Security Center (ASC)** provides unified security management and advanced threat protection across hybrid cloud workloads. With Azure Security Center, you can apply custom security policies across all workloads, limit exposure to threats, and immediately detect and respond to attacks.
 
-## Step 1: Prepare your environment
-[!NOTE] Perform these steps in a browser instance of [Jump Host 01](https://labondemand.com/LabProfile/EditInstructions/45973).
+## Exercise 1: Prepare your environment
+> [!NOTE]
+> Perform these steps in a browser instance of [Jump Host 01](https://labondemand.com/LabProfile/EditInstructions/45973).
 
 Before setting up Microsoft 365 Threat Protection technology, it's important to know about your environment and what licenses are in place so that installation and configuration are successful. The following components are included in your lab environment:
 
@@ -52,29 +53,30 @@ Before setting up Microsoft 365 Threat Protection technology, it's important to 
 - Virtual machines:
   - Windows 10 client PC (**Jump Host 01** under **Resources**)
   - Windows Server running domain controller (**DC01** under **Resources**)
-- An Azure Subscription (See **Exercise 7** for guidelines on how to obtain a temporary Azure Subscription using an Azure Pass)
+- An Azure Subscription. For guidelines on how to obtain a temporary Azure Subscription using an Azure Pass, see [Exercise 7: Set up Azure Security Center](#Exercise-7:-Set-up-Azure-Security-Center).
 
 ### Microsoft 365 Tenant
 For this lab, a Microsoft 365 tenant is supplied to you and includes appropriate trial subscriptions. To verify your tenant is equipped with these licenses, use the following procedure:
 
 1. If necessary, switch to the Windows 10 client machine, [Jump Host 01](https://labondemand.com/LabProfile/EditInstructions/45973).
 2. Launch a new browser instance, then navigate to the [Office 365 management portal](https://portal.office.com).
-3. Sign in with global admin user credentials. See **Resources** tab next to instruction for your lab tenant user credentials.
+3. Sign in with global admin user credentials. For your lab tenant user credentials, see the **Resources** tab.
 4. Dismiss any pop-up windows, and then click **Admin** to go to Microsoft 365 admin center.
 5. In the navigation, go to **Billing**, and then **Subscriptions**.
 6. Review the list of current licenses, including Office 365 Enterprise E5, EMS Enterprise E5, and Windows 10 E5.
 
-[!IMPORTANT]
-Your Microsoft 365 tenant is a temporary learning environment only and will be automatically deleted after the allotted time period, unless converted to a paid subscription.
+> [!IMPORTANT]
+> Your Microsoft 365 tenant is a temporary learning environment only and will be automatically deleted after the allotted time period, unless converted to a paid subscription.
 
 In the real-world environment, you must have a subscription to Microsoft Azure, and be assigned the role of Subscription Owner, Subscription Contributor, or Security Administrator.
 
 ### Azure Subscription
 An Azure Subscription is required for upgrading Azure Security Center (ASC) from Free Tier to Standard Tier. Free Tier provides threat monitoring protection for Azure resources only, while the Standard Tier extends this capability to on-premises and non-Azure cloud resources. The Standard Tier upgrade is free for the first 60 days in all tenants.
 
-[!NOTE] See section 7 for guidelines to acquiring a temporary Azure Subscription using an Azure Pass for this lab.
+> [!NOTE] 
+For guidelines to acquiring a temporary Azure Subscription using an Azure Pass for this lab, see [Exercise 7: Set up Azure Security Center](#Exercise-7:-Set-up-Azure-Security-Center).
 
-## Step 2: Set up and configure Exchange Online Protection
+## Exercise 2: Set up and configure Exchange Online Protection
 
 ### Introduction
 Microsoft Exchange Online Protection (EOP) is a cloud-based email filtering service that helps protect your organization against spam and malware, and includes features to safeguard your organization from messaging-policy violations. EOP can simplify the management of your messaging environment and alleviate many of the burdens that come with maintaining on-premises hardware and software.    
@@ -131,7 +133,7 @@ Detected spam can be automatically routed via a custom spam-filter policy, defin
    - **Add X-header** sends the message to the specified recipients, but adds X-header text to the message header in order to identify the message as spam. Using this text as an identifier, you can also create inbox rules or use a downstream device to act on the message. The default X-header text is **This message appears to be spam**.
    - **Prepend subject line with text** sends the message to the intended recipients but prepends the subject line with the text that you specify in the **Prefix subject line with this text** input box. Using this text as an identifier, you can optionally create rules to filter or route the messages as necessary.
    - **Redirect message to email address** sends the message to a designated email address instead of the intended recipients. Specify the **redirect** address in the **Redirect to this email address** input box.
-5. Under **Bulk email**, select a threshold to treat bulk email as spam. Level 1 indicates most bulk email as spam and 9 allows the most bulk email to be delivered. The service then performs the configured action, such as sending the message to the recipient's Junk Email folder.
+5. Under **Bulk email**, select a threshold to treat bulk email as spam. Level 1 indicates most bulk email as spam and level 9 allows the most bulk email to be delivered. The service then performs the configured action, such as sending the message to the recipient's **Junk Email** folder.
 
 ### Migrate Spam Block and Allow Lists
 Known suspicious senders and domains can be listed and blocked, while trusted senders remain on an Allow list to ensure appropriate and undisrupted receipt of information.
@@ -185,7 +187,7 @@ Choose how messages are sent to Microsoft when they're reported as junk or phish
    - Ask before sending a copy of the message to Microsoft
 3. Make selection and click **Save**.
 
-## Step 3: Set up and configure Office 365 Advanced Threat Protection
+## Exercise 3: Set up and configure Office 365 Advanced Threat Protection
 
 ### Introduction
 Office 365 Advanced Threat Protection protects mailboxes, files, online storage, and applications against new and sophisticated attacks in real time. It offers holistic protection in Microsoft Teams, Word, Excel, PowerPoint, Visio, SharePoint Online, and OneDrive for Business. By protecting against unsafe attachments and expanding protection against malicious links, it complements the security features of Exchange Online Protection to provide better zero-day protection.
@@ -230,41 +232,46 @@ ATP can be easily configured in much the same way for applying company domain, C
 ATP keeps email safe by scanning mailed links and attachments, and monitoring blocked URLs.
 
 ##### Set up ATP SafeLinks policies in Office 365: 
-1. Sign in to https://protection.office.com, access Office 365 Security & Compliance Center. In the left navigation, under Threat management, choose **Policy** > **Safe Links**.
-2. In the **Policies that apply to the entire organization** section, select **Default**, and then choose **Edit** (the Edit button resembles a pencil).
-3. In the **Block the following URLs** section, specify one or more URLs that you want to prevent people in your organization from visiting.
-4. In the **Settings that apply to content except email** section, select all the options you want to use.
-5. Choose **Save**.
+1. Sign in to the [Office 365 Security & Compliance Center](https://protection.office.com).
+2. In the left navigation, under Threat management, choose **Policy** > **Safe Links**.
+3. In the **Policies that apply to the entire organization** section, select **Default**, and then choose **Edit** (the Edit button resembles a pencil).
+4. In the **Block the following URLs** section, specify one or more URLs that you want to prevent people in your organization from visiting.
+5. In the **Settings that apply to content except email** section, select all the options you want to use.
+6. Choose **Save**.
 
 ##### Set up a custom URL block list: 
-1. Sign in to https://protection.office.com, access Office 365 Security & Compliance Center. In the left navigation, under **Threat management**, choose **Policy** > **Safe Links**.
-2. In the **Policies that apply to the entire organization** section, select **Default**, and then choose **Edit** (the Edit button resembles a pencil).
-3. Select the **Enter a valid URL** box, type a URL, and then choose the plus sign (+).
+1. Sign in to the [Office 365 Security & Compliance Center](https://protection.office.com).
+2. In the left navigation, under **Threat management**, choose **Policy** > **Safe Links**.
+3. In the **Policies that apply to the entire organization** section, select **Default**, and then choose **Edit** (the Edit button resembles a pencil).
+4. Select the **Enter a valid URL** box, type a URL, and then choose the plus sign (+).
    - You can specify a domain-only URL (like contoso.com or tailspintoys.com). This will block clicks on any URL that contains the domain.
    - Do not include a forward slash (/) at the end of the URL. For example, instead of entering http://www.contoso.com/, enter http://www.contoso.com.
    - You can include up to three wildcard asterisks (*) per URL.
 
 ##### Add a policy for specific email recipients:
-1. Sign in to https://protection.office.com, access Office 365 Security & Compliance Center. In the left navigation, under **Threat management**, choose **Policy**.
-2. Choose **Safe Links**.
-3. In the **Policies that apply to specific recipients** section, choose **New** (the New button resembles a plus sign (+).
-4. Specify the name, description, and settings for your policy.
-5. Choose **Save**.
+1. Sign in to the [Office 365 Security & Compliance Center](https://protection.office.com).
+2. In the left navigation, under **Threat management**, choose **Policy**.
+3. Choose **Safe Links**.
+4. In the **Policies that apply to specific recipients** section, choose **New** (the New button resembles a plus sign (+).
+5. Specify the name, description, and settings for your policy.
+6. Choose **Save**.
 
 ##### Set up ATP SafeAttachments policies in Office 365:
-1. Sign in to https://protection.office.com, access Office 365 Security & Compliance Center. In the left navigation pane, under **Threat management**, choose **Policy** > **Safe Attachments**.
-2. If you see **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams**, select this option to enable [Office 365 Advanced Threat Protection for SharePoint, OneDrive, and Microsoft Teams](https://support.office.com/article/office-365-atp-for-sharepoint-onedrive-and-microsoft-teams-26261670-db33-4c53-b125-af0662c34607) for your Office 365 environment.
-3. Choose **New** (the New button resembles a plus sign (+) to start creating your policy.
-4. Specify the name, description, and settings for the policy.
-5. Choose **Save**.
+1. Sign in to the [Office 365 Security & Compliance Center](https://protection.office.com).
+2. In the left navigation pane, under **Threat management**, choose **Policy** > **Safe Attachments**.
+3. If you see **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams**, select this option to enable [Office 365 Advanced Threat Protection for SharePoint, OneDrive, and Microsoft Teams](https://support.office.com/article/office-365-atp-for-sharepoint-onedrive-and-microsoft-teams-26261670-db33-4c53-b125-af0662c34607) for your Office 365 environment.
+4. Choose **New** (the New button resembles a plus sign (+) to start creating your policy.
+5. Specify the name, description, and settings for the policy.
+6. Choose **Save**.
 
 #### Enable SharePoint/OneDrive/Teams Scanning
 ATP can detect and block files that are identified as malicious in SharePoint, Teams and OneDrive document libraries. 
-1. Sign in to https://protection.office.com, access Office 365 Security & Compliance Center. In the left navigation pane, under **Threat management**, choose **Policy** > **Safe Attachments**.
-2. Select **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams**.
-3. Click **Save**.
-4. Review and edit your organization's Safe Attachments policies and Safe Links policies.
-5. As a global administrator or a SharePoint Online administrator, you can run the Set-SPOTenant cmdlet with the **DisallowInfectedFileDownload** parameter set to **true**. Office 365 datacenters will be updated over time.
+1. Sign in to the [Office 365 Security & Compliance Center](https://protection.office.com).
+2. In the left navigation pane, under **Threat management**, choose **Policy** > **Safe Attachments**.
+3. Select **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams**.
+4. Click **Save**.
+5. Review and edit your organization's Safe Attachments policies and Safe Links policies.
+6. As a global administrator or a SharePoint Online administrator, you can run the Set-SPOTenant cmdlet with the **DisallowInfectedFileDownload** parameter set to **true**. Office 365 datacenters will be updated over time.
 
 #### Enable Bypass Rules For SafeLinks/SafeAttachments
 False clicks or attachment can be avoided by setting up bypass rules for mail flow. 
@@ -287,7 +294,7 @@ False clicks or attachment can be avoided by setting up bypass rules for mail fl
 6. Enter **X-MS-Exchange-Organization-SkipSafeAttachmentProcessing** as the header name, then set the value to **1**.
 7. Click **Save** to finish the rule.
 
-## Step 4: Set up and configure Microsoft Cloud App Security
+## Exercise 4: Set up and configure Microsoft Cloud App Security
 
 ### Introduction
 Cloud App Security is a critical component of Microsoft Cloud Security and helps your organization optimize and protect cloud applications while providing simple and secure management tools for organizations of every size and industry.
@@ -320,7 +327,7 @@ Shadow IT visibility is critical. After your logs are analyzed, you can easily d
 
 #### Connect Apps - Set Visibility, Protection and Governance Actions
 App connectors leverage the APIs of app providers to enable greater visibility and control by Microsoft Cloud App Security across all apps in use.
-1. In Microsoft Cloud App Security portal, Click the settings cog and select **App connectors**.
+1. In the [Microsoft Cloud App Security portal](https://portal.cloudappsecurity.com), click the settings cog and select **App connectors**.
 2. On **Connected apps** page, click **+** (the plus button) and select **Office 365**.
 3. In the Office 365 pop-up, click **Connect Office 365**.
 4. Click **Test new** to validate connectivity with Office 365.
@@ -356,7 +363,7 @@ Microsoft Cloud App Security access policies enable real-time monitoring and con
    - **Block**: Set this action to explicitly block access according to the policy filters you set.
 6. Create an alert for each matching event with the policy's severity, set an alert limit, and select whether you want the alert as an email, a text message, or both.
 
-## Step 5: Set up and configure Windows Defender Advanced Threat Protection
+## Exercise 5: Set up and configure Windows Defender Advanced Threat Protection
 
 ### Introduction
 Windows Defender Advanced Threat Protection (Windows Defender ATP) is a platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.
@@ -364,7 +371,8 @@ Windows Defender Advanced Threat Protection (Windows Defender ATP) is a platform
 Windows Defender Security Center gives enterprise security operations teams a central point of visibility to seamlessly secure networks. To help you maximize the effectiveness of the security platform, you can configure individual capabilities that surface in Windows Defender Security Center.
 
 ### Prerequisites
-[!Important] Set up Microsoft Cloud App Security before you go any further.
+> [!Important]
+> Set up Microsoft Cloud App Security before you go any further.
 
 The following is required for successful set up:
 - You have Windows Defender ATP subscription in your tenant.
@@ -393,8 +401,8 @@ You're now ready to onboard your first endpoint/PC to Windows Defender ATP. In t
 5. Open an elevated command-line prompt on the endpoint and run the script:
    1. Go to Start and type **cmd**.
    2. Right-click the command prompt and select **Run as administrator**.
-   3. Type the location of the script file. If you copied the file to the desktop, for example, type **C:\<USER>\Desktop\WindowsDefenderATPOnboardingScript.cmd** then press **Enter**.
-   4. At the prompt, press **Y**, and then press **Enter** to confirm.
+   3. Type the location of the script file. If you copied the file to the desktop, for example, type: **C:\<USER>\Desktop\WindowsDefenderATPOnboardingScript.cmd**, and then press **Enter**.
+   5. At the prompt, press **Y**, and then press **Enter** to confirm.
 
 #### Run a Detection Test on a newly onboarded computer
 Run the following PowerShell script on a newly onboarded computer to verify that it is properly reporting to the Windows Defender ATP service.
@@ -402,9 +410,9 @@ Run the following PowerShell script on a newly onboarded computer to verify that
    1. Go to Start and type **cmd**.
    2. Right-click **Command Prompt** and select **Run as administrator**.
 2. At the prompt, copy and run the following command:
-      '''
-      powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden (New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\test-WDATP-test\invoice.exe');Start-Process 'C:\test-WDATP-test\invoice.exe'
-      '''
+   ```
+   powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden (New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\test-WDATP-test\invoice.exe');Start-Process 'C:\test-WDATP-test\invoice.exe'
+   ```
    The Command Prompt window will close automatically.
 3. When detected, the test will be marked as completed and a new alert will appear in the portal for the onboarded computer in approximately 2-10 minutes.
 
@@ -414,69 +422,67 @@ Use PowerShell cmdlets to enable Windows Defender features:
    1. Go to Start and type **cmd**.
    2. Right-click **Command Prompt** and select **Run as administrator**.
 2. At the prompt, copy and run the following command:
-      '''
-      powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden (New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\test-WDATP-test\invoice.exe');Start-Process 'C:\test-WDATP-test\invoice.exe'
-      '''
+   ```
+   powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden (New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\test-WDATP-test\invoice.exe');Start-Process 'C:\test-WDATP-test\invoice.exe'
+   ```
 
 You can check the status of all settings before you begin or during evaluation by running the **Get-MpPreference** PowerShell cmdlet.
 
 Windows Defender AV will indicate a detection through standard Windows notifications. You can also review detections in the Windows Defender AV app. The Windows event log also records detection and engine events.
 
 ##### Cloud protection features 
-- Enable the Windows Defender Cloud for near-instant protection and increased protection:
-  '''Set-MpPreference -MAPSReporting Advanced'''
-- Submit samples to increase group protection:
-  '''Set-MpPreference -SubmitSamplesConsent Always'''
-- Use the cloud to block new malware within seconds:
-  '''Set-MpPreference -DisableBlockAtFirstSeen 0'''
-- Scan all downloaded files and attachments:
-  '''Set-MpPreference -DisableIOAVProtection 0'''
-- Set cloud block level to 'High':
-  '''Set-MpPreference -CloudBlockLevel High'''
-- Set cloud block timeout to 1 minute:
-  '''Set-MpPreference -CloudExtendedTimeout 50'''
+- Enable the Windows Defender Cloud for near-instant protection and increased protection:</br>
+  ```Set-MpPreference -MAPSReporting Advanced```
+- Submit samples to increase group protection:</br>
+  ```Set-MpPreference -SubmitSamplesConsent Always```
+- Use the cloud to block new malware within seconds:</br>
+  ```Set-MpPreference -DisableBlockAtFirstSeen 0```
+- Scan all downloaded files and attachments:</br>
+  ```Set-MpPreference -DisableIOAVProtection 0```
+- Set cloud block level to 'High':</br>
+  ```Set-MpPreference -CloudBlockLevel High```
+- Set cloud block timeout to 1 minute:</br>
+  ```Set-MpPreference -CloudExtendedTimeout 50```
 
 ##### Always-on protection (real-time scanning) 
 Windows Defender AV scans files as soon as they are seen by Windows and will monitor running processes for known or suspected malicious behaviors. If the antivirus engine discovers malicious modification, it will immediately block the process or file from running.
 
-- Constantly monitor files and processes for known malware modifications:
-  '''Set-MpPreference -DisableRealtimeMonitoring 0'''
-- Constantly monitor for known malware behaviors in running programs:
-  '''Set-MpPreference -DisableBehaviorMonitoring 0'''
-- Scan scripts as soon as they are seen or run:
-  '''Set-MpPreference -DisableScriptScanning 0'''
-- Scan removable drives as soon as they are inserted or mounted:
-  '''Set-MpPreference -DisableRemovableDriveScanning 0'''
+- Constantly monitor files and processes for known malware modifications:</br>
+  ```Set-MpPreference -DisableRealtimeMonitoring 0```
+- Constantly monitor for known malware behaviors in running programs:</br>
+  ```Set-MpPreference -DisableBehaviorMonitoring 0```
+- Scan scripts as soon as they are seen or run:</br>
+  ```Set-MpPreference -DisableScriptScanning 0```
+- Scan removable drives as soon as they are inserted or mounted:</br>
+  ```Set-MpPreference -DisableRemovableDriveScanning 0```
 ##### Potentially Unwanted Application protection
-- Prevent grayware, adware, and other potentially unwanted apps from installing:
-  '''Set-MpPreference -PUAProtection Enabled'''
+- Prevent grayware, adware, and other potentially unwanted apps from installing:</br>
+  ```Set-MpPreference -PUAProtection Enabled```
 
 ##### Email and archive scanning
 You can set Windows Defender Antivirus to automatically scan certain types of email files and archive files (such as .zip files) when they are seen by Windows.
-- Scan email files and archives:
-  '''Set-MpPreference -DisableArchiveScanning 0 Set-MpPreference -DisableEmailScanning 0'''
+- Scan email files and archives:</br>
+  ```Set-MpPreference -DisableArchiveScanning 0 Set-MpPreference -DisableEmailScanning 0```
 
 ##### Manage product and protection updates
 Adjust the frequency of updates by setting the following options and ensuring that your updates are managed either in System Center Configuration Manager, with Group Policy, or in Intune.
-- Update signatures every day:
-  '''Set-MpPreference -SignatureUpdateInterval 8'''
-- Check to update signatures before running a scheduled scan:
-  '''Set-MpPreference -CheckForSignaturesBeforeRunningScan 1'''
+- Update signatures every day:</br>
+  ```Set-MpPreference -SignatureUpdateInterval 8```
+- Check to update signatures before running a scheduled scan:</br>
+  ```Set-MpPreference -CheckForSignaturesBeforeRunningScan 1```
 
 ##### Advanced threat and exploit mitigation and prevention Controlled folder access 
-- Prevent malicious and suspicious apps (such as ransomware) from making changes to protected folders with Controlled folder access:
-  '''Set-MpPreference -EnableControlledFolderAccess Enabled'''
-- Block connections to known bad IP addresses and other network connections with Network protection:
-  '''Set-MpPreference -EnableNetworkProtection Enabled'''
-- Apply a standard set of mitigations with Exploit protection:
-  '''
-  Invoke-WebRequest https://demo.wd.microsoft.com/Content/ProcessMitigation.xml -OutFile ProcessMitigation.xml
-  Set-ProcessMitigation -PolicyFilePath ProcessMitigation.xml
-  '''
-- Ensure notifications allow you to boot the PC into a specialized malware removal environment:
-  '''Set-MpPreference -UILockdown 0'''
+- Prevent malicious and suspicious apps (such as ransomware) from making changes to protected folders with Controlled folder access:</br>
+  ```Set-MpPreference -EnableControlledFolderAccess Enabled```
+- Block connections to known bad IP addresses and other network connections with Network protection:</br>
+  ```Set-MpPreference -EnableNetworkProtection Enabled```
+- Apply a standard set of mitigations with Exploit protection:</br>
+  ```Invoke-WebRequest https://demo.wd.microsoft.com/Content/ProcessMitigation.xml -OutFile ProcessMitigation.xml``` </br>
+  ```Set-ProcessMitigation -PolicyFilePath ProcessMitigation.xml```
+- Ensure notifications allow you to boot the PC into a specialized malware removal environment:</br>
+  ```Set-MpPreference -UILockdown 0```
 
-## Step 6: Set up and configure Azure Advanced Threat Protection
+## Exercise 6: Set up and configure Azure Advanced Threat Protection
 
 ### Introduction
 Azure Advanced Threat Protection (ATP) is a cloud service that helps protect your enterprise hybrid environments from multiple types of advanced targeted cyber-attacks and insider threats, utilizing technology that detects multiple suspicious activities and focuses on distinct phases of the cyber-attack kill chain. Azure ATP searches for three main types of attacks: Malicious attacks, abnormal behavior, and security issues and risks.
@@ -488,19 +494,20 @@ Azure ATP takes information from multiple data-sources such as logs and events i
 - RADIUS Accounting from VPNs
 
 ### Prerequisites
-- Administrative access to Azure portal
+- Administrative access to the Azure portal
 - Access to on-premises domain controller
 - Completion of Lab Exercise #5 (Set up and configure Windows Defender ATP) if you want to configure Azure ATP integration with Windows Defender ATP.
 
 ### Setting Up Azure Advanced Threat Protection
 An Azure ATP workspace is required to set up Azure ATP for your tenant. Configuring Azure ATP is a multi-phased process requiring configuration for both on-premises components (i.e. domain controller) and cloud components (i.e. Azure ATP workspace).
 
-[!Important] Perform these steps in the domain controller VM, [DC01](https://labondemand.com/LabProfile/EditInstructions/45973)
+> [!Important]
+> Perform these steps in the domain controller VM, [DC01](https://labondemand.com/LabProfile/EditInstructions/45973)
 
 ### Configure Azure AD Sync with domain controller
 Azure AD Sync allows you to join your on-premises Active Directory with your Azure Active Directory. Perform the following steps on your on-premises domain controller:
 1. Sign in to the domain controller server with local user credentials (provided in the Resources tab). 
-2. In a new browser window, browse to the [Azure management portal](https://portal.azure.com)
+2. In a new browser window, browse to the [Azure management portal](https://portal.azure.com).
 3. In the left navigation menu, select **Azure Active Directory**.
 4. Under **Manage**, click **Azure AD Connect**.
 5. Click **Download Azure AD Connect**.
@@ -541,12 +548,10 @@ Azure ATP Workspace enables you to manage various Azure ATP functionality.
 3. Turn on **Azure ATP integration**, and then click **Save Preferences**.
 4. Return to the [Azure ATP admin page](https://portal.atp.azure.com).
 5. Click the Manage Azure ATP user roles link to directly access the Azure Active Directory admin center to manage role groups.
-6. Back on the Azure ATP management page, click the **name of the new workspace** to access the Azure ATP portal for that workspace.
+6. Back on the Azure ATP management page, click the **name of the new workspace** to access the Azure ATP portal for that workspace.</br>
    Only the Primary workspace can be edited. To make changes to other workspaces, you can delete them and add them again. If you want to delete the primary workspace, you must first turn off integrations and set the workspace to be not Primary before it is able to be deleted.
-   
-   To edit a Primary workspace, you must first turn off existing integrations in the workspace.
-
-   Deleted workspaces do not appear in the UI.
+   > [!NOTE]
+   > To edit a Primary workspace, you must first turn off existing integrations in the workspace.</br>Deleted workspaces do not appear in the UI.
 
 ### Install Azure ATP Sensor on DC
 Sensors are required to enable Azure ATP to learn the behavior of users and organizations to build robust profiles.
@@ -570,7 +575,7 @@ Azure ATP enables the exclusion of specific IP addresses or users from a number 
 4. Click **Exclusions** and enter a user account or IP address to be excluded from the detection for each type of threat.
  Click the plus sign (+). The **Add entity** (user or computer) field is searchable and will autofill with entities in your network. Click **Save**.
 
-## Set up Azure Security Center
+## Exercise 7: Set up Azure Security Center
 
 ### Introduction
 Azure Security Center (ASC) provides unified security management and advanced threat protection across hybrid cloud workloads. It collects data from your Azure VMs and non-Azure computers to monitor for security vulnerabilities and threats. Data is collected using the Microsoft Monitoring Agent. The agent reads various security-related configurations and event logs from the onboarded machines and copies the data to ASC workspace for analysis.
@@ -591,7 +596,7 @@ To leverage the full capabilities of Azure Security Center, you'll need to upgra
 
 #### Create an Azure Subscription from Azure Pass
 An Azure Pass promo code is provided for you to use for the purpose of this lab. The code can be found in the Resources tab. Follow these steps to redeem your Azure Azure pass for an Azure subscription.
-1. On the Windows 10 client PC, navigate to https://www.microsoftazurepass.com. Ensure that you are signed in as your tenant's global admin user.
+1. On the Windows 10 client PC, navigate to the [Microsoft Azure Pass](https://www.microsoftazurepass.com) page. Ensure that you are signed in as your tenant's global admin user.
 2. Click **Confirm Microsoft Account**.
 3. Copy and paste the Azure Pass promo code in the **Enter Promo Code** textbox, and then click **Claim Promo Code**.
 4. In the next page, review your free Azure Subscription details, then click **Activate**.
