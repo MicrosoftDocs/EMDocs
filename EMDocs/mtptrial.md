@@ -41,18 +41,18 @@ MTP offers the ability to experience the full Microsoft threat protection soluti
 Customers who want to try Microsoft Threat Protection can do so for 30 days and up to 250 users on your tenant.
 
 ## How to access the MTP trial
-To start your trial now, go to the Identity and Threat Protection trial}(https://signup.microsoft.com/signup/logout?OfferId=b73fce33-ac89-4175-b199-0173b4c74b1f&dl=IDENTITY_THREAT_PROTECTION&culture=en-US&country=US) page.
+To start your trial now, go to the [Identity and Threat Protection trial](https://signup.microsoft.com/signup/logout?OfferId=b73fce33-ac89-4175-b199-0173b4c74b1f&dl=IDENTITY_THREAT_PROTECTION&culture=en-US&country=US) page.
 
 When you use the link, it will grant you access to the Identity and Threat Protection Trial license that allows you to try the full MTP experience.
 
 ## How to get started 
 We recommend you activate your MTP trial by setting up and configuring the MTP components in the following order:
-1. Azure Active Directory  - for instructions, use the Azure AD Premium set-up wizard. 
-2. Exchange Online 
+1. Azure Active Directory (Use the Azure AD Premium set-up wizard for instructions.)
+2. Exchange Online
 3. Office 365 Advanced Threat Protection
 4. Microsoft Cloud App Security
 5. Windows Defender Advanced Threat Protection
 6. Azure Advanced Threat Protection
 7. Azure Security Center  
 
-For detailed instructions about setting up the components of your MTP trial listed in 2-7 above, use our [MTP trial guide]( https://docs.microsoft.com/enterprise-mobility-security/mtptrialguide). We also recommend that you work closely with your account team.
+For detailed instructions about setting up the components of your MTP trial listed in steps 2-7, use our [MTP trial guide](https://aka.ms/MTPTrialGuide). We also recommend that you work closely with your account team.
