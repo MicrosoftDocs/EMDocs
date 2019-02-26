@@ -516,7 +516,7 @@ Azure AD Sync allows you to join your on-premises Active Directory with your Azu
 8. On the Express settings screen, click **Use express settings**.
 9. On the **Connect to Azure AD** screen, enter the username and password of the M365 tenant global admin user. These credentials are available in the **Resources** tab.
 10. Click **Next**.
-11. On the Connect to AD DS screen, enter the credentials for the local domain controller admin user: *user name: contoso\administrator++ and password: +++pass@word1*. **Note**: You can enter the domain part in either NetBios or FQDN format.
+11. On the Connect to AD DS screen, enter the credentials for the local domain controller admin user (the domain value can be in either NetBIOS or FQDN format): ```user name: contoso\administrator++ and password: +++pass@word1*```.
 12. Click **Next**.
 13. The **Azure AD sign-in configuration** page shows which Azure AD user authentication domains have been properly verified.
    If a domain is marked with **Not Added* or **Not Verified**, confirm that they are domains you won't be using to authenticate users in Azure AD. Ensure that the domains you do want to use for user authentication have been verified in Azure AD.
@@ -587,7 +587,7 @@ For managing non-Azure workloads (i.e. hybrid infrastructure and/or resources in
 - Upgrade to Standard Tier
 - Azure Subscription associated with the tenant
 - Administrative user access to the Azure Subscription
-- Completion of Exercise #6 (Azure ATP Setup)
+- Completion of [Exercise 6: Set up and configure Azure Advanced Threat Protection](#Exercise-6:-Set-up-and-configure-Azure-Advanced-Threat-Protection)
 
 For this lab, we assume you have a hybrid infrastructure to manage. We assume the Windows Server-based domain controller PC is running on-premises and will be managed by ASC.
 
