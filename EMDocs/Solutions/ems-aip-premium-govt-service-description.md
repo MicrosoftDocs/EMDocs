@@ -100,5 +100,6 @@ The AIP apps on Windows need a special registry key to point them to the right s
 
 | Reg Key | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP\WebServiceUrl |
 | --- | --- |
+| Name | WebServiceUrl |
 | Value | https://api.informationprotection.azure.us |
-| Type | String |
+| Type | REG_SZ (String) |
