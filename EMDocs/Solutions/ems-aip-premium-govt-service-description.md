@@ -7,7 +7,7 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 09/19/2018
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod:
 ms.service: ems
@@ -98,7 +98,7 @@ Also, the assumption is that users will log in with the username based off the t
 ### AIP apps configuration
 The AIP apps on Windows need a special registry key to point them to the right service instance for GCC High.  
 
-| Reg Key | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP\WebServiceUrl |
+| Reg Key | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
 | Name | WebServiceUrl |
 | Value | https://api.informationprotection.azure.us |
