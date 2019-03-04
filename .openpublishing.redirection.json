@@ -448,7 +448,7 @@
 	{ 
         "source_path": "microsoft-365-enterprise/secure-sharepoint-online-sites-and-files.md",
         "redirect_url": "/microsoft-365/enterprise/secure-sharepoint-online-sites-and-files", 
-        "redirect_document_id": true 
+        "redirect_document_id": false 
     },
 	{ 
         "source_path": "microsoft-365-enterprise/secure-sharepoint-online-sites-dev-test.md",
