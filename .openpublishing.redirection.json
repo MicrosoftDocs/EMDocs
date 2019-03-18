@@ -499,7 +499,12 @@
         "source_path": "EMDocs/solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md",
         "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/ems-your-responsibilities", 
         "redirect_document_id": true 
-    },     
+    },    
+    { 
+        "source_path": "EMDocs/solutions/termsofuse.md",
+        "redirect_url": "https://docs.microsoft.com/legal/termsofuse", 
+        "redirect_document_id": true 
+    },  
     { 
         "source_path": "EMDocs/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md",
         "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/m365-eligible-services-and-plans", 
