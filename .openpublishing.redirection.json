@@ -448,7 +448,7 @@
 	{ 
         "source_path": "microsoft-365-enterprise/secure-sharepoint-online-sites-and-files.md",
         "redirect_url": "/microsoft-365/enterprise/secure-sharepoint-online-sites-and-files", 
-        "redirect_document_id": true 
+        "redirect_document_id": false 
     },
 	{ 
         "source_path": "microsoft-365-enterprise/secure-sharepoint-online-sites-dev-test.md",
@@ -463,6 +463,51 @@
 	{ 
         "source_path": "microsoft-365-enterprise/sharepoint-file-access-policies.md",
         "redirect_url": "/microsoft-365/enterprise/sharepoint-file-access-policies", 
+        "redirect_document_id": true 
+    },
+    { 
+        "source_path": "EMDocs/solutions/enterprise-mobility-fasttrack-program.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/ems-fasttrack-benefit-for-ems", 
+        "redirect_document_id": true 
+    },
+    { 
+        "source_path": "EMDocs/solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/ems-fasttrack-process", 
+        "redirect_document_id": true 
+    },    
+    { 
+        "source_path": "EMDocs/solutions/fasttrack-center-benefit-process-for-ems-overview.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/ems-fasttrack-benefit-overview", 
+        "redirect_document_id": true 
+    },     
+    { 
+        "source_path": "EMDocs/solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/ems-source-environment-expectations", 
+        "redirect_document_id": true 
+    },
+    { 
+        "source_path": "EMDocs/solutions/fasttrack-center-benefit-process-for-ems-phases.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/ems-onboarding-phases", 
+        "redirect_document_id": true 
+    },    
+    { 
+        "source_path": "EMDocs/solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/ems-fasttrack-responsibilities", 
+        "redirect_document_id": true 
+    }, 
+    { 
+        "source_path": "EMDocs/solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/ems-your-responsibilities", 
+        "redirect_document_id": true 
+    },    
+    { 
+        "source_path": "EMDocs/solutions/termsofuse.md",
+        "redirect_url": "https://docs.microsoft.com/legal/termsofuse", 
+        "redirect_document_id": true 
+    },  
+    { 
+        "source_path": "EMDocs/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/m365-eligible-services-and-plans", 
         "redirect_document_id": true 
     }
   ] 

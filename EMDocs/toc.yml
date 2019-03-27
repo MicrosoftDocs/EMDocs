@@ -32,6 +32,9 @@
         - name: Intune for Education
           tocHref: /intune-education/
           topicHref: /intune-education
+        - name: Intune user help
+          tocHref: /intune-user-help/
+          topicHref: /intune-user-help
 
     - name: Intune - classic console
       tocHref: /intune-classic/
