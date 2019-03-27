@@ -53,7 +53,7 @@ Before setting up Microsoft 365 Threat Protection technology, it's important to 
 - Virtual machines:
   - Windows 10 client PC (**Jump Host 01** under **Resources**)
   - Windows Server running domain controller (**DC01** under **Resources**)
-- An Azure Subscription. For guidelines on how to obtain a temporary Azure Subscription using an Azure Pass, see [Exercise 7: Set up Azure Security Center](#Exercise-7:-Set-up-Azure-Security-Center).
+- An Azure Subscription. For guidelines on how to obtain a temporary Azure Subscription using an Azure Pass, see [Exercise 7: Set up Azure Security Center](#exercise-7-set-up-azure-security-center).
 
 ### Microsoft 365 Tenant
 For this lab, a Microsoft 365 tenant is supplied to you and includes appropriate trial subscriptions. To verify your tenant is equipped with these licenses, use the following procedure:
@@ -74,7 +74,7 @@ In the real-world environment, you must have a subscription to Microsoft Azure, 
 An Azure Subscription is required for upgrading Azure Security Center (ASC) from Free Tier to Standard Tier. Free Tier provides threat monitoring protection for Azure resources only, while the Standard Tier extends this capability to on-premises and non-Azure cloud resources. The Standard Tier upgrade is free for the first 60 days in all tenants.
 
 > [!NOTE] 
-For guidelines to acquiring a temporary Azure Subscription using an Azure Pass for this lab, see [Exercise 7: Set up Azure Security Center](#Exercise-7:-Set-up-Azure-Security-Center).
+For guidelines to acquiring a temporary Azure Subscription using an Azure Pass for this lab, see [Exercise 7: Set up Azure Security Center](#exercise-7-set-up-azure-security-center).
 
 ## Exercise 2: Set up and configure Exchange Online Protection
 
@@ -587,7 +587,7 @@ For managing non-Azure workloads (i.e. hybrid infrastructure and/or resources in
 - Upgrade to Standard Tier
 - Azure Subscription associated with the tenant
 - Administrative user access to the Azure Subscription
-- Completion of [Exercise 6: Set up and configure Azure Advanced Threat Protection](#Exercise-6:-Set-up-and-configure-Azure-Advanced-Threat-Protection)
+- Completion of [Exercise 6: Set up and configure Azure Advanced Threat Protection](#exercise-6-set-up-and-configure-azure-advanced-threat-protection)
 
 For this lab, we assume you have a hybrid infrastructure to manage. We assume the Windows Server-based domain controller PC is running on-premises and will be managed by ASC.
 
@@ -658,4 +658,3 @@ Now that you have enabled data collection, lets run a simple log search example 
 6. Note the computer name.
 
 Now that you are collecting operational and performance data from both cloud and on-premises computers, you can easily begin exploring, analyzing, and taking action on data and security related issues in your organization.
-
