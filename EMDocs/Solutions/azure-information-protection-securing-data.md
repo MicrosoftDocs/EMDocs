@@ -4,13 +4,11 @@
 title: Role of Azure Information Protection in securing data | Microsoft Docs
 description: This article describes the role of Azure Information Protection in keeping your organization's data secure.
 author: yuridio
-ms.author: yurid
+ms.author: msmbaldwin
 manager: barbkess
-ms.date: 05/18/2017
+ms.date: 04/16/2019
 ms.topic: solution
-ms.prod:
 ms.service: rights-management
-ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 
 # optional metadata
 
@@ -109,6 +107,8 @@ The focus of this scenario is to secure the client device and applications, so t
 - Use applications that support [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx) for authentication and [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)
 
 An important takeaway from this scenario is that securing client machines and applications is an important part of the trust that underpins Azure Information Protection.
+
+Since Azure Information Protection is not designed to protect against malicious misuse by users that are granted access to the content, it cannot be expected to protect content against malicious modification by said users. While any sort of modification of the content requires in practice that the user has been granted access to the protected data in the first place, and the policies and rights associated with a document are themselves properly signed and tamper-evident, once a user has been granted access to the required encryption/decryption keys the user can be assumed to be technically able to decrypt the data, modify it and re-encrypt it. There are many solutions that can be implemented to provide document signing, authorship attestation, tamper-proofing and non-repudiation to Office documents, both within Microsoft products (e.g. Office document signing support, s/MIME support in Outlook) and from third parties. You should not rely on the protection capabilities of AIP alone to protect you from malicious modification by authorized users. 
 
 ## Summary
 
