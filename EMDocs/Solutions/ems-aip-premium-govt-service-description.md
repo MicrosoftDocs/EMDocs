@@ -61,21 +61,26 @@ While our goal is to deliver all commercial features and functionality to govern
 
 These are the known existing gaps between Azure Information Protection Premium GCC High and our commercial offer as of August 2018: 
 
-* Document tracking and revocation will not be available. 
+* Document tracking and revocation is currently not available. 
 
-* The classification and labelling add-in will be supported only for Office 365 ProPlus (version 9126.1001 or higher). Office 2010, Office 2013, and other Office 2016 versions are not supported. 
+* The classification and labelling add-in will be supported only for Office 365 ProPlus (version 9126.1001 or higher). Office 2010, Office 2013, and other Office 2016 versions will not be supported. 
 
-* Information Rights Management (IRM) will be supported only for Office 365 ProPlus (version 9126.1001 or higher). Office 2010, Office 2013, and other Office 2016 versions are not supported. 
+* Information Rights Management (IRM) will be supported only for Office 365 ProPlus (version 9126.1001 or higher). Office 2010, Office 2013, and other Office 2016 versions will not be supported. 
 
-* Migration from Active Directory Rights Management Services (AD RMS) to Azure Information Protection is not supported. 
+* Migration from Active Directory Rights Management Services (AD RMS) to Azure Information Protection is currently not available. 
 
-* Sharing of protected documents and emails to users in the commercial cloud is not supported. This includes Office 365 users in the commercial cloud, non-Office 365 users in the commercial cloud, and users with an RMS for Individuals license. 
+* Sharing of protected documents and emails to users in the commercial cloud is currently not available. This includes Office 365 users in the commercial cloud, non-Office 365 users in the commercial cloud, and users with an RMS for Individuals license. 
 
-* Information Rights Management will not be supported with SharePoint Online. IRM-protected sites and libraries will not be available. 
+* Information Rights Management with SharePoint Online (IRM-protected sites and libraries) is currently not available. 
+
+* The Rights Management Connector is currently not available.
+
+* The Mobile Device Extension for AD RMS is currently not available.
+
 
 ## Configuring Azure Information Protection for GCC High customers
 
-### DNS configuration for encryption
+### DNS configuration for encryption (Windows)
 For encryption to work correctly, Office client applications must connect to the GCC High instance of the service and bootstrap from there. To redirect clients applications to the right service instance, the tenant admin must configure a DNS SRV record with information about the Azure RMS URL. Without the DNS SRV record, the client application will attempt connect to the public cloud instance by default, will fail.
 
 Also, the assumption is that users will log in with the username based off the tenant-owned-domain (e.g.: joe@contoso.us), and not the onmicrosoft username (e.g.: joe@contoso.onmicrosoft.us). The domain name from the username is used for DNS redirection to the right service instance.
@@ -85,7 +90,7 @@ Also, the assumption is that users will log in with the username based off the t
   * Run `Install-Module aadrm` if the AADRM module is not installed 
   * Connect to service using `Connect-aadrmservice -environmentname azureusgovernment`
   * Run `$(Get-aadrmconfiguration).RightsManagementServiceId` to get the Rights Management Service ID
-* Log in to your DNS provider, and navigate to the DNS settings for the domain 
+* Log in to your DNS provider, and navigate to the DNS settings for the domain to add a new SRV record
   * Service = `_rmsredir` 
   * Protocol = `_http` 
   * Name = `_tcp` 
@@ -94,6 +99,16 @@ Also, the assumption is that users will log in with the username based off the t
   * Priority, Weight, Seconds, TTL = default values 
 * Associate the custom domain with the tenant in the [Azure portal](https://portal.azure.us/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains). This will add an entry in DNS which might take some minutes to get verified after you add the value in the DNS settings.  
 * Login to the Office Admin Center with the corresponding global admin credentials and add the domain (example: contoso.us) for user creation. In the verification process, some more DNS changes might be required. Once verification is done, users can be created.
+
+### DNS configuration for encryption (Mac, iOS, Android)
+* Log in to your DNS provider, and navigate to the DNS settings for the domain to add a new SRV record
+  * Service = `_rmsdisco` 
+  * Protocol = `_http` 
+  * Name = `_tcp` 
+  * Target = `api.aadrm.us` 
+  * Port = `80` 
+  * Priority, Weight, Seconds, TTL = default values 
+
 
 ### AIP apps configuration
 The AIP apps on Windows need a special registry key to point them to the right service instance for GCC High.  
