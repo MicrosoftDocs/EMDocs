@@ -48,7 +48,7 @@ Various Azure Information Protection Premium services provide the ability to wor
 
 Office 365 is currently available in both the GCC and GCC High environments, and in the DoD environment on July 23, 2019. To learn more about these offers, please reference the Office 365 Government [Service Description](https://technet.microsoft.com/library/mt774581.aspx). 
 The Azure Information Protection Premium commercial offering is fully interoperable with Office 365 GCC, and we are FedRAMP-Moderate certified for this offer. 
-The Azure Information Protection Premium is currently available in the GCC High environment, and in the DoD environment from June 30, 2019. It is built on the [Microsoft Azure Government Cloud](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) and is designed to interoperate with the Office 365 GCC High and Office 365 DoD offers respectively. The Azure Information Protection Premium GCC High and DoD offers are currently certified FedRAMP-High. 
+The Azure Information Protection Premium is currently available in the GCC High environment, and in the DoD environment by late July 2019. It is built on the [Microsoft Azure Government Cloud](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) and is designed to interoperate with the Office 365 GCC High and Office 365 DoD offers respectively. The Azure Information Protection Premium GCC High and DoD offers are currently certified FedRAMP-High. 
 
 | Azure Information Protection Premium Government Offer | Corresponding Office 365 Government Offer | Compliance Commitment 
 |---|---|
