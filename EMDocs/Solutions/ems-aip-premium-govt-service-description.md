@@ -7,7 +7,7 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 02/28/2019
+ms.date: 05/29/2019
 ms.topic: article
 ms.prod:
 ms.service: ems
@@ -46,20 +46,22 @@ Various Azure Information Protection Premium services provide the ability to wor
 
 ## Azure Information Protection Premium Government Offers and Office 365 Interoperability 
 
-Office 365 is currently available in both the GCC and GCC High environments. To learn more about these offers, please reference the Office 365 Government [Service Description](https://technet.microsoft.com/library/mt774581.aspx). The Azure Information Protection Premium commercial offering is fully interoperable with Office 365 GCC, and we're currently targeting FedRAMP-Moderate certification for this offer. The Azure Information Protection Premium GCC High offering is built on the [Microsoft Azure Government Cloud](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome), and is designed to interoperate with the Office 365 GCC High and Office 365 DoD offers. The Azure Information Protection Premium GCC High offer is currently certified FedRAMP-High. 
+Office 365 is currently available in both the GCC and GCC High environments, and in the DoD environment on July 23, 2019. To learn more about these offers, please reference the Office 365 Government [Service Description](https://technet.microsoft.com/library/mt774581.aspx). 
+The Azure Information Protection Premium commercial offering is fully interoperable with Office 365 GCC, and we are FedRAMP-Moderate certified for this offer. 
+The Azure Information Protection Premium is currently available in the GCC High environment, and in the DoD environment from June 30, 2019. It is built on the [Microsoft Azure Government Cloud](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) and is designed to interoperate with the Office 365 GCC High and Office 365 DoD offers respectively. The Azure Information Protection Premium GCC High and DoD offers are currently certified FedRAMP-High. 
 
 | Azure Information Protection Premium Government Offer | Corresponding Office 365 Government Offer | Compliance Commitment 
 |---|---|
-Azure Information Protection Premium P1/P2 (commercial) | Office 365, GCC | FedRAMP-Moderate* 
+Azure Information Protection Premium P1/P2 (commercial) | Office 365, GCC | FedRAMP-Moderate
 Azure Information Protection Premium P1/P2 GCC High | Office 365, GCC High | FedRAMP-High 
-
-*Note: Target date for FedRAMP Moderate compliance is H2 of calendar year 2018. 
+Azure Information Protection Premium P1/P2 DoD | Office 365, DoD | FedRAMP-High
+ 
 
 ## Parity with Azure Information Protection Premium Commercial Offerings 
 
-While our goal is to deliver all commercial features and functionality to government customers with our Azure Information Protection Premium GCC High offer, there is some missing functionality that we'd like to highlight. 
+While our goal is to deliver all commercial features and functionality to government customers with our Azure Information Protection Premium GCC High and DoD offers, there is some missing functionality that we'd like to highlight. 
 
-These are the known existing gaps between Azure Information Protection Premium GCC High and our commercial offer as of August 2018: 
+These are the known existing gaps between Azure Information Protection Premium GCC High/DoD and our commercial offer as of May 2019: 
 
 * Document tracking and revocation is currently not available. 
 
@@ -78,10 +80,20 @@ These are the known existing gaps between Azure Information Protection Premium G
 * The Mobile Device Extension for AD RMS is currently not available.
 
 
-## Configuring Azure Information Protection for GCC High customers
+## Configuring Azure Information Protection for GCC High and DoD customers
+
+### Enable Rights Management for the tenant
+For the encryption to work correctly, the Rights Management Service must be enabled for the tenant.
+
+* Check if the Rights Management service is enabled
+  * Launch PowerShell as an Administrator
+  * Run `Install-Module aadrm` if the AADRM module is not installed 
+  * Connect to service using `Connect-aadrmservice -environmentname azureusgovernment`
+  * Run `(Get-AadrmConfiguration).FunctionalState` and check if the state is  `Enabled`
+* If the functional state is `Disabled`, run `Enable-Aadrm`
 
 ### DNS configuration for encryption (Windows)
-For encryption to work correctly, Office client applications must connect to the GCC High instance of the service and bootstrap from there. To redirect clients applications to the right service instance, the tenant admin must configure a DNS SRV record with information about the Azure RMS URL. Without the DNS SRV record, the client application will attempt connect to the public cloud instance by default, will fail.
+For encryption to work correctly, Office client applications must connect to the GCC High/DoD instance of the service and bootstrap from there. To redirect clients applications to the right service instance, the tenant admin must configure a DNS SRV record with information about the Azure RMS URL. Without the DNS SRV record, the client application will attempt connect to the public cloud instance by default, will fail.
 
 Also, the assumption is that users will log in with the username based off the tenant-owned-domain (e.g.: joe@contoso.us), and not the onmicrosoft username (e.g.: joe@contoso.onmicrosoft.us). The domain name from the username is used for DNS redirection to the right service instance.
 
@@ -89,7 +101,7 @@ Also, the assumption is that users will log in with the username based off the t
   * Launch PowerShell as an Administrator 
   * Run `Install-Module aadrm` if the AADRM module is not installed 
   * Connect to service using `Connect-aadrmservice -environmentname azureusgovernment`
-  * Run `$(Get-aadrmconfiguration).RightsManagementServiceId` to get the Rights Management Service ID
+  * Run `(Get-aadrmconfiguration).RightsManagementServiceId` to get the Rights Management Service ID
 * Log in to your DNS provider, and navigate to the DNS settings for the domain to add a new SRV record
   * Service = `_rmsredir` 
   * Protocol = `_http` 
@@ -111,7 +123,7 @@ Also, the assumption is that users will log in with the username based off the t
 
 
 ### AIP apps configuration
-The AIP apps on Windows need a special registry key to point them to the right service instance for GCC High.  
+The AIP apps on Windows need a special registry key to point them to the right service instance for GCC High/DoD.  
 
 | Registry Node | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
