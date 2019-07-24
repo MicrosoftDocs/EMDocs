@@ -8,7 +8,7 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
-ms.topic: solution
+ms.topic: conceptual
 ms.prod:
 ms.service: active-directory
 ms.assetid: 38e9802b-d8c0-4f5c-b89d-8ce1e04f7387
