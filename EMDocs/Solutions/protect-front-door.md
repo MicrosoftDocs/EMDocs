@@ -7,7 +7,7 @@ author: yuridio
 ms.author: yurid
 manager: barbkess
 ms.date: 05/18/2017
-ms.topic: solution
+ms.topic: conceptual
 ms.prod:
 ms.service: active-directory
 ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
