@@ -67,13 +67,13 @@ These are the known existing gaps between EMS GCC High and our commercial offer 
 
 - Microsoft Intune:
 
-  - Only supports standalone deployments. It does not support hybrid setup with System Center Configuration Manager (SCCM).
+  - Only supports standalone deployments. It does not support hybrid setup with System Center Configuration Manager.
 
   - Does not support legacy PC management (with the Intune agent). Management of Windows 10 is supported via the modern MDM channel.
 
   - Does not support on-premise Exchange Connector.
 
-  - Co-Management support is not available at this time, but this feature will be available to our government customers at a later date.
+  - Co-management support is available with Configuration Manager version 1906 and later.
 
   - Windows Autopilot and Business Store features are not available to government customers at this time, though planning is underway.
 
