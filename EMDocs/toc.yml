@@ -93,7 +93,7 @@
         - name: Microsoft Deployment Toolkit
           tocHref: /sccm/mdt/
           topicHref: /sccm/mdt/
-        - name: Operating system deployment
+        - name: OS deployment
           tocHref: /sccm/osd/
           topicHref: /sccm/osd/understand/introduction-to-operating-system-deployment
         - name: Protect data and infrastructure
@@ -105,6 +105,9 @@
         - name: Co-management
           tocHref: /sccm/comanage/
           topicHref: /sccm/comanage/overview
+        - name: Desktop Analytics
+          tocHref: /sccm/desktop-analytics/
+          topicHref: /sccm/desktop-analytics/overview
         - name: Develop
           tocHref: /sccm/develop/
           topicHref: /sccm/develop/core/misc/system-center-configuration-manager-sdk
