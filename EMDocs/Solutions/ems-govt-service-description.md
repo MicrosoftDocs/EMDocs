@@ -7,7 +7,7 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 01/07/2019
+ms.date: 08/22/2019
 ms.topic: article
 ms.prod:
 ms.service: ems
@@ -79,7 +79,7 @@ These are the known existing gaps between EMS GCC High and our commercial offer 
 
   - Some Office 365 mobile apps are not available to government customers.  Details can be found on the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
-  - Lookout Mobile Threat Detection and Telecom Expense Management partner solutions are not available to government customers at this time.
+  - Mobile Threat Detection and Telecom Expense Management partner solutions are not available to government customers at this time.
 
 - Azure Information Protection:
 
