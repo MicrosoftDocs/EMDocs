@@ -19,11 +19,7 @@ ms.suite: ems
 In response to the unique and evolving requirements of the United States public sector, Microsoft has created Enterprise Mobility + Security (EMS) plans for our United States government community customers. This document provides an overview of features that are specific to these EMS plans.
 
 ## How to use this Service Description
-The EMS for US Government Service Description is designed to serve as an overview of our applicable offerings and will cover:
-
-1. Which services and features are included in different offerings
-2. How the US Government offerings differ from our commercial offerings
-3. Current compliance authorizations.
+The EMS for US Government Service Description is designed to serve as an overview of our applicable offerings and will cover: (1) which services and features are included in different offerings, (2) how the US Government offerings differ from our commercial offerings, and (3) our current compliance authorizations.
 
 ## EMS offers for US Government and Office 365 Interoperability
 
@@ -53,10 +49,10 @@ GCC High customers can use a separate set of endpoints for Intune based on diffe
 While our goal is to deliver all commercial features and functionality to government customers with our US Government offerings, there are some capabilities not yet available in the Azure Government environment that we’d like to highlight.  These are the known existing gaps between EMS in Azure Government (available to GCC High and DOD customers) and our commercial offerings as of June 2019:
 - Microsoft Intune:
   - Only supports standalone deployments. It does not support hybrid setup with System Center Configuration Manager.
-  - Does not support legacy PC management (with the Intune agent). Management of Windows 10 is supported via the modern MDM channel.
+  - Does not support legacy PC management (with the Intune software agent). Management of Windows 10 is supported via the modern MDM channel.
   - Will not support on-premise Exchange Connector.
-  - Co-management support is not available at this time, but this feature will be available to our government customers at a later date.
-  - Windows Autopilot and Business Store features are not available to government customers at this time, though planning is underway.
+  - Co-management support is not available at this time.
+  - Windows Autopilot and Business Store features are not available to government customers at this time.
 - Azure Information Protection:
   - Visit the [Azure Information Protection Premium](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) page within the Azure Government documentation site for a list of features that are currently not available in Azure Government.
 - Azure Active Directory:
