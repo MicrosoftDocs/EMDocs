@@ -23,10 +23,10 @@ The EMS for US Government Service Description is designed to serve as an overvie
 
 ## EMS offers for US Government and Office 365 Interoperability
 
-|EMS US Government Offer|Location of Hosted Service |Corresponding Office 365 Government Offer|Compliance Commitment|
+|EMS US Government Offers|Location of Hosted Services|Interoperable Office 365 Government Community Cloud (GCC) Offer(s)|
 |-----------|-----------|-----------|
-|EMS for GCC</br>Available in both E3 and E5*|Azure Commercial Cloud|Office 365 GCC|FedRAMP-Moderate|
-|EMS for GCC High</br>Available in E3 and E5*|Azure Government Cloud|Office 365 GCC High|FedRAMP-High|
+|EMS for GCC</br>*Available in both E3 and E5**|Azure Commercial Cloud|Office 365 GCC|
+|EMS for GCC High and DOD</br>*Available in E3 and E5**|Azure Government Cloud|Office 365 GCC High</br>Office 365 DOD|
 
 > [!Note]
 > *E5 offerings are limited to Azure AD Premium 2 and Azure Information Protection P2 at this time (in addition to Microsoft Intune). Microsoft Cloud App Security and Azure Advanced Threat Protection (ATP) are not currently included in offerings for Office 365 GCC, GCC High, or DOD customers. However, GCC customers can choose to add-on commercial offerings of Microsoft Cloud App Security and Azure ATP with the purchase of an EMS E5 SKU.  
