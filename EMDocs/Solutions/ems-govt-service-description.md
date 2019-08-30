@@ -10,7 +10,7 @@ manager: dougeby
 ms.date: 08/30/2019
 ms.topic: article
 ms.prod:
-ms.service: ems
+ms.service: microsoft-intune
 ms.suite: ems
 
 
