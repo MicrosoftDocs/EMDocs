@@ -51,7 +51,7 @@ While our goal is to deliver all commercial features and functionality to govern
   - Only supports standalone deployments. It does not support hybrid setup with System Center Configuration Manager.
   - Does not support legacy PC management (with the Intune software agent). Management of Windows 10 is supported via the modern MDM channel.
   - Will not support on-premise Exchange Connector.
-  - Co-management support is not available at this time.
+  - Co-management support is available with Configuration Manager version 1906 and later.
   - Windows Autopilot and Business Store features are not available to government customers at this time.
 - Azure Information Protection:
   - Visit the [Azure Information Protection Premium](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) page within the Azure Government documentation site for a list of features that are currently not available in Azure Government.
