@@ -509,6 +509,11 @@
         "source_path": "EMDocs/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md",
         "redirect_url": "https://docs.microsoft.com/en-us/fasttrack/m365-eligible-services-and-plans", 
         "redirect_document_id": true 
-    }
+    },
+    { 
+        "source_path": "EMDocs/Solutions/azure-ad-premium-govt-service-description.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-securityandidentity#azure-active-directory-premium-p1-and-p2", 
+        "redirect_document_id": true 
+    }    
   ] 
 }
