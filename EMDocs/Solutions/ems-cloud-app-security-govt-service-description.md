@@ -1,0 +1,66 @@
+---
+# required metadata
+
+title: Microsoft Cloud App Security Government Service Description 
+description: Microsoft Cloud App Security Government Service Description is designed to serve as an overview of our offering
+keywords:
+author: mlottner
+ms.author: mlottner
+manager: dougeby
+ms.date: 10/30/2019
+ms.topic: article
+ms.prod:
+ms.service: microsoft-cloud-app-security
+ms.suite: ems
+
+
+---
+# Microsoft Cloud App Security Government service description
+
+## How to use this service description 
+The Microsoft Cloud App Security US Government service description is designed to serve as an overview of the service offering in the GCC High environment and will cover feature variations from the commercial offering. 
+
+To learn more about Microsoft Cloud App Security for GCC customers, see [EMS for US Office 365 GCC customers].   
+
+## Getting started with Microsoft Cloud App Security for US Government GCC High 
+The Microsoft Cloud App Security GCC High offering is built on the Microsoft Azure Government Cloud and is designed to inter-operate with Office 365 GCC High. Full details on the service and how to use it can be found in the [Microsoft Cloud App Security public documentation](https://docs.microsoft.com/cloud-app-security/). The public documentation should be use as a starting point for deploying and operating the service and the following Service Description details and changes from functionality or features in the GCC High environment.
+
+To get started, utilize the [Basic Setup](https:/docs.microsoft.com/cloud-app-security/general-setup) page for access to the Microsoft Cloud App Security GCC High portal, and ensure your [Network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements) are configured. Follow the additional steps in the How-to guides for other detailed instructions. 
+
+## Feature Variations in Microsoft Cloud App Security GCC High 
+Unless otherwise specified, new feature releases, including preview features, documented in [What’s new with Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/release-notes), will be available in GCC High within three months of release in the Microsoft Cloud App Security commercial environment, unless otherwise noted. 
+
+## Azure API connector 
+The Azure API connector in Microsoft Cloud App Security is available. Other API-supported apps are also supported. See [enable instant visibility protection and governance actions](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps) for additional information.  
+
+## Data Loss Prevention (DLP) features  
+Content inspection via the Microsoft Cloud App Security built-in DLP engine is available and supports inspection of sensitive data such as credit card, or social security numbers, amongst many other sensitive data types. Learn more about [built-in content inspection](https://docs.microsoft.com/cloud-app-security/content-inspection-built-in) in Cloud App Security.  
+
+**The following DLP integrations are not supported:** 
+- Microsoft Information Protection labels, which provide unified labeling across Office 365 and Azure Information Protection.  
+- Native integration with the Microsoft Data Classification Service (DCS)
+- External DLP integration  
+
+## Conditional Access app control  
+Microsoft Cloud App Security Conditional Access App Control, which enables organizations to monitor and control user sessions in real time, using the Microsoft Cloud App Security reverse proxy capabilities, is not available.   
+Activity, file, and anomaly detection policies are still supported for API-connected applications. Learn more about [controlling cloud apps with policies in Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/control-cloud-apps-with-policies) for additional information.   
+
+## Notifications and automation  
+Admin email notifications for alerts, as well as notifications sent to users when a breach is detected, are not supported at this time.   
+
+The integration with Microsoft Flow to automate workflows is not available.
+
+## Malware reports 
+Malware reports for infected files in supported apps is not available.  
+
+## Security configuration assessments 
+Security configuration assessments for Azure and AWS are not supported.  
+
+## Enhanced investigation experience 
+The integration with Azure Advanced Threat Protection to deliver an enhanced investigation experience is not supported.  
+
+## Other integrations 
+
+The following integrations are not available:  
+- Microsoft Defender Advanced Threat Protection 
+- Surfacing Microsoft Cloud App Security controls in Microsoft Secure Score 
