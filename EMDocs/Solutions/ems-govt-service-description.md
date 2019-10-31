@@ -4,8 +4,8 @@
 title: Enterprise Mobility + Security for US Government Service Description 
 description: EMS GCC High plans are monthly subscriptions and are licensed on a per user basis.
 keywords:
-author: dougeby
-ms.author: dougeby
+author: mlottner
+ms.author: mlottner
 manager: dougeby
 ms.date: 10/30/2019
 ms.topic: article
@@ -26,7 +26,7 @@ US Government offers are available to (1) US federal, state, local, and tribal g
 
 ## EMS offers for US Government and Office 365 interoperability
 
-For more information on each of the products found in Enterprise Mobility + Security, visit the documentation resources here. More information on different plans can be found here. 
+For more information on each of the products and their plans found in Enterprise Mobility + Security, visit the [documentation resources](https://docs.microsoft.com/enterprise-mobility-security/) and [compare plans and pricing](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing).
 
 |EMS US Government Offerings|Location of Hosted Services|Interoperable Office 365 Government Community Cloud (GCC) Offer(s)|
 |-----------|-----------|-----------|
@@ -42,8 +42,8 @@ Azure Active Directory P1/P2, Microsoft Intune, and Azure Information Protection
 
 GCC customers can choose to add-on commercial offerings of Microsoft Cloud App Security and Azure ATP with the purchase of an EMS E5 SKU. Microsoft Cloud App Security and Azure ATP are commercial offerings covered by the Azure Commercial FedRAMP High Authorization to Operate (ATO), but may not meet other [GCC compliance](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance) attributes, such as CJIS background screening, IRS 1075, and access to customer content by US government screened personnel.  A list of compliance offerings for Microsoft products and services can be found on the [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).  
 
-## EMS for US GCC High and DOD customers
-The EMS offerings for US GCC High and DOD customers are built on the Microsoft [Azure Government](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) cloud and are designed to interoperate with the Office 365 GCC High and DOD environments. The EMS E5 suite is available for both GCC High and DoD customers, however Microsoft Cloud App Security and Azure Advanced Threat Protection are available only to GCC High customers. Azure Active Directory P1/P2, Microsoft Intune, and Azure Information Protection P1/P2 are certified FedRAMP-High.
+## EMS for US GCC High and DoD customers
+The EMS offerings for US GCC High and DOD customers are built on the Microsoft [Azure Government](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) cloud and are designed to inter-operate with the Office 365 GCC High and DOD environments. The EMS E5 suite is available for both GCC High and DoD customers, however Microsoft Cloud App Security and Azure Advanced Threat Protection are available only to GCC High customers. Azure Active Directory P1/P2, Microsoft Intune, and Azure Information Protection P1/P2 are certified FedRAMP-High.
 
 GCC High and DOD customers can use a separate set of endpoints for Intune based on different requirements and management needs. Below is a list of EMS management portals available to US GCC High and DOD customers. depending on service availability:
 
@@ -60,16 +60,29 @@ While our goal is to deliver all commercial features and functionality to govern
 - Azure Information Protection: 
   - Visit the [Azure Information Protection Premium](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) page for a list of features that are currently not available in Azure Government. 
 - Microsoft Intune: 
-  - Visit the Microsoft Intune page (XYZ) for a list of features that are currently not available in Azure Government. 
+  - Visit the [Microsoft Intune] page (https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-intune-govt-service-description) for a list of features that are currently not available in Azure Government. 
 - Azure Advanced Threat Protection:
-  - Visit the [Azure ATP](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-atp-premium-govt-service-description) page for a list of features that are currently not available in Azure Government.
+  - Visit the [Azure ATP](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-azure-atp-govt-service-description) page for a list of features that are currently not available in Azure Government.
 - Microsoft Cloud App Security:
-  - Visit the [Microsoft Cloud App Security](https://docs.microsoft.com/azure/azure-government/documentation-government-services-securityandidentity#azure-active-directory-premium-p1-and-p2) page for a list of features that are currently not available in Azure Government.
-
-## Customer eligibility
-US Government offers are available to (1) US federal, state, local, and tribal government entities, and (2) other entities that handle data that is subject to government regulations and requirements and where use of services is appropriate to meet these requirements, subject to validation of eligibility. Validation of eligibility by Microsoft will include confirmation of handling government-regulated or controlled data. EMS plans for GCC, GCC High, and DOD customers are monthly subscriptions and are licensed on a per user basis. Entities with questions about eligibility should consult their account team.
+  - Visit the [Microsoft Cloud App Security](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-cloud-app-security-govt-service-description) page for a list of features that are currently not available in Azure Government.
 
 ## Location of customer data
-EMS services for US Government customers (GCC, GCC High, and DOD) are provided from data centers physically located in the United States. Your organization’s customer data is stored at rest within the United States. More information can be found on the [Microsoft Trust Center](https://products.office.com/en-us/where-is-your-data-located?ms.officeurl=datamaps&geo=All#office-ContentAreaHeadingTemplate-bkjgypc) page. For information on where Microsoft stores customer data at rest in connection with Microsoft Cloud App Security, a commercial service, please review the [Online Services Terms](https://www.microsoft.com/licensing/product-licensing/products). For information on where Microsoft stores customer data at rest in connection with Azure ATP, also a commercial service, review the [product documentation](https://docs.microsoft.com/azure-advanced-threat-protection/atp-technical-faq#do-i-have-the-flexibility-to-select-where-to-store-my-data) for Azure ATP.
+
+### US Government GCC customers
+EMS services currently available for US Government customers (Azure AD P1/P2, Intune and Azure Information Protection P1/2) are provided from data centers physically located in the United States. Your organization’s customer data is stored at rest within the United States. GCC customers can also choose to add-on commercial offerings of Microsoft Cloud App Security and Azure ATP with the purchase of an EMS E5 license. (These are not US GCC services and do not adhere to all GCC attributes.) For information on where Microsoft stores customer data at rest in connection with Microsoft Cloud App Security, a commercial service, review the [Online Services Terms](https://www.microsoft.com/licensing/product-licensing/products). For information on where Microsoft stores customer data at rest in connection with Azure ATP, also a commercial service, review the [product documentation](https://docs.microsoft.com/azure-advanced-threat-protection/atp-technical-faq#do-i-have-the-flexibility-to-select-where-to-store-my-data) for Azure ATP.
+
+### US Government GCCHigh and DoD customers
+Organizations that use EMS for US Government GCC High and DOD offerings benefit from the following features: 
+- Your organization's customer content is physically segregated from customer content in Microsoft's commercial services. 
+- Your organization's customer content is stored within the United States. 
+- Access to your organization's customer content is restricted to screened Microsoft personnel. 
+- Compliance with certifications and accreditations that are required for US Public Sector customers, including Department of Defense Security - 
+Requirements Guidelines, Defense Federal Acquisition Regulations Supplement (DFARS), and International Traffic in Arms Regulations (ITAR) 
+
+More information can be found on the [Microsoft Trust Center](https://products.office.com/en-us/where-is-your-data-located?ms.officeurl=datamaps&geo=All#office-ContentAreaHeadingTemplate-bkjgypc) page. 
+
+### Third-party apps and services
 
 Various EMS services provide the ability to work seamlessly with certain third-party applications and services. These third-party applications and services might involve storing, transmitting, and processing your organization’s data or content on third-party systems that are outside of the EMS infrastructure and therefore are not covered by our compliance and data protection commitments. It is recommended that you review the privacy and compliance statements provided by these third parties when assessing the appropriate use of third-party apps and services for your organization.
+
+For more information, see [Microsoft 365 Government] (https://docs.microsoft.com/enterprise-mobility-security/). 

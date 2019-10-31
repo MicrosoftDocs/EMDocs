@@ -2,7 +2,7 @@
 # required metadata
 
 title: Azure Information Protection Premium Government Service Description
-description: The Azure Information Protection Premium Government Service Description is designed to serve as an overview of our offering
+description: Azure Information Protection Premium Government Service Description is designed to serve as an overview of our offering
 keywords:
 author: dougeby
 ms.author: dougeby

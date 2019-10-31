@@ -25,7 +25,7 @@ ms.suite: ems
 
 ---
 
-# Enterprise Mobility + Security Support FAQs
+# Enterprise Mobility + Security support FAQs
 Microsoft provides global pre-sales, billing, subscription, and technical support for Enterprise Mobility + Security (EMS).  Please see more details below.
 
 ## Answers to common EMS support questions
