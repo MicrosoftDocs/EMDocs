@@ -30,8 +30,11 @@ To get started, utilize the [Basic Setup](https:/docs.microsoft.com/cloud-app-se
 ## Feature variations in Microsoft Cloud App Security GCC High 
 Unless otherwise specified, new feature releases, including preview features, documented in [What’s new with Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/release-notes), will be available in GCC High within three months of release in the Microsoft Cloud App Security commercial environment, unless otherwise noted. 
 
-## Azure API connector 
-The Azure API connector in Microsoft Cloud App Security is available. Other API-supported apps are also supported. See [enable instant visibility protection and governance actions](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps) for additional information.  
+## API connector 
+
+API connectors for AWS GovCloud and other API connected applications that may also offer separate government cloud instances are not supported at this time. API connectors for commercial cloud instances of 3rd party applications are supported. 
+ 
+The Azure connector and Office 365 connector are for the US Government instances of each service. 
 
 ## Data Loss Prevention (DLP) features  
 Content inspection via the Microsoft Cloud App Security built-in DLP engine is available and supports inspection of sensitive data such as credit card, or social security numbers, amongst many other sensitive data types. Learn more about [built-in content inspection](https://docs.microsoft.com/cloud-app-security/content-inspection-built-in) in Cloud App Security.  
