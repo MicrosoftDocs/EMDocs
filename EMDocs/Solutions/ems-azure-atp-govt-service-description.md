@@ -6,7 +6,7 @@ description: Azure Advanced Threat Protection (Azure ATP) Government Service Des
 keywords:
 author: mlottner
 ms.author: mlottner
-manager: dougeby
+manager: rkarlin
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod:

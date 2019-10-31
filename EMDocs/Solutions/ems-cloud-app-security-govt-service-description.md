@@ -6,7 +6,7 @@ description: Microsoft Cloud App Security Government Service Description is desi
 keywords:
 author: mlottner
 ms.author: mlottner
-manager: dougeby
+manager: rkarlin
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod:

@@ -10,7 +10,8 @@ manager: dougeby
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod:
-ms.service: ems
+ms.service: rights-management
+ms-suite: ems
 
 ---
 
