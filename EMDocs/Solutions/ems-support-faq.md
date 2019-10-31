@@ -10,18 +10,9 @@ manager: angrobe
 ms.date: 6/12/2017
 ms.topic: article
 ms.prod:
-ms.service: ems
-ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.service: microsoft-intune
+
 
 ---
 
