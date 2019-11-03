@@ -10,22 +10,13 @@ manager: angrobe
 ms.date: 6/12/2017
 ms.topic: article
 ms.prod:
-ms.service: ems
-ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.service: microsoft-intune
+
 
 ---
 
-# Enterprise Mobility + Security Support FAQs
+# Enterprise Mobility + Security support FAQs
 Microsoft provides global pre-sales, billing, subscription, and technical support for Enterprise Mobility + Security (EMS).  Please see more details below.
 
 ## Answers to common EMS support questions

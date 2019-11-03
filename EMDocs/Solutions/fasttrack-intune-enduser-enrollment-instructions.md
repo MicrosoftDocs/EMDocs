@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: End-user Intune enrollment instructions for IT admins
+title: End-user Microsoft Intune enrollment instructions for IT admins
 description: End user Intune enrollment instructions for IT administrators
 keywords:
 author: dougeby
