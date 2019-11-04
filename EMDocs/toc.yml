@@ -75,43 +75,43 @@
           topicHref: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
 
     - name: Configuration Manager
-      tocHref: /sccm/
-      topicHref: /sccm
+      tocHref: /configmgr/
+      topicHref: /configmgr
       items:
         - name: Core infrastructure
-          tocHref: /sccm/core/
-          topicHref: /sccm/core/understand/introduction
+          tocHref: /configmgr/core/
+          topicHref: /configmgr/core/understand/introduction
         - name: Application management
-          tocHref: /sccm/apps/
-          topicHref: /sccm/apps/understand/introduction-to-application-management
+          tocHref: /configmgr/apps/
+          topicHref: /configmgr/apps/understand/introduction-to-application-management
         - name: Device compliance
-          tocHref: /sccm/compliance/
-          topicHref: /sccm/compliance/understand/ensure-device-compliance
+          tocHref: /configmgr/compliance/
+          topicHref: /configmgr/compliance/understand/ensure-device-compliance
         - name: Mobile device management
-          tocHref: /sccm/mdm/
-          topicHref: /sccm/mdm/understand/hybrid-mobile-device-management
+          tocHref: /configmgr/mdm/
+          topicHref: /configmgr/mdm/understand/hybrid-mobile-device-management
         - name: Microsoft Deployment Toolkit
-          tocHref: /sccm/mdt/
-          topicHref: /sccm/mdt/
+          tocHref: /configmgr/mdt/
+          topicHref: /configmgr/mdt/
         - name: OS deployment
-          tocHref: /sccm/osd/
-          topicHref: /sccm/osd/understand/introduction-to-operating-system-deployment
+          tocHref: /configmgr/osd/
+          topicHref: /configmgr/osd/understand/introduction-to-operating-system-deployment
         - name: Protect data and infrastructure
-          tocHref: /sccm/protect/
-          topicHref: /sccm/protect/understand/protect-data-and-site-infrastructure
+          tocHref: /configmgr/protect/
+          topicHref: /configmgr/protect/understand/protect-data-and-site-infrastructure
         - name: Software update management
-          tocHref: /sccm/sum/
-          topicHref: /sccm/sum/understand/software-updates-introduction
+          tocHref: /configmgr/sum/
+          topicHref: /configmgr/sum/understand/software-updates-introduction
         - name: Co-management
-          tocHref: /sccm/comanage/
-          topicHref: /sccm/comanage/overview
+          tocHref: /configmgr/comanage/
+          topicHref: /configmgr/comanage/overview
         - name: Desktop Analytics
-          tocHref: /sccm/desktop-analytics/
-          topicHref: /sccm/desktop-analytics/overview
+          tocHref: /configmgr/desktop-analytics/
+          topicHref: /configmgr/desktop-analytics/overview
         - name: Develop
-          tocHref: /sccm/develop/
-          topicHref: /sccm/develop/core/misc/system-center-configuration-manager-sdk
+          tocHref: /configmgr/develop/
+          topicHref: /configmgr/develop/core/misc/system-center-configuration-manager-sdk
           items:
             - name: Reference
-              tocHref: /sccm/develop/reference
-              topicHref: /sccm/develop/reference/configuration-manager-reference
+              tocHref: /configmgr/develop/reference
+              topicHref: /configmgr/develop/reference/configuration-manager-reference

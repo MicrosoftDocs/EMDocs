@@ -62,7 +62,7 @@ Follow these steps to implement Azure AD Identity Protection and Azure AD Privil
 - Step 6: Privileged Identity Management operations
 
 
-## How to Protect your Resources at the Front Door
+## How to protect your resources at the Front Door
 
 Different organizations will have different perceptions regarding incident priority. What is critical for one line of business might not be for another. For this reason, you should first learn how Azure AD Identity Protection categorizes the [risk level](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/#detection-and-risk), which is an indication (High, Medium, or Low) of the severity of the risk event. Azure AD Identity Protection also evaluates the likelihood that a user’s identity was compromised, and assigns its own risk level, which is called [user’s risk level](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/#what-is-a-user-risk-level). Azure AD Identity Protection will identity a [vulnerability](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-vulnerabilities/) and assign a risk level to it. There are different [types of risks](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-risk-events-types/), and each one is ranked according to its criticality. Follow steps 1 to 3 to enable, implement and monitor resources using Azure AD Identity Protection.
 
