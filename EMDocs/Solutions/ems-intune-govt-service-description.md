@@ -33,6 +33,7 @@ The Intune GCC High and DoD offering is built on the Microsoft Azure Government 
   - Intune for GCC High and DoD customers does not support on-premises Exchange Connector. 
   - Co-Management support is only available with Configuration Manager version 1906 or later. 
   - Windows Autopilot and Business Store features are not available to GCC High and DoD customers at this time, though planning is underway. 
+  - Intune for GCC High does not support the Jamf Pro and Intune integration for macOS devices.
 
 ## Next steps
 To learn more about Intune and explore how to get started see, [Intune public documentation](https://docs.microsoft.com/intune/index).
