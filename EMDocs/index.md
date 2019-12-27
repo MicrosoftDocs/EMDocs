@@ -57,7 +57,7 @@ featureFlags:
                                 </a>
                             </li>
                             <li>
-                                <a href="/sccm/">
+                                <a href="/configmgr/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -67,8 +67,8 @@ featureFlags:
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>System Center Configuration Manager</h3>
-                                                    <p>Manage PCs, servers, and mobile devices like iPhones and Android devices with on-premises and cloud-based infrastructure </p>
+                                                    <h3>Microsoft Endpoint Configuration Manager</h3>
+                                                    <p>Manage on-premises PCs, servers, and mobile devices with cloud-powered insights </p>
                                                 </div>
                                             </div>
                                         </div>
