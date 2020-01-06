@@ -106,9 +106,9 @@ When you’re using Azure AD Premium, you can go beyond IT admins by providing p
 Learn more about the [prerequisites, how to enable, and how to set up the password self-service portal](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/) on your Azure AD tenant.
 
 ## How to use Azure AD Connect Health
-You can check the [Azure AD Connect Health documentation](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health/) to gather more information about the tool, its capabilities, and the steps you can take to start using it in your organization.
+You can check the [Azure AD Connect Health documentation](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect) to gather more information about the tool, its capabilities, and the steps you can take to start using it in your organization.
 
-Azure AD Connect Health is available in the [Azure portal](https://ms.portal.azure.com) and requires a health agent to be installed on the on-premises domain controllers that you want to monitor. Learn more about [how to install the health agent](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health-agent-install/).
+Azure AD Connect Health is available in the [Azure portal](https://ms.portal.azure.com) and requires a health agent to be installed on the on-premises domain controllers that you want to monitor. Learn more about [how to install the health agent](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-agent-install).
 
 The **Domain Controllers** dashboard provides a single view into the health and operational status of the environment. There, the admin can easily find which DCs are Flexible Single Master Operations (FSMO) role owners, which DCs have active alerts, and which DCs are global catalogs. Other columns include **PDC reachable**, **GC reachable**, and **SYSVOL state**.
 
