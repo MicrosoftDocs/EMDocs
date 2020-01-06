@@ -31,9 +31,9 @@ If you're a user (not an admin) in an organization that uses Office 365 or Micro
 
 ## How to register for password reset
 
-The fastest way to register for password reset is to go to [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup).
+The fastest way to register for password reset is to go to [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 
-1. Navigate to [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup).
+1. Navigate to [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 2. Enter your username and password.
 3. Choose an option to register for by clicking **set it up now**. In this case, I'll demonstrate registering my **authentication phone**.
 ![Screenshot showing blahblah](./media/ft-mngPW-1-setup.png)
@@ -55,7 +55,7 @@ Follow the steps below to reset your work or school account password from any wo
 > [!IMPORTANT]
 > This feature is only available to you if your admin has turned it on. If it's not turned on, you'll see a message indicating your account is not enabled for this feature. You can use the "contact your administrator" link in this case to get in touch with your admin to unlock your account.
 > 
-> If your admin has enabled you for this feature, you'll first need to sign up before you can use it. You can do that here: [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup).
+> If your admin has enabled you for this feature, you'll first need to sign up before you can use it. You can do that here: [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 
 1. On the any work or school account sign-in page, click on one of the "can't access your account?" or "forgot your password?" links, or navigate to [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com) directly.
    ![Screenshot showing the first message a user receives if their user ID or password is not recognized.](./media/ft-mngPW-6-resetPWbegin.png)
