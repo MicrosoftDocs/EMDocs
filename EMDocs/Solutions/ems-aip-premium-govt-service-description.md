@@ -7,7 +7,7 @@ keywords:
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 05/29/2019
+ms.date: 01/12/2020
 ms.topic: article
 ms.prod:
 ms.service: rights-management
@@ -19,44 +19,11 @@ ms-suite: ems
 
 ## How to use this Service Description 
 
-The Azure Information Protection Premium Government Service Description is designed to serve as an overview of our offering and will cover: (1) which services and features are included in this offer, (2) how the Government offers differ from our existing commercial offers, and (3) our current compliance commitments. This document defines the unique commitments and differences compared to Azure Information Protection Premium commercial offerings. 
-
-## About Azure Information Protection Premium Government Environments 
-
-Azure Information Protection Premium Government plans are monthly subscriptions and are licensed on a per user basis. Organizations that use Azure Information Protection Premium Government benefit from the following unique features: 
-
-* Your organization's content is physically segregated from content in Microsoft's commercial Azure Information Protection Premium services. 
-
-* Your organization's content is stored within the United States. 
-
-* Access to Microsoft systems containing your content is restricted to screened Microsoft personnel. 
-
-* Azure Information Protection Premium Government complies with common certifications and accreditations that are required for US Public Sector customers. 
-
-## Customer Eligibility 
-
-Azure Information Protection Premium Government is available to (1) US federal, state, local, and tribal government entities, and (2) other entities that handle data that is subject to government regulations and requirements and where use of Azure Information Protection Premium Government is appropriate to meet these requirements, subject to validation of eligibility. Validation of eligibility by Microsoft will include confirmation of handling government-regulated or controlled data. This offer is limited to customers that have at least 500 seats. Entities with questions about eligibility for Azure Information Protection Premium Government should consult their account team. 
-
-## Location of Customer Data 
-
-Azure Information Protection Premium Government services are provided from datacenters physically located in the United States. All content is stored at rest in datacenters physically located only in the United States. 
+The Azure Information Protection Premium Government Service Description is designed to serve as an overview of our offering in the GCC High and DOD environments and will cover feature variations compared to Azure Information Protection Premium commercial offerings. To learn more about Azure Information Protection for GCC customers, see the description of [EMS offers for US Government and Office 365 interoperability](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability).
 
 ## Azure Information Protection Premium Government and Third-Party Services 
 
 Various Azure Information Protection Premium services provide the ability to work seamlessly with third-party applications and services. These third-party applications and services might involve storing, transmitting, and processing your organization's customer content on third-party systems that are outside of the Azure Information Protection Premium infrastructure and therefore are not covered by our compliance and data protection commitments. It is recommended that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization. 
-
-## Azure Information Protection Premium Government Offers and Office 365 Interoperability 
-
-Office 365 is currently available in both the GCC and GCC High environments, and in the DoD environment in late July, 2019. To learn more about these offers, please reference the Office 365 Government [Service Description](https://technet.microsoft.com/library/mt774581.aspx). 
-The Azure Information Protection Premium commercial offering is fully interoperable with Office 365 GCC, and we are FedRAMP-Moderate certified for this offer. 
-The Azure Information Protection Premium is currently available in the GCC High environment, and in the DoD environment by July, 2019. It is built on the [Microsoft Azure Government Cloud](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) and is designed to interoperate with the Office 365 GCC High and Office 365 DoD offers respectively. The Azure Information Protection Premium GCC High and DoD offers are currently certified FedRAMP-High. 
-
-| Azure Information Protection Premium Government Offer | Corresponding Office 365 Government Offer | Compliance Commitment 
-|---|---|
-Azure Information Protection Premium P1/P2 (commercial) | Office 365, GCC | FedRAMP-Moderate
-Azure Information Protection Premium P1/P2 GCC High | Office 365, GCC High | FedRAMP-High 
-Azure Information Protection Premium P1/P2 DoD | Office 365, DoD | FedRAMP-High
- 
 
 ## Parity with Azure Information Protection Premium Commercial Offerings 
 
