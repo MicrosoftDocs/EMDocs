@@ -64,7 +64,7 @@ If the content is very sensitive and the organization cannot trust the recipient
 
 ## Identity based security
 
-The sections that follow will explore three major scnearios of attacks on protected content, and how a combination of environment controls and Azure Information Protection can be used to mitigate malicious access to the content.
+The sections that follow will explore three major scenarios of attacks on protected content, and how a combination of environment controls and Azure Information Protection can be used to mitigate malicious access to the content.
 
 ### Attacks by unauthorized users
 
@@ -72,7 +72,7 @@ The basis of protection in Azure Information Protection is that access to protec
 
 By using this Azure Information Protection capability, enterprises are able to compartmentalize information. For example: keeping sensitive information of the Human Resources (HR) department isolated within the department; and keeping the finance department’s data restricted to the finance department. Azure Information Protection provides *access based on identity, rather than nothing at all*.
 
-The diagram below has an example of an user (Bob) sending a document to Tom. In this case Bob is from the Finance department and Tom is from the Sales department. Tom cannot get access to the document, if no rights were granted.
+The diagram below has an example of a user (Bob) sending a document to Tom. In this case Bob is from the Finance department and Tom is from the Sales department. Tom cannot get access to the document, if no rights were granted.
 
 ![No access](./media/azure-information-protection-securing-data/aip-securing-data-fig2.png)
 
@@ -80,7 +80,7 @@ The key takeaway in this scenario is that Azure Information Protection can stop 
 
 ### Access by malicious programs on behalf of users
 
-Malicious program accessing on behalf of a user is usually something that takes place without the user's knowledge. Trojans , viruses, and other malware are classic examples of malicious programs that can act on behalf of the user. If such a program can impersonate the user's identity or leverage user's privileges to take an action, then it can use the [Azure Information Protection SDK](/azure/information-protection/develop/developers-guide) to decrypt content on behalf of an unwitting user. Since this action takes place in the user’s context, there isn’t a simple way to prevent this attack.
+Malicious program accessing on behalf of a user is usually something that takes place without the user's knowledge. Trojans, viruses, and other malware are classic examples of malicious programs that can act on behalf of the user. If such a program can impersonate the user's identity or leverage user's privileges to take an action, then it can use the [Azure Information Protection SDK](/azure/information-protection/develop/developers-guide) to decrypt content on behalf of an unwitting user. Since this action takes place in the user’s context, there isn’t a simple way to prevent this attack.
 
 ![Malicious programs](./media/azure-information-protection-securing-data/aip-securing-data-fig3.png)
 
