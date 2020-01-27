@@ -102,7 +102,7 @@ Azure Information Protection was designed to make applications located on the cl
 The focus of this scenario is to secure the client device and applications, so that rogue applications cannot be used. Some steps that the IT administrator can take are listed below:
 
 - Use [Windows AppLocker](https://technet.microsoft.com/library/dd759117(v=ws.11).aspx) to help ensure that unwanted programs cannot be executed
-- Use [Intune](https://docs.microsoft.com/intune/) and [System Center Configuration Manager](https://docs.microsoft.com/sccm/) to help ensure the device is ‘healthy’
+- Use [Intune](https://docs.microsoft.com/intune/) and [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/) to help ensure the device is ‘healthy’
 - Ensure that the anti-virus on the device is up-to-date
 - Use applications that support [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx) for authentication and [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)
 
@@ -115,7 +115,7 @@ Since Azure Information Protection is not designed to protect against malicious 
 Full security goes beyond one technology. Through a variety of interdependent means, an IT administrator can reduce the attack surface on protected content in the real world.
 
 - **Azure Information Protection**: prevents unauthorized access to content
-- **Microsoft Intune, System Center Configuration Manager, and other device management products**: enables a managed and controlled environment free of malicious apps
+- **Microsoft Intune, Microsoft Endpoint Configuration Manager, and other device management products**: enables a managed and controlled environment free of malicious apps
 - **Windows AppLocker**: enables a managed and controlled environment free of malicious apps
 - **Azure AD Identity Protection**: enhances trust in the user identity
 - **EMS Conditional Access**: enhances trust in the device and identity
