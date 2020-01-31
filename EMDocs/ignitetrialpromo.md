@@ -42,7 +42,7 @@ Security offerings in EMS include:
 [Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)  
 [Advanced Threat Analytics](https://www.microsoft.com/cloud-platform/advanced-threat-analytics)  
 [Azure Advanced Threat Protection](https://azure.microsoft.com/features/azure-advanced-threat-protection/)  
-[System Center Configuration Manager](https://www.microsoft.com/cloud-platform/system-center-configuration-manager)  
+[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/)  
 
 ## Learn more about Microsoft Security
 Other security offerings in Microsoft 365 include:     
