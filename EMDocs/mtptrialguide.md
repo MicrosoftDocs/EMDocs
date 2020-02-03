@@ -465,7 +465,7 @@ You can set Windows Defender Antivirus to automatically scan certain types of em
   ```Set-MpPreference -DisableArchiveScanning 0 Set-MpPreference -DisableEmailScanning 0```
 
 ##### Manage product and protection updates
-Adjust the frequency of updates by setting the following options and ensuring that your updates are managed either in System Center Configuration Manager, with Group Policy, or in Intune.
+Adjust the frequency of updates by setting the following options and ensuring that your updates are managed either in Microsoft Endpoint Configuration Manager, with Group Policy, or in Intune.
 - Update signatures every day:</br>
   ```Set-MpPreference -SignatureUpdateInterval 8```
 - Check to update signatures before running a scheduled scan:</br>
