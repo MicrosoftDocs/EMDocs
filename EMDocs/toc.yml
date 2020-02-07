@@ -80,37 +80,37 @@
       items:
         - name: Core infrastructure
           tocHref: /configmgr/core/
-          topicHref: /configmgr/core/understand/introduction
+          topicHref: /configmgr/core/
         - name: Application management
           tocHref: /configmgr/apps/
-          topicHref: /configmgr/apps/understand/introduction-to-application-management
+          topicHref: /configmgr/apps/
         - name: Device compliance
           tocHref: /configmgr/compliance/
-          topicHref: /configmgr/compliance/understand/ensure-device-compliance
+          topicHref: /configmgr/compliance/
         - name: Mobile device management
           tocHref: /configmgr/mdm/
-          topicHref: /configmgr/mdm/understand/hybrid-mobile-device-management
+          topicHref: /configmgr/mdm/
         - name: Microsoft Deployment Toolkit
           tocHref: /configmgr/mdt/
           topicHref: /configmgr/mdt/
         - name: OS deployment
           tocHref: /configmgr/osd/
-          topicHref: /configmgr/osd/understand/introduction-to-operating-system-deployment
+          topicHref: /configmgr/osd/
         - name: Protect data and infrastructure
           tocHref: /configmgr/protect/
-          topicHref: /configmgr/protect/understand/protect-data-and-site-infrastructure
+          topicHref: /configmgr/protect/
         - name: Software update management
           tocHref: /configmgr/sum/
-          topicHref: /configmgr/sum/understand/software-updates-introduction
+          topicHref: /configmgr/sum/
         - name: Co-management
           tocHref: /configmgr/comanage/
-          topicHref: /configmgr/comanage/overview
+          topicHref: /configmgr/comanage/
         - name: Desktop Analytics
           tocHref: /configmgr/desktop-analytics/
-          topicHref: /configmgr/desktop-analytics/overview
+          topicHref: /configmgr/desktop-analytics/
         - name: Develop
           tocHref: /configmgr/develop/
-          topicHref: /configmgr/develop/core/misc/system-center-configuration-manager-sdk
+          topicHref: /configmgr/develop/
           items:
             - name: Reference
               tocHref: /configmgr/develop/reference
