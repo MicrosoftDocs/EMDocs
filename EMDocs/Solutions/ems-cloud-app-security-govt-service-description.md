@@ -57,13 +57,9 @@ Activity, file, and anomaly detection policies are still supported for API-conne
 
 Admin email notifications for alerts, as well as notifications sent to users when a breach is detected, are not supported at this time.
 
-## Malware reports
-
-Malware reports for infected files in supported apps is not available.
-
 ## Security configuration assessments
 
-Security configuration assessments for Azure are not supported.
+Security configuration assessments for Azure and AWS are not supported.
 
 ## Other integrations
 
