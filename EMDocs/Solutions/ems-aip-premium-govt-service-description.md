@@ -4,10 +4,10 @@
 title: Azure Information Protection Premium Government Service Description
 description: Azure Information Protection Premium Government Service Description is designed to serve as an overview of our offering
 keywords:
-author: dougeby
-ms.author: dougeby
+author: mlottner
+ms.author: mlottner
 manager: dougeby
-ms.date: 01/12/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod:
 ms.service: rights-management
@@ -91,6 +91,7 @@ Also, the assumption is that users will log in with the username based off the t
 
 
 ### AIP apps configuration
+
 The AIP apps on Windows need a special registry key to point them to the right service instance for GCC High/DoD.  
 
 | Registry Node | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
@@ -98,3 +99,10 @@ The AIP apps on Windows need a special registry key to point them to the right s
 | Name | WebServiceUrl |
 | Value | https://api.informationprotection.azure.us |
 | Type | REG_SZ (String) |
+
+## Service Tags
+
+Make sure to allow access to all ports for the following **Service Tags**:
+*    AzureInformationProtection
+*    AzureActiveDirectory
+*    AzureFrontDoor.FrontEnd
