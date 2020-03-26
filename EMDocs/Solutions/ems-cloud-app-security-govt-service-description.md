@@ -7,7 +7,7 @@ keywords:
 author: shsagir
 ms.author: shsagir
 manager: rkarlin
-ms.date: 03/13/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod:
 ms.service: cloud-app-security
@@ -59,7 +59,7 @@ Admin email notifications for alerts, as well as notifications sent to users whe
 
 ## Security configuration assessments
 
-Security configuration assessments for Azure and AWS are not supported.
+Security configuration assessments for AWS are not supported.
 
 ## Other integrations
 
