@@ -85,4 +85,4 @@ More information can be found on the [Microsoft Trust Center](https://products.o
 
 Various EMS services provide the ability to work seamlessly with certain third-party applications and services. These third-party applications and services might involve storing, transmitting, and processing your organization’s data or content on third-party systems that are outside of the EMS infrastructure and therefore are not covered by our compliance and data protection commitments. It is recommended that you review the privacy and compliance statements provided by these third parties when assessing the appropriate use of third-party apps and services for your organization.
 
-For more information, see [Microsoft 365 Government] (https://docs.microsoft.com/enterprise-mobility-security/). 
+For more information, see [Microsoft 365 Government](https://docs.microsoft.com/enterprise-mobility-security/). 
