@@ -24,7 +24,7 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./images/access.png
       summary: Enable security and management for your remote workforce
-      url: ./remote-work/
+      url: ./remote-work/index.yml
 
 # additionalContent section (optional)
 # Card with summary style
