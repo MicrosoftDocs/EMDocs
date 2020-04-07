@@ -10,9 +10,21 @@ metadata:
   description: Technical documentation for Microsoft Enterprise Mobility + Security # Required; article description that is displayed in search results. < 160 chars.
   ms.service: m365-md #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page #Required
-  author: chenhao2020 #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-chenha #Required; microsoft alias of author; optional team alias.
+  author: dougeby #Required; your GitHub user alias, with correct capitalization.
+  ms.author: dougeby #Required; microsoft alias of author; optional team alias.
   ms.date: 02/27/2020 #Required; mm/dd/yyyy format.
+
+# productDirectory section (optional)
+productDirectory:
+#  title: sectiontitle # < 60 chars (optional)
+#  summary: sectionsummary # < 160 chars (optional)
+  items:
+    # Card
+    - title: Secure Remote Work
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: ./images/access.png
+      summary: Enable security and management for your remote workforce
+      url: ./remote-work/index.yml
 
 # additionalContent section (optional)
 # Card with summary style
