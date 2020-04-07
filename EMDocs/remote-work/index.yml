@@ -231,3 +231,7 @@ additionalContent:
         - title: Making it easier for your remote workforce to securely access all the apps they need, from anywhere
           summary: Making Azure AD the control plane across all your apps helps ensure your employees working from home have secure, seamless access to the tools and resources they need, while protecting those tools and resources from unauthorized access.
           url: https://www.microsoft.com/security/blog/2020/03/31/making-easier-remote-workforce-securely-access-apps-from-anywhere/
+        - title: Frequent questions about using Conditional Access to secure remote access
+          summary: Best practices and tips assembled from working closely with customers who are quickly enabling remote work while keeping company data safe.
+          url: https://techcommunity.microsoft.com/t5/azure-active-directory-identity/frequent-questions-about-using-conditional-access-to-secure/ba-p/1276932
+ 
