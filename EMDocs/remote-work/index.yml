@@ -11,7 +11,7 @@ metadata:
   author: dougeby
   ms.author: dougeby
   manager: mtillman
-  ms.date: 04/02/2020
+  ms.date: 04/13/2020
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -203,35 +203,9 @@ additionalContent:
         - title: Microsoft Intune documentation
           summary: Official Intune product documentation
           url: https://docs.microsoft.com/mem/intune/
+        - title: Secure remote work blog resources
+          summary: Best practices and guidance for security professionals on how to work remotely in this new environment and stay secure.
+          url: https://www.microsoft.com/security/blog/secure-remote-work/        
 #       - title: Determine what technologies you have
 #         summary: <Need link>  Learn what technologies you already have to start using them today
 #         url: https://docs.microsoft.com/file2
-
-    - title: Blog resources
-      summary: Find top of mind blog posts and articles across our community to help you enable secure management for your remote workforce.
-      items:
-        # Card
-        - title: Top 5 ways your Azure AD can help you enable remote work
-          summary: For those using Azure AD, a number of capabilities enable remote work while helping you keep your organization secured.
-          url: https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691
-        # Card
-        - title: Helping businesses rapidly set up to work securely from personal PCs and mobiles
-          summary: Enable a remote workforce so your employees can continue working as close as possible to how they worked back in the office.
-          url: https://techcommunity.microsoft.com/t5/enterprise-mobility-security/helping-businesses-rapidly-set-up-to-work-securely-from-personal/ba-p/1239830
-        # Card
-        - title: Alternative ways for security professionals and IT to achieve modern security controls in today’s unique remote work scenarios
-          summary: Alternative ways of achieving modern security controls, so security teams can manage risk in a more direct-to-internet network architecture.
-          url: https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/
-#        - title: What is Conditional Access
-#          summary: <Need link> Conditional Access is the tool used by Azure AD to bring signals together, to make decisions, and enforce organizational policies. 
-#          url: https://docs.microsoft.com/file2
-        - title: Enable remote collaboration quickly and securely with Azure AD
-          summary: If you’re looking to enable your workforce and partners to collaborate effectively from remote locations, here are some things to keep in mind.
-          url: https://techcommunity.microsoft.com/t5/azure-active-directory-identity/enable-remote-collaboration-quickly-and-securely-with-azure-ad/ba-p/1257334
-        - title: Making it easier for your remote workforce to securely access all the apps they need, from anywhere
-          summary: Making Azure AD the control plane across all your apps helps ensure your employees working from home have secure, seamless access to the tools and resources they need, while protecting those tools and resources from unauthorized access.
-          url: https://www.microsoft.com/security/blog/2020/03/31/making-easier-remote-workforce-securely-access-apps-from-anywhere/
-        - title: Frequent questions about using Conditional Access to secure remote access
-          summary: Best practices and tips assembled from working closely with customers who are quickly enabling remote work while keeping company data safe.
-          url: https://techcommunity.microsoft.com/t5/azure-active-directory-identity/frequent-questions-about-using-conditional-access-to-secure/ba-p/1276932
- 
