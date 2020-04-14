@@ -206,6 +206,9 @@ additionalContent:
         - title: Secure remote work blog resources
           summary: Best practices and guidance for security professionals on how to work remotely in this new environment and stay secure.
           url: https://www.microsoft.com/security/blog/secure-remote-work/        
+        - title: Microsoft Tech Community - Enabling Remote Work
+          summary: Share your experiences and ideas for enabling remote work, and engage with others.
+          url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork
 #       - title: Determine what technologies you have
 #         summary: <Need link>  Learn what technologies you already have to start using them today
 #         url: https://docs.microsoft.com/file2
