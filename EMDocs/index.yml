@@ -39,11 +39,11 @@ additionalContent:
         # Card
         - title: Microsoft Intune
           summary: Manage mobile devices, apps, and PCs from the cloud
-          url: https://docs.microsoft.com/intune/index
+          url: https://docs.microsoft.com/mem/intune/
         # Card
         - title: Microsoft Endpoint Configuration Manager
           summary: Manage on-premises PCs, servers, and mobile devices with cloud-powered insights
-          url: https://docs.microsoft.com/configmgr/
+          url: https://docs.microsoft.com/mem/configmgr/
         # Card
         - title: Microsoft Cloud App Security
           summary: Gain deep visibility, comprehensive controls, and enhanced SaaS security 
