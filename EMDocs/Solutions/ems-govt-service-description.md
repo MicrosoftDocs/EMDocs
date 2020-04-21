@@ -71,7 +71,7 @@ While our goal is to deliver all commercial features and functionality to govern
 ### US Government GCC customers
 EMS services currently available for US Government customers (Azure AD P1/P2, Intune and Azure Information Protection P1/2) are provided from data centers physically located in the United States. Your organization’s customer data is stored at rest within the United States. GCC customers can also choose to add-on commercial offerings of Microsoft Cloud App Security and Azure ATP with the purchase of an EMS E5 license. (These are not US GCC services and do not adhere to all GCC attributes.) For information on where Microsoft stores customer data at rest in connection with Microsoft Cloud App Security, a commercial service, review the [Online Services Terms](https://www.microsoft.com/licensing/product-licensing/products). For information on where Microsoft stores customer data at rest in connection with Azure ATP, also a commercial service, review the [product documentation](https://docs.microsoft.com/azure-advanced-threat-protection/atp-technical-faq#do-i-have-the-flexibility-to-select-where-to-store-my-data) for Azure ATP.
 
-### US Government GCCHigh and DoD customers
+### US Government GCC High and DoD customers
 Organizations that use EMS for US Government GCC High and DOD offerings benefit from the following features: 
 - Your organization's customer content is physically segregated from customer content in Microsoft's commercial services. 
 - Your organization's customer content is stored within the United States. 
