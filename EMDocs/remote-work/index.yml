@@ -189,15 +189,15 @@ additionalContent:
       items:
         - title: Create data loss prevention policies
           links: 
-            - title: Overview of data loss prevention
+            - text: Overview of data loss prevention
               url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
-            - title: Data loss prevention and Microsoft Teams
+            - text: Data loss prevention and Microsoft Teams
               url: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams
-            - title: Create, test, and tune a DLP policy
+            - text: Create, test, and tune a DLP policy
               url: https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy
-            - title: Custom sensitive information types
+            - text: Custom sensitive information types
               url: https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types
-            - title: Document Fingerprinting
+            - text: Document Fingerprinting
               url: https://docs.microsoft.com/microsoft-365/compliance/document-fingerprinting
         - title: Enable safe links and safe attachments
           links: 
