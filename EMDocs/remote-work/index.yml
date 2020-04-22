@@ -16,7 +16,9 @@ metadata:
 
 # conceptualContent section (optional)
 conceptualContent:
-
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  title: Enable remote access to apps
+  summary: This is the summary text
   items:
     # Card
     - title: Connect to your apps
@@ -42,8 +44,6 @@ conceptualContent:
         - url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
           itemType: how-to-guide
           text: "Tip: Automate user provisioning to your apps"
-
-
     - title: Connect your on-premises infrastructure to the cloud
       links: 
         - text: "Overview: What is Conditional Access?"
@@ -134,71 +134,7 @@ conceptualContent:
 
 additionalContent:
   sections:
-    - title: Enable remote access to apps
-      summary: test
-      items:
-        - title: Connect your on-premises infrastructure to the cloud
-          links: 
-            - text: "Overview: What is Conditional Access?"
-              url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
-            - text: "Create polices: Common Conditional Access policies"
-              url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
-            - text: "Tip: Enable combined security information registration"
-              url: https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined
-            - text: "Tip: Start Conditional Access roll-out with report-only mode"
-              url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only
-            - text: "Authentication options: Choose the right authentication method to secure your apps to the cloud"
-              url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
-        - title: Connect all your apps to Azure AD to enable single sign on-premises
-          links: 
-            - text: "Overview: Application management with Azure Active Directory"
-              url: https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management
-            - text: "Configure SSO and User Provisioning: Follow the tutorials for integrating SaaS applications with Azure Active Directory"
-              url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
-            - text: "Connect On-Premises Web Applications: Add an on-premises application through Application Proxy"
-              url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
-            - text: "Secure Hybrid Access: Secure and protect on-prem and cloud legacy authentication apps"
-              url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
-            - text: "Simplify app discovery with MyApps: Guide users to Sign in and start apps from the My Apps portal"
-              url: https://docs.microsoft.com/azure/active-directory/user-help/my-apps-portal-end-user-access
-            - text: "Tip: Choose the right authentication for your hybrid identity solution"
-              url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
-            - text: "Tip: Automate user provisioning to your apps "
-              url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
-        - title: Turn on Multi-Factor Authentication with Conditional Access
-          links: 
-            - text: How does MFA work?
-              url: https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks
-            - text: Set up Multi-Factor Authentication
-              url: https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide
-            - text: Plan and Enable Azure Multi-Factor Authentication
-              url: https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted
-            - text: Secure user sign-in with MFA
-              url: https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa
-            - text: "Tip: Combine Self-Service Password Reset and Multi-Factor Authentication registration"
-              url: https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined
-            - text: Enable Self Service Password Reset
-              url: https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment
-        - title: Enable access to on-prem web apps 
-          links:
-            - text: "Secure Hybrid Access: Secure and protect on-prem and cloud legacy authentication apps"
-              url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
-        - title: Extend access with Azure AD B2B Collaboration
-          links:
-            - text: "Overview: What is B2B guest user access?"
-              url: https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b
-            - text: "Simplify Access: Enable email one-time passcode authentication (preview)"
-              url: https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode
-            - text: "Invite Partners to Enterprise Applications: Add guest users to your directory in the Azure portal"
-              url: https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal
-            - text: "Manage Invites: Enable and manage B2B collaboration and sharing"
-              url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
-        - title: Enable risk-based Conditional Access
-          links:
-            - text: Risk Based Conditional Access
-              url: https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk
-            - text: "Tip: Common Conditional Access policies"
-              url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
+
     - title: Manage devices and apps
       summary: test summary
       items: 
@@ -278,6 +214,7 @@ additionalContent:
             - text: Protect against threats in Office 365 Overview
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide
         - title: Discover all cloud apps and services used in your organization
+          links:
             - text: Discover and manage shadow IT on your network 
               url: https://docs.microsoft.com/cloud-app-security/tutorial-shadow-it
             - text: "Tip: Cloud App Security best practices"
