@@ -16,7 +16,7 @@ metadata:
 additionalContent:
   sections:
     - title: Enable remote access to apps
-      summary: 
+      summary: test
       items:
         - title: Connect your on-premises infrastructure to the cloud
           links: 
@@ -48,88 +48,87 @@ additionalContent:
               url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
         - title: Turn on Multi-Factor Authentication with Conditional Access
           links: 
-            - title: How does MFA work?
+            - text: How does MFA work?
               url: https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks
-            - title: Set up Multi-Factor Authentication
+            - text: Set up Multi-Factor Authentication
               url: https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide
-            - title: Plan and Enable Azure Multi-Factor Authentication
+            - text: Plan and Enable Azure Multi-Factor Authentication
               url: https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted
-            - title: Secure user sign-in with MFA
+            - text: Secure user sign-in with MFA
               url: https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa
-            - title: "Tip: Combine Self-Service Password Reset and Multi-Factor Authentication registration"
+            - text: "Tip: Combine Self-Service Password Reset and Multi-Factor Authentication registration"
               url: https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined
-            - title: Enable Self Service Password Reset
+            - text: Enable Self Service Password Reset
               url: https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment
         - title: Enable access to on-prem web apps 
           links:
-            - title: "Secure Hybrid Access: Secure and protect on-prem and cloud legacy authentication apps"
+            - text: "Secure Hybrid Access: Secure and protect on-prem and cloud legacy authentication apps"
               url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
         - title: Extend access with Azure AD B2B Collaboration
           links:
-            - title: "Overview: What is B2B guest user access?"
+            - text: "Overview: What is B2B guest user access?"
               url: https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b
-            - title: "Simplify Access: Enable email one-time passcode authentication (preview)"
+            - text: "Simplify Access: Enable email one-time passcode authentication (preview)"
               url: https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode
-            - title: "Invite Partners to Enterprise Applications: Add guest users to your directory in the Azure portal"
+            - text: "Invite Partners to Enterprise Applications: Add guest users to your directory in the Azure portal"
               url: https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal
-            - title: "Manage Invites: Enable and manage B2B collaboration and sharing"
+            - text: "Manage Invites: Enable and manage B2B collaboration and sharing"
               url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
         - title: Enable risk-based Conditional Access
           links:
-            - title: Risk Based Conditional Access
+            - text: Risk Based Conditional Access
               url: https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk
-            - title: "Tip: Common Conditional Access policies"
+            - text: "Tip: Common Conditional Access policies"
               url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
     - title: Manage devices and apps
-      summary: 
+      summary: test summary
       items: 
         - title: Securely enable BYOD
           links: 
-            - title: "Overview: Device enrollment"
+            - text: "Overview: Device enrollment"
               url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
-            - title: Set up enrollment for Windows devices into Intune
+            - text: Set up enrollment for Windows devices into Intune
               url: https://docs.microsoft.com/mem/intune/enrollment/windows-enroll
-            - title: Enroll devices in Intune with Windows Autopilot
+            - text: Enroll devices in Intune with Windows Autopilot
               url: https://docs.microsoft.com/mem/intune/enrollment/enrollment-autopilot
         - title: Remotely provision and deploy new devices 
           links:
-            - title: What is Windows Autopilot?
+            - text: What is Windows Autopilot?
               url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
-            - title: How do I deploy Windows Autopilot?
+            - text: How do I deploy Windows Autopilot?
               url: https://docs.microsoft.com/windows/deployment/windows-autopilot/demonstrate-deployment-on-vm
         - title: Enforce access policies on unmanaged devices with Intune
           links:
-            - title: "Overview: Microsoft Intune"
+            - text: "Overview: Microsoft Intune"
               url: https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune
-            - title: "Start: Set up Intune"
+            - text: "Start: Set up Intune"
               url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
-            - title: "Get in control:  Enroll devices in Microsoft Intune"
+            - text: "Get in control:  Enroll devices in Microsoft Intune"
               url: https://docs.microsoft.com/mem/intune/enrollment/
-            - title: Manage and protect apps
+            - text: Manage and protect apps
               url: https://docs.microsoft.com/mem/intune/apps/
-            - title: Follow our Guided Scenarios
+            - text: Follow our Guided Scenarios
               url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
         - title: Deploy and manage Virtual Desktop 
           links:
-            - title: How to onboard Virtual Desktop Infrastructure machines
+            - text: How to onboard Virtual Desktop Infrastructure machines
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
     - title: Protect corporate resources
-      summary: 
+      summary: test
       items:
         - title: Onboard machines to Microsoft Defender ATP
           links: 
-            - title: How to onboard machines to Microsoft Defender ATP
+            - text: How to onboard machines to Microsoft Defender ATP
               url: https://www.microsoft.com/videoplayer/embed/RE4bGqr
-            - title: How to deploy Microsoft Defender ATP on Macs
+            - text: How to deploy Microsoft Defender ATP on Macs
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac
-            - title: How to onboard Virtual Desktop Infrastructure machines
+            - text: How to onboard Virtual Desktop Infrastructure machines
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
         - title: Onboard machines to Microsoft Defender ATP
           links: 
-            - title: How to onboard machines to Microsoft Defender ATP
+            - text: How to onboard machines to Microsoft Defender ATP
               url: https://www.microsoft.com/videoplayer/embed/RE4bGqr
-            - title: How to deploy Microsoft Defender ATP on Macs
+            - text: How to deploy Microsoft Defender ATP on Macs
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac
-            - title: How to onboard Virtual Desktop Infrastructure machines
+            - text: How to onboard Virtual Desktop Infrastructure machines
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
-              
