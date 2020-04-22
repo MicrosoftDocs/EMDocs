@@ -38,6 +38,38 @@ additionalContent:
               url: https://youtu.be/_2kWq5H4NhY
             - text: How to roll out Application Proxy
               url: https://youtu.be/0mLFWcG95OA
+        - title: Passwordless authentication
+          links:
+            - text: What is Passwordless Authentication?
+              url: https://youtu.be/8Na793pxKpk
+            - text: Go Passwordless with Microsoft
+              url: https://youtu.be/V9JOEhs3mNE
+            - text: "Windows Hello for Business: Authentication"
+              url: https://youtu.be/WPmzoP_vMek
+            - text: How to implement passwordless authentication in Azure Active Directory
+              url: https://youtu.be/R4JtziRu764
+            - text: "Windows Hello for Business: Provisioning"
+              url: https://youtu.be/RImGsIjSJ1s
+            - text: Sign in to your Microsoft account with a FIDO2 device
+              url: https://youtu.be/v_58pD6961w
+        - title: Partner B2B collaboration
+          links:
+            - text: What is Azure Active Director B2B Collaboration? 
+              url: https://youtu.be/1TWxB4VYdJc
+            - text: How to manage B2B identities
+              url: https://youtu.be/VeCrGXGSgWs
+            - text: Azure AD B2B authentication and federation
+              url: https://youtu.be/MLYiYKgrrmE     
+        - title: Microsoft Intune
+          links:
+            - text: What is Microsoft Endpoint Management
+              url: https://youtu.be/GS7oNPInFuw
+            - text: iOS and iPadOS device management with Microsoft Intune
+              url: https://youtu.be/B_ccGuc37Pc
+            - text: macOS device management with Microsoft Intune
+              url: https://youtu.be/wFIEU1G9J10
+            - text: Android device management with Microsoft Intune
+              url: https://youtu.be/szQMosnYETc         
         - title: Conditional Access
           links:
             - text: What is Conditional Access?
@@ -56,20 +88,6 @@ additionalContent:
               url: https://youtu.be/FxW8vLxAjSk
             - text: How to register for Azure Multi-Factor Authentication
               url: https://youtu.be/uWbkLuI4g30
-        - title: Passwordless authentication
-          links:
-            - text: What is Passwordless Authentication?
-              url: https://youtu.be/8Na793pxKpk
-            - text: Go Passwordless with Microsoft
-              url: https://youtu.be/V9JOEhs3mNE
-            - text: "Windows Hello for Business: Authentication"
-              url: https://youtu.be/WPmzoP_vMek
-            - text: How to implement passwordless authentication in Azure Active Directory
-              url: https://youtu.be/R4JtziRu764
-            - text: "Windows Hello for Business: Provisioning"
-              url: https://youtu.be/RImGsIjSJ1s
-            - text: Sign in to your Microsoft account with a FIDO2 device
-              url: https://youtu.be/v_58pD6961w
         - title: Self-service password reset
           links: 
             - text: What is self-service password reset?
@@ -80,25 +98,13 @@ additionalContent:
               url: https://youtu.be/Pa0eyqjEjvQ
             - text: How to roll out self-service password reset
               url: https://youtu.be/OZn5btP6ZXw
-        - title: Partner B2B collaboration
+        - title: Connect, control, and secure apps remotely
           links:
-            - text: What is Azure Active Director B2B Collaboration? 
-              url: https://youtu.be/1TWxB4VYdJc
-            - text: How to manage B2B identities
-              url: https://youtu.be/VeCrGXGSgWs
-            - text: Azure AD B2B authentication and federation
-              url: https://youtu.be/MLYiYKgrrmE
-        - title: Microsoft Intune
-          links:
-            - text: What is Microsoft Endpoint Management
-              url: https://youtu.be/GS7oNPInFuw
-            - text: iOS and iPadOS device management with Microsoft Intune
-              url: https://youtu.be/B_ccGuc37Pc
-            - text: macOS device management with Microsoft Intune
-              url: https://youtu.be/wFIEU1G9J10
-            - text: Android device management with Microsoft Intune
-              url: https://youtu.be/szQMosnYETc
-        - title: Overview of Security and Enabling Remote Work
-          links:
-            - text: Elevating Security and Performance for Remote Work
-              url: https://event.on24.com/wcc/r/2244904/9BCC368CC596F369CAEAF445E1043D84
+            - text: Cloud app discovery feature
+              url: https://youtu.be/SWznxkJZHXY
+            - text: Extend real-time monitoring and controls to any app
+              url: https://youtu.be/hGqL89V6zAI
+            - text: Connect third party apps
+              url: https://youtu.be/Tk0tnPvx6_M
+            - text: Enabling secure work with Microsoft Cloud App Security
+              url: https://youtu.be/Z1wYE9xyOIM
