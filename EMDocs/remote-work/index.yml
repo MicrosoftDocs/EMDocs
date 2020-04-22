@@ -315,6 +315,9 @@ additionalContent:
         - title: Microsoft Tech Community - Enabling Remote Work
           summary: Share your experiences and ideas for enabling remote work, and engage with others.
           url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork                    
+        - title: Video resources
+          summary: Video resources to help you enable security and  for your remote workforce
+          url: indexvideo.yml
         - title: Azure Active Directory documentation
           summary: Official Azure AD product documentation
           url: https://docs.microsoft.com/azure/active-directory/
