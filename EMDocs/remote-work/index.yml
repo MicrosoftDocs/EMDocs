@@ -236,8 +236,9 @@ additionalContent:
             - text: Manage Permissions for Office365 
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide
         - title: Implement app protection policies
+          links:
             - text: Set up policies to manage and control apps
-              url: https://docs.microsoft.com/cloud-app-security/control-cloud-apps-with-policies  
+              url: https://docs.microsoft.com/cloud-app-security/control-cloud-apps-with-policies                
 
     - title: Additional resources
       summary: Discover additional resources and documentation, including our FastTrack experience to help you deploy Microsoft cloud solutions at no additional cost.
