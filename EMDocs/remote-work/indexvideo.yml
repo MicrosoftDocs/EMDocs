@@ -14,6 +14,17 @@ metadata:
   ms.date: 04/13/2020
 
 # conceptualContent section (optional)
+# productDirectory section (optional)
+productDirectory:
+#  title: sectiontitle # < 60 chars (optional)
+#  summary: sectionsummary # < 160 chars (optional)
+  items:
+    # Card
+    - title: Secure Remote Work
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: ../images/access.png
+      summary: Enable security and management for your remote workforce
+      url: index.yml
 
 additionalContent:
   sections:
