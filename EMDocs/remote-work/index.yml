@@ -11,7 +11,126 @@ metadata:
   author: dougeby
   ms.author: dougeby
   manager: mtillman
-  ms.date: 04/13/2020
+  ms.date: 04/22/2020
+
+
+# conceptualContent section (optional)
+conceptualContent:
+
+  items:
+    # Card
+    - title: Connect to your apps
+      links:
+        - url: https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management
+          itemType: overview
+          text: Application management with Azure AD
+        - url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
+          itemType: how-to-guide
+          text: "Tutorials for integrating SaaS applications"
+        - url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
+          itemType: how-to-guide
+          text: "Connect on-premises web applications"
+        - url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
+          itemType: how-to-guide
+          text: Secure Hybrid Access
+        - url: https://docs.microsoft.com/azure/active-directory/user-help/my-apps-portal-end-user-access
+          itemType: how-to-guide
+          text: Guide users to Sign in and start apps from the My Apps portal
+        - url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
+          itemType: how-to-guide
+          text: "Tip: Choose the right authentication for your hybrid identity solution"
+        - url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
+          itemType: how-to-guide
+          text: "Tip: Automate user provisioning to your apps"
+
+
+    - title: Connect your on-premises infrastructure to the cloud
+      links: 
+        - text: "Overview: What is Conditional Access?"
+          itemType: overview
+          url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
+        - text: "Create polices: Common Conditional Access policies"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
+        - text: "Tip: Enable combined security information registration"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined
+        - text: "Tip: Start Conditional Access roll-out with report-only mode"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only
+        - text: "Authentication options: Choose the right authentication method to secure your apps to the cloud"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
+    - title: Connect all your apps to Azure AD to enable single sign on-premises
+      links: 
+        - text: "Overview: Application management with Azure Active Directory"
+          itemType: overview
+          url: https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management
+        - text: "Configure SSO and User Provisioning: Follow the tutorials for integrating SaaS applications with Azure Active Directory"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
+        - text: "Connect On-Premises Web Applications: Add an on-premises application through Application Proxy"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
+        - text: "Secure Hybrid Access: Secure and protect on-prem and cloud legacy authentication apps"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
+        - text: "Simplify app discovery with MyApps: Guide users to Sign in and start apps from the My Apps portal"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/user-help/my-apps-portal-end-user-access
+        - text: "Tip: Choose the right authentication for your hybrid identity solution"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
+        - text: "Tip: Automate user provisioning to your apps"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
+    - title: Turn on Multi-Factor Authentication with Conditional Access
+      links: 
+        - text: How does MFA work?
+          itemType: concept
+          url: https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks
+        - text: Set up Multi-Factor Authentication
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide
+        - text: Plan and Enable Azure Multi-Factor Authentication
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted
+        - text: Secure user sign-in with MFA
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa
+        - text: "Tip: Combine Self-Service Password Reset and Multi-Factor Authentication registration"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined
+        - text: Enable Self Service Password Reset
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment
+    - title: Enable access to on-prem web apps 
+      links:
+        - text: "Secure Hybrid Access: Secure and protect on-prem and cloud legacy authentication apps"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
+    - title: Extend access with Azure AD B2B Collaboration
+      links:
+        - text: "Overview: What is B2B guest user access?"
+          itemType: overview
+          url: https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b
+        - text: "Simplify Access: Enable email one-time passcode authentication (preview)"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode
+        - text: "Invite Partners to Enterprise Applications: Add guest users to your directory in the Azure portal"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal
+        - text: "Manage Invites: Enable and manage B2B collaboration and sharing"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
+    - title: Enable risk-based Conditional Access
+      links:
+        - text: Risk Based Conditional Access
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk
+        - text: "Tip: Common Conditional Access policies"
+          itemType: concept
+          url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
 
 additionalContent:
   sections:
@@ -87,35 +206,82 @@ additionalContent:
           links: 
             - text: "Overview: Device enrollment"
               url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
-            - text: Set up enrollment for Windows devices into Intune
-              url: https://docs.microsoft.com/mem/intune/enrollment/windows-enroll
-            - text: Enroll devices in Intune with Windows Autopilot
-              url: https://docs.microsoft.com/mem/intune/enrollment/enrollment-autopilot
+            - text: Set up Intune
+              url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
+            - text: Enroll devices in Microsoft Intune
+              url: https://docs.microsoft.com/mem/intune/enrollment/
+            - text: What is Microsoft Cloud App Security
+              url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
+            - text: Set up Cloud App Security
+              url: https://docs.microsoft.com/cloud-app-security/general-setup
+            - text: Connect 3rd party apps
+              url: https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps
         - title: Remotely provision and deploy new devices 
           links:
             - text: What is Windows Autopilot?
               url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
             - text: How do I deploy Windows Autopilot?
               url: https://docs.microsoft.com/windows/deployment/windows-autopilot/demonstrate-deployment-on-vm
+            - text: How do I use the Windows Autopilot self-deploy mode
+              url: https://docs.microsoft.com/windows/deployment/windows-autopilot/self-deploying
+            - text: How do I redeploy a device already in use? 
+              url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-reset
+            - text: Deploy Windows Autopilot for existing devices 
+              url: https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices
         - title: Enforce access policies on unmanaged devices with Intune
           links:
-            - text: "Overview: Microsoft Intune"
-              url: https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune
-            - text: "Start: Set up Intune"
-              url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
-            - text: "Get in control:  Enroll devices in Microsoft Intune"
-              url: https://docs.microsoft.com/mem/intune/enrollment/
-            - text: Manage and protect apps
-              url: https://docs.microsoft.com/mem/intune/apps/
-            - text: Follow our Guided Scenarios
-              url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
+            - text: Control access from unmanaged devices
+              url: https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices
+
         - title: Deploy and manage Virtual Desktop 
           links:
             - text: How to onboard Virtual Desktop Infrastructure machines
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
+        - title: Use Conditional Access to enroll devices
+          links: 
+            - text: Deploy Conditional Access App Control for any apps 
+              url: https://docs.microsoft.com/cloud-app-security/proxy-deployment-any-app
+        - title: Proactively manage updates, patching, and policies
+          links: 
+            - text: Conditional access policies for device and platforms
+              url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-conditions#client-apps-condition
+            - text: Detect and protect against cloud native threats
+              url: https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy
+
     - title: Protect corporate resources
       summary: test
       items:
+        - title: Create data loss prevention policies
+          links: 
+            - title: Overview of data loss prevention
+              url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
+            - title: Data loss prevention and Microsoft Teams
+              url: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams
+            - title: Create, test, and tune a DLP policy
+              url: https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy
+            - title: Custom sensitive information types
+              url: https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types
+            - title: Document Fingerprinting
+              url: https://docs.microsoft.com/microsoft-365/compliance/document-fingerprinting
+        - title: Enable safe links and safe attachments
+          links: 
+            - text: What is Office 365 Advanced Threat Protection
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
+            - text: What is a safe link? 
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide
+            - text: What is a safe attachment?
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide
+            - text: Set up safe link policies 
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide
+            - text: Set up safe attachment policies
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide
+            - text: Protect against threats in Office 365 Overview
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide
+        - title: Discover all cloud apps and services used in your organization
+            - text: Discover and manage shadow IT on your network 
+              url: https://docs.microsoft.com/cloud-app-security/tutorial-shadow-it
+            - text: "Tip: Cloud App Security best practices"
+              url: https://docs.microsoft.com/cloud-app-security/best-practices
         - title: Onboard machines to Microsoft Defender ATP
           links: 
             - text: How to onboard machines to Microsoft Defender ATP
@@ -124,11 +290,51 @@ additionalContent:
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac
             - text: How to onboard Virtual Desktop Infrastructure machines
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
-        - title: Onboard machines to Microsoft Defender ATP
+        - title: Review Office ATP configurations
           links: 
-            - text: How to onboard machines to Microsoft Defender ATP
-              url: https://www.microsoft.com/videoplayer/embed/RE4bGqr
-            - text: How to deploy Microsoft Defender ATP on Macs
-              url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac
-            - text: How to onboard Virtual Desktop Infrastructure machines
-              url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
+            - text: Configure your Office 365 tenant for increased security
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/tenant-wide-setup-for-increased-security?view=o365-worldwide       
+            - text: Recommended settings to protect your employee’s inboxes
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwid
+            - text: Manage Permissions for Office365 
+              url: https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide
+        - title: Implement app protection policies
+            - text: Set up policies to manage and control apps
+              url: https://docs.microsoft.com/cloud-app-security/control-cloud-apps-with-policies  
+
+    - title: Additional resources
+      summary: Discover additional resources and documentation, including our FastTrack experience to help you deploy Microsoft cloud solutions at no additional cost.
+      items:
+        # Card
+        - title: FastTrack 
+          summary: We are here to help deploy Microsoft cloud solutions, included at no extra cost. Request assistance today. 
+          url: https://www.microsoft.com/fasttrack?rtc=1
+        - title: Secure remote work blog resources
+          summary: Best practices and guidance for security professionals on how to work remotely in this new environment and stay secure.
+          url: https://www.microsoft.com/security/blog/secure-remote-work/
+        - title: Microsoft Tech Community - Enabling Remote Work
+          summary: Share your experiences and ideas for enabling remote work, and engage with others.
+          url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork                    
+        - title: Azure Active Directory documentation
+          summary: Official Azure AD product documentation
+          url: https://docs.microsoft.com/azure/active-directory/
+        # Card
+        - title: Microsoft Intune documentation
+          summary: Official Intune product documentation
+          url: https://docs.microsoft.com/mem/intune/
+        - title: Microsoft Defender Advanced Threat Protection documentation
+          summary: Official Microsoft Defender ATP product documentation
+          url: https://docs.microsoft.com/windows/security/threat-protection/
+        - title: Microsoft Teams documentation
+          summary: Official Teams product documentation
+          url: https://docs.microsoft.com/microsoftteams/
+        - title: Microsoft Endpoint Manager documentation
+          summary: Official Microsoft Endpoint Manager documentation 
+          url: https://docs.microsoft.com/mem/
+        - title: Office 365 Advanced Threat Protection documentation
+          summary: Official Office 365 ATP product documentation
+          url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
+
+#       - title: Determine what technologies you have
+#         summary: <Need link>  Learn what technologies you already have to start using them today
+#         url: https://docs.microsoft.com/file2
