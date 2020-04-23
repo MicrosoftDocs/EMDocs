@@ -191,7 +191,7 @@ additionalContent:
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide
             - text: Set up safe attachment policies
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide
-            - text: Protect against threats in Office 365 Overview
+            - text: Protect against threats in Office 365
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide
         - title: Discover all cloud apps and services used in your organization
           links:
@@ -213,7 +213,7 @@ additionalContent:
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/tenant-wide-setup-for-increased-security?view=o365-worldwide       
             - text: Recommended settings to protect your employee’s inboxes
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwid
-            - text: Manage Permissions for Office365 
+            - text: Manage Permissions for Office 365 
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide
         - title: Implement app protection policies
           links:
