@@ -155,7 +155,7 @@ additionalContent:
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
         - title: Use Conditional Access to enroll devices
           links: 
-            - text: Deploy Conditional Access to enroll devices
+            - text: Deploy Conditional Access App Control for any apps
               url: https://docs.microsoft.com/cloud-app-security/proxy-deployment-any-app
         - title: Proactively manage updates, patching, and policies
           links: 
