@@ -255,9 +255,6 @@ additionalContent:
         - title: Office 365 Advanced Threat Protection documentation
           summary: Official Office 365 ATP product documentation
           url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
-        - title: Deployment guidance
-          summary: Take advantage of self-service deployment guidance 
-          url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
 #       - title: Determine what technologies you have
 #         summary: <Need link>  Learn what technologies you already have to start using them today
 #         url: https://docs.microsoft.com/file2
