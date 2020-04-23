@@ -21,31 +21,6 @@ conceptualContent:
   summary: Empower remote workers to access the apps they need without compromising security
   items:
     # Card
-    - title: Connect to your apps
-      links:
-        - url: https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management
-          itemType: overview
-          text: Application management with Azure AD
-        - url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
-          itemType: how-to-guide
-          text: "Tutorials for integrating SaaS applications"
-        - url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
-          itemType: how-to-guide
-          text: "Connect on-premises web applications"
-        - url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
-          itemType: how-to-guide
-          text: Secure Hybrid Access
-        - url: https://docs.microsoft.com/azure/active-directory/user-help/my-apps-portal-end-user-access
-          itemType: how-to-guide
-          text: Guide users to Sign in and start apps from the My Apps portal
-        - url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
-          itemType: how-to-guide
-          text: "Tip: Choose the right authentication for your hybrid identity solution"
-        - url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
-          itemType: how-to-guide
-          text: "Tip: Automate user provisioning to your apps"
-
-
     - title: Connect your on-premises infrastructure to the cloud
       links: 
         - text: "Overview: What is Conditional Access?"
