@@ -7,7 +7,7 @@ keywords:
 author: mlottner
 ms.author: mlottner
 manager: dougeby
-ms.date: 03/26/2020
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod:
 ms.service: rights-management
@@ -99,6 +99,24 @@ The AIP apps on Windows need a special registry key to point them to the right s
 | Name | WebServiceUrl |
 | Value | https://api.informationprotection.azure.us |
 | Type | REG_SZ (String) |
+
+
+## Firewalls and network infrastructure
+
+If you have a firewall or similar intervening network devices that are configured to allow specific connections, use these settings to ensure smooth communication for Azure Information Protection.
+
+- To enable the Azure Information Protection Classic client to download labels and label policies: Allow the URL **api.informationprotection.azure.us** over HTTPS.
+
+- Do not terminate the TLS client-to-service connection to the **rms.aadrm.us** URL (for example, to perform packet-level inspection). 
+
+You can use the following PowerShell commands to help you determine whether your client connection is terminated before it reaches the Azure Rights Management service:
+ 
+    $request = [System.Net.HttpWebRequest]::Create("https://admin.aadrm.us/admin/admin.svc")
+    $request.GetResponse()
+    $request.ServicePoint.Certificate.Issuer
+
+The result should show that the issuing CA is from a Microsoft CA, for example: `CN=Microsoft Secure Server CA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US`. If you see an issuing CA name that is not from Microsoft, it is very likely that your secure client-to-service connection is being terminated and needs to be reconfigured on your firewall.
+
 
 ## Service Tags
 
