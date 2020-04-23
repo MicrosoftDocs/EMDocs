@@ -26,7 +26,7 @@ conceptualContent:
         - text: "Overview: What is Conditional Access?"
           itemType: overview
           url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
-        - text: "Create polices: Common Conditional Access policies"
+        - text: "Common Conditional Access policies"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
         - text: "Tip: Enable combined security information registration"
@@ -35,7 +35,7 @@ conceptualContent:
         - text: "Tip: Start Conditional Access roll-out with report-only mode"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only
-        - text: "Authentication options: Choose the right authentication method to secure your apps to the cloud"
+        - text: "Choose the right authentication method to secure your apps to the cloud"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
     - title: Connect all your apps to Azure AD to enable single sign on
@@ -120,8 +120,8 @@ additionalContent:
       items: 
         - title: Securely enable BYOD
           links: 
-            - text: "Overview: Device enrollment"
-              url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
+            - text: "Microsoft Intune overview"
+              url: https://docs.microsoft.com/mem/intune/what-is-intune
             - text: Set up Intune
               url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
             - text: Enroll devices in Microsoft Intune
@@ -155,7 +155,7 @@ additionalContent:
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
         - title: Use Conditional Access to enroll devices
           links: 
-            - text: Deploy Conditional Access App Control for any apps 
+            - text: Deploy Conditional Access to enroll devices
               url: https://docs.microsoft.com/cloud-app-security/proxy-deployment-any-app
         - title: Proactively manage updates, patching, and policies
           links: 
