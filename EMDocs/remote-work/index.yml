@@ -18,7 +18,7 @@ metadata:
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   title: Enable remote access to apps
-  summary: This is the summary text
+  summary: Empower remote workers to access the apps they need without compromising security
   items:
     # Card
     - title: Connect to your apps
@@ -44,6 +44,8 @@ conceptualContent:
         - url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
           itemType: how-to-guide
           text: "Tip: Automate user provisioning to your apps"
+
+
     - title: Connect your on-premises infrastructure to the cloud
       links: 
         - text: "Overview: What is Conditional Access?"
@@ -61,21 +63,21 @@ conceptualContent:
         - text: "Authentication options: Choose the right authentication method to secure your apps to the cloud"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
-    - title: Connect all your apps to Azure AD to enable single sign on-premises
+    - title: Connect all your apps to Azure AD to enable single sign on
       links: 
-        - text: "Overview: Application management with Azure Active Directory"
+        - text: "Application management with Azure Active Directory"
           itemType: overview
           url: https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management
-        - text: "Configure SSO and User Provisioning: Follow the tutorials for integrating SaaS applications with Azure Active Directory"
+        - text: Follow the tutorials for integrating SaaS applications with Azure Active Directory
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
-        - text: "Connect On-Premises Web Applications: Add an on-premises application through Application Proxy"
+        - text: Add an on-premises application through Application Proxy
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
-        - text: "Secure Hybrid Access: Secure and protect on-prem and cloud legacy authentication apps"
+        - text: "Secure and protect on-prem and cloud legacy authentication apps"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
-        - text: "Simplify app discovery with MyApps: Guide users to Sign in and start apps from the My Apps portal"
+        - text: Guide users to Sign in and start apps from the My Apps portal
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/user-help/my-apps-portal-end-user-access
         - text: "Tip: Choose the right authentication for your hybrid identity solution"
@@ -106,28 +108,31 @@ conceptualContent:
           url: https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment
     - title: Enable access to on-prem web apps 
       links:
-        - text: "Secure Hybrid Access: Secure and protect on-prem and cloud legacy authentication apps"
+        - text: "Secure and protect on-prem and cloud legacy authentication apps"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
     - title: Extend access with Azure AD B2B Collaboration
       links:
-        - text: "Overview: What is B2B guest user access?"
+        - text: "What is B2B guest user access?"
           itemType: overview
           url: https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b
-        - text: "Simplify Access: Enable email one-time passcode authentication (preview)"
+        - text: "Enable email one-time passcode authentication (preview)"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode
-        - text: "Invite Partners to Enterprise Applications: Add guest users to your directory in the Azure portal"
+        - text: "Add guest users to your directory in the Azure portal"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal
-        - text: "Manage Invites: Enable and manage B2B collaboration and sharing"
+        - text: "Enable and manage B2B collaboration and sharing"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
     - title: Enable risk-based Conditional Access
       links:
-        - text: Risk Based Conditional Access
+        - text: Risk-based Conditional Access
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk
+        - text: How to configure and enable risk policies
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies
         - text: "Tip: Common Conditional Access policies"
           itemType: concept
           url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
@@ -136,7 +141,7 @@ additionalContent:
   sections:
 
     - title: Manage devices and apps
-      summary: test summary
+      summary: Enable BYOD and unify management across devices and apps
       items: 
         - title: Securely enable BYOD
           links: 
@@ -185,7 +190,7 @@ additionalContent:
               url: https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy
 
     - title: Protect corporate resources
-      summary: test
+      summary: Leverage built-in, seamless security to protect data while keeping users productive
       items:
         - title: Create data loss prevention policies
           links: 
@@ -275,7 +280,9 @@ additionalContent:
         - title: Office 365 Advanced Threat Protection documentation
           summary: Official Office 365 ATP product documentation
           url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
-
+        - title: Deployment guidance
+          summary: Take advantage of self-service deployment guidance 
+          url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
 #       - title: Determine what technologies you have
 #         summary: <Need link>  Learn what technologies you already have to start using them today
 #         url: https://docs.microsoft.com/file2
