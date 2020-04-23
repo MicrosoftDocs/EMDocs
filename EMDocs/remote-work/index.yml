@@ -23,7 +23,7 @@ conceptualContent:
     # Card
     - title: Connect your on-premises infrastructure to the cloud
       links: 
-        - text: "Overview: What is Conditional Access?"
+        - text: "What is Conditional Access?"
           itemType: overview
           url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
         - text: "Common Conditional Access policies"
