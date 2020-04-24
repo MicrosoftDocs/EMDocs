@@ -126,6 +126,14 @@ additionalContent:
               url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
             - text: Enroll devices in Microsoft Intune
               url: https://docs.microsoft.com/mem/intune/enrollment/
+            - text: Guided scenarios
+              url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
+            - text: Intune app protection policies
+              url: https://docs.microsoft.com/mem/intune/apps/app-protection-policy
+            - text: Secure and configure Outlook mobile
+              url: https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook
+            - text: Identity and device access configurations 
+              url: http://aka.ms/m365goldenconfig
             - text: What is Microsoft Cloud App Security
               url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
             - text: Set up Cloud App Security
@@ -138,32 +146,83 @@ additionalContent:
               url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
             - text: How do I deploy Windows Autopilot?
               url: https://docs.microsoft.com/windows/deployment/windows-autopilot/demonstrate-deployment-on-vm
-            - text: How do I use the Windows Autopilot self-deploy mode
-              url: https://docs.microsoft.com/windows/deployment/windows-autopilot/self-deploying
+            - text: Windows Autopilot user-driven mode
+              url: https://docs.microsoft.com/windows/deployment/windows-autopilot/user-driven
             - text: How do I redeploy a device already in use? 
               url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-reset
             - text: Deploy Windows Autopilot for existing devices 
               url: https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices
+            - text: Add hybrid Azure AD joined devices and Autopilot
+              url: https://docs.microsoft.com/mem/intune/enrollment/windows-autopilot-hybrid
         - title: Enforce access policies on unmanaged devices with Intune
           links:
-            - text: Control access from unmanaged devices
-              url: https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices
+            - text: Plan your Conditional Access deployment with Azure AD
+              url: https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access
+            - text: Intune device compliance
+              url: https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started
+            - text: Common Conditional Access policies
+              url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
 
         - title: Deploy and manage Virtual Desktop 
           links:
             - text: How to onboard Virtual Desktop Infrastructure machines
-              url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
-        - title: Use Conditional Access to enroll devices
-          links: 
-            - text: Deploy Conditional Access App Control for any apps
-              url: https://docs.microsoft.com/cloud-app-security/proxy-deployment-any-app
+              url: https://docs.microsoft.com/azure/virtual-desktop/overview
+            - text: Enable user policy for Windows 10 Enterprise multi session
+              url: https://docs.microsoft.com/mem/configmgr/core/plan-design/changes/whats-new-in-version-1910#enable-user-policy-for-windows-10-enterprise-multi-session
+            - text: Windows 10 Enterprise multi-session FAQ
+              url: https://docs.microsoft.com/azure/virtual-desktop/windows-10-multisession-faq 
         - title: Proactively manage updates, patching, and policies
           links: 
             - text: Conditional access policies for device and platforms
               url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-conditions#client-apps-condition
             - text: Detect and protect against cloud native threats
               url: https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy
-
+            - text: Manage Windows 10 software updates in Intune 
+              url: https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure
+            - text: Deploy updates using Windows Update for Business
+              url: https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb
+            - text: "Windows Update: FAQ"
+              url: https://support.microsoft.com/help/12373/windows-update-faq
+            - text: Windows update settings for Intune
+              url: https://docs.microsoft.com/mem/intune/protect/windows-update-settings
+            - text: Software update agent error codes and descriptions in Microsoft Intune
+              url: https://docs.microsoft.com/mem/intune/protect/software-update-agent-error-codes
+            - text: Managing Patch Tuesday with Configuration Manager in a remote work world
+              url: https://techcommunity.microsoft.com/t5/configuration-manager-blog/managing-patch-tuesday-with-configuration-manager-in-a-remote/ba-p/1269444
+            - text: Managing remote machines with cloud management gateway in Microsoft Endpoint Configuration Manager
+              url: https://techcommunity.microsoft.com/t5/configuration-manager-blog/managing-remote-machines-with-cloud-management-gateway-in/ba-p/1233895
+            - text: Introduction to software updates in Configuration Manager 
+              url: https://docs.microsoft.com/mem/configmgr/sum/understand/software-updates-introduction
+            - text: Plan for software updates in Configuration Manager
+              url: https://docs.microsoft.com/mem/configmgr/sum/plan-design/plan-for-software-updates
+        - title: Manage Configuration Manager clients on the Internet
+          links:
+            - text: Cloud Management Gateway Plan for the cloud management gateway in Configuration Manager
+              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/plan-cloud-management-gateway
+            - text: Certificates for the cloud management gateway
+              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/certificates-for-cloud-management-gateway
+            - text: Security and privacy for the cloud management gateway
+              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/security-and-privacy-for-cloud-management-gateway
+            - text: Frequently asked questions about the cloud management gateway
+              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/cloud-management-gateway-faq
+            - text: Manage clients on the internet with Configuration Manager
+              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/manage-clients-internet
+            - text: Use a cloud distribution point in Configuration Manager
+              url: https://docs.microsoft.com/mem/configmgr/core/plan-design/hierarchy/use-a-cloud-based-distribution-point
+            - text: Advanced troubleshooting for cloud-based distribution point installation
+              url: https://docs.microsoft.com/mem/configmgr/core/servers/deploy/configure/install-cloud-based-distribution-points-in-microsoft-azure#bkmk_tshoot
+            - text: Monitoring Cloud Management Gateway
+              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/monitor-clients-cloud-management-gateway
+        - title: Connect Configuration Manager to the cloud
+          links: 
+            - text: Co-management overview
+              url: https://docs.microsoft.com/mem/configmgr/comanage/overview
+            - text: Paths to co-management
+              url: https://docs.microsoft.com/mem/configmgr/comanage/quickstart-paths
+            - text: "Tutorial: Enable Co-Management for new internet-based devices"
+              url: https://docs.microsoft.com/mem/configmgr/comanage/tutorial-co-manage-new-devices
+            - text: Cloud connecting with co-management
+              url: https://docs.microsoft.com/mem/configmgr/comanage/quickstarts
     - title: Protect corporate resources
       summary: Leverage built-in, seamless security to protect data while keeping users productive
       items:
@@ -179,6 +238,8 @@ additionalContent:
               url: https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types
             - text: Document Fingerprinting
               url: https://docs.microsoft.com/microsoft-365/compliance/document-fingerprinting
+            - text: Control access from unmanaged devices
+              url: https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices  
         - title: Enable safe links and safe attachments
           links: 
             - text: What is Office 365 Advanced Threat Protection
