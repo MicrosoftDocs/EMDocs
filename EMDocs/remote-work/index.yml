@@ -130,6 +130,8 @@ additionalContent:
               url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
             - text: Intune app protection policies
               url: https://docs.microsoft.com/mem/intune/apps/app-protection-policy
+            - text: Secure and configure Microsoft Edge 
+              url: https://docs.microsoft.com/mem/intune/apps/manage-microsoft-edge
             - text: Secure and configure Outlook mobile
               url: https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook
             - text: Identity and device access configurations 
