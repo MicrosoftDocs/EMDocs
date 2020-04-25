@@ -66,6 +66,9 @@ conceptualContent:
         - url: https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined
           itemType: how-to-guide
           text: "Tip: Combine Self-Service Password Reset and Multi-Factor Authentication registration"
+        - url: https://mslearn.cloudguides.com/guides/Enable%20a%20combined%20MFA%20and%20SSPR%20registration%20experience%20in%20Azure%20AD
+          itemType: how-to-guide
+          text: Enable a combined MFA and SSPR registration experience in Azure AD
 
     # Card
     - title: Extend secure access to business partners
@@ -82,7 +85,9 @@ conceptualContent:
         - url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
           itemType: how-to-guide
           text: Enable and manage B2B collaboration and sharing        
-
+        - url: https://mslearn.cloudguides.com/guides/Enable%20B2B%20Collaboration%20in%20Azure%20AD
+          itemType: how-to-guide
+          text: Enable B2B Collaboration in Azure AD
     # Card
     - title: Enable modern management for all your devices
       links:
@@ -101,7 +106,12 @@ conceptualContent:
         - url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
           itemType: how-to-guide
           text: Follow our Guided Scenarios
-
+        - url: https://mslearn.cloudguides.com/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager
+          itemType: how-to-guide
+          text: Manage and protect mobile and desktop applications with Microsoft Endpoint Manager
+        - url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
+          itemType: how-to-guide
+          text: Manage devices with Microsoft Endpoint Manager
 additionalContent:
   sections:
     - title: Videos # < 60 chars (optional)
