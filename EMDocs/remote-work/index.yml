@@ -137,7 +137,7 @@ additionalContent:
               url: http://aka.ms/m365goldenconfig              
             - text: "Interactive Guide: Manage devices with Microsoft Endpoint Manager"
               url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
-        - title: Connect to and protect your apps
+        - title: Configure and protect your apps
           links: 
             - text: Intune app protection policies
               url: https://docs.microsoft.com/mem/intune/apps/app-protection-policy
