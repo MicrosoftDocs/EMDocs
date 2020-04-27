@@ -81,6 +81,9 @@ conceptualContent:
         - text: Enable Self Service Password Reset
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment
+        - text: "Interactive Guide: Enable a combined MFA and SSPR registration experience in Azure AD"
+          itemType: how-to-guide          
+          url: https://mslearn.cloudguides.com/guides/Enable%20a%20combined%20MFA%20and%20SSPR%20registration%20experience%20in%20Azure%20AD
     - title: Enable access to on-prem web apps 
       links:
         - text: "Secure and protect on-prem and cloud legacy authentication apps"
@@ -100,6 +103,9 @@ conceptualContent:
         - text: "Enable and manage B2B collaboration and sharing"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
+        - text: "Interactive Guide: Enable B2B Collaboration in Azure AD"
+          itemType: how-to-guide
+          url: https://mslearn.cloudguides.com/guides/Enable%20B2B%20Collaboration%20in%20Azure%20AD
     - title: Enable risk-based Conditional Access
       links:
         - text: Risk-based Conditional Access
@@ -114,7 +120,6 @@ conceptualContent:
 
 additionalContent:
   sections:
-
     - title: Manage devices and apps
       summary: Enable BYOD and unify management across devices and apps
       items: 
@@ -128,20 +133,26 @@ additionalContent:
               url: https://docs.microsoft.com/mem/intune/enrollment/
             - text: Guided scenarios
               url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
+            - text: Identity and device access configurations
+              url: http://aka.ms/m365goldenconfig              
+            - text: "Interactive Guide: Manage devices with Microsoft Endpoint Manager"
+              url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
+        - title: Connect to and protect your apps
+          links: 
             - text: Intune app protection policies
               url: https://docs.microsoft.com/mem/intune/apps/app-protection-policy
             - text: Secure and configure Microsoft Edge 
               url: https://docs.microsoft.com/mem/intune/apps/manage-microsoft-edge
             - text: Secure and configure Outlook mobile
               url: https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook
-            - text: Identity and device access configurations 
-              url: http://aka.ms/m365goldenconfig
             - text: What is Microsoft Cloud App Security
               url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
             - text: Set up Cloud App Security
               url: https://docs.microsoft.com/cloud-app-security/general-setup
             - text: Connect 3rd party apps
               url: https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps
+            - text: "Interactive Guide: Manage and protect mobile and desktop applications with Microsoft Endpoint Manager"
+              url: https://mslearn.cloudguides.com/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager
         - title: Remotely provision and deploy new devices 
           links:
             - text: What is Windows Autopilot?
@@ -189,42 +200,6 @@ additionalContent:
               url: https://docs.microsoft.com/mem/intune/protect/windows-update-settings
             - text: Software update agent error codes and descriptions in Microsoft Intune
               url: https://docs.microsoft.com/mem/intune/protect/software-update-agent-error-codes
-            - text: Managing Patch Tuesday with Configuration Manager in a remote work world
-              url: https://techcommunity.microsoft.com/t5/configuration-manager-blog/managing-patch-tuesday-with-configuration-manager-in-a-remote/ba-p/1269444
-            - text: Managing remote machines with cloud management gateway in Microsoft Endpoint Configuration Manager
-              url: https://techcommunity.microsoft.com/t5/configuration-manager-blog/managing-remote-machines-with-cloud-management-gateway-in/ba-p/1233895
-            - text: Introduction to software updates in Configuration Manager 
-              url: https://docs.microsoft.com/mem/configmgr/sum/understand/software-updates-introduction
-            - text: Plan for software updates in Configuration Manager
-              url: https://docs.microsoft.com/mem/configmgr/sum/plan-design/plan-for-software-updates
-        - title: Manage Configuration Manager clients on the Internet
-          links:
-            - text: Cloud Management Gateway Plan for the cloud management gateway in Configuration Manager
-              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/plan-cloud-management-gateway
-            - text: Certificates for the cloud management gateway
-              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/certificates-for-cloud-management-gateway
-            - text: Security and privacy for the cloud management gateway
-              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/security-and-privacy-for-cloud-management-gateway
-            - text: Frequently asked questions about the cloud management gateway
-              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/cloud-management-gateway-faq
-            - text: Manage clients on the internet with Configuration Manager
-              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/manage-clients-internet
-            - text: Use a cloud distribution point in Configuration Manager
-              url: https://docs.microsoft.com/mem/configmgr/core/plan-design/hierarchy/use-a-cloud-based-distribution-point
-            - text: Advanced troubleshooting for cloud-based distribution point installation
-              url: https://docs.microsoft.com/mem/configmgr/core/servers/deploy/configure/install-cloud-based-distribution-points-in-microsoft-azure#bkmk_tshoot
-            - text: Monitoring Cloud Management Gateway
-              url: https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/monitor-clients-cloud-management-gateway
-        - title: Connect Configuration Manager to the cloud
-          links: 
-            - text: Co-management overview
-              url: https://docs.microsoft.com/mem/configmgr/comanage/overview
-            - text: Paths to co-management
-              url: https://docs.microsoft.com/mem/configmgr/comanage/quickstart-paths
-            - text: "Tutorial: Enable Co-Management for new internet-based devices"
-              url: https://docs.microsoft.com/mem/configmgr/comanage/tutorial-co-manage-new-devices
-            - text: Cloud connecting with co-management
-              url: https://docs.microsoft.com/mem/configmgr/comanage/quickstarts
     - title: Protect corporate resources
       summary: Leverage built-in, seamless security to protect data while keeping users productive
       items:
@@ -297,24 +272,26 @@ additionalContent:
           summary: Share your experiences and ideas for enabling remote work, and engage with others.
           url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork                    
         - title: Video resources
-          summary: Video resources to help you enable security and  for your remote workforce
+          summary: Video resources to help you enable security for your remote workforce
           url: indexvideo.yml
         - title: Azure Active Directory documentation
           summary: Official Azure AD product documentation
           url: https://docs.microsoft.com/azure/active-directory/
-        # Card
+        - title: Microsoft Endpoint Manager documentation
+          summary: Official Microsoft Endpoint Manager documentation 
+          url: https://docs.microsoft.com/mem/
         - title: Microsoft Intune documentation
           summary: Official Intune product documentation
           url: https://docs.microsoft.com/mem/intune/
+        - title: Microsoft Endpoint Configuration Manager documentation
+          summary: Official Microsoft Endpoint Configuration Manager documentation 
+          url: https://docs.microsoft.com/mem/configmgr/       
         - title: Microsoft Defender Advanced Threat Protection documentation
           summary: Official Microsoft Defender ATP product documentation
           url: https://docs.microsoft.com/windows/security/threat-protection/
         - title: Microsoft Teams documentation
           summary: Official Teams product documentation
           url: https://docs.microsoft.com/microsoftteams/
-        - title: Microsoft Endpoint Manager documentation
-          summary: Official Microsoft Endpoint Manager documentation 
-          url: https://docs.microsoft.com/mem/
         - title: Office 365 Advanced Threat Protection documentation
           summary: Official Office 365 ATP product documentation
           url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
