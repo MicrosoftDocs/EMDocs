@@ -81,7 +81,7 @@ conceptualContent:
         - text: Enable Self Service Password Reset
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment
-        - text: "Interactive Guide: Enable a combined MFA and SSPR registration experience in Azure AD"
+        - text: "Interactive guide: Enable a combined MFA and SSPR registration experience in Azure AD"
           itemType: how-to-guide          
           url: https://mslearn.cloudguides.com/guides/Enable%20a%20combined%20MFA%20and%20SSPR%20registration%20experience%20in%20Azure%20AD
     - title: Enable access to on-prem web apps 
@@ -103,7 +103,7 @@ conceptualContent:
         - text: "Enable and manage B2B collaboration and sharing"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
-        - text: "Interactive Guide: Enable B2B Collaboration in Azure AD"
+        - text: "Interactive guide: Enable B2B Collaboration in Azure AD"
           itemType: how-to-guide
           url: https://mslearn.cloudguides.com/guides/Enable%20B2B%20Collaboration%20in%20Azure%20AD
     - title: Enable risk-based Conditional Access
@@ -135,7 +135,7 @@ additionalContent:
               url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
             - text: Identity and device access configurations
               url: http://aka.ms/m365goldenconfig              
-            - text: "Interactive Guide: Manage devices with Microsoft Endpoint Manager"
+            - text: "Interactive guide: Manage devices with Microsoft Endpoint Manager"
               url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
         - title: Configure and protect your apps
           links: 
@@ -151,7 +151,7 @@ additionalContent:
               url: https://docs.microsoft.com/cloud-app-security/general-setup
             - text: Connect 3rd party apps
               url: https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps
-            - text: "Interactive Guide: Manage and protect mobile and desktop applications with Microsoft Endpoint Manager"
+            - text: "Interactive guide: Manage and protect mobile and desktop applications with Microsoft Endpoint Manager"
               url: https://mslearn.cloudguides.com/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager
         - title: Remotely provision and deploy new devices 
           links:
