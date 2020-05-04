@@ -129,7 +129,7 @@ additionalContent:
         - title: Securely enable BYOD
           links: 
             - text: "Microsoft Intune overview"
-              url: https://docs.microsoft.com/mem/intune/what-is-intune
+              url: https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune
             - text: Set up Intune
               url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
             - text: Enroll devices in Microsoft Intune
