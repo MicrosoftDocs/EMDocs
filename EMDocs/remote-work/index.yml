@@ -61,6 +61,9 @@ conceptualContent:
         - text: "Tip: Automate user provisioning to your apps"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
+        - text: "Interactive guide: Provide secure remote access to on-premises applications with Azure AD Application Proxy"
+          itemType: how-to-guide
+          url: https://mslearn.cloudguides.com/guides/Provide%20secure%20remote%20access%20to%20on-premises%20applications%20with%20Azure%20AD%20Application%20Proxy
     - title: Turn on Multi-Factor Authentication with Conditional Access
       links: 
         - text: How does MFA work?
@@ -153,6 +156,10 @@ additionalContent:
               url: https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps
             - text: "Interactive guide: Manage and protect mobile and desktop applications with Microsoft Endpoint Manager"
               url: https://mslearn.cloudguides.com/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager
+            - text: "Interactive guide: Discover, protect, and control your apps with Microsoft Cloud App Security"
+              url: https://mslearn.cloudguides.com/guides/Discover,%20protect,%20and%20control%20your%20apps%20with%20Microsoft%20Cloud%20App%20Security
+            - text: "Interactive guide: Detect threats and manage alerts with Microsoft Cloud App Security" 
+              url: https://mslearn.cloudguides.com/guides/Detect%20threats%20and%20manage%20alerts%20with%20Microsoft%20Cloud%20App%20Security 
         - title: Remotely provision and deploy new devices 
           links:
             - text: What is Windows Autopilot?
