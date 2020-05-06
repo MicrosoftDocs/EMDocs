@@ -38,6 +38,9 @@ conceptualContent:
         - text: "Choose the right authentication method to secure your apps to the cloud"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
+        - text: "Rapidly respond to secure identities with Azure AD"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/fundamentals/concept-secure-remote-workers
     - title: Connect all your apps to Azure AD to enable single sign on
       links: 
         - text: "Application management with Azure Active Directory"
@@ -191,6 +194,8 @@ additionalContent:
               url: https://docs.microsoft.com/mem/configmgr/core/plan-design/changes/whats-new-in-version-1910#enable-user-policy-for-windows-10-enterprise-multi-session
             - text: Windows 10 Enterprise multi-session FAQ
               url: https://docs.microsoft.com/azure/virtual-desktop/windows-10-multisession-faq 
+            - text: Use Azure Firewall to protect Window Virtual Desktop deployments
+              url: https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop
         - title: Proactively manage updates, patching, and policies
           links: 
             - text: Conditional access policies for device and platforms
