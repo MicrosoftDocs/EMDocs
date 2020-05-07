@@ -550,12 +550,45 @@
       "redirect_url": "https://www.microsoft.com/fasttrack/microsoft-365/ems",
       "redirect_document_id": false
     },        
-  
-
     {
       "source_path": "EMDocs/mipstaging/index.md",
       "redirect_url": "/enterprise-mobility-security",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "EMDocs/Solutions/cloud-powered-protection.md",
+      "redirect_url": "/enterprise-mobility-security/",
+      "redirect_document_id": false
+    },        
+    {
+      "source_path": "EMDocs/Solutions/detect-attacks-before-damage.md",
+      "redirect_url": "/enterprise-mobility-security/",
+      "redirect_document_id": false
+    },        
+    {
+      "source_path": "EMDocs/Solutions/enable-business-without-borders.md",
+      "redirect_url": "/enterprise-mobility-security/",
+      "redirect_document_id": false
+    },        
+    {
+      "source_path": "EMDocs/Solutions/manage-access-at-scale.md",
+      "redirect_url": "/enterprise-mobility-security/",
+      "redirect_document_id": false
+    },        
+    {
+      "source_path": "EMDocs/Solutions/protect-data-user-mistake.md",
+      "redirect_url": "/enterprise-mobility-security/",
+      "redirect_document_id": false
+    },        
+    {
+      "source_path": "EMDocs/Solutions/protect-front-door.md",
+      "redirect_url": "/enterprise-mobility-security/",
+      "redirect_document_id": false
+    },        
+    {
+      "source_path": "EMDocs/Solutions/thousands-apps-one-identity.md",
+      "redirect_url": "/enterprise-mobility-security/",
+      "redirect_document_id": false
+    }        
   ]
 }
