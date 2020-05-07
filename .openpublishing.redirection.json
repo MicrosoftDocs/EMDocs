@@ -526,6 +526,38 @@
       "redirect_document_id": false
     },
     {
+       "source_path": "EMDocs/solutions/fasttrack-how-to-work-with-managed-apps.md",
+       "redirect_url": "https://www.microsoft.com/fasttrack/microsoft-365/ems",
+       "redirect_document_id": false
+    },
+    {
+      "source_path": "EMDocs/solutions/fasttrack-how-to-work-with-managed-apps.md",
+      "redirect_url": "https://www.microsoft.com/fasttrack/microsoft-365/ems",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "EMDocs/solutions/fasttrack-how-to-enroll-in-mfa.md",
+      "redirect_url": "https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "EMDocs/solutions/fasttrack-manage-your-password.md",
+      "redirect_url": "https://www.microsoft.com/fasttrack/microsoft-365/ems",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "EMDocs/solutions/fasttrack-how-to-use-apps-with-multi-identity-support.md",
+      "redirect_url": "https://www.microsoft.com/fasttrack/microsoft-365/ems",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "EMDocs/solutions/fasttrack-intune-enduser-enrollment-instructions.md",
+      "redirect_url": "https://www.microsoft.com/fasttrack/microsoft-365/ems",
+      "redirect_document_id": false
+    },        
+  
+
+    {
       "source_path": "EMDocs/mipstaging/index.md",
       "redirect_url": "/enterprise-mobility-security",
       "redirect_document_id": false
