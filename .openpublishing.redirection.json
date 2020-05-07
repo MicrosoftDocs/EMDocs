@@ -516,6 +516,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "EMDocs/mtptrial.md",
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-evaluation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "EMDocs/mtptrialguide.md",
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/security/mtp/mtp-evaluation",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "EMDocs/mipstaging/index.md",
       "redirect_url": "/enterprise-mobility-security",
       "redirect_document_id": false
