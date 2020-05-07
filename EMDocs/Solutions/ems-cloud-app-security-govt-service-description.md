@@ -27,7 +27,7 @@ To learn more about Microsoft Cloud App Security for GCC customers, see [EMS for
 
 The Microsoft Cloud App Security GCC High offering is built on the Microsoft Azure Government Cloud and is designed to inter-operate with Office 365 GCC High. Full details on the service and how to use it can be found in the [Microsoft Cloud App Security public documentation](https://docs.microsoft.com/cloud-app-security/). The public documentation should be used as a starting point for deploying and operating the service and the following Service Description details and changes from functionality or features in the GCC High environment.
 
-To get started, utilize the [Basic Setup](https:/docs.microsoft.com/cloud-app-security/general-setup) page for access to the Microsoft Cloud App Security GCC High portal, and ensure your [Network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements) are configured. Follow the additional steps in the How-to guides for other detailed instructions.
+To get started, utilize the [Basic Setup](https://docs.microsoft.com/cloud-app-security/general-setup) page for access to the Microsoft Cloud App Security GCC High portal, and ensure your [Network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements) are configured. Follow the additional steps in the How-to guides for other detailed instructions.
 
 ## Feature variations in Microsoft Cloud App Security GCC High
 

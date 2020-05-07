@@ -67,7 +67,7 @@ Azure Advanced Threat protection (AATP) is a new addition to EMS E5. It is a new
 
 **How do I get Azure Advanced Threat Protection support?**
 
-Enterprise Mobility + Security customers can submit support requests for Azure Advanced Threat Protection using the [Support.Microsoft.com portal](htpps://support.microsoft.com). AATP customers can also submit support requests using the Office 365 or Azure portal.  Please see more information [here](https://techcommunity.microsoft.com/t5/Azure-Advanced-Threat-Protection/bd-p/AzureAdvancedThreatProtection).
+Enterprise Mobility + Security customers can submit support requests for Azure Advanced Threat Protection using the [Support.Microsoft.com portal](https://support.microsoft.com). AATP customers can also submit support requests using the Office 365 or Azure portal.  Please see more information [here](https://techcommunity.microsoft.com/t5/Azure-Advanced-Threat-Protection/bd-p/AzureAdvancedThreatProtection).
 
 ## Additional help for other questions
 [Azure Active Directory support forum](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)
