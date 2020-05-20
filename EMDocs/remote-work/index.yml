@@ -285,7 +285,7 @@ additionalContent:
           url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork                    
         - title: Video resources
           summary: Video resources to help you enable security for your remote workforce
-          url: indexvideo.yml
+          url: https://www.youtube.com/channel/UC4s3tv0Qq_OSUBfR735Jc6A/playlists?view=50&sort=dd&shelf_id=3
         - title: Azure Active Directory documentation
           summary: Official Azure AD product documentation
           url: https://docs.microsoft.com/azure/active-directory/
