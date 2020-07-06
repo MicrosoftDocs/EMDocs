@@ -45,7 +45,7 @@ GCC customers can choose to add-on commercial offerings of Microsoft Cloud App S
 ## EMS for US GCC High and DoD customers
 The EMS offerings for US GCC High and DOD customers are built on the Microsoft [Azure Government](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) cloud and are designed to inter-operate with the Office 365 GCC High and DOD environments. The EMS E5 suite is available for both GCC High and DoD customers, however Microsoft Cloud App Security and Azure Advanced Threat Protection are available only to GCC High customers. Azure Active Directory P1/P2, Microsoft Intune, Azure Information Protection P1/P2, Microsoft Cloud App Security, and Azure ATP are certified FedRAMP-High.
 
-GCC High and DOD customers can use a separate set of endpoints for Intune based on different requirements and management needs. Below is a list of EMS management portals available to US GCC High and DOD customers. depending on service availability:
+GCC High and DOD customers can use a separate set of endpoints for Intune based on different requirements and management needs. Below is a list of EMS management portals available to US GCC High and DOD customers (depending on service availability):
 
 - Office 365 Portal: https://portal.office365.us (for user, group, and license management])
 - Azure / Intune Admin Portal: https://portal.azure.us
