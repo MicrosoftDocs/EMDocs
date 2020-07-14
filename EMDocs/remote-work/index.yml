@@ -49,6 +49,12 @@ conceptualContent:
         - text: Follow the tutorials for integrating SaaS applications with Azure Active Directory
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
+        - text: Azure Active Directory feature deployment guide
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2
+        - text: Azure Active Directory deployment plans
+          itemType: how-to-guide
+          url: https://aka.ms/DeploymentPlans
         - text: Add an on-premises application through Application Proxy
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
@@ -64,9 +70,15 @@ conceptualContent:
         - text: "Tip: Automate user provisioning to your apps"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
+        - text: "Plan an Azure AD Application Proxy deployment"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-deployment-plan
         - text: "Interactive guide: Provide secure remote access to on-premises applications with Azure AD Application Proxy"
           itemType: how-to-guide
           url: https://mslearn.cloudguides.com/guides/Provide%20secure%20remote%20access%20to%20on-premises%20applications%20with%20Azure%20AD%20Application%20Proxy
+        - text: "Comparison of remote access solutions"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-migration
     - title: Turn on Multi-Factor Authentication with Conditional Access
       links: 
         - text: How does MFA work?
