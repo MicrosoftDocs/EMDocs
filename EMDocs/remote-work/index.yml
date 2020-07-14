@@ -152,7 +152,7 @@ additionalContent:
             - text: Guided scenarios
               url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
             - text: Identity and device access configurations
-              url: http://aka.ms/m365goldenconfig              
+              url: https://aka.ms/m365goldenconfig              
             - text: "Interactive guide: Manage devices with Microsoft Endpoint Manager"
               url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
         - title: Configure and protect your apps
