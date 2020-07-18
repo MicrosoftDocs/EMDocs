@@ -55,21 +55,21 @@ For the encryption to work correctly, the Rights Management Service must be enab
 
 * Check if the Rights Management service is enabled
   * Launch PowerShell as an Administrator
-  * Run `Install-Module aadrm` if the AADRM module is not installed 
-  * Connect to service using `Connect-aadrmservice -environmentname azureusgovernment`
-  * Run `(Get-AadrmConfiguration).FunctionalState` and check if the state is  `Enabled`
-* If the functional state is `Disabled`, run `Enable-Aadrm`
+  * Run `Install-Module AIPService` if the AIPService module is not installed 
+  * Connect to service using `Connect-AipService -EnvironmentName AzureUSGovernment`
+  * Run `(Get-AipServiceConfiguration).FunctionalState` and check if the state is `Enabled`
+* If the functional state is `Disabled`, run `Enable-AipService`
 
 ### DNS configuration for encryption (Windows)
-For encryption to work correctly, Office client applications must connect to the GCC High/DoD instance of the service and bootstrap from there. To redirect clients applications to the right service instance, the tenant admin must configure a DNS SRV record with information about the Azure RMS URL. Without the DNS SRV record, the client application will attempt connect to the public cloud instance by default, will fail.
+For encryption to work correctly, Office client applications must connect to the GCC High/DoD instance of the service and bootstrap from there. To redirect client applications to the right service instance, the tenant admin must configure a DNS SRV record with information about the Azure RMS URL. Without the DNS SRV record, the client application will attempt connect to the public cloud instance by default and will fail.
 
 Also, the assumption is that users will log in with the username based off the tenant-owned-domain (e.g.: joe@contoso.us), and not the onmicrosoft username (e.g.: joe@contoso.onmicrosoft.us). The domain name from the username is used for DNS redirection to the right service instance.
 
 * Get the Rights Management Service ID 
   * Launch PowerShell as an Administrator 
-  * Run `Install-Module aadrm` if the AADRM module is not installed 
-  * Connect to service using `Connect-aadrmservice -environmentname azureusgovernment`
-  * Run `(Get-aadrmconfiguration).RightsManagementServiceId` to get the Rights Management Service ID
+  * Run `Install-Module AIPService` if the AIPService module is not installed 
+  * Connect to service using `Connect-AipService -EnvironmentName AzureUSGovernment`
+  * Run `(Get-AipServiceConfiguration).RightsManagementServiceId` to get the Rights Management Service ID
 * Log in to your DNS provider, and navigate to the DNS settings for the domain to add a new SRV record
   * Service = `_rmsredir` 
   * Protocol = `_http` 
