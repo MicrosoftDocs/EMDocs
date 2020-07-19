@@ -46,7 +46,6 @@ Content inspection via the Microsoft Cloud App Security built-in DLP engine is a
 **The following DLP integrations are not supported:**
 
 - Microsoft Information Protection labels, which provide unified labeling across Office 365 and Azure Information Protection.
-- Native integration with the Microsoft Data Classification Service (DCS)
 
 ## Conditional Access app control
 
