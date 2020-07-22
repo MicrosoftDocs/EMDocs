@@ -1,0 +1,121 @@
+### YamlMime:Hub
+
+title: "Videos: Enable security and management for your remote workforce"
+summary: Videos to help enable your users to access cloud services and on-premises applications with ease and enable modern management capabilities for all devices.
+
+metadata:
+  title: "Videos: Enable security and management for your remote workforce"
+  description: Enable your users to access cloud services and on-premises applications with ease and enable modern management capabilities for all devices.
+  ms.service: m365-md
+  ms.topic: hub-page
+  author: dougeby
+  ms.author: dougeby
+  manager: mtillman
+  ms.date: 04/13/2020
+
+# conceptualContent section (optional)
+# productDirectory section (optional)
+productDirectory:
+#  title: sectiontitle # < 60 chars (optional)
+#  summary: sectionsummary # < 160 chars (optional)
+  items:
+    # Card
+    - title: Secure Remote Work
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: ../images/access.png
+      summary: Enable security and management for your remote workforce
+      url: index.yml
+
+additionalContent:
+  sections:
+    - title: Videos # < 60 chars (optional)
+      summary: Explore how-to videos on the technology that will help enable you to secure your remote workforce. 
+      items:
+        - title: Single sign-on
+          links: 
+            - text: Web single sign-on with Azure Active Directory
+              url: https://youtu.be/51B-jSOBF8U
+            - text: What is single sign-on for SaaS Apps
+              url: https://youtu.be/YOvEghVPV0Y
+            - text: How to deploy single sign-on for SaaS application
+              url: https://youtu.be/kSfiDDNg14U
+            - text: How to roll out single sign- on for SaaS applications
+              url: https://youtu.be/vRA2Jbq5nCE     
+        - title: Application Proxy
+          links:
+            - text: What is Application Proxy in Azure Active Directory?
+              url: https://youtu.be/GeMiyXkcehU
+            - text: How to deploy Application Proxy
+              url: https://youtu.be/_2kWq5H4NhY
+            - text: How to roll out Application Proxy
+              url: https://youtu.be/0mLFWcG95OA
+        - title: Passwordless authentication
+          links:
+            - text: What is Passwordless Authentication?
+              url: https://youtu.be/8Na793pxKpk
+            - text: Go Passwordless with Microsoft
+              url: https://youtu.be/V9JOEhs3mNE
+            - text: "Windows Hello for Business: Authentication"
+              url: https://youtu.be/WPmzoP_vMek
+            - text: How to implement passwordless authentication in Azure Active Directory
+              url: https://youtu.be/R4JtziRu764
+            - text: "Windows Hello for Business: Provisioning"
+              url: https://youtu.be/RImGsIjSJ1s
+            - text: Sign in to your Microsoft account with a FIDO2 device
+              url: https://youtu.be/v_58pD6961w
+        - title: Partner B2B collaboration
+          links:
+            - text: What is Azure Active Director B2B Collaboration? 
+              url: https://youtu.be/1TWxB4VYdJc
+            - text: How to manage B2B identities
+              url: https://youtu.be/VeCrGXGSgWs
+            - text: Azure AD B2B authentication and federation
+              url: https://youtu.be/MLYiYKgrrmE     
+        - title: Microsoft Intune
+          links:
+            - text: What is Microsoft Endpoint Management
+              url: https://youtu.be/GS7oNPInFuw
+            - text: iOS and iPadOS device management with Microsoft Intune
+              url: https://youtu.be/B_ccGuc37Pc
+            - text: macOS device management with Microsoft Intune
+              url: https://youtu.be/wFIEU1G9J10
+            - text: Android device management with Microsoft Intune
+              url: https://youtu.be/szQMosnYETc         
+        - title: Conditional Access
+          links:
+            - text: What is Conditional Access?
+              url: https://youtu.be/ffMAw2IVO7A
+            - text: Conditional Access with device controls
+              url: https://youtu.be/NcONUf-jeS4
+            - text: Conditional Access with Azure MFA
+              url: https://youtu.be/Tbc-SU97G-w  
+            - text: How to deploy Conditional Access
+              url: https://youtu.be/c_izIRNJNuk
+            - text: How to roll out Conditional Access
+              url: https://youtu.be/0_Fze7Zpyvc             
+        - title: Multi-factor authentication
+          links:
+            - text: How to upgrade your security with Azure Multi-Factor Authentication
+              url: https://youtu.be/FxW8vLxAjSk
+            - text: How to register for Azure Multi-Factor Authentication
+              url: https://youtu.be/uWbkLuI4g30
+        - title: Self-service password reset
+          links: 
+            - text: What is self-service password reset?
+              url: https://youtu.be/hc97Yx5PJiM
+            - text: How to register for self-service password reset in Azure Active Directory
+              url: https://youtu.be/tFBPTdkC2ZI
+            - text: How to deploy self-service password reset
+              url: https://youtu.be/Pa0eyqjEjvQ
+            - text: How to roll out self-service password reset
+              url: https://youtu.be/OZn5btP6ZXw
+        - title: Connect, control, and secure apps remotely
+          links:
+            - text: Cloud app discovery feature
+              url: https://youtu.be/SWznxkJZHXY
+            - text: Extend real-time monitoring and controls to any app
+              url: https://youtu.be/hGqL89V6zAI
+            - text: Connect third party apps
+              url: https://youtu.be/Tk0tnPvx6_M
+            - text: Enabling secure work with Microsoft Cloud App Security
+              url: https://youtu.be/Z1wYE9xyOIM

@@ -14,8 +14,8 @@
       topicHref: /azure/active-directory
       items:
         - name: AD Graph API
-          tocHref: /azure-ad-graph-api/api/
-          topicHref: /azure-ad-graph-api/api/api-catalog
+          tocHref: /previous-versions/azure/ad/graph/api/
+          topicHref: /previous-versions/azure/ad/graph/api/api-catalog
 
     - name: Microsoft 365 Enterprise
       tocHref: /microsoft-365-enterprise/
@@ -37,30 +37,30 @@
           topicHref: /intune-user-help
 
     - name: Intune - classic console
-      tocHref: /intune-classic/
-      topicHref: /intune-classic
+      tocHref: /mem/intune/fundamentals/
+      topicHref: /mem/intune/fundamentals/ui-changes
       items:
         - name: Understand & Explore
-          tocHref: /intune-classic/understand-explore/
-          topicHref: /intune-classic/understand-explore/introduction-to-microsoft-intune
+          tocHref: /mem/intune/fundamentals/
+          topicHref: /mem/intune/fundamentals/ui-changes
         - name: Plan & Design
-          tocHref: /intune-classic/plan-design/
-          topicHref: /intune-classic/plan-design/introduction
+          tocHref: /mem/intune/fundamentals/
+          topicHref: /mem/intune/fundamentals/ui-changes
         - name: Deploy & Use
-          tocHref: /intune-classic/deploy-use/
-          topicHref: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
+          tocHref: /mem/intune/fundamentals/
+          topicHref: /mem/intune/fundamentals/ui-changes
         - name: Troubleshoot
-          tocHref: /intune-classic/troubleshoot/
-          topicHref: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
+          tocHref: /mem/intune/fundamentals/
+          topicHref: /mem/intune/fundamentals/ui-changes
         - name: Get Started
-          tocHref: /intune-classic/get-started/
-          topicHref: /intune-classic/get-started/get-started
+          tocHref: /mem/intune/fundamentals/
+          topicHref: /mem/intune/fundamentals/ui-changes
         - name: Develop & Customize Apps
-          tocHref: /intune-classic/develop/
-          topicHref: /intune-classic/develop/intune-app-sdk
+          tocHref: /mem/intune/fundamentals/
+          topicHref: /mem/intune/fundamentals/ui-changes
         - name: What's New
-          tocHref: /intune-classic/whats-new/
-          topicHref: /intune-classic/whats-new/whats-new-in-microsoft-intune
+          tocHref: /mem/intune/fundamentals/
+          topicHref: /mem/intune/fundamentals/whats-new-archive-classic
 
 
     - name: Microsoft Identity Manager
