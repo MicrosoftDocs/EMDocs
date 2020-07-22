@@ -23,7 +23,7 @@ Microsoft provides global pre-sales, billing, subscription, and technical suppor
 
 **Do I need to purchase an Azure support plan to submit an Enterprise Mobility + Security support request?**
 
-Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, Cloud App Security and Microsoft Intune through the Azure 365 portal. The Azure portal provides the intended support experience for EMS without purchasing a support plan by choosing a Subsrciption with technicalsupport included. You can also submit Azure Active Directory Premium, Azure Information Protection, Cloud App Security and Microsoft Intune support requests through the O365 portal.
+Support is included with Enterprise Mobility + Security. You can submit support requests for Azure Active Directory Premium, Azure Information Protection, Cloud App Security and Microsoft Intune through the Azure 365 portal. The Azure portal provides the intended support experience for EMS without purchasing a support plan by choosing a Subscription with technical support included. You can also submit Azure Active Directory Premium, Azure Information Protection, Cloud App Security and Microsoft Intune support requests through the O365 portal.
 
 **How do I get Intune support?**
 
@@ -67,7 +67,7 @@ Azure Advanced Threat protection (AATP) is a new addition to EMS E5. It is a new
 
 **How do I get Azure Advanced Threat Protection support?**
 
-Enterprise Mobility + Security customers can submit support requests for Azure Advanced Threat Protection using the [Support.Microsoft.com portal](htpps://support.microsoft.com). AATP customers can also submit support requests using the Office 365 or Azure portal.  Please see more information [here](https://techcommunity.microsoft.com/t5/Azure-Advanced-Threat-Protection/bd-p/AzureAdvancedThreatProtection).
+Enterprise Mobility + Security customers can submit support requests for Azure Advanced Threat Protection using the [Support.Microsoft.com portal](https://support.microsoft.com). AATP customers can also submit support requests using the Office 365 or Azure portal.  Please see more information [here](https://techcommunity.microsoft.com/t5/Azure-Advanced-Threat-Protection/bd-p/AzureAdvancedThreatProtection).
 
 ## Additional help for other questions
 [Azure Active Directory support forum](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)

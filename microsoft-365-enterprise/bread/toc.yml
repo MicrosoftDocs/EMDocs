@@ -1,7 +1,7 @@
 - name: Docs
-  href: /
-  homepage: /
+  tocHref: /
+  topicHref: /
   items:
   - name: Microsoft 365 Enterprise
-    href: /microsoft-365-enterprise/
-    homepage: /microsoft-365-enterprise
+    tocHref: /microsoft-365-enterprise/
+    topicHref: /microsoft-365-enterprise

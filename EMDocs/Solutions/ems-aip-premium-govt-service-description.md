@@ -148,6 +148,7 @@ You can use the following PowerShell commands to help you determine whether your
     $request.GetResponse()
     $request.ServicePoint.Certificate.Issuer
 
+
 The result should show that the issuing CA is from a Microsoft CA, for example: `CN=Microsoft Secure Server CA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US`. If you see an issuing CA name that is not from Microsoft, it is likely that your secure client-to-service connection is being terminated and needs to be reconfigured on your firewall.
 
 ## Service Tags
