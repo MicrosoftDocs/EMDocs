@@ -7,7 +7,7 @@ keywords:
 author: mlottner
 ms.author: mlottner
 manager: rkarlin
-ms.date: 07/23/2020
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod:
 ms.service: rights-management
@@ -48,7 +48,11 @@ Known existing gaps between Azure Information Protection Premium GCC High/DoD an
 
 ## Configuring Azure Information Protection unified labeling solution for GCC High and DoD customers
 
-The configuration details provided in this section are relevant only for the Azure Information Protection unified labeling solution for GCC High and DoD customers. For all other configuration details, see [standard configuration information for GCC High and DoD customers](#configuring-azure-information-protection-for-gcc-high-and-dod-customers) 
+> [!IMPORTANT]
+> As of the July 2020 update, all *new* GCC High customers of the Azure Information Protection unified labeling solution, can make use of both General menu and Scanner menu features only. 
+
+The configuration details provided in this section are relevant only for the Azure Information Protection unified labeling solution for GCC High and DoD customers. For all other configuration details, see [standard configuration information for GCC High and DoD customers](#configuring-azure-information-protection-for-gcc-high-and-dod-customers).
+
 
 ### AIP apps configuration (unified labeling only)
 
