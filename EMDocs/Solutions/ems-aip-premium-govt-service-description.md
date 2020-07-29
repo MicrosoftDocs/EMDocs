@@ -82,6 +82,9 @@ For the unified labeling solution, AIP apps on Windows need a special registry k
 
 The following configuration details are relevant for all Azure Information Protection solutions for GCC High and DoD customers, including unified labeling solutions. 
 
+
+
+
 ### Enable Rights Management for the tenant
 
 For the encryption to work correctly, the Rights Management Service must be enabled for the tenant.
@@ -94,7 +97,7 @@ For the encryption to work correctly, the Rights Management Service must be enab
 * If the functional state is `Disabled`, run `Enable-Aadrm`
 
 ### DNS configuration for encryption (Windows)
-For encryption to work correctly, Office client applications must connect to the GCC, GCC High/DoD instance of the service and bootstrap from there. To redirect clients applications to the right service instance, the tenant admin must configure a DNS SRV record with information about the Azure RMS URL. Without the DNS SRV record, the client application will attempt connect to the public cloud instance by default, will fail.
+For encryption to work correctly, Office client applications must connect to the GCC, GCC High/DoD instance of the service and bootstrap from there. To redirect client applications to the right service instance, the tenant admin must configure a DNS SRV record with information about the Azure RMS URL. Without the DNS SRV record, the client application will attempt connect to the public cloud instance by default, and fail.
 
 Also, the assumption is that users will log in with the username based off the tenant-owned-domain (for example: joe@contoso.us), and not the onmicrosoft username (for example: joe@contoso.onmicrosoft.us). The domain name from the username is used for DNS redirection to the right service instance.
 
@@ -122,6 +125,17 @@ Also, the assumption is that users will log in with the username based off the t
   * Port = `80` 
   * Priority, Weight, Seconds, TTL = default values 
 
+### Label migration
+
+GCC High customers need to migrate all existing labels using PowerShell. Traditional AIP migration methods are **not** applicable for GCC High customers. 
+
+Use the [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label?view=exchange-ps) cmdlet to migrate your existing sensitivity labels. Make sure to follow the [instructions for connecting and running the cmdlet using Security & Compliance Center](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps#connect-to-the-security--compliance-center) before getting started with your migration. 
+
+Migration example when an existing sensitivity label has encryption:
+
+```powershell
+New-Label -Name 'aipscopetest' -Tooltip 'aipscopetest' -Comment 'admin notes' -DisplayName 'aipscopetest' -Identity 'b342447b-eab9-ea11-8360-001a7dda7113' -EncryptionEnabled $true -EncryptionProtectionType 'template' -EncryptionTemplateId 'a32027d7-ea77-4ba8-b2a9-7101a4e44d89' -EncryptionAipTemplateScopes "['allcompany@labelaction.onmicrosoft.com','admin@labelaction.onmicrosoft.com']"
+```
 
 ### AIP apps configuration
 
