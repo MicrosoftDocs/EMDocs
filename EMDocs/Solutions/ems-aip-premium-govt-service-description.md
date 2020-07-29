@@ -7,7 +7,7 @@ keywords:
 author: mlottner
 ms.author: mlottner
 manager: rkarlin
-ms.date: 07/28/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod:
 ms.service: rights-management
@@ -61,7 +61,7 @@ For the unified labeling solution, AIP apps on Windows need a special registry k
 | Registry Node | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
 | Name | CloudEnvType |
-| Value | 0/1/2/3/4/5/6/7  |
+| Value | 0/1/2 |
 | Type | REG_DWORD |
  
 
@@ -70,11 +70,7 @@ For the unified labeling solution, AIP apps on Windows need a special registry k
 |Commercial  |  0  (default)     |
 |GCC   |     1    |
 |GCC High    |    2     |
-|GCC DOD   |  3       |
-|USNat/EX    |    4     |
-|USSec/RX    |    5     |
-|AAD China (Mooncake/Gallatin)    |   6      |
-|AAD Germany    |   7      |
+
 
  
 - Default value of the registry key is 0 (zero). 
