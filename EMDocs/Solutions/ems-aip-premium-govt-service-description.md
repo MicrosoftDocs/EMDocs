@@ -156,6 +156,6 @@ The result should show that the issuing CA is from a Microsoft CA, for example: 
 ## Service Tags
 
 Make sure to allow access to all ports for the following **Service Tags**:
-*    AzureInformationProtection
-*    AzureActiveDirectory
-*    AzureFrontDoor.FrontEnd
+*    **AzureInformationProtection**
+*    **AzureActiveDirectory**
+*    **AzureFrontDoor.Frontend**
