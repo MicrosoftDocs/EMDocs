@@ -48,12 +48,12 @@ Security offerings in EMS include:
 Other security offerings in Microsoft 365 include:     
 [Windows Hello](https://www.microsoft.com/windows/windows-hello)  
 [Windows credential guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard)  
-[Office 365 Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)  
+[Microsoft 365 Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)  
 [Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)  
-[Office 365 Advanced Security Management](https://blogs.technet.microsoft.com/solutions_advisory_board/2017/01/24/office-365-advanced-security-management-overview-and-demonstration/)  
+[Microsoft 365 Advanced Security Management](https://blogs.technet.microsoft.com/solutions_advisory_board/2017/01/24/office-365-advanced-security-management-overview-and-demonstration/)  
 [Windows Defender Advanced Threat Protection](https://www.microsoft.com/WindowsForBusiness/windows-atp)  
-[Office 365 Advanced Threat Protection](https://products.office.com/exchange/online-email-threat-protection)  
-[Office 365 Threat Intelligence](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti#threat-intelligence-widgets)  
+[Microsoft 365 Advanced Threat Protection](https://products.office.com/exchange/online-email-threat-protection)  
+[Microsoft 365 Threat Intelligence](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti#threat-intelligence-widgets)  
 [Windows Defender](https://www.microsoft.com/windows/comprehensive-security)  
 
 ## Try these security features

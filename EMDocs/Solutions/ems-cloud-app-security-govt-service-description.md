@@ -21,11 +21,11 @@ ms.suite: ems
 
 The Microsoft Cloud App Security US Government service description is designed to serve as an overview of the service offering in the GCC High environment and will cover feature variations from the commercial offering.
 
-To learn more about Microsoft Cloud App Security for GCC customers, see [EMS for US Office 365 GCC customers](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-govt-service-description#ems-for-us-office-365-gcc-customers).
+To learn more about Microsoft Cloud App Security for GCC customers, see [EMS for US Microsoft 365 GCC customers](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-govt-service-description#ems-for-us-office-365-gcc-customers).
 
 ## Getting started with Microsoft Cloud App Security for US Government GCC High
 
-The Microsoft Cloud App Security GCC High offering is built on the Microsoft Azure Government Cloud and is designed to inter-operate with Office 365 GCC High. Full details on the service and how to use it can be found in the [Microsoft Cloud App Security public documentation](https://docs.microsoft.com/cloud-app-security/). The public documentation should be used as a starting point for deploying and operating the service and the following Service Description details and changes from functionality or features in the GCC High environment.
+The Microsoft Cloud App Security GCC High offering is built on the Microsoft Azure Government Cloud and is designed to inter-operate with Microsoft 365 GCC High. Full details on the service and how to use it can be found in the [Microsoft Cloud App Security public documentation](https://docs.microsoft.com/cloud-app-security/). The public documentation should be used as a starting point for deploying and operating the service and the following Service Description details and changes from functionality or features in the GCC High environment.
 
 To get started, utilize the [Basic Setup](https://docs.microsoft.com/cloud-app-security/general-setup) page for access to the Microsoft Cloud App Security GCC High portal, and ensure your [Network requirements](https://docs.microsoft.com/cloud-app-security/network-requirements) are configured. Follow the additional steps in the How-to guides for other detailed instructions.
 
@@ -37,7 +37,7 @@ Unless otherwise specified, new feature releases, including preview features, do
 
 API connectors for AWS GovCloud and other API connected applications that may also offer separate government cloud instances are not supported at this time. API connectors for commercial cloud instances of 3rd party applications are supported.
 
-The Azure connector and Office 365 connector are for the US Government instances of each service.
+The Azure connector and Microsoft 365 connector are for the US Government instances of each service.
 
 ## Data Loss Prevention (DLP) features
 
@@ -45,8 +45,7 @@ Content inspection via the Microsoft Cloud App Security built-in DLP engine is a
 
 **The following DLP integrations are not supported:**
 
-- Microsoft Information Protection labels, which provide unified labeling across Office 365 and Azure Information Protection.
-- Native integration with the Microsoft Data Classification Service (DCS)
+- Microsoft Information Protection labels, which provide unified labeling across Microsoft 365 and Azure Information Protection.
 
 ## Conditional Access app control
 
