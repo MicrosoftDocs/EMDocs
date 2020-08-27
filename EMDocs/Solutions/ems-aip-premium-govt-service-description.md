@@ -19,7 +19,7 @@ ms-suite: ems
 
 ## How to use this Service Description 
 
-The Azure Information Protection Premium Government Service Description is designed to serve as an overview of our offering in the GCC High, and DoD environments and will cover feature variations compared to Azure Information Protection Premium commercial offerings. To learn more about Azure Information Protection for GCC and GCC High customers, see the description of [EMS offers for US Government and Microsoft 365 interoperability](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability).
+The Azure Information Protection Premium Government Service Description is designed to serve as an overview of our offering in the GCC High, and DoD environments and will cover feature variations compared to Azure Information Protection Premium commercial offerings. To learn more about Azure Information Protection for GCC and GCC High customers, see the description of [EMS offers for US Government and Microsoft 365 interoperability](ems-govt-service-description.md#ems-offers-for-us-government-and-microsoft-365-interoperability).
 
 ## Azure Information Protection Premium Government and Third-Party Services 
 

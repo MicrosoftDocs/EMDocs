@@ -20,7 +20,7 @@ ms.suite: ems
 ## How to use this service description
 The Intune US Government Service Description is designed to serve as an overview of the service offering in the GCC High and DoD environments and will cover feature variations from the commercial offering.
 
-To learn more about Intune for GCC customers, see [EMS offers for US Government and Microsoft 365 interoperability](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability).
+To learn more about Intune for GCC customers, see [EMS offers for US Government and Microsoft 365 interoperability](ems-govt-service-description.md#ems-offers-for-us-government-and-microsoft-365-interoperability).
 
 ## Get started with Intune for US Government GCC High and DoD
 
