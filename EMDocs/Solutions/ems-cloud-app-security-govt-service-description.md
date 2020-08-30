@@ -35,7 +35,7 @@ Unless otherwise specified, new feature releases, including preview features, do
 
 ## API connector
 
-API connectors for AWS GovCloud and other API connected applications that may also offer separate government cloud instances are not supported at this time. API connectors for commercial cloud instances of 3rd party applications are supported.
+API connectors for AWS GovCloud and other API connected applications that may also offer separate government cloud instances are not supported at this time. API connectors for commercial cloud instances of third-party applications are supported.
 
 The Azure connector and Microsoft 365 connector are for the US Government instances of each service.
 
@@ -59,6 +59,10 @@ Admin email notifications for alerts, as well as notifications sent to users whe
 ## Security configuration assessments
 
 Security configuration assessments for AWS are not supported.
+
+## Azure Sentinel integration
+
+The integration between Microsoft Cloud App Security and Azure Sentinel is not supported at this time.
 
 ## Other integrations
 
