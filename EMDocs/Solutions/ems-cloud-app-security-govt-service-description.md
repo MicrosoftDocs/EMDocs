@@ -7,7 +7,7 @@ keywords:
 author: shsagir
 ms.author: shsagir
 manager: rkarlin
-ms.date: 03/26/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod:
 ms.service: cloud-app-security
@@ -55,10 +55,6 @@ Activity, file, and anomaly detection policies are still supported for API-conne
 ## Notifications and automation
 
 Admin email notifications for alerts, as well as notifications sent to users when a breach is detected, are not supported at this time.
-
-## Security configuration assessments
-
-Security configuration assessments for AWS are not supported.
 
 ## Azure Sentinel integration
 
