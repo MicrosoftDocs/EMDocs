@@ -27,15 +27,15 @@ Support is included with Enterprise Mobility + Security. You can submit support 
 
 **How do I get Intune support?**
 
-Enterprise Mobility + Security customers can submit support requests for Intune using the Azure or Microsoft 365 portal. [Learn more about Intune support options](https://docs.microsoft.com/intune/get-support).
+Enterprise Mobility + Security customers can submit support requests for Intune using the Azure or Microsoft 365 portal. [Learn more about Intune support options](/intune/get-support).
 
 **How do I get Azure Information Protection support?**
 
-Enterprise Mobility + Security customers can submit support requests for Azure information Protection using the Azure or Microsoft 365 portal. [Learn more about Azure Information Protection support options](https://docs.microsoft.com/information-protection/get-started/information-support#to-contact-microsoft-support).
+Enterprise Mobility + Security customers can submit support requests for Azure information Protection using the Azure or Microsoft 365 portal. [Learn more about Azure Information Protection support options](/information-protection/get-started/information-support#to-contact-microsoft-support).
 
 **How do I get Azure Active Directory support?**
 
-Enterprise Mobility + Security customers can submit support requests for Azure AD Premium 1 and Premium 2 using the Azure or Microsoft 365 portal. Learn more about Intune support options. [Learn how to get support for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-troubleshooting-support-howto).
+Enterprise Mobility + Security customers can submit support requests for Azure AD Premium 1 and Premium 2 using the Azure or Microsoft 365 portal. Learn more about Intune support options. [Learn how to get support for Azure Active Directory](/azure/active-directory/active-directory-troubleshooting-support-howto).
 
 **How do I get Cloud Application Security support?**
 
