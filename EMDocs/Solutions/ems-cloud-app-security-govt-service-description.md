@@ -21,7 +21,7 @@ ms.suite: ems
 
 The Microsoft Cloud App Security US Government service description is designed to serve as an overview of the service offering in the GCC High environment and will cover feature variations from the commercial offering.
 
-To learn more about Microsoft Cloud App Security for GCC customers, see [EMS for US Microsoft 365 GCC customers](./ems-govt-service-description.md#ems-for-us-office-365-gcc-customers).
+To learn more about Microsoft Cloud App Security for GCC customers, see [EMS for US Microsoft 365 GCC customers](./ems-govt-service-description.md#ems-for-us-gcc-high-and-dod-customers).
 
 ## Getting started with Microsoft Cloud App Security for US Government GCC High
 

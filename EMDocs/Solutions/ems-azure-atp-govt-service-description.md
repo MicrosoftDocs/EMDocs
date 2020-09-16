@@ -19,7 +19,7 @@ ms.suite: ems
 
 ## How to use this service description 
 The Azure ATP US Government Service Description is designed to serve as an overview of the service offering in the GCC High environment and will cover feature variations from the commercial offering.  
-For more information on Azure ATP for GCC customers, please see the description of [EMS for US Microsoft 365 GCC customers](./ems-govt-service-description.md#ems-for-us-office-365-gcc-customers).   
+For more information on Azure ATP for GCC customers, please see the description of [EMS for US Microsoft 365 GCC customers](./ems-govt-service-description.md#ems-for-us-gcc-high-and-dod-customers).   
 
 ## Getting started with Azure ATP for US Government GCC High 
 The Azure ATP GCC High offering is built on the Microsoft Azure Government Cloud and is designed to inter-operate with Microsoft 365 GCC High. Full details on the service and how to use it can be found in the [Azure ATP public documentation](/azure-advanced-threat-protection/). The public documentation should be use as a starting point for deploying and operating the service and the following Service Description details and changes from functionality or features in the GCC High environment.
