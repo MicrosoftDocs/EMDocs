@@ -101,10 +101,10 @@ Azure Information Protection was designed to make applications located on the cl
 
 The focus of this scenario is to secure the client device and applications, so that rogue applications cannot be used. Some steps that the IT administrator can take are listed below:
 
-- Use [Windows AppLocker](https://technet.microsoft.com/library/dd759117(v=ws.11).aspx) to help ensure that unwanted programs cannot be executed
-- Use [Intune](https://docs.microsoft.com/intune/) and [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/) to help ensure the device is ‘healthy’
+- Use [Windows AppLocker](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759117(v=ws.11)) to help ensure that unwanted programs cannot be executed
+- Use [Intune](/intune/) and [Microsoft Endpoint Configuration Manager](/configmgr/) to help ensure the device is ‘healthy’
 - Ensure that the anti-virus on the device is up-to-date
-- Use applications that support [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx) for authentication and [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)
+- Use applications that support [Microsoft Identity Brokers](/previous-versions/sql/sql-server-2008-r2/ms166045(v=sql.105)) for authentication and [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)
 
 An important takeaway from this scenario is that securing client machines and applications is an important part of the trust that underpins Azure Information Protection.
 

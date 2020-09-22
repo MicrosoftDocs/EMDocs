@@ -129,7 +129,7 @@ Also, the assumption is that users will log in with the username based off the t
 
 GCC High customers need to migrate all existing labels using PowerShell. Traditional AIP migration methods are **not** applicable for GCC High customers. 
 
-Use the [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label?view=exchange-ps) cmdlet to migrate your existing sensitivity labels. Make sure to follow the [instructions for connecting and running the cmdlet using Security & Compliance Center](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps#connect-to-the-security--compliance-center) before getting started with your migration. 
+Use the [New-Label](/powershell/module/exchange/new-label?view=exchange-ps) cmdlet to migrate your existing sensitivity labels. Make sure to follow the [instructions for connecting and running the cmdlet using Security & Compliance Center](/powershell/exchange/connect-to-scc-powershell?view=exchange-ps#connect-to-the-security--compliance-center) before getting started with your migration. 
 
 Migration example when an existing sensitivity label has encryption:
 
