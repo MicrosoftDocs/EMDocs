@@ -35,36 +35,36 @@ additionalContent:
         # Card
         - title: Azure Active Directory
           summary: Synchronize on-premises directories and enable single sign-on
-          url: https://docs.microsoft.com/azure/active-directory/index
+          url: /azure/active-directory/index
         # Card
         - title: Microsoft Intune
           summary: Manage mobile devices, apps, and PCs from the cloud
-          url: https://docs.microsoft.com/mem/intune/
+          url: /mem/intune/
         # Card
         - title: Microsoft Endpoint Configuration Manager
           summary: Manage on-premises PCs, servers, and mobile devices with cloud-powered insights
-          url: https://docs.microsoft.com/mem/configmgr/
+          url: /mem/configmgr/
         # Card
         - title: Microsoft Cloud App Security
           summary: Gain deep visibility, comprehensive controls, and enhanced SaaS security 
-          url: https://docs.microsoft.com/cloud-app-security/
+          url: /cloud-app-security/
         # Card
         - title: Azure Information Protection
           summary: Classify data at time of creation or update based on source, context, and content
-          url: https://docs.microsoft.com/azure/information-protection/
+          url: /azure/information-protection/
         # Card
         - title: Multi-factor Authentication
           summary: Safeguard access to your data and apps with an extra level of authentication
-          url: https://docs.microsoft.com/azure/multi-factor-authentication/index
+          url: /azure/multi-factor-authentication/index
         # Card
         - title: Advanced Threat Analytics
           summary: Identify breaches and threats using behavioral analysis, and create reports on an attack timeline
-          url: https://docs.microsoft.com/advanced-threat-analytics/
+          url: /advanced-threat-analytics/
         # Card
         - title: Azure Advanced Threat Protection
           summary: Protect your enterprise hybrid environments from multiple types of advanced targeted cyber attacks and insider threats
-          url: https://docs.microsoft.com/azure-advanced-threat-protection/
+          url: /azure-advanced-threat-protection/
         # Card
         - title: Microsoft Identity Manager
           summary: Manage identities with automated workflow, self-service, and more
-          url: https://docs.microsoft.com/microsoft-identity-manager/ 
+          url: /microsoft-identity-manager/
