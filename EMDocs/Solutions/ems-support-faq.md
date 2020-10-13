@@ -27,23 +27,23 @@ Support is included with Enterprise Mobility + Security. You can submit support 
 
 **How do I get Intune support?**
 
-Enterprise Mobility + Security customers can submit support requests for Intune using the Azure or Office 365 portal. [Learn more about Intune support options](https://docs.microsoft.com/intune/get-support).
+Enterprise Mobility + Security customers can submit support requests for Intune using the Azure or Microsoft 365 portal. [Learn more about Intune support options](/intune/get-support).
 
 **How do I get Azure Information Protection support?**
 
-Enterprise Mobility + Security customers can submit support requests for Azure information Protection using the Azure or Office 365 portal. [Learn more about Azure Information Protection support options](https://docs.microsoft.com/information-protection/get-started/information-support#to-contact-microsoft-support).
+Enterprise Mobility + Security customers can submit support requests for Azure information Protection using the Azure or Microsoft 365 portal. [Learn more about Azure Information Protection support options](/information-protection/get-started/information-support#to-contact-microsoft-support).
 
 **How do I get Azure Active Directory support?**
 
-Enterprise Mobility + Security customers can submit support requests for Azure AD Premium 1 and Premium 2 using the Azure or Office 365 portal. Learn more about Intune support options. [Learn how to get support for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-troubleshooting-support-howto).
+Enterprise Mobility + Security customers can submit support requests for Azure AD Premium 1 and Premium 2 using the Azure or Microsoft 365 portal. Learn more about Intune support options. [Learn how to get support for Azure Active Directory](/azure/active-directory/active-directory-troubleshooting-support-howto).
 
 **How do I get Cloud Application Security support?**
 
-Enterprise Mobility + Security customers can submit support requests for Cloud App Security using the Azure or Office 365 portal. 
+Enterprise Mobility + Security customers can submit support requests for Cloud App Security using the Azure or Microsoft 365 portal. 
 
-**I am not able to submit a support request through the Office 365 portal. Is there a phone number to call for support?**
+**I am not able to submit a support request through the Microsoft 365 portal. Is there a phone number to call for support?**
 
-Go to  Office 365 Support to find the support phone number for your region.
+Go to  Microsoft 365 Support to find the support phone number for your region.
 
 **How do I get support with Volume Licensing, Volume Licensing Online Service Activation, or if I need to have the activation email resent?**
 
@@ -57,7 +57,7 @@ Yes, your Microsoft partner should be able to provide you with support directly.
 
 Go to the  Azure portal for license assignment. Please follow the instructions in your welcome email to manage your new Enterprise Mobility + Security licenses.
 
-**I previously had an Office 365 subscription but renewed my subscription through Enterprise Cloud Suite (ECS), which includes Office 365 and Enterprise Mobility + Security. How do I handle license management?**
+**I previously had an Microsoft 365 subscription but renewed my subscription through Enterprise Cloud Suite (ECS), which includes Microsoft 365 and Enterprise Mobility + Security. How do I handle license management?**
 
 Go to the  Azure portal for license assignment. Please follow the instructions in your welcome email to manage your new Enterprise Mobility + Security licenses.
 
@@ -67,7 +67,7 @@ Azure Advanced Threat protection (AATP) is a new addition to EMS E5. It is a new
 
 **How do I get Azure Advanced Threat Protection support?**
 
-Enterprise Mobility + Security customers can submit support requests for Azure Advanced Threat Protection using the [Support.Microsoft.com portal](https://support.microsoft.com). AATP customers can also submit support requests using the Office 365 or Azure portal.  Please see more information [here](https://techcommunity.microsoft.com/t5/Azure-Advanced-Threat-Protection/bd-p/AzureAdvancedThreatProtection).
+Enterprise Mobility + Security customers can submit support requests for Azure Advanced Threat Protection using the [Support.Microsoft.com portal](https://support.microsoft.com). AATP customers can also submit support requests using the Microsoft 365 or Azure portal.  Please see more information [here](https://techcommunity.microsoft.com/t5/Azure-Advanced-Threat-Protection/bd-p/AzureAdvancedThreatProtection).
 
 ## Additional help for other questions
 [Azure Active Directory support forum](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)

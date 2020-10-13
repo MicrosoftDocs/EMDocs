@@ -49,6 +49,12 @@ conceptualContent:
         - text: Follow the tutorials for integrating SaaS applications with Azure Active Directory
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
+        - text: Azure Active Directory feature deployment guide
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2
+        - text: Azure Active Directory deployment plans
+          itemType: how-to-guide
+          url: https://aka.ms/DeploymentPlans
         - text: Add an on-premises application through Application Proxy
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
@@ -64,9 +70,15 @@ conceptualContent:
         - text: "Tip: Automate user provisioning to your apps"
           itemType: how-to-guide
           url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
+        - text: "Plan an Azure AD Application Proxy deployment"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-deployment-plan
         - text: "Interactive guide: Provide secure remote access to on-premises applications with Azure AD Application Proxy"
           itemType: how-to-guide
           url: https://mslearn.cloudguides.com/guides/Provide%20secure%20remote%20access%20to%20on-premises%20applications%20with%20Azure%20AD%20Application%20Proxy
+        - text: "Comparison of remote access solutions"
+          itemType: how-to-guide
+          url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-migration
     - title: Turn on Multi-Factor Authentication with Conditional Access
       links: 
         - text: How does MFA work?
@@ -140,7 +152,7 @@ additionalContent:
             - text: Guided scenarios
               url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
             - text: Identity and device access configurations
-              url: http://aka.ms/m365goldenconfig              
+              url: https://aka.ms/m365goldenconfig              
             - text: "Interactive guide: Manage devices with Microsoft Endpoint Manager"
               url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
         - title: Configure and protect your apps
@@ -231,7 +243,7 @@ additionalContent:
               url: https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices  
         - title: Enable safe links and safe attachments
           links: 
-            - text: What is Office 365 Advanced Threat Protection
+            - text: What is Microsoft 365 Advanced Threat Protection
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
             - text: What is a safe link? 
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide
@@ -241,7 +253,7 @@ additionalContent:
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide
             - text: Set up safe attachment policies
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide
-            - text: Protect against threats in Office 365
+            - text: Protect against threats in Microsoft 365
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide
         - title: Discover all cloud apps and services used in your organization
           links:
@@ -259,11 +271,11 @@ additionalContent:
               url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
         - title: Review Office ATP configurations
           links: 
-            - text: Configure your Office 365 tenant for increased security
+            - text: Configure your Microsoft 365 tenant for increased security
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/tenant-wide-setup-for-increased-security?view=o365-worldwide       
             - text: Recommended settings to protect your employee’s inboxes
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwid
-            - text: Manage Permissions for Office 365 
+            - text: Manage Permissions for Microsoft 365 
               url: https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide
         - title: Implement app protection policies
           links:
@@ -285,7 +297,7 @@ additionalContent:
           url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork                    
         - title: Video resources
           summary: Video resources to help you enable security for your remote workforce
-          url: indexvideo.yml
+          url: https://www.youtube.com/channel/UC4s3tv0Qq_OSUBfR735Jc6A/playlists?view=50&sort=dd&shelf_id=3
         - title: Azure Active Directory documentation
           summary: Official Azure AD product documentation
           url: https://docs.microsoft.com/azure/active-directory/
@@ -304,8 +316,8 @@ additionalContent:
         - title: Microsoft Teams documentation
           summary: Official Teams product documentation
           url: https://docs.microsoft.com/microsoftteams/
-        - title: Office 365 Advanced Threat Protection documentation
-          summary: Official Office 365 ATP product documentation
+        - title: Microsoft 365 Advanced Threat Protection documentation
+          summary: Official Microsoft 365 ATP product documentation
           url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
 #       - title: Determine what technologies you have
 #         summary: <Need link>  Learn what technologies you already have to start using them today

@@ -42,38 +42,38 @@ Security offerings in EMS include:
 [Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)  
 [Advanced Threat Analytics](https://www.microsoft.com/cloud-platform/advanced-threat-analytics)  
 [Azure Advanced Threat Protection](https://azure.microsoft.com/features/azure-advanced-threat-protection/)  
-[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/)  
+[Microsoft Endpoint Configuration Manager](/configmgr/)  
 
 ## Learn more about Microsoft Security
 Other security offerings in Microsoft 365 include:     
 [Windows Hello](https://www.microsoft.com/windows/windows-hello)  
-[Windows credential guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard)  
-[Office 365 Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)  
-[Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)  
-[Office 365 Advanced Security Management](https://blogs.technet.microsoft.com/solutions_advisory_board/2017/01/24/office-365-advanced-security-management-overview-and-demonstration/)  
+[Windows credential guard](/windows/security/identity-protection/credential-guard/credential-guard)  
+[Microsoft 365 Data Loss Prevention](/microsoft-365/compliance/data-loss-prevention-policies)  
+[Windows Information Protection](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)  
+[Microsoft 365 Advanced Security Management](/archive/blogs/solutions_advisory_board/office-365-advanced-security-management-overview-and-demonstration)  
 [Windows Defender Advanced Threat Protection](https://www.microsoft.com/WindowsForBusiness/windows-atp)  
-[Office 365 Advanced Threat Protection](https://products.office.com/exchange/online-email-threat-protection)  
-[Office 365 Threat Intelligence](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti#threat-intelligence-widgets)  
+[Microsoft 365 Advanced Threat Protection](https://products.office.com/exchange/online-email-threat-protection)  
+[Microsoft 365 Threat Intelligence](/microsoft-365/security/office-365-security/office-365-ti#threat-intelligence-widgets)  
 [Windows Defender](https://www.microsoft.com/windows/comprehensive-security)  
 
 ## Try these security features
 
 ### Identity and Access Management
 Azure Active Directory (Azure AD) access reviews enable organizations to efficiently manage group memberships, access to enterprise applications, and privileged role assignments.
-- Learn about [Azure Active Directory access reviews](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview).
-- Learn how to [manage user access](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-manage-user-access-with-access-reviews) with Azure Active Directory access reviews. 
+- Learn about [Azure Active Directory access reviews](/azure/active-directory/governance/access-reviews-overview).
+- Learn how to [manage user access](/azure/active-directory/active-directory-azure-ad-controls-manage-user-access-with-access-reviews) with Azure Active Directory access reviews. 
 
 ### Information Protection
 Help control and secure email, documents, and sensitive data that you share outside your company using easy classification, embedded labels, and permissions.  
 - Learn about [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).   
-- Learn [how to deploy](https://docs.microsoft.com/azure/information-protection/) Azure Information Protection.   
+- Learn [how to deploy](/azure/information-protection/) Azure Information Protection.   
 
 ### Threat Protection
 Detect and investigate advanced attacks on-premises and in the cloud.
 - Learn about [Azure Advanced Threat Protection](https://azure.microsoft.com/features/azure-advanced-threat-protection/).
-- Learn [how to deploy](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) Azure Advanced Threat Protection.  
+- Learn [how to deploy](/azure-advanced-threat-protection/what-is-atp) Azure Advanced Threat Protection.  
 
 ### Security Management
 Microsoft Secure Score helps you understand your security position, giving you advice on what controls you should consider enabling, and helping you understand how your score compares to other organizations.
 - Learn about [Microsoft Secure Score](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Office-365-Secure-Score-is-now-Microsoft-Secure-Score/ba-p/182358).   
-- Learn [how to use](https://www.youtube.com/watch?v=DNh9E3MWa7o&t=294s&index=5&list=PL8nfc9haGeb6EssMfvTSRVUi4o3cW1tRh) Microsoft Secure Score.  
+- Learn [how to use](https://www.youtube.com/watch?v=DNh9E3MWa7o&t=294s&index=5&list=PL8nfc9haGeb6EssMfvTSRVUi4o3cW1tRh) Microsoft Secure Score.
