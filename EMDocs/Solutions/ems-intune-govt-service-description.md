@@ -7,7 +7,7 @@ keywords:
 author: mlottner
 ms.author: mlottner
 manager: dougeby
-ms.date: 10/30/2019
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -28,7 +28,6 @@ The Intune GCC High and DoD offering is built on the Microsoft Azure Government 
 
 - **Feature variations in Intune GCC High and DoD**
 
-  - Intune for GCC High and DoD customers only supports standalone deployments.
   - Intune for GCC High and DoD customers does not support legacy PC management (with the Intune agent). Management of Windows 10 is supported via the modern MDM channel. 
   - Intune for GCC High and DoD customers does not support on-premises Exchange Connector. 
   - Co-Management support is only available with Configuration Manager version 1906 or later. 
@@ -37,4 +36,4 @@ The Intune GCC High and DoD offering is built on the Microsoft Azure Government 
   - Intune for GCC High does not support the Mobile Threat Defense connector for Android and iOS devices. 
 
 ## Next steps
-To learn more about Intune and explore how to get started see, [Intune public documentation](/intune/index).
+To learn more about Intune and explore how to get started, see the [Microsoft Intune documentation](/mem/intune/).
