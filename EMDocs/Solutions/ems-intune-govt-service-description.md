@@ -36,4 +36,4 @@ The Intune GCC High and DoD offering is built on the Microsoft Azure Government 
   - Intune for GCC High does not support the Mobile Threat Defense connector for Android and iOS devices. 
 
 ## Next steps
-To learn more about Intune and explore how to get started, see the [Microsoft Intune documentation](/mem/intune/index).
+To learn more about Intune and explore how to get started, see the [Microsoft Intune documentation](/mem/intune/).
