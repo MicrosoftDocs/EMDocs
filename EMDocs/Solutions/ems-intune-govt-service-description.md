@@ -33,6 +33,7 @@ The Intune GCC High and DoD offering is built on the Microsoft Azure Government 
   - Co-Management support is only available with Configuration Manager version 1906 or later. 
   - Windows Autopilot and Business Store features are not available to GCC High and DoD customers at this time, though planning is underway. 
   - Intune for GCC High does not support the Mobile Threat Defense connector for Android and iOS devices. 
+  - The [remote help](/mem/intune/remote-actions/remote-help/) app isn't supported in GCC High environments.
 
 ## Next steps
-To learn more about Intune and explore how to get started, see the [Microsoft Intune documentation](/mem/intune/).
+To learn more about Intune and explore how to get started, see the [Microsoft Intune documentation](/mem/intune/remote-actions/).
