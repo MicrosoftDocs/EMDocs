@@ -1,0 +1,70 @@
+### YamlMime:Hub
+
+title: Enterprise Mobility + Security Documentation # < 60 chars
+summary: Technical documentation for Microsoft Enterprise Mobility + Security # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: m365
+
+metadata:
+  title: Enterprise Mobility + Security Documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Technical documentation for Microsoft Enterprise Mobility + Security # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: m365-md #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page #Required
+  author: dougeby #Required; your GitHub user alias, with correct capitalization.
+  ms.author: dougeby #Required; microsoft alias of author; optional team alias.
+  ms.date: 02/27/2020 #Required; mm/dd/yyyy format.
+
+# productDirectory section (optional)
+productDirectory:
+#  title: sectiontitle # < 60 chars (optional)
+#  summary: sectionsummary # < 160 chars (optional)
+  items:
+    # Card
+    - title: Secure Remote Work
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: ./images/access.png
+      summary: Enable security and management for your remote workforce
+      url: ./remote-work/index.yml
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - items:
+        # Card
+        - title: Azure Active Directory
+          summary: Synchronize on-premises directories and enable single sign-on
+          url: /azure/active-directory/index
+        # Card
+        - title: Microsoft Intune
+          summary: Manage mobile devices, apps, and PCs from the cloud
+          url: /mem/intune/
+        # Card
+        - title: Microsoft Endpoint Configuration Manager
+          summary: Manage on-premises PCs, servers, and mobile devices with cloud-powered insights
+          url: /mem/configmgr/
+        # Card
+        - title: Microsoft Cloud App Security
+          summary: Gain deep visibility, comprehensive controls, and enhanced SaaS security 
+          url: /cloud-app-security/
+        # Card
+        - title: Azure Information Protection
+          summary: Classify data at time of creation or update based on source, context, and content
+          url: /azure/information-protection/
+        # Card
+        - title: Multi-factor Authentication
+          summary: Safeguard access to your data and apps with an extra level of authentication
+          url: /azure/multi-factor-authentication/index
+        # Card
+        - title: Advanced Threat Analytics
+          summary: Identify breaches and threats using behavioral analysis, and create reports on an attack timeline
+          url: /advanced-threat-analytics/
+        # Card
+        - title: Azure Advanced Threat Protection
+          summary: Protect your enterprise hybrid environments from multiple types of advanced targeted cyber attacks and insider threats
+          url: /azure-advanced-threat-protection/
+        # Card
+        - title: Microsoft Identity Manager
+          summary: Manage identities with automated workflow, self-service, and more
+          url: /microsoft-identity-manager/

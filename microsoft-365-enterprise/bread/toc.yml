@@ -1,0 +1,7 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft 365 Enterprise
+    tocHref: /microsoft-365-enterprise/
+    topicHref: /microsoft-365-enterprise

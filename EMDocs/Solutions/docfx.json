@@ -13,16 +13,16 @@
       }
     ],
     "resource": [
-        {
-          "files": [
-          "**/images/**", 
+      {
+        "files": [
+          "**/images/**",
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
           "**/*.bmp",
           "**/*.html",
           "**/*.css"
-          ],
+        ],
         "exclude": [
           "**/obj/**",
           "_themes/**"
@@ -34,6 +34,12 @@
     "globalMetadata": {
       "layout": "Conceptual",
       "breadcrumb_path": "/enterprise-mobility/toc.json"
-    }
+    },
+    "fileMetadata": {
+      "feedback_system": {
+        "*": "None"
+      }
+    },
+    "markdownEngineName": "markdig"
   }
 }
